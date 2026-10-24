@@ -64,6 +64,19 @@
 
     </div>
 
+    <!-- Smooth Horizontal Swipe Navigation Strip for Mobile -->
+    <nav class="mobile-nav-scroll-strip" aria-label="Quick Mobile Navigation">
+      <a href="./stories.html" class="mobile-scroll-pill active">📚 Stories Hub</a>
+      <a href="./stories.html?story=bad_blood" class="mobile-scroll-pill">🧛‍♂️ Bad Blood</a>
+      <a href="./stories.html?story=first_star" class="mobile-scroll-pill">✨ First Star</a>
+      <a href="./index.html" class="mobile-scroll-pill">🎓 Course Sessions</a>
+      <a href="./topics.html" class="mobile-scroll-pill">🌐 Topics &amp; Videos</a>
+      <a href="#part1Flashcards" class="mobile-scroll-pill">🃏 Cards</a>
+      <a href="#part2GapFill" class="mobile-scroll-pill">✍️ Solve</a>
+      <a href="#part3Connect" class="mobile-scroll-pill">🔗 Connect</a>
+      <a href="#part4AllTest" class="mobile-scroll-pill">📝 Exam</a>
+    </nav>
+
     <!-- ========================================================================
          UNIFIED 3-PART HAMBURGER DRAWER SYSTEM
          ======================================================================== -->
@@ -83,28 +96,114 @@
         <div class="drawer-part-group">
           <div class="drawer-part-title">
             <span>🎓 PART 1: COURSE SESSIONS</span>
-            <span class="part-badge">12 Sessions</span>
+            <span class="part-badge">13 Sessions</span>
           </div>
           <a href="./index.html" class="drawer-item-link">
             <span class="drawer-item-icon">📂</span>
             <div class="drawer-item-text">
               <strong>All Course Sessions Hub</strong>
-              <small>Sessions 1, 2, 3, 10, 11, 12 Handouts &amp; Testing</small>
+              <small>Sessions 1, 2, 3, 10, 11, 12, 13 Handouts &amp; Testing</small>
             </div>
           </a>
-          <div class="drawer-sublinks-grid">
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '1')">Session 1</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '2')">Session 2</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '3')">Session 3</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '10')">Session 10</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '11')">Session 11</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '12')">Session 12</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '4')">Session 4</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '5')">Session 5</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '6')">Session 6</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '7')">Session 7</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '8')">Session 8</a>
-            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '9')">Session 9</a>
+          <div class="drawer-session-list">
+            <a href="./index.html?session=1" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '1')">
+              <span class="drawer-session-num">01</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Describing Things</span>
+                <span class="drawer-session-desc">Tools, Dimensions &amp; Workshop Materials</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="./index.html?session=2" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '2')">
+              <span class="drawer-session-num">02</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Travel Arrangements</span>
+                <span class="drawer-session-desc">Airport Delays, Indirect Qs &amp; Past Tenses</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="./index.html?session=3" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '3')">
+              <span class="drawer-session-num">03</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">The Decision Process</span>
+                <span class="drawer-session-desc">Ways to Express Regret &amp; Evaluation Lab</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="./index.html?session=4" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '4')">
+              <span class="drawer-session-num">04</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Future Plans &amp; Ambitions</span>
+                <span class="drawer-session-desc">Career Goals &amp; Life Milestones</span>
+              </div>
+            </a>
+            <a href="./index.html?session=5" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '5')">
+              <span class="drawer-session-num">05</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Work &amp; Workplace Culture</span>
+                <span class="drawer-session-desc">Office Collaboration &amp; Meetings</span>
+              </div>
+            </a>
+            <a href="./index.html?session=6" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '6')">
+              <span class="drawer-session-num">06</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Technology &amp; Society</span>
+                <span class="drawer-session-desc">AI, Digital Trends &amp; Modern Life</span>
+              </div>
+            </a>
+            <a href="./index.html?session=7" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '7')">
+              <span class="drawer-session-num">07</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Health &amp; Well-being</span>
+                <span class="drawer-session-desc">Balanced Lifestyle &amp; Stress Relief</span>
+              </div>
+            </a>
+            <a href="./index.html?session=8" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '8')">
+              <span class="drawer-session-num">08</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Culture &amp; Communities</span>
+                <span class="drawer-session-desc">Traditions &amp; Social Customs</span>
+              </div>
+            </a>
+            <a href="./index.html?session=9" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '9')">
+              <span class="drawer-session-num">09</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Environment &amp; Nature</span>
+                <span class="drawer-session-desc">Climate, Conservation &amp; Wildlife</span>
+              </div>
+            </a>
+            <a href="./index.html?session=10" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '10')">
+              <span class="drawer-session-num">10</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Planning Events</span>
+                <span class="drawer-session-desc">5 Event Profiles, Second Conditional &amp; Team Tasks</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="./index.html?session=11" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '11')">
+              <span class="drawer-session-num">11</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Study Advice &amp; Habits</span>
+                <span class="drawer-session-desc">Memory Techniques, Listening &amp; Note-Taking</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="./index.html?session=12" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '12')">
+              <span class="drawer-session-num">12</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Character Analysis</span>
+                <span class="drawer-session-desc">Personality Traits, Lead-In &amp; Classroom Notes</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="./index.html?session=13" class="drawer-session-card" onclick="localStorage.setItem('bc_active_session', '13')">
+              <span class="drawer-session-num">13</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Storytelling &amp; Narrative Tenses</span>
+                <span class="drawer-session-desc">Past Tenses, Fred the Fish &amp; Timeline Lab</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
           </div>
         </div>
 

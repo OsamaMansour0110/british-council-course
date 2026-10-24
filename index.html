@@ -31,20 +31,20 @@
           <span class="bc-title-text">BRITISH COUNCIL</span>
         </a>
 
-        <div class="toolbar-divider"></div>
+        <div class="toolbar-divider desktop-only-select"></div>
 
-        <!-- DROPDOWN LIST: FROM 1 TO 12 WITH ACTIVE SESSIONS 1, 2, 3, 10, 11 & 12 -->
-        <div class="session-dropdown-container">
+        <!-- DROPDOWN LIST: FROM 1 TO 13 (Desktop) -->
+        <div class="session-dropdown-container desktop-only-select">
           <select id="sessionDropdown" class="session-select-box" aria-label="Select Session">
             <option value="1">Session 1: Describing Things</option>
             <option value="2">Session 2: Travel Arrangements</option>
             <option value="3">Session 3: The Decision Process</option>
-            <option value="4">Session 4</option>
-            <option value="5">Session 5</option>
-            <option value="6">Session 6</option>
-            <option value="7">Session 7</option>
-            <option value="8">Session 8</option>
-            <option value="9">Session 9</option>
+            <option value="4">Session 4: Future Plans &amp; Ambitions</option>
+            <option value="5">Session 5: Work &amp; Workplace Culture</option>
+            <option value="6">Session 6: Technology &amp; Society</option>
+            <option value="7">Session 7: Health &amp; Well-being</option>
+            <option value="8">Session 8: Culture &amp; Communities</option>
+            <option value="9">Session 9: Environment &amp; Sustainability</option>
             <option value="10">Session 10: Planning Events</option>
             <option value="11">Session 11: Study Advice</option>
             <option value="12">Session 12: Character Analysis</option>
@@ -59,7 +59,7 @@
           <a href="./index.html" class="pillar-tab-btn active" id="navPillarSessions">
             <span>🎓</span>
             <span>Sessions</span>
-            <span class="pillar-badge">12</span>
+            <span class="pillar-badge">13</span>
           </a>
           <a href="./stories.html" class="pillar-tab-btn" id="navPillarStories">
             <span>📚</span>
@@ -91,6 +91,35 @@
 
     </div>
 
+    <!-- Smooth Horizontal Swipe Navigation Strip for Mobile -->
+    <nav class="mobile-nav-scroll-strip" aria-label="Quick Mobile Navigation">
+      <div class="mobile-session-select-wrap">
+        <select id="mobileSessionDropdown" class="mobile-session-select" aria-label="Select Course Session">
+          <option value="1">Session 1: Describing Things</option>
+          <option value="2">Session 2: Travel Arrangements</option>
+          <option value="3">Session 3: Decision Process</option>
+          <option value="4">Session 4: Future Plans</option>
+          <option value="5">Session 5: Work &amp; Workplace</option>
+          <option value="6">Session 6: Technology</option>
+          <option value="7">Session 7: Health</option>
+          <option value="8">Session 8: Culture</option>
+          <option value="9">Session 9: Environment</option>
+          <option value="10">Session 10: Event Planning</option>
+          <option value="11">Session 11: Study Advice</option>
+          <option value="12">Session 12: Character Analysis</option>
+          <option value="13">Session 13: Storytelling</option>
+        </select>
+      </div>
+      <a href="./index.html" class="mobile-scroll-pill active">🎓 Sessions Hub</a>
+      <a href="./stories.html" class="mobile-scroll-pill">📚 Stories</a>
+      <a href="./topics.html" class="mobile-scroll-pill">🌐 Topics &amp; Videos</a>
+      <a href="#part1Flashcards" class="mobile-scroll-pill">🃏 3D Cards</a>
+      <a href="#part2GapFill" class="mobile-scroll-pill">✍️ Solve</a>
+      <a href="#part3Connect" class="mobile-scroll-pill">🔗 Connect</a>
+      <a href="#part4AllTest" class="mobile-scroll-pill">📝 Exam</a>
+      <a href="#courseMaterials" class="mobile-scroll-pill" id="mobileLinkSessionMaterials">📋 Handouts</a>
+    </nav>
+
     <!-- ========================================================================
          UNIFIED 3-PART HAMBURGER DRAWER SYSTEM
          ======================================================================== -->
@@ -119,20 +148,105 @@
               <small>Sessions 1, 2, 3, 10, 11, 12, 13 Handouts &amp; Testing</small>
             </div>
           </a>
-          <div class="drawer-sublinks-grid">
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('1')">Session 1</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('2')">Session 2</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('3')">Session 3</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('10')">Session 10</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('11')">Session 11</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('12')">Session 12</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('13')">Session 13</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('4')">Session 4</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('5')">Session 5</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('6')">Session 6</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('7')">Session 7</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('8')">Session 8</a>
-            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('9')">Session 9</a>
+          <div class="drawer-session-list">
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('1')">
+              <span class="drawer-session-num">01</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Describing Things</span>
+                <span class="drawer-session-desc">Tools, Dimensions &amp; Workshop Materials</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('2')">
+              <span class="drawer-session-num">02</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Travel Arrangements</span>
+                <span class="drawer-session-desc">Airport Delays, Indirect Qs &amp; Past Tenses</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('3')">
+              <span class="drawer-session-num">03</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">The Decision Process</span>
+                <span class="drawer-session-desc">Ways to Express Regret &amp; Evaluation Lab</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('4')">
+              <span class="drawer-session-num">04</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Future Plans &amp; Ambitions</span>
+                <span class="drawer-session-desc">Career Goals &amp; Life Milestones</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('5')">
+              <span class="drawer-session-num">05</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Work &amp; Workplace Culture</span>
+                <span class="drawer-session-desc">Office Collaboration &amp; Meetings</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('6')">
+              <span class="drawer-session-num">06</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Technology &amp; Society</span>
+                <span class="drawer-session-desc">AI, Digital Trends &amp; Modern Life</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('7')">
+              <span class="drawer-session-num">07</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Health &amp; Well-being</span>
+                <span class="drawer-session-desc">Balanced Lifestyle &amp; Stress Relief</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('8')">
+              <span class="drawer-session-num">08</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Culture &amp; Communities</span>
+                <span class="drawer-session-desc">Traditions &amp; Social Customs</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('9')">
+              <span class="drawer-session-num">09</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Environment &amp; Nature</span>
+                <span class="drawer-session-desc">Climate, Conservation &amp; Wildlife</span>
+              </div>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('10')">
+              <span class="drawer-session-num">10</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Planning Events</span>
+                <span class="drawer-session-desc">5 Event Profiles, Second Conditional &amp; Team Tasks</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('11')">
+              <span class="drawer-session-num">11</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Study Advice &amp; Habits</span>
+                <span class="drawer-session-desc">Memory Techniques, Listening &amp; Note-Taking</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('12')">
+              <span class="drawer-session-num">12</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Character Analysis</span>
+                <span class="drawer-session-desc">Personality Traits, Lead-In &amp; Classroom Notes</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
+            <a href="javascript:void(0)" class="drawer-session-card" onclick="switchSession('13')">
+              <span class="drawer-session-num">13</span>
+              <div class="drawer-session-info">
+                <span class="drawer-session-title">Storytelling &amp; Narrative Tenses</span>
+                <span class="drawer-session-desc">Past Tenses, Fred the Fish &amp; Timeline Lab</span>
+              </div>
+              <span class="drawer-session-status">Interactive</span>
+            </a>
           </div>
         </div>
 

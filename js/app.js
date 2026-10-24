@@ -6,11 +6,16 @@
 /* --------------------------------------------------------------------------
    GLOBAL STATE
    -------------------------------------------------------------------------- */
+const urlSessionParam = new URLSearchParams(window.location.search).get('session');
+if (urlSessionParam) {
+  localStorage.setItem('bc_active_session', urlSessionParam);
+}
 let currentSessionId = localStorage.getItem('bc_active_session') || '2';
 let MASTER_VOCAB = (currentSessionId === '1') ? VOCAB_SESSION_1
   : (currentSessionId === '2') ? VOCAB_SESSION_2
   : (currentSessionId === '3') ? VOCAB_SESSION_3
   : (currentSessionId === '12') ? VOCAB_SESSION_12
+  : (currentSessionId === '13') ? (typeof VOCAB_SESSION_13 !== 'undefined' ? VOCAB_SESSION_13 : VOCAB_SESSION_12)
   : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
 /* --------------------------------------------------------------------------
@@ -76,6 +81,10 @@ function switchSession(sessionId) {
   const select = document.getElementById('sessionDropdown');
   if (select && select.value !== currentSessionId) {
     select.value = currentSessionId;
+  }
+  const mobSelect = document.getElementById('mobileSessionDropdown');
+  if (mobSelect && mobSelect.value !== currentSessionId) {
+    mobSelect.value = currentSessionId;
   }
 
   // Section references
@@ -437,6 +446,27 @@ function initSessionsDropdown() {
           notice.classList.add('active');
           setTimeout(() => {
             select.value = currentSessionId;
+            notice.classList.remove('active');
+          }, 3500);
+        }
+      }
+    });
+  }
+
+  const mobSelect = document.getElementById('mobileSessionDropdown');
+  if (mobSelect) {
+    mobSelect.value = currentSessionId;
+    mobSelect.addEventListener('change', () => {
+      const val = mobSelect.value;
+      if (val === '1' || val === '2' || val === '3' || val === '10' || val === '11' || val === '12' || val === '13') {
+        if (notice) notice.classList.remove('active');
+        switchSession(val);
+      } else {
+        if (notice && numSpan) {
+          numSpan.textContent = val;
+          notice.classList.add('active');
+          setTimeout(() => {
+            mobSelect.value = currentSessionId;
             notice.classList.remove('active');
           }, 3500);
         }
