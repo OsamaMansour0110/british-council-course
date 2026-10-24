@@ -1,0 +1,2155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="British Council Intermediate B1 Courseware: Interactive Flashcards with Timer & Touch Gestures, Memory Match, Connect Game, 28-Question Comprehensive Exam, Second Conditional Grammar Lab, and Study Advice with British English Audio.">
+  <title>British Council | Intermediate B1 Courseware (Sessions 10 & 11)</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Production Modular Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP STICKY TOOLBAR WITH SESSION DROPDOWN & AUDIO PULSE
+       ======================================================================== -->
+  <header class="app-toolbar" id="topToolbar">
+    <div class="toolbar-wrap">
+      
+      <!-- Left: Brand Logo + Divider + Session Dropdown -->
+      <div class="toolbar-left">
+        <a href="./index.html" class="bc-brand-badge" title="British Council Courseware" style="text-decoration:none;">
+          <div class="bc-four-dots">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <span class="bc-title-text">BRITISH COUNCIL</span>
+        </a>
+
+        <div class="toolbar-divider"></div>
+
+        <!-- DROPDOWN LIST: FROM 1 TO 12 WITH ACTIVE SESSIONS 1, 2, 3, 10, 11 & 12 -->
+        <div class="session-dropdown-container">
+          <select id="sessionDropdown" class="session-select-box" aria-label="Select Session">
+            <option value="1">Session 1: Describing Things</option>
+            <option value="2">Session 2: Travel Arrangements</option>
+            <option value="3">Session 3: The Decision Process</option>
+            <option value="4">Session 4</option>
+            <option value="5">Session 5</option>
+            <option value="6">Session 6</option>
+            <option value="7">Session 7</option>
+            <option value="8">Session 8</option>
+            <option value="9">Session 9</option>
+            <option value="10">Session 10: Planning Events</option>
+            <option value="11">Session 11: Study Advice</option>
+            <option value="12">Session 12: Character Analysis</option>
+            <option value="13">Session 13: Storytelling &amp; Narrative Tenses</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Center: 3-Pillar Switcher (Direct access to all 3 parts of the app) -->
+      <nav class="toolbar-nav-links" aria-label="3 Pillars Navigation">
+        <div class="pillar-nav-track">
+          <a href="./index.html" class="pillar-tab-btn active" id="navPillarSessions">
+            <span>🎓</span>
+            <span>Sessions</span>
+            <span class="pillar-badge">12</span>
+          </a>
+          <a href="./stories.html" class="pillar-tab-btn" id="navPillarStories">
+            <span>📚</span>
+            <span>Stories</span>
+            <span class="pillar-badge">2</span>
+          </a>
+          <a href="./topics.html" class="pillar-tab-btn" id="navPillarTopics">
+            <span>🌐</span>
+            <span>Topics &amp; Videos</span>
+            <span class="pillar-badge">4</span>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Right: UK Voice, Theme Toggle, Mobile Menu -->
+      <div class="toolbar-right-tools">
+        <button id="britishAccentTestBtn" class="voice-tool-btn" title="British Voice Speech Test" aria-label="British Voice Test">
+          <span class="voice-flag">🇬🇧</span>
+          <span class="voice-label">UK Voice</span>
+          <div class="audio-wave-pulse" id="toolbarAudioWave">
+            <span></span><span></span><span></span>
+          </div>
+        </button>
+        <button id="toggleThemeBtn" class="theme-tool-btn" title="Toggle Light / Dark Mode" aria-label="Toggle Theme">
+          <span id="themeSymbol">🌙</span>
+        </button>
+        <button id="btnMobileToggle" class="menu-mobile-btn" aria-label="Open 3-Part Navigation Menu" aria-expanded="false">☰</button>
+      </div>
+
+    </div>
+
+    <!-- ========================================================================
+         UNIFIED 3-PART HAMBURGER DRAWER SYSTEM
+         ======================================================================== -->
+    <div id="mobileDrawerMenu" class="mobile-menu-drawer" aria-label="Site Navigation Drawer">
+      <div class="drawer-header">
+        <div class="bc-brand-badge">
+          <div class="bc-four-dots">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <span>NAVIGATION MENU</span>
+        </div>
+        <button type="button" class="drawer-close-btn" id="btnDrawerClose">✕</button>
+      </div>
+
+      <div class="drawer-scroll-body">
+        <!-- PART 1: COURSE SESSIONS -->
+        <div class="drawer-part-group">
+          <div class="drawer-part-title">
+            <span>🎓 PART 1: COURSE SESSIONS</span>
+            <span class="part-badge">13 Sessions</span>
+          </div>
+          <a href="./index.html" class="drawer-item-link active">
+            <span class="drawer-item-icon">📂</span>
+            <div class="drawer-item-text">
+              <strong>All Course Sessions Hub</strong>
+              <small>Sessions 1, 2, 3, 10, 11, 12, 13 Handouts &amp; Testing</small>
+            </div>
+          </a>
+          <div class="drawer-sublinks-grid">
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('1')">Session 1</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('2')">Session 2</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('3')">Session 3</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('10')">Session 10</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('11')">Session 11</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('12')">Session 12</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('13')">Session 13</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('4')">Session 4</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('5')">Session 5</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('6')">Session 6</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('7')">Session 7</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('8')">Session 8</a>
+            <a href="javascript:void(0)" class="drawer-chip-link" onclick="switchSession('9')">Session 9</a>
+          </div>
+        </div>
+
+        <!-- PART 2: BRITISH COUNCIL STORIES -->
+        <div class="drawer-part-group">
+          <div class="drawer-part-title">
+            <span>📚 PART 2: GRADED STORIES</span>
+            <span class="part-badge">A2/B1 Stories</span>
+          </div>
+          <a href="./stories.html?story=bad_blood" class="drawer-item-link">
+            <span class="drawer-item-icon">🧛‍♂️</span>
+            <div class="drawer-item-text">
+              <strong>Bad Blood</strong>
+              <small>Full Story • 32 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./stories.html?story=first_star" class="drawer-item-link">
+            <span class="drawer-item-icon">✨</span>
+            <div class="drawer-item-text">
+              <strong>First Star I See Tonight</strong>
+              <small>Full Story • 32 Words • 4 Testing Games</small>
+            </div>
+          </a>
+        </div>
+
+        <!-- PART 3: MAJOR TOPICS & VIDEOS -->
+        <div class="drawer-part-group">
+          <div class="drawer-part-title">
+            <span>🌐 PART 3: MAJOR TOPICS &amp; VIDEOS</span>
+            <span class="part-badge">YouTube Lessons</span>
+          </div>
+          <a href="./topics.html?topic=travel_and_exploration" class="drawer-item-link">
+            <span class="drawer-item-icon">✈️</span>
+            <div class="drawer-item-text">
+              <strong>Travel &amp; Exploration</strong>
+              <small>Video Lesson • 30 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./topics.html?topic=sports_and_athletics" class="drawer-item-link">
+            <span class="drawer-item-icon">⚽</span>
+            <div class="drawer-item-text">
+              <strong>Sports &amp; Fitness</strong>
+              <small>Video Lesson • 34 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./topics.html?topic=reading_and_books" class="drawer-item-link">
+            <span class="drawer-item-icon">📚</span>
+            <div class="drawer-item-text">
+              <strong>Reading &amp; Books</strong>
+              <small>Video Lesson • 42 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./topics.html?topic=seasons_and_weather" class="drawer-item-link">
+            <span class="drawer-item-icon">🌦️</span>
+            <div class="drawer-item-text">
+              <strong>Seasons &amp; Weather</strong>
+              <small>Video Lesson • 35 Words • 4 Testing Games</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notification Bar for other sessions -->
+    <div id="sessionNotice" class="session-alert-banner">
+      ℹ️ Session <span id="sessionNumberDisplay">1</span> has no material yet. Automatically showing active Session 11: Study Advice.
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN PAGE CONTAINER
+       ======================================================================== -->
+  <main class="main-page-container">
+
+    <!-- HERO OVERVIEW -->
+    <section class="hero-panel" id="heroOverview">
+      <div>
+        <div class="hero-tag-pills">
+          <span id="heroActiveSessionTag" class="hero-tag-pill pill-gold">ACTIVE SESSION 11</span>
+          <span class="hero-tag-pill pill-glass">INTERMEDIATE B1</span>
+          <span id="heroDocCodeTag" class="hero-tag-pill pill-glass">DOC: ARS_B1_08_I039CEU</span>
+        </div>
+        <h1 id="heroTitle" class="hero-heading">Study Advice &amp; <span>Second Conditional</span></h1>
+        <p id="heroSubtitle" class="hero-subtitle-text">
+          Master 28 B1/B2/C1 study advice vocabulary words and listening idioms, practice Second Conditional advice structures ('If I were you, I would...'), and explore teacher coaching insights with British audio.
+        </p>
+        <div class="hero-stats-row">
+          <div class="hero-stat-cell">
+            <span class="big-val">4</span>
+            <span class="lbl">Card Games &amp; Tests</span>
+          </div>
+          <div class="hero-stat-cell">
+            <span id="heroVocabCount" class="big-val">28</span>
+            <span class="lbl">Total Vocabulary</span>
+          </div>
+          <div class="hero-stat-cell">
+            <span class="big-val">100%</span>
+            <span class="lbl">Mobile &amp; Netlify Ready</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Part Launcher -->
+      <div class="hero-quick-launcher">
+        <span style="font-size:0.8rem; font-weight:800; color:#38bdf8; text-transform:uppercase;">The 4 Vocabulary Parts:</span>
+        <div class="quick-part-grid">
+          <a href="#part1Flashcards" class="quick-part-btn">
+            <strong>Part 1: Cards &amp; Timer</strong>
+            <small>Word explanations &amp; audio</small>
+          </a>
+          <a href="#part2GapFill" class="quick-part-btn">
+            <strong>Part 2: Sentence Solve</strong>
+            <small>Contextual gap-fill challenge</small>
+          </a>
+          <a href="#part3Connect" class="quick-part-btn">
+            <strong>Part 3: Connect</strong>
+            <small>Interactive matching test</small>
+          </a>
+          <a href="#part4AllTest" class="quick-part-btn">
+            <strong>Part 4: All Words Test</strong>
+            <small id="heroPart4Subtext">28-question final exam</small>
+          </a>
+        </div>
+        <div style="background:rgba(0,0,0,0.2); padding:0.6rem 0.9rem; border-radius:var(--radius-sm); font-size:0.8rem; color:#e0f2fe; display:flex; justify-content:space-between; align-items:center;">
+          <span id="heroAudioStatus">🎧 British English voice synthesis active</span>
+          <button id="heroAudioPlayBtn" class="audio-circle-btn" onclick="speakUK('British Council Session eleven: Study advice and second conditional.')">🔊</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PART 1: WORDS WITH EXPLANATION USING CARD GAMES (WITH TIMER & TOUCH)
+         ======================================================================== -->
+    <section class="content-block" id="part1Flashcards">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 1 • Word Explanations</span>
+          <h2 class="block-title">3D Flashcards with Timer, Gestures &amp; British Audio</h2>
+          <p class="block-desc">
+            Learn every vocabulary word with clean B1 English definitions and workplace example sentences. Tap or swipe up to flip, swipe left/right to navigate!
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+          <span id="streakBadge" class="pill-counter" style="color:var(--amber); border-color:var(--amber);">🔥 Streak: 0</span>
+          <span id="masteredBadge" class="pill-counter">0 / 28 Mastered</span>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <!-- Timer Bar -->
+        <div class="timer-action-bar">
+          <div class="timer-badge-group">
+            <span style="font-size:0.8rem; font-weight:800; color:var(--text-muted);">SPEED TIMER:</span>
+            <span id="flashcardTimerDisplay" class="countdown-timer-text">⏱ 15s</span>
+            <select id="flashcardTimerSelect" class="timer-selector" aria-label="Timer Duration">
+              <option value="10">10s (Sprint)</option>
+              <option value="15" selected>15s (Standard)</option>
+              <option value="25">25s (Relaxed)</option>
+              <option value="0">Off (No Timer)</option>
+            </select>
+            <button id="btnPauseTimer" class="btn-outline-subtle" style="padding:0.2rem 0.6rem; font-size:0.78rem;">⏸ Pause</button>
+          </div>
+          <button id="btnMarkMastered" class="btn-outline-subtle" style="color:var(--emerald); border-color:var(--emerald);">
+            ☆ Mark Mastered
+          </button>
+        </div>
+
+        <!-- Card Display Order Choice: Definition First vs Word First -->
+        <div class="card-mode-toggle-bar">
+          <span class="mode-toggle-label">Start Each Card With:</span>
+          <div class="segmented-control" role="group" aria-label="Default Front Side Preference">
+            <button type="button" id="btnModeDefFirst" class="segment-btn active" data-side="defFirst">
+              📖 Definition First
+            </button>
+            <button type="button" id="btnModeWordFirst" class="segment-btn" data-side="wordFirst">
+              🔤 Word First
+            </button>
+          </div>
+        </div>
+
+        <!-- 3D Card Stage -->
+        <div class="flashcard-stage-center">
+          <div class="flashcard-3d-viewport" id="cardViewport" title="Click or swipe on card to flip">
+            <div class="flashcard-flipper" id="cardFlipper">
+              
+              <!-- CARD FRONT PLANE -->
+              <div class="card-plane card-plane-front" id="cardPlaneFront">
+                <!-- Populated dynamically by app.js -->
+              </div>
+
+              <!-- CARD BACK PLANE -->
+              <div class="card-plane card-plane-back" id="cardBackPlane">
+                <!-- Populated dynamically by app.js -->
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Navigation Controls -->
+          <div class="flashcard-controls-row">
+            <button id="btnPrevWord" class="btn-outline-subtle">◀ Prev</button>
+            <span id="cardStepBadge" class="pill-counter">1 / 28</span>
+            <button id="btnFlipCardManual" class="btn-solid-blue">🔄 Flip</button>
+            <button id="btnNextWord" class="btn-outline-subtle">Next ▶</button>
+            <button id="btnShuffleWords" class="btn-outline-subtle">🔀 Shuffle</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PART 2: SENTENCE GAP-FILL CHALLENGE (ACTIVE CONTEXTUAL SOLVING)
+         Replaces blind luck flip game with real skill, solving & recall!
+         ======================================================================== -->
+    <section class="content-block" id="part2GapFill">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 2 • Contextual Recall Challenge</span>
+          <h2 class="block-title">Sentence Gap-Fill &amp; Solving Challenge</h2>
+          <p class="block-desc">
+            Complete the authentic sentence from the session. Test your memory, vocabulary application, and contextual understanding!
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+          <span id="gapfillScoreBadge" class="pill-counter" style="color:var(--emerald); border-color:var(--emerald);">Solved: 0 / 28</span>
+          <span id="gapfillStreakBadge" class="pill-counter" style="color:var(--amber); border-color:var(--amber);">Streak: 0 🔥</span>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div class="gapfill-game-box">
+          <div class="gapfill-stats-bar">
+            <span id="gapfillCounter" style="font-weight:800; color:var(--bc-blue);">Sentence 1 of 28</span>
+            <div style="display:flex; gap:0.5rem;">
+              <button type="button" class="btn-outline-subtle" id="btnGapfillShuffle" style="padding:0.3rem 0.8rem; font-size:0.82rem;">🔀 Shuffle</button>
+              <button type="button" class="btn-outline-subtle" id="btnGapfillNext" style="padding:0.3rem 0.8rem; font-size:0.82rem;">Next Sentence ▶</button>
+            </div>
+          </div>
+
+          <!-- Sentence Target Box -->
+          <div class="gapfill-sentence-card">
+            <div id="gapfillSentenceDisplay" class="gapfill-sentence-text">
+              <!-- Rendered by JS -->
+            </div>
+            <div class="gapfill-hint-box" id="gapfillHintDisplay">
+              <!-- Clue & Definition hint -->
+            </div>
+          </div>
+
+          <!-- 4 Interactive Choice Buttons -->
+          <div class="gapfill-options-grid" id="gapfillOptionsGrid">
+            <!-- Rendered by JS -->
+          </div>
+
+          <!-- Feedback notification -->
+          <div id="gapfillFeedbackPane" class="gapfill-feedback-pane" style="display:none;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PART 3: TEST AND CONNECT PART (CLICK WORD -> CLICK DEFINITION)
+         ======================================================================== -->
+    <section class="content-block" id="part3Connect">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 3 • Test &amp; Connect</span>
+          <h2 class="block-title">Word-to-Definition Connection Test</h2>
+          <p class="block-desc">
+            Select a word in Column 1, then click its corresponding definition in Column 2. Correct pairs lock together with checkmarks and British audio!
+          </p>
+        </div>
+        <div>
+          <span id="connectScoreBadge" class="pill-counter" style="color:var(--emerald); border-color:var(--emerald);">Connected: 0 / 8</span>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.85rem; margin-bottom:1rem;">
+          <p style="font-size:0.88rem; color:var(--text-muted); margin:0;">
+            💡 <em>Step 1: Click any word on the left. Step 2: Click its match on the right.</em>
+          </p>
+          <button id="btnRefreshConnect" class="btn-outline-subtle" style="padding:0.35rem 0.85rem; font-size:0.82rem;">
+            🔀 Load New 8 Words
+          </button>
+        </div>
+
+        <div class="connect-split-layout">
+          <!-- Column 1: Words -->
+          <div class="connect-col" id="connectWordsCol">
+            <span class="connect-col-title">Column 1: Words</span>
+          </div>
+
+          <!-- Column 2: Definitions -->
+          <div class="connect-col" id="connectDefsCol">
+            <span class="connect-col-title">Column 2: English Definitions</span>
+          </div>
+        </div>
+
+        <div id="connectSuccessAlert" style="display:none; padding:1rem; border-radius:var(--radius-md); background:var(--emerald-bg); color:var(--emerald); font-weight:700; text-align:center; margin-top:1rem;">
+          🎉 Outstanding! All pairs in this set are connected! Click "Load New 8 Words" to practice the next batch.
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PART 4: COMPREHENSIVE TEST FOR ALL WORDS (FINAL EXAM)
+         ======================================================================== -->
+    <section class="content-block" id="part4AllTest">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 4 • Comprehensive Assessment</span>
+          <h2 class="block-title" id="part4ExamHeaderTitle">All-Words Final Exam (28 Questions)</h2>
+          <p class="block-desc" id="part4ExamDesc">
+            Test yourself on every single word from the PDF, handout slips, and slides. Instant grading, explanation breakdown, and score summary.
+          </p>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div class="full-test-card">
+          <div class="test-status-bar">
+            <span id="testQuestionIndex" class="test-q-counter">Question 1 of 28</span>
+            <span id="testScoreDisplay" class="pill-counter" style="color:var(--emerald);">Score: 0</span>
+          </div>
+
+          <h3 class="test-lead-prompt" id="testLeadPrompt">Which vocabulary word matches this definition?</h3>
+          
+          <div class="test-choices-list" id="testChoicesList"></div>
+
+          <div style="display:flex; justify-content:flex-end; margin-top:1.5rem;">
+            <button id="btnRestartFullTest" class="btn-outline-subtle" style="font-size:0.85rem;">↺ Restart Exam</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SESSION 10 MATERIALS: 5 EVENTS, READING MATCH (a–f), GRAMMAR & MEMO
+         ======================================================================== -->
+    <section class="content-block" id="courseMaterials" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Course Materials • Handouts &amp; Slides</span>
+          <h2 class="block-title">The 5 Event Profiles &amp; Reading Match (a–f)</h2>
+          <p class="block-desc">
+            Complete descriptions from your classroom materials, verified against the teacher's interactive whiteboard answers.
+          </p>
+        </div>
+      </div>
+
+      <!-- 5 Events Grid -->
+      <div class="events-deck-grid">
+        
+        <!-- 1: Boat Building -->
+        <article class="event-info-box">
+          <div class="event-info-top">
+            <div>
+              <h3 style="font-size:1.2rem;">1. Boat Building</h3>
+              <small style="color:var(--text-muted); font-weight:700;">Handout Slip 1</small>
+            </div>
+            <span style="font-size:1.6rem;">🛶</span>
+          </div>
+          <div class="event-info-body">
+            <blockquote class="event-quote">
+              "Participants on this event really appreciate the opportunities to brainstorm, design and construct a boat from start to finish while paying careful attention to team processes (like decision-making, conflict resolution and feedback). Once constructed, the completed boats compete in a race. Only the lucky will stay dry! Boat building works for groups as small as five and as large as 300."
+            </blockquote>
+            <p style="font-size:0.86rem; color:var(--text-body); margin-top:auto;">
+              <strong>Matches Reading:</strong> Statements <strong>a</strong> (get wet) and <strong>f</strong> (group sizes 5 to 300).
+            </p>
+          </div>
+        </article>
+
+        <!-- 2: Nature Park Challenge -->
+        <article class="event-info-box">
+          <div class="event-info-top">
+            <div>
+              <h3 style="font-size:1.2rem;">2. Nature Park Challenge</h3>
+              <small style="color:var(--text-muted); font-weight:700;">Handout Slip 2</small>
+            </div>
+            <span style="font-size:1.6rem;">🎒</span>
+          </div>
+          <div class="event-info-body">
+            <blockquote class="event-quote">
+              "In this dynamic and fast-paced adventure, your group will face one surprise challenge after another. Each team of approximately four is given a backpack with supplies, a time limit and a series of missions to complete. This challenge can be brought to any nature park around the world, and is designed to capitalize on area resources, like boating lakes, climbing areas and bike paths. We mix sophisticated problem-solving challenges and orienteering skills with adventure elements (biking, hiking, rock climbing or kayaking) to test your teams' skill and time management."
+            </blockquote>
+            <p style="font-size:0.86rem; color:var(--text-body); margin-top:auto;">
+              <strong>Matches Reading:</strong> Statements <strong>b</strong> (physically fit), <strong>d</strong> (countryside), and <strong>e</strong> (walking).
+            </p>
+          </div>
+        </article>
+
+        <!-- 3: City Solutions -->
+        <article class="event-info-box">
+          <div class="event-info-top">
+            <div>
+              <h3 style="font-size:1.2rem;">3. City Solutions</h3>
+              <small style="color:var(--text-muted); font-weight:700;">Handout Slip 3</small>
+            </div>
+            <span style="font-size:1.6rem;">📷</span>
+          </div>
+          <div class="event-info-body">
+            <blockquote class="event-quote">
+              "Teams receive cameras, spending money, maps and a packet of envelopes with clues, then venture into a nearby city centre or town to beat the clock and complete a customised series of challenges and puzzles. Solution adventures provide meaningful opportunities for solving complex problems using the maximum amount of brainpower. Working in small teams of four to five and outfitted with a backpack full of supplies and a series of challenges to complete, you'll travel by foot to explore an environment of your choosing in order to better understand the business initiatives most critical to your organisation."
+            </blockquote>
+            <p style="font-size:0.86rem; color:var(--text-body); margin-top:auto;">
+              <strong>Matches Reading:</strong> Statement <strong>c</strong> (clever teams using brainpower).
+            </p>
+          </div>
+        </article>
+
+        <!-- 4: Plank Walk -->
+        <article class="event-info-box">
+          <div class="event-info-top">
+            <div>
+              <h3 style="font-size:1.2rem;">4. Plank Walk</h3>
+              <small style="color:var(--text-muted); font-weight:700;">Presentation Slide 1</small>
+            </div>
+            <span style="font-size:1.6rem;">🪵</span>
+          </div>
+          <div class="event-info-body">
+            <blockquote class="event-quote">
+              "In this exercise, a group of participants must coordinate their movements to help a teammate walk smoothly across a wooden plank or pair of planks. The rest of the team holds the supporting ropes under precise tension, requiring careful verbal communication, synchronized movement, and trust to guide the walker safely from a starting line to a designated finish line without anyone falling or stepping onto the floor."
+            </blockquote>
+            <p style="font-size:0.86rem; color:var(--text-body); margin-top:auto;">
+              <strong>Key Focus:</strong> Synchronized movement, ropes under tension, verbal trust.
+            </p>
+          </div>
+        </article>
+
+        <!-- 5: Tower of Power -->
+        <article class="event-info-box">
+          <div class="event-info-top">
+            <div>
+              <h3 style="font-size:1.2rem;">5. Tower of Power</h3>
+              <small style="color:var(--text-muted); font-weight:700;">Presentation Slide 2</small>
+            </div>
+            <span style="font-size:1.6rem;">🏗️</span>
+          </div>
+          <div class="event-info-body">
+            <blockquote class="event-quote">
+              "In this hands-on engineering activity, students or teams work together to build the tallest freestanding tower they can using only plastic cups and wooden craft sticks. It teaches foundational concepts in physics, balance, structural stability, and teamwork as they figure out how to layer the sticks to distribute weight without the tower collapsing."
+            </blockquote>
+            <p style="font-size:0.86rem; color:var(--text-body); margin-top:auto;">
+              <strong>Key Focus:</strong> Freestanding stability, weight distribution, physics.
+            </p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Reading Matching Exercise a-f -->
+      <div class="part-panel-box">
+        <h3 style="font-size:1.25rem; font-weight:800; margin-bottom:0.4rem;">Reading Matching (a–f) Interactive Checker</h3>
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:1.25rem;">
+          Choose the event for each statement and verify your score:
+        </p>
+
+        <div class="match-statements-wrap">
+          <div class="match-row-item">
+            <strong style="color:var(--bc-blue)">a.</strong>
+            <span>You are quite likely to get wet during this event.</span>
+            <select class="session-select-box" style="min-width:200px;" id="sel_match_a">
+              <option value="">-- Choose Event --</option>
+              <option value="Boat building">Boat building</option>
+              <option value="Nature park challenge">Nature park challenge</option>
+              <option value="City solutions">City solutions</option>
+            </select>
+          </div>
+          <div class="match-row-item">
+            <strong style="color:var(--bc-blue)">b.</strong>
+            <span>This event may require the participants to be physically fit.</span>
+            <select class="session-select-box" style="min-width:200px;" id="sel_match_b">
+              <option value="">-- Choose Event --</option>
+              <option value="Boat building">Boat building</option>
+              <option value="Nature park challenge">Nature park challenge</option>
+              <option value="City solutions">City solutions</option>
+            </select>
+          </div>
+          <div class="match-row-item">
+            <strong style="color:var(--bc-blue)">c.</strong>
+            <span>Teams that are clever will likely do well on this event.</span>
+            <select class="session-select-box" style="min-width:200px;" id="sel_match_c">
+              <option value="">-- Choose Event --</option>
+              <option value="Boat building">Boat building</option>
+              <option value="Nature park challenge">Nature park challenge</option>
+              <option value="City solutions">City solutions</option>
+            </select>
+          </div>
+          <div class="match-row-item">
+            <strong style="color:var(--bc-blue)">d.</strong>
+            <span>This event can be done in the countryside.</span>
+            <select class="session-select-box" style="min-width:200px;" id="sel_match_d">
+              <option value="">-- Choose Event --</option>
+              <option value="Boat building">Boat building</option>
+              <option value="Nature park challenge">Nature park challenge</option>
+              <option value="City solutions">City solutions</option>
+            </select>
+          </div>
+          <div class="match-row-item">
+            <strong style="color:var(--bc-blue)">e.</strong>
+            <span>Participants will spend a lot of time walking during this event.</span>
+            <select class="session-select-box" style="min-width:200px;" id="sel_match_e">
+              <option value="">-- Choose Event --</option>
+              <option value="Boat building">Boat building</option>
+              <option value="Nature park challenge">Nature park challenge</option>
+              <option value="City solutions">City solutions</option>
+            </select>
+          </div>
+          <div class="match-row-item">
+            <strong style="color:var(--bc-blue)">f.</strong>
+            <span>This event works for a wide range of group sizes.</span>
+            <select class="session-select-box" style="min-width:200px;" id="sel_match_f">
+              <option value="">-- Choose Event --</option>
+              <option value="Boat building">Boat building</option>
+              <option value="Nature park challenge">Nature park challenge</option>
+              <option value="City solutions">City solutions</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="matchScoreResult" style="display:none; padding:1rem; border-radius:var(--radius-md); font-weight:700; margin-top:1rem;"></div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-top:1.25rem;">
+          <div style="display:flex; gap:0.6rem;">
+            <button id="btnCheckMatching" class="btn-solid-blue">✓ Check Matches</button>
+            <button id="btnResetMatching" class="btn-outline-subtle">↺ Reset</button>
+          </div>
+          <button id="btnRevealBoardAnswers" class="btn-outline-subtle">👁 Show Whiteboard Key</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         GRAMMAR & CONVERSATIONAL FUNCTIONS (SESSION 10)
+         ======================================================================== -->
+    <section class="content-block" id="grammarSection" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Language Functions • Page 2 &amp; 3</span>
+          <h2 class="block-title">Polite Interruptions &amp; Continuing</h2>
+          <p class="block-desc">
+            Essential workplace etiquette: how to interrupt politely using modal verbs and softeners, and how to resume after an interruption.
+          </p>
+        </div>
+      </div>
+
+      <div class="grammar-side-grid">
+        <!-- Interrupting -->
+        <div class="grammar-card col-inter">
+          <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+            <span style="font-size:1.6rem;">✋</span>
+            <div>
+              <h3 style="font-size:1.2rem;">Interrupting Politely</h3>
+              <small style="color:var(--bc-blue); font-weight:800;">6 KEY EXPRESSIONS</small>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Sorry to interrupt you but …"</strong><br>
+                <small style="color:var(--text-muted)">Very polite apology softening the interruption.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Sorry to interrupt you but...', 1.05)">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Could I interrupt here?"</strong><br>
+                <small style="color:var(--text-muted)">Polite modal verb 'Could'.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Could I interrupt here?', 1.08)">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Do you mind if I say something?"</strong><br>
+                <small style="color:var(--text-muted)">Indirect polite request for permission.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Do you mind if I say something?', 1.05)">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Could I just say something?"</strong><br>
+                <small style="color:var(--text-muted)">Softener 'just' reduces imposition.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Could I just say something?', 1.08)">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Sorry, I just wanted to say …"</strong><br>
+                <small style="color:var(--text-muted)">Past form 'wanted' acts as polite distance.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Sorry, I just wanted to say...', 1.05)">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"I have a question."</strong><br>
+                <small style="color:var(--text-muted)">Direct, neutral; common in webinars.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('I have a question.')">🔊</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Continuing -->
+        <div class="grammar-card col-cont">
+          <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+            <span style="font-size:1.6rem;">🔄</span>
+            <div>
+              <h3 style="font-size:1.2rem;">Continuing After an Interruption</h3>
+              <small style="color:var(--emerald); font-weight:800;">3 TRANSITION PHRASES</small>
+            </div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"To get back to what I was saying …"</strong><br>
+                <small style="color:var(--text-muted)">Clear, professional redirection to the agenda.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('To get back to what I was saying...')">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Anyway, as I was saying …"</strong><br>
+                <small style="color:var(--text-muted)">Friendly resume phrase.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Anyway, as I was saying...')">🔊</button>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:0.75rem; background:var(--bg-subtle); border-radius:var(--radius-sm);">
+              <div>
+                <strong>"Anyway …"</strong><br>
+                <small style="color:var(--text-muted)">Quick informal conversational reset.</small>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('Anyway...')">🔊</button>
+            </div>
+          </div>
+
+          <div style="background:var(--bg-subtle); padding:1.1rem; border-radius:var(--radius-sm); margin-top:1.5rem; border-left:4px solid var(--emerald); font-size:0.86rem;">
+            <strong>Intonation Note:</strong> Polite interruptions feature gentle <em>rising pitch (↗)</em> at the end, whereas rude interruptions sound flat or sharply <em>falling (↘)</em>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SESSION 11 MATERIALS: STUDY ADVICE, LISTENING INPUT & SECOND CONDITIONAL
+         ======================================================================== -->
+    <section class="content-block" id="session11Materials">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Session 11 Core Study Materials • Handout ARS_B1_08_I039CEU</span>
+          <h2 class="block-title">Study Advice, Teacher Dialogue &amp; Second Conditional</h2>
+          <p class="block-desc">
+            Verified classroom materials from your British Council Intermediate lesson, featuring Teacher John &amp; Maggie's coaching dialogue, Second Conditional grammar lab with 9 practice sentences, and hypothetical advice generator.
+          </p>
+        </div>
+      </div>
+
+      <!-- Module 1: Teacher Dialogue Analysis (Slide 4) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🎧</span> Input: When Teachers Talk (John &amp; Maggie Dialogue)
+          </h3>
+          <span class="teacher-badge">Slide 4 • British Council Listening</span>
+        </div>
+
+        <div class="study-advice-grid">
+          <!-- Card 1 -->
+          <article class="study-card">
+            <div class="study-card-header">
+              <span style="font-weight:800; color:var(--bc-blue); font-size:0.82rem;">QUESTION 1</span>
+              <button class="audio-circle-btn" onclick="speakUK('Why is John worried? John is worried because one of his students has problems with speaking.')" title="Listen in British English">🔊</button>
+            </div>
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-main);">Why is John worried?</h4>
+            <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5;">
+              <strong>Teacher Insight:</strong> One of his students has persistent difficulties with speaking in class, freezing up and staying quiet during discussions.
+            </p>
+            <div style="margin-top:auto; font-size:0.82rem; color:var(--text-muted); font-style:italic;">
+              Focus: Recognizing language learning hurdles early.
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="study-card">
+            <div class="study-card-header">
+              <span style="font-weight:800; color:var(--violet); font-size:0.82rem;">QUESTION 2</span>
+              <button class="audio-circle-btn" onclick="speakUK('What two reasons does Maggie mention? First, translating from his native language into English, and second, lack of confidence.')" title="Listen in British English">🔊</button>
+            </div>
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-main);">What 2 reasons does Maggie mention?</h4>
+            <ul style="font-size:0.92rem; color:var(--text-body); line-height:1.55; padding-left:1.2rem; margin:0;">
+              <li><strong>1. Translating:</strong> The student is translating word-for-word from his native language into English, creating hesitation.</li>
+              <li><strong>2. Lack of confidence:</strong> Fear of making grammar mistakes in front of classmates.</li>
+            </ul>
+            <div style="margin-top:auto; font-size:0.82rem; color:var(--text-muted); font-style:italic;">
+              Key vocabulary: <em>Native language</em> &amp; <em>Lack of confidence</em>.
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="study-card">
+            <div class="study-card-header">
+              <span style="font-weight:800; color:var(--emerald); font-size:0.82rem;">QUESTION 3</span>
+              <button class="audio-circle-btn" onclick="speakUK('What does Maggie recommend? Teaching him to paraphrase and explaining to the whole class that mistakes are an essential part of learning.')" title="Listen in British English">🔊</button>
+            </div>
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-main);">What does Maggie recommend?</h4>
+            <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5;">
+              Maggie recommends <strong>teaching the student to paraphrase</strong> (express thoughts using other familiar words) and openly telling the whole class that <strong>mistakes are an essential part of learning</strong>.
+            </p>
+            <div style="margin-top:auto; font-size:0.82rem; color:var(--text-muted); font-style:italic;">
+              Advice formula: <em>"If I were you, I would teach him to paraphrase."</em>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="study-card">
+            <div class="study-card-header">
+              <span style="font-weight:800; color:var(--amber); font-size:0.82rem;">QUESTION 4</span>
+              <button class="audio-circle-btn" onclick="speakUK('What do you think about the story Maggie tells about an American sailing team? The team analyzed their mistakes calmly to discover weaknesses and won the championship.')" title="Listen in British English">🔊</button>
+            </div>
+            <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-main);">The American Sailing Team Story</h4>
+            <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5;">
+              Maggie shares how a championship sailing team analyzed every error calmly to discover underlying improvements. Instead of feeling ashamed of mistakes, champions view mistakes as data to improve.
+            </p>
+            <div style="margin-top:auto; font-size:0.82rem; color:var(--text-muted); font-style:italic;">
+              Takeaway: Treat mistakes as learning milestones, not failures.
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Module 1B: British Council Portal: Phrases from the listening (Picture 1) -->
+      <div style="margin-bottom:2.5rem;" id="module1BListeningPhrases">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🎧</span> British Council Portal: Phrases from the Listening
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('portal_listening_phrases', 'Phrases from the Listening', 'Official British Council Portal Screenshot: matching phrases from teacher John &amp; Maggie listening dialogue.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 View Portal Screenshot
+            </button>
+            <span class="teacher-badge">Portal Exercise • Picture 1</span>
+          </div>
+        </div>
+
+        <div class="portal-window-frame">
+          <div class="portal-window-header">
+            <h4><span>📑</span> Phrases from the listening</h4>
+            <span style="font-size:0.8rem; opacity:0.9;">Match each phrase to its meaning.</span>
+          </div>
+          <div class="portal-window-body">
+            <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:1.25rem;">
+              Click a phrase on the left, then click its meaning on the right to match them:
+            </p>
+            <div class="portal-interactive-grid" id="portalListeningPhrasesGrid">
+              <!-- Populated by app.js -->
+            </div>
+            <div class="portal-actions-footer">
+              <button type="button" class="portal-btn-yellow" id="btnRestartListeningPhrases">↺ Restart exercise</button>
+              <div id="portalListeningMsg" style="font-size:0.9rem; font-weight:700; color:var(--emerald);"></div>
+              <button type="button" class="portal-btn-yellow" id="btnSolutionListeningPhrases">Solution</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 2: Second Conditional Grammar Lab (Slides 5 & 6) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>📐</span> Grammar Lab: Second Conditional for Unreal Situations &amp; Advice
+          </h3>
+          <span class="teacher-badge">Slides 5 &amp; 6 • British Council Grammar</span>
+        </div>
+
+        <!-- Formula Card -->
+        <div class="grammar-formula-card">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
+            <div>
+              <span style="font-size:0.75rem; font-weight:800; color:var(--bc-blue); text-transform:uppercase; letter-spacing:0.5px;">THE SECOND CONDITIONAL FORMULA:</span>
+              <h4 style="font-size:1.4rem; color:var(--text-main); margin-top:0.25rem;">
+                <code>If + Past Simple, would + infinitive without to</code>
+              </h4>
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('If I had this problem, I would try to identify the reason first. If I were you, I would teach him to paraphrase.')" title="Listen to example sentences">🔊</button>
+          </div>
+
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; font-size:0.88rem; color:var(--text-body); line-height:1.5;">
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--bc-blue);">
+              <strong>Time &amp; Reality:</strong> Talks about <em>present or future</em> imaginary, hypothetical, or unreal situations (not past facts).
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--violet);">
+              <strong>Punctuation Rule:</strong> If the <em>if-clause</em> comes first, use a comma <code>,</code>. If the main clause is first, do NOT use a comma.
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--emerald);">
+              <strong>Giving Advice:</strong> <em>"If I were you, I would (verb)..."</em> uses subjunctive <em>were</em> (instead of was) as the standard formal British advice structure.
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive 9 Sentences Exercise from Slide 6 -->
+        <div class="part-panel-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1.25rem;">
+            <div>
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main);">Interactive Exercise: The 9 Classroom Sentences</h4>
+              <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+                Fill in the blanks with the correct verb forms, then click Check Answers or listen to the UK audio!
+              </p>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <button id="btnCheckConditionals" class="btn-solid-blue" style="font-size:0.82rem; padding:0.4rem 0.9rem;">✓ Check My Answers</button>
+              <button id="btnRevealConditionals" class="btn-outline-subtle" style="font-size:0.82rem; padding:0.4rem 0.9rem;">👁 Show Answers</button>
+            </div>
+          </div>
+
+          <div class="conditional-interactive-list" id="conditionalSentencesList">
+            <!-- Populated dynamically with the 9 sentences -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 2B: British Council Portal: Match Sentence Halves (Picture 3) -->
+      <div style="margin-bottom:2.5rem;" id="module2BHalves">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🧩</span> British Council Portal: Match Sentence Halves (Second Conditional)
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('portal_second_conditional_halves', 'Match the Sentence Halves', 'Official British Council Portal Screenshot: matching condition and result clauses.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 View Portal Screenshot
+            </button>
+            <span class="teacher-badge">Portal Exercise • Picture 3</span>
+          </div>
+        </div>
+
+        <div class="portal-window-frame">
+          <div class="portal-window-header">
+            <h4><span>📐</span> Second conditional</h4>
+            <span style="font-size:0.8rem; opacity:0.9;">Match the sentence halves to make second conditional sentences.</span>
+          </div>
+          <div class="portal-window-body">
+            <p style="font-size:0.92rem; color:var(--text-muted); margin-bottom:1.25rem;">
+              Connect each 'if-clause' or main clause with its matching partner:
+            </p>
+            <div class="portal-interactive-grid" id="portalSentenceHalvesGrid">
+              <!-- Populated by app.js -->
+            </div>
+            <div class="portal-actions-footer">
+              <button type="button" class="portal-btn-yellow" id="btnRestartSentenceHalves">↺ Restart exercise</button>
+              <div id="portalHalvesMsg" style="font-size:0.9rem; font-weight:700; color:var(--emerald);"></div>
+              <button type="button" class="portal-btn-yellow" id="btnValidateSentenceHalves">Validate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 3: Hypothetical Advice Generator (Handout Page 2) -->
+      <div>
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>💡</span> Practical Advice Generator: "If I were you, I would..."
+          </h3>
+          <span class="teacher-badge">Handout Page 2 • Study &amp; Life Scenarios</span>
+        </div>
+
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:1rem;">
+          Click any problem below to hear British Council second conditional advice spoken with a natural British accent:
+        </p>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;" id="adviceScenariosGrid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    
+      <!-- Module 4: Classroom Survey Activity (Picture 4 Handout) -->
+      <div style="margin-bottom:2.5rem; margin-top:2.5rem;" id="module4FindSomeone">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>👥</span> Classroom Activity: Find Someone Who...
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Authentic British Council classroom speaking survey from your printed handout, featuring classmate notes (Osama, Mariem).
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('handout_find_someone_who', 'Find Someone Who Handout', 'Original British Council classroom printed handout with handwritten classmate names (Osama, Mariem).')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 View Handout Photo
+            </button>
+            <span class="teacher-badge">Handout Sheet • Picture 4</span>
+          </div>
+        </div>
+
+        <div class="part-panel-box">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+            <div style="font-size:0.88rem; color:var(--text-body);">
+              <strong>Speaking Goal:</strong> Ask your classmates questions in English. Click 🔊 to hear the exact question to ask!
+            </div>
+            <span id="findSomeoneCounterBadge" class="pill-counter" style="color:var(--emerald);">0 / 9 Found</span>
+          </div>
+
+          <div class="find-someone-grid" id="findSomeoneGrid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 5: Authentic Classroom Materials & Portal Hub -->
+      <div style="display:none;" id="module5MediaHub">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🖼️</span> Classroom Photo Hub &amp; British Council Screenshots
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              High-resolution snapshots from your British Council portal and classroom handouts. Click any card to inspect in full screen!
+            </p>
+          </div>
+          <span class="teacher-badge">4 Visual Artifacts</span>
+        </div>
+
+        <div class="media-hub-grid" id="mediaHubGrid">
+          <!-- Populated by app.js with thumbnails & click-to-open lightbox -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================
+         SESSION 1 MATERIALS: DESCRIBING THINGS, TOOLS, RELATIVE CLAUSES & STRESS
+         ======================================================================== -->
+    <section class="content-block" id="session1Materials" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Session 1 Core Study Materials • Handout ARB_B1_04_I021CGL</span>
+          <h2 class="block-title">Describing Everyday Objects, Tools &amp; Compound Stress</h2>
+          <p class="block-desc">
+            Complete authentic British Council intermediate materials: everyday object description formulas, 'Made of' vs 'Made from', relative clauses with 3-sentence chaining, listening conversation gap-fills, and compound noun stress audio lab.
+          </p>
+        </div>
+      </div>
+
+      <!-- Module 1: Describing Everyday Objects & Formulas -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🔧</span> Describing Everyday Objects Formulas (Handout Page 1)
+          </h3>
+          <span class="teacher-badge">Handout Page 1 &amp; Smartboard Slide 3</span>
+        </div>
+
+        <div class="grammar-formula-card">
+          <h4 style="font-size:1.15rem; color:var(--text-main); margin-bottom:0.5rem;">
+            Key Patterns for Describing Objects &amp; Tools Without Naming Them
+          </h4>
+          <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1rem;">
+            When you don't know the exact English name for a tool or machine, use these British Council descriptive formulas:
+          </p>
+
+          <div class="formula-grid" id="session1FormulasGrid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+
+        <!-- Made of vs Made from Comparison -->
+        <div class="made-vs-from-grid" style="margin-top:1.25rem;">
+          <div class="study-card" style="border-left:4px solid var(--bc-blue);">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-weight:800; color:var(--bc-blue); font-size:0.82rem;">RULE 1: VISIBLE MATERIAL</span>
+              <button class="audio-circle-btn" onclick="speakUK('Made of: used when the material does not change its basic form. This table is made of solid wood.')">🔊</button>
+            </div>
+            <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main); margin-top:0.4rem;">Made of + [material]</h4>
+            <p style="font-size:0.9rem; color:var(--text-body); line-height:1.5;">
+              Use <strong>made of</strong> when the original raw material is still visibly intact and recognizable without chemical change.
+            </p>
+            <div style="background:var(--bg-subtle); padding:0.6rem 0.85rem; border-radius:var(--radius-sm); font-size:0.86rem; margin-top:auto;">
+              <em>Examples:</em> "The chair is made of wood." • "The wire cutters are made of steel."
+            </div>
+          </div>
+
+          <div class="study-card" style="border-left:4px solid var(--violet);">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="font-weight:800; color:var(--violet); font-size:0.82rem;">RULE 2: TRANSFORMED MATERIAL</span>
+              <button class="audio-circle-btn" onclick="speakUK('Made from: used when the material undergoes chemical change. Paper is made from wood, and cheese is made from milk.')">🔊</button>
+            </div>
+            <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main); margin-top:0.4rem;">Made from + [material]</h4>
+            <p style="font-size:0.9rem; color:var(--text-body); line-height:1.5;">
+              Use <strong>made from</strong> when the original material undergoes transformation, processing, or chemical change into a completely new form.
+            </p>
+            <div style="background:var(--bg-subtle); padding:0.6rem 0.85rem; border-radius:var(--radius-sm); font-size:0.86rem; margin-top:auto;">
+              <em>Examples:</em> "Paper is made from trees." • "Cheese is made from fresh milk."
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Tool Riddles / Object Guessing -->
+        <div style="margin-top:1.5rem;">
+          <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main); margin-bottom:0.75rem;">
+            Interactive Tool Riddles: Guess the Object from Descriptive Clues
+          </h4>
+          <div class="object-riddle-grid" id="session1RiddlesGrid">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 2: Relative Clauses & 3-Sentence Chaining Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🔗</span> Relative Clauses &amp; 3-Sentence Chaining Lab
+          </h3>
+          <span class="teacher-badge">Student Notebook Pages 5 &amp; 6</span>
+        </div>
+
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:1rem;">
+          Learn how to combine 2 or 3 separate sentences into sophisticated single sentences using defining relative pronouns (<em>who</em> for people, <em>which / that</em> for objects, and <em>where</em> for locations).
+        </p>
+
+        <!-- 2-Sentence Combinations Grid -->
+        <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin-bottom:0.75rem;">
+          Part A: 2-Sentence Relative Combinations
+        </h4>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:1rem; margin-bottom:1.5rem;" id="session1RelativeCombosGrid">
+          <!-- Populated by app.js -->
+        </div>
+
+        <!-- 3-Sentence Chaining Cards -->
+        <h4 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin-bottom:0.75rem;">
+          Part B: Advanced 3-Sentence Chaining (Classroom Challenge)
+        </h4>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;" id="session1ChainingGrid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 3: Listening Lab: 3 Conversations, Tools & Gap-Fills -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🎧</span> Listening Lab: 3 DIY Conversations &amp; Missing Gap-Fills
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session1_listening_gap_fill', 'Whiteboard Gap-Fill Key', 'Teacher whiteboard with completed listening sentences.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Key
+            </button>
+            <span class="teacher-badge">Handout Page 2 &amp; Whiteboard Slide 7</span>
+          </div>
+        </div>
+
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:1.25rem;">
+          Listen to the 3 conversations and fill in the missing words from your British Council audio recording. Click 🔊 to hear the audio excerpt or check your answers!
+        </p>
+
+        <div id="session1ListeningConvsWrap">
+          <!-- Populated by app.js -->
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-top:1rem;">
+          <div style="display:flex; gap:0.6rem;">
+            <button id="btnCheckSession1Gaps" class="btn-solid-blue">✓ Check Gap Answers</button>
+            <button id="btnResetSession1Gaps" class="btn-outline-subtle">↺ Reset Gaps</button>
+          </div>
+          <button id="btnRevealSession1Gaps" class="btn-outline-subtle">👁 Reveal All Answers</button>
+        </div>
+      </div>
+
+      <!-- Module 4: Compound Noun Pronunciation & Stress Audio Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🗣️</span> Compound Noun Word Stress Audio Lab
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session1_compound_stress', 'Whiteboard Stress Rules', 'Teacher whiteboard showing noun+noun vs adjective+noun rules.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Stress Rules Board
+            </button>
+            <span class="teacher-badge">Handout Page 3 &amp; Slide 6</span>
+          </div>
+        </div>
+
+        <!-- Stress Rules Summary Card -->
+        <div class="grammar-formula-card" style="margin-bottom:1.25rem;">
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem; font-size:0.9rem;">
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--bc-blue);">
+              <strong style="color:var(--bc-blue);">Rule 1: Noun + Noun = 1st Word Stressed</strong><br>
+              In compounds made of two nouns, the main stress falls heavily on the <em>FIRST</em> word: <code>TEXT message</code>, <code>ANSWERING machine</code>, <code>LAPTOP computer</code>, <code>WHITE house</code> (institution), <code>LIGHT bulb</code>, <code>WIRE cutters</code>, <code>SPIRIT level</code>.
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--violet);">
+              <strong style="color:var(--violet);">Rule 2: Adjective + Noun = 2nd Word Stressed</strong><br>
+              In phrases made of an adjective and a noun, the stress falls normally on the <em>SECOND</em> word: <code>mobile PHONE</code>, <code>digital CAMERA</code>, <code>main BRANCH</code>, <code>white HOUSE</code> (any white-painted house).
+            </div>
+          </div>
+        </div>
+
+        <div class="compound-stress-grid" id="session1CompoundStressGrid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 5: Language for Clarifying & Checking -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>💬</span> Language for Clarifying &amp; Checking (Handout Page 4)
+          </h3>
+          <span class="teacher-badge">Handout Page 4</span>
+        </div>
+
+        <div class="clarifying-checking-grid">
+          <!-- Clarifying Card -->
+          <div class="study-card" style="border-top:4px solid var(--bc-blue);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main);">Clarifying (Confirming Meaning)</h4>
+              <span class="teacher-badge">4 Expressions</span>
+            </div>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin-bottom:0.75rem;">
+              Use these phrases when you want to confirm what someone else said:
+            </p>
+            <div style="display:flex; flex-direction:column; gap:0.6rem;" id="clarifyingExpressionsList">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+
+          <!-- Checking Card -->
+          <div class="study-card" style="border-top:4px solid var(--emerald);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main);">Checking (Listener Understanding)</h4>
+              <span class="teacher-badge">4 Expressions</span>
+            </div>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin-bottom:0.75rem;">
+              Use these phrases when you are explaining something and want to ensure the other person follows:
+            </p>
+            <div style="display:flex; flex-direction:column; gap:0.6rem;" id="checkingExpressionsList">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 6: Session 1 Authentic Classroom Photo Hub (13 Photos) -->
+      <div style="display:none;" id="session1MediaHubBlock">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🖼️</span> Classroom Photo Hub: Smartboard Slides &amp; Student Notebooks
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              13 authentic classroom photos from your British Council Session 1 lesson (7 teacher smartboard slides and 6 handwritten notebook pages). Click any photo for high-res preview!
+            </p>
+          </div>
+          <span class="teacher-badge">13 Visual Artifacts</span>
+        </div>
+
+        <div class="media-hub-grid" id="session1MediaHubGrid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================
+         SESSION 2 MATERIALS: TRAVEL ARRANGEMENTS, INDIRECT QUESTIONS & TENSES
+         ======================================================================== -->
+    <section class="content-block" id="session2Materials" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Session 2 Core Study Materials • Handout ARS_B1_02_I027CEU</span>
+          <h2 class="block-title">Making Travel Arrangements &amp; Indirect Questions</h2>
+          <p class="block-desc">
+            Complete authentic British Council intermediate materials: the 4 core indirect question rules, interactive polite question rewriters, travel agent dialogue listening gap-fills, travel categories matrix (Accommodation, Flights, Services), English tenses contrast lab, and 18 classroom photos.
+          </p>
+        </div>
+      </div>
+
+      <!-- Module 1: Indirect Questions Master Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>❓</span> Indirect Questions Master Lab: The 4 Core Rules
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session2_board_indirect_rules', 'Indirect Questions Grammar Rules', 'Teacher whiteboard showing the 4 golden rules of indirect questions.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Rules
+            </button>
+            <span class="teacher-badge">Handout Pages 1 &amp; 2 • Slide 5</span>
+          </div>
+        </div>
+
+        <!-- Rules Summary Card -->
+        <div class="grammar-formula-card" style="margin-bottom:1.25rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <h4 style="font-size:1.15rem; color:var(--text-main);">
+              The 4 Golden Rules for Forming Polite Indirect Questions
+            </h4>
+            <button class="audio-circle-btn" onclick="speakUK('Indirect questions make requests sound polite. Rule one: shift to statement word order. Rule two: omit do, does, and did. Rule three: use if or whether for yes no questions. Rule four: statements end with a full stop.')" title="Listen to summary of rules">🔊</button>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; font-size:0.88rem; line-height:1.5;">
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--bc-blue);">
+              <strong style="color:var(--bc-blue);">1. Statement Word Order</strong><br>
+              Word order changes from <code>verb + subject</code> to <code>subject + verb</code>.<br>
+              <em>"Where is the gate?" &rarr; "...where the gate is."</em>
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--violet);">
+              <strong style="color:var(--violet);">2. Omit Auxiliary 'Do'</strong><br>
+              Completely drop <code>do</code>, <code>does</code>, or <code>did</code>.<br>
+              <em>"What time does it leave?" &rarr; "...what time it leaves."</em>
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--emerald);">
+              <strong style="color:var(--emerald);">3. Insert If / Whether</strong><br>
+              For Yes/No questions (no question word), add <code>if</code> or <code>whether</code>.<br>
+              <em>"Is breakfast included?" &rarr; "...if breakfast is included."</em>
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--amber);">
+              <strong style="color:var(--amber);">4. Punctuation Rule</strong><br>
+              Statements (<em>I wonder...</em>, <em>I'd like to know...</em>) end with a period <code>.</code> not a <code>?</code>.
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Direct-to-Indirect Rewriter Practice -->
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1rem;">
+            <div>
+              <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main);">
+                Interactive Practice: The 6 Classroom Sentence Rewrites
+              </h4>
+              <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+                Complete each polite indirect question using the provided prompt. Click 🔊 to hear the natural British spoken form!
+              </p>
+            </div>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+              <button id="btnCheckIndirectQuestions" class="btn-solid-blue" style="font-size:0.82rem; padding:0.4rem 0.9rem;">✓ Check My Rewrites</button>
+              <button id="btnResetIndirectQuestions" class="btn-outline-subtle" style="font-size:0.82rem; padding:0.4rem 0.9rem;">↺ Reset</button>
+              <button id="btnRevealIndirectQuestions" class="btn-outline-subtle" style="font-size:0.82rem; padding:0.4rem 0.9rem;">👁 Show Answers</button>
+            </div>
+          </div>
+
+          <div class="indirect-practice-grid" id="session2IndirectPracticeGrid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 2: Listening Extracts (Travel Agent Dialogue) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>🎧</span> Listening Extracts: Travel Agent Dialogue Gap-Fills
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session2_board_listening_gaps', 'Listening Extracts Whiteboard', 'Teacher whiteboard with gap-fill sentences from the travel agent dialogue.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Key
+            </button>
+            <span class="teacher-badge">Handout Page 1 &amp; Slide 4</span>
+          </div>
+        </div>
+
+        <p style="font-size:0.9rem; color:var(--text-muted); margin-bottom:1.25rem;">
+          Complete the 5 indirect question phrases from the travel agency audio recording. Click 🔊 to hear the complete spoken British sentence!
+        </p>
+
+        <div id="session2ListeningExtractsWrap" style="display:flex; flex-direction:column; gap:1rem;">
+          <!-- Populated by app.js -->
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-top:1.25rem;">
+          <div style="display:flex; gap:0.6rem;">
+            <button id="btnCheckSession2Gaps" class="btn-solid-blue">✓ Check Gap Answers</button>
+            <button id="btnResetSession2Gaps" class="btn-outline-subtle">↺ Reset Gaps</button>
+          </div>
+          <button id="btnRevealSession2Gaps" class="btn-outline-subtle">👁 Reveal All Answers</button>
+        </div>
+      </div>
+
+      <!-- Module 3: Travel Categories Classification Matrix -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🗂️</span> Travel Vocabulary Classification Matrix
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Categorized into Accommodation, Flights, and Services &amp; Facilities from smartboard slides 2 &amp; 3.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session2_board_vocab_table1', 'Travel Categories Table', 'Teacher whiteboard matrix: Accommodation, Flights, Services.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Matrix
+            </button>
+            <span class="teacher-badge">Slides 2 &amp; 3 • 21 Key Terms</span>
+          </div>
+        </div>
+
+        <div class="travel-matrix-grid" id="session2CategoriesMatrixWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 4: English Tenses Review Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>⏳</span> English Tenses Review Lab &amp; Duration Contrast
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Detailed rules from student notebook pages 8–11: Present Simple, Continuous, Perfect vs Perfect Continuous, and Past Perfect.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session2_notebook_tenses3', 'Notebook Tenses Contrast', 'Student notebook page showing Present Perfect vs Perfect Continuous contrast.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Notebook Contrast
+            </button>
+            <span class="teacher-badge">Notebook Pages 8–11 • 5 Tenses</span>
+          </div>
+        </div>
+
+        <div class="tenses-lab-grid" id="session2TensesLabGrid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 5: Classroom Photo Hub (18 Photos) -->
+      <div style="display:none;" id="session2MediaHubBlock">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🖼️</span> Classroom Photo Hub: Smartboard Slides &amp; Student Notebooks
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              18 authentic classroom photos from your British Council Session 2 lesson (7 teacher smartboard slides and 11 handwritten notebook pages). Click any photo for high-res preview!
+            </p>
+          </div>
+          <span class="teacher-badge">18 Visual Artifacts</span>
+        </div>
+
+        <div class="media-hub-grid" id="session2MediaHubGrid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================
+         SESSION 3 MATERIALS: THE DECISION PROCESS, THIRD CONDITIONAL & REGRETS
+         ======================================================================== -->
+    <section class="content-block" id="session3Materials" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Session 3 Core Study Materials • Handout ARS_B1_05_I028CEA</span>
+          <h2 class="block-title">The Decision Process, Third Conditional &amp; Expressing Regret</h2>
+          <p class="block-desc">
+            Complete authentic British Council intermediate materials: Third Conditional imaginary past lab, 6 ways to express regret master matrix (Slide 16), speaker regret decision evaluation, time linkers chronological sequencing, teacher classroom language feedback (Slide 17), and 11 authentic classroom photos.
+          </p>
+        </div>
+      </div>
+
+      <!-- Module 1: Third Conditional Master Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+            <span>💡</span> Third Conditional Master Lab: Imagined Alternative Past
+          </h3>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session3_board_regret_eval', 'Third Conditional Slide', 'Teacher smartboard slide explaining third conditional structure.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Smartboard Slide
+            </button>
+            <span class="teacher-badge">Handout Page 2 &amp; Notebook Pages 3–4</span>
+          </div>
+        </div>
+
+        <!-- Formula Card -->
+        <div class="grammar-formula-card" style="margin-bottom:1.25rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <h4 style="font-size:1.15rem; color:var(--text-main);">
+              Third Conditional Formula &amp; Deduction Grammar Architecture
+            </h4>
+            <button class="audio-circle-btn" onclick="speakUK('Third conditional: If plus past perfect, would have plus past participle. We use it to imagine alternative past results and express regrets.')" title="Listen to Third Conditional rules">🔊</button>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem; font-size:0.88rem; line-height:1.5;">
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--bc-blue);">
+              <strong style="color:var(--bc-blue);">1. If-Clause (Past Condition)</strong><br>
+              <code>If + Past Perfect (had + V3)</code><br>
+              <em>"If I had studied harder..."</em> • <em>"If she hadn't moved abroad..."</em>
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--violet);">
+              <strong style="color:var(--violet);">2. Result Clause (Hypothetical Past)</strong><br>
+              <code>would / might / could have + V3</code><br>
+              <em>"...I would have passed the examination."</em>
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--emerald);">
+              <strong style="color:var(--emerald);">3. Contractions &amp; Weak Forms</strong><br>
+              In spoken British English, <em>would have</em> becomes <em>would've /wʊdəv/</em> with weak schwa /ə/.
+            </div>
+            <div style="background:var(--bg-surface); padding:0.85rem; border-radius:var(--radius-sm); border-left:3.5px solid var(--amber);">
+              <strong style="color:var(--amber);">4. Past Modal of Deduction</strong><br>
+              <code>must have + V3</code> (strong certainty based on evidence: <em>"It must have been an easy decision."</em> - ده استنتاج).
+            </div>
+          </div>
+        </div>
+
+        <!-- 8 Sentence Prompts from Handout Page 2 -->
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem; margin-bottom:1rem;">
+            <div>
+              <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main);">
+                Handout Activity: 8 Third Conditional Sentence Completions
+              </h4>
+              <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+                Complete the hypothetical outcome for each real-life scenario from Handout Page 2. Click 🔊 to hear natural spoken British delivery!
+              </p>
+            </div>
+          </div>
+          <div id="session3ThirdConditionalList" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">
+            <!-- Populated dynamically by app.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 2: The 6 Ways to Express Regret (Slide 16) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>📋</span> Other Ways to Express Regret (Teacher Smartboard Slide 16)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              The complete master matrix copied from Teacher Smartboard Slide 16 and student notebook page 5.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session3_board_ways_to_regret', 'Slide 16 Regret Table', 'Smartboard slide 16: other ways to express regretting table.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Table
+            </button>
+            <span class="teacher-badge">Slide 16 Master Table</span>
+          </div>
+        </div>
+
+        <div style="overflow-x:auto; background:var(--bg-surface); border:1px solid var(--border-subtle); border-radius:var(--radius-md); box-shadow:var(--shadow-sm);">
+          <table style="width:100%; border-collapse:collapse; text-align:left; font-size:0.88rem;">
+            <thead>
+              <tr style="background:var(--bg-subtle); border-bottom:2px solid var(--border-subtle);">
+                <th style="padding:0.75rem 1rem; color:var(--text-main); font-weight:700;">Grammar Structure</th>
+                <th style="padding:0.75rem 1rem; color:var(--text-main); font-weight:700;">Main Use</th>
+                <th style="padding:0.75rem 1rem; color:var(--text-main); font-weight:700;">Example Sentence</th>
+                <th style="padding:0.75rem 1rem; color:var(--text-main); font-weight:700;">Arabic Meaning</th>
+                <th style="padding:0.75rem 1rem; color:var(--text-main); font-weight:700;">Audio</th>
+              </tr>
+            </thead>
+            <tbody id="session3WaysToRegretBody">
+              <!-- Populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Module 3: Speaker Regret Evaluation Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>⚖️</span> Speaker Regret Evaluation Lab: Who Regrets Their Decision?
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              From Handout Page 2 &amp; Smartboard Slide 9: analyze what John, Alice, Wilson, and Grace said and evaluate whether they regret their choices.
+            </p>
+          </div>
+          <span class="teacher-badge">Slide 9 &amp; Handout Page 2</span>
+        </div>
+
+        <div class="indirect-practice-grid" id="session3RegretEvalGrid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 4: Time Linkers Chronological Sequencing -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>⏳</span> Time Linkers Chronological Sequencing Lab
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Handout Page 2 Activity 2: Put these life story time expressions into chronological order from past to present.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session3_board_time_linkers', 'Time Linkers Slide', 'Classroom smartboard slide 8: chronological time linkers.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Slide
+            </button>
+            <span class="teacher-badge">Handout Page 2 Activity 2</span>
+          </div>
+        </div>
+
+        <div id="session3TimeLinkersContainer" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:0.75rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 5: Teacher Language Feedback & Pronunciation Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>👨‍🏫</span> Classroom Language Feedback &amp; Pronunciation Lab
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Live teacher whiteboard notes from Slide 17 and phonetics board: common learner errors corrected, El Malahy terminology, and tricky English phonemes.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem; align-items:center;">
+            <button type="button" class="btn-outline-subtle" onclick="openLightbox('session3_board_theme_park', 'Slide 17 Feedback', 'Slide 17: language feedback and theme park vocabulary.')" style="font-size:0.78rem; padding:0.3rem 0.75rem;">
+              👁 Whiteboard Notes
+            </button>
+            <span class="teacher-badge">Slide 17 &amp; Phonetics Board</span>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+          <!-- Left: Grammar Feedback -->
+          <div class="study-card" style="border-top:4px solid var(--rose);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main);">Teacher Grammar &amp; Vocabulary Corrections</h4>
+              <span class="teacher-badge">17 Classroom Corrections</span>
+            </div>
+            <div id="session3GrammarFeedbackList" style="display:flex; flex-direction:column; gap:0.6rem;">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+
+          <!-- Right: Phonetics & Pronunciation -->
+          <div class="study-card" style="border-top:4px solid var(--bc-blue);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+              <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main);">Phonetics, Final S/Z &amp; Consonants Lab</h4>
+              <span class="teacher-badge">11 Sound Patterns</span>
+            </div>
+            <div id="session3PhoneticsList" style="display:flex; flex-direction:column; gap:0.6rem;">
+              <!-- Populated by app.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module 6: Theme Park (El Malahy) & Fairground Rides Lab (Slide 17 Extracted) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🎡</span> Theme Park (El Malahy) &amp; Fairground Rides Master Matrix
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Extracted directly from Teacher Smartboard Slide 17: precise English distinctions for 'El Malahy' and mechanical fairground rides.
+            </p>
+          </div>
+          <span class="teacher-badge">Slide 17 Extracted • 6 Key Terms</span>
+        </div>
+
+        <div id="session3AmusementParkWrap" class="travel-matrix-grid">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 7: Student Handwritten Class Notebook (All 5 Pages Transcribed) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>📝</span> Student Handwritten Class Notebook: All 5 Pages Transcribed
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Every handwritten vocabulary item, Arabic definition, deduction rule, and conditional diagram transcribed into clean interactive study cards with British audio.
+            </p>
+          </div>
+          <span class="teacher-badge">5 Handwritten Pages • 100% Transcribed</span>
+        </div>
+
+        <div id="session3NotebookPagesContainer" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================
+         SESSION 12 MATERIALS: CHARACTER ANALYSIS & ALPINE HOTEL RECRUITMENT
+         ======================================================================== -->
+    <section class="content-block" id="session12Materials" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Session 12 Core Study Materials • Handout ARB_B1_03_I053CEU</span>
+          <h2 class="block-title">Character Analysis, Alpine Hotel Recruitment &amp; Candidate Evaluation</h2>
+          <p class="block-desc">
+            Complete authentic British Council intermediate materials: Italian Alpine ski resort assistant manager job advert, character traits &amp; opposites master matrix, Peter Bogdovic recruitment candidate dossier, pair discussion labs with B1/B2 model answers, teacher classroom grammar error corrections (Slide 11.08.07), phonetics &amp; syllable stress clinic, and 3 student notebook transcriptions with natural British audio.
+          </p>
+        </div>
+      </div>
+
+      <!-- Module 0: Lead-in Activity: Describing Someone You Know (Handout Page 1 & Student Notebook Page 1) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🎯</span> Lead-in: Describing People You Know (Handout Page 1 &amp; Student Notebook Page 1)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Authentic classroom table: Age, Hobbies, Job, Character, Appearance with partner notes &amp; model description.
+            </p>
+          </div>
+          <span class="teacher-badge">Handout Page 1 • Lead-in</span>
+        </div>
+
+        <div id="session12LeadInWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 1: The Alpine Hotel Job Advert & Full Reading Passage -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🏨</span> The Alpine Hotel Job Advert &amp; Full Reading Passage (Handout Page 1 &amp; Slide 5)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Full authentic verbatim reading passage, keyword annotations, audio narration, and role requirements breakdown.
+            </p>
+          </div>
+          <span class="teacher-badge">Handout Page 1 • Slide 5 • Verbatim Reading</span>
+        </div>
+
+        <div id="session12JobAdvertWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 1.5: Language Focus Smartboard Matching Lab (Handout Page 2 & Slide 6) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🧩</span> Language Focus: Smartboard Matching Lab (Handout Page 2 &amp; Slide 6)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Match phrases 1–8 with character adjectives from the text: instant answers, explanations &amp; British speech.
+            </p>
+          </div>
+          <span class="teacher-badge">Handout Page 2 • Slide 6 • 8 Matches</span>
+        </div>
+
+        <div id="session12MatchingWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 2: Character Traits & Antonyms Master Matrix -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🎭</span> Character Traits &amp; Opposites Master Matrix (Slides 6 &amp; 7)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              11 core personality adjectives matched with opposites, Arabic equivalents, job context, and British audio.
+            </p>
+          </div>
+          <span class="teacher-badge">Slides 6 &amp; 7 • 11 Traits</span>
+        </div>
+
+        <div id="session12TraitsGrid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(290px, 1fr)); gap:1.15rem; margin-bottom:1.5rem;">
+          <!-- Populated by app.js -->
+        </div>
+
+        <!-- Punctuality vs Tardiness Whiteboard Clinic -->
+        <div id="session12PunctualityCard">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 3: Recruitment Candidate Evaluation Lab (Peter Bogdovic) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>📋</span> Recruitment Candidate Evaluation Lab: Peter Bogdovic (Candidate Profile)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Classroom candidate profile card from handout: evaluate Peter's background, ski coaching, language skills, back injury, and personality fit.
+            </p>
+          </div>
+          <span class="teacher-badge">Classroom Candidate Card</span>
+        </div>
+
+        <div id="session12CandidateWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 4: Discussion & Speaking Reflection Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>💬</span> Pair Discussion &amp; Reflection Speaking Lab (Slide 8)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              5 authentic British Council classroom discussion prompts with B1/B2 model answers and speech audio.
+            </p>
+          </div>
+          <span class="teacher-badge">Slide 8 • 5 Discussion Prompts</span>
+        </div>
+
+        <div id="session12DiscussionWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 5: Teacher Classroom Corrections & Language Clinic -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>👨‍🏫</span> Teacher Classroom Language Corrections Clinic (Slide 11.08.07)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              8 real learner grammar errors captured live on the smartboard and corrected by your British Council tutor.
+            </p>
+          </div>
+          <span class="teacher-badge">Slide 11.08.07 • 8 Corrections</span>
+        </div>
+
+        <div id="session12FeedbackWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 6: Pronunciation, Phonetics & Syllable Stress Clinic -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🎙️</span> Pronunciation, Phonetics &amp; Syllable Stress Clinic (Slide 11.08.07)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Extracted from smartboard phonetics clinic: syllable stress rules, vowel contrasts, and IPA British pronunciation.
+            </p>
+          </div>
+          <span class="teacher-badge">Phonetics Whiteboard Clinic • 6 Words</span>
+        </div>
+
+        <div id="session12PronunciationWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 7: Student Handwritten Class Notebook Transcriptions -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>📝</span> Student Handwritten Class Notebook: All 3 Pages Transcribed
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Every handwritten note, partner reflection, character opposite table, and Peter Bogdovic candidate assessment transcribed into interactive study cards with British audio.
+            </p>
+          </div>
+          <span class="teacher-badge">3 Handwritten Pages • 100% Transcribed</span>
+        </div>
+
+        <div id="session12NotebookWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ========================================================================
+         SESSION 13 MATERIALS: STORYTELLING & NARRATIVE TENSES
+         ======================================================================== -->
+    <section class="content-block" id="session13Materials" style="display:none;">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Session 13 Core Study Materials • Handout ARB_B1_01_I059CEU</span>
+          <h2 class="block-title">Storytelling, Narrative Tenses &amp; The Bizarre Stories Archive</h2>
+          <p class="block-desc">
+            Complete authentic British Council intermediate materials: Mystery opening line lead-in, 3 bizarre news stories (Magician &amp; Parrot, Airborne Cow, Speeding Sheep) verbatim with interactive title matching, True/False comprehension analysis, smartboard narrative tenses rules (Past Simple, Past Continuous, Past Perfect) and grammar timeline, interactive Fred the Dog smartboard practice, complete transcriptions of 2 student notebook pages (including the original student story "It Wasn't Me"), 6 creative storytelling speaking prompts with B1/B2 model narratives, and teacher live narrative tense corrections clinic.
+          </p>
+        </div>
+      </div>
+
+      <!-- Module 0: Lead-in Activity: Mystery Opening Line & Partner Notes -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🔮</span> Lead-in: Mystery Opening Line &amp; Story Conception (Handout Page 1 &amp; Notebook Page 1)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Analyze the classroom opening line prompt: <em>"It was 3 o'clock in the morning when the phone rang..."</em> with partner notes, questions, and narrative brainstorming.
+            </p>
+          </div>
+          <span class="teacher-badge">Handout Page 1 • Notebook Page 1</span>
+        </div>
+
+        <div id="session13LeadInWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 1: The Bizarre Stories Archive (Core Reading/Listening Passage) -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>📰</span> The Bizarre Stories Archive: Verbatim Reading &amp; Title Matching Lab (Handout Page 1)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Three authentic British Council reading passages (Story A: The Magician &amp; Parrot, Story B: Airborne Cow, Story C: Speeding Sheep) with interactive headline matching, keyword tooltips, and British audio narration.
+            </p>
+          </div>
+          <span class="teacher-badge">Handout Page 1 • 3 Verbatim Stories</span>
+        </div>
+
+        <div id="session13StoriesWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 2: Reading Comprehension & True/False Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>✅</span> Reading Comprehension &amp; True/False Lab (Handout Page 2)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Six authentic statements from Handout Page 2: test your comprehension with interactive True/False verification, textual evidence quotes, and Arabic explanations.
+            </p>
+          </div>
+          <span class="teacher-badge">Handout Page 2 • 6 Verification Tasks</span>
+        </div>
+
+        <div id="session13TrueFalseWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 3: Narrative Tenses Language Focus & Timeline Rules -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>⏳</span> Language Focus: Narrative Tenses &amp; Timeline Rules (Slide 11.08.08)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Smartboard grammar masterclass: Past Simple (main events in order), Past Continuous (background action in progress), and Past Perfect (action before another past action) with visual chronological timelines and Arabic pedagogical explanations.
+            </p>
+          </div>
+          <span class="teacher-badge">Slide 11.08.08 • Narrative Tenses</span>
+        </div>
+
+        <div id="session13GrammarWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 4: Smartboard Practice Clinic: Fred the Dog -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🐕</span> Live Smartboard Practice: The Tale of Fred the Dog (Slide 11.08.09)
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Interactive 10-gap narrative tense challenge from the classroom whiteboard: test your mastery of Past Simple, Past Continuous, and Past Perfect with instant validation and grammatical breakdown.
+            </p>
+          </div>
+          <span class="teacher-badge">Slide 11.08.09 • 10 Interactive Gaps</span>
+        </div>
+
+        <div id="session13PracticeWrap">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 5: Student Handwritten Class Notebook Transcriptions -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>📝</span> Student Handwritten Class Notebook: All 2 Pages Transcribed
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Every handwritten note transcribed verbatim: Page 1 opening line brainstorming &amp; story titles, and Page 2 original student story <em>"It Wasn't Me"</em> complete with realistic notebook styling and British audio.
+            </p>
+          </div>
+          <span class="teacher-badge">2 Handwritten Pages • 100% Transcribed</span>
+        </div>
+
+        <div id="session13NotebookWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 6: Discussion & Storytelling Speaking Lab -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>🗣️</span> Storytelling Speaking Lab: 6 Creative Prompts &amp; Model Narratives
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Six authentic British Council classroom storytelling prompts with expandable B1 and B2 model answers, narrative tense highlights, and natural British audio.
+            </p>
+          </div>
+          <span class="teacher-badge">6 Speaking Prompts • B1/B2 Model Narratives</span>
+        </div>
+
+        <div id="session13SpeakingWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Module 7: Teacher Live Corrections & Language Clinic -->
+      <div style="margin-bottom:2.5rem;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:1rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <h3 style="font-size:1.3rem; color:var(--text-main); display:flex; align-items:center; gap:0.5rem;">
+              <span>👨‍🏫</span> Teacher Live Corrections Clinic: Narrative Tense Mistakes
+            </h3>
+            <p style="font-size:0.86rem; color:var(--text-muted); margin:0.2rem 0 0;">
+              Real student narrative tense errors analyzed with classroom whiteboard styling: strikethroughs, tutor corrections, Arabic explanations, and pronunciation audio.
+            </p>
+          </div>
+          <span class="teacher-badge">Live Whiteboard Clinic • 6 Corrections</span>
+        </div>
+
+        <div id="session13ClinicWrap" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div style="max-width:800px; margin:0 auto; display:flex; flex-direction:column; gap:0.75rem;">
+      <div class="bc-brand-badge" style="margin:0 auto;">
+        <div class="bc-four-dots">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <span>BRITISH COUNCIL</span>
+      </div>
+      <p id="footerCourseText" style="font-size:0.9rem; color:var(--text-muted);">
+        Intermediate B1 Course • Session 11: Study Advice • Handout ID: <code>ARS_B1_08_I039CEU_HO_v1.0</code>
+      </p>
+      <p style="font-size:0.8rem; color:var(--text-muted);">
+        Fast, Responsive, Modular Web Application • 100% Netlify Ready.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MOBILE BOTTOM APP BAR (NATIVE APP FEEL ON PHONES)
+       ======================================================================== -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile Bottom Navigation">
+    <a href="#heroOverview" class="bottom-bar-item active">
+      <span class="bottom-icon">🎓</span>
+      <span>Sessions</span>
+    </a>
+    <a href="#part1Flashcards" class="bottom-bar-item">
+      <span class="bottom-icon">🃏</span>
+      <span>Cards</span>
+    </a>
+    <a href="#part2GapFill" class="bottom-bar-item">
+      <span class="bottom-icon">✍️</span>
+      <span>Solve</span>
+    </a>
+    <a href="#part4AllTest" class="bottom-bar-item">
+      <span class="bottom-icon">📝</span>
+      <span>Exam</span>
+    </a>
+    <a href="./stories.html" class="bottom-bar-item">
+      <span class="bottom-icon">📚</span>
+      <span>Stories</span>
+    </a>
+    <a href="./topics.html" class="bottom-bar-item">
+      <span class="bottom-icon">🌐</span>
+      <span>Topics</span>
+    </a>
+  </nav>
+
+  <!-- ========================================================================
+       LIGHTBOX MODAL FOR CLASSROOM PHOTOS & PORTAL SCREENSHOTS
+       ======================================================================== -->
+  <div id="imageLightboxModal" class="image-lightbox-modal" onclick="closeLightbox(event)">
+    <div class="lightbox-content-box" onclick="event.stopPropagation()">
+      <div class="lightbox-header">
+        <h4 id="lightboxTitle" style="font-size:1.05rem; font-weight:800; color:var(--text-main);">Classroom Material Preview</h4>
+        <button type="button" class="lightbox-close-btn" onclick="closeLightbox()">✕</button>
+      </div>
+      <div class="lightbox-img-wrap">
+        <img id="lightboxImg" src="" alt="British Council Material">
+      </div>
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODULAR JAVASCRIPT BUNDLE (NETLIFY / STATIC HOST COMPATIBLE)
+       ======================================================================== -->
+  <script src="./js/data.js"></script>
+  <script src="./js/stories_and_topics.js"></script>
+  <script src="./js/animations.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

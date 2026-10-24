@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>British Council Major Topics &amp; Videos | Video Studio &amp; Testing Hub</title>
+  <meta name="description" content="Master British Council Major Topics: Travel, Sports, Reading, and Seasons. Watch YouTube lessons, practice with bilingual transcripts, and test vocabulary with 4 interactive games.">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP NAVIGATION BAR WITH 3-PILLAR SWITCHER & HAMBURGER SYSTEM
+       ======================================================================== -->
+  <header class="app-toolbar" id="topToolbar">
+    <div class="toolbar-wrap">
+      
+      <!-- Left: Logo -->
+      <div class="toolbar-left">
+        <a href="./index.html" class="bc-brand-badge" title="British Council Courseware" style="text-decoration:none;">
+          <div class="bc-four-dots">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <span class="bc-title-text">BRITISH COUNCIL</span>
+        </a>
+      </div>
+
+      <!-- Center: 3-Pillar Switcher (Direct access to all 3 parts of the app) -->
+      <nav class="toolbar-nav-links" aria-label="3 Pillars Navigation">
+        <div class="pillar-nav-track">
+          <a href="./index.html" class="pillar-tab-btn" id="navPillarSessions">
+            <span>🎓</span>
+            <span>Sessions</span>
+            <span class="pillar-badge">11</span>
+          </a>
+          <a href="./stories.html" class="pillar-tab-btn" id="navPillarStories">
+            <span>📚</span>
+            <span>Stories</span>
+            <span class="pillar-badge">2</span>
+          </a>
+          <a href="./topics.html" class="pillar-tab-btn active" id="navPillarTopics">
+            <span>🌐</span>
+            <span>Topics &amp; Videos</span>
+            <span class="pillar-badge">4</span>
+          </a>
+        </div>
+      </nav>
+
+      <!-- Right Tools: UK Voice, Theme Toggle, Mobile Hamburger Menu -->
+      <div class="toolbar-right-tools">
+        <button id="britishAccentTestBtn" class="voice-tool-btn" title="British Voice Speech Test" aria-label="British Voice Test">
+          <span class="voice-flag">🇬🇧</span>
+          <span class="voice-label">UK Voice</span>
+          <div class="audio-wave-pulse" id="toolbarAudioWave">
+            <span></span><span></span><span></span>
+          </div>
+        </button>
+        <button id="toggleThemeBtn" class="theme-tool-btn" title="Toggle Light / Dark Mode" aria-label="Toggle Theme">
+          <span id="themeSymbol">🌙</span>
+        </button>
+        <button id="btnMobileToggle" class="menu-mobile-btn" aria-label="Open 3-Part Navigation Menu" aria-expanded="false">☰</button>
+      </div>
+
+    </div>
+
+    <!-- ========================================================================
+         UNIFIED 3-PART HAMBURGER DRAWER SYSTEM
+         ======================================================================== -->
+    <div id="mobileDrawerMenu" class="mobile-menu-drawer" aria-label="Site Navigation Drawer">
+      <div class="drawer-header">
+        <div class="bc-brand-badge">
+          <div class="bc-four-dots">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <span>NAVIGATION MENU</span>
+        </div>
+        <button type="button" class="drawer-close-btn" id="btnDrawerClose">✕</button>
+      </div>
+
+      <div class="drawer-scroll-body">
+        <!-- PART 1: COURSE SESSIONS -->
+        <div class="drawer-part-group">
+          <div class="drawer-part-title">
+            <span>🎓 PART 1: COURSE SESSIONS</span>
+            <span class="part-badge">12 Sessions</span>
+          </div>
+          <a href="./index.html" class="drawer-item-link">
+            <span class="drawer-item-icon">📂</span>
+            <div class="drawer-item-text">
+              <strong>All Course Sessions Hub</strong>
+              <small>Sessions 1, 2, 3, 10, 11, 12 Handouts &amp; Testing</small>
+            </div>
+          </a>
+          <div class="drawer-sublinks-grid">
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '1')">Session 1</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '2')">Session 2</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '3')">Session 3</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '10')">Session 10</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '11')">Session 11</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '12')">Session 12</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '4')">Session 4</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '5')">Session 5</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '6')">Session 6</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '7')">Session 7</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '8')">Session 8</a>
+            <a href="./index.html" class="drawer-chip-link" onclick="localStorage.setItem('bc_active_session', '9')">Session 9</a>
+          </div>
+        </div>
+
+        <!-- PART 2: BRITISH COUNCIL STORIES -->
+        <div class="drawer-part-group">
+          <div class="drawer-part-title">
+            <span>📚 PART 2: GRADED STORIES</span>
+            <span class="part-badge">A2/B1 Stories</span>
+          </div>
+          <a href="./stories.html?story=bad_blood" class="drawer-item-link">
+            <span class="drawer-item-icon">🧛‍♂️</span>
+            <div class="drawer-item-text">
+              <strong>Bad Blood</strong>
+              <small>Full Story • 32 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./stories.html?story=first_star" class="drawer-item-link">
+            <span class="drawer-item-icon">✨</span>
+            <div class="drawer-item-text">
+              <strong>First Star I See Tonight</strong>
+              <small>Full Story • 32 Words • 4 Testing Games</small>
+            </div>
+          </a>
+        </div>
+
+        <!-- PART 3: MAJOR TOPICS & VIDEOS -->
+        <div class="drawer-part-group">
+          <div class="drawer-part-title">
+            <span>🌐 PART 3: MAJOR TOPICS &amp; VIDEOS</span>
+            <span class="part-badge">YouTube Lessons</span>
+          </div>
+          <a href="./topics.html?topic=travel_and_exploration" class="drawer-item-link" onclick="switchTopic('travel_and_exploration')">
+            <span class="drawer-item-icon">✈️</span>
+            <div class="drawer-item-text">
+              <strong>Travel &amp; Exploration</strong>
+              <small>Video Lesson • 30 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./topics.html?topic=sports_and_athletics" class="drawer-item-link" onclick="switchTopic('sports_and_athletics')">
+            <span class="drawer-item-icon">⚽</span>
+            <div class="drawer-item-text">
+              <strong>Sports &amp; Fitness</strong>
+              <small>Video Lesson • 34 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./topics.html?topic=reading_and_books" class="drawer-item-link" onclick="switchTopic('reading_and_books')">
+            <span class="drawer-item-icon">📚</span>
+            <div class="drawer-item-text">
+              <strong>Reading &amp; Books</strong>
+              <small>Video Lesson • 42 Words • 4 Testing Games</small>
+            </div>
+          </a>
+          <a href="./topics.html?topic=seasons_and_weather" class="drawer-item-link" onclick="switchTopic('seasons_and_weather')">
+            <span class="drawer-item-icon">🌦️</span>
+            <div class="drawer-item-text">
+              <strong>Seasons &amp; Weather</strong>
+              <small>Video Lesson • 35 Words • 4 Testing Games</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN APPLICATION WORKSPACE (MIRRORS SESSIONS PAGE LAYOUT & BEAUTY)
+       ======================================================================== -->
+  <main class="main-page-container">
+    
+    <!-- Topic Switcher Bar (Travel, Sports, Books, Seasons) -->
+    <div class="hub-sub-switcher" aria-label="Topic Selector" style="margin-bottom:1.5rem;">
+      <button type="button" class="hub-choice-btn active" data-topic="travel_and_exploration">
+        <span class="hub-choice-icon">✈️</span>
+        <div class="hub-choice-info">
+          <strong>Travel &amp; Exploration</strong>
+          <small>A2 Listening • 30 Words</small>
+        </div>
+      </button>
+      <button type="button" class="hub-choice-btn" data-topic="sports_and_athletics">
+        <span class="hub-choice-icon">⚽</span>
+        <div class="hub-choice-info">
+          <strong>Sports &amp; Fitness</strong>
+          <small>A2 Listening • 34 Words</small>
+        </div>
+      </button>
+      <button type="button" class="hub-choice-btn" data-topic="reading_and_books">
+        <span class="hub-choice-icon">📚</span>
+        <div class="hub-choice-info">
+          <strong>Reading &amp; Books</strong>
+          <small>A2 Listening • 42 Words</small>
+        </div>
+      </button>
+      <button type="button" class="hub-choice-btn" data-topic="seasons_and_weather">
+        <span class="hub-choice-icon">🌦️</span>
+        <div class="hub-choice-info">
+          <strong>Seasons &amp; Weather</strong>
+          <small>A2 Listening • 35 Words</small>
+        </div>
+      </button>
+    </div>
+
+    <!-- Active Topic Hero Banner (Matches Sessions .hero-panel) -->
+    <section class="hero-panel" id="topicHeroBanner">
+      <!-- Dynamically rendered by renderTopicHero() in topics_page.js -->
+    </section>
+
+    <!-- Quick Section Anchors Track -->
+    <nav class="section-quick-bar" aria-label="Topic Section Navigation">
+      <a href="#videoStudioSec" class="section-quick-link active">🎬 Video &amp; Transcript</a>
+      <a href="#part1Flashcards" class="section-quick-link">🃏 Part 1: Flashcards</a>
+      <a href="#part2GapFill" class="section-quick-link">✍️ Part 2: Sentence Solve</a>
+      <a href="#part3Connect" class="section-quick-link">🔗 Part 3: Connect &amp; Match</a>
+      <a href="#part4AllTest" class="section-quick-link">📝 Part 4: Final Exam</a>
+      <a href="#topicVocabSec" class="section-quick-link">🔤 Topic Lexicon</a>
+    </nav>
+
+    <!-- ========================================================================
+         SECTION 1: VIDEO STUDIO & INTERACTIVE BILINGUAL TRANSCRIPT
+         ======================================================================== -->
+    <section class="content-block" id="videoStudioSec">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Authentic YouTube Lesson</span>
+          <h2 class="block-title" id="videoStudioTitle">Video Studio &amp; Bilingual Transcript</h2>
+          <p class="block-desc" id="videoStudioSubtitle">
+            Watch the full British Council video lesson with live player and synced bilingual transcript in English and Arabic.
+          </p>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div id="videoStudioGrid" class="video-studio-grid">
+          <!-- Populated by renderVideoStudio() in topics_page.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 2: PART 1 - 3D INTERACTIVE FLASHCARDS (WITH TIMER & TOUCH)
+         ======================================================================== -->
+    <section class="content-block" id="part1Flashcards">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 1 • Word Explanations</span>
+          <h2 class="block-title">3D Flashcards with Timer, Gestures &amp; British Audio</h2>
+          <p class="block-desc">
+            Master every topic vocabulary word with Cambridge CEFR ratings, clear English definitions, and authentic example sentences.
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+          <span id="streakBadge" class="pill-counter" style="color:var(--amber); border-color:var(--amber);">🔥 Streak: 0</span>
+          <span id="masteredBadge" class="pill-counter">0 / 30 Mastered</span>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <!-- Timer Bar -->
+        <div class="timer-action-bar">
+          <div class="timer-badge-group">
+            <span style="font-size:0.8rem; font-weight:800; color:var(--text-muted);">SPEED TIMER:</span>
+            <span id="flashcardTimerDisplay" class="countdown-timer-text">⏱ 15s</span>
+            <select id="flashcardTimerSelect" class="timer-selector" aria-label="Timer Duration">
+              <option value="10">10s (Sprint)</option>
+              <option value="15" selected>15s (Standard)</option>
+              <option value="25">25s (Relaxed)</option>
+              <option value="0">Off (No Timer)</option>
+            </select>
+            <button id="btnPauseTimer" class="btn-outline-subtle" style="padding:0.2rem 0.6rem; font-size:0.78rem;">⏸ Pause</button>
+          </div>
+          <button id="btnMarkMastered" class="btn-outline-subtle" style="color:var(--emerald); border-color:var(--emerald);">
+            ☆ Mark Mastered
+          </button>
+        </div>
+
+        <!-- Card Mode Toggle -->
+        <div class="card-mode-toggle-bar">
+          <span class="mode-toggle-label">Start Each Card With:</span>
+          <div class="segmented-control" role="group" aria-label="Default Front Side Preference">
+            <button type="button" id="btnModeDefFirst" class="segment-btn active" data-side="defFirst">
+              📖 Definition First
+            </button>
+            <button type="button" id="btnModeWordFirst" class="segment-btn" data-side="wordFirst">
+              🔤 Word First
+            </button>
+          </div>
+        </div>
+
+        <!-- 3D Card Stage (Exact match to Sessions) -->
+        <div class="flashcard-stage-center">
+          <div class="flashcard-3d-viewport" id="cardViewport" title="Click or swipe on card to flip">
+            <div class="flashcard-flipper" id="cardFlipper">
+              
+              <!-- FRONT PLANE -->
+              <div class="card-plane card-plane-front" id="cardPlaneFront">
+                <!-- Rendered dynamically -->
+              </div>
+
+              <!-- BACK PLANE -->
+              <div class="card-plane card-plane-back" id="cardBackPlane">
+                <!-- Rendered dynamically -->
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Navigation Controls -->
+          <div class="flashcard-controls-row">
+            <button id="btnPrevWord" class="btn-outline-subtle">◀ Prev</button>
+            <span id="cardStepBadge" class="pill-counter">1 / 30</span>
+            <button id="btnFlipCardManual" class="btn-solid-blue">🔄 Flip</button>
+            <button id="btnNextWord" class="btn-outline-subtle">Next ▶</button>
+            <button id="btnShuffleWords" class="btn-outline-subtle">🔀 Shuffle</button>
+          </div>
+
+          <!-- Extra Audio Tools -->
+          <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-top:0.5rem;">
+            <button class="btn-outline-subtle" id="btnAudioPrompt" style="font-size:0.8rem; padding:0.35rem 0.8rem;">🔊 Read Prompt</button>
+            <button class="btn-outline-subtle" id="btnAudioWord" style="font-size:0.8rem; padding:0.35rem 0.8rem;">🔊 Read Word</button>
+            <button class="btn-outline-subtle" id="btnAudioSentence" style="font-size:0.8rem; padding:0.35rem 0.8rem;">🔊 Read Sentence</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 3: PART 2 - SENTENCE GAP-FILL CHALLENGE (ACTIVE SOLVING)
+         Replaces blind luck flip game with real learning & recall!
+         ======================================================================== -->
+    <section class="content-block" id="part2GapFill">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 2 • Contextual Recall Challenge</span>
+          <h2 class="block-title">Sentence Gap-Fill &amp; Solving Challenge</h2>
+          <p class="block-desc">
+            Complete the authentic sentence from the lesson. Test your memory, vocabulary application, and contextual understanding!
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+          <span id="gapfillScoreBadge" class="pill-counter" style="color:var(--emerald); border-color:var(--emerald);">Solved: 0 / 30</span>
+          <span id="gapfillStreakBadge" class="pill-counter" style="color:var(--amber); border-color:var(--amber);">Streak: 0 🔥</span>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div class="gapfill-game-box">
+          <div class="gapfill-stats-bar">
+            <span id="gapfillCounter" style="font-weight:800; color:var(--bc-blue);">Sentence 1 of 30</span>
+            <div style="display:flex; gap:0.5rem;">
+              <button type="button" class="btn-outline-subtle" id="btnGapfillShuffle" style="padding:0.3rem 0.8rem; font-size:0.82rem;">🔀 Shuffle</button>
+              <button type="button" class="btn-outline-subtle" id="btnGapfillNext" style="padding:0.3rem 0.8rem; font-size:0.82rem;">Next Sentence ▶</button>
+            </div>
+          </div>
+
+          <!-- Sentence Target Box -->
+          <div class="gapfill-sentence-card">
+            <div id="gapfillSentenceDisplay" class="gapfill-sentence-text">
+              <!-- Rendered by JS -->
+            </div>
+            <div class="gapfill-hint-box" id="gapfillHintDisplay">
+              <!-- Clue & Definition hint -->
+            </div>
+          </div>
+
+          <!-- 4 Interactive Choice Buttons -->
+          <div class="gapfill-options-grid" id="gapfillOptionsGrid">
+            <!-- Rendered by JS -->
+          </div>
+
+          <!-- Feedback notification -->
+          <div id="gapfillFeedbackPane" class="gapfill-feedback-pane" style="display:none;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 4: PART 3 - TEST & CONNECT (WORD-TO-DEFINITION MATCH)
+         ======================================================================== -->
+    <section class="content-block" id="part3Connect">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 3 • Active Association Lab</span>
+          <h2 class="block-title">Word-to-Definition Connection Test</h2>
+          <p class="block-desc">
+            Select a word in Column 1, then click its corresponding definition in Column 2. Correct pairs lock together with checkmarks and British audio!
+          </p>
+        </div>
+        <div>
+          <span id="connectScoreBadge" class="pill-counter" style="color:var(--emerald); border-color:var(--emerald);">Connected: 0 / 6</span>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.85rem; margin-bottom:1rem;">
+          <p style="font-size:0.88rem; color:var(--text-muted); margin:0;">
+            💡 <em>Step 1: Click any word on the left. Step 2: Click its matching definition on the right.</em>
+          </p>
+          <button id="btnRefreshConnect" class="btn-outline-subtle" style="padding:0.35rem 0.85rem; font-size:0.82rem;">
+            🔀 Load New 6 Words
+          </button>
+        </div>
+
+        <div class="connect-split-layout">
+          <!-- Column 1: Words -->
+          <div class="connect-col" id="connectWordsCol">
+            <span class="connect-col-title">Column 1: Words</span>
+          </div>
+
+          <!-- Column 2: Definitions -->
+          <div class="connect-col" id="connectDefsCol">
+            <span class="connect-col-title">Column 2: English Definitions</span>
+          </div>
+        </div>
+
+        <div id="connectSuccessAlert" style="display:none; padding:1rem; border-radius:var(--radius-md); background:var(--emerald-bg); color:var(--emerald); font-weight:700; text-align:center; margin-top:1.25rem;">
+          🎉 Outstanding! All pairs in this set are connected! Click "Load New 6 Words" to practice the next batch.
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 5: PART 4 - ALL-WORDS COMPREHENSIVE FINAL EXAM
+         ======================================================================== -->
+    <section class="content-block" id="part4AllTest">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Part 4 • Comprehensive Evaluation</span>
+          <h2 class="block-title" id="part4ExamHeaderTitle">All-Words Final Exam</h2>
+          <p class="block-desc" id="part4ExamDesc">
+            Test yourself on every single word from this video lesson with instant grading, Cambridge explanations, and final score.
+          </p>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <div class="full-test-card" id="examActiveQuizBox">
+          <div class="test-status-bar">
+            <span id="testQuestionIndex" class="test-q-counter">Question 1 of 30</span>
+            <span id="testScoreDisplay" class="pill-counter" style="color:var(--emerald);">Score: 0</span>
+          </div>
+
+          <h3 class="test-lead-prompt" id="testLeadPrompt">Which vocabulary word matches this definition?</h3>
+          
+          <div class="test-choices-list" id="testChoicesList">
+            <!-- 4 Options populated dynamically -->
+          </div>
+
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top:1.5rem;">
+            <button id="btnExamPrevQuestion" class="btn-outline-subtle" style="font-size:0.85rem;">◀ Previous</button>
+            <button id="btnRestartFullTest" class="btn-outline-subtle" style="font-size:0.85rem;">↺ Restart Exam</button>
+          </div>
+        </div>
+
+        <!-- Exam Results Card -->
+        <div id="examResultsBox" style="display:none; text-align:center; padding:3rem 1.5rem;">
+          <div style="font-size:4rem; margin-bottom:0.75rem;">🏆</div>
+          <h3 style="font-size:2rem; font-weight:900; color:var(--text-main); margin-bottom:0.5rem;">Topic Exam Completed!</h3>
+          <div id="examFinalScore" style="font-size:3.5rem; font-weight:900; color:var(--bc-blue); margin-bottom:0.75rem;">100%</div>
+          <p id="examScoreDetail" style="font-size:1.05rem; color:var(--text-body); max-width:550px; margin:0 auto 2rem;"></p>
+          <button type="button" class="btn-solid-blue" id="btnRestartExamDone" style="padding:0.75rem 2rem; font-size:1rem; border-radius:var(--radius-full);">
+            ↺ Retake Topic Exam
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 6: TOPIC MATERIALS & FULL VOCABULARY LEXICON
+         ======================================================================== -->
+    <section class="content-block" id="topicVocabSec">
+      <div class="block-header">
+        <div>
+          <span class="block-tag">Cambridge CEFR Lexicon</span>
+          <h2 class="block-title">🔤 Topic Vocabulary Lexicon &amp; Reference</h2>
+          <p class="block-desc">
+            Complete lexicon extracted directly from the video lesson with Cambridge CEFR ratings, Arabic translations, definitions, and workplace examples.
+          </p>
+        </div>
+      </div>
+
+      <div class="part-panel-box">
+        <!-- Matrix Filter & Search Bar Panel -->
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem; background:var(--bg-subtle); border:1px solid var(--border-light); padding:0.85rem 1.25rem; border-radius:var(--radius-md);">
+          <div class="cefr-filter-bar" id="topicCefrFilterBar" style="margin-bottom:0;">
+            <button type="button" class="cefr-pill-btn active" data-level="ALL" onclick="setTopicCefrFilter('ALL')">All Words</button>
+            <button type="button" class="cefr-pill-btn" data-level="C1" onclick="setTopicCefrFilter('C1')">🔴 C1 Advanced</button>
+            <button type="button" class="cefr-pill-btn" data-level="B2" onclick="setTopicCefrFilter('B2')">🟠 B2 Upper-Int</button>
+            <button type="button" class="cefr-pill-btn" data-level="B1" onclick="setTopicCefrFilter('B1')">🟢 B1 Intermediate</button>
+            <button type="button" class="cefr-pill-btn" data-level="A2" onclick="setTopicCefrFilter('A2')">🔵 A2 Pre-Int</button>
+          </div>
+          <div style="flex:1; max-width:340px; min-width:220px;">
+            <input type="text" id="topicVocabSearchInput" class="filter-input" placeholder="🔍 Search words, Arabic, definitions..." oninput="onTopicVocabSearch(this.value)">
+          </div>
+        </div>
+
+        <div class="topic-vocab-grid" id="topicVocabGrid">
+          <!-- Rendered by renderTopicVocabGrid() in topics_page.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       SITE FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div style="max-width:800px; margin:0 auto; display:flex; flex-direction:column; gap:0.75rem; text-align:center;">
+      <div class="bc-brand-badge" style="margin:0 auto;">
+        <div class="bc-four-dots">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <span>BRITISH COUNCIL MAJOR TOPICS &amp; VIDEOS</span>
+      </div>
+      <p style="font-size:0.9rem; color:var(--text-muted); margin:0;">
+        Interactive English Video Studio • Official YouTube A2 Listening Series • 4 Complete Modules
+      </p>
+      <p style="font-size:0.8rem; color:var(--text-muted); margin:0;">
+        Fast, Responsive, Modular Web Application • 100% Netlify Compatible.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MOBILE BOTTOM APP BAR
+       ======================================================================== -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile Bottom Navigation">
+    <a href="./index.html" class="bottom-bar-item">
+      <span class="icon">🎓</span>
+      <span>Sessions</span>
+    </a>
+    <a href="#videoStudioSec" class="bottom-bar-item active">
+      <span class="icon">🎬</span>
+      <span>Video</span>
+    </a>
+    <a href="#part1Flashcards" class="bottom-bar-item">
+      <span class="icon">🃏</span>
+      <span>Cards</span>
+    </a>
+    <a href="#part2GapFill" class="bottom-bar-item">
+      <span class="icon">✍️</span>
+      <span>Solve</span>
+    </a>
+    <a href="#part4AllTest" class="bottom-bar-item">
+      <span class="icon">📝</span>
+      <span>Exam</span>
+    </a>
+    <a href="./stories.html" class="bottom-bar-item">
+      <span class="icon">📚</span>
+      <span>Stories</span>
+    </a>
+  </nav>
+
+  <!-- Scripts -->
+  <script src="./js/stories_and_topics.js"></script>
+  <script src="./js/animations.js"></script>
+  <script src="./js/topics_page.js"></script>
+</body>
+</html>
