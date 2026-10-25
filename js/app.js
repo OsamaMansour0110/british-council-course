@@ -483,11 +483,13 @@ function initSessionsDropdown() {
   const notice = document.getElementById('sessionNotice');
   const numSpan = document.getElementById('sessionNumberDisplay');
 
+  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14'];
+
   if (select) {
     select.value = currentSessionId;
     select.addEventListener('change', () => {
       const val = select.value;
-      if (val === '1' || val === '2' || val === '3' || val === '10' || val === '11' || val === '12' || val === '13') {
+      if (activeSessions.includes(val)) {
         if (notice) notice.classList.remove('active');
         switchSession(val);
       } else {
@@ -508,7 +510,7 @@ function initSessionsDropdown() {
     mobSelect.value = currentSessionId;
     mobSelect.addEventListener('change', () => {
       const val = mobSelect.value;
-      if (val === '1' || val === '2' || val === '3' || val === '10' || val === '11' || val === '12' || val === '13') {
+      if (activeSessions.includes(val)) {
         if (notice) notice.classList.remove('active');
         switchSession(val);
       } else {
