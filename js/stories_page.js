@@ -217,19 +217,31 @@ function renderStoryReader() {
   const story = STORIES_DATA[currentStoryId];
   if (!container || !story) return;
 
-  if (countBadge) countBadge.textContent = `${story.paragraphs.length} Paragraphs`;
-
-  container.innerHTML = story.paragraphs.map((p, idx) => `
-    <div class="story-para-row" id="storyParaRow_${idx}">
-      <button class="para-audio-btn" onclick="speakStoryParagraph(${idx})" title="Listen to this paragraph in British English">
-        🔊
-      </button>
-      <div class="story-para-text">
-        <span class="para-num">${idx + 1}</span>
-        ${escapeHtml(p)}
+  let paraCounter = 1;
+  container.innerHTML = story.paragraphs.map((p, idx) => {
+    const trimmed = (p || '').trim();
+    if (trimmed === '...' || trimmed === '…' || trimmed === '***') {
+      return `
+        <div class="story-scene-break" style="display:flex; align-items:center; justify-content:center; gap:1.25rem; margin:2.25rem 0; color:var(--bc-blue); opacity:0.85;">
+          <span style="height:1px; flex:1; max-width:140px; background:linear-gradient(to right, transparent, var(--border-light));"></span>
+          <span style="font-size:1.1rem; letter-spacing:8px; font-weight:800; color:var(--bc-blue);">✦ ✦ ✦</span>
+          <span style="height:1px; flex:1; max-width:140px; background:linear-gradient(to left, transparent, var(--border-light));"></span>
+        </div>
+      `;
+    }
+    const currentNum = paraCounter++;
+    return `
+      <div class="story-para-row" id="storyParaRow_${idx}">
+        <button class="para-audio-btn" onclick="speakStoryParagraph(${idx})" title="Listen to paragraph ${currentNum}">
+          🔊
+        </button>
+        <div class="story-para-text">
+          <span class="para-num">${currentNum}</span>
+          ${escapeHtml(p)}
+        </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 function speakStoryParagraph(idx) {
@@ -1179,14 +1191,90 @@ function renderStoryVocabGrid() {
 }
 
 /* --------------------------------------------------------------------------
-   12. INTERACTIVE COMPREHENSION TASKS
+   12. INTERACTIVE COMPREHENSION TASKS & GOLD STANDARD STUDY LAB
    -------------------------------------------------------------------------- */
+function getStoryTasksList(story) {
+  if (!story || !story.tasks) return [];
+  if (Array.isArray(story.tasks)) return story.tasks;
+
+  const list = [];
+  const t = story.tasks;
+
+  // 1. Preparation Matching Task
+  if (t.prep && Array.isArray(t.prep) && t.prep.length) {
+    const allDefs = t.prep.map(item => item.def);
+    list.push({
+      type: 'matching',
+      title: 'Preparation: Vocabulary Matching',
+      instructions: 'Match the target vocabulary words from the story with their authentic British Council definitions.',
+      questions: t.prep.map((item, idx) => ({
+        num: idx + 1,
+        term: item.word,
+        meaning: item.def,
+        options: [...allDefs].sort(() => Math.random() - 0.5)
+      }))
+    });
+  }
+
+  // 2. Reading Comprehension True / False Task
+  const tfData = t.task1_tf || t.task2_tf;
+  if (tfData && Array.isArray(tfData) && tfData.length) {
+    list.push({
+      type: 'true_false',
+      title: 'Task 1: Reading Comprehension (True / False)',
+      instructions: 'Read the statements carefully and decide whether they are True or False according to the story narrative.',
+      questions: tfData.map((item, idx) => ({
+        num: idx + 1,
+        statement: item.q,
+        correct: item.ans ? 'True' : 'False'
+      }))
+    });
+  }
+
+  // 3. Chronological Ordering Task
+  const orderData = t.task2_order || t.task1_order;
+  if (orderData && Array.isArray(orderData) && orderData.length) {
+    list.push({
+      type: 'ordering',
+      title: 'Task 2: Story Chronology & Event Sequencing',
+      instructions: 'Review the story milestones and select their correct chronological order (1 to ' + orderData.length + ').',
+      events: orderData.map((item, idx) => ({
+        originalNum: item.num || (idx + 1),
+        text: item.text
+      }))
+    });
+  }
+
+  return list;
+}
+
 function renderStoryTasks() {
   const container = document.getElementById('storyTasksContainer');
   const story = STORIES_DATA[currentStoryId];
   if (!container || !story) return;
 
-  container.innerHTML = (story.tasks || []).map((task, tIdx) => {
+  const tasksList = getStoryTasksList(story);
+
+  // Story Checklist Items from authentic study reference
+  const checklistItems = currentStoryId === 'bad_blood' ? [
+    "I understand the romantic restaurant proposal scene and David's sudden nervousness.",
+    "I can explain the double-meaning dialogue outside the bathroom ('Which one?').",
+    "I follow how the vampire stalks the couple into their apartment flat.",
+    "I understand the dark comedy when David and Emma beg the vampire to attack each other.",
+    "I know the meaning of target words: bickering, shallow, disintegrate, façade, sacrifice, bitter blame-game.",
+    "I can explain the punchline: why the vampire cries 'BAD BLOOD!' and flees in disgust."
+  ] : [
+    "I can summarize Tomas's breakthrough in the particle accelerator laboratory.",
+    "I understand why the courtroom prosecution charges Tomas with turning out the night sky.",
+    "I can explain the light travel timeline across the galaxy (1,596 nights wave).",
+    "I follow the emotional turning point when Tomas watches the night sky four years later.",
+    "I know the meaning of target words: galaxy, prosecution, particle accelerator, twinkle, photon, guilty.",
+    "I understand why Tomas feels tears of joy and makes a wish when the first star reappears."
+  ];
+
+  const savedChecklist = JSON.parse(localStorage.getItem(`bc_story_checklist_${currentStoryId}`) || '{}');
+
+  const tasksHtml = tasksList.map((task, tIdx) => {
     if (task.type === 'matching') {
       return `
         <div class="comprehension-card" id="storyTask_${tIdx}">
@@ -1242,9 +1330,103 @@ function renderStoryTasks() {
           </div>
         </div>
       `;
+    } else if (task.type === 'ordering') {
+      return `
+        <div class="comprehension-card" id="storyTask_${tIdx}">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+            <div>
+              <span style="font-size:0.75rem; font-weight:800; color:var(--bc-blue); text-transform:uppercase;">TASK ${tIdx + 1} • CHRONOLOGICAL ORDERING</span>
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.25rem 0;">${escapeHtml(task.title)}</h4>
+            </div>
+            <button type="button" class="btn-solid-blue" style="font-size:0.8rem; padding:0.35rem 0.85rem;" onclick="evaluateStoryOrderTask(${tIdx})">
+              Check Order
+            </button>
+          </div>
+          <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1rem;">${escapeHtml(task.instructions)}</p>
+
+          <div style="display:flex; flex-direction:column; gap:0.65rem;">
+            ${task.events.map((ev, eIdx) => `
+              <div class="task-q-row" id="orderRow_${tIdx}_${eIdx}">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem;">
+                  <span style="flex:1; min-width:240px; font-size:0.92rem; color:var(--text-main);">${escapeHtml(ev.text)}</span>
+                  <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <label style="font-size:0.8rem; font-weight:700; color:var(--text-muted);">Step:</label>
+                    <select class="filter-input task-order-select" id="orderSelect_${tIdx}_${eIdx}" data-correct="${ev.originalNum}" style="width:90px; padding:0.3rem 0.5rem;">
+                      <option value="">--</option>
+                      ${task.events.map((_, numIdx) => `<option value="${numIdx + 1}">${numIdx + 1}</option>`).join('')}
+                    </select>
+                  </div>
+                </div>
+                <div class="task-feedback-msg" id="orderFeedback_${tIdx}_${eIdx}" style="display:none;"></div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
     }
     return '';
   }).join('');
+
+  // Checklist Card
+  const checklistHtml = `
+    <div class="comprehension-card" style="background:linear-gradient(135deg, rgba(0,102,245,0.04) 0%, rgba(2,132,199,0.04) 100%); border-left:4px solid var(--bc-blue);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+        <div>
+          <span style="font-size:0.75rem; font-weight:800; color:var(--bc-blue); text-transform:uppercase;">SELF-ASSESSMENT • GOLD STANDARD</span>
+          <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.25rem 0;">📋 Story Mastery Checklist &amp; Learning Goals</h4>
+        </div>
+        <span class="pill-counter" id="checklistProgressBadge" style="font-size:0.8rem; color:var(--emerald);">
+          0 / ${checklistItems.length} Checked
+        </span>
+      </div>
+      <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1rem;">
+        Track your comprehension milestones for <em>${escapeHtml(story.title)}</em>. Progress is saved automatically.
+      </p>
+
+      <div style="display:flex; flex-direction:column; gap:0.6rem;">
+        ${checklistItems.map((item, cIdx) => {
+          const isChecked = !!savedChecklist[cIdx];
+          return `
+            <label style="display:flex; align-items:flex-start; gap:0.75rem; padding:0.65rem 0.85rem; border-radius:var(--radius-sm); background:var(--bg-surface); border:1px solid var(--border-light); cursor:pointer; transition:all var(--transition-fast);" onmouseover="this.style.borderColor='var(--bc-blue)'" onmouseout="this.style.borderColor='var(--border-light)'">
+              <input type="checkbox" id="checkItem_${cIdx}" style="margin-top:0.25rem; accent-color:var(--bc-blue); width:17px; height:17px;" ${isChecked ? 'checked' : ''} onchange="toggleStoryChecklistItem(${cIdx})">
+              <span style="font-size:0.9rem; color:var(--text-main); line-height:1.45;">${escapeHtml(item)}</span>
+            </label>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+
+  container.innerHTML = tasksHtml + checklistHtml;
+  updateChecklistBadge(checklistItems.length);
+}
+
+function toggleStoryChecklistItem(cIdx) {
+  const saved = JSON.parse(localStorage.getItem(`bc_story_checklist_${currentStoryId}`) || '{}');
+  const checkbox = document.getElementById(`checkItem_${cIdx}`);
+  if (checkbox) {
+    if (checkbox.checked) {
+      saved[cIdx] = true;
+    } else {
+      delete saved[cIdx];
+    }
+  }
+  localStorage.setItem(`bc_story_checklist_${currentStoryId}`, JSON.stringify(saved));
+  const total = document.querySelectorAll('[id^="checkItem_"]').length;
+  updateChecklistBadge(total);
+}
+
+function updateChecklistBadge(total) {
+  const badge = document.getElementById('checklistProgressBadge');
+  const saved = JSON.parse(localStorage.getItem(`bc_story_checklist_${currentStoryId}`) || '{}');
+  const count = Object.keys(saved).length;
+  if (badge) {
+    badge.textContent = `${count} / ${total} Checked`;
+    if (count === total && total > 0) {
+      badge.style.color = 'var(--emerald)';
+      badge.textContent = `🎉 All ${total} Complete!`;
+    }
+  }
 }
 
 function evaluateStoryMatchTask(tIdx) {
@@ -1285,6 +1467,48 @@ function evaluateStoryMatchTask(tIdx) {
       AnimEngine.triggerConfetti();
     } else {
       AnimEngine.showToast(`${score}/${selects.length} correct. Review errors!`, 'info');
+    }
+  }
+}
+
+function evaluateStoryOrderTask(tIdx) {
+  const taskCard = document.getElementById(`storyTask_${tIdx}`);
+  if (!taskCard) return;
+
+  const selects = taskCard.querySelectorAll('.task-order-select');
+  let score = 0;
+
+  selects.forEach(sel => {
+    const chosen = parseInt(sel.value, 10);
+    const correct = parseInt(sel.getAttribute('data-correct'), 10);
+    const feedback = sel.closest('.task-q-row')?.querySelector('.task-feedback-msg');
+
+    if (chosen === correct) {
+      score++;
+      sel.style.borderColor = 'var(--emerald)';
+      sel.style.background = 'rgba(16, 185, 129, 0.08)';
+      if (feedback) {
+        feedback.style.display = 'block';
+        feedback.style.color = 'var(--emerald)';
+        feedback.textContent = `✓ Correct (Step ${correct})`;
+      }
+    } else {
+      sel.style.borderColor = '#ef4444';
+      sel.style.background = 'rgba(239, 68, 68, 0.08)';
+      if (feedback) {
+        feedback.style.display = 'block';
+        feedback.style.color = '#dc2626';
+        feedback.textContent = `✗ Incorrect. This is Step ${correct}.`;
+      }
+    }
+  });
+
+  if (window.AnimEngine) {
+    if (score === selects.length) {
+      AnimEngine.showToast(`Chronology Mastered! All ${score} events sequenced! 🎉`, 'success');
+      AnimEngine.triggerConfetti();
+    } else {
+      AnimEngine.showToast(`${score}/${selects.length} correct. Adjust the order and try again!`, 'info');
     }
   }
 }

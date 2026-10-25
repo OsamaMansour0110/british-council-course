@@ -94,6 +94,7 @@ function switchTopic(topicId) {
   renderTopicHero();
   renderVideoStudio();
   renderTopicVocabGrid();
+  renderTopicChecklist();
 
   // Reset and restart all 4 learning parts
   cardIdx = 0;
@@ -178,7 +179,30 @@ function renderTopicHero() {
    -------------------------------------------------------------------------- */
 let topicTranscriptSearchTerm = '';
 
+let inlinePlayerActive = false;
+
+function toggleTopicInlineVideo() {
+  const poster = document.getElementById('videoPosterWrap');
+  const iframeWrap = document.getElementById('videoIframeWrap');
+  const btn = document.getElementById('btnToggleInlinePlayer');
+  if (!poster || !iframeWrap || !btn) return;
+
+  inlinePlayerActive = !inlinePlayerActive;
+  if (inlinePlayerActive) {
+    poster.style.display = 'none';
+    iframeWrap.style.display = 'block';
+    btn.innerHTML = '🖼️ Show Video Poster &amp; Direct Link';
+    btn.classList.add('active');
+  } else {
+    poster.style.display = 'block';
+    iframeWrap.style.display = 'none';
+    btn.innerHTML = '📺 Play Inside Page';
+    btn.classList.remove('active');
+  }
+}
+
 function renderVideoStudio() {
+  inlinePlayerActive = false;
   const topic = SPARE_TOPICS_DATA[currentTopicId];
   const container = document.getElementById('videoStudioGrid');
   if (!container || !topic) return;
@@ -187,7 +211,7 @@ function renderVideoStudio() {
   const youtubeUrl = `https://www.youtube.com/watch?v=${v.youtubeId}&list=PLG4aOWLPpiU94F3pJvdfOSvoPgx1fxbwN`;
 
   container.innerHTML = `
-    <!-- Video Player Column -->
+    <!-- Video Player Column with Poster Fallback & Direct Link -->
     <div class="video-player-box" style="display:flex; flex-direction:column; gap:0.85rem;">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem;">
         <div>
@@ -196,30 +220,71 @@ function renderVideoStudio() {
           </span>
           <h3 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.4rem 0 0.2rem;">${escapeHtml(v.title)}</h3>
         </div>
-        <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="btn" style="background:#ef4444; color:#fff; font-size:0.82rem; padding:0.45rem 1rem; border-radius:var(--radius-full); display:inline-flex; align-items:center; gap:0.45rem; text-decoration:none; font-weight:700; box-shadow:0 3px 12px rgba(239,68,68,0.35);">
+        <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="btn" style="background:#ef4444; color:#fff; font-size:0.82rem; padding:0.45rem 1rem; border-radius:var(--radius-full); display:inline-flex; align-items:center; gap:0.45rem; text-decoration:none; font-weight:800; box-shadow:0 3px 12px rgba(239,68,68,0.35);">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
           <span>Watch on YouTube (New Tab) ↗</span>
         </a>
       </div>
 
-      <!-- Working Responsive YouTube iFrame with Referrer Policy & Fallback -->
-      <div class="video-embed-iframe-wrap" style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:var(--radius-md); background:#0f172a; box-shadow:var(--shadow-card);">
-        <iframe 
-          id="topicVideoIframe"
-          src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0&enablejsapi=1" 
-          title="${escapeHtml(v.title)}" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen 
-          style="position:absolute; top:0; left:0; width:100%; height:100%; border:none; border-radius:var(--radius-md);">
-        </iframe>
-      </div>
+      <!-- Video Card (Poster Mode by Default to Prevent Blank Black Iframe) -->
+      <div style="position:relative; border-radius:var(--radius-md); overflow:hidden; background:#0f172a; border:1px solid var(--border-light); box-shadow:var(--shadow-card);">
+        <div id="videoPosterWrap" style="position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; cursor:pointer;" onclick="window.open('${youtubeUrl}', '_blank')">
+          <img 
+            src="https://img.youtube.com/vi/${v.youtubeId}/hqdefault.jpg" 
+            alt="${escapeHtml(v.title)}" 
+            style="width:100%; height:100%; object-fit:cover; display:block; filter:brightness(0.85); transition:transform 0.3s;"
+            onmouseover="this.style.transform='scale(1.03)'"
+            onmouseout="this.style.transform='scale(1)'">
+          <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.2) 50%, rgba(0,0,0,0.4) 100%); display:flex; flex-direction:column; justify-content:space-between; padding:1.25rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="background:rgba(239,68,68,0.95); color:#fff; font-size:0.75rem; font-weight:800; padding:0.25rem 0.65rem; border-radius:var(--radius-sm); letter-spacing:1px; text-transform:uppercase;">
+                🔴 Authentic YouTube Lesson
+              </span>
+              <span style="background:rgba(0,0,0,0.7); color:#fff; font-size:0.75rem; font-weight:700; padding:0.25rem 0.6rem; border-radius:var(--radius-sm);">
+                ⏱ ${escapeHtml(v.duration)}
+              </span>
+            </div>
 
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; font-size:0.85rem; color:var(--text-muted);">
-        <span>📺 <strong>Interactive Video Frame:</strong> Play video inside frame or expand fullscreen.</span>
-        <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" style="color:var(--bc-blue); font-weight:700; text-decoration:none;">
-          Direct YouTube Link ↗
-        </a>
+            <!-- Central Glow Play Icon -->
+            <div style="align-self:center; display:flex; flex-direction:column; align-items:center; gap:0.4rem;">
+              <div style="width:62px; height:62px; border-radius:50%; background:#ef4444; display:flex; align-items:center; justify-content:center; box-shadow:0 0 25px rgba(239,68,68,0.7); transition:transform 0.2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
+              </div>
+              <span style="color:#fff; font-size:0.88rem; font-weight:800; text-shadow:0 2px 4px rgba(0,0,0,0.8);">Click to Watch Full Video on YouTube ↗</span>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:flex-end;">
+              <span style="color:#cbd5e1; font-size:0.82rem; font-weight:600;">British Council Listening Series</span>
+              <span style="color:#94a3b8; font-size:0.78rem;">Free Official Resource</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- In-Page iFrame Player (Toggled on demand) -->
+        <div id="videoIframeWrap" style="display:none; position:relative; width:100%; aspect-ratio:16/9; background:#000;">
+          <iframe 
+            id="topicVideoIframe"
+            src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0" 
+            title="${escapeHtml(v.title)}" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen 
+            style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;">
+          </iframe>
+        </div>
+
+        <!-- Video Player Control Strip -->
+        <div style="padding:0.75rem 1rem; background:var(--bg-surface); border-top:1px solid var(--border-light); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; font-size:0.82rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <button type="button" id="btnToggleInlinePlayer" class="btn-outline-subtle" onclick="toggleTopicInlineVideo()" style="font-size:0.8rem; padding:0.35rem 0.85rem;">
+              📺 Play Inside Page
+            </button>
+            <span style="color:var(--text-muted); font-size:0.78rem;">Or watch directly on YouTube for zero restrictions.</span>
+          </div>
+          <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" style="color:var(--bc-blue); font-weight:700; text-decoration:none;">
+            Official YouTube Link ↗
+          </a>
+        </div>
       </div>
 
       <p style="font-size:0.9rem; color:var(--text-body); line-height:1.5; margin:0;">${escapeHtml(v.description)}</p>
@@ -1164,6 +1229,155 @@ function shuffleArray(arr) {
 }
 
 /* --------------------------------------------------------------------------
+   12. TOPIC MASTERY CHECKLIST & ACTIVE RECALL STRATEGIES (GOLD STANDARD)
+   -------------------------------------------------------------------------- */
+const TOPIC_CHECKLIST_MAP = {
+  travel_and_exploration: [
+    "I can explain airport departure procedures, boarding gate protocol, and check-in steps.",
+    "I know how to inquire about accommodation options (hostels, boutique hotels, homestays).",
+    "I understand what to do during travel disruptions (layovers, cancellations, delayed flights).",
+    "I can use core travel lexis: itinerary, layover, backpacking, sightseeing, departure lounge.",
+    "I can politely communicate preferences with travel agents and hotel receptionists."
+  ],
+  sports_and_fitness: [
+    "I master the sports collocation rules: PLAY (ball/team sports), DO (martial arts/gymnastics), GO (-ing activities).",
+    "I can distinguish sporting venues accurately: pitch (football), court (tennis), ring (boxing), rink (ice skating).",
+    "I understand competitive sports idioms: 'drop the ball', 'in the ballpark', 'saved by the bell'.",
+    "I know the vocabulary for athletic gear: cleats, racket, goggles, helmet, barbell.",
+    "I can articulate fitness goals, training routines, and health benefits in B1/B2 English."
+  ],
+  reading_and_books: [
+    "I can describe reading habits, favorite literary genres (fiction, non-fiction, sci-fi, biography).",
+    "I know book anatomy terms: spine, blurb, cover, foreword, preface, prologue, chapter.",
+    "I can express literary reviews: 'a real page-turner', 'thought-provoking', 'heavy going'.",
+    "I can debate the merits of physical print books vs e-readers and audiobooks.",
+    "I understand narrative structure vocabulary: protagonist, antagonist, plot twist, climax."
+  ],
+  seasons_and_weather: [
+    "I can describe seasonal transitions across winter, spring, summer, and autumn in Britain.",
+    "I can use descriptive weather lexis: sweltering, crisp, bitterly cold, overcast, humid, drizzling.",
+    "I know common weather idioms: 'under the weather', 'a breath of fresh air', 'come rain or shine'.",
+    "I can explain how climate and seasons influence clothing, agriculture, mood, and outdoor events.",
+    "I can discuss seasonal celebrations, travel preparations, and weather forecasts."
+  ]
+};
+
+function renderTopicChecklist() {
+  const container = document.getElementById('topicChecklistContainer');
+  if (!container) return;
+
+  const items = TOPIC_CHECKLIST_MAP[currentTopicId] || TOPIC_CHECKLIST_MAP.travel_and_exploration;
+  const saved = JSON.parse(localStorage.getItem(`bc_topic_checklist_${currentTopicId}`) || '{}');
+
+  const tipsList = [
+    {
+      icon: "⚡",
+      title: "Spaced Retrieval with Speed Timer",
+      desc: "Use Part 1 (3D Flashcards) with the 8s or 15s speed timer to train automatic word recall without hesitating."
+    },
+    {
+      icon: "🧩",
+      title: "Contextual Cloze Solves",
+      desc: "In Part 2 (Sentence Solve), study the grammar clues and Arabic translations to understand the exact semantic role of the missing word."
+    },
+    {
+      icon: "🔗",
+      title: "Active Association Connections",
+      desc: "Complete Part 3 (Connect) by associating target words directly with their Cambridge definition keywords rather than memorizing in isolation."
+    },
+    {
+      icon: "🗣️",
+      title: "Verbal Shadowing Drill",
+      desc: "Click the 🔊 British audio button on transcript rows and flashcards, then shadow the speech aloud with matching intonation."
+    }
+  ];
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.5rem; align-items:start;">
+      <!-- Checklist Column -->
+      <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-md); padding:1.25rem; box-shadow:var(--shadow-sm);">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem; flex-wrap:wrap; gap:0.5rem;">
+          <div>
+            <span style="font-size:0.75rem; font-weight:800; color:var(--bc-blue); text-transform:uppercase;">SELF-CHECK • MILESTONES</span>
+            <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main); margin:0.2rem 0;">Target Learning Objectives</h4>
+          </div>
+          <span class="pill-counter" id="topicChecklistProgressBadge" style="font-size:0.78rem; color:var(--emerald);">
+            0 / ${items.length} Checked
+          </span>
+        </div>
+        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+          Check off each skill as you master it through the video lesson and 4 interactive games. Progress saves automatically.
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:0.6rem;">
+          ${items.map((item, idx) => {
+            const isChecked = !!saved[idx];
+            return `
+              <label style="display:flex; align-items:flex-start; gap:0.75rem; padding:0.65rem 0.85rem; border-radius:var(--radius-sm); background:var(--bg-subtle); border:1px solid var(--border-light); cursor:pointer; transition:all var(--transition-fast);" onmouseover="this.style.borderColor='var(--bc-blue)'" onmouseout="this.style.borderColor='var(--border-light)'">
+                <input type="checkbox" id="topicCheck_${idx}" style="margin-top:0.25rem; accent-color:var(--bc-blue); width:17px; height:17px;" ${isChecked ? 'checked' : ''} onchange="toggleTopicChecklistItem(${idx})">
+                <span style="font-size:0.88rem; color:var(--text-main); line-height:1.45;">${escapeHtml(item)}</span>
+              </label>
+            `;
+          }).join('')}
+        </div>
+      </div>
+
+      <!-- Active Recall Tips Column -->
+      <div style="background:linear-gradient(135deg, rgba(0,102,245,0.04) 0%, rgba(2,132,199,0.04) 100%); border:1px solid var(--border-light); border-left:4px solid var(--bc-blue); border-radius:var(--radius-md); padding:1.25rem; box-shadow:var(--shadow-sm);">
+        <div style="margin-bottom:0.75rem;">
+          <span style="font-size:0.75rem; font-weight:800; color:var(--bc-blue); text-transform:uppercase;">EVIDENCE-BASED LEARNING</span>
+          <h4 style="font-size:1.1rem; font-weight:800; color:var(--text-main); margin:0.2rem 0;">💡 Active Recall Strategies</h4>
+        </div>
+        <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1rem;">
+          Techniques used by top British Council students to retain vocabulary long-term.
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:0.75rem;">
+          ${tipsList.map(t => `
+            <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.75rem 0.95rem;">
+              <strong style="color:var(--text-main); font-size:0.9rem; display:flex; align-items:center; gap:0.4rem; margin-bottom:0.25rem;">
+                <span>${t.icon}</span> ${escapeHtml(t.title)}
+              </strong>
+              <p style="margin:0; font-size:0.84rem; color:var(--text-muted); line-height:1.45;">${escapeHtml(t.desc)}</p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+
+  updateTopicChecklistBadge(items.length);
+}
+
+function toggleTopicChecklistItem(idx) {
+  const saved = JSON.parse(localStorage.getItem(`bc_topic_checklist_${currentTopicId}`) || '{}');
+  const checkbox = document.getElementById(`topicCheck_${idx}`);
+  if (checkbox) {
+    if (checkbox.checked) {
+      saved[idx] = true;
+    } else {
+      delete saved[idx];
+    }
+  }
+  localStorage.setItem(`bc_topic_checklist_${currentTopicId}`, JSON.stringify(saved));
+  const total = document.querySelectorAll('[id^="topicCheck_"]').length;
+  updateTopicChecklistBadge(total);
+}
+
+function updateTopicChecklistBadge(total) {
+  const badge = document.getElementById('topicChecklistProgressBadge');
+  const saved = JSON.parse(localStorage.getItem(`bc_topic_checklist_${currentTopicId}`) || '{}');
+  const count = Object.keys(saved).length;
+  if (badge) {
+    badge.textContent = `${count} / ${total} Checked`;
+    if (count === total && total > 0) {
+      badge.style.color = 'var(--emerald)';
+      badge.textContent = `🎉 All ${total} Complete!`;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
    13. INITIALIZATION ON DOM READY
    -------------------------------------------------------------------------- */
 document.addEventListener('DOMContentLoaded', () => {
@@ -1172,6 +1386,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderTopicHero();
   renderVideoStudio();
   renderTopicVocabGrid();
+  renderTopicChecklist();
   initPart1Flashcards();
   initPart2GapFill();
   initPart3Connect();
