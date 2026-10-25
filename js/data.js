@@ -4287,6 +4287,823 @@ const SESSION_13_TEACHER_CLINIC = [
 ];
 
 /* ==========================================================================
+   SESSION 14: ATTENDING WEDDINGS & WEDDING TRADITIONS (28 VOCABULARY WORDS)
+   Handout ID: ARB_B1_03_I069CGL_HO_v1.0 • Intermediate B1 Courseware
+   ========================================================================== */
+const VOCAB_SESSION_14 = [
+  {
+    id: 1401,
+    word: "Aisle",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/aɪl/",
+    citation: "Handout Page 1 (Box) & Page 3 (Story 2) • The Bride's Path",
+    definition: "A long, narrow passage between rows of seats in a church or auditorium, along which a bride walks during a wedding ceremony.",
+    b1Explain: "الممر الأوسط بين مقاعد الكنيسة أو قاعة الاحتفال الذي تمشي فيه العروس نحو المذبح (حرف s صامت).",
+    sentence: "All the wedding guests turned in awe as the bride began walking down the decorated floral aisle towards the altar."
+  },
+  {
+    id: 1402,
+    word: "Altar",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈɔːl.tər/",
+    citation: "Handout Page 1 (Box) • Church Ceremony Setting",
+    definition: "A raised, holy table or platform at the front of a church where solemn religious ceremonies and marriage vows take place.",
+    b1Explain: "المذبح أو المنصة الدينية المقدسة في مقدمة الكنيسة حيث تُعقد مراسم الزواج وتبادل العهود.",
+    sentence: "The nervous groom waited patiently at the altar beside the minister as wedding music filled the chapel."
+  },
+  {
+    id: 1403,
+    word: "Attend",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/əˈtend/",
+    citation: "Handout Page 1 (Speaking) & Smartboard Slide 20 (Feedback)",
+    definition: "To be present at an event, celebration, ceremony, meeting, or formal gathering as a guest or participant.",
+    b1Explain: "يحضر مناسبة رسمية أو حفلة زفاف أو اجتماعاً بصفته مدعواً أو مشاركاً (تُتبع بـ -ing عند التعبير عن التفضيل: like attending).",
+    sentence: "Over two hundred distinguished guests travelled from overseas to attend the couple's lavish weekend celebration."
+  },
+  {
+    id: 1404,
+    word: "Best man",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌbest ˈmæn/",
+    citation: "Handout Page 1 (Box) • Key Wedding Roles",
+    definition: "The chief male friend or relative chosen by the groom to support him at a wedding, safeguard the rings, and deliver a speech.",
+    b1Explain: "الإشبين أو الصديق المقرب الأول للعريس، يتولى حراسة خواتم الزواج وإلقاء الخطاب التكريمي ومساندة العريس.",
+    sentence: "The best man delivered a hilarious yet touching speech that had all the wedding guests laughing and applauding."
+  },
+  {
+    id: 1405,
+    word: "Bouquet",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/buˈkeɪ/",
+    citation: "Handout Page 1 (Vocabulary Grouping) • Bridal Traditions",
+    definition: "An attractively arranged bunch of flowers carried by the bride down the aisle, traditionally tossed to unmarried female guests.",
+    b1Explain: "باقة ورد العروس المنسقة بعناية، والتي تحملها أثناء الزفاف وتلقيها تقليدياً نحو الفتيات العازبات.",
+    sentence: "At the end of the evening reception, the bride tossed her fragrant rose bouquet over her shoulder into the excited crowd."
+  },
+  {
+    id: 1406,
+    word: "Bride",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/braɪd/",
+    citation: "Handout Page 1 & Page 3 (Story 2) • The Central Figure",
+    definition: "A woman on her wedding day or just before and shortly after the marriage ceremony.",
+    b1Explain: "العروس؛ المرأة في يوم زفافها أو في فترة عقد القران (انتبه للنطق الصحيح بصوت /b/ وليس /p/).",
+    sentence: "The bride looked radiant in a hand-embroidered white silk gown designed by an Italian couturier."
+  },
+  {
+    id: 1407,
+    word: "Bridesmaid",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈbraɪdz.meɪd/",
+    citation: "Handout Page 1 (Vocabulary Grouping) • Bridal Party",
+    definition: "A young woman or girl who officially accompanies and assists the bride during a wedding ceremony and reception.",
+    b1Explain: "وصيفة العروس؛ صديقة أو قريبة ترافق العروس وتساعدها في تنظيم الحفل ومتطلبات المظهر.",
+    sentence: "The bride chose her three closest university friends to serve as her bridesmaids in matching pastel dresses."
+  },
+  {
+    id: 1408,
+    word: "Catering",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈkeɪ.tər.ɪŋ/",
+    citation: "Handout Page 1 (Box) & Page 2 (Story 1) • Food & Drinks",
+    definition: "The business or activity of providing and serving food and beverages for large social functions, parties, and weddings.",
+    b1Explain: "خدمات تقديم الطعام والضيافة والتجهيز الغذائي للمناسبات والحفلات الكبرى.",
+    sentence: "Because Andy was passionate about cooking, he organised the catering himself, serving homemade pies and savoury sandwiches."
+  },
+  {
+    id: 1409,
+    word: "Celebration",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌsel.əˈbreɪ.ʃən/",
+    citation: "Handout Page 1 (Speaking Lead-in) • Festive Occasion",
+    definition: "A joyful social event or party organised in honour of a special milestone, achievement, or wedding ceremony.",
+    b1Explain: "احتفال أو مهرجان بهيج يُقام تكريماً لمناسبة استثنائية أو عقد زواج مبارك.",
+    sentence: "The joyous wedding celebration continued late into the night with live acoustic folk music and dancing."
+  },
+  {
+    id: 1410,
+    word: "Ceremony",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈser.ɪ.mə.ni/",
+    citation: "Handout Page 1 (Box) & Smartboard Photo 1 (LearningApps Match)",
+    definition: "An important social or religious formal event where a traditional set of actions is performed in a formal, established way.",
+    b1Explain: "مراسم أو طقوس رسمية أو دينية تُقام باتباع أعراف وتقاليد محددة لتوثيق الزواج (نقول: hold/have/host a ceremony وليس do).",
+    sentence: "The solemn wedding ceremony lasted forty minutes before the newlyweds stepped outside under a shower of confetti."
+  },
+  {
+    id: 1411,
+    word: "Church hall",
+    pos: "noun phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈtʃɜːtʃ ˌhɔːl/",
+    citation: "Handout Page 2 (Story 1) • DIY Venue Setting",
+    definition: "A community building attached or adjacent to a local church, used for parish social functions, meetings, and informal receptions.",
+    b1Explain: "قاعة ملحقة بالكنيسة مخصصة للأنشطة الاجتماعية واللقاءات والمناسبات المجتمعية غير المكلفة.",
+    sentence: "Instead of hiring an overpriced hotel ballroom, they held their reception in a cosy, decorated stone church hall."
+  },
+  {
+    id: 1412,
+    word: "Civil wedding",
+    pos: "noun phrase",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌsɪv.əl ˈwed.ɪŋ/",
+    citation: "Smartboard Photo 1 & Photo 2 • Legal Marriage Without Religion",
+    definition: "A non-religious legal marriage ceremony conducted by a government official or registrar rather than a religious minister.",
+    b1Explain: "زواج مدني قانوني غير ديني يوثقه موظف السجل المدني الحكومي دون طقوس دينية كنسية.",
+    sentence: "They decided on a simple civil wedding at the city registry office, followed by an intimate garden dinner."
+  },
+  {
+    id: 1413,
+    word: "Commercialised",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/kəˈmɜː.ʃəl.aɪzd/",
+    citation: "Handout Page 2 (Story 1) • Critique of Modern Weddings",
+    definition: "Exploited or organised primarily for financial profit and consumerist display rather than authentic emotional or cultural value.",
+    b1Explain: "مُسوّق تجارياً أو طاغٍ عليه الطابع الاستهلاكي الربحي المبالغ فيه على حساب المشاعر الحقيقية.",
+    sentence: "He avoided commercialised wedding packages that push couples into spending thousands of pounds on pointless extravagance."
+  },
+  {
+    id: 1414,
+    word: "Groom",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɡruːm/",
+    citation: "Handout Page 1 & Notebook Transcription • The Man Marrying",
+    definition: "A man on his wedding day, or just before and shortly after the marriage ceremony (short for bridegroom).",
+    b1Explain: "العريس؛ الرجل في يوم زواجه أو عقد قرانه (انتبه للنطق بصوت /r/ وليس /l/ لتفادي الخلط مع كلمة gloom).",
+    sentence: "The groom smiled warmly as his bride arrived at the church door accompanied by her proud father."
+  },
+  {
+    id: 1415,
+    word: "Honeymoon",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈhʌn.i.muːn/",
+    citation: "Handout Page 1 (Vocabulary Grouping) • Post-Wedding Vacation",
+    definition: "A holiday or romantic trip taken by a newly married couple immediately following their wedding celebrations.",
+    b1Explain: "شهر العسل؛ الإجازة أو الرحلة الرومانسية التي يقضيها الزوجان عقب حفل الزفاف مباشرة للاستجمام.",
+    sentence: "The newlyweds spent a tranquil two-week honeymoon exploring historic coastal villages in southern Italy."
+  },
+  {
+    id: 1416,
+    word: "Host",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/həʊst/",
+    citation: "Smartboard Slide 20 (Language Feedback) • Preferred Collocation",
+    definition: "To provide facilities, hospitality, food, and space for a social gathering, reception, or wedding ceremony.",
+    b1Explain: "يستضيف أو يقيم أو ينظم مناسبة أو حفل زفاف ويوفر له متطلبات الضيافة والمكان اللائق.",
+    sentence: "The bride's grandparents offered to host the reception dinner in the expansive landscaped gardens of their estate."
+  },
+  {
+    id: 1417,
+    word: "Minister",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈmɪn.ɪ.stər/",
+    citation: "Handout Page 1 (Box) • Religious Celebrant",
+    definition: "A qualified religious leader or priest in the Christian church authorised to conduct worship services and officiate weddings.",
+    b1Explain: "كاهن أو قسيس معتمد رسمياً في الكنيسة لإدارة الشعائر الدينية وإتمام مراسم عقد القران ومباركة الزواج.",
+    sentence: "The minister instructed the couple to join their right hands as they prepared to recite their traditional marriage vows."
+  },
+  {
+    id: 1418,
+    word: "Newlyweds",
+    pos: "noun plural",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈnjuː.li.wedz/",
+    citation: "Handout Page 1 (Groupings) • The Married Couple",
+    definition: "People who have very recently been married to each other.",
+    b1Explain: "العروسان حديثا الزواج؛ الزوجان في مستهل حياتهما الزوجية المشتركة.",
+    sentence: "The cheering crowd threw fragrant dried rose petals over the beaming newlyweds as they exited the venue."
+  },
+  {
+    id: 1419,
+    word: "Photoshoot",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈfəʊ.təʊ.ʃuːt/",
+    citation: "Smartboard Photo 1 & Photo 2 • Professional Photography",
+    definition: "An occasion or scheduled session when a photographer takes a series of photographs, usually of the same person or people in the same place.",
+    b1Explain: "جلسة تصوير احترافية تُنظم لالتقاط صور تذكارية منسقة في موقع محدد لتخليد ذكرى المناسبة.",
+    sentence: "The bride and groom slipped away during cocktail hour for an outdoor sunset photoshoot by the ancient stone bridge."
+  },
+  {
+    id: 1420,
+    word: "Propose",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/prəˈpəʊz/",
+    citation: "Handout Page 1 (Box) & Smartboard Photo 1 (Match) • Asking Hand",
+    definition: "To ask someone to marry you, often during a romantic or ceremonial moment.",
+    b1Explain: "يطلب يد شخص للزواج أو يتقدم لخطبته رسمياً ورومانسياً.",
+    sentence: "He decided to propose on a moonlit cliff overlooking the Mediterranean sea during their summer holiday."
+  },
+  {
+    id: 1421,
+    word: "Proposal",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/prəˈpəʊ.zəl/",
+    citation: "Smartboard Photo 2 (Teacher Board Annotation) • Noun Derivation",
+    definition: "An occasion when someone asks someone to marry them, usually accompanied by presenting an engagement ring.",
+    b1Explain: "طلب الزواج أو عرض الخطوبة؛ اللحظة الرسمية التي يعرض فيها الشريك الزواج على شريكه.",
+    sentence: "Her partner's surprise marriage proposal at the top of the Eiffel Tower was captured on video by smiling tourists."
+  },
+  {
+    id: 1422,
+    word: "Prosperity",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/prɒsˈper.ə.ti/",
+    citation: "Smartboard Photo 1 & Photo 2 (Annotation: Noun) • Cultural Symbol",
+    definition: "The state of being successful, having money, good fortune, and everything needed for a good and flourishing life.",
+    b1Explain: "الرخاء والازدهار والوفرة المالية والمعيشية، وهي أمنية تقليدية أساسية تُقدم للعروسين في سائر الثقافات.",
+    sentence: "In traditional Greek and Vietnamese weddings, dried fruit and rice are tossed over the couple to symbolise fertility and prosperity."
+  },
+  {
+    id: 1423,
+    word: "Reception",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/rɪˈsep.ʃən/",
+    citation: "Handout Page 1 (Box) & Page 2 (Story 1) • Post-Ceremony Party",
+    definition: "A formal or celebratory party held immediately following a wedding ceremony to welcome, feed, and celebrate with the guests.",
+    b1Explain: "حفلة استقبال أو مأدبة زفاف تقام مباشرة بعد عقد القران للاحتفال بالمدعوين وإكرامهم بالموائد والتهاني.",
+    sentence: "Following the vows at the registry office, seventy close friends gathered at a local vineyard for the evening reception."
+  },
+  {
+    id: 1424,
+    word: "Registrar",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌredʒ.ɪˈstrɑːr/",
+    citation: "Handout Page 1 (Box) • Official Legal Celebrant",
+    definition: "An official government officer responsible for maintaining civil records and legally conducting non-religious civil marriages.",
+    b1Explain: "موظف السجل المدني الرسمي المخول قانونياً بتوثيق وتوقيع عقود الزواج المدني وتثبيتها في الدولة.",
+    sentence: "The city registrar carefully verified both passports and certificates before pronouncing them legally married."
+  },
+  {
+    id: 1425,
+    word: "Suit",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/suːt/",
+    citation: "Handout Page 1 (Vocabulary Groups) • Groom Attire",
+    definition: "A tailored set of formal outer clothes consisting of a matching jacket, trousers, and often a waistcoat, worn by the groom and best man.",
+    b1Explain: "بدلة رسمية متطابقة (جاكيت وبنطال وربطة عنق) يرتديها العريس والإشبين في المناسبات.",
+    sentence: "The groom wore a tailored navy three-piece wool suit accessorised with a crisp silk pocket square and polished leather shoes."
+  },
+  {
+    id: 1426,
+    word: "Symbolise",
+    pos: "verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈsɪm.bəl.aɪz/",
+    citation: "Handout Page 1 (Box) & Smartboard Photo 1 (Match) & Photo 2 (Verb)",
+    definition: "To represent something or embody a deeper abstract concept, cultural value, or spiritual union.",
+    b1Explain: "يرمز إلى أو يعبر عن معنى روحي أو ثقافي عميق من خلال رمز أو طقس تقليدي (الاسم المشتق: symbol).",
+    sentence: "In Crete, the collective first dance symbolises the enduring union of two families rather than just the individuals."
+  },
+  {
+    id: 1427,
+    word: "Veil",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/veɪl/",
+    citation: "Handout Page 1 (Box) • Traditional Bridal Garment",
+    definition: "A piece of fine, semi-transparent fabric (such as tulle or lace) worn over the bride's head and shoulders during a wedding ceremony.",
+    b1Explain: "طرحة العروس؛ وشاح شفاف أو دانتيل خفيف يغطي رأس وكتفي ووجه العروس أثناء الدخول وإتمام المراسم.",
+    sentence: "The groom gently lifted the translucent lace veil from the bride's face before they exchanged their first married kiss."
+  },
+  {
+    id: 1428,
+    word: "Vows",
+    pos: "noun plural",
+    cambridgeLevel: "B2",
+    pronunciation: "/vaʊz/",
+    citation: "Handout Page 1 (Groupings) • Sacred Promises",
+    definition: "Solemn, formal promises and commitments made by the bride and groom to each other during a wedding ceremony.",
+    b1Explain: "عهود الزواج والوعود المقدسة التي يتبادلها الزوجان بصوت مسموع بالوفاء والإخلاص طوال العمر.",
+    sentence: "The bride and groom wrote heartfelt personal vows promising to support and respect each other through all life's challenges."
+  }
+];
+
+/* ==========================================================================
+   SESSION 14 MODULES & AUTHENTIC PEDAGOGICAL DATA
+   ========================================================================== */
+
+const SESSION_14_LEAD_IN = {
+  instruction: "Discuss the following authentic classroom discussion questions with your partner or group.",
+  questions: [
+    {
+      num: 1,
+      q: "Whose wedding celebrations did you last attend? Describe it.",
+      qAr: "حفل زفاف مَن حضرت مؤخراً؟ صف تفاصيل الحفل وأجواءه.",
+      modelAnswer: "The last wedding I attended was my cousin Omar's celebration in Alexandria last summer. It was a lively outdoor coastal reception held right by the sea. There was a fantastic buffet with fresh seafood, and everyone danced to traditional folk music until well after midnight.",
+      audioText: "The last wedding I attended was my cousin Omar's celebration in Alexandria last summer. It was a lively outdoor coastal reception held right by the sea."
+    },
+    {
+      num: 2,
+      q: "What are the most important factors to consider when planning a wedding?",
+      qAr: "ما هي أهم العوامل والمعايير التي يجب مراعاتها عند التخطيط لحفل الزفاف؟",
+      modelAnswer: "In my opinion, the three most crucial factors are the budget, the venue capacity, and the catering quality. If you don't keep a strict budget, costs can quickly spiral out of control. Also, ensuring that close family members and friends feel welcomed and comfortable is far more important than superficial luxury.",
+      audioText: "In my opinion, the three most crucial factors are the budget, the venue capacity, and the catering quality. Ensuring guests feel welcomed is far more important than luxury."
+    },
+    {
+      num: 3,
+      q: "What is your idea of a 'perfect' wedding?",
+      qAr: "ما هو تصورك الشخصي لحفل الزفاف 'المثالي'؟",
+      modelAnswer: "My idea of a perfect wedding is an intimate, stress-free gathering in a scenic garden with close family and genuine friends. Rather than a stiff, overly commercialised hotel ballroom banquet, I would prefer heartfelt personal vows, delicious homemade food, and meaningful conversations.",
+      audioText: "My idea of a perfect wedding is an intimate, stress-free gathering in a scenic garden with close family and genuine friends, with heartfelt vows and good music."
+    }
+  ],
+  usefulPhrases: [
+    { en: "It was an intimate family gathering", ar: "كان تجمعاً عائلياً حميماً ومريحاً" },
+    { en: "The catering was absolutely mouth-watering", ar: "كانت خدمات الطعام والضيافة شهية ولذيذة للغاية" },
+    { en: "We danced until the early hours of the morning", ar: "رقصنا واحتفلنا حتى الساعات الأولى من الصباح" },
+    { en: "To keep expenses within a reasonable budget", ar: "لإبقاء النفقات والمصاريف ضمن ميزانية معقولة" },
+    { en: "A lavish celebration vs a humble DIY reception", ar: "احتفال باذخ وفخم مقابل حفل بسيط منظم ذاتياً" }
+  ]
+};
+
+const SESSION_14_DIALOGUES = {
+  story1: {
+    title: "Story 1: Andy's Bristol Church Hall DIY Wedding",
+    topic: "Budget-Friendly Wedding & Echo Questions",
+    citation: "Handout Page 2 • Dialogue Listening Gap-Fill",
+    turns: [
+      { speaker: "A", text: "So, what was the last wedding you went to?" },
+      { speaker: "B", text: "Well, I went to a friend's wedding near Bristol in England. It was my friend, Andy, who I've known for a long time. It was unusual in that he booked a small church hall —" },
+      { speaker: "A", text: "A church hall?", isGap: true, gapType: "Echo Question", answer: "A church hall?", prompt: "Echo Question repeating Andy's unusual venue choice with rising intonation" },
+      { speaker: "B", text: "Well, it's not the church, but a nice old building where they hold functions and parties and the like. Well, Andy loves cooking, so he did most of the catering for his own wedding, you know, lots of pies, sandwiches, cakes, that sort of thing." },
+      { speaker: "A", text: "Really? He worked on his wedding day.", isGap: true, gapType: "Showing Surprise", answer: "Really?", prompt: "Expression of surprise at the groom cooking and catering his own big day" },
+      { speaker: "B", text: "Yes. And all of the jobs, things like putting out the chairs, serving the food and washing all the dishes, well, that was done by me and his other friends." },
+      { speaker: "A", text: "You did the washing up?", isGap: true, gapType: "Echo Question", answer: "You did the washing up?", prompt: "Echo Question repeating the unexpected chore done by the wedding guests" },
+      { speaker: "B", text: "Yeah, we did the washing up so, all in all, it was much, much cheaper than a normal wedding. But, more important than that, it really felt like a friendly, family occasion. It felt more real and genuine than some of the expensive, commercialised weddings that I've been to." }
+    ],
+    pedagogicalAnalysis: {
+      question: "Why does speaker A ask these questions? What effect does this have on the storyteller?",
+      answerEn: "Speaker A uses Echo Questions ('A church hall?', 'You did the washing up?') and surprise markers ('Really?') to demonstrate active listening, show astonishment, and encourage Andy's friend to elaborate without derailing the narrative flow.",
+      answerAr: "يستخدم المتحدث A تقنية 'الأسئلة الصدى' (Echo Questions) لإظهار الاستماع النشط والاندهاش من التفاصيل غير المألوفة، مما يحفز الراوي على الاسترسال وتقديم تفاصيل شيقة دون مقاطعة مسار القصة."
+    }
+  },
+  story2: {
+    title: "Story 2: The Bizarre CD Player Disaster (Mr Boombastic)",
+    topic: "The Aisle Music Blunder & Backchannelling",
+    citation: "Handout Page 3 • Active Listening Dialogue",
+    turns: [
+      { speaker: "A", text: "I read this great story in a magazine once." },
+      { speaker: "B", text: "Oh yeah?", isGap: true, gapType: "Backchannelling", answer: "Oh yeah?", prompt: "Casual interest signal showing readiness to hear a story" },
+      { speaker: "A", text: "Well, it was this guy's job to press the button on the CD player when the bride arrived at the ceremony." },
+      { speaker: "B", text: "Right.", isGap: true, gapType: "Backchannelling", answer: "Right.", prompt: "Agreement & acknowledgement particle confirming comprehension" },
+      { speaker: "A", text: "You know, so that the bride could walk down the aisle to the music that she had chosen." },
+      { speaker: "B", text: "Sure.", isGap: true, gapType: "Backchannelling", answer: "Sure.", prompt: "Attentive acknowledgement indicating you understand the context" },
+      { speaker: "A", text: "The problem was that the guy was waiting outside the wrong door to the church, or wherever it was." },
+      { speaker: "B", text: "Oh no!", isGap: true, gapType: "Empathetic Reaction", answer: "Oh no!", prompt: "Reaction anticipating the unfolding disaster" },
+      { speaker: "A", text: "Well, when the bride arrived, someone else had to press the button, but the problem was that they didn't know which track on the CD it was. So, track number one got played, and it was 'Mr Boombastic' by this singer called Shaggy." },
+      { speaker: "B", text: "No! You're joking!", isGap: true, gapType: "Shock & Amusement", answer: "No!", prompt: "Disbelief and amusement at the inappropriate bridal song" },
+      { speaker: "A", text: "'Mr Boombastic'! Like, totally the wrong music for a wedding. Apparently, the bride never spoke to the man again, but it must have been hilarious." }
+    ],
+    pedagogicalAnalysis: {
+      question: "Why does speaker B say these phrases? What effect does this have on the storyteller?",
+      answerEn: "Speaker B uses Backchannelling phrases ('Oh yeah?', 'Right.', 'Oh no!', 'No!') to provide constant verbal and emotional feedback. This validates the storyteller's delivery and amplifies the comedic climax.",
+      answerAr: "يستخدم المتحدث B عبارات التجاوب التفاعلي (Backchannelling) للتأكيد على المتابعة الدقيقة والتفاعل العاطفي اللحظي مع تطورات الموقف الكوميدي، مما يشجع المتحدث على سرد الذروة بحماس."
+    }
+  },
+  unusualWeddingsMatrix: [
+    {
+      storyNum: 1,
+      title: "Andy's DIY Church Hall Wedding",
+      venue: "Parish church hall near Bristol, England",
+      unusualAspect: "Groom cooked all the catering; guests washed all the dishes and set out chairs.",
+      costImpact: "Vastly cheaper, highly intimate, genuine family atmosphere without commercialisation.",
+      icon: "🥧"
+    },
+    {
+      storyNum: 2,
+      title: "The CD Music Operator Disaster",
+      venue: "Traditional church ceremony",
+      unusualAspect: "Unplanned track 1 played as bride walked down the aisle: 'Mr Boombastic' by Shaggy.",
+      costImpact: "Bride severed communication with the sound operator forever, but guests found it hilarious.",
+      icon: "💿"
+    },
+    {
+      storyNum: 3,
+      title: "The Underwater Coral Reef Wedding",
+      venue: "Deep sea diving site off the coast of Bali",
+      unusualAspect: "Bride, groom, best man and minister wore scuba diving tanks and wet suits; exchanged vows written on waterproof plastic slates.",
+      costImpact: "Unforgettable marine photography, required scuba certification, zero traditional catering costs.",
+      icon: "🤿"
+    },
+    {
+      storyNum: 4,
+      title: "The Tandem Skydiving Jump Ceremony",
+      venue: "12,000 feet above the drop zone in New Zealand",
+      unusualAspect: "Couple shouted their vows into wind microphones inside the aircraft before leaping out in tandem parachute harnesses.",
+      costImpact: "High adrenaline experience, extreme aerial photography, reception held on the landing field.",
+      icon: "🪂"
+    }
+  ]
+};
+
+const SESSION_14_SMARTBOARD_MATCHING = [
+  {
+    id: "match1",
+    term: "Ceremony",
+    pos: "noun",
+    definition: "An important social or religious event, when a traditional set of actions is performed in a formal way.",
+    arMeaning: "مراسم أو طقوس رسمية أو دينية تُقام باتباع خطوات وأعراف محددة ومحترمة.",
+    boardAnnotation: "Noun • Collocation: hold / have / host a ceremony (NOT 'do').",
+    example: "The civil ceremony took place in the town hall at eleven o'clock."
+  },
+  {
+    id: "match2",
+    term: "Propose",
+    pos: "verb",
+    derivedNoun: "Proposal (noun)",
+    definition: "To ask someone to marry you.",
+    arMeaning: "يطلب يد شخص للزواج (الاسم المشتق: proposal - طلب الزواج).",
+    boardAnnotation: "Verb ➔ Derivation: 'proposal' (noun).",
+    example: "He booked a romantic rooftop dinner to propose to his girlfriend."
+  },
+  {
+    id: "match3",
+    term: "Civil wedding",
+    pos: "noun phrase",
+    definition: "Not religious. Relating to the ordinary people of a country.",
+    arMeaning: "زواج مدني؛ عقد قران رسمي قانوني غير ديني أمام موظف السجل المدني.",
+    boardAnnotation: "Noun phrase • Contrast with religious church ceremony.",
+    example: "They opted for a civil wedding before having a casual garden celebration."
+  },
+  {
+    id: "match4",
+    term: "Photoshoot",
+    pos: "noun",
+    definition: "An occasion when a photographer takes a series of photographs, usually of the same person or people in the same place.",
+    arMeaning: "جلسة تصوير فوتوغرافي احترافية في موقع محدد لتخليد الذكريات.",
+    boardAnnotation: "Noun • Compound word: photo + shoot.",
+    example: "The sunset photoshoot by the ancient stone ruins produced stunning wedding portraits."
+  },
+  {
+    id: "match5",
+    term: "Prosperity",
+    pos: "noun",
+    derivedAdj: "Prosperous (adj)",
+    definition: "When people have money and everything that is needed for a good life.",
+    arMeaning: "الرخاء والازدهار والوفرة المالية والمعيشية الكريمة.",
+    boardAnnotation: "Noun • Key cultural wish for newlyweds across global traditions.",
+    example: "Guests tossed rice over the newlyweds to wish them health, happiness, and prosperity."
+  },
+  {
+    id: "match6",
+    term: "Symbolise",
+    pos: "verb",
+    derivedNoun: "Symbol (noun)",
+    definition: "To represent something.",
+    arMeaning: "يرمز إلى أو يعبر عن معنى روحي أو معنوي عميق (الاسم المشتق: symbol).",
+    boardAnnotation: "Verb ➔ Derivation: 'symbol' (noun). Spelling: British -ise / American -ize.",
+    example: "The exchange of golden wedding rings is designed to symbolise eternal, unbroken unity."
+  }
+];
+
+const SESSION_14_VOCAB_GROUPS = {
+  instruction: "Categorize the 28 session vocabulary words into 5 thematic domains, reflecting the sorting task on Handout Page 1.",
+  categories: [
+    {
+      name: "Wedding Roles & Key Figures",
+      icon: "👥",
+      words: ["Bride", "Groom", "Best man", "Bridesmaid", "Minister", "Registrar", "Newlyweds"],
+      note: "The central couple, attendants, and authorized legal or religious officiants."
+    },
+    {
+      name: "Venues & Architectural Features",
+      icon: "🏛️",
+      words: ["Aisle", "Altar", "Church hall"],
+      note: "Sacred and communal spaces where rites and festivities are conducted."
+    },
+    {
+      name: "Ceremony & Legal Formalities",
+      icon: "📜",
+      words: ["Ceremony", "Civil wedding", "Vows", "Propose", "Proposal"],
+      note: "The formal commitments, legal contracts, and marital declarations."
+    },
+    {
+      name: "Celebration, Hospitality & Media",
+      icon: "🥂",
+      words: ["Reception", "Catering", "Celebration", "Photoshoot", "Honeymoon", "Host"],
+      note: "Entertaining guests, food preparation, photography, and the post-wedding holiday."
+    },
+    {
+      name: "Attire, Traditions & Cultural Values",
+      icon: "💐",
+      words: ["Veil", "Suit", "Bouquet", "Symbolise", "Prosperity", "Commercialised", "Attend"],
+      note: "Bridal garments, symbolic customs, cultural beliefs, and consumer critique."
+    }
+  ]
+};
+
+const SESSION_14_GLOBAL_CUSTOMS = [
+  {
+    country: "India (Hindu Tradition)",
+    icon: "🇮🇳",
+    badge: "Handout Authentic Slip",
+    authenticText: "There are several ceremonies in a Hindu wedding, including one where the parents of the bride wash the couple's feet with milk and water. In another, the hands of the couple are tied together with thread. Also, the bride and groom walk several times in a circle together around a fire.",
+    studentNotes: "Parents wash feet with milk & water. Hands tied with thread. Bride and groom walk 7 times in a circle around sacred fire (Saptapadi).",
+    symbolism: "Fire acts as the divine witness; the 7 circles represent nourishment, strength, prosperity, family harmony, children, health, and lifelong friendship.",
+    arExplain: "يغسل والدا العروس أقدام الزوجين بالحليب والماء ترحيباً وتطهيراً، وتُربط أيديهما بخيط مقدس، ويطوفان حول النار المقدسة لتوثيق العهود الروحية السبعة."
+  },
+  {
+    country: "Crete, Greece",
+    icon: "🇬🇷",
+    badge: "Student Notebook Transcription",
+    authenticText: "People spend a lot of time before the ceremony preparing and celebrating. The first dance is between all the attending couples, not just the bride and groom. It symbolises the union of two entire families rather than just two isolated individuals.",
+    studentNotes: "Thousands attend. People spend a lot of time before ceremony. First dance between all couples, not just bride and groom. It symbolises union of family.",
+    symbolism: "Community and extended kinship take precedence; the communal dance cements brotherhood and loyalty between clans.",
+    arExplain: "يقضي الأهالي أياماً في الاستعداد، والرقصة الأولى يؤديها جميع الأزواج الحاضرين وليس العروسان فقط، رمزاً لاتحاد العائلتين وليس شخصين فقط."
+  },
+  {
+    country: "Kenya (Maasai Tradition)",
+    icon: "🇰🇪",
+    badge: "Student Notebook Transcription",
+    authenticText: "Before the bride departs for her new marital home, female elders shave the bride's hair to signify her departure from youth and entry into a new life stage. The groom's family presents three prized cows to the bride's father as an established customary dowry.",
+    studentNotes: "Shave bride's hair. Groom and his family present 3 cows as traditional dowry gift.",
+    symbolism: "Shaving hair marks profound personal rebirth; cattle represent supreme wealth, dignity, and economic security in nomadic pastoralist culture.",
+    arExplain: "تقوم نساء القبيلة بحلق شعر رأس العروس إعلاناً لبدء حياة جديدة وتوديع مرحلة الفتيات، ويقدم العريس 3 أبقار تقديراً لعائلة العروس ورخاءً لها."
+  },
+  {
+    country: "Morocco",
+    icon: "🇲🇦",
+    badge: "Student Notebook Transcription",
+    authenticText: "During the festive wedding banquet, the bride is seated in an ornate, four-handled gilded carriage called the Ammariya. Male relatives lift the platform onto their shoulders and carry the bride three times around the hall while guests sing traditional celebratory chants.",
+    studentNotes: "Bride is carried 3 times in the Ammariya around the hall before the banquet celebration begins.",
+    symbolism: "Elevating the bride honors her as a queen on her wedding day, bestowing public dignity and celebratory blessings from the community.",
+    arExplain: "تجلس العروس في 'العمارية' المغربية التقليدية الفاخرة، ويحملها الرجال على أكتافهم ويطوفون بها ثلاث مرات وسط الأهازيج والزغاريد كالملكة."
+  },
+  {
+    country: "Korea",
+    icon: "🇰🇷",
+    badge: "Classroom Cultural Extension",
+    authenticText: "During the traditional Paebaek family ceremony, the groom presents a pair of carved wooden mandarin ducks or geese to his mother-in-law, because geese mate for life. The parents toss chestnuts and dried jujube dates into the bride's outstretched silk apron.",
+    studentNotes: "Carved wooden geese gifted for fidelity. Parents toss chestnuts (boys) and dates (girls) into bride's apron for fertility and prosperity.",
+    symbolism: "Geese embody lifelong faithfulness, while dates and chestnuts symbolize children and future economic prosperity.",
+    arExplain: "يُهدى العريس زوجاً من البط الخشبي رمزاً للوفاء الأبدي، بينما يُلقي الوالدان الكستناء والتمر في مئزر العروس كرمز للذرية والرخاء."
+  },
+  {
+    country: "Vietnam",
+    icon: "🇻🇳",
+    badge: "Classroom Cultural Extension",
+    authenticText: "On the wedding morning, the groom's delegation marches in a ceremonial procession to the bride's house bearing an odd number of red-lacquered gift boxes (mam qua) draped in crimson cloth, containing betel leaves, areca nuts, roast pig, and wine.",
+    studentNotes: "Morning procession bearing red gift boxes with areca nuts and wine to pay respect to ancestors before the shrine.",
+    symbolism: "Red represents good fortune and joy, while betel nut leaves represent an unbreakable, harmonious marital bond.",
+    arExplain: "موكب عائلة العريس يحمل علباً حمراء مغطاة بالحرير تحتوي على هدايا وأوراق نبات التنبول لطلب الإذن ومباركة الأجداد في معبد العائلة."
+  }
+];
+
+const SESSION_14_DISCUSSION_LAB = [
+  {
+    num: 1,
+    prompt: "Think of an unusual or memorable wedding you attended or heard about. Describe the setting, atmosphere, and what made it stand out.",
+    level: "B1/B2 Speaking Model",
+    modelSpeech: "Two years ago, I attended a traditional Bedouin wedding in the desert outside Dahab. Instead of a standard banquet hall, large woven carpets and lanterns were spread across the golden sand dunes under the starry sky. What made it particularly memorable was that the wedding feast was cooked in underground earth ovens called Zerb, and the local musicians played traditional Oud instruments until sunrise. The sense of hospitality was unmatched.",
+    audioText: "Two years ago, I attended a traditional Bedouin wedding in the desert outside Dahab. Instead of a banquet hall, large woven carpets and lanterns were spread across the sand under the stars. The feast was cooked in underground ovens, and the sense of hospitality was unmatched.",
+    keyLexisUsed: ["attended", "reception", "celebration", "catering", "hospitality", "memorable"]
+  },
+  {
+    num: 2,
+    prompt: "Compare traditional religious church weddings with modern civil weddings. What are the advantages and drawbacks of each?",
+    level: "B2 Comparative Discussion",
+    modelSpeech: "A religious wedding in a grand church offers profound solemnity, traditional rituals, and a sense of historic continuity, especially when the bride walks down the floral aisle to an organ soundtrack. On the other hand, civil weddings conducted by a government registrar offer greater flexibility, are often much less costly, and allow couples from diverse cultural backgrounds to craft personal vows without rigid religious constraints.",
+    audioText: "A religious wedding in a church offers solemnity, traditional rituals, and historical continuity as the bride walks down the aisle. Civil weddings with a registrar offer greater flexibility, lower costs, and personalised vows.",
+    keyLexisUsed: ["civil wedding", "registrar", "ceremony", "aisle", "altar", "vows", "minister"]
+  },
+  {
+    num: 3,
+    prompt: "Many modern weddings cost tens of thousands of pounds. Do you think weddings have become too commercialised?",
+    level: "B2 Critical Opinion",
+    modelSpeech: "Yes, I strongly believe that contemporary weddings have become overly commercialised. Couples frequently face immense social pressure to hire luxury cars, book five-star hotel ballrooms, and pay for elaborate photoshoots, often taking out heavy bank loans just for one single day. As Andy proved in Story 1, holding an intimate celebration in a cosy church hall with friends helping with the catering can create far more authentic, joyful memories.",
+    audioText: "I strongly believe that modern weddings have become overly commercialised. Couples face immense social pressure to hire luxury cars and book expensive hotel ballrooms. Holding an intimate celebration in a church hall with friends is far more authentic.",
+    keyLexisUsed: ["commercialised", "church hall", "catering", "photoshoot", "reception", "prosperity"]
+  }
+];
+
+const SESSION_14_TEACHER_FEEDBACK = [
+  {
+    id: "clinic1",
+    incorrect: "They do the ceremony at.....",
+    struck: "do",
+    correct: "They have / host / hold the ceremony at...",
+    teacherPen: "have / host / held",
+    category: "Collocation Error (Smartboard Slide 20, Item 1)",
+    rule: "In English, ceremonies, meetings, and conferences are NOT combined with the generic verb 'do'. Instead, use the native collocations: 'hold a ceremony', 'host a ceremony', or 'have a ceremony'. In the past tense, use 'held' or 'hosted'.",
+    arRule: "في اللغة الإنجليزية لا نستخدم الفعل do مع مراسم الزواج. التعبير الفصيح الصحيح هو: hold a ceremony أو host a ceremony أو have a ceremony (وفي الماضي: held / hosted).",
+    speech: "They held the ceremony in the ancient stone chapel."
+  },
+  {
+    id: "clinic2",
+    incorrect: "I don't like attend parties.",
+    struck: "attend",
+    correct: "I don't like attending parties. (or: I don't like to attend parties)",
+    teacherPen: "attending",
+    category: "Verb Pattern / Gerund after Verbs of Preference (Smartboard Slide 20, Item 2)",
+    rule: "Verbs expressing personal likes, dislikes, and hobbies (like, enjoy, dislike, love, hate, detest) must be followed by a gerund (-ing form) or full infinitive (to + verb). In natural British English, the gerund 'attending' is preferred when discussing general habits.",
+    arRule: "أفعال التفضيل والشعور (like, hate, love, enjoy) يجب أن يأتي بعدها صيغة Gerund (verb + ing) أو (to + verb). الأسلوب البريطاني الطبيعي يفضل: I don't like attending.",
+    speech: "I don't like attending crowded parties where I do not know anyone."
+  },
+  {
+    id: "clinic3",
+    incorrect: "They didn't find a dress that fit her perfectly, so they go to the tailor, ....",
+    struck: "go",
+    correct: "They didn't find a dress that fit her perfectly, so they went to the tailor...",
+    teacherPen: "went",
+    category: "Narrative Past Tense Consistency (Smartboard Slide 20, Item 3)",
+    rule: "When recounting a narrative in the past ('didn't find', 'fit'), all sequential action verbs within the narrative clause chain must stay in the Past Simple. Slipping into the present 'go' causes a tense clash; correct it to 'went'.",
+    arRule: "التوافق الزمني في سرد القصص الماضية: ما دامت القصة بدأت في الماضي (didn't find)، فإن الأفعال المتتابعة يجب أن تبقى في الماضي البسيط (went وليس go).",
+    speech: "They didn't find a dress that fit her perfectly, so they went to the tailor to alter it."
+  },
+  {
+    id: "clinic4",
+    incorrect: "Pride is carried 3 times... first dance not Pride and gloom",
+    struck: "Pride / gloom",
+    correct: "Bride is carried 3 times... first dance not bride and groom",
+    teacherPen: "bride and groom",
+    category: "Phonological & Spelling Interference (Student Notebook Notes)",
+    rule: "Arabic phonological transfer often causes learners to confuse /p/ and /b/, writing 'pride' (feeling proud) instead of 'bride' (the woman marrying). Similarly, confusing /l/ and /r/ produces 'gloom' (darkness or sadness) instead of 'groom' (the man marrying). Always distinguish bride (/b/) and groom (/r/)!",
+    arRule: "تداخل صوتي شائع لمتعلمي الإنجليزية العرب: الخلط بين صَوتَي p و b يحول bride (عروس) إلى pride (فخر)، والخلط بين l و r يحول groom (عريس) إلى gloom (حزن وكآبة)! احرص على كتابة bride and groom.",
+    speech: "The bride and groom stood smiling happily together on the dance floor."
+  }
+];
+
+const SESSION_14_PRONUNCIATION_LAB = [
+  {
+    category: "Intonation of Showing Interest (Active Listening)",
+    rule: "To sound genuinely interested, engaged, and supportive, your pitch must start high and use dynamic rising or falling-rising curves. A flat, monotone, low pitch sounds bored, dismissive, or sarcastic.",
+    examples: [
+      {
+        phrase: "A church hall?",
+        type: "Echo Question (High Rising)",
+        audioText: "A church hall?",
+        note: "Pitch jumps high on 'church hall' to show surprise and invite explanation."
+      },
+      {
+        phrase: "Really? He worked on his wedding day!",
+        type: "Surprise Marker (Rising-Falling)",
+        audioText: "Really? He worked on his wedding day!",
+        note: "Strong upward inflection on 'Real-' followed by emphatic drop on '-ly'."
+      },
+      {
+        phrase: "You did the washing up?",
+        type: "Echo Question (Incredulous)",
+        audioText: "You did the washing up?",
+        note: "Stressed peak on 'washing up' signaling playful disbelief."
+      },
+      {
+        phrase: "Oh no! What happened next?",
+        type: "Empathetic Backchannel",
+        audioText: "Oh no! What happened next?",
+        note: "Warm, sympathetic downward dip expressing shared suspense."
+      }
+    ]
+  },
+  {
+    category: "Silent Letters & Syllable Stress Clinic",
+    rule: "Master the silent consonants and stress shifts in wedding and ceremonial vocabulary.",
+    items: [
+      {
+        word: "Aisle",
+        ipa: "/aɪl/",
+        silentLetter: "Silent 's' — rhymes exactly with 'file' and 'smile'.",
+        arNote: "حرف s صامت تماماً، تُنطق ككلمة I'll أو isle."
+      },
+      {
+        word: "Bouquet",
+        ipa: "/buˈkeɪ/",
+        silentLetter: "Silent 't' (French loanword) — primary stress falls on the second syllable.",
+        arNote: "كلمة فرنسية الأصل، حرف t في نهايتها صامت والنبر على المقطع الثاني."
+      },
+      {
+        word: "Ceremony",
+        ipa: "/ˈser.ɪ.mə.ni/",
+        silentLetter: "4 syllables, primary stress strictly on the FIRST syllable: CER-e-mo-ny.",
+        arNote: "النبر يقع على المقطع الأول CER، ولا يُنطق بتشديد المقطع الأخير."
+      },
+      {
+        word: "Prosperity",
+        ipa: "/prɒsˈper.ə.ti/",
+        silentLetter: "4 syllables, primary stress on the SECOND syllable: pros-PER-i-ty.",
+        arNote: "النبر الأساسي يقع على المقطع الثاني PER."
+      },
+      {
+        word: "Propose vs Proposal",
+        ipa: "/prəˈpəʊz/ ➔ /prəˈpəʊ.zəl/",
+        silentLetter: "Verb 'propose' (2 syllables) ➔ Noun 'proposal' (3 syllables with schwa ending).",
+        arNote: "انتقال النبر والصوت بين الفعل propose والاسم المشتق proposal."
+      }
+    ]
+  }
+];
+
+const SESSION_14_NOTEBOOK_PAGES = [
+  {
+    id: "s14_note_customs",
+    title: "Page 1: Authentic Handout & Handwritten Wedding Customs Table",
+    imgUrl: "./assets/images/session14_notebook_wedding_customs.jpg",
+    tag: "Authentic Handout Transcription",
+    summary: "British Council worksheet 'Wedding customs around the world' with Hindu India slip cutout and student notes for Crete, Kenya, and Morocco.",
+    fullTranscription: `[TOP SLIP CUTOUT: WEDDING CUSTOMS AROUND THE WORLD - INDIA]
+There are several ceremonies in a Hindu wedding, including one where the parents of the bride wash the couple's feet with milk and water. In another, the hands of the couple are tied together with thread. Also, the bride and groom walk several times in a circle together around a fire.
+
+[WORKSHEET TABLE TRANSCRIPTIONS]
+• Country: Crete, Greece
+  Student Handwritten Notes: "Thousands attend. People spend a lot of time before ceremony. First dance between all couples, not bride and groom. It symbolises a union of family."
+
+• Country: Kenya
+  Student Handwritten Notes: "Shave bride's hair (student wrote pride). Man present 3 cows."
+
+• Country: Morocco
+  Student Handwritten Notes: "Bride is carried 3 times (student wrote Pride is carried 3 times, then crossed out Pride shave h)."
+
+[DISCUSSION PROMPT]
+"Did anything you hear surprise you? Which place would you most/least like to attend a wedding? Tell your group."
+© British Council. All rights reserved.`
+  },
+  {
+    id: "s14_note_learningapps",
+    title: "Page 2: Smartboard LearningApps Vocabulary Matching Activity",
+    imgUrl: "./assets/images/session14_smartboard_matching.jpg",
+    tag: "Smartboard Interactive Slide",
+    summary: "The 6 core vocabulary matching pairs displayed on the classroom smartboard via LearningApps.org.",
+    fullTranscription: `[LEARNINGAPPS INTERACTIVE MATCHING TILES]
+1. [Tile] "an important social or religious event, when a traditional set of actions is performed in a formal way"
+   ➔ Matched to: ceremony
+
+2. [Tile] "to ask someone to marry you"
+   ➔ Matched to: propose
+
+3. [Tile] "not religious. Relating to the ordinary people of a country"
+   ➔ Matched to: civil wedding
+
+4. [Tile] "an occasion when a photographer takes a series of photographs, usually of the same person or people in the same place"
+   ➔ Matched to: photoshoot
+
+5. [Tile] "when people have money and everything that is needed for a good life"
+   ➔ Matched to: prosperity
+
+6. [Tile] "to represent something"
+   ➔ Matched to: symbolise`
+  },
+  {
+    id: "s14_note_classroom",
+    title: "Page 3: Teacher Classroom Presentation & Part-of-Speech Board",
+    imgUrl: "./assets/images/session14_classroom_presentation.jpg",
+    tag: "Teacher Live Annotations",
+    summary: "Teacher in front of the smartboard explaining grammatical parts of speech, prefixes, and noun/verb derivations.",
+    fullTranscription: `[TEACHER LIVE BOARD ANNOTATIONS]
+• prosperity ➔ noun
+• civil wedding ➔ noun
+• symbolise ➔ verb  ==>  symbol ➔ noun
+• propose ➔ verb  ==>  proposal ➔ noun
+• photoshoot ➔ noun
+• ceremony ➔ noun
+
+Teacher pedagogical notes: Notice how we change verbs to nouns ('propose' to 'proposal', 'symbolise' to 'symbol'). Notice also that 'civil wedding' functions as a compound noun phrase, while 'ceremony' describes the formal event.`
+  },
+  {
+    id: "s14_note_feedback",
+    title: "Page 4: Smartboard Slide 20 — Teacher Live Language Feedback Clinic",
+    imgUrl: "./assets/images/session14_board_language_feedback.jpg",
+    tag: "Slide 20 Error Clinic",
+    summary: "Real student speech errors recorded during group presentations and corrected on the smartboard.",
+    fullTranscription: `[SMARTBOARD SLIDE 20: LANGUAGE FEEDBACK]
+Sentence 1: "They do the ceremony at....."
+   Teacher correction: 'do' is struck through in red.
+   Written alternatives: have / host / held the ceremony at...
+
+Sentence 2: "I don't like attend parties."
+   Teacher correction: 'attend' corrected with inserted 'to' or gerund 'attending' in purple pen.
+
+Sentence 3: "They didn't find a dress that fit her perfectly, so they go to the tailor, ...."
+   Teacher correction: 'go' is struck through in red.
+   Written correction: 'went to the tailor' (past narrative consistency).
+
+Vocabulary reminders on the board:
+have / host / held / attend.`
+  }
+];
+
+/* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
 if (typeof window !== 'undefined') {
@@ -4298,6 +5115,7 @@ if (typeof window !== 'undefined') {
   window.VOCAB_SESSION_11 = typeof VOCAB_SESSION_11 !== 'undefined' ? VOCAB_SESSION_11 : [];
   window.VOCAB_SESSION_12 = typeof VOCAB_SESSION_12 !== 'undefined' ? VOCAB_SESSION_12 : [];
   window.VOCAB_SESSION_13 = typeof VOCAB_SESSION_13 !== 'undefined' ? VOCAB_SESSION_13 : [];
+  window.VOCAB_SESSION_14 = typeof VOCAB_SESSION_14 !== 'undefined' ? VOCAB_SESSION_14 : [];
 
   // Session 1
   window.SESSION_1_DESCRIBING_OBJECTS = typeof SESSION_1_DESCRIBING_OBJECTS !== 'undefined' ? SESSION_1_DESCRIBING_OBJECTS : undefined;
@@ -4344,6 +5162,18 @@ if (typeof window !== 'undefined') {
   window.SESSION_13_NOTEBOOK_PAGES = typeof SESSION_13_NOTEBOOK_PAGES !== 'undefined' ? SESSION_13_NOTEBOOK_PAGES : undefined;
   window.SESSION_13_STORY_PROMPTS = typeof SESSION_13_STORY_PROMPTS !== 'undefined' ? SESSION_13_STORY_PROMPTS : undefined;
   window.SESSION_13_TEACHER_CLINIC = typeof SESSION_13_TEACHER_CLINIC !== 'undefined' ? SESSION_13_TEACHER_CLINIC : undefined;
+
+  // Session 14
+  window.SESSION_14_LEAD_IN = typeof SESSION_14_LEAD_IN !== 'undefined' ? SESSION_14_LEAD_IN : undefined;
+  window.SESSION_14_DIALOGUES = typeof SESSION_14_DIALOGUES !== 'undefined' ? SESSION_14_DIALOGUES : undefined;
+  window.SESSION_14_SMARTBOARD_MATCHING = typeof SESSION_14_SMARTBOARD_MATCHING !== 'undefined' ? SESSION_14_SMARTBOARD_MATCHING : undefined;
+  window.SESSION_14_VOCAB_GROUPS = typeof SESSION_14_VOCAB_GROUPS !== 'undefined' ? SESSION_14_VOCAB_GROUPS : undefined;
+  window.SESSION_14_GLOBAL_CUSTOMS = typeof SESSION_14_GLOBAL_CUSTOMS !== 'undefined' ? SESSION_14_GLOBAL_CUSTOMS : undefined;
+  window.SESSION_14_DISCUSSION_LAB = typeof SESSION_14_DISCUSSION_LAB !== 'undefined' ? SESSION_14_DISCUSSION_LAB : undefined;
+  window.SESSION_14_TEACHER_FEEDBACK = typeof SESSION_14_TEACHER_FEEDBACK !== 'undefined' ? SESSION_14_TEACHER_FEEDBACK : undefined;
+  window.SESSION_14_PRONUNCIATION_LAB = typeof SESSION_14_PRONUNCIATION_LAB !== 'undefined' ? SESSION_14_PRONUNCIATION_LAB : undefined;
+  window.SESSION_14_NOTEBOOK_PAGES = typeof SESSION_14_NOTEBOOK_PAGES !== 'undefined' ? SESSION_14_NOTEBOOK_PAGES : undefined;
 }
+
 
 
