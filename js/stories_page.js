@@ -852,7 +852,7 @@ function loadConnectSet() {
   wordsDeck.forEach(item => {
     const btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'connect-item-card';
+    btn.className = 'connect-btn';
     btn.dataset.id = item.id;
     btn.innerHTML = `
       <span style="font-weight:700; color:var(--text-main);">${escapeHtml(item.word)}</span>
@@ -865,7 +865,7 @@ function loadConnectSet() {
   defsDeck.forEach(item => {
     const btn = document.createElement('button');
     btn.type = 'button';
-    btn.className = 'connect-item-card';
+    btn.className = 'connect-btn';
     btn.dataset.id = item.id;
     btn.innerHTML = `
       <span style="font-size:0.88rem; color:var(--text-body); line-height:1.4;">${escapeHtml(item.definition)}</span>
@@ -876,10 +876,10 @@ function loadConnectSet() {
 }
 
 function onConnectWordClick(btn, item) {
-  if (btn.classList.contains('locked')) return;
+  if (btn.classList.contains('paired')) return;
 
-  document.querySelectorAll('#connectWordsCol .connect-item-card').forEach(b => b.classList.remove('selected'));
-  btn.classList.add('selected');
+  document.querySelectorAll('#connectWordsCol .connect-btn').forEach(b => b.classList.remove('active-source'));
+  btn.classList.add('active-source');
   connectSelectedWord = { btn, item };
 
   speakUK(item.word);
@@ -887,10 +887,10 @@ function onConnectWordClick(btn, item) {
 }
 
 function onConnectDefClick(btn, item) {
-  if (btn.classList.contains('locked')) return;
+  if (btn.classList.contains('paired')) return;
 
-  document.querySelectorAll('#connectDefsCol .connect-item-card').forEach(b => b.classList.remove('selected'));
-  btn.classList.add('selected');
+  document.querySelectorAll('#connectDefsCol .connect-btn').forEach(b => b.classList.remove('active-source'));
+  btn.classList.add('active-source');
   connectSelectedDef = { btn, item };
 
   checkConnectMatch();
@@ -904,13 +904,13 @@ function checkConnectMatch() {
 
   if (wordObj.item.id === defObj.item.id) {
     // MATCH FOUND
-    wordObj.btn.classList.remove('selected');
-    defObj.btn.classList.remove('selected');
-    wordObj.btn.classList.add('locked');
-    defObj.btn.classList.add('locked');
+    wordObj.btn.classList.remove('active-source');
+    defObj.btn.classList.remove('active-source');
+    wordObj.btn.classList.add('paired');
+    defObj.btn.classList.add('paired');
 
-    wordObj.btn.innerHTML += ` <span style="color:var(--emerald); font-weight:800;">✓</span>`;
-    defObj.btn.innerHTML += ` <span style="color:var(--emerald); font-weight:800;">✓</span>`;
+    wordObj.btn.innerHTML += ` <span style="color:var(--emerald); font-weight:800; margin-left:auto;">✓</span>`;
+    defObj.btn.innerHTML += ` <span style="color:var(--emerald); font-weight:800; margin-left:auto;">✓</span>`;
 
     connectPairsSolved++;
     const scoreBadge = document.getElementById('connectScoreBadge');
@@ -928,12 +928,12 @@ function checkConnectMatch() {
     }
   } else {
     // MISMATCH
-    wordObj.btn.classList.add('wrong-shake');
-    defObj.btn.classList.add('wrong-shake');
+    wordObj.btn.classList.add('wrong');
+    defObj.btn.classList.add('wrong');
 
     setTimeout(() => {
-      wordObj.btn.classList.remove('wrong-shake', 'selected');
-      defObj.btn.classList.remove('wrong-shake', 'selected');
+      wordObj.btn.classList.remove('wrong', 'active-source');
+      defObj.btn.classList.remove('wrong', 'active-source');
       connectSelectedWord = null;
       connectSelectedDef = null;
     }, 600);
@@ -1031,14 +1031,14 @@ function renderExamQuestion() {
         else if (opt.id === q.userAnswerId) extraClass = 'wrong';
       }
       return `
-        <button type="button" class="test-choice-btn ${extraClass}" data-id="${opt.id}" ${q.userAnswerId !== null ? 'disabled' : ''}>
+        <button type="button" class="test-choice-option ${extraClass}" data-id="${opt.id}" ${q.userAnswerId !== null ? 'disabled' : ''}>
           <span>${escapeHtml(opt.word)}</span>
           <span style="font-size:0.8rem; opacity:0.6;">(${escapeHtml(opt.cambridgeLevel || 'B1')})</span>
         </button>
       `;
     }).join('');
 
-    choicesList.querySelectorAll('.test-choice-btn').forEach(btn => {
+    choicesList.querySelectorAll('.test-choice-option').forEach(btn => {
       btn.addEventListener('click', () => onExamChoiceSelected(btn, q));
     });
   }
@@ -1102,19 +1102,33 @@ function renderStoryQuotes() {
   const grid = document.getElementById('storyQuotesGrid');
   if (!grid || !story) return;
 
-  grid.innerHTML = (story.quotes || []).map(q => `
+  const quoteItems = [];
+  (story.quotes || []).forEach(group => {
+    const theme = group.theme || 'Story Dialogue';
+    (group.sentences || []).forEach(s => {
+      quoteItems.push({
+        theme: theme,
+        eng: s.en || s.eng || '',
+        ara: s.ar || s.ara || ''
+      });
+    });
+  });
+
+  if (quoteItems.length === 0) {
+    grid.innerHTML = '<p style="color:var(--text-muted); font-style:italic;">No key quotes available for this story.</p>';
+    return;
+  }
+
+  grid.innerHTML = quoteItems.map(q => `
     <div class="quote-item-card">
-      <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem;">
         <span style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--bc-blue); background:rgba(0,102,245,0.08); padding:0.2rem 0.5rem; border-radius:var(--radius-sm);">
-          ${escapeHtml(q.group)}
+          ${escapeHtml(q.theme)}
         </span>
         <button class="audio-circle-btn" onclick="speakUK('${escapeJs(q.eng)}')">🔊</button>
       </div>
-      <div class="quote-en-text">"${escapeHtml(q.eng)}"</div>
-      <div class="quote-ar-text">${escapeHtml(q.ara)}</div>
-      <div style="font-size:0.8rem; color:var(--text-muted); font-style:normal; margin-top:0.2rem;">
-        <strong>Context:</strong> ${escapeHtml(q.context)}
-      </div>
+      <div class="quote-en-text" style="font-size:1.02rem; font-weight:700; color:var(--text-main); margin-bottom:0.4rem; line-height:1.45;">"${escapeHtml(q.eng)}"</div>
+      <div class="quote-ar-text" style="font-size:0.92rem; color:var(--text-muted); direction:rtl; font-family:var(--font-ar);">${escapeHtml(q.ara)}</div>
     </div>
   `).join('');
 }

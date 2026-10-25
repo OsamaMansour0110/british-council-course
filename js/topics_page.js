@@ -179,7 +179,7 @@ function renderTopicHero() {
    -------------------------------------------------------------------------- */
 let topicTranscriptSearchTerm = '';
 
-let inlinePlayerActive = false;
+let inlinePlayerActive = true;
 
 function toggleTopicInlineVideo() {
   const poster = document.getElementById('videoPosterWrap');
@@ -191,18 +191,18 @@ function toggleTopicInlineVideo() {
   if (inlinePlayerActive) {
     poster.style.display = 'none';
     iframeWrap.style.display = 'block';
-    btn.innerHTML = '🖼️ Show Video Poster &amp; Direct Link';
+    btn.innerHTML = '🖼️ Switch to Poster Mode';
     btn.classList.add('active');
   } else {
     poster.style.display = 'block';
     iframeWrap.style.display = 'none';
-    btn.innerHTML = '📺 Play Inside Page';
+    btn.innerHTML = '📺 Play Inside Page (Default)';
     btn.classList.remove('active');
   }
 }
 
 function renderVideoStudio() {
-  inlinePlayerActive = false;
+  inlinePlayerActive = true;
   const topic = SPARE_TOPICS_DATA[currentTopicId];
   const container = document.getElementById('videoStudioGrid');
   if (!container || !topic) return;
@@ -211,7 +211,7 @@ function renderVideoStudio() {
   const youtubeUrl = `https://www.youtube.com/watch?v=${v.youtubeId}&list=PLG4aOWLPpiU94F3pJvdfOSvoPgx1fxbwN`;
 
   container.innerHTML = `
-    <!-- Video Player Column with Poster Fallback & Direct Link -->
+    <!-- Video Player Column with In-Page Embed Default & External Browser Option -->
     <div class="video-player-box" style="display:flex; flex-direction:column; gap:0.85rem;">
       <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.6rem;">
         <div>
@@ -220,15 +220,32 @@ function renderVideoStudio() {
           </span>
           <h3 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.4rem 0 0.2rem;">${escapeHtml(v.title)}</h3>
         </div>
-        <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="btn" style="background:#ef4444; color:#fff; font-size:0.82rem; padding:0.45rem 1rem; border-radius:var(--radius-full); display:inline-flex; align-items:center; gap:0.45rem; text-decoration:none; font-weight:800; box-shadow:0 3px 12px rgba(239,68,68,0.35);">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          <span>Watch on YouTube (New Tab) ↗</span>
-        </a>
+        <div style="display:flex; align-items:center; gap:0.5rem; flex-wrap:wrap;">
+          <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" class="btn" style="background:#ef4444; color:#fff; font-size:0.82rem; padding:0.45rem 1rem; border-radius:var(--radius-full); display:inline-flex; align-items:center; gap:0.45rem; text-decoration:none; font-weight:800; box-shadow:0 3px 12px rgba(239,68,68,0.35);">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <span>Play on Browser / YouTube ↗</span>
+          </a>
+        </div>
       </div>
 
-      <!-- Video Card (Poster Mode by Default to Prevent Blank Black Iframe) -->
+      <!-- Video Player Card (In-Page Video is DEFAULT) -->
       <div style="position:relative; border-radius:var(--radius-md); overflow:hidden; background:#0f172a; border:1px solid var(--border-light); box-shadow:var(--shadow-card);">
-        <div id="videoPosterWrap" style="position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; cursor:pointer;" onclick="window.open('${youtubeUrl}', '_blank')">
+        
+        <!-- 1. Default: In-Page iFrame Player -->
+        <div id="videoIframeWrap" style="display:block; position:relative; width:100%; aspect-ratio:16/9; background:#000;">
+          <iframe 
+            id="topicVideoIframe"
+            src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0" 
+            title="${escapeHtml(v.title)}" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen 
+            style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;">
+          </iframe>
+        </div>
+
+        <!-- 2. Secondary Poster View (Switched on demand) -->
+        <div id="videoPosterWrap" style="display:none; position:relative; width:100%; aspect-ratio:16/9; overflow:hidden; cursor:pointer;" onclick="window.open('${youtubeUrl}', '_blank')">
           <img 
             src="https://img.youtube.com/vi/${v.youtubeId}/hqdefault.jpg" 
             alt="${escapeHtml(v.title)}" 
@@ -260,29 +277,16 @@ function renderVideoStudio() {
           </div>
         </div>
 
-        <!-- In-Page iFrame Player (Toggled on demand) -->
-        <div id="videoIframeWrap" style="display:none; position:relative; width:100%; aspect-ratio:16/9; background:#000;">
-          <iframe 
-            id="topicVideoIframe"
-            src="https://www.youtube-nocookie.com/embed/${v.youtubeId}?rel=0" 
-            title="${escapeHtml(v.title)}" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen 
-            style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;">
-          </iframe>
-        </div>
-
         <!-- Video Player Control Strip -->
         <div style="padding:0.75rem 1rem; background:var(--bg-surface); border-top:1px solid var(--border-light); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; font-size:0.82rem;">
           <div style="display:flex; align-items:center; gap:0.5rem;">
-            <button type="button" id="btnToggleInlinePlayer" class="btn-outline-subtle" onclick="toggleTopicInlineVideo()" style="font-size:0.8rem; padding:0.35rem 0.85rem;">
-              📺 Play Inside Page
+            <button type="button" id="btnToggleInlinePlayer" class="btn-outline-subtle active" onclick="toggleTopicInlineVideo()" style="font-size:0.8rem; padding:0.35rem 0.85rem;">
+              🖼️ Switch to Poster Mode
             </button>
-            <span style="color:var(--text-muted); font-size:0.78rem;">Or watch directly on YouTube for zero restrictions.</span>
+            <span style="color:var(--text-muted); font-size:0.78rem;">Currently playing in-page. Use button to switch view or YouTube button to open in browser.</span>
           </div>
           <a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer" style="color:var(--bc-blue); font-weight:700; text-decoration:none;">
-            Official YouTube Link ↗
+            Open in Browser / YouTube ↗
           </a>
         </div>
       </div>

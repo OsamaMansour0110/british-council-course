@@ -67,7 +67,7 @@ const STORIES_DATA = {
         "word": "instinct",
         "level": "C1",
         "arabic": "غريزة / حدس طبيعي",
-        "definition": "A natural feeling that makes you act quickly without conscious thinking.",
+        "definition": "A natural feeling that makes you act quickly without having to think first.",
         "example": "Instinct made David step in front of Emma to protect her."
       },
       {
@@ -75,7 +75,7 @@ const STORIES_DATA = {
         "word": "bared (teeth)",
         "level": "C1",
         "arabic": "كشّر عن (أسنانه)",
-        "definition": "Showed sharp teeth in a threatening or aggressive manner.",
+        "definition": "Showed sharp teeth in an angry or threatening way.",
         "example": "His eyes opened wider and his teeth were bared."
       },
       {
@@ -83,7 +83,7 @@ const STORIES_DATA = {
         "word": "atmosphere",
         "level": "C1",
         "arabic": "أجواء / جو عام",
-        "definition": "The prevailing mood, tone, or emotional feeling in a place or situation.",
+        "definition": "The general mood or feeling in a place or situation.",
         "example": "The atmosphere in the room had certainly turned ugly."
       },
       {
@@ -91,7 +91,7 @@ const STORIES_DATA = {
         "word": "disgusting",
         "level": "C1",
         "arabic": "مقزز / مثير للاشمئزاز",
-        "definition": "Extremely unpleasant, repulsive, or offensive to the senses or morals.",
+        "definition": "Very unpleasant, horrible, or making you feel sick.",
         "example": "How could he drink the blood of these disgusting creatures?"
       },
       {
@@ -99,7 +99,7 @@ const STORIES_DATA = {
         "word": "centuries",
         "level": "C1",
         "arabic": "قرون (مئات السنين)",
-        "definition": "Periods of one hundred years; a very long span of historical time.",
+        "definition": "Periods of one hundred years; a very long time in history.",
         "example": "He had been killing for many centuries."
       },
       {
@@ -107,7 +107,7 @@ const STORIES_DATA = {
         "word": "break-up",
         "level": "B2",
         "arabic": "انفصال عاطفي",
-        "definition": "The formal end of a romantic relationship or marriage.",
+        "definition": "The end of a romantic relationship or marriage.",
         "example": "All the pain of his last break-up disappeared."
       },
       {
@@ -115,7 +115,7 @@ const STORIES_DATA = {
         "word": "vampire",
         "level": "B2",
         "arabic": "مصاص دماء",
-        "definition": "A mythological creature with fangs that drinks blood and cannot die.",
+        "definition": "A creature in stories that drinks human blood and cannot die.",
         "example": "The vampire was always pleased when people lived in flats."
       },
       {
@@ -123,7 +123,7 @@ const STORIES_DATA = {
         "word": "hiss(ed)",
         "level": "B2",
         "arabic": "همس بغضب / فحّ",
-        "definition": "To whisper words in a quiet, harsh, and threatening tone.",
+        "definition": "To speak in a quiet, sharp, angry whisper.",
         "example": "'Which one?' the man hissed."
       },
       {
@@ -131,7 +131,7 @@ const STORIES_DATA = {
         "word": "victim(s)",
         "level": "B2",
         "arabic": "ضحية / ضحايا",
-        "definition": "A person harmed, injured, or targeted in a crime or attack.",
+        "definition": "A person who is hurt, attacked, or killed by someone else.",
         "example": "How many victims had he watched? Many victims!"
       },
       {
@@ -139,7 +139,7 @@ const STORIES_DATA = {
         "word": "depressing",
         "level": "B2",
         "arabic": "مُحبِط / باعث على الاكتئاب",
-        "definition": "Causing an overwhelming feeling of sadness, gloom, or loss of hope.",
+        "definition": "Making you feel very sad, unhappy, and without hope.",
         "example": "Listening to them was depressing."
       },
       {
@@ -147,7 +147,7 @@ const STORIES_DATA = {
         "word": "shadows",
         "level": "B2",
         "arabic": "ظلال / أماكن مظلمة",
-        "definition": "Dark areas where direct light is blocked by objects or bodies.",
+        "definition": "Dark areas where direct light is blocked by something.",
         "example": "A tall man watched them from the shadows."
       },
       {
@@ -155,7 +155,7 @@ const STORIES_DATA = {
         "word": "approached",
         "level": "B2",
         "arabic": "اقترب من",
-        "definition": "Moved closer in distance or time towards someone or something.",
+        "definition": "Came closer in distance to someone or something.",
         "example": "The vampire approached David."
       },
       {
@@ -163,7 +163,7 @@ const STORIES_DATA = {
         "word": "embarrassed",
         "level": "B2",
         "arabic": "مُحرَج / خجلان",
-        "definition": "Feeling self-conscious, awkward, or shameful in front of other people.",
+        "definition": "Feeling shy, uncomfortable, or silly in front of other people.",
         "example": "David was embarrassed to be having this argument in front of a stranger."
       },
       {
@@ -171,7 +171,7 @@ const STORIES_DATA = {
         "word": "nightmare",
         "level": "B2",
         "arabic": "كابوس مرعب",
-        "definition": "A frightening, terrifying dream or a horrifying real-life ordeal.",
+        "definition": "A very scary dream, or a terrible real-life experience.",
         "example": "Their dream was about to become a nightmare."
       },
       {
@@ -179,7 +179,7 @@ const STORIES_DATA = {
         "word": "terrified",
         "level": "B2",
         "arabic": "مرعوب / خائف بشدة",
-        "definition": "Extremely afraid, panicked, and filled with deep terror.",
+        "definition": "Extremely scared and filled with deep fear.",
         "example": "The couple held each other in terrified silence."
       },
       {
@@ -187,7 +187,7 @@ const STORIES_DATA = {
         "word": "pale",
         "level": "B2",
         "arabic": "شاحب اللون",
-        "definition": "Having light skin color, especially from illness, fright, or unnatural nature.",
+        "definition": "Having skin that is lighter than usual, especially from fear or illness.",
         "example": "His face was pale with a sharp, pointed nose."
       },
       {
@@ -195,7 +195,7 @@ const STORIES_DATA = {
         "word": "selfish",
         "level": "B2",
         "arabic": "أناني / يحب نفسه فقط",
-        "definition": "Lacking consideration for others; solely concerned with one's own advantage.",
+        "definition": "Caring only about yourself and not about other people.",
         "example": "The fear and love were now silly, selfish arguments."
       },
       {
@@ -203,7 +203,7 @@ const STORIES_DATA = {
         "word": "gratefully",
         "level": "B2",
         "arabic": "بامتنان / بشكر وعرفان",
-        "definition": "In a manner that shows sincere appreciation or relief.",
+        "definition": "In a thankful way, feeling relieved and glad.",
         "example": "Emma gratefully held onto his back."
       },
       {
@@ -211,7 +211,7 @@ const STORIES_DATA = {
         "word": "invitation",
         "level": "B2",
         "arabic": "دعوة للقدوم",
-        "definition": "A written or spoken request asking someone to enter or join.",
+        "definition": "A polite request asking someone to come to an event or enter a place.",
         "example": "It was a kind of invitation, and that was all he needed."
       },
       {
@@ -219,7 +219,7 @@ const STORIES_DATA = {
         "word": "doubts",
         "level": "B2",
         "arabic": "شكوك / حيرة وتردد",
-        "definition": "Feelings of uncertainty, lack of conviction, or skepticism.",
+        "definition": "Feelings of not being completely sure about something.",
         "example": "All his doubts and fears about love had gone."
       },
       {
@@ -227,7 +227,7 @@ const STORIES_DATA = {
         "word": "pointed",
         "level": "B2",
         "arabic": "مدبب / حاد الرأس",
-        "definition": "Having a sharp, tapered end; or directed towards a target.",
+        "definition": "Having a sharp end that narrows to a point.",
         "example": "His face was pale with a sharp, pointed nose."
       },
       {
@@ -235,7 +235,7 @@ const STORIES_DATA = {
         "word": "couple",
         "level": "B1",
         "arabic": "زوجين / شريكين",
-        "definition": "Two people who are married, engaged, or in a romantic relationship.",
+        "definition": "Two people who are in a romantic relationship together.",
         "example": "The young couple were happy at the restaurant."
       },
       {
@@ -243,7 +243,7 @@ const STORIES_DATA = {
         "word": "delicious",
         "level": "B1",
         "arabic": "لذيذ المذاق",
-        "definition": "Highly pleasing to the sense of taste.",
+        "definition": "Having a very pleasant, wonderful taste.",
         "example": "The food was delicious."
       },
       {
@@ -251,7 +251,7 @@ const STORIES_DATA = {
         "word": "nervous",
         "level": "B1",
         "arabic": "متوتر / قلق",
-        "definition": "Easily agitated, apprehensive, or worried about an outcome.",
+        "definition": "Feeling worried, tense, or not relaxed about what might happen.",
         "example": "David suddenly felt nervous."
       },
       {
@@ -259,7 +259,7 @@ const STORIES_DATA = {
         "word": "confused",
         "level": "B1",
         "arabic": "مُرتبِك / تائه الفكر",
-        "definition": "Unable to think clearly or understand what is taking place.",
+        "definition": "Not able to think clearly or understand what is happening.",
         "example": "For a moment, David was confused."
       },
       {
@@ -267,7 +267,7 @@ const STORIES_DATA = {
         "word": "protect",
         "level": "B1",
         "arabic": "يحمي / يدافع عن",
-        "definition": "To keep safe from harm, danger, or injury.",
+        "definition": "To keep someone or something safe from harm or danger.",
         "example": "I'm here to protect you."
       },
       {
@@ -275,7 +275,7 @@ const STORIES_DATA = {
         "word": "brave",
         "level": "B1",
         "arabic": "شجاع / مقدام",
-        "definition": "Ready to face danger or pain without showing fear.",
+        "definition": "Willing to do difficult or dangerous things without showing fear.",
         "example": "Her smile made him feel brave."
       },
       {
@@ -283,7 +283,7 @@ const STORIES_DATA = {
         "word": "horrible",
         "level": "B1",
         "arabic": "فظيع / مروع",
-        "definition": "Very unpleasant, shock-inducing, or disagreeable.",
+        "definition": "Very bad, shocking, or unpleasant.",
         "example": "What a horrible man!"
       },
       {
@@ -291,7 +291,7 @@ const STORIES_DATA = {
         "word": "promise",
         "level": "B1",
         "arabic": "يَعِد / تعهد",
-        "definition": "To assure someone that one will definitely do or not do something.",
+        "definition": "To say definitely that you will do or not do something.",
         "example": "We won't stop you, I promise!"
       },
       {
@@ -299,7 +299,7 @@ const STORIES_DATA = {
         "word": "accent",
         "level": "B1",
         "arabic": "لهجة / نبرة كلام",
-        "definition": "A distinctive way of pronouncing a language associated with a country or area.",
+        "definition": "The way people pronounce words in a particular country or area.",
         "example": "He spoke with a strong and strange accent."
       },
       {
@@ -307,7 +307,7 @@ const STORIES_DATA = {
         "word": "ring",
         "level": "A2",
         "arabic": "خاتم الخطوبة",
-        "definition": "A small circular band of precious metal worn on a finger as an ornament or symbol.",
+        "definition": "A small round piece of metal worn on a finger as jewelry.",
         "example": "He reached for the ring in a box in his pocket."
       },
       {
@@ -315,7 +315,7 @@ const STORIES_DATA = {
         "word": "wallet",
         "level": "A2",
         "arabic": "محفظة نقود",
-        "definition": "A small, flat folding case for paper money, credit cards, and coins.",
+        "definition": "A small flat case used to carry paper money and bank cards.",
         "example": "There's my wallet! On the table, there! Take it!"
       }
     ],
@@ -575,7 +575,7 @@ const STORIES_DATA = {
         "word": "particle accelerator",
         "level": "C1",
         "arabic": "مُسرِّع الجسيمات",
-        "definition": "A massive scientific machine that accelerates subatomic particles to near light-speed for physics experiments.",
+        "definition": "Having a sharp end that narrows to a point.",
         "example": "He pressed the second button and switched on the large particle accelerator."
       },
       {
@@ -583,7 +583,7 @@ const STORIES_DATA = {
         "word": "prosecution",
         "level": "C1",
         "arabic": "هيئة الادعاء العام / جهة الاتهام",
-        "definition": "The legal lawyers and team conducting criminal proceedings against an accused person in court.",
+        "definition": "The lawyers in a court who try to prove that an accused person is guilty.",
         "example": "Well, if you didn't steal the stars, Dr Streyer, said the lawyer for the prosecution."
       },
       {
@@ -591,7 +591,7 @@ const STORIES_DATA = {
         "word": "photons",
         "level": "C1",
         "arabic": "فوتونات (جسيمات الضوء الأولية)",
-        "definition": "Elementary subatomic particles representing quantum packets of light and electromagnetic radiation.",
+        "definition": "The tiny particles that make up light.",
         "example": "When the machine started, there were suddenly no photons in the test room."
       },
       {
@@ -599,7 +599,7 @@ const STORIES_DATA = {
         "word": "charged with",
         "level": "C1",
         "arabic": "وُجِّهت إليه تهمة رسمية",
-        "definition": "Formally and legally accused of committing a specific crime or violation of law.",
+        "definition": "Officially accused by the police or a court of committing a crime.",
         "example": "When they made him go to the International Criminal Court, they charged him with stealing the stars."
       },
       {
@@ -607,7 +607,7 @@ const STORIES_DATA = {
         "word": "edges of our galaxy",
         "level": "C1",
         "arabic": "أطراف مجرتنا الفلكية",
-        "definition": "The outermost physical boundaries and stellar horizons of the Milky Way system.",
+        "definition": "The furthest outer borders of our galaxy in space.",
         "example": "No tourists came to these high mountains to see the edges of our galaxy."
       },
       {
@@ -615,7 +615,7 @@ const STORIES_DATA = {
         "word": "twinkling",
         "level": "C1",
         "arabic": "يتلألأ / يلمع ببريق متناوب",
-        "definition": "Shining with a flickering or intermittent gleaming light, as distant stars appear through atmosphere.",
+        "definition": "Shining with a soft light that seems to quickly change from bright to faint.",
         "example": "There was Alpha Centauri twinkling back at him from the night sky."
       },
       {
@@ -623,7 +623,7 @@ const STORIES_DATA = {
         "word": "galaxy",
         "level": "B2",
         "arabic": "مجرّة فلكية",
-        "definition": "A gravitationally bound system of millions or billions of stars, interstellar gas, and dark matter.",
+        "definition": "A huge group of millions or billions of stars and planets in space.",
         "example": "It was continuing out towards the edge of our galaxy and further, to the stars."
       },
       {
@@ -631,7 +631,7 @@ const STORIES_DATA = {
         "word": "telescope",
         "level": "B2",
         "arabic": "تلسكوب / مرقاب فلكي",
-        "definition": "An optical instrument designed to make distant celestial objects appear clearer and magnified.",
+        "definition": "A tube-shaped tool that makes distant stars and planets look bigger and closer.",
         "example": "They sent Tomas to work at the Extremely Large Telescope in Paranal in Chile."
       },
       {
@@ -639,7 +639,7 @@ const STORIES_DATA = {
         "word": "guilty",
         "level": "B2",
         "arabic": "مُذنِب / مسؤول قانونياً",
-        "definition": "Responsible for a specified wrongdoing, crime, or error confirmed by judgment.",
+        "definition": "Having done something wrong or against the law, decided by a court.",
         "example": "Tomas said, 'I'm not guilty.' ... Later he changed his mind and said, 'I'm guilty.'"
       },
       {
@@ -647,7 +647,7 @@ const STORIES_DATA = {
         "word": "laboratory",
         "level": "B2",
         "arabic": "مختبر / معمل تجارب علمية",
-        "definition": "A dedicated room or building equipped for scientific research, measurement, and testing.",
+        "definition": "A special room or building where scientists do tests and experiments.",
         "example": "For just a moment it was as if there was no light in our laboratory."
       },
       {
@@ -655,7 +655,7 @@ const STORIES_DATA = {
         "word": "punishment",
         "level": "B2",
         "arabic": "عقوبة / جزاء تأديبي",
-        "definition": "The infliction or imposition of a penalty as retribution for an offense.",
+        "definition": "A penalty given to someone because they did something bad or illegal.",
         "example": "Instead, they designed a punishment especially for him."
       },
       {
@@ -663,7 +663,7 @@ const STORIES_DATA = {
         "word": "enormous",
         "level": "B2",
         "arabic": "هائل / عظيم الضخامة",
-        "definition": "Markedly vast or exceeding typical bounds in size, scale, or capacity.",
+        "definition": "Extremely large in size; huge.",
         "example": "With the enormous telescope, he looked at the same place in the empty sky every night."
       },
       {
@@ -671,7 +671,7 @@ const STORIES_DATA = {
         "word": "universe",
         "level": "B2",
         "arabic": "الكون بأسره",
-        "definition": "All existing matter, space, and energy considered as an integrated whole.",
+        "definition": "All of space and everything in it, including all stars and planets.",
         "example": "In a few minutes, they might start to discover something amazing: how the universe began."
       },
       {
@@ -679,7 +679,7 @@ const STORIES_DATA = {
         "word": "laws of physics",
         "level": "B2",
         "arabic": "قوانين الفيزياء الطبيعية",
-        "definition": "Fundamental principles and mathematical equations describing the behavior of nature.",
+        "definition": "The basic rules of nature that explain how the physical world works.",
         "example": "Tomas was almost happy to know that the laws of physics remained the same."
       },
       {
@@ -687,7 +687,7 @@ const STORIES_DATA = {
         "word": "disappear(ed)",
         "level": "B2",
         "arabic": "يختفي / يتلاشى عن الأنظار",
-        "definition": "To cease to be visible, detectable, or physically present.",
+        "definition": "To go away so that it cannot be seen anymore.",
         "example": "When his physics experiment goes wrong and all the stars disappear."
       },
       {
@@ -695,7 +695,7 @@ const STORIES_DATA = {
         "word": "complicated",
         "level": "B2",
         "arabic": "مُعقّد / مركب من أجزاء كثيرة",
-        "definition": "Consisting of many interconnected components; intricate and challenging to operate.",
+        "definition": "Having many connected parts and difficult to understand.",
         "example": "He pressed the first button and the complicated computers and machines came to life."
       },
       {
@@ -703,7 +703,7 @@ const STORIES_DATA = {
         "word": "blame",
         "level": "B2",
         "arabic": "يلوم / يحمّل المسؤولية",
-        "definition": "To assign responsibility or fault for a mistake, catastrophe, or misfortune.",
+        "definition": "To say or believe that someone is responsible for something bad.",
         "example": "Now the world could blame someone for what it had lost."
       },
       {
@@ -711,7 +711,7 @@ const STORIES_DATA = {
         "word": "prove",
         "level": "B2",
         "arabic": "يُثبت / يبرهن بالدليل",
-        "definition": "To establish the truth, accuracy, or validity of a theory through evidence or time.",
+        "definition": "To show that something is definitely true by giving evidence or facts.",
         "example": "He had an idea, but it would take years to prove it."
       },
       {
@@ -719,7 +719,7 @@ const STORIES_DATA = {
         "word": "frightened",
         "level": "B2",
         "arabic": "خائف / مرتعب",
-        "definition": "Afraid, anxious, or gripped by intense fear.",
+        "definition": "Feeling very afraid or scared.",
         "example": "He was excited and frightened but he tried to seem calm."
       },
       {
@@ -727,7 +727,7 @@ const STORIES_DATA = {
         "word": "confused",
         "level": "B2",
         "arabic": "مرتبك / حائر ومضطرب",
-        "definition": "Unable to understand circumstances or think with customary clarity.",
+        "definition": "Not able to think clearly or understand what is happening.",
         "example": "Everyone else in the building was outside, frightened and confused."
       },
       {
@@ -735,7 +735,7 @@ const STORIES_DATA = {
         "word": "experiment",
         "level": "B1",
         "arabic": "تجربة علمية",
-        "definition": "A systematic scientific test carried out under controlled conditions to discover something new.",
+        "definition": "A test done by scientists to discover something new or test an idea.",
         "example": "He sat at the main computer and started reading the information and numbers from his experiment."
       },
       {
@@ -743,7 +743,7 @@ const STORIES_DATA = {
         "word": "shock",
         "level": "B1",
         "arabic": "صدمة / ذهول مفاجئ",
-        "definition": "A sudden, upsetting disturbance of emotional or mental balance.",
+        "definition": "A sudden bad feeling caused by an unexpected, upsetting event.",
         "example": "Tomas shouted in shock, but the lights were already on again."
       },
       {
@@ -751,7 +751,7 @@ const STORIES_DATA = {
         "word": "screaming",
         "level": "B1",
         "arabic": "صراخ / عويل من الخوف",
-        "definition": "Uttering a piercing, loud cry resulting from sheer terror or distress.",
+        "definition": "Crying out in a loud, high voice because of fear or pain.",
         "example": "People were shouting and screaming when the sky went dark."
       },
       {
@@ -759,7 +759,7 @@ const STORIES_DATA = {
         "word": "speed",
         "level": "B1",
         "arabic": "سرعة الحركة",
-        "definition": "The rate at which an object or electromagnetic beam covers distance over time.",
+        "definition": "How fast someone or something moves over time.",
         "example": "Light still travelled at the same speed as it had always travelled."
       },
       {
@@ -767,7 +767,7 @@ const STORIES_DATA = {
         "word": "wave",
         "level": "B1",
         "arabic": "موجة متتالية",
-        "definition": "A rhythmic disturbance or pulse propagating through medium, vacuum, or space.",
+        "definition": "A moving line of energy, light, or water.",
         "example": "He imagined it like a wave that had passed the sun."
       },
       {
@@ -775,7 +775,7 @@ const STORIES_DATA = {
         "word": "lonely",
         "level": "B1",
         "arabic": "وحيد / موحش ومنعزل",
-        "definition": "Isolated, barren, or solitary without companion or illumination.",
+        "definition": "Unhappy because you are alone without friends or company.",
         "example": "All that passed through the night sky was the lonely moon and a few planets."
       },
       {
@@ -783,7 +783,7 @@ const STORIES_DATA = {
         "word": "punish(ed)",
         "level": "B1",
         "arabic": "يُعاقب / ينال جزاءه",
-        "definition": "To subject someone to a penalty for an error or offense.",
+        "definition": "To make someone suffer because they did something wrong.",
         "example": "Tomas thought it was fair that they punished him."
       },
       {
@@ -791,7 +791,7 @@ const STORIES_DATA = {
         "word": "pause",
         "level": "B1",
         "arabic": "برهة صمت / توقف مؤقت",
-        "definition": "A temporary hesitation or quiet cessation in speech or movement.",
+        "definition": "A short stop in talking or doing something.",
         "example": "After a long pause, Tomas spoke."
       },
       {
@@ -799,7 +799,7 @@ const STORIES_DATA = {
         "word": "fair",
         "level": "B1",
         "arabic": "عادل / منصف",
-        "definition": "Just, equitable, and appropriate according to prevailing standards.",
+        "definition": "Treating everyone in the same right and honest way.",
         "example": "Tomas thought it was fair that they punished him."
       },
       {
@@ -807,7 +807,7 @@ const STORIES_DATA = {
         "word": "blind",
         "level": "A2",
         "arabic": "أعمى / عاجز عن الإبصار",
-        "definition": "Unable to see, temporarily or permanently deprived of sight.",
+        "definition": "Not able to see anything.",
         "example": "For a second, he felt as if he was blind, because everything went completely black."
       },
       {
@@ -815,7 +815,7 @@ const STORIES_DATA = {
         "word": "stars",
         "level": "A2",
         "arabic": "نجوم السماء",
-        "definition": "Distant celestial bodies consisting of luminous plasma visible at night.",
+        "definition": "Bright points of light visible in the night sky.",
         "example": "Because, although the moon rose again, there were no stars in the sky at all."
       },
       {
@@ -823,7 +823,7 @@ const STORIES_DATA = {
         "word": "wish",
         "level": "A2",
         "arabic": "أمنية / يتمنى في قلبه",
-        "definition": "A hopeful desire or longing for an aspiration to come true.",
+        "definition": "To feel or say that you want something nice to happen.",
         "example": "He felt tears in his eyes and he made a wish."
       }
     ],
@@ -1103,7 +1103,7 @@ const SPARE_TOPICS_DATA = {
         "word": "comprehension",
         "level": "C1",
         "arabic": "الاستيعاب / الفهم",
-        "definition": "The ability to understand what you read or hear.",
+        "definition": "The ability to understand spoken or written language.",
         "example": "Reading every day helps improve your comprehension of English."
       },
       {
@@ -1159,7 +1159,7 @@ const SPARE_TOPICS_DATA = {
         "word": "break-up",
         "level": "B2",
         "arabic": "انفصال (عاطفي)",
-        "definition": "The end of a romantic relationship between two people.",
+        "definition": "The end of a romantic relationship or marriage.",
         "example": "After the break-up, he felt sad for a long time."
       },
       {
@@ -1223,7 +1223,7 @@ const SPARE_TOPICS_DATA = {
         "word": "complicated",
         "level": "B2",
         "arabic": "مُعقَّد / صعب الفهم",
-        "definition": "Not easy to understand; having many parts or details.",
+        "definition": "Having many connected parts and difficult to understand.",
         "example": "This math problem is very complicated. I need help with it."
       },
       {
@@ -1311,7 +1311,7 @@ const SPARE_TOPICS_DATA = {
         "word": "prefer",
         "level": "B1",
         "arabic": "يُفضِّل",
-        "definition": "To like one thing more than another.",
+        "definition": "To like one person or thing more than another.",
         "example": "I prefer reading at night before I go to sleep."
       },
       {
@@ -1456,7 +1456,7 @@ const SPARE_TOPICS_DATA = {
         "word": "universally known",
         "level": "C1",
         "arabic": "معروف عالمياً / متفق عليه في كل مكان",
-        "definition": "Known, recognized, or accepted by everyone throughout the entire world.",
+        "definition": "Known and understood by people all around the world.",
         "example": "English is universally known as a global language for travel and business."
       },
       {
@@ -1464,7 +1464,7 @@ const SPARE_TOPICS_DATA = {
         "word": "distinct",
         "level": "C1",
         "arabic": "متميز وواضح / له طابع فريد منفصل",
-        "definition": "Clearly noticeable, unmistakable, and easily recognized as separate from others.",
+        "definition": "Clearly different and easy to notice from other things.",
         "example": "Each season in this country has a distinct weather and feel."
       },
       {
@@ -1472,7 +1472,7 @@ const SPARE_TOPICS_DATA = {
         "word": "miserable",
         "level": "C1",
         "arabic": "كئيب / بائس / شديد السوء والتعاسة",
-        "definition": "Causing severe discomfort, sadness, or extremely unpleasant conditions.",
+        "definition": "Very unhappy, uncomfortable, or unpleasant.",
         "example": "The rainy day was miserable, so we stayed home and watched TV."
       },
       {
@@ -1480,7 +1480,7 @@ const SPARE_TOPICS_DATA = {
         "word": "comprehension",
         "level": "C1",
         "arabic": "الاستيعاب / الفهم العميق",
-        "definition": "The ability to understand fully what you read or hear in a language.",
+        "definition": "The ability to understand spoken or written language.",
         "example": "Reading short stories helps you improve your English comprehension."
       },
       {
@@ -1488,7 +1488,7 @@ const SPARE_TOPICS_DATA = {
         "word": "landscape",
         "level": "C1",
         "arabic": "المنظر الطبيعي / تضاريس الأرض العامة",
-        "definition": "All the visible features of an area of land, countryside, or nature.",
+        "definition": "Everything you can see across a large area of countryside or land.",
         "example": "We stopped the car to take pictures of the green mountain landscape."
       },
       {
@@ -1496,7 +1496,7 @@ const SPARE_TOPICS_DATA = {
         "word": "daylight savings time",
         "level": "B2",
         "arabic": "التوقيت الصيفي (تقديم الساعة ساعة في الربيع)",
-        "definition": "The practice of advancing clocks forward one hour in spring to enjoy longer evening daylight.",
+        "definition": "Moving clocks forward one hour in spring to have more light in the evening.",
         "example": "Many countries start daylight savings time in March every year."
       },
       {
@@ -1504,7 +1504,7 @@ const SPARE_TOPICS_DATA = {
         "word": "handle",
         "level": "B2",
         "arabic": "يتحمّل / يتعامل بنجاح مع الظروف الصعبة",
-        "definition": "To cope with, manage, or endure difficult conditions, stress, or extreme weather.",
+        "definition": "To deal with a difficult situation or cold weather successfully.",
         "example": "I can handle cold mornings, but I always drink hot tea to stay warm."
       },
       {
@@ -1512,7 +1512,7 @@ const SPARE_TOPICS_DATA = {
         "word": "bloom",
         "level": "B2",
         "arabic": "يُزهر / تتفتح الأزهار والبراعم",
-        "definition": "When a plant produces flowers or when flowers open up fresh and healthy.",
+        "definition": "When flowers open up fresh and colourful on plants or trees.",
         "example": "The red roses bloom in our small garden every May."
       },
       {
@@ -1520,7 +1520,7 @@ const SPARE_TOPICS_DATA = {
         "word": "uncomfortable",
         "level": "B2",
         "arabic": "غير مريح / مزعج للجسم",
-        "definition": "Causing a feeling of physical irritation, slight pain, or unpleasant heat/cold.",
+        "definition": "Not feeling pleasant or relaxed to sit in, wear, or experience.",
         "example": "This hotel room is uncomfortable because the bed is too hard."
       },
       {
@@ -1528,7 +1528,7 @@ const SPARE_TOPICS_DATA = {
         "word": "mild",
         "level": "B2",
         "arabic": "معتدل / لطيف وغير قارس",
-        "definition": "Describing weather that is pleasant, not severe, and neither too hot nor too cold.",
+        "definition": "Pleasant weather that is not too hot and not too cold.",
         "example": "Alexandria has a mild winter compared to northern European cities."
       },
       {
@@ -1536,7 +1536,7 @@ const SPARE_TOPICS_DATA = {
         "word": "crunching",
         "level": "B2",
         "arabic": "صوت الطقطقة أو الخشخشة عند الدوس",
-        "definition": "Making a sharp, crushing noise when stepped on or pressed down.",
+        "definition": "Making a loud, crushing sound when stepped on.",
         "example": "We heard the dry leaves crunching under our shoes in the garden."
       },
       {
@@ -1544,7 +1544,7 @@ const SPARE_TOPICS_DATA = {
         "word": "experienced",
         "level": "B2",
         "arabic": "عايشَ / خاض تجربة مباشرة",
-        "definition": "To have lived through, undergone, or directly felt something that happened.",
+        "definition": "To have lived through or felt something directly.",
         "example": "I experienced my first snow trip when I visited Turkey last year."
       },
       {
@@ -1552,7 +1552,7 @@ const SPARE_TOPICS_DATA = {
         "word": "plenty of",
         "level": "B2",
         "arabic": "الكثير من / وفرة كافية من",
-        "definition": "More than enough of something; a generous or sufficient amount.",
+        "definition": "A large amount of something; more than enough.",
         "example": "You should drink plenty of water during hot summer days."
       },
       {
@@ -1560,7 +1560,7 @@ const SPARE_TOPICS_DATA = {
         "word": "regions",
         "level": "B2",
         "arabic": "أقاليم / مناطق جغرافية محددة",
-        "definition": "Large geographical areas or distinct parts of a country or the world.",
+        "definition": "Particular geographical areas or parts of a country.",
         "example": "This region is famous for producing sweet apples and oranges."
       },
       {
@@ -1568,7 +1568,7 @@ const SPARE_TOPICS_DATA = {
         "word": "recommend",
         "level": "B2",
         "arabic": "يُوصي بـ / يقترح بقوة",
-        "definition": "To suggest that someone try, buy, or visit something because it is good.",
+        "definition": "To suggest that something is good, useful, or worth trying.",
         "example": "I recommend this light jacket because it keeps the cold wind away."
       },
       {
@@ -1576,7 +1576,7 @@ const SPARE_TOPICS_DATA = {
         "word": "autumn",
         "level": "B1",
         "arabic": "فصل الخريف (المصطلح البريطاني والشائع)",
-        "definition": "The season between summer and winter when the weather cools and leaves fall.",
+        "definition": "The season between summer and winter when leaves turn red and fall.",
         "example": "The weather becomes pleasantly cool in autumn."
       },
       {
@@ -1584,7 +1584,7 @@ const SPARE_TOPICS_DATA = {
         "word": "temperature",
         "level": "B1",
         "arabic": "درجة الحرارة",
-        "definition": "A measurement of how hot or cold a place, object, or living body is.",
+        "definition": "A measurement of how hot or cold something or somewhere is.",
         "example": "The temperature drops quickly when the sun goes down."
       },
       {
@@ -1592,7 +1592,7 @@ const SPARE_TOPICS_DATA = {
         "word": "degrees Celsius",
         "level": "B1",
         "arabic": "درجات مئوية (مقياس الحرارة)",
-        "definition": "The standard metric unit used worldwide to measure hot and cold temperatures.",
+        "definition": "The standard unit used to measure temperature.",
         "example": "Water boils at one hundred degrees Celsius."
       },
       {
@@ -1600,7 +1600,7 @@ const SPARE_TOPICS_DATA = {
         "word": "skiing",
         "level": "B1",
         "arabic": "رياضة التزلج على الجليد",
-        "definition": "The sport or hobby of moving over snow on two long, narrow pieces of wood or plastic.",
+        "definition": "The sport of sliding over snow on two long, narrow boards.",
         "example": "My friends like skiing on the high mountain every January."
       },
       {
@@ -1608,7 +1608,7 @@ const SPARE_TOPICS_DATA = {
         "word": "snowboarding",
         "level": "B1",
         "arabic": "رياضة ركوب لوح التزلج على الثلج",
-        "definition": "The sport of sliding down snow-covered hills standing on one wide board.",
+        "definition": "The sport of sliding down snowy hills standing on one wide board.",
         "example": "Snowboarding is faster and more exciting than walking on deep snow."
       },
       {
@@ -1616,7 +1616,7 @@ const SPARE_TOPICS_DATA = {
         "word": "vacation",
         "level": "B1",
         "arabic": "إجازة / عطلة للاستجمام",
-        "definition": "A period of time away from regular school or work to rest or travel.",
+        "definition": "A period of time away from work or school to relax or travel.",
         "example": "Our family went to the beach for a one-week vacation."
       },
       {
@@ -1624,7 +1624,7 @@ const SPARE_TOPICS_DATA = {
         "word": "summer break",
         "level": "B1",
         "arabic": "الإجازة الصيفية المدرسية السنوية",
-        "definition": "The longest school holiday in the warm summer months between school years.",
+        "definition": "The long school holiday during the warm summer months.",
         "example": "Students travel and learn new skills during their summer break."
       },
       {
@@ -1632,7 +1632,7 @@ const SPARE_TOPICS_DATA = {
         "word": "exist",
         "level": "B1",
         "arabic": "يوجد / يتواجد على أرض الواقع",
-        "definition": "To have actual being, or to be found present in a real place or situation.",
+        "definition": "To be real or to be present in a real place.",
         "example": "Different kinds of colorful birds exist in this green forest."
       },
       {
@@ -1640,7 +1640,7 @@ const SPARE_TOPICS_DATA = {
         "word": "differences",
         "level": "B1",
         "arabic": "فروق / اختلافات بين الأشياء",
-        "definition": "The specific ways in which two or more people, places, or things are not alike.",
+        "definition": "The ways in which two or more things are not the same.",
         "example": "There are big differences between city life and village life."
       },
       {
@@ -1648,7 +1648,7 @@ const SPARE_TOPICS_DATA = {
         "word": "lasts",
         "level": "B1",
         "arabic": "يدوم / يستمر لفترة زمنية",
-        "definition": "Continues for a specific amount of time without stopping.",
+        "definition": "Continues for a particular amount of time.",
         "example": "The English class lasts for fifty minutes every Tuesday."
       },
       {
@@ -1656,7 +1656,7 @@ const SPARE_TOPICS_DATA = {
         "word": "depending on",
         "level": "B1",
         "arabic": "اعتماداً على / بناءً على / بحسب",
-        "definition": "Determined or influenced by specific conditions, people, or facts.",
+        "definition": "Influenced or decided by particular facts or conditions.",
         "example": "We choose our clothes depending on whether it rains or not."
       },
       {
@@ -1664,7 +1664,7 @@ const SPARE_TOPICS_DATA = {
         "word": "in my opinion",
         "level": "B1",
         "arabic": "في رأيي / من وجهة نظري الشخصية",
-        "definition": "A polite phrase used to express what you personally believe or think.",
+        "definition": "A polite phrase used to say what you personally think.",
         "example": "In my opinion, walking in the fresh morning air is great for health."
       },
       {
@@ -1672,7 +1672,7 @@ const SPARE_TOPICS_DATA = {
         "word": "seasons",
         "level": "A2",
         "arabic": "فصول السنة الأربعة",
-        "definition": "The four main weather periods of the year: spring, summer, fall, and winter.",
+        "definition": "The four weather periods of the year: spring, summer, autumn, and winter.",
         "example": "There are four distinct seasons in many northern countries."
       },
       {
@@ -1680,7 +1680,7 @@ const SPARE_TOPICS_DATA = {
         "word": "spring",
         "level": "A2",
         "arabic": "فصل الربيع",
-        "definition": "The pleasant season when plants begin to grow and the weather becomes warmer.",
+        "definition": "The pleasant season when plants begin to grow and flowers open.",
         "example": "Birds sing happily when spring arrives every year."
       },
       {
@@ -1688,7 +1688,7 @@ const SPARE_TOPICS_DATA = {
         "word": "summer",
         "level": "A2",
         "arabic": "فصل الصيف",
-        "definition": "The warmest season of the year, falling between spring and autumn.",
+        "definition": "The warmest season of the year, between spring and autumn.",
         "example": "Children love to eat cold ice cream and swim during the summer."
       },
       {
@@ -1696,7 +1696,7 @@ const SPARE_TOPICS_DATA = {
         "word": "fall",
         "level": "A2",
         "arabic": "فصل الخريف (الاسم الأمريكي)",
-        "definition": "The season when tree leaves change color and drop to the ground before winter.",
+        "definition": "The season between summer and winter when tree leaves fall (American name for autumn).",
         "example": "The golden leaves fall to the ground in October."
       },
       {
@@ -1704,7 +1704,7 @@ const SPARE_TOPICS_DATA = {
         "word": "winter",
         "level": "A2",
         "arabic": "فصل الشتاء",
-        "definition": "The coldest season of the year, occurring between autumn and spring.",
+        "definition": "The coldest season of the year, between autumn and spring.",
         "example": "We wear thick wool coats and warm hats in the winter."
       },
       {
@@ -1712,7 +1712,7 @@ const SPARE_TOPICS_DATA = {
         "word": "leaves",
         "level": "A2",
         "arabic": "أوراق الشجر (جمع ورقة: leaf)",
-        "definition": "The flat, usually green parts growing on plants or tree branches.",
+        "definition": "The flat, green parts that grow on plants or tree branches.",
         "example": "The green leaves turn bright yellow and orange before falling."
       },
       {
@@ -1720,7 +1720,7 @@ const SPARE_TOPICS_DATA = {
         "word": "heat",
         "level": "A2",
         "arabic": "الحرارة / السخونة الشديدة",
-        "definition": "The quality of being hot, or very high weather temperature.",
+        "definition": "The quality of being hot, or very high temperature.",
         "example": "Turn on the air conditioner to escape the afternoon heat."
       },
       {
@@ -1728,7 +1728,7 @@ const SPARE_TOPICS_DATA = {
         "word": "activities",
         "level": "A2",
         "arabic": "أنشطة / فعاليات مسلية أو مفيدة",
-        "definition": "Things that you do for exercise, entertainment, work, or fun.",
+        "definition": "Things that you do for exercise, fun, or learning.",
         "example": "Our school arranged many outdoor sports activities for students."
       }
     ]
@@ -1801,7 +1801,7 @@ const SPARE_TOPICS_DATA = {
         "word": "comprehension",
         "level": "C1",
         "arabic": "الاستيعاب / الفهم",
-        "definition": "The ability to understand what you read or hear.",
+        "definition": "The ability to understand spoken or written language.",
         "example": "Watching English movies helps my listening comprehension."
       },
       {
@@ -1977,7 +1977,7 @@ const SPARE_TOPICS_DATA = {
         "word": "prefer",
         "level": "B1",
         "arabic": "يُفضِّل",
-        "definition": "To like one thing more than another thing.",
+        "definition": "To like one person or thing more than another.",
         "example": "I prefer swimming in the sea because the water is warm."
       },
       {
@@ -2001,7 +2001,7 @@ const SPARE_TOPICS_DATA = {
         "word": "opinion",
         "level": "B1",
         "arabic": "رأي / وجهة نظر",
-        "definition": "What a person thinks or believes about something.",
+        "definition": "What you think or believe about someone or something.",
         "example": "In my opinion, walking every day is good for health."
       },
       {
@@ -2049,7 +2049,7 @@ const SPARE_TOPICS_DATA = {
         "word": "snowboarding",
         "level": "A2",
         "arabic": "التزلج على الجليد بلوح",
-        "definition": "The sport of sliding down snow hills on a special board.",
+        "definition": "The sport of sliding down snowy hills standing on one wide board.",
         "example": "We went snowboarding in the mountains last winter."
       }
     ]
@@ -2106,7 +2106,7 @@ const SPARE_TOPICS_DATA = {
         "word": "swollen",
         "level": "C1",
         "arabic": "مُتورِّم / مُنتفِخ",
-        "definition": "Enlarged or puffed up beyond normal size, usually as a result of injury, infection, or an allergic reaction.",
+        "definition": "Bigger or rounder than normal because of an injury or illness.",
         "example": "My hand was swollen after I hit it on the door."
       },
       {
@@ -2114,7 +2114,7 @@ const SPARE_TOPICS_DATA = {
         "word": "sores",
         "level": "C1",
         "arabic": "قُرَح / تقرّحات جلدية",
-        "definition": "Painful, raw areas on the skin or body surface that are often inflamed, infected, or slow to heal.",
+        "definition": "Painful, red spots or cuts on the skin that hurt when touched.",
         "example": "He had sores on his feet because his shoes were too small."
       },
       {
@@ -2122,7 +2122,7 @@ const SPARE_TOPICS_DATA = {
         "word": "bedbugs",
         "level": "C1",
         "arabic": "بقّ الفراش",
-        "definition": "Tiny parasitic insects that feed on human blood, typically found hiding in mattresses, bed frames, and furniture, leaving itchy red bites.",
+        "definition": "Small insects that live in beds and bite people while they sleep.",
         "example": "We found bedbugs in the bed, so we changed our hotel room."
       },
       {
@@ -2130,7 +2130,7 @@ const SPARE_TOPICS_DATA = {
         "word": "comprehension",
         "level": "C1",
         "arabic": "الاستيعاب / الفهم",
-        "definition": "The ability to understand and grasp the meaning of something, especially written or spoken language.",
+        "definition": "The ability to understand spoken or written language.",
         "example": "My comprehension of English is getting better every day."
       },
       {
@@ -2138,7 +2138,7 @@ const SPARE_TOPICS_DATA = {
         "word": "incredible",
         "level": "C1",
         "arabic": "لا يُصدَّق / مذهل للغاية",
-        "definition": "Extraordinarily impressive or remarkable; so amazing that it seems almost impossible to believe.",
+        "definition": "Extremely good, exciting, or surprising; hard to believe.",
         "example": "The food at that restaurant was incredible. I want to go back!"
       },
       {
@@ -2146,7 +2146,7 @@ const SPARE_TOPICS_DATA = {
         "word": "sensitive",
         "level": "C1",
         "arabic": "حسّاس (بشرة / شخص)",
-        "definition": "Easily affected, irritated, or harmed by external factors; quick to react to slight changes or stimuli.",
+        "definition": "Easily hurt, damaged, or upset by slight things.",
         "example": "Be careful with this cream. My skin is very sensitive."
       },
       {
@@ -2154,7 +2154,7 @@ const SPARE_TOPICS_DATA = {
         "word": "aspect",
         "level": "C1",
         "arabic": "جانب / ناحية",
-        "definition": "A particular part, feature, or element of something; one of the ways in which something can be considered.",
+        "definition": "A particular part, feature, or side of a situation or thing.",
         "example": "The best aspect of this city is the food."
       },
       {
@@ -2162,7 +2162,7 @@ const SPARE_TOPICS_DATA = {
         "word": "ruin",
         "level": "C1",
         "arabic": "يُدمِّر / يُخرِّب",
-        "definition": "To completely spoil, destroy, or cause severe damage to something, making it useless or worthless.",
+        "definition": "To spoil or destroy something completely so it is no longer enjoyable.",
         "example": "The rain ruined our picnic in the park."
       },
       {
@@ -2170,7 +2170,7 @@ const SPARE_TOPICS_DATA = {
         "word": "backpacking",
         "level": "B2",
         "arabic": "السفر بحقيبة ظهر (سفر اقتصادي)",
-        "definition": "Traveling independently on a budget, carrying your belongings in a backpack, often staying in inexpensive accommodation.",
+        "definition": "Travelling cheaply with your clothes and belongings in a backpack.",
         "example": "I went backpacking in Europe last summer. It was cheap and fun!"
       },
       {
@@ -2178,7 +2178,7 @@ const SPARE_TOPICS_DATA = {
         "word": "hostels",
         "level": "B2",
         "arabic": "نُزُل / بيوت شباب (إقامة رخيصة)",
-        "definition": "Budget-friendly accommodation where travelers can rent a bed, often in a shared dormitory room, typically cheaper than hotels.",
+        "definition": "Cheap places to stay where travellers can rent a bed in a shared room.",
         "example": "We stayed in hostels because they are much cheaper than hotels."
       },
       {
@@ -2186,7 +2186,7 @@ const SPARE_TOPICS_DATA = {
         "word": "region",
         "level": "B2",
         "arabic": "منطقة / إقليم",
-        "definition": "A larger area of land that is distinguished by particular geographic, cultural, or political characteristics from surrounding areas.",
+        "definition": "A particular area or part of a country or the world.",
         "example": "This region is famous for its beautiful beaches."
       },
       {
@@ -2194,7 +2194,7 @@ const SPARE_TOPICS_DATA = {
         "word": "recommend",
         "level": "B2",
         "arabic": "يُوصي / ينصح بـ",
-        "definition": "To suggest something as being good, suitable, or worthy of being chosen; to advise someone to do something.",
+        "definition": "To suggest that something is good, useful, or worth trying.",
         "example": "Can you recommend a good restaurant near the hotel?"
       },
       {
@@ -2202,7 +2202,7 @@ const SPARE_TOPICS_DATA = {
         "word": "disappointed",
         "level": "B2",
         "arabic": "مُحبَط / خاب أمله",
-        "definition": "Feeling sad or displeased because something did not meet one's hopes or expectations.",
+        "definition": "Feeling sad because something was not as good as you hoped.",
         "example": "I was very disappointed because the museum was closed."
       },
       {
@@ -2210,7 +2210,7 @@ const SPARE_TOPICS_DATA = {
         "word": "countryside",
         "level": "B2",
         "arabic": "الريف / المناطق الريفية",
-        "definition": "The rural areas outside of cities and towns, typically characterized by open fields, farms, forests, and natural landscapes.",
+        "definition": "Land outside of cities and towns, with open fields and trees.",
         "example": "The countryside is very quiet and green. I love it there."
       },
       {
@@ -2218,7 +2218,7 @@ const SPARE_TOPICS_DATA = {
         "word": "delays",
         "level": "B2",
         "arabic": "تأخيرات",
-        "definition": "Periods of time by which something is late or postponed beyond the expected schedule.",
+        "definition": "Times when you must wait because a flight, train, or event is late.",
         "example": "There were many delays at the airport today because of the rain."
       },
       {
@@ -2226,7 +2226,7 @@ const SPARE_TOPICS_DATA = {
         "word": "canceled",
         "level": "B2",
         "arabic": "مُلغى / تم إلغاؤه",
-        "definition": "Officially called off or annulled; no longer going to happen as originally planned or scheduled.",
+        "definition": "Decided officially that a planned event or flight will not happen.",
         "example": "Our flight was canceled, so we had to wait until the next day."
       },
       {
@@ -2234,7 +2234,7 @@ const SPARE_TOPICS_DATA = {
         "word": "reviews",
         "level": "B2",
         "arabic": "تقييمات / مراجعات",
-        "definition": "Written evaluations or assessments of a product, service, or experience, typically shared publicly to help others make informed decisions.",
+        "definition": "Opinions that people write online about a hotel, restaurant, or product.",
         "example": "I read the reviews online before I booked the hotel."
       },
       {
@@ -2242,7 +2242,7 @@ const SPARE_TOPICS_DATA = {
         "word": "rent",
         "level": "B2",
         "arabic": "يَستأجِر",
-        "definition": "To pay money in exchange for the temporary use of something, such as a car, apartment, or equipment.",
+        "definition": "To pay money to use a car, house, or room for a period of time.",
         "example": "We want to rent a car to drive around the island."
       },
       {
@@ -2250,7 +2250,7 @@ const SPARE_TOPICS_DATA = {
         "word": "bitten",
         "level": "B2",
         "arabic": "ملدوغ / تم عضّه (التصريف الثالث لـ bite)",
-        "definition": "Past participle of \"bite\"; having been wounded or pierced by the teeth or mouthparts of an animal, insect, or person.",
+        "definition": "Hurt by the teeth of an animal or the bite of an insect.",
         "example": "I was bitten by a mosquito last night. It is very itchy!"
       },
       {
@@ -2258,7 +2258,7 @@ const SPARE_TOPICS_DATA = {
         "word": "low-quality",
         "level": "B2",
         "arabic": "رديء الجودة / منخفض الجودة",
-        "definition": "Of a poor or inferior standard; not meeting acceptable levels of quality or craftsmanship.",
+        "definition": "Poorly made or not meeting good standards.",
         "example": "The towels in that hotel were low-quality and very old."
       },
       {
@@ -2266,7 +2266,7 @@ const SPARE_TOPICS_DATA = {
         "word": "lifestyle",
         "level": "B2",
         "arabic": "نمط الحياة / أسلوب المعيشة",
-        "definition": "The typical way of life of an individual or group, including their habits, attitudes, values, and daily activities.",
+        "definition": "The way that an individual or group lives, works, and spends time.",
         "example": "I like a healthy lifestyle. I eat well and I exercise every day."
       },
       {
@@ -2274,7 +2274,7 @@ const SPARE_TOPICS_DATA = {
         "word": "plenty",
         "level": "B2",
         "arabic": "وَفرة / كثير جدًا",
-        "definition": "A large or more than sufficient amount or quantity of something.",
+        "definition": "A large amount; as much or more than you need.",
         "example": "Don't worry, we have plenty of time. The bus comes in 30 minutes."
       },
       {
@@ -2282,7 +2282,7 @@ const SPARE_TOPICS_DATA = {
         "word": "prefer",
         "level": "B1",
         "arabic": "يُفضِّل",
-        "definition": "To like one thing or option more than another; to have a greater liking for something when given a choice.",
+        "definition": "To like one person or thing more than another.",
         "example": "I prefer tea. I don't like coffee very much."
       },
       {
@@ -2290,7 +2290,7 @@ const SPARE_TOPICS_DATA = {
         "word": "recently",
         "level": "B1",
         "arabic": "مؤخرًا / في الآونة الأخيرة",
-        "definition": "Not long ago; at a time that is close to the present moment, typically within the last few days, weeks, or months.",
+        "definition": "Not long ago; in the past few days or weeks.",
         "example": "I recently visited Paris. It was amazing!"
       },
       {
@@ -2298,7 +2298,7 @@ const SPARE_TOPICS_DATA = {
         "word": "definitely",
         "level": "B1",
         "arabic": "بالتأكيد / حتمًا",
-        "definition": "Without any doubt; used to emphasize that something is certain or clearly true.",
+        "definition": "Without any doubt; certainly true.",
         "example": "This is definitely the best hotel we have ever stayed in."
       },
       {
@@ -2306,7 +2306,7 @@ const SPARE_TOPICS_DATA = {
         "word": "experience(s)",
         "level": "B1",
         "arabic": "تجربة / تجارب",
-        "definition": "An event or situation that you live through or encounter, which can leave a lasting impression or provide knowledge.",
+        "definition": "Things that happen to you that you live through and learn from.",
         "example": "Traveling alone was a great experience. I learned a lot about myself."
       },
       {
@@ -2314,7 +2314,7 @@ const SPARE_TOPICS_DATA = {
         "word": "opinion",
         "level": "B1",
         "arabic": "رأي",
-        "definition": "A personal view, belief, or judgment about something, which may not necessarily be based on proven facts.",
+        "definition": "What you think or believe about someone or something.",
         "example": "In my opinion, summer is the best time to travel."
       },
       {
@@ -2322,7 +2322,7 @@ const SPARE_TOPICS_DATA = {
         "word": "terrible",
         "level": "B1",
         "arabic": "فظيع / مريع",
-        "definition": "Extremely bad, unpleasant, or of very poor quality; causing great distress or discomfort.",
+        "definition": "Very bad, unpleasant, or painful.",
         "example": "The weather was terrible yesterday. It rained all day."
       },
       {
@@ -2330,7 +2330,7 @@ const SPARE_TOPICS_DATA = {
         "word": "camping",
         "level": "A2",
         "arabic": "التخييم",
-        "definition": "The activity of staying outdoors overnight, usually in a tent, in a natural setting such as a forest or by a lake.",
+        "definition": "The activity of staying outdoors overnight in a tent.",
         "example": "We went camping in the mountains last weekend. It was so much fun!"
       },
       {
@@ -2338,7 +2338,7 @@ const SPARE_TOPICS_DATA = {
         "word": "road trip",
         "level": "A2",
         "arabic": "رحلة بالسيارة (رحلة برية)",
-        "definition": "A long-distance journey taken by car, often for pleasure, stopping at various places along the way.",
+        "definition": "A long journey you take by car, visiting different places.",
         "example": "We took a road trip to the beach. We drove for three hours."
       }
     ]

@@ -10,7 +10,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun (plural)", cambridgeLevel: "B1",
     pronunciation: "/ˈprəʊ.ses.ɪz/",
     citation: "Boat building (line 3)",
-    definition: "A series of actions done in order to achieve a particular result.",
+    definition: "Step-by-step actions that teams follow to complete a job together.",
     b1Explain: "Step-by-step actions that teams follow to complete a job together.",
     sentence: "Our team followed clear processes to finish the project on time without stress."
   },
@@ -19,7 +19,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun phrase", cambridgeLevel: "B2",
     pronunciation: "/ˈkɒn.flɪkt ˌrez.əˈluː.ʃən/",
     citation: "Boat building (line 3)",
-    definition: "The ability to solve arguments or disagreements in a peaceful manner.",
+    definition: "Finding a fair, calm, and peaceful solution when people disagree.",
     b1Explain: "Finding a fair and calm solution when two people disagree.",
     sentence: "Good managers need conflict resolution skills so the team can work happily together."
   },
@@ -28,7 +28,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "B2",
     pronunciation: "/daɪˈnæm.ɪk/",
     citation: "Nature park challenge (line 1)",
-    definition: "Very active, full of energy, and continuously changing or moving.",
+    definition: "Full of energy, active, and exciting; never boring.",
     b1Explain: "Energetic and exciting, never boring or standing still.",
     sentence: "The outdoor obstacle course was very dynamic and kept everyone moving."
   },
@@ -37,7 +37,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun", cambridgeLevel: "B1",
     pronunciation: "/ə ˈtʃæl.ɪndʒ/",
     citation: "Nature park challenge (line 2)",
-    definition: "A test of strength, skill, or ability that requires serious effort.",
+    definition: "A difficult task that tests your ability and needs real effort.",
     b1Explain: "A task that is not easy, but exciting to try and finish.",
     sentence: "Hiking up the steep hill in 30 minutes was a real challenge for our group."
   },
@@ -46,7 +46,7 @@ const VOCAB_SESSION_10 = [
     pos: "adverb", cambridgeLevel: "B1",
     pronunciation: "/əˈprɒk.sɪ.mət.li/",
     citation: "Nature park challenge (line 2)",
-    definition: "More or less; close to a particular number or time, but not exact.",
+    definition: "Close to an exact number or time, but not completely exact; about.",
     b1Explain: "About or nearly, when you don't know the exact number.",
     sentence: "Each team in the park has approximately four or five colleagues."
   },
@@ -55,7 +55,7 @@ const VOCAB_SESSION_10 = [
     pos: "phrasal verb", cambridgeLevel: "C1",
     pronunciation: "/ˈkæp.ɪ.təl.aɪz ɒn/",
     citation: "Nature park challenge (line 4)",
-    definition: "To use a resource or opportunity efficiently to get an advantage.",
+    definition: "To use a good situation, skill, or chance to get an advantage.",
     b1Explain: "To take advantage of something good that is available around you.",
     sentence: "We decided to capitalize on the sunny weather by organizing our games outdoors."
   },
@@ -64,7 +64,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "C1",
     pronunciation: "/səˈfɪs.tɪ.keɪ.tɪd/",
     citation: "Nature park challenge (line 6)",
-    definition: "Intelligent, well-designed, and developed with modern complexity.",
+    definition: "Cleverly designed and modern; not simple.",
     b1Explain: "Cleverly designed and advanced rather than simple.",
     sentence: "The organizers used a sophisticated digital app to give clues to the runners."
   },
@@ -73,7 +73,7 @@ const VOCAB_SESSION_10 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈtaɪm ˌmæn.ɪdʒ.mənt/",
     citation: "Nature park challenge (line 8)",
-    definition: "The way you organise and plan how long you spend on specific activities.",
+    definition: "Planning your time well so you finish all your work before the deadline.",
     b1Explain: "Planning your hours wisely so you finish all tasks before the deadline.",
     sentence: "Good time-management allowed our group to finish the puzzle with five minutes to spare."
   },
@@ -82,7 +82,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "B2",
     pronunciation: "/ˈkʌs.tə.maɪzd/",
     citation: "City solutions (line 3)",
-    definition: "Prepared or specially made for a specific group of people or purpose.",
+    definition: "Specially made or arranged to fit the exact needs of a group.",
     b1Explain: "Made specially to fit your exact group and preferences.",
     sentence: "The company designed a customised tour so visitors could see their favourite places."
   },
@@ -91,7 +91,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/ˈkɒm.pleks/",
     citation: "City solutions (line 4)",
-    definition: "Difficult or complicated, with many different parts to understand.",
+    definition: "Having many different connected parts and not simple to understand.",
     b1Explain: "Hard to solve quickly because it has many connected parts.",
     sentence: "The city riddle was complex, but our team solved it by sharing ideas."
   },
@@ -100,7 +100,7 @@ const VOCAB_SESSION_10 = [
     pos: "verb", cambridgeLevel: "B1",
     pronunciation: "/ˈbreɪn.stɔːm/",
     citation: "Boat building (line 1)",
-    definition: "To suggest a lot of ideas quickly in a group discussion.",
+    definition: "To meet in a group and share lots of creative ideas quickly.",
     b1Explain: "Sitting together to think of creative ideas freely.",
     sentence: "Before building the cardboard boat, we took ten minutes to brainstorm ideas."
   },
@@ -109,7 +109,7 @@ const VOCAB_SESSION_10 = [
     pos: "verb", cambridgeLevel: "B2",
     pronunciation: "/kənˈstrʌkt/",
     citation: "Boat building (line 2)",
-    definition: "To build or make something physically by putting pieces together.",
+    definition: "To build or put pieces together to make something.",
     b1Explain: "To build something carefully using tools and materials.",
     sentence: "The team worked together to construct a strong boat from cardboard and tape."
   },
@@ -118,7 +118,7 @@ const VOCAB_SESSION_10 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/dɪˈsɪʒ.ən ˌmeɪ.kɪŋ/",
     citation: "Boat building (line 3)",
-    definition: "The process of making choices or reaching conclusions as a team.",
+    definition: "The process of choosing the best option as a team.",
     b1Explain: "The way a group chooses what to do next.",
     sentence: "Effective decision-making requires listening to everyone's opinion."
   },
@@ -127,7 +127,7 @@ const VOCAB_SESSION_10 = [
     pos: "uncountable noun", cambridgeLevel: "B1",
     pronunciation: "/ˈfiːd.bæk/",
     citation: "Boat building (line 4)",
-    definition: "Helpful advice or information given about someone's performance.",
+    definition: "Helpful advice telling someone what they did well and how to get better.",
     b1Explain: "Telling someone what they did well and how they can improve.",
     sentence: "Constructive feedback helped our teammates build a more stable vessel."
   },
@@ -136,7 +136,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˌɔː.ri.enˈtɪə.rɪŋ/",
     citation: "Nature park challenge (line 6)",
-    definition: "The sport of finding your way across countryside using a map and compass.",
+    definition: "The outdoor sport of finding your way using a map and a compass.",
     b1Explain: "Navigating across outdoor trails using maps.",
     sentence: "We learned orienteering skills so we would not lose our direction in the forest."
   },
@@ -145,7 +145,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "B2",
     pronunciation: "/ˈsɪŋ.krə.naɪzd/",
     citation: "Plank walk slide",
-    definition: "Happening or moving at the exact same time and speed together.",
+    definition: "Happening or moving together at the exact same time and speed.",
     b1Explain: "Moving together at the same time in harmony.",
     sentence: "In the plank walk, our steps had to be synchronized to stay balanced."
   },
@@ -154,7 +154,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "C1",
     pronunciation: "/ˌfriːˈstæn.dɪŋ/",
     citation: "Tower of Power slide",
-    definition: "Standing by itself without being attached to or supported by another structure.",
+    definition: "Standing up on its own without leaning against a wall or pole.",
     b1Explain: "Standing upright on its own without leaning against a wall.",
     sentence: "The craft stick tower must remain freestanding for at least thirty seconds."
   },
@@ -163,7 +163,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun phrase", cambridgeLevel: "C1",
     pronunciation: "/ˈstrʌk.tʃər.əl stəˈbɪl.ə.ti/",
     citation: "Tower of Power slide",
-    definition: "The ability of a structure to support weight without bending or collapsing.",
+    definition: "How strong and stable an object is so it does not fall or break.",
     b1Explain: "How well an object can stay standing without breaking.",
     sentence: "We added wider wooden sticks to the base to improve the structural stability."
   },
@@ -172,7 +172,7 @@ const VOCAB_SESSION_10 = [
     pos: "verb", cambridgeLevel: "B2",
     pronunciation: "/ˈven.tʃər/",
     citation: "City solutions (line 2)",
-    definition: "To go somewhere that might be difficult, unfamiliar, or full of surprises.",
+    definition: "To go into a new or unfamiliar place with curiosity and courage.",
     b1Explain: "To go into a new place with curiosity and courage.",
     sentence: "Teams venture into the city centre to search for the hidden envelopes."
   },
@@ -181,7 +181,7 @@ const VOCAB_SESSION_10 = [
     pos: "idiom / phrase", cambridgeLevel: "B2",
     pronunciation: "/biːt ðə klɒk/",
     citation: "City solutions (line 2)",
-    definition: "To finish a task or challenge before the available time runs out.",
+    definition: "To finish a task or game before the time runs out.",
     b1Explain: "Finishing quickly before time is over.",
     sentence: "We had to run through the park to beat the clock and submit our answer sheet."
   },
@@ -190,7 +190,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/əˈkweɪn.təns/",
     citation: "Classroom handwritten notes",
-    definition: "A person you know slightly, but who is not a close personal friend.",
+    definition: "Someone you know a little, but who is not a close friend.",
     b1Explain: "Someone you recognize and greet, but don't know deeply.",
     sentence: "The event helped turn an office acquaintance into a reliable work partner."
   },
@@ -199,7 +199,7 @@ const VOCAB_SESSION_10 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/dɪsˈɔː.ɡə.naɪzd/",
     citation: "HR Memo (Page 3)",
-    definition: "Not properly planned, orderly, or managed effectively.",
+    definition: "Messy, poorly planned, and not working in an orderly way.",
     b1Explain: "Chaotic and messy without clear planning.",
     sentence: "Last year's event was disorganised, so we need a strict schedule this time."
   },
@@ -208,7 +208,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˈten.ʃən/",
     citation: "Team dynamics (line 2)",
-    definition: "A feeling of nervousness, strain, or lack of trust between people.",
+    definition: "A nervous, uncomfortable feeling between people who disagree.",
     b1Explain: "Stress and uncomfortable feelings between colleagues when they disagree.",
     sentence: "Open communication during the event helped release all workplace tension among colleagues."
   },
@@ -217,7 +217,7 @@ const VOCAB_SESSION_10 = [
     pos: "noun", cambridgeLevel: "B1",
     pronunciation: "/kluː/",
     citation: "Nature park challenge (line 5)",
-    definition: "A sign or piece of information that helps solve a puzzle, problem, or mystery.",
+    definition: "A helpful sign or hint that helps you find an answer or solve a puzzle.",
     b1Explain: "A helpful hint that guides you to find the correct answer or secret spot.",
     sentence: "Each group received a written clue directing them to their next outdoor challenge."
   },
@@ -226,7 +226,7 @@ const VOCAB_SESSION_10 = [
     pos: "phrasal verb", cambridgeLevel: "C1",
     pronunciation: "/ˈaʊt.fɪt.ɪd wɪð/",
     citation: "Boat building safety brief",
-    definition: "Equipped or supplied with necessary tools, clothing, or protective gear.",
+    definition: "Given all the clothes, tools, or safety gear needed for an activity.",
     b1Explain: "Provided with all the equipment and safety gear required for an activity.",
     sentence: "Before boarding the river raft, every employee was outfitted with a life jacket and helmet."
   }
@@ -239,7 +239,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb", cambridgeLevel: "B2",
     pronunciation: "/ˈpær.ə.freɪz/",
     citation: "Maggie's Advice (Slide 4)",
-    definition: "To express what someone else said or wrote using different words.",
+    definition: "To explain what someone said or wrote using your own simpler words.",
     b1Explain: "Explaining the same idea in simpler or different English words.",
     sentence: "If you don't know the exact word, paraphrase it by describing what it does."
   },
@@ -248,7 +248,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/læk əv ˈkɒn.fɪ.dəns/",
     citation: "Teacher Insights (Slide 4)",
-    definition: "A state of feeling uncertain, nervous, or doubtful about your own abilities.",
+    definition: "Feeling shy, nervous, or unsure about your own abilities.",
     b1Explain: "Feeling shy or afraid to speak because you worry about making mistakes.",
     sentence: "His hesitation in meetings was caused by a lack of confidence, not poor English."
   },
@@ -257,7 +257,7 @@ const VOCAB_SESSION_11 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/ɪˈsen.ʃəl/",
     citation: "Maggie's Quote (Slide 4)",
-    definition: "Completely necessary, fundamental, or indispensable.",
+    definition: "Very important and completely necessary.",
     b1Explain: "Something that you must have or that is extremely important.",
     sentence: "Maggie reminded the class that making mistakes is an essential part of learning."
   },
@@ -266,7 +266,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb", cambridgeLevel: "B1",
     pronunciation: "/trænzˈleɪt/",
     citation: "Slide 4 Discussion",
-    definition: "To change words or speech from one language into another.",
+    definition: "To improve, get better, or move forward in what you are learning.",
     b1Explain: "Converting words from your native language into English.",
     sentence: "Translating word-for-word in your head slows down your speaking speed."
   },
@@ -275,7 +275,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈneɪ.tɪv ˈlæŋ.ɡwɪdʒ/",
     citation: "Slide 4 Discussion",
-    definition: "The first language that you learned to speak as a child; mother tongue.",
+    definition: "To read and study your lessons again before taking an exam.",
     b1Explain: "The primary language of your home country.",
     sentence: "Try to think in English rather than translating from your native language."
   },
@@ -284,7 +284,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb", cambridgeLevel: "B1",
     pronunciation: "/aɪˈden.tɪ.faɪ/",
     citation: "Language Focus (Slide 5, Sentence a)",
-    definition: "To recognise, discover, or name someone or something.",
+    definition: "The correct way to make the sounds of words when speaking.",
     b1Explain: "To find out exactly what or who something is.",
     sentence: "If I had this problem, I would try to identify the reason first."
   },
@@ -293,7 +293,7 @@ const VOCAB_SESSION_11 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/ɪˈmædʒ.ɪ.nər.i/",
     citation: "Language Focus (Slide 5, Q2)",
-    definition: "Created in the mind and not existing in reality; hypothetical.",
+    definition: "A fast course where you study for many hours each day in a short time.",
     b1Explain: "Not real; existing only in your thoughts or imagination.",
     sentence: "The second conditional is used for imaginary or unreal situations in the present."
   },
@@ -302,7 +302,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈsek.ənd kənˈdɪʃ.ən.əl/",
     citation: "Slide 6 Grammar Focus",
-    definition: "A grammatical structure (if + past simple, would + base verb) used to talk about hypothetical or unlikely situations.",
+    definition: "To write down key facts or words quickly while listening to a teacher.",
     b1Explain: "The grammar pattern we use to imagine situations and give advice.",
     sentence: "We practiced the second conditional to give thoughtful study advice to our classmates."
   },
@@ -311,7 +311,7 @@ const VOCAB_SESSION_11 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/strest aʊt/",
     citation: "Handout Page 1 (Audio 1)",
-    definition: "Very anxious, tired, and unable to relax because of difficulties or workload.",
+    definition: "Difficulty in communicating because people speak different languages.",
     b1Explain: "Feeling overwhelmed, worried, and unable to rest.",
     sentence: "She was stressed out because she had three difficult exams in the same week."
   },
@@ -320,7 +320,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˈfluː.ən.si/",
     citation: "Teacher Insights",
-    definition: "The ability to speak or write a foreign language easily, smoothly, and correctly.",
+    definition: "The first language that you learned as a baby from your parents.",
     b1Explain: "Speaking smoothly without stopping or searching for words.",
     sentence: "Joining daily English conversation groups quickly boosted her speaking fluency."
   },
@@ -329,7 +329,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb", cambridgeLevel: "B2",
     pronunciation: "/ˌəʊ.vəˈkʌm/",
     citation: "Sailing Team Takeaway",
-    definition: "To succeed in dealing with or controlling a problem, fear, or difficulty.",
+    definition: "Able to speak a language easily, smoothly, and without stopping.",
     b1Explain: "To defeat a problem or conquer a personal fear.",
     sentence: "He worked with a speaking partner to overcome his fear of public presentations."
   },
@@ -338,7 +338,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun", cambridgeLevel: "B1",
     pronunciation: "/prəˈməʊ.ʃən/",
     citation: "Handout Page 2 (Scenario 3)",
-    definition: "An advancement in rank, position, or responsibility in an organization or job.",
+    definition: "A person who has spoken a language from the time they were a child.",
     b1Explain: "Getting a higher and better-paid position at work.",
     sentence: "If he improved his workplace English skills, he would get a promotion."
   },
@@ -347,7 +347,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈspiː.kɪŋ klʌb/",
     citation: "Maggie's Advice",
-    definition: "An informal group or gathering where people practice conversational language.",
+    definition: "Speaking or writing correctly without making mistakes.",
     b1Explain: "A friendly meeting where learners practice talking in English.",
     sentence: "If I were you, I would join a local speaking club every Saturday."
   },
@@ -356,7 +356,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˈek.sɜːpt/",
     citation: "Language Focus Slide 5 Header",
-    definition: "A short extract or passage taken from a longer text, film, or audio piece.",
+    definition: "To learn and remember more new words to speak and write better.",
     b1Explain: "A short piece taken from a conversation or recording.",
     sentence: "Listen to the excerpts from the teacher's conversation and complete the sentences."
   },
@@ -365,7 +365,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun", cambridgeLevel: "B1",
     pronunciation: "/prɪˈdɪk.ʃən/",
     citation: "Slide 4 Header",
-    definition: "A statement about what you think will happen in the future.",
+    definition: "A grammar form used to talk about imaginary or unlikely situations in the present or future.",
     b1Explain: "A guess about what will happen next based on what you already know.",
     sentence: "Before listening to the audio, the teacher asked us to make a prediction."
   },
@@ -374,7 +374,7 @@ const VOCAB_SESSION_11 = [
     pos: "adjective", cambridgeLevel: "B2",
     pronunciation: "/ˌhaɪ.pəˈθet.ɪ.kəl/",
     citation: "Grammar Notes",
-    definition: "Based on a possible situation rather than on reality; imagined.",
+    definition: "A friendly phrase used to give advice to someone about what you would do.",
     b1Explain: "Imagined as an example, not real or fact.",
     sentence: "We discussed a hypothetical situation: what would you do if you found a wallet in the street?"
   },
@@ -383,7 +383,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb", cambridgeLevel: "B1",
     pronunciation: "/kəmˈpleɪn/",
     citation: "Handout Page 2 (Scenario 2)",
-    definition: "To state that you are unhappy, dissatisfied, or that something is unacceptable.",
+    definition: "To decide on clear things you want to achieve in the future.",
     b1Explain: "To say you are not satisfied with food, service, or treatment.",
     sentence: "If I were in your position, I would complain to the manager immediately."
   },
@@ -392,7 +392,7 @@ const VOCAB_SESSION_11 = [
     pos: "idiom / phrase", cambridgeLevel: "B1",
     pronunciation: "/ɪf aɪ wɜː juː/",
     citation: "Slide 5 & 6 Advice Formula",
-    definition: "An English formula used to offer sympathetic or direct personal advice.",
+    definition: "The greatest amount of time allowed to finish something.",
     b1Explain: "The standard phrase used in English to give someone advice.",
     sentence: "If I were you, I would ask the teacher for extra pronunciation tips."
   },
@@ -401,7 +401,7 @@ const VOCAB_SESSION_11 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈstʌd.i tɪps/",
     citation: "Handout Title",
-    definition: "Practical pieces of advice, techniques, or methods to improve learning efficiency.",
+    definition: "A clever trick or way to help your brain remember facts easily.",
     b1Explain: "Useful little pieces of advice on how to study better.",
     sentence: "Maggie shared three valuable study tips to help students remember grammar."
   },
@@ -410,7 +410,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun", cambridgeLevel: "B1",
     pronunciation: "/ˈkɒn.fɪ.dəns/",
     citation: "Slide 4",
-    definition: "The feeling or belief that one can have faith in or rely on someone or something; self-assurance.",
+    definition: "Small cards with a question or word on one side and the answer on the other.",
     b1Explain: "Belief in your own power and ability to do something well.",
     sentence: "Practicing short conversations every day built her confidence immensely."
   },
@@ -419,7 +419,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun phrase", cambridgeLevel: "C1",
     pronunciation: "/ˌʌn.dəˈlaɪ.ɪŋ ˈriː.zən/",
     citation: "Teacher Analysis",
-    definition: "The fundamental, primary cause that is not immediately obvious on the surface.",
+    definition: "A friend who studies together with you so you can help each other.",
     b1Explain: "The deep, real cause behind a difficulty that people don't notice at first.",
     sentence: "Before prescribing a solution, Maggie looked for the underlying reason for his hesitation."
   },
@@ -428,7 +428,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb", cambridgeLevel: "B2",
     pronunciation: "/əˈkwaɪə.rɪŋ/",
     citation: "British Council Methodology",
-    definition: "Gaining, learning, or developing a skill, habit, or quality through continuous practice.",
+    definition: "Studying and learning on your own without a teacher in a classroom.",
     b1Explain: "Gradually picking up a new language skill through daily use.",
     sentence: "Acquiring conversational fluency takes regular practice and active listening."
   },
@@ -437,7 +437,7 @@ const VOCAB_SESSION_11 = [
     pos: "idiom / phrase", cambridgeLevel: "B1",
     pronunciation: "/hæv ə siːt/",
     citation: "Listening phrases (portal)",
-    definition: "To invite someone politely to sit down.",
+    definition: "Doing something regularly in the same good way over time.",
     b1Explain: "A polite invitation to sit down comfortably.",
     sentence: "Please come into the office and have a seat while we review the notes."
   },
@@ -446,7 +446,7 @@ const VOCAB_SESSION_11 = [
     pos: "idiom / phrase", cambridgeLevel: "B2",
     pronunciation: "/ə ˈlaɪf ˌseɪ.vər/",
     citation: "Listening phrases (portal)",
-    definition: "Someone who has been very helpful in a difficult or critical situation.",
+    definition: "Feeling annoyed and impatient because you cannot achieve what you want.",
     b1Explain: "A person who helps you out of a stressful problem just in time.",
     sentence: "Thank you for explaining the grammar before the exam, you are a life saver!"
   },
@@ -455,7 +455,7 @@ const VOCAB_SESSION_11 = [
     pos: "idiom / phrase", cambridgeLevel: "C1",
     pronunciation: "/pʊt ˈsʌm.bə.di ɒn ðə spɒt/",
     citation: "Listening phrases (portal)",
-    definition: "To ask someone to answer a difficult or embarrassing question immediately in public.",
+    definition: "The feeling of excitement and energy that makes you want to work hard.",
     b1Explain: "Making someone feel uncomfortable by asking a sudden hard question in front of others.",
     sentence: "The teacher didn't want to put the quiet student on the spot during speaking class."
   },
@@ -464,7 +464,7 @@ const VOCAB_SESSION_11 = [
     pos: "verb phrase", cambridgeLevel: "B2",
     pronunciation: "/buːst ˈsʌm.bə.diz ˈkɒn.fɪ.dəns/",
     citation: "Listening phrases (portal)",
-    definition: "To increase someone's belief that they have the ability to be successful.",
+    definition: "To succeed in dealing with a problem or difficulty.",
     b1Explain: "Helping someone feel more certain and positive about their abilities.",
     sentence: "Positive feedback from her speaking partner helped boost her confidence enormously."
   },
@@ -473,7 +473,7 @@ const VOCAB_SESSION_11 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ə ˌraʊnd əv əˈplɔːz/",
     citation: "Listening phrases (portal)",
-    definition: "An occasion when a lot of people clap their hands at the same time to show praise.",
+    definition: "To stop doing unhelpful things that you do regularly.",
     b1Explain: "When the group or audience claps together to appreciate someone.",
     sentence: "Let's give our guest speaker a warm round of applause for sharing their study journey."
   },
@@ -482,7 +482,7 @@ const VOCAB_SESSION_11 = [
     pos: "adjective", cambridgeLevel: "B2",
     pronunciation: "/ˌwɜːld ˈklɑːs/",
     citation: "Listening phrases (portal)",
-    definition: "Among the best in the world; possessing outstanding international quality.",
+    definition: "To give yourself a nice treat after doing hard work.",
     b1Explain: "Of top international standard, among the very best.",
     sentence: "By analyzing every mistake, the American sailing team developed world class skills."
   }
@@ -772,7 +772,7 @@ const VOCAB_SESSION_1 = [
     pos: "verb phrase", cambridgeLevel: "C1",
     pronunciation: "/ˈbɑː.ɡɪn ˈəʊ.vər ðə praɪs/",
     citation: "Student Notebook (Session 1)",
-    definition: "To discuss the price of an item with the seller in order to agree on a lower price.",
+    definition: "To talk with a seller to agree on a lower, cheaper price.",
     b1Explain: "Talking with a seller to get a cheaper price for what you want to buy.",
     sentence: "At the traditional market, shoppers often bargain over the price of handmade crafts."
   },
@@ -781,7 +781,7 @@ const VOCAB_SESSION_1 = [
     pos: "prepositional phrase", cambridgeLevel: "B1",
     pronunciation: "/meɪd ɒv/",
     citation: "Handout Page 1 & Smartboard Slide 4",
-    definition: "Used when the original material does not undergo chemical change and remains visibly recognizable.",
+    definition: "Used when you can still easily see the original material (like wood or glass).",
     b1Explain: "Used when the material hasn't changed its form (you can still see the wood, metal, or glass).",
     sentence: "This sturdy carpenter's workbench is made of solid beech wood."
   },
@@ -790,7 +790,7 @@ const VOCAB_SESSION_1 = [
     pos: "prepositional phrase", cambridgeLevel: "B1",
     pronunciation: "/meɪd frɒm/",
     citation: "Handout Page 1 & Smartboard Slide 4",
-    definition: "Used when the original material undergoes a chemical or physical transformation into a new substance.",
+    definition: "Used when the original material changes completely into something new (like paper from wood).",
     b1Explain: "Used when the original material is transformed into something new (like trees into paper).",
     sentence: "Cardboard boxes are made from recycled wood pulp and fibers."
   },
@@ -799,7 +799,7 @@ const VOCAB_SESSION_1 = [
     pos: "verb", cambridgeLevel: "B2",
     pronunciation: "/ˈren.ə.veɪt/",
     citation: "Handout Page 1 (Exercise 1)",
-    definition: "To repair and improve a building or room so that it is in good condition again.",
+    definition: "To repair and paint an old room or building so it looks new again.",
     b1Explain: "To fix up and modernise an old room or house so it looks brand new.",
     sentence: "They bought an old country cottage and spent three months renovating the kitchen."
   },
@@ -808,7 +808,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun / abbreviation", cambridgeLevel: "B1",
     pronunciation: "/ˌdiː.aɪˈwaɪ/",
     citation: "Handout Page 1 (Exercise 1)",
-    definition: "Do-It-Yourself: the activity of decorating, repairing, or building things yourself instead of paying a professional.",
+    definition: "Do-It-Yourself: repairing, painting, or building things yourself at home.",
     b1Explain: "Doing home improvements and building furniture yourself at home.",
     sentence: "He enjoys doing DIY on weekends and built his own wooden bookshelves."
   },
@@ -817,7 +817,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun / verb", cambridgeLevel: "B1",
     pronunciation: "/krɑːft/",
     citation: "Handout Page 1 (Exercise 1)",
-    definition: "An activity involving skill in making things by hand; or to create something skillfully.",
+    definition: "An activity that needs skill in making nice things by hand.",
     b1Explain: "Making beautiful or practical objects with your own hands.",
     sentence: "She creates traditional ceramic crafts and sells them at the weekend craft fair."
   },
@@ -826,7 +826,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈhænd.sɔː/",
     citation: "Smartboard Slides 1 & 2",
-    definition: "A saw with a handle at one end, designed to be operated with one hand to cut wood manually.",
+    definition: "A sharp hand tool with metal teeth used to cut wood manually.",
     b1Explain: "A sharp hand tool with metal teeth used to cut wooden boards by hand.",
     sentence: "He used a sharp handsaw to trim the wooden planks for the garden fence."
   },
@@ -835,7 +835,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈskruːˌdraɪ.vər/",
     citation: "Smartboard Slides 1 & 2",
-    definition: "A hand tool with a shaped tip that fits into the head of a screw to turn and tighten or loosen it.",
+    definition: "A handheld tool used to turn screws in or out.",
     b1Explain: "A handheld tool with a plastic grip used to turn screws in or out.",
     sentence: "I need a flat screwdriver to tighten the loose hinges on the kitchen cupboard."
   },
@@ -844,7 +844,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈmeʒ.ər.ɪŋ teɪp/",
     citation: "Smartboard Slides 1 & 2",
-    definition: "A flexible ribbon of metal or plastic marked with units of length, used for measuring distance.",
+    definition: "A flexible metal ribbon used for measuring lengths and room sizes.",
     b1Explain: "A flexible metal ruler that pulls out of a case to measure room dimensions.",
     sentence: "Always measure the wall with a measuring tape before buying a new wardrobe."
   },
@@ -853,7 +853,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun / verb", cambridgeLevel: "B1",
     pronunciation: "/drɪl/",
     citation: "Smartboard Slides 1 & 2",
-    definition: "A power tool with a rotating cutting tip used for making holes in hard materials like wood or masonry.",
+    definition: "A heavy tool with a metal head used for hitting nails into wood.",
     b1Explain: "An electric power tool that rotates fast to make holes in walls or timber.",
     sentence: "He used an electric drill to make two clean holes in the wall for the picture frame."
   },
@@ -862,7 +862,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈspɪr.ɪt ˌlev.əl/",
     citation: "Handout Page 2 & Smartboard Slide 5",
-    definition: "A glass tube filled with liquid containing an air bubble, used to test whether a surface is completely horizontal.",
+    definition: "A metal tool with two handles used for gripping, pulling, or bending wire.",
     b1Explain: "A long straight tool with a floating green bubble that shows if a shelf or picture is straight.",
     sentence: "Place the spirit level on the shelf to confirm the bubble is resting right in the middle."
   },
@@ -871,7 +871,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈsəʊl.dər.ɪŋ ˌaɪən/",
     citation: "Handout Page 2 & Smartboard Slide 5",
-    definition: "An electrically heated hand tool used to melt solder metal to join electronic wires or small metal parts.",
+    definition: "Protective glasses worn to keep your eyes safe from dust or flying pieces.",
     b1Explain: "A heated metal tool used to melt soft metal and join electrical wires or computer boards.",
     sentence: "He fixed the loose headphone wire using a soldering iron and wire cutters."
   },
@@ -880,7 +880,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈbræk.ɪts ænd skruːz/",
     citation: "Handout Page 2 (Listening 1)",
-    definition: "L-shaped metal supports and threaded metal fasteners used together to mount shelves onto walls.",
+    definition: "A small folding ladder that stands on its own without leaning on a wall.",
     b1Explain: "Right-angle metal supports and threaded pins used to hold wall shelves securely.",
     sentence: "You will need four steel brackets and screws to put up these heavy book shelves."
   },
@@ -889,7 +889,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈsledʒˌhæm.ər/",
     citation: "Handout Page 2 & Smartboard Slide 5",
-    definition: "A large, heavy hammer with a long handle, used for heavy demolition or driving stakes.",
+    definition: "Small thin metal pins with a sharp point, hammered into wood to join pieces.",
     b1Explain: "A very heavy hammer with a long handle used for breaking down brick or concrete walls.",
     sentence: "The builders used a sledgehammer to knock down the partition wall between the rooms."
   },
@@ -898,7 +898,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈneɪl ɡʌn/",
     citation: "Handout Page 2 & Smartboard Slide 5",
-    definition: "A power tool that rapidly shoots nails into wood or other materials using compressed air or electricity.",
+    definition: "Small metal pins with a spiral line around them, turned with a screwdriver.",
     b1Explain: "A tool that shoots nails into wood quickly so you don't need to swing a hammer.",
     sentence: "The carpenter used an air-powered nail gun to assemble the timber roof frame in minutes."
   },
@@ -907,7 +907,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈrʌb.ər ˈhæn.dəl/",
     citation: "Handout Page 2 (Listening 2)",
-    definition: "A tool handle coated with rubber for non-slip grip, shock absorption, and electrical insulation.",
+    definition: "A strong box or case used for storing and carrying tools neatly.",
     b1Explain: "A soft grip on a tool that stops your hands from slipping and protects against electric shocks.",
     sentence: "The wire cutters have a thick rubber handle to ensure a firm, safe grip while cutting."
   },
@@ -916,7 +916,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun (plural)", cambridgeLevel: "B1",
     pronunciation: "/ˈplaɪ.əz/",
     citation: "Smartboard Slides 1 & 2",
-    definition: "A handheld tool with two jaws and handles, used for gripping small objects, bending wire, or holding parts firmly.",
+    definition: "A metal hand tool with a shaped opening used to turn nuts and bolts.",
     b1Explain: "A scissor-like tool with flat jaws used to hold, pull, or bend wire.",
     sentence: "He held the metal nut securely with a pair of pliers while tightening the bolt."
   },
@@ -925,7 +925,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈwaɪə ˌkʌt.əz/",
     citation: "Handout Page 2 & Smartboard Slide 5",
-    definition: "A scissor-like hand tool with sharp angled jaws designed specifically for cutting electrical wires.",
+    definition: "A power tool used to make holes in hard materials like wood or walls.",
     b1Explain: "A sharp hand tool shaped like pliers used to snip through electrical cables cleanly.",
     sentence: "Use these insulated wire cutters to trim the excess speaker wire safely."
   },
@@ -934,7 +934,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈseɪf.ti kætʃ/",
     citation: "Handout Page 2 (Listening 3)",
-    definition: "A locking mechanism or switch on a tool or machine that prevents accidental firing or starting.",
+    definition: "A tool with soft bristles used for putting paint onto walls or wood.",
     b1Explain: "A small switch on a power tool that locks it so it cannot start or shoot accidentally.",
     sentence: "Always engage the safety catch on the nail gun before setting it down on the table."
   },
@@ -943,7 +943,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B2",
     pronunciation: "/ˈhæk.sɔː/",
     citation: "Student Notebook (Session 1)",
-    definition: "A saw with a fine-toothed blade set in a rigid metal C-frame, used especially for cutting metal pipes.",
+    definition: "Strong paper with rough sand on one side, used to make wood smooth.",
     b1Explain: "A metal saw with tiny sharp teeth used for cutting metal pipes and plastic tubes.",
     sentence: "He used a hacksaw to cut through the copper water pipe under the bathroom sink."
   },
@@ -952,7 +952,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˈtʃɪz.əl/",
     citation: "Student Notebook (Session 1)",
-    definition: "A long-bladed hand tool with a beveled cutting edge, struck with a hammer to carve or cut wood or stone.",
+    definition: "A sharp metal hand tool hit with a hammer to carve or cut wood or stone.",
     b1Explain: "A sharp flat steel blade used with a hammer to carve shapes or cut grooves in wood.",
     sentence: "The woodworker used a sharp chisel to carve neat grooves into the wooden cabinet door."
   },
@@ -961,7 +961,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun", cambridgeLevel: "B1",
     pronunciation: "/rentʃ/",
     citation: "Student Notebook (Session 1)",
-    definition: "A hand tool with adjustable jaws used for gripping and turning nuts, bolts, and pipe fittings (spanner).",
+    definition: "A metal tool with adjustable parts used to hold and turn nuts, bolts, or pipes.",
     b1Explain: "A metal tool that grips nuts and bolts so you can turn, tighten, or loosen them.",
     sentence: "He tightened the leaking plumbing pipe under the kitchen sink with an adjustable wrench."
   },
@@ -970,7 +970,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈɑːn.sə.rɪŋ məˌʃiːn/",
     citation: "Handout Page 3 (Compound Stress)",
-    definition: "An electronic device connected to a telephone that answers incoming calls and records caller messages.",
+    definition: "A small machine that answers phone calls and records messages when you are away.",
     b1Explain: "A machine that records voice messages when you are away from your telephone.",
     sentence: "Please leave a brief message on my answering machine and I will phone you back."
   },
@@ -979,7 +979,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈlæp.tɒp kəmˌpjuː.tər/",
     citation: "Handout Page 3 (Compound Stress)",
-    definition: "A portable personal computer designed to be easily carried and operated on one's lap.",
+    definition: "A small, portable computer that you can carry and use anywhere.",
     b1Explain: "A portable computer with a battery and screen that folds shut to carry anywhere.",
     sentence: "She packed her laptop computer into her backpack before heading to the British Council library."
   },
@@ -988,7 +988,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈdɪdʒ.ɪ.təl ˈkæm.rə/",
     citation: "Handout Page 3 (Compound Stress)",
-    definition: "A camera that captures photographs or video digitally into an electronic memory card rather than on film.",
+    definition: "A camera that takes photos and saves them on an electronic memory card.",
     b1Explain: "An electronic camera that stores high-resolution photos on an internal memory card.",
     sentence: "He took sharp architectural photos using a high-end digital camera."
   },
@@ -997,7 +997,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈvæk.juːm ˌkliː.nər/",
     citation: "Handout Page 3 (Compound Stress)",
-    definition: "An electrical household appliance that cleans carpets and floors by suction.",
+    definition: "An electric machine that cleans floors and carpets by sucking up dust.",
     b1Explain: "An electrical household machine that sucks up dust and dirt from floors and rugs.",
     sentence: "He turned on the vacuum cleaner to clean the workshop floor after finishing the woodwork."
   },
@@ -1006,7 +1006,7 @@ const VOCAB_SESSION_1 = [
     pos: "compound noun", cambridgeLevel: "B1",
     pronunciation: "/ˈtekst ˌmes.ɪdʒ/",
     citation: "Handout Page 3 (Compound Stress)",
-    definition: "An electronic communication containing written words sent between mobile phones.",
+    definition: "A short written message sent from one mobile phone to another.",
     b1Explain: "A short written message sent from one mobile phone to another.",
     sentence: "Send me a quick text message when you arrive outside the British Council building."
   },
@@ -1015,7 +1015,7 @@ const VOCAB_SESSION_1 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˌməʊ.baɪl ˈfəʊn/",
     citation: "Handout Page 3 (Compound Stress)",
-    definition: "A wireless handheld telephone that connects to cellular networks for calls, messaging, and internet.",
+    definition: "A small phone that you can carry with you to make calls and use the internet.",
     b1Explain: "A portable cellular smartphone carried in your pocket.",
     sentence: "Please switch your mobile phone to silent mode during the English listening test."
   }
@@ -1516,7 +1516,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/daɪˈrekt flaɪt/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "A flight between two destinations that does not require the passenger to change planes.",
+    definition: "A flight between two places where you stay on the same plane without changing.",
     b1Explain: "A flight where you stay on the same plane with the same flight number until you arrive.",
     sentence: "I always book a direct flight to London so I don't have to wait between connections."
   },
@@ -1525,7 +1525,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B2",
     pronunciation: "/ˈlɒŋ.hɔːl flaɪt/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "A continuous long-distance flight, typically lasting between six and twelve hours or more.",
+    definition: "A long flight that travels across oceans or continents, usually over six hours.",
     b1Explain: "A very long flight to another continent that takes many hours.",
     sentence: "On long-haul flights across the Atlantic, I prefer to travel overnight so I can sleep."
   },
@@ -1534,7 +1534,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/kəˈnek.tɪŋ flaɪt/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "A flight that requires passengers to disembark at an intermediate airport and board a different plane.",
+    definition: "A journey where you must get off one plane and get on another to reach your destination.",
     b1Explain: "When you change planes at another airport before reaching your final destination.",
     sentence: "Do you know if three hours will give me enough time to get the connecting flight?"
   },
@@ -1543,7 +1543,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˈleɪˌəʊ.vər/",
     citation: "Student Notebook & Smartboard Slide 2",
-    definition: "A scheduled period of waiting between connecting flights at an intermediate airport.",
+    definition: "A waiting time at an airport between two connecting flights.",
     b1Explain: "A short wait at an airport between two different flights.",
     sentence: "We had a four-hour layover in Dubai and took the opportunity to explore the duty-free shops."
   },
@@ -1552,7 +1552,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈbɪz.nɪs klɑːs/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "A premium travel cabin offering wider seats, higher comfort, and superior service compared to economy.",
+    definition: "A more expensive section on a plane with bigger seats and better food.",
     b1Explain: "The expensive and comfortable section of a plane with large reclining seats and delicious meals.",
     sentence: "Executives often travel business class so they can work comfortably during the journey."
   },
@@ -1561,7 +1561,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈbʌdʒ.ɪt əˌkɒm.əˈdeɪ.ʃən/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "Inexpensive lodging options such as modest hotels, motels, or guesthouses.",
+    definition: "Cheap places to stay, like simple hotels, guesthouses, or hostels.",
     b1Explain: "Affordable places to stay that do not cost a lot of money.",
     sentence: "As a student travelling across Europe, I usually go for clean budget accommodation."
   },
@@ -1570,7 +1570,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase / adjective", cambridgeLevel: "B1",
     pronunciation: "/ˌfʊl ˈbɔːd/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "A hotel booking arrangement where the daily price includes room and all three meals: breakfast, lunch, and dinner.",
+    definition: "A hotel price that includes your room and all three daily meals.",
     b1Explain: "When your hotel price includes your room and all three meals every day.",
     sentence: "We chose full-board at the mountain resort so we wouldn't need to look for restaurants in town."
   },
@@ -1579,7 +1579,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase / adjective", cambridgeLevel: "B1",
     pronunciation: "/ˌhɑːf ˈbɔːd/",
     citation: "Smartboard Slide 2 & Student Notebook",
-    definition: "A hotel rate that includes bed, breakfast, and one other main daily meal (usually dinner).",
+    definition: "A hotel price that includes your room, breakfast, and dinner.",
     b1Explain: "A hotel package that gives you breakfast and dinner, but not lunch.",
     sentence: "Half-board is perfect because we can explore the city during the day and eat dinner at the hotel."
   },
@@ -1588,7 +1588,7 @@ const VOCAB_SESSION_2 = [
     pos: "adjective / noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˌɔːl.ɪnˈkluː.sɪv/",
     citation: "Smartboard Slide 2 & Student Notebook",
-    definition: "A holiday package where the total price covers lodging, all meals, drinks, facilities, and on-site entertainment.",
+    definition: "A holiday where the total price covers your room, all food, drinks, and activities.",
     b1Explain: "A holiday where one price pays for everything: room, food, drinks, and activities.",
     sentence: "Families love all-inclusive beach resorts because there are no unexpected bills at the end."
   },
@@ -1597,7 +1597,7 @@ const VOCAB_SESSION_2 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/ˌselfˈkeɪ.tər.ɪŋ/",
     citation: "Handout Page 1 & Smartboard Slide 2",
-    definition: "Accommodation providing cooking facilities so guests can prepare their own meals rather than dining out.",
+    definition: "A place to stay with a kitchen so you can cook your own food.",
     b1Explain: "A holiday apartment with a kitchen where you cook your own meals.",
     sentence: "We booked a self-catering apartment with a modern kitchen to save money on dining out."
   },
@@ -1606,7 +1606,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B2",
     pronunciation: "/ˌɒn ˈswiːt ˈbɑːθ.ruːm/",
     citation: "Smartboard Slide 2 & Student Notebook",
-    definition: "A private bathroom directly attached to and accessible only from the bedroom.",
+    definition: "A private bathroom that is connected directly inside your bedroom.",
     b1Explain: "A private bathroom that is inside your bedroom so you don't share it with anyone.",
     sentence: "Every guest bedroom in the boutique hotel has an en-suite bathroom with a rainfall shower."
   },
@@ -1615,7 +1615,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun (plural)", cambridgeLevel: "B1",
     pronunciation: "/fəˈsɪl.ə.tiz/",
     citation: "Handout Page 1 & Smartboard Slide 1",
-    definition: "Buildings, equipment, or services provided for a particular purpose (such as gym, sauna, swimming pool).",
+    definition: "Places, equipment, or services provided for you, like a gym or swimming pool.",
     b1Explain: "Useful services and places provided by a hotel, like a swimming pool, gym, or free Wi-Fi.",
     sentence: "In a hotel, facilities like a fitness centre and heated pool are essential for relaxing."
   },
@@ -1624,7 +1624,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈaɪl siːt/",
     citation: "Handout Page 1 & Smartboard Slide 2",
-    definition: "A seat situated next to the central walkway on an aeroplane, bus, or train.",
+    definition: "A plane or train seat right next to the walking path in the middle.",
     b1Explain: "A seat next to the walking passage so you can stand up easily without disturbing others.",
     sentence: "I always request an aisle seat so I can get up and stretch my legs during the flight."
   },
@@ -1633,7 +1633,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B2",
     pronunciation: "/ˌəʊ.və.hed ˈlɒk.ər/",
     citation: "Smartboard Slide 3 & Student Notebook",
-    definition: "An enclosed storage compartment located directly above passenger seats in an aircraft cabin.",
+    definition: "An overhead cupboard above your plane seat where you put your small bags.",
     b1Explain: "The cupboard above your seat in a plane where you put your small bag.",
     sentence: "Please stow your carry-on bag securely in the overhead locker before take-off."
   },
@@ -1642,7 +1642,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈbɔː.dɪŋ pɑːs/",
     citation: "Smartboard Slide 2 & Student Notebook",
-    definition: "An official paper or digital document granting a passenger permission to board a flight after security check.",
+    definition: "A paper or phone card you must show to get on an airplane.",
     b1Explain: "The ticket card or phone barcode you show to get onto the aeroplane.",
     sentence: "Have your passport and boarding pass ready when approaching the departure gate."
   },
@@ -1651,7 +1651,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/dɪˈpɑː.tʃər ɡeɪt/",
     citation: "Student Notebook (Session 2)",
-    definition: "The numbered airport exit area where passengers wait to board their specific aircraft.",
+    definition: "The numbered door in an airport where passengers wait to get on their plane.",
     b1Explain: "The door and waiting area at an airport where you get on your aeroplane.",
     sentence: "Flight BA 142 to London Heathrow is now boarding at departure gate 24."
   },
@@ -1660,7 +1660,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈflaɪt əˌten.dənt/",
     citation: "Student Notebook (Session 2)",
-    definition: "An airline employee whose job is to look after passenger safety and comfort during a flight.",
+    definition: "A person whose job is to serve passengers and keep them safe on a plane.",
     b1Explain: "A member of the aeroplane staff who serves meals and ensures safety on board.",
     sentence: "The friendly flight attendant offered extra blankets and water to passengers."
   },
@@ -1669,7 +1669,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈlʌɡ.ɪdʒ ˌstɔː.rɪdʒ/",
     citation: "Smartboard Slide 2 & Student Notebook",
-    definition: "A designated secure room in a hotel or airport where travellers can leave their suitcases temporarily.",
+    definition: "A safe room in a hotel or airport where you can leave your bags for a while.",
     b1Explain: "A safe room at a hotel where you can leave your bags before check-in or after check-out.",
     sentence: "After checking out at noon, we left our bags in the hotel luggage storage until our evening flight."
   },
@@ -1678,7 +1678,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈeə.pɔːt ˌʃʌt.əl/",
     citation: "Smartboard Slide 2 & Student Notebook",
-    definition: "A dedicated bus or van service operating regular trips between an airport and hotels or city centre.",
+    definition: "A bus that makes regular trips between the airport and hotels or city centre.",
     b1Explain: "A bus that drives people between the airport terminal and nearby hotels.",
     sentence: "The hotel offers a complimentary airport shuttle that runs every thirty minutes."
   },
@@ -1687,7 +1687,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun", cambridgeLevel: "B2",
     pronunciation: "/ˈveɪ.kən.si/",
     citation: "Smartboard Slide 3 & Student Notebook",
-    definition: "An unoccupied room in a hotel or guesthouse available for immediate rental.",
+    definition: "An empty room in a hotel that is ready to rent.",
     b1Explain: "An empty room available for guests to book in a hotel.",
     sentence: "The hotel sign said 'No Vacancy' because all rooms were booked for the holiday weekend."
   },
@@ -1696,7 +1696,7 @@ const VOCAB_SESSION_2 = [
     pos: "adjective phrase", cambridgeLevel: "B1",
     pronunciation: "/ˌfʊl.i ˈbʊkt/",
     citation: "Smartboard Slide 3 & Student Notebook",
-    definition: "Having no available rooms, tickets, or seats remaining; completely filled to capacity.",
+    definition: "Having all rooms, tickets, or seats sold, with none left.",
     b1Explain: "When all hotel rooms or flight seats are completely taken and none are left.",
     sentence: "I wanted to reserve a sea-view suite, but the receptionist explained they were fully booked."
   },
@@ -1705,7 +1705,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/əˈraɪ.vəlz bɔːd/",
     citation: "Smartboard Slide 3 & Student Notebook",
-    definition: "A large digital display screen in an airport terminal displaying incoming flight times and gate statuses.",
+    definition: "A large electronic screen at the airport showing landing times of planes.",
     b1Explain: "The electronic screen in an airport that shows when flights are landing.",
     sentence: "We checked the arrivals board to see if our friend's flight from Paris had landed on schedule."
   },
@@ -1714,7 +1714,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈhænd ˌlʌɡ.ɪdʒ/",
     citation: "Smartboard Slide 3 & Student Notebook",
-    definition: "Small bags, rucksacks, or cases that passengers are permitted to carry inside the aircraft cabin.",
+    definition: "Small bags or backpacks that you are allowed to take with you inside the airplane.",
     b1Explain: "Small suitcases or bags that you carry with you onto the plane.",
     sentence: "Make sure your hand luggage conforms to the airline's weight and dimension restrictions."
   },
@@ -1723,7 +1723,7 @@ const VOCAB_SESSION_2 = [
     pos: "adjective phrase", cambridgeLevel: "B2",
     pronunciation: "/ˈwiːl.tʃeər əkˌses.ə.bəl/",
     citation: "Smartboard Slide 3",
-    definition: "Equipped with ramps, wide doorways, and lifts so individuals using wheelchairs can navigate easily.",
+    definition: "Having ramps, wide doors, and lifts so people in wheelchairs can enter easily.",
     b1Explain: "Designed with ramps and elevators so people in wheelchairs can enter comfortably.",
     sentence: "Can you tell me if the ground-floor rooms and hotel pool are wheelchair accessible?"
   },
@@ -1732,7 +1732,7 @@ const VOCAB_SESSION_2 = [
     pos: "adjective", cambridgeLevel: "B1",
     pronunciation: "/ˈpet ˌfrend.li/",
     citation: "Smartboard Slide 3 & Student Notebook",
-    definition: "Welcoming domestic animals such as dogs and cats to stay with their owners at an establishment.",
+    definition: "Allowing guests to bring their pet dogs or cats into the hotel.",
     b1Explain: "A hotel that allows you to bring your pet dog or cat to stay with you.",
     sentence: "We booked a pet-friendly cottage by the coast so our golden retriever could travel with us."
   },
@@ -1741,7 +1741,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/friː ˌkæn.səlˈeɪ.ʃən/",
     citation: "Smartboard Slide 3",
-    definition: "A booking policy allowing travellers to cancel their reservation without paying any penalty fees.",
+    definition: "A rule that lets you cancel your booking without paying any money.",
     b1Explain: "When you can cancel your hotel or flight booking and get all your money back.",
     sentence: "I chose the rate with free cancellation in case our vacation dates need to change."
   },
@@ -1750,7 +1750,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B2",
     pronunciation: "/ˌnɒn.rɪˈfʌn.də.bəl dɪˈpɒz.ɪt/",
     citation: "Smartboard Slide 3",
-    definition: "An initial booking payment that the customer forfeits and cannot reclaim if they cancel the trip.",
+    definition: "A first payment that you lose if you decide to cancel your trip.",
     b1Explain: "An advance money payment that the hotel keeps if you decide to cancel your booking.",
     sentence: "Booking the luxury villa required a twenty percent non-refundable deposit."
   },
@@ -1759,7 +1759,7 @@ const VOCAB_SESSION_2 = [
     pos: "noun phrase", cambridgeLevel: "B1",
     pronunciation: "/ˈruːm ˌsɜː.vɪs/",
     citation: "Smartboard Slide 2",
-    definition: "A hotel amenity where staff deliver hot meals, beverages, or snacks directly to a guest's room.",
+    definition: "When hotel staff bring food or drinks directly to your bedroom.",
     b1Explain: "Ordering food and drinks over the hotel phone to be brought directly to your bedroom.",
     sentence: "After our long flight, we ordered hot pasta and tea from room service and relaxed."
   }
@@ -2141,7 +2141,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈrek.əɡ.naɪz/",
     citation: "Student Notebook & Teacher Smartboard Slide",
-    definition: "To know someone or something because you have seen, heard, or experienced them before.",
+    definition: "To know someone or something because you have seen or met them before.",
     b1Explain: "التمييز / يتعرف على شخص أو شيء رآه من قبل.",
     sentence: "I recognized my childhood friend immediately when he entered the British Council reception."
   },
@@ -2152,7 +2152,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈrɪə.laɪz/",
     citation: "Teacher Correction on Whiteboard (use realize instead of recognize)",
-    definition: "To become aware of a fact or situation, or to come to understand something clearly for the first time.",
+    definition: "To understand or notice something clearly for the first time.",
     b1Explain: "إدراك / يستوعب ويفهم حقيقة جديدة لم يكن مدركاً لها.",
     sentence: "I didn't realize how important learning English was until I started applying for jobs abroad."
   },
@@ -2163,7 +2163,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/rɪˈɡret/",
     citation: "Handout Page 1 & Student Notebook",
-    definition: "A feeling of sadness, remorse, or disappointment about a past choice or action that cannot be undone.",
+    definition: "A sad feeling of wishing you had made a different choice in the past.",
     b1Explain: "ندم أو أسف على قرار أو تصرف في الماضي.",
     sentence: "Do you have any regrets about leaving your hometown to study at university?"
   },
@@ -2174,7 +2174,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈstʌd.i.ɪŋ əˈbrɔːd/",
     citation: "Student Notebook (page 1)",
-    definition: "Pursuing academic education or language courses in a foreign university outside your homeland.",
+    definition: "Going to study at a school or university in a different country.",
     b1Explain: "الدراسة في الخارج بدولة أجنبية.",
     sentence: "Studying abroad allowed her to gain international experience and make lifelong friends from around the world."
   },
@@ -2185,7 +2185,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B2",
     pronunciation: "/lɒts tuː kənˈsɪd.ər/",
     citation: "Student Notebook (page 1)",
-    definition: "Having many important details, consequences, and choices to carefully evaluate before making a decision.",
+    definition: "Having many different facts or options to think about before deciding.",
     b1Explain: "الكثير من الأمور والتفاصيل الواجب أخذها في الحسبان قبل اتخاذ القرار.",
     sentence: "Before accepting the job offer in London, I had lots to consider, like rent, transport, and family."
   },
@@ -2196,7 +2196,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "A2",
     pronunciation: "/siːdz/",
     citation: "Student Notebook (page 2)",
-    definition: "The small hard grains produced by plants from which new plants grow; metaphorically, initial ideas.",
+    definition: "The small hard parts of a plant from which new plants grow; or new ideas.",
     b1Explain: "بذور النباتات أو بدايات الأفكار والمشاريع.",
     sentence: "The teacher explained how small seeds grow deep roots before producing green leaves."
   },
@@ -2207,7 +2207,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ruːts/",
     citation: "Student Notebook (page 2)",
-    definition: "The parts of a plant that grow underground; also refers to a person's family origins or heritage.",
+    definition: "The parts of a plant that grow under the ground; or family origins.",
     b1Explain: "جذور النبات تحت الأرض أو الأصول العائلية والتراث الثقافي.",
     sentence: "Even after twenty years of living in the UK, he never forgot his cultural roots."
   },
@@ -2218,7 +2218,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "A2",
     pronunciation: "/liːvz/",
     citation: "Student Notebook (page 2: leaf -> leaves)",
-    definition: "The flat, usually green parts of a plant or tree that grow from a stem or branch.",
+    definition: "The flat green parts that grow on plants or tree branches.",
     b1Explain: "أوراق الأشجار والنباتات.",
     sentence: "In autumn, the golden leaves fall gently from the tall oak trees in the park."
   },
@@ -2229,7 +2229,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈmʌs.kjə.lər/",
     citation: "Student Notebook (page 2: a muscular man)",
-    definition: "Having large, strong, and visibly well-developed muscles from physical training.",
+    definition: "Having strong, large muscles from doing physical exercise.",
     b1Explain: "مفتول العضلات / ذو بنية عضلية قوية ورياضية.",
     sentence: "If he went to the gym five days a week, he would become a muscular man."
   },
@@ -2240,7 +2240,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/dɪˈsɪʒ.ən ˈprəʊ.ses/",
     citation: "British Council Handout ARS_B1_05_I028CEA title",
-    definition: "The systematic cognitive stages through which someone considers alternatives and makes a definitive choice.",
+    definition: "The steps you take when thinking about choices before you decide.",
     b1Explain: "عملية التفكير والتقييم لاتخاذ القرار خطوة بخطوة.",
     sentence: "Understanding the decision process helps managers evaluate risks before investing company funds."
   },
@@ -2251,7 +2251,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/taɪm ˈlɪŋ.kəz/",
     citation: "British Council Handout (page 2)",
-    definition: "Conjunctions and adverbial expressions that connect sentences and indicate chronological order or duration.",
+    definition: "Words like 'before', 'after', or 'since' that connect events in time order.",
     b1Explain: "روابط زمنية تشير لترتيب وتوقيت وقوع الأحداث في الماضي.",
     sentence: "Time linkers like 'since leaving university' and 'by the age of thirty' help sequence past experiences."
   },
@@ -2262,7 +2262,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/sɪns ˈliː.vɪŋ ˌjuː.nɪˈvɜː.sɪ.ti/",
     citation: "Handout Activity 4 & Teacher Smartboard Slide",
-    definition: "From the specific time point of graduation from university up to the present moment.",
+    definition: "From the time you graduated from university up to now.",
     b1Explain: "منذ نقطة التخرج من الجامعة وحتى الوقت الحاضر.",
     sentence: "Since leaving university, he has worked as a financial consultant for major firms in Dubai."
   },
@@ -2273,7 +2273,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/baɪ ði eɪdʒ əv ˈθɜː.ti/",
     citation: "Handout Activity 4 & Smartboard Slide (time linker = your age)",
-    definition: "Before or not later than reaching one's 30th birthday.",
+    definition: "At or before the time you reach thirty years old.",
     b1Explain: "بحلول سن الثلاثين / قبل بلوغ سن الثلاثين من العمر.",
     sentence: "She had set a personal goal to start her own digital marketing company by the age of thirty."
   },
@@ -2284,7 +2284,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɪn ðə lɑːst ˈkʌp.əl əv mʌnθs/",
     citation: "Handout Activity 4",
-    definition: "During the recent two or three months preceding the present time.",
+    definition: "During the past two or three months.",
     b1Explain: "في الشهرين الأخيرين / في الفترة القريبة الماضية.",
     sentence: "In the last couple of months, our English speaking confidence has noticeably improved."
   },
@@ -2295,7 +2295,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B2",
     pronunciation: "/θɜːd kənˈdɪʃ.ən.əl/",
     citation: "Classroom Smartboard & Student Notebook",
-    definition: "A grammar form (If + past perfect, would have + past participle) used to talk about imagined alternative pasts and regrets.",
+    definition: "A grammar form used to talk about past situations that did not happen and regrets.",
     b1Explain: "الحالة الشرطية الثالثة للتعبير عن أحداث ماضية مستحيلة التغيير والندم عليها.",
     sentence: "We use the third conditional to express how past events could have turned out differently."
   },
@@ -2306,7 +2306,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B2",
     pronunciation: "/pɑːst ˈməʊ.dəl əv dɪˈdʌk.ʃən/",
     citation: "Student Notebook (page 3) - ده استنتاج",
-    definition: "Using modal verbs like 'must have', 'might have', or 'couldn't have' plus past participle to deduce past events with evidence.",
+    definition: "Using words like 'must have' or 'couldn't have' to guess past events using facts.",
     b1Explain: "أفعال الاستنتاج في الماضي بناءً على أدلة وشواهد.",
     sentence: "Her car is parked outside, so she must have arrived early for the conference."
   },
@@ -2317,7 +2317,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B2",
     pronunciation: "/dɪˈdʌk.ʃən/",
     citation: "Student notebook & smartboard notes",
-    definition: "The logical process of reaching a conclusion about what happened based on available facts.",
+    definition: "The process of reaching an answer or conclusion by looking at the facts.",
     b1Explain: "الاستنتاج أو الاستدلال المنطقي بناءً على القرائن.",
     sentence: "Through logical deduction, the detective solved the mysterious disappearance of the document."
   },
@@ -2328,7 +2328,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B2",
     pronunciation: "/ɪf ˈəʊn.li aɪ hæd ˈlɪs.ənd/",
     citation: "Classroom Smartboard Slide 16 & Student notebook",
-    definition: "A strong emotional phrase expressing deep past regret, wishing that one had followed someone's guidance.",
+    definition: "A phrase used to say you strongly wish you had followed someone's advice.",
     b1Explain: "تعبير عن ندم شديد: لو أنني فقط أنصت للنصيحة واستمعت للكلام!",
     sentence: "If only I had listened to my tutor's advice, I wouldn't have failed the final accounting exam."
   },
@@ -2339,7 +2339,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/aɪ wɪʃ aɪ hæd ˈstʌd.id ˈhɑː.dər/",
     citation: "Classroom Smartboard Slide 16 & Student notebook",
-    definition: "An expression using 'wish + past perfect' to voice remorse over not working diligently enough in the past.",
+    definition: "A phrase used to express sadness that you did not work harder in the past.",
     b1Explain: "تمني عكس ما حدث في الماضي: أتمنى لو أنني ذاكرت بجدية أكبر.",
     sentence: "Looking at my test scores, I wish I had studied harder before the examination week."
   },
@@ -2350,7 +2350,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/aɪ rɪˈɡret ˈliː.vɪŋ/",
     citation: "Classroom Smartboard Slide 16 & Student notebook",
-    definition: "A direct statement of sorrow using 'regret + gerund (-ing)' acknowledging that departing was a mistake.",
+    definition: "A clear statement saying you are sorry that you left.",
     b1Explain: "تعبير صريح عن الندم: أنا نادم على المغادرة أو ترك العمل.",
     sentence: "I regret leaving my former company because my colleagues there were very supportive."
   },
@@ -2361,7 +2361,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈθiːm ˌpɑːk/",
     citation: "Teacher Whiteboard Slide 17 (El Malahy = theme park / amusement park)",
-    definition: "A very large commercial amusement park designed around specific themes with spectacular roller coasters and attractions.",
+    definition: "A very large amusement park with big rides, roller coasters, and shows.",
     b1Explain: "مدينة ملاهي كبيرة ذات طابع ترفيهي مميز.",
     sentence: "During our holiday in Florida, our family spent two unforgettable days exploring the famous theme park."
   },
@@ -2372,7 +2372,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈfʌn ˌfeər/",
     citation: "Teacher Whiteboard Slide 17 (fun fair -> small)",
-    definition: "A smaller, often temporary outdoor carnival with games, food stalls, carousels, and gentle amusement rides.",
+    definition: "An outdoor event with games, food stalls, and fun rides for families.",
     b1Explain: "مدينة ألعاب ترفيهية صغيرة أو مهرجان ألعاب متنقل.",
     sentence: "Every summer, the village green hosts a delightful fun fair with cotton candy and prize stalls."
   },
@@ -2383,7 +2383,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈrəʊ.lə ˌkəʊ.stər/",
     citation: "Teacher Whiteboard Slide 17 (rides: roller coaster)",
-    definition: "An exciting fairground attraction consisting of a miniature train track with extreme drops, loops, and sharp twists.",
+    definition: "An exciting ride on a track with steep drops, high turns, and fast speed.",
     b1Explain: "قطار الموت أو الأفعوانية في مدينة الملاهي.",
     sentence: "Riding the giant roller coaster gave everyone a huge rush of adrenaline and laughter."
   },
@@ -2394,7 +2394,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˌbɪɡ ˈwiːl/",
     citation: "Teacher Whiteboard Slide 17 (rides: big wheel)",
-    definition: "A Ferris wheel; a giant upright rotating mechanical wheel with passenger capsules giving panoramic views.",
+    definition: "A huge turning wheel with seats that takes people high up to see the view.",
     b1Explain: "الساقية الدوارة العملاقة (عجلة فيريس) في مدن الملاهي.",
     sentence: "From the top of the big wheel, we had a breathtaking view across the entire city at sunset."
   },
@@ -2405,7 +2405,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈmer.i.ɡəʊˌraʊnd/",
     citation: "Teacher Whiteboard Slide 17 (rides: merry-go-round)",
-    definition: "A carousel; a revolving circular platform equipped with carved model wooden horses and pleasant music.",
+    definition: "A round turning ride for children with model horses and music.",
     b1Explain: "دوامة الخيل / لعبة الأحصنة الدوارة للأطفال.",
     sentence: "The young children laughed with joy as the colorful merry-go-round gently spun in circles."
   },
@@ -2416,7 +2416,7 @@ const VOCAB_SESSION_3 = [
     cambridgeLevel: "B1",
     pronunciation: "/əˈmjuːz.mənt raɪdz/",
     citation: "Teacher Whiteboard Slide 17 (Games -> rides)",
-    definition: "The mechanical attractions, spinning machines, and roller coasters at fairs that people ride for thrills.",
+    definition: "The fun machines and roller coasters that people ride at a park.",
     b1Explain: "ألعاب وركوبات الملاهي الترفيهية.",
     sentence: "Safety inspectors carefully checked all the amusement rides before opening the gates to visitors."
   },
@@ -2865,7 +2865,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈaʊtˌɡəʊ.ɪŋ/",
     citation: "Handout Page 1 & Smartboard Slides 5 & 7",
-    definition: "Friendly, lively, and finding it easy and pleasant to talk to people and socialize.",
+    definition: "Friendly, energetic, and happy to talk to new people.",
     b1Explain: "شخص اجتماعي، ودود، منفتح على الآخرين ويسهل عليه التحدث وبناء العلاقات.",
     sentence: "Since the assistant manager will deal with hotel guests every evening, you need to be outgoing and welcoming."
   },
@@ -2876,7 +2876,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈsəʊ.ʃə.bəl/",
     citation: "Handout Page 1 & Smartboard Slides 5 & 7",
-    definition: "Liking to be with and interact with other people; making friends easily.",
+    definition: "Liking to spend time with other people and making friends easily.",
     b1Explain: "شخص أنيس ومحب لمخالطة الناس والاستمتاع بالتجمعات وتكوين الصداقات.",
     sentence: "Are you sociable? Do you enjoy meeting international travelers and welcoming them at reception?"
   },
@@ -2887,7 +2887,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌsɪm.pəˈθet.ɪk ˈlɪs.ən.ər/",
     citation: "Handout Page 1 & Smartboard Slide 5 • Student Notebook",
-    definition: "A person who listens attentively to someone's problems with genuine care, patience, and compassion.",
+    definition: "Someone who listens kindly and cares about your feelings and problems.",
     b1Explain: "مستمع متعاطف ومتفهم؛ ينصت باهتمام لمشاكل النزلاء ويواسيهم باحترافية.",
     sentence: "When guests face travel disruptions in the snow, a sympathetic listener can resolve their frustration immediately."
   },
@@ -2898,7 +2898,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈpʌŋk.tʃu.əl/",
     citation: "Handout Page 1 & Smartboard Slides 5, 6 & 8",
-    definition: "Arriving or doing something at the agreed or proper time; never arriving late.",
+    definition: "Able to make choices quickly, clearly, and with confidence.",
     b1Explain: "دقيق في المواعيد وحريص تماماً على عدم التأخير في أي واجب.",
     sentence: "A reliable hotel assistant manager must be strictly punctual for morning staff briefings."
   },
@@ -2909,7 +2909,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌpʌŋk.tʃuˈæl.ə.ti/",
     citation: "Teacher Whiteboard Annotation (Slide 7) • punctuality ≠ tardiness",
-    definition: "The habit, practice, or quality of being strictly on time for duties and appointments.",
+    definition: "Someone you can trust to do what they promised and do good work.",
     b1Explain: "الالتزام الدقيق بالمواعيد كسمة مهنية أساسية في العمل.",
     sentence: "The general manager emphasized that punctuality is non-negotiable in hospitality management."
   },
@@ -2920,7 +2920,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈtɑː.di.nəs/",
     citation: "Teacher Whiteboard Annotation (Slide 7) • Opposites Clinic",
-    definition: "The state, habit, or occurrence of being late or delayed for commitments.",
+    definition: "Someone who comes up with original, new, and interesting ideas.",
     b1Explain: "التأخر عن المواعيد أو التباطؤ (وهو نقيض الالتزام بالمواعيد تماماً).",
     sentence: "Habitual tardiness will quickly create staffing problems when shifts transition at reception."
   },
@@ -2931,7 +2931,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɪˈfɪʃ.ənt/",
     citation: "Handout Page 1 & Smartboard Slides 5 & 6",
-    definition: "Working in a well-organized and competent way that produces good results without wasting time or energy.",
+    definition: "Someone who carefully checks facts before deciding what is true.",
     b1Explain: "كفء وسريع الإنجاز؛ يؤدي المهام بأعلى دقة وبدون هدر للوقت أو الموارد.",
     sentence: "She is an efficient coordinator who organizes the cleaning schedules in record time."
   },
@@ -2942,7 +2942,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/wɜːk wel ˈʌn.dər ˈpreʃ.ər/",
     citation: "Handout Page 1 & Smartboard Slides 5 & 7",
-    definition: "To stay calm, think clearly, and perform effectively when facing heavy demands, emergencies, or deadlines.",
+    definition: "Able to change easily to fit new situations and different jobs.",
     b1Explain: "يعمل بإتقان وهدوء وثبات تحت وطأة الضغوط وحالات الطوارئ.",
     sentence: "During a blizzard when the ski lifts close, hotel managers must work well under pressure."
   },
@@ -2953,7 +2953,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˌiː.ziˈɡəʊ.ɪŋ/",
     citation: "Handout Page 1 & Smartboard Slides 5, 6 & 7",
-    definition: "Relaxed, tolerant, and not easily upset, stressed, or angered by unexpected difficulties.",
+    definition: "Paying careful attention to every small part of a job to avoid mistakes.",
     b1Explain: "مرن، هادئ البال، متسامح وغير متشنج، لا يغضب من صغائر الأمور.",
     sentence: "His easy-going manner helps diffuse tension when anxious tourists arrive after a long bus journey."
   },
@@ -2964,7 +2964,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/kɑːm/",
     citation: "Handout Page 1 & Smartboard Slides 5, 6 & 7",
-    definition: "Peaceful, quiet, and not showing or feeling agitation, nervousness, or panic.",
+    definition: "Working hard on your own without needing someone to tell you what to do.",
     b1Explain: "هادئ، رزين ومتزن الأعصاب، يحتفظ برباطة جأشه في المواقف الصعبة.",
     sentence: "It is important that you remain calm and reassure guests when the ski resort experiences power outages."
   },
@@ -2975,7 +2975,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/məˈtʃʊər/",
     citation: "Handout Page 1 & Smartboard Slides 5 & 7 • Student Notebook",
-    definition: "Behaving sensibly and thoughtfully in the manner expected of a responsible adult.",
+    definition: "Able to stay calm and not get angry when things take a long time.",
     b1Explain: "ناضج، مكتمل الوعي، يتصرف بحكمة ورزانة ويتحمل عواقب قراراته.",
     sentence: "Because you will supervise hotel staff, you need to be mature and handle disputes fairly."
   },
@@ -2986,7 +2986,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/rɪˈspɒn.sə.bəl/",
     citation: "Handout Page 1 & Smartboard Slides 5, 7 & 8",
-    definition: "Trustworthy, having good judgement, and able to be relied upon to make sensible choices independently.",
+    definition: "Always arriving on time and never being late.",
     b1Explain: "مسؤول ومحل ثقة، يُعتمد عليه في إدارة المنشأة وتأدية الواجبات بأمانة.",
     sentence: "The assistant manager is responsible for locking the ski equipment storage and safe every night."
   },
@@ -2997,7 +2997,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/dɪˈsaɪ.sɪv/",
     citation: "Handout Page 1 & Smartboard Slides 5, 6, 7 & Whiteboard Phonetics",
-    definition: "Able to make important choices and take action swiftly, firmly, and with confidence.",
+    definition: "Careful in speaking so that you do not upset or offend other people.",
     b1Explain: "حاسم وقاطع في اتخاذ القرارات دون تردد أو تسويف.",
     sentence: "When weather conditions turn dangerous, a decisive manager closes the outdoor terrace immediately."
   },
@@ -3008,7 +3008,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/rɪˈzɜːvd/",
     citation: "Smartboard Slide 7 & Student Notebook Page 2 (has own rules / keeps private)",
-    definition: "Tending to keep one's feelings and thoughts private rather than expressing them openly.",
+    definition: "Continuing to try hard and not giving up when something is difficult.",
     b1Explain: "متحفظ، كفوف اللسان وكتوم، لا يفصح عن مشاعره بسهولة ويفضل الهدوء.",
     sentence: "Although Peter is quiet and reserved in his personal life, he is very polite with clients."
   },
@@ -3019,7 +3019,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/kiːn/",
     citation: "Candidate Card (Peter Bogdovic) & Student Notebook Page 2",
-    definition: "Extremely eager, enthusiastic, and determined to learn and succeed.",
+    definition: "Someone who finds good answers to difficult situations or troubles.",
     b1Explain: "متحمس للغاية، شغوف، وراغب بجدية في التعلم وتطوير مهاراته.",
     sentence: "Peter is very keen to learn hospitality management because he plans to open his own boutique hotel."
   },
@@ -3030,7 +3030,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˌbædˈtem.pəd/",
     citation: "Smartboard Slide 7 & Student Notebook Page 2 (very angry / mad)",
-    definition: "Easily annoyed or irritated, often becoming angry and complaining over small inconveniences.",
+    definition: "A person who works well and cooperates happily with other colleagues.",
     b1Explain: "سريع الغضب وعصبي المزاج؛ ينفعل لأتفه الأسباب (عكس هادئ الطباع).",
     sentence: "A bad-tempered receptionist will quickly damage the luxury hotel's five-star reputation."
   },
@@ -3041,7 +3041,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈwaɪ.ni/",
     citation: "Student Notebook Page 2 (whiny -> whine / irritating complaint)",
-    definition: "Habitually complaining or expressing dissatisfaction in an irritating, high-pitched, childish manner.",
+    definition: "The skill of guiding, encouraging, and leading a group of people.",
     b1Explain: "كثير التذمر والنواح والشكوى بصوت مزعج ومستفز.",
     sentence: "Tired travelers can become whiny if their luggage arrives late at the alpine ski depot."
   },
@@ -3052,7 +3052,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈaɪ.sə.leɪ.tɪd/",
     citation: "Handout Page 1 (Job Advert) & Student Notebook Page 1",
-    definition: "Far away from other places, buildings, or large populations; remote and secluded.",
+    definition: "A strong personal belief in working hard and doing your job well.",
     b1Explain: "منعزل، ناءٍ وبعيد عن المدن والتجمعات السكانية الكبيرة.",
     sentence: "The ski resort hotel has 20 rooms and is located in a beautiful, but rather isolated, valley in the Italian Alps."
   },
@@ -3063,7 +3063,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈskiː rɪˌzɔːt/",
     citation: "Handout Page 1 (Job Advert) & Candidate Card",
-    definition: "A mountain resort town or village designed for snow skiing, snowboarding, and winter sports holidays.",
+    definition: "The chances of being promoted, earning more, and having a good future at work.",
     b1Explain: "منتجع تزلج جبلي؛ وجهة سياحية شتوية مجهزة للمتزلجين ومحبي الجليد.",
     sentence: "Winter is the busiest season in an alpine ski resort when thousands of skiers arrive on holiday."
   },
@@ -3074,7 +3074,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌmʌl.tiˈtɑːsk/",
     citation: "Student Notebook Page 1 (Hotel duties: multi-task)",
-    definition: "To execute or coordinate several different duties or activities simultaneously with efficiency.",
+    definition: "To do more than one task or duty at the same time.",
     b1Explain: "إنجاز مهام متعددة في آن واحد بمهارة وتنظيم دون إرباك.",
     sentence: "Hotel assistant managers must multi-task between answering phone calls, checking in guests, and supervising the dining room."
   },
@@ -3085,7 +3085,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɪnˈkwaɪə.riz/",
     citation: "Handout Page 1 (Duties: dealing with enquiries at reception)",
-    definition: "Official requests for information or questions asked by guests and customers.",
+    definition: "Questions or requests for information from customers or guests.",
     b1Explain: "استفسارات وتساؤلات النزلاء والعملاء في مكتب الاستقبال.",
     sentence: "The evening duties include dealing with enquiries about ski equipment hire, weather, and dinner reservations."
   },
@@ -3096,7 +3096,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈæk.tɪŋ ˈmæn.ɪ.dʒər/",
     citation: "Handout Page 1 (Job Advert: acting manager when manager is away)",
-    definition: "A designated professional who temporarily assumes the authority and duties of the manager in their absence.",
+    definition: "A person who temporarily does the job of the manager while the manager is away.",
     b1Explain: "مدير بالنيابة؛ يتولى مسؤولية إدارة المنشأة بالكامل حين يكون المدير غائباً.",
     sentence: "Because you will be the acting manager when the general manager is away, you must be mature and decisive."
   },
@@ -3107,7 +3107,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/pɜːks/",
     citation: "Handout Page 1 (Offer: free accommodation, meals, ski pass, car)",
-    definition: "Special advantages, bonuses, or benefits provided to employees in addition to their contractual salary.",
+    definition: "Extra benefits or nice advantages you get from your job besides your regular pay.",
     b1Explain: "مزايا وامتيازات وظيفية إضافية (مثل السكن المجاني وتذاكر التزلج وسيارة الشركة).",
     sentence: "The job perks include free accommodation, daily meals, two months' paid holiday, and a complimentary ski pass."
   },
@@ -3118,7 +3118,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈhez.ɪ.tənt/",
     citation: "Smartboard Slide 7 (Opposite of decisive: hesitant)",
-    definition: "Slow to act, speak, or decide due to nervousness, doubt, or lack of confidence.",
+    definition: "Slow to speak or act because you feel uncertain or nervous.",
     b1Explain: "متردد وغير واثق، يتلكأ في اتخاذ الخطوات والقرارات المصيرية.",
     sentence: "In an emergency evacuation, a manager cannot be hesitant; immediate decisions must be made."
   },
@@ -3129,7 +3129,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈɔː.ɡən.aɪzd/",
     citation: "Smartboard Slide 7 & Whiteboard Phonetics Clinic (/d/ ending, 1st stress)",
-    definition: "Able to plan, arrange, and execute tasks systematically, neatly, and effectively.",
+    definition: "Able to plan your time and keep your things neat and in good order.",
     b1Explain: "منظم ومرتب؛ يخطط أعماله بدقة منهجية ويحفظ الأمور في نصابها الصحيح.",
     sentence: "An organised assistant manager keeps the staff rota and reservation ledger meticulously updated."
   },
@@ -3140,7 +3140,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/daɪˈvɜː.sə.ti/",
     citation: "Teacher Whiteboard Phonetics Clinic (/daɪˈvɜː.sə.ti/)",
-    definition: "The inclusion and presence of people with different cultures, languages, skills, and backgrounds in a team.",
+    definition: "Having people of different backgrounds, cultures, and skills in a team.",
     b1Explain: "التنوع والتعددية الإيجابية في الخبرات والثقافات والخلفيات المهنية.",
     sentence: "The hotel staff team benefits from cultural diversity, allowing them to welcome guests in five different languages."
   },
@@ -3151,7 +3151,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌem.pəˈθet.ɪk/",
     citation: "Student Notebook Page 1 (empathetic - high level / feel sorry)",
-    definition: "Having the sensitivity and emotional intelligence to understand and share the feelings of another person.",
+    definition: "Able to understand and share the feelings and worries of another person.",
     b1Explain: "مفرط التعاطف ومستشعر لمشاعر الآخرين؛ يضع نفسه مكان النزيل ويفهم حالته بعمق.",
     sentence: "Being empathetic enables the assistant manager to calm down stressed families who lost their ski goggles."
   },
@@ -3162,7 +3162,7 @@ const VOCAB_SESSION_12 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈʌn.dər ˈpreʃ.ər/",
     citation: "Handout Page 1 & Smartboard Slide 5 • Student Notebook",
-    definition: "In a challenging situation where you are facing strict deadlines, critical expectations, or heavy stress.",
+    definition: "Working in a stressful situation with tight deadlines or big challenges.",
     b1Explain: "تحت وطأة الضغط العصبي أو ضيق الوقت أو ثقل المسؤولية.",
     sentence: "Hotel staff must keep smiling and deliver flawless hospitality even when they are working under pressure."
   }
@@ -3667,7 +3667,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/məˈdʒɪʃ.ən/",
     citation: "Handout Page 1 (Story A) • Cruise Ship Illusionist",
-    definition: "An entertainer who performs magic tricks and optical illusions to astonish an audience.",
+    definition: "A performer who does tricks that seem impossible to surprise people.",
     b1Explain: "ساحر أو فنان خفة يقدم عروضاً بصرية وحيلاً سحرية لإبهار الجمهور.",
     sentence: "A magician was working on a luxury cruise ship, performing illusions for the passengers every evening."
   },
@@ -3678,7 +3678,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈkruːz ʃɪp/",
     citation: "Handout Page 1 (Story A) • Setting of Story A",
-    definition: "A large passenger ship used for pleasure voyages where the voyage itself is a primary experience.",
+    definition: "A huge passenger ship that takes people on holidays across the sea.",
     b1Explain: "سفينة سياحية ضخمة تنقل المسافرين في رحلات ترفيهية بحرية فاخرة.",
     sentence: "The cruise ship was sailing smoothly across the ocean before it struck an iceberg in the fog."
   },
@@ -3689,7 +3689,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/skwɔːk/",
     citation: "Handout Page 1 (Story A) • The Parrot's Interruption",
-    definition: "To utter a loud, harsh, discordant cry, typical of an agitated or vocal bird.",
+    definition: "To make a loud, harsh, sharp sound like a parrot or angry bird.",
     b1Explain: "ينعق أو يصيح بصوت خشن حاد ومزعج (مثل صوت الببغاء المرتفع).",
     sentence: "The parrot kept squawking loudly during the magic act, revealing all the secret trapdoors."
   },
@@ -3700,7 +3700,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌdɪs.əˈpɪə.rɪŋ ækt/",
     citation: "Handout Page 1 (Title 3) • Student Notebook Page 1",
-    definition: "A stage trick in which an object or person vanishes; or an abrupt departure without explanation.",
+    definition: "A magic trick where something vanishes; or leaving suddenly without telling anyone.",
     b1Explain: "خدعة التواري أو الاختفاء السحري؛ أو الهروب والتملص المفاجئ من المكان.",
     sentence: "The magician intended to perform a simple disappearing act, but ended up losing the entire cruise liner."
   },
@@ -3711,7 +3711,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈaɪs.bɜːɡ/",
     citation: "Handout Page 1 (Story A) • Catastrophe at Sea",
-    definition: "A huge mass of ocean ice that has broken off from a glacier and floats in open water.",
+    definition: "A very large piece of freshwater ice floating in the cold ocean.",
     b1Explain: "جبل جليدي ضخم طافٍ في مياه المحيط انفصل عن مثلجة قطبية.",
     sentence: "One night in the middle of the performance, the cruise vessel hit a submerged iceberg and began sinking."
   },
@@ -3722,7 +3722,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈlaɪf rɑːft/",
     citation: "Handout Page 1 (Story A) • Emergency Survival",
-    definition: "An inflatable small boat or rigid buoyant raft stored aboard a vessel for life-saving emergencies.",
+    definition: "A small boat kept on a ship to save people if the ship sinks.",
     b1Explain: "قارب نجاة مطاطي أو طوافة إنقاذ تستخدم للنجاة عند غرق السفن في البحر.",
     sentence: "The shivering entertainer managed to drag himself out of the freezing water onto a nearby life raft."
   },
@@ -3733,7 +3733,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/krəʊk/",
     citation: "Handout Page 1 (Story A) • Parrot's Punchline",
-    definition: "To make a deep, rough, rasping sound, like that of a frog or someone with a very dry throat.",
+    definition: "To make a low, rough, hoarse sound like a frog.",
     b1Explain: "ينعق بصوت أجش وخشن ومبحوح يخرج بصعوبة من الحلق.",
     sentence: "After gazing at the solitary survivor in shock, the parrot croaked: 'Where on earth is the ship?'"
   },
@@ -3744,7 +3744,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ədˈmɪt/",
     citation: "Handout Page 1 (Story A) & Student Notebook Page 2",
-    definition: "To confess, acknowledge, or accept reluctance that something is factual or true.",
+    definition: "To say that something is true, often when you feel embarrassed about it.",
     b1Explain: "يعترف بالواقع أو يقر بصحة أمر ما بعد تردد أو إنكار.",
     sentence: "The cynical bird finally had to admit that causing a 20-deck ship to vanish was an incredible trick."
   },
@@ -3755,7 +3755,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈfɪʃ.ɪŋ bəʊt/",
     citation: "Handout Page 1 (Story B) • Japanese Sea Incident",
-    definition: "A vessel used to catch fish in commercial coastal or deep-sea waters.",
+    definition: "A boat used to catch fish in the sea or a river.",
     b1Explain: "سفينة أو قارب صيد مخصص لاصطياد الأسماك في عرض البحر.",
     sentence: "A traditional Japanese fishing boat was operating peacefully offshore when catastrophe fell from the clouds."
   },
@@ -3766,7 +3766,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɒf ðə kəʊst/",
     citation: "Handout Page 1 (Story B) • Geographical Location",
-    definition: "Situated in the sea within visible or navigable distance from the main shoreline.",
+    definition: "In the sea, near to the land or beach.",
     b1Explain: "قبالة الشاطئ أو بمحاذاة الساحل البحري على مسافة قصيرة من اليابسة.",
     sentence: "The crew were dragging their fishing nets off the eastern coast of Japan when the accident occurred."
   },
@@ -3777,7 +3777,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌkrɪm.ɪ.nəl ˈdæm.ɪdʒ/",
     citation: "Handout Page 1 (Story B) • Judicial Charge",
-    definition: "The criminal offence of intentionally or recklessly destroying or defacing another person's property.",
+    definition: "The crime of breaking or ruining someone else's things on purpose.",
     b1Explain: "إتلاف جنائي متعمد للممتلكات وتدميرها بالمخالفة للقانون.",
     sentence: "Because the incredulous shipowner refused to believe their story, the fishermen were jailed for criminal damage."
   },
@@ -3788,7 +3788,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/kʌm ˈfɔː.wəd/",
     citation: "Handout Page 1 (Story B) • Witness Exoneration",
-    definition: "To volunteer oneself to provide vital testimony or evidence to authorities in an investigation.",
+    definition: "To offer help, information, or evidence to the police.",
     b1Explain: "يتقدم طواعية للإدلاء بشهادة أو الكشف عن معلومات حاسمة لتبرئة مظلوم.",
     sentence: "The innocent men remained imprisoned until an air-cargo employee came forward with the bizarre explanation."
   },
@@ -3799,7 +3799,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/trænˈspɔːt/",
     citation: "Handout Page 1 (Story B) • Air Cargo Operations",
-    definition: "To take, convey, or carry people, animals, or merchandise across distances via vehicles.",
+    definition: "To move people or goods from one place to another using a vehicle.",
     b1Explain: "ينقل البضائع أو الركاب أو المواشي بوسائل النقل لمسافات بعيدة.",
     sentence: "The commercial air carrier was chartered to transport live dairy cattle across international borders."
   },
@@ -3810,7 +3810,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈpæn.ɪk/",
     citation: "Handout Page 1 (Story B) • In-flight Emergency",
-    definition: "To suddenly feel an uncontrollable surge of terror that leads to frantic and reckless behavior.",
+    definition: "A sudden strong feeling of fear that stops you from thinking clearly.",
     b1Explain: "يصيبه الذعر والهلع المفاجئ ويفقد السيطرة على تصرفاته من شدة الخوف.",
     sentence: "Midway through turbulence at thirty thousand feet, the massive cow panicked and destabilized the airframe."
   },
@@ -3821,7 +3821,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈeə.krɑːft/",
     citation: "Handout Page 1 (Story B) • Flight Safety",
-    definition: "Any vehicle or machine capable of controlled flight through atmospheric air.",
+    definition: "Any vehicle, like a plane or helicopter, that flies in the sky.",
     b1Explain: "طائرة أو مركبة جوية مصممة للتحليق في الفضاء الجوي.",
     sentence: "To prevent the transport aircraft from rolling over and crashing, the crew jettisoned the cargo ramp."
   },
@@ -3832,7 +3832,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɡɪv ˈsʌm.wʌn ə lɪft/",
     citation: "Handout Page 1 (Story C) • Country Highway Hitchhiking",
-    definition: "To pick up a traveler and transport them towards their destination in one's personal vehicle for free.",
+    definition: "To take someone in your car to the place they want to go for free.",
     b1Explain: "يوصل شخصاً في طريقه بسيارته مجاناً كمعروف إنساني.",
     sentence: "The motorist felt pity for the hitchhiker standing alone in the rain and pulled over to give him a lift."
   },
@@ -3843,7 +3843,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/trɒt/",
     citation: "Handout Page 1 (Story C) • Animal Locomotion",
-    definition: "To proceed briskly with short, rhythmic, bouncing paces faster than an ordinary walk.",
+    definition: "To move faster than a walk but slower than a run, with short quick steps.",
     b1Explain: "يهرول أو يركض بخطوات قصيرة ورشيقة وإيقاعية سريعة.",
     sentence: "The driver glanced in his rear-view mirror and was shocked to see a sheep trotting alongside at thirty miles per hour."
   },
@@ -3854,7 +3854,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌəʊ.vəˈteɪk/",
     citation: "Handout Page 1 (Story C) • Highway Passing Manoeuvre",
-    definition: "To catch up with and draw ahead of a vehicle or object moving in the same direction.",
+    definition: "To drive past another slower car that is moving in front of you.",
     b1Explain: "يتجاوز أو يتخطى سيارة أو شخصاً آخر يسير أمامه على الطريق السريع.",
     sentence: "Her tongue was hanging out not from fatigue, but because she was signaling to overtake our speeding sedan."
   },
@@ -3865,7 +3865,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɪɡˈzɔː.stɪd/",
     citation: "Handout Page 2 (True/False Item 6) • Physical Condition",
-    definition: "Completely devoid of bodily energy, worn out, and spent from intense physical exertion.",
+    definition: "Extremely tired, with no energy left in your body.",
     b1Explain: "منهك القوى ومستنزف الطاقة كلياً من شدة الإجهاد البدني أو العقلي.",
     sentence: "After sprinting behind the motoring vehicle for ten miles, any normal mammal would be thoroughly exhausted."
   },
@@ -3876,7 +3876,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/pɪɡz maɪt flaɪ/",
     citation: "Handout Page 1 (Title 4) • Sarcastic British Idiom",
-    definition: "A colorful British English idiom used to declare that an event is utterly impossible and will never occur.",
+    definition: "An English saying used to say that something is impossible and will never happen.",
     b1Explain: "تعبير اصطلاحي بريطاني مجازي يعبر عن استحالة وقوع أمر ما (مثل: 'في المشمش').",
     sentence: "If you think your strict boss will let you take Friday off without notice, pigs might fly!"
   },
@@ -3887,7 +3887,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/niːd fɔː spiːd/",
     citation: "Handout Page 1 (Title 5) • Student Notebook Page 1",
-    definition: "An overwhelming passion, craving, or impulse for high velocities, acceleration, and rapid motion.",
+    definition: "A strong desire to go very fast in a car or sport.",
     b1Explain: "هوس أو شغف جارف بالسرعة والاندفاع والحركة الخاطفة.",
     sentence: "That racing ram clearly had an uncontrollable need for speed as she accelerated down the country bypass."
   },
@@ -3898,7 +3898,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈnær.ə.tɪv ˈten.sɪz/",
     citation: "Handout Page 2 & Smartboard Slide 11.08.08",
-    definition: "The core group of past tenses (Past Simple, Past Continuous, Past Perfect) used collaboratively to tell stories.",
+    definition: "Past tenses (past simple, continuous, and perfect) used together to tell stories.",
     b1Explain: "أزمنة السرد الحكائي المستخدمة معاً لبناء القصص وترتيب أحداثها زمنياً.",
     sentence: "Skilled storytellers alternate between the three narrative tenses to establish background and sequence events."
   },
@@ -3909,7 +3909,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/pɑːst ˈsɪm.pəl/",
     citation: "Smartboard Slide 11.08.08 (Rule 1)",
-    definition: "The grammatical tense used for single, completed actions, main plot events, or finished facts in past time.",
+    definition: "The tense used for completed actions and main events in the past.",
     b1Explain: "الماضي البسيط؛ يُستخدم للتعبير عن الأحداث المكتملة والمحددة التي وقعت في الماضي.",
     sentence: "We use the past simple for sequential main events: the boat sank, the police arrived, and the driver stopped."
   },
@@ -3920,7 +3920,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/pɑːst kənˈtɪn.ju.əs/",
     citation: "Smartboard Slide 11.08.08 (Rule 2)",
-    definition: "The tense (`was/were + verb-ing`) employed to portray ongoing background activities interrupted by other events.",
+    definition: "The tense (was/were + verb-ing) used for an action that was going on in the past when another event happened.",
     b1Explain: "الماضي المستمر؛ يُستخدم لبيان حدث كان مستمراً في الماضي عند وقوع حدث آخر.",
     sentence: "The crew were trawling for cod when an unexpected bovine object dropped through their deck canopy."
   },
@@ -3931,7 +3931,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/pɑːst ˈpɜː.fɪkt/",
     citation: "Smartboard Slide 11.08.08 (Rule 3)",
-    definition: "The grammatical form (`had + past participle`) depicting an action finished prior to a designated past reference point.",
+    definition: "The tense (had + past participle) used for an action finished before another point in the past.",
     b1Explain: "الماضي التام؛ يُستخدم لوصف حدث اكتمل وقوعه قبل حدث ماضٍ آخر في التسلسل الزمني.",
     sentence: "The suspect had already fled the alleyway before the first police squad car arrived at the crime scene."
   },
@@ -3942,7 +3942,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɪn ðə ˈmɪd.əl əv/",
     citation: "Handout Page 1 (Story A) • Time Interruption Marker",
-    definition: "Right during the active, unfinished progression or central timing of an ongoing occurrence.",
+    definition: "Right while something is happening and not finished yet.",
     b1Explain: "في خضم الحدث أو في منتصف سريانه بالتمام.",
     sentence: "In the middle of the second act, all the stage floodlights abruptly shut off."
   },
@@ -3953,7 +3953,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B2",
     pronunciation: "/ʃɔːr ɪˈnʌf/",
     citation: "Handout Page 1 (Story C) • Narrative Confirmation",
-    definition: "Used in storytelling to confirm that what had been stated, predicted, or feared was indeed true.",
+    definition: "Used in stories to say that what someone expected or feared was really true.",
     b1Explain: "وكما كان متوقعاً تماماً؛ وبالفعل حدث الأمر كما قيل حرفياً.",
     sentence: "The passenger claimed the beast would keep up, and sure enough, she was running right outside my window."
   },
@@ -3964,7 +3964,7 @@ const VOCAB_SESSION_13 = [
     cambridgeLevel: "B1",
     pronunciation: "/tʌŋ ˈhæŋ.ɪŋ aʊt/",
     citation: "Handout Page 1 (Story C) • Comic Description",
-    definition: "The physical posture of a running animal panting heavily with mouth open and tongue extended outward.",
+    definition: "When an animal runs fast and pants with its tongue out of its mouth.",
     b1Explain: "لسانه يلهث متدلياً خارج فمه من شدة الركض أو السرعة أو العطش.",
     sentence: "The sheep sprinted alongside the speeding automobile with her tongue hanging out of the right side of her jaw."
   }
@@ -4298,7 +4298,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/aɪl/",
     citation: "Handout Page 1 (Box) & Page 3 (Story 2) • The Bride's Path",
-    definition: "A long, narrow passage between rows of seats in a church or auditorium, along which a bride walks during a wedding ceremony.",
+    definition: "The long walk or path between rows of seats where the bride walks.",
     b1Explain: "الممر الأوسط بين مقاعد الكنيسة أو قاعة الاحتفال الذي تمشي فيه العروس نحو المذبح (حرف s صامت).",
     sentence: "All the wedding guests turned in awe as the bride began walking down the decorated floral aisle towards the altar."
   },
@@ -4309,7 +4309,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈɔːl.tər/",
     citation: "Handout Page 1 (Box) • Church Ceremony Setting",
-    definition: "A raised, holy table or platform at the front of a church where solemn religious ceremonies and marriage vows take place.",
+    definition: "The special table at the front of a church where wedding vows are made.",
     b1Explain: "المذبح أو المنصة الدينية المقدسة في مقدمة الكنيسة حيث تُعقد مراسم الزواج وتبادل العهود.",
     sentence: "The nervous groom waited patiently at the altar beside the minister as wedding music filled the chapel."
   },
@@ -4320,7 +4320,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/əˈtend/",
     citation: "Handout Page 1 (Speaking) & Smartboard Slide 20 (Feedback)",
-    definition: "To be present at an event, celebration, ceremony, meeting, or formal gathering as a guest or participant.",
+    definition: "To go to and be present at an event, celebration, or meeting.",
     b1Explain: "يحضر مناسبة رسمية أو حفلة زفاف أو اجتماعاً بصفته مدعواً أو مشاركاً (تُتبع بـ -ing عند التعبير عن التفضيل: like attending).",
     sentence: "Over two hundred distinguished guests travelled from overseas to attend the couple's lavish weekend celebration."
   },
@@ -4331,7 +4331,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˌbest ˈmæn/",
     citation: "Handout Page 1 (Box) • Key Wedding Roles",
-    definition: "The chief male friend or relative chosen by the groom to support him at a wedding, safeguard the rings, and deliver a speech.",
+    definition: "The groom's closest friend who helps him at the wedding and keeps the rings.",
     b1Explain: "الإشبين أو الصديق المقرب الأول للعريس، يتولى حراسة خواتم الزواج وإلقاء الخطاب التكريمي ومساندة العريس.",
     sentence: "The best man delivered a hilarious yet touching speech that had all the wedding guests laughing and applauding."
   },
@@ -4342,7 +4342,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/buˈkeɪ/",
     citation: "Handout Page 1 (Vocabulary Grouping) • Bridal Traditions",
-    definition: "An attractively arranged bunch of flowers carried by the bride down the aisle, traditionally tossed to unmarried female guests.",
+    definition: "A bunch of flowers held by the bride during a wedding ceremony.",
     b1Explain: "باقة ورد العروس المنسقة بعناية، والتي تحملها أثناء الزفاف وتلقيها تقليدياً نحو الفتيات العازبات.",
     sentence: "At the end of the evening reception, the bride tossed her fragrant rose bouquet over her shoulder into the excited crowd."
   },
@@ -4353,7 +4353,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/braɪd/",
     citation: "Handout Page 1 & Page 3 (Story 2) • The Central Figure",
-    definition: "A woman on her wedding day or just before and shortly after the marriage ceremony.",
+    definition: "A woman on her wedding day.",
     b1Explain: "العروس؛ المرأة في يوم زفافها أو في فترة عقد القران (انتبه للنطق الصحيح بصوت /b/ وليس /p/).",
     sentence: "The bride looked radiant in a hand-embroidered white silk gown designed by an Italian couturier."
   },
@@ -4364,7 +4364,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈbraɪdz.meɪd/",
     citation: "Handout Page 1 (Vocabulary Grouping) • Bridal Party",
-    definition: "A young woman or girl who officially accompanies and assists the bride during a wedding ceremony and reception.",
+    definition: "A female friend or sister who helps the bride during a wedding.",
     b1Explain: "وصيفة العروس؛ صديقة أو قريبة ترافق العروس وتساعدها في تنظيم الحفل ومتطلبات المظهر.",
     sentence: "The bride chose her three closest university friends to serve as her bridesmaids in matching pastel dresses."
   },
@@ -4375,7 +4375,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈkeɪ.tər.ɪŋ/",
     citation: "Handout Page 1 (Box) & Page 2 (Story 1) • Food & Drinks",
-    definition: "The business or activity of providing and serving food and beverages for large social functions, parties, and weddings.",
+    definition: "The business of preparing and serving food and drinks for parties and weddings.",
     b1Explain: "خدمات تقديم الطعام والضيافة والتجهيز الغذائي للمناسبات والحفلات الكبرى.",
     sentence: "Because Andy was passionate about cooking, he organised the catering himself, serving homemade pies and savoury sandwiches."
   },
@@ -4386,7 +4386,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˌsel.əˈbreɪ.ʃən/",
     citation: "Handout Page 1 (Speaking Lead-in) • Festive Occasion",
-    definition: "A joyful social event or party organised in honour of a special milestone, achievement, or wedding ceremony.",
+    definition: "A happy party or event held to mark a special occasion.",
     b1Explain: "احتفال أو مهرجان بهيج يُقام تكريماً لمناسبة استثنائية أو عقد زواج مبارك.",
     sentence: "The joyous wedding celebration continued late into the night with live acoustic folk music and dancing."
   },
@@ -4397,7 +4397,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈser.ɪ.mə.ni/",
     citation: "Handout Page 1 (Box) & Smartboard Photo 1 (LearningApps Match)",
-    definition: "An important social or religious formal event where a traditional set of actions is performed in a formal, established way.",
+    definition: "A formal event with traditional actions, like a wedding or graduation.",
     b1Explain: "مراسم أو طقوس رسمية أو دينية تُقام باتباع أعراف وتقاليد محددة لتوثيق الزواج (نقول: hold/have/host a ceremony وليس do).",
     sentence: "The solemn wedding ceremony lasted forty minutes before the newlyweds stepped outside under a shower of confetti."
   },
@@ -4408,7 +4408,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈtʃɜːtʃ ˌhɔːl/",
     citation: "Handout Page 2 (Story 1) • DIY Venue Setting",
-    definition: "A community building attached or adjacent to a local church, used for parish social functions, meetings, and informal receptions.",
+    definition: "A room or building next to a church used for social parties and meetings.",
     b1Explain: "قاعة ملحقة بالكنيسة مخصصة للأنشطة الاجتماعية واللقاءات والمناسبات المجتمعية غير المكلفة.",
     sentence: "Instead of hiring an overpriced hotel ballroom, they held their reception in a cosy, decorated stone church hall."
   },
@@ -4419,7 +4419,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌsɪv.əl ˈwed.ɪŋ/",
     citation: "Smartboard Photo 1 & Photo 2 • Legal Marriage Without Religion",
-    definition: "A non-religious legal marriage ceremony conducted by a government official or registrar rather than a religious minister.",
+    definition: "A legal wedding ceremony conducted by an official rather than a religious leader.",
     b1Explain: "زواج مدني قانوني غير ديني يوثقه موظف السجل المدني الحكومي دون طقوس دينية كنسية.",
     sentence: "They decided on a simple civil wedding at the city registry office, followed by an intimate garden dinner."
   },
@@ -4430,7 +4430,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/kəˈmɜː.ʃəl.aɪzd/",
     citation: "Handout Page 2 (Story 1) • Critique of Modern Weddings",
-    definition: "Exploited or organised primarily for financial profit and consumerist display rather than authentic emotional or cultural value.",
+    definition: "Focused more on selling things and making money than on real meaning.",
     b1Explain: "مُسوّق تجارياً أو طاغٍ عليه الطابع الاستهلاكي الربحي المبالغ فيه على حساب المشاعر الحقيقية.",
     sentence: "He avoided commercialised wedding packages that push couples into spending thousands of pounds on pointless extravagance."
   },
@@ -4441,7 +4441,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ɡruːm/",
     citation: "Handout Page 1 & Notebook Transcription • The Man Marrying",
-    definition: "A man on his wedding day, or just before and shortly after the marriage ceremony (short for bridegroom).",
+    definition: "A man on his wedding day.",
     b1Explain: "العريس؛ الرجل في يوم زواجه أو عقد قرانه (انتبه للنطق بصوت /r/ وليس /l/ لتفادي الخلط مع كلمة gloom).",
     sentence: "The groom smiled warmly as his bride arrived at the church door accompanied by her proud father."
   },
@@ -4452,7 +4452,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈhʌn.i.muːn/",
     citation: "Handout Page 1 (Vocabulary Grouping) • Post-Wedding Vacation",
-    definition: "A holiday or romantic trip taken by a newly married couple immediately following their wedding celebrations.",
+    definition: "A special holiday taken by a newly married couple right after their wedding.",
     b1Explain: "شهر العسل؛ الإجازة أو الرحلة الرومانسية التي يقضيها الزوجان عقب حفل الزفاف مباشرة للاستجمام.",
     sentence: "The newlyweds spent a tranquil two-week honeymoon exploring historic coastal villages in southern Italy."
   },
@@ -4463,7 +4463,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/həʊst/",
     citation: "Smartboard Slide 20 (Language Feedback) • Preferred Collocation",
-    definition: "To provide facilities, hospitality, food, and space for a social gathering, reception, or wedding ceremony.",
+    definition: "To welcome guests and provide food and drinks for a party or event.",
     b1Explain: "يستضيف أو يقيم أو ينظم مناسبة أو حفل زفاف ويوفر له متطلبات الضيافة والمكان اللائق.",
     sentence: "The bride's grandparents offered to host the reception dinner in the expansive landscaped gardens of their estate."
   },
@@ -4474,7 +4474,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈmɪn.ɪ.stər/",
     citation: "Handout Page 1 (Box) • Religious Celebrant",
-    definition: "A qualified religious leader or priest in the Christian church authorised to conduct worship services and officiate weddings.",
+    definition: "A religious leader who is allowed to perform church weddings.",
     b1Explain: "كاهن أو قسيس معتمد رسمياً في الكنيسة لإدارة الشعائر الدينية وإتمام مراسم عقد القران ومباركة الزواج.",
     sentence: "The minister instructed the couple to join their right hands as they prepared to recite their traditional marriage vows."
   },
@@ -4485,7 +4485,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈnjuː.li.wedz/",
     citation: "Handout Page 1 (Groupings) • The Married Couple",
-    definition: "People who have very recently been married to each other.",
+    definition: "Two people who have very recently been married to each other.",
     b1Explain: "العروسان حديثا الزواج؛ الزوجان في مستهل حياتهما الزوجية المشتركة.",
     sentence: "The cheering crowd threw fragrant dried rose petals over the beaming newlyweds as they exited the venue."
   },
@@ -4496,7 +4496,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/ˈfəʊ.təʊ.ʃuːt/",
     citation: "Smartboard Photo 1 & Photo 2 • Professional Photography",
-    definition: "An occasion or scheduled session when a photographer takes a series of photographs, usually of the same person or people in the same place.",
+    definition: "A session where a photographer takes many pictures of people in nice poses.",
     b1Explain: "جلسة تصوير احترافية تُنظم لالتقاط صور تذكارية منسقة في موقع محدد لتخليد ذكرى المناسبة.",
     sentence: "The bride and groom slipped away during cocktail hour for an outdoor sunset photoshoot by the ancient stone bridge."
   },
@@ -4507,7 +4507,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/prəˈpəʊz/",
     citation: "Handout Page 1 (Box) & Smartboard Photo 1 (Match) • Asking Hand",
-    definition: "To ask someone to marry you, often during a romantic or ceremonial moment.",
+    definition: "To ask someone to marry you.",
     b1Explain: "يطلب يد شخص للزواج أو يتقدم لخطبته رسمياً ورومانسياً.",
     sentence: "He decided to propose on a moonlit cliff overlooking the Mediterranean sea during their summer holiday."
   },
@@ -4518,7 +4518,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/prəˈpəʊ.zəl/",
     citation: "Smartboard Photo 2 (Teacher Board Annotation) • Noun Derivation",
-    definition: "An occasion when someone asks someone to marry them, usually accompanied by presenting an engagement ring.",
+    definition: "The moment when someone asks another person to marry them.",
     b1Explain: "طلب الزواج أو عرض الخطوبة؛ اللحظة الرسمية التي يعرض فيها الشريك الزواج على شريكه.",
     sentence: "Her partner's surprise marriage proposal at the top of the Eiffel Tower was captured on video by smiling tourists."
   },
@@ -4529,7 +4529,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/prɒsˈper.ə.ti/",
     citation: "Smartboard Photo 1 & Photo 2 (Annotation: Noun) • Cultural Symbol",
-    definition: "The state of being successful, having money, good fortune, and everything needed for a good and flourishing life.",
+    definition: "The state of being successful, having good luck, and having enough money.",
     b1Explain: "الرخاء والازدهار والوفرة المالية والمعيشية، وهي أمنية تقليدية أساسية تُقدم للعروسين في سائر الثقافات.",
     sentence: "In traditional Greek and Vietnamese weddings, dried fruit and rice are tossed over the couple to symbolise fertility and prosperity."
   },
@@ -4540,7 +4540,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/rɪˈsep.ʃən/",
     citation: "Handout Page 1 (Box) & Page 2 (Story 1) • Post-Ceremony Party",
-    definition: "A formal or celebratory party held immediately following a wedding ceremony to welcome, feed, and celebrate with the guests.",
+    definition: "A celebratory party held after a wedding ceremony to eat, drink, and dance with guests.",
     b1Explain: "حفلة استقبال أو مأدبة زفاف تقام مباشرة بعد عقد القران للاحتفال بالمدعوين وإكرامهم بالموائد والتهاني.",
     sentence: "Following the vows at the registry office, seventy close friends gathered at a local vineyard for the evening reception."
   },
@@ -4551,7 +4551,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˌredʒ.ɪˈstrɑːr/",
     citation: "Handout Page 1 (Box) • Official Legal Celebrant",
-    definition: "An official government officer responsible for maintaining civil records and legally conducting non-religious civil marriages.",
+    definition: "An official government person who conducts non-religious legal marriages.",
     b1Explain: "موظف السجل المدني الرسمي المخول قانونياً بتوثيق وتوقيع عقود الزواج المدني وتثبيتها في الدولة.",
     sentence: "The city registrar carefully verified both passports and certificates before pronouncing them legally married."
   },
@@ -4562,7 +4562,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B1",
     pronunciation: "/suːt/",
     citation: "Handout Page 1 (Vocabulary Groups) • Groom Attire",
-    definition: "A tailored set of formal outer clothes consisting of a matching jacket, trousers, and often a waistcoat, worn by the groom and best man.",
+    definition: "A smart set of clothes with matching jacket and trousers worn by men.",
     b1Explain: "بدلة رسمية متطابقة (جاكيت وبنطال وربطة عنق) يرتديها العريس والإشبين في المناسبات.",
     sentence: "The groom wore a tailored navy three-piece wool suit accessorised with a crisp silk pocket square and polished leather shoes."
   },
@@ -4573,7 +4573,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/ˈsɪm.bəl.aɪz/",
     citation: "Handout Page 1 (Box) & Smartboard Photo 1 (Match) & Photo 2 (Verb)",
-    definition: "To represent something or embody a deeper abstract concept, cultural value, or spiritual union.",
+    definition: "To represent or stand for an idea or feeling.",
     b1Explain: "يرمز إلى أو يعبر عن معنى روحي أو ثقافي عميق من خلال رمز أو طقس تقليدي (الاسم المشتق: symbol).",
     sentence: "In Crete, the collective first dance symbolises the enduring union of two families rather than just the individuals."
   },
@@ -4584,7 +4584,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/veɪl/",
     citation: "Handout Page 1 (Box) • Traditional Bridal Garment",
-    definition: "A piece of fine, semi-transparent fabric (such as tulle or lace) worn over the bride's head and shoulders during a wedding ceremony.",
+    definition: "A thin piece of material worn by a bride over her head or face.",
     b1Explain: "طرحة العروس؛ وشاح شفاف أو دانتيل خفيف يغطي رأس وكتفي ووجه العروس أثناء الدخول وإتمام المراسم.",
     sentence: "The groom gently lifted the translucent lace veil from the bride's face before they exchanged their first married kiss."
   },
@@ -4595,7 +4595,7 @@ const VOCAB_SESSION_14 = [
     cambridgeLevel: "B2",
     pronunciation: "/vaʊz/",
     citation: "Handout Page 1 (Groupings) • Sacred Promises",
-    definition: "Solemn, formal promises and commitments made by the bride and groom to each other during a wedding ceremony.",
+    definition: "Serious, formal promises that a bride and groom make to each other at a wedding.",
     b1Explain: "عهود الزواج والوعود المقدسة التي يتبادلها الزوجان بصوت مسموع بالوفاء والإخلاص طوال العمر.",
     sentence: "The bride and groom wrote heartfelt personal vows promising to support and respect each other through all life's challenges."
   }
