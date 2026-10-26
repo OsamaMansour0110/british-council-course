@@ -5103,6 +5103,886 @@ have / host / held / attend.`
   }
 ];
 
+
+/* ==========================================================================
+   SESSION 15: CONVERSATION SKILLS - AVOIDING 'DEAD AIR' (28 VOCABULARY WORDS)
+   Handout ID: ARB_B1_07_I029CEA_HO_v1.0 • Authentic British Council Classroom
+   ========================================================================== */
+
+const VOCAB_SESSION_15 = [
+  {
+    id: 1501, word: "Dead air",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˌded ˈeər/",
+    citation: "Handout Title (Page 1)",
+    definition: "An uncomfortable silence during a conversation when nobody is speaking.",
+    b1Explain: "An uncomfortable silence during a conversation when nobody speaks.",
+    opposite: "Lively conversation",
+    arMeaning: "الصمت المحرج أو الفراغ غير المريح في المحادثة عندما يتوقف الجميع عن الكلام.",
+    sentence: "She quickly asked about his hobbies to avoid awkward dead air."
+  },
+  {
+    id: 1502, word: "Initiate",
+    pos: "verb", cambridgeLevel: "B1",
+    pronunciation: "/ɪˈnɪʃ.i.eɪt/",
+    citation: "Handout Page 3 (Exercise 5)",
+    definition: "To start a conversation, activity, or process with another person.",
+    b1Explain: "To start a conversation or discussion with someone.",
+    opposite: "Conclude / End",
+    arMeaning: "يبدأ أو يفتتح (محادثة أو حواراً) مع شخص آخر.",
+    sentence: "It is often easy to initiate a chat by asking a friendly question."
+  },
+  {
+    id: 1503, word: "Small talk",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˈsmɔːl ˌtɔːk/",
+    citation: "Handout Page 1 (Lead-in context)",
+    definition: "Polite, friendly conversation about everyday topics like the weather or travel.",
+    b1Explain: "Polite conversation about simple daily topics to break the ice.",
+    opposite: "Deep debate",
+    arMeaning: "حديث ودي خفيف ومجاملات اجتماعية حول مواضيع يومية بسيطة.",
+    sentence: "Before the meeting started, the colleagues engaged in light small talk."
+  },
+  {
+    id: 1504, word: "Icebreaker",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/ˈaɪsˌbreɪ.kər/",
+    citation: "Handout Page 1 & 2 (Opening questions)",
+    definition: "A game or friendly remark that helps strangers relax together.",
+    b1Explain: "Something friendly you say or do to help strangers feel relaxed.",
+    opposite: "Awkward silence",
+    arMeaning: "وسيلة أو عبارة لكسر حاجز الصمت والجليد وبدء التعارف.",
+    sentence: "Asking about someone's flight is a wonderful icebreaker at business conferences."
+  },
+  {
+    id: 1505, word: "Whereabouts",
+    pos: "adverb", cambridgeLevel: "B1",
+    pronunciation: "/ˈweər.ə.baʊts/",
+    citation: "Handout Page 2 (Question 11)",
+    definition: "In or near what place; the general location where someone is.",
+    b1Explain: "In or near which place someone lives or works.",
+    opposite: "Exact address",
+    arMeaning: "أين تقريباً / في أي جهة أو منطقة (للسؤال عن المكان التقريبي).",
+    sentence: "Whereabouts in London do you live and work?"
+  },
+  {
+    id: 1506, word: "Unscramble",
+    pos: "verb", cambridgeLevel: "B1",
+    pronunciation: "/ʌnˈskræm.bəl/",
+    citation: "Handout Page 1 (Exercise 2)",
+    definition: "To put mixed-up words or letters back into their correct order.",
+    b1Explain: "To put jumbled words into the right sentence order.",
+    opposite: "Jumble / Mix up",
+    arMeaning: "يفك تشويش أو يعيد ترتيب كلمات مبعثرة لتكوين جملة صحيحة.",
+    sentence: "Students had to unscramble twelve questions to practice natural conversation starters."
+  },
+  {
+    id: 1507, word: "Bother",
+    pos: "verb", cambridgeLevel: "B1",
+    pronunciation: "/ˈbɒð.ər/",
+    citation: "Handout Page 3 (Exercise 5)",
+    definition: "To interrupt, annoy, or cause trouble for someone who is busy.",
+    b1Explain: "To disturb or interrupt someone when they are busy.",
+    opposite: "Leave alone",
+    arMeaning: "يزعج أو يقاطع شخصاً مشغولاً بلباقة.",
+    sentence: "Excuse me, sorry to bother you, but do you have a minute?"
+  },
+  {
+    id: 1508, word: "Signal",
+    pos: "verb", cambridgeLevel: "B1",
+    pronunciation: "/ˈsɪɡ.nəl/",
+    citation: "Handout Page 3 (Exercise 4)",
+    definition: "To show by words, sounds, or actions what you want to do.",
+    b1Explain: "To indicate or show clearly through your words or actions.",
+    opposite: "Hide / Conceal",
+    arMeaning: "يعطي إشارة أو يلمح بوضوح بنيته أو رغبته.",
+    sentence: "Checking your wristwatch can signal politely that your lunch break is over."
+  },
+  {
+    id: 1509, word: "Co-worker",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/ˈkəʊˌwɜː.kər/",
+    citation: "Handout Page 5 (Role Play 1)",
+    definition: "A person who works together with you in the same job.",
+    b1Explain: "A person who works with you in the same company.",
+    opposite: "Competitor",
+    arMeaning: "زميل عمل في نفس المؤسسة أو الوظيفة.",
+    sentence: "A new co-worker joined our design team this morning."
+  },
+  {
+    id: 1510, word: "Recommendation",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/ˌrek.ə.menˈdeɪ.ʃən/",
+    citation: "Handout Page 4 (Language formulas)",
+    definition: "A helpful suggestion about a good thing to choose or visit.",
+    b1Explain: "Helpful advice suggesting a good place to visit or try.",
+    opposite: "Warning",
+    arMeaning: "توصية أو ترشيح مفيد لمكان أو تجربة تستحق الزيارة.",
+    sentence: "Can you give me a recommendation for a nice Italian restaurant?"
+  },
+  {
+    id: 1511, word: "Hometown",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/ˈhəʊm.taʊn/",
+    citation: "Handout Page 4 & 5",
+    definition: "The city or town where you were born or grew up.",
+    b1Explain: "The town or city where you grew up as a child.",
+    opposite: "Foreign city",
+    arMeaning: "مسقط الرأس أو المدينة الأم التي نشأ فيها الشخص.",
+    sentence: "He gave us fantastic tips on great tourist spots in his hometown."
+  },
+  {
+    id: 1512, word: "Dilemma",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/dɪˈlem.ə/",
+    citation: "Smartboard 3 (Would you rather)",
+    definition: "A difficult situation where you must choose between two hard choices.",
+    b1Explain: "A situation where you have to choose between two different options.",
+    opposite: "Easy decision",
+    arMeaning: "معضلة أو موقف صعب يتطلب الاختيار بين بديلين كلاهما يحمل تحديات.",
+    sentence: "Choosing between high salary and job happiness is a common career dilemma."
+  },
+  {
+    id: 1513, word: "Hypothetical",
+    pos: "adjective", cambridgeLevel: "B1",
+    pronunciation: "/ˌhaɪ.pəˈθet.ɪ.kəl/",
+    citation: "Smartboard 4 (Conditional Clinic)",
+    definition: "Based on an imagined situation rather than something that is real.",
+    b1Explain: "Imagined as an example, not real right now.",
+    opposite: "Real / Actual",
+    arMeaning: "افتراضي أو تخيلي قائم على موقف غير واقعي أو مشروط.",
+    sentence: "The teacher asked a hypothetical question about winning a million pounds."
+  },
+  {
+    id: 1514, word: "Would rather",
+    pos: "modal idiom", cambridgeLevel: "B1",
+    pronunciation: "/wʊd ˈrɑː.ðər/",
+    citation: "Smartboard 3 (Decision choices)",
+    definition: "Used to show that you prefer one thing over another thing.",
+    b1Explain: "Used when stating which choice you prefer over another.",
+    opposite: "Dislike both",
+    arMeaning: "يفضل / يرجح خياراً على آخر في المقارنة.",
+    sentence: "Would you rather travel around the world or live in a mansion?"
+  },
+  {
+    id: 1515, word: "Get used to",
+    pos: "verb phrase", cambridgeLevel: "B1",
+    pronunciation: "/ɡet ˈjuːst tuː/",
+    citation: "Smartboard 4 (Teacher correction)",
+    definition: "To become familiar with something so it no longer feels strange.",
+    b1Explain: "To become comfortable with a new situation over time.",
+    opposite: "Feel unfamiliar",
+    arMeaning: "يعتاد على أو يتأقلم مع وضع جديد حتى يصبح مألوفاً.",
+    sentence: "It takes time to get used to waking up early for work."
+  },
+  {
+    id: 1516, word: "Mansion",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/ˈmæn.ʃən/",
+    citation: "Smartboard 3 (Item 18)",
+    definition: "A very large, expensive, and impressive private house.",
+    b1Explain: "A very large and luxurious house with many rooms.",
+    opposite: "Cottage / Tiny flat",
+    arMeaning: "قصر فخم وكبير جداً ذو مساحات وحدائق واسعة.",
+    sentence: "He preferred traveling the world instead of owning an expensive mansion."
+  },
+  {
+    id: 1517, word: "Average pay",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˈæv.ər.ɪdʒ peɪ/",
+    citation: "Smartboard 3 (Item 20)",
+    definition: "A standard, normal salary that is neither very high nor low.",
+    b1Explain: "A normal salary that is neither very high nor very low.",
+    opposite: "Amazing pay / Luxury income",
+    arMeaning: "أجر متوسط أو راتب عادي غير مرتفع ولا منخفض.",
+    sentence: "He took a dream job with average pay because he loved the work."
+  },
+  {
+    id: 1518, word: "Lunch break",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˈlʌntʃ breɪk/",
+    citation: "Smartboard 1 & 2",
+    definition: "The time during the working day when you pause to eat.",
+    b1Explain: "A break in the middle of the workday for eating lunch.",
+    opposite: "Working hours",
+    arMeaning: "استراحة الغداء اليومية أثناء دوام العمل.",
+    sentence: "Well, my lunch break is almost over, so I must get back to work."
+  },
+  {
+    id: 1519, word: "Briskly",
+    pos: "adverb", cambridgeLevel: "B1",
+    pronunciation: "/ˈbrɪsk.li/",
+    citation: "Handout Page 5 (Roleplay pacing)",
+    definition: "In a quick, active, and energetic way.",
+    b1Explain: "Quickly and with plenty of energy.",
+    opposite: "Slowly / Sluggishly",
+    arMeaning: "بنشاط وسرعة وحيوية ملحوظة.",
+    sentence: "She walked briskly into the meeting room with a friendly smile."
+  },
+  {
+    id: 1520, word: "Interrupt",
+    pos: "verb", cambridgeLevel: "B1",
+    pronunciation: "/ˌɪn.təˈrʌpt/",
+    citation: "Handout Page 3 (Conversation etiquette)",
+    definition: "To stop someone speaking by speaking yourself or making a noise.",
+    b1Explain: "To speak while another person is already talking.",
+    opposite: "Listen quietly",
+    arMeaning: "يقاطع حديث شخص آخر قبل أن ينهي فكرته.",
+    sentence: "It is polite to say 'excuse me' before you interrupt a conversation."
+  },
+  {
+    id: 1521, word: "Wrap up",
+    pos: "phrasal verb", cambridgeLevel: "B1",
+    pronunciation: "/ræp ʌp/",
+    citation: "Smartboard 1 & 2 (Closing phrases)",
+    definition: "To bring a conversation, meeting, or event to an end.",
+    b1Explain: "To finish or conclude a discussion in a friendly way.",
+    opposite: "Initiate / Open",
+    arMeaning: "يختتم أو ينهي حديثاً أو اجتماعاً بشكل منظم.",
+    sentence: "Let us wrap up our meeting so everyone can catch their trains."
+  },
+  {
+    id: 1522, word: "Tone of voice",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/təʊn əv vɔɪs/",
+    citation: "Handout Page 2 (Intonation notes)",
+    definition: "The quality or feeling in your voice that shows your attitude.",
+    b1Explain: "The sound of your voice that shows whether you are friendly.",
+    opposite: "Monotone speech",
+    arMeaning: "نبرة الصوت التي تعبر عن مشاعر المتحدث وموقفه الودي.",
+    sentence: "A warm tone of voice makes strangers feel comfortable talking to you."
+  },
+  {
+    id: 1523, word: "Body language",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˈbɒd.i ˌlæŋ.ɡwɪdʒ/",
+    citation: "Handout Page 1 & 5",
+    definition: "Movements or postures of your body that communicate your feelings.",
+    b1Explain: "The gestures and postures that show how you feel without words.",
+    opposite: "Spoken words",
+    arMeaning: "لغة الجسد والإيماءات الحركية المعبرة عن المشاعر.",
+    sentence: "Open body language like smiling and uncrossed arms welcomes conversation."
+  },
+  {
+    id: 1524, word: "Eye contact",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˈaɪ ˌkɒn.tækt/",
+    citation: "Handout Page 1 (Conversation skills)",
+    definition: "Looking directly into another person's eyes while talking with them.",
+    b1Explain: "Looking directly at someone when speaking to show polite attention.",
+    opposite: "Looking away",
+    arMeaning: "التواصل البصري والنظر المباشر لإظهار الاهتمام والصدق.",
+    sentence: "Making friendly eye contact shows you are actively listening to your partner."
+  },
+  {
+    id: 1525, word: "Awkward",
+    pos: "adjective", cambridgeLevel: "B1",
+    pronunciation: "/ˈɔː.kwəd/",
+    citation: "Handout Title context",
+    definition: "Feeling uncomfortable, embarrassed, or not relaxed with other people.",
+    b1Explain: "Uncomfortable or embarrassed, not natural or relaxed.",
+    opposite: "Comfortable / Natural",
+    arMeaning: "محرج أو غير مريح ويثير الارتباك الاجتماعي.",
+    sentence: "There was an awkward silence when neither person knew what to say."
+  },
+  {
+    id: 1526, word: "Colleague",
+    pos: "noun", cambridgeLevel: "B1",
+    pronunciation: "/ˈkɒl.iːɡ/",
+    citation: "Handout Page 3 (Exercise 4)",
+    definition: "A person you work with in a profession or business.",
+    b1Explain: "A person that you work with in the same office.",
+    opposite: "Competitor",
+    arMeaning: "زميل عمل في المهنة أو التخصص.",
+    sentence: "She asked her colleague for advice on the new computer software."
+  },
+  {
+    id: 1527, word: "Firm handshake",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˌfɜːm ˈhænd.ʃeɪk/",
+    citation: "Handout Page 1 (Formal greetings)",
+    definition: "A strong, confident clasp of hands when greeting a person.",
+    b1Explain: "A strong and polite greeting made by holding someone's hand.",
+    opposite: "Limp handshake",
+    arMeaning: "مصافحة قوية واثقة تعكس الجدية والترحيب والاحترام.",
+    sentence: "A firm handshake and a warm smile create a great first impression."
+  },
+  {
+    id: 1528, word: "Social gathering",
+    pos: "noun phrase", cambridgeLevel: "B1",
+    pronunciation: "/ˌsəʊ.ʃəl ˈɡæð.ər.ɪŋ/",
+    citation: "Handout Page 1 & 5",
+    definition: "A party or meeting where people come together to enjoy time.",
+    b1Explain: "An informal event where friends or acquaintances meet to chat.",
+    opposite: "Formal board meeting",
+    arMeaning: "تجمع أو لقاء اجتماعي غير رسمي للتعارف وقضاء وقت ممتع.",
+    sentence: "A birthday party is a relaxed social gathering where you can meet new people."
+  }
+];
+
+/* ==========================================================================
+   SESSION 15 MODULES & AUTHENTIC PEDAGOGICAL DATA
+   ========================================================================== */
+
+const SESSION_15_LEAD_IN = {
+  instruction: "Work with a partner and discuss meeting new people in social versus business situations.",
+  questions: [
+    {
+      num: 1,
+      q: "Are you good at meeting new people?",
+      qAr: "هل تجيد التعرف على أشخاص جدد وتكوين علاقات بسهولة؟",
+      modelAnswer: "Honestly, it depends on the setting. At casual social gatherings like parties or family barbecues, I feel confident initiating small talk about hobbies and travel. However, in formal business meetings, I tend to be more reserved until I find common ground.",
+      audioText: "Honestly, it depends on the setting. At casual social gatherings like parties, I feel confident initiating small talk about hobbies. In formal business meetings, I tend to be more reserved until I find common ground."
+    },
+    {
+      num: 2,
+      q: "When was the last time you met someone new? What did you talk about?",
+      qAr: "متى كانت آخر مرة قابلت فيها شخصاً جديداً؟ وماذا كان موضوع حديثكما؟",
+      modelAnswer: "Just last week, a new co-worker joined our department. During our lunch break, I introduced myself and asked how her first week was going and whereabouts in the city she lived. We ended up discussing our favourite local cafes and weekend hiking trails.",
+      audioText: "Just last week, a new co-worker joined our department. During lunch, I introduced myself and asked whereabouts in the city she lived. We ended up discussing local cafes and hiking trails."
+    },
+    {
+      num: 3,
+      q: "When you meet someone for the first time, what kind of questions might you want to ask in: 1. a social situation like a party? 2. a formal context like a business meeting?",
+      qAr: "عندما تقابل شخصاً لأول مرة، ما نوع الأسئلة المناسبة لطرحها في: 1. مناسبة اجتماعية كحفلة؟ 2. سياق رسمي كاجتماع عمل؟",
+      modelAnswer: "At a social party, safe open icebreakers work best: 'How do you know the host?', 'What do you like doing in your free time?', or 'Have you travelled anywhere exciting recently?'. In a formal business context, questions should be respectful and professional: 'How do you do?', 'Whereabouts do you work?', or 'How was your flight?'.",
+      audioText: "At a social party, safe icebreakers work best like 'How do you know the host?' or 'What do you do in your free time?'. In a business context, professional questions work best like 'Whereabouts do you work?' or 'How was your flight?'."
+    }
+  ],
+  contextComparison: [
+    {
+      setting: "Social Gathering (Party / Cafe / Sports Club)",
+      icon: "🎉",
+      tone: "Relaxed, warm, and conversational",
+      topics: "Free time, hobbies, sports, travel, mutual friends, weekend plans",
+      openers: ["'Hi! My name's Jon. What's yours?'", "'What's up? / How's it going?'", "'Look at those delicious snacks!'"],
+      closers: ["'Nice to see you!'", "'See you later!'", "'Bye for now.'"],
+      bodyLanguage: "Casual posture, smiling, active nodding, warm eye contact"
+    },
+    {
+      setting: "Formal Context (Business Conference / Meeting)",
+      icon: "💼",
+      tone: "Polite, respectful, professional, and clear",
+      topics: "Travel/flight, role, office location, city impressions, industry projects",
+      openers: ["'How do you do?'", "'Excuse me. Sorry to bother you...'", "'How was your flight?'"],
+      closers: ["'It was a pleasure to speak to you.'", "'Well, lovely to meet you.'", "'It's been nice talking to you. Bye.'"],
+      bodyLanguage: "Firm handshake, upright posture, steady eye contact, business card exchange"
+    }
+  ]
+};
+
+const SESSION_15_DIALOGUES = {
+  dialogue1: {
+    title: "Dialogue 1: Two Friends Talking About a Boat Race",
+    topic: "Signaling the End of a Conversation & Avoiding Dead Air",
+    citation: "Handout Page 3 • Exercise 4 (Listening Analysis)",
+    turns: [
+      { speaker: "Mark", text: "Hey Leo! Did you watch the university boat race on the river yesterday afternoon?" },
+      { speaker: "Leo", text: "Yes, I did! It was intense. The Oxford crew pulled ahead right at the final bridge." },
+      { speaker: "Mark", text: "I know! The crowds along the riverbanks were cheering briskly. The atmosphere was incredible." },
+      { speaker: "Leo", text: "Totally. Have you ever tried rowing yourself? It looks exhausting." },
+      { speaker: "Mark", text: "Well, my lunch break is almost over. See you later!", isGap: true, gapType: "Conversation Closing Signal", answer: "Well, my lunch break is almost over. See you later!", prompt: "Polite conversational closer providing a genuine time reason before dead air occurs" },
+      { speaker: "Leo", text: "No problem at all, Mark! Nice talking to you. Catch you tomorrow!" }
+    ],
+    pedagogicalAnalysis: {
+      question: "How does the first speaker (Mark) signal that the conversation is finished?",
+      answerEn: "Mark uses the classic transition signal word 'Well...' followed by a practical, socially acceptable constraint ('my lunch break is almost over') and an upbeat farewell ('See you later!'). This gently closes the exchange without creating awkward dead air or hurting his friend's feelings.",
+      answerAr: "يستخدم مارك كلمة الانتقال الشهيرة 'Well...' متبوعة بسبب زمني ومهني مقنع ومقبول اجتماعياً ('استراحة الغداء قاربت على الانتهاء') ثم يودع بحرارة ('See you later!'). هذا ينهي الحوار بذوق دون أي صمت محرج أو إحراج للطرف الآخر."
+    }
+  },
+  dialogue2: {
+    title: "Dialogue 2: Two Colleagues at Work",
+    topic: "Giving Suggestions, Recommendations & Advice for Town Activities",
+    citation: "Handout Page 3 • Exercise 4 & Handout Page 4 (Language of Advice)",
+    turns: [
+      { speaker: "Sarah", text: "Hi David, have you got a minute? I'm completely new to the city, and I really don't know what to do this weekend." },
+      { speaker: "David", text: "Welcome to the team, Sarah! You should definitely visit the historic riverside market on Saturday morning.", isGap: true, gapType: "Advice Formula (You should definitely...)", answer: "You should definitely", prompt: "Strong recommendation formula" },
+      { speaker: "Sarah", text: "That sounds lovely! What about Sunday afternoon?" },
+      { speaker: "David", text: "Why don't you try renting a bicycle in the royal park? The cycling paths are amazing.", isGap: true, gapType: "Suggestion Formula (Why don't you try... -ing)", answer: "Why don't you try", prompt: "Friendly suggestion formula" },
+      { speaker: "Sarah", text: "I love cycling! Is there anywhere good to grab dinner afterwards?" },
+      { speaker: "David", text: "One thing I recommend is the seafood grill down by the old harbour. If I were you, I would book a table in advance because it gets very busy.", isGap: true, gapType: "Conditional Advice (If I were you, I would...)", answer: "If I were you, I would", prompt: "Second conditional advice formula" },
+      { speaker: "Sarah", text: "Thank you so much! That's very helpful advice." }
+    ],
+    pedagogicalAnalysis: {
+      question: "What does the first speaker suggest the other speaker should do? What exact advice formulas does he use?",
+      answerEn: "David uses a diverse toolkit of British Council B1 advice formulas: 1) 'You should definitely...' for high enthusiasm, 2) 'Why don't you try + gerund...' for open suggestions, 3) 'One thing I recommend is...' for personal tips, and 4) 'If I were you, I would...' for thoughtful guidance.",
+      answerAr: "استخدم ديفيد أربع صيغ نصيحة أساسية: 1) You should definitely (ينبغي عليك بالتأكيد)، 2) Why don't you try + ing (لِمَ لا تجرب)، 3) One thing I recommend is (شيء أوصي به هو)، 4) If I were you, I would (لو كنت مكانك لفعلت كذا)."
+    }
+  },
+  dialogue3: {
+    title: "Dialogue 3: Singapore Business Conference Introductions",
+    topic: "12 Unscrambled Questions & Natural Social Icebreakers",
+    citation: "Handout Page 1 & 2 • Exercises 2 & 3",
+    turns: [
+      { speaker: "Emma", text: "Excuse me. Sorry to bother you, but is this your first visit to Singapore?" },
+      { speaker: "Ken", text: "Yes, it is! I just arrived yesterday from Tokyo for the international tech expo." },
+      { speaker: "Emma", text: "How was your flight? I hope the journey wasn't too tiring." },
+      { speaker: "Ken", text: "It was very smooth, thank you. Whereabouts do you work, Emma?" },
+      { speaker: "Emma", text: "I work for an educational software consultancy right in downtown Singapore. How is your job going?" },
+      { speaker: "Ken", text: "It's going really well, thanks! What do you like doing in your free time here when you're not working?" },
+      { speaker: "Emma", text: "I love visiting the botanical gardens and watching sports on weekends." }
+    ],
+    pedagogicalAnalysis: {
+      question: "How do the speakers keep the conversation flowing smoothly without awkward dead air?",
+      answerEn: "Each speaker alternates between answering with an upbeat detail and immediately throwing back an open question ('How was your flight?', 'Whereabouts do you work?', 'What do you like doing in your free time?'). This reciprocal dynamic ensures dead air never occurs.",
+      answerAr: "يقوم كل متحدث بالرد بابتسامة وتفاصيل لطيفة ثم يتبعها فوراً بسؤال مفتوح للطرف الآخر. هذا التبادل السلس يلغي أي احتمالية لحدوث صمت محرج ويحافظ على حيوية المحادثة."
+    }
+  }
+};
+
+const SESSION_15_SMARTBOARD_MATCHING = [
+  {
+    id: "sb1",
+    phrase: "How do you do?",
+    category: "Initiating",
+    register: "Formal",
+    context: "First-time formal business greeting when introduced to a senior colleague or client",
+    arMeaning: "تشرفنا / أهلاً بك (تحية رسمية جداً عند اللقاء لأول مرة في سياق العمل)",
+    responseNote: "Traditional British response is to reply with the exact same phrase: 'How do you do?'"
+  },
+  {
+    id: "sb2",
+    phrase: "How are things with you?",
+    category: "Initiating",
+    register: "Neutral / Informal",
+    context: "Warm greeting to someone you have already met before",
+    arMeaning: "كيف هي أمورك وأحوالك؟ (تحية ودية لشخص تعرفه مسبقاً)",
+    responseNote: "Answers: 'Good thanks!', 'Can't complain!', or 'Pretty busy, how about you?'"
+  },
+  {
+    id: "sb3",
+    phrase: "Bye for now.",
+    category: "Closing",
+    register: "Informal",
+    context: "Casual departure implying you will see the person again soon",
+    arMeaning: "إلى اللقاء مؤقتاً / مع السلامة الآن (على أمل اللقاء قريباً)",
+    responseNote: "Friendly and lighthearted closer for friends and colleagues."
+  },
+  {
+    id: "sb4",
+    phrase: "Hi! My name's Jon. What's yours?",
+    category: "Initiating",
+    register: "Informal",
+    context: "Direct, friendly introduction at a social gathering or party",
+    arMeaning: "مرحباً! اسمي جون، ما اسمك أنت؟ (افتتاح تعارف ودي ومباشر في حفلة)",
+    responseNote: "Breaks the ice immediately with an open smile and handshake."
+  },
+  {
+    id: "sb5",
+    phrase: "See you again.",
+    category: "Closing",
+    register: "Neutral / Informal",
+    context: "Friendly parting phrase expressing expectation of future meetings",
+    arMeaning: "أراك مرة أخرى / إلى لقاء قادم.",
+    responseNote: "Can be expanded to: 'See you again soon!' or 'Hope to see you again!'"
+  },
+  {
+    id: "sb6",
+    phrase: "Well, lovely to meet you.",
+    category: "Closing",
+    register: "Polite / Formal",
+    context: "Gracious closing phrase when departing from a new acquaintance",
+    arMeaning: "حسناً، لقد سررت كثيراً بلقائك والتعرف عليك.",
+    responseNote: "The word 'Well...' acts as an acoustic signal that you are preparing to leave."
+  },
+  {
+    id: "sb7",
+    phrase: "How's it going?",
+    category: "Initiating",
+    register: "Informal",
+    context: "Everyday casual greeting among peers, friends, and co-workers",
+    arMeaning: "كيف تسير الأمور معك؟ / ما الأخبار؟",
+    responseNote: "Natural answer: 'Not bad, thanks! How about yourself?'"
+  },
+  {
+    id: "sb8",
+    phrase: "What's up? / What's good?",
+    category: "Initiating",
+    register: "Very Informal",
+    context: "Classroom Smartboard addition: Slang/youth greeting for close friends",
+    arMeaning: "ما الأخبار؟ / شو في جديد؟ (عامية ودية جداً بين الأصدقاء المقربين)",
+    responseNote: "Recorded directly from Smartboard 1 & 2 additions in purple and red marker."
+  },
+  {
+    id: "sb9",
+    phrase: "I'm sorry, I've got to go now.",
+    category: "Closing",
+    register: "Neutral / Polite",
+    context: "Honest, polite closer when you have a pressing appointment or bus to catch",
+    arMeaning: "أعتذر، عليّ المغادرة الآن فوراً لارتباطي بموعد.",
+    responseNote: "Best paired with a smile and a quick apology to maintain warmth."
+  },
+  {
+    id: "sb10",
+    phrase: "Have you got a minute?",
+    category: "Initiating",
+    register: "Neutral / Informal",
+    context: "Checking if a colleague is free before asking a question or starting a chat",
+    arMeaning: "هل لديك دقيقة من وقتك؟ (للاستئذان قبل بدء الحديث مع شخص)",
+    responseNote: "Shows respect for the other person's time and schedule."
+  },
+  {
+    id: "sb11",
+    phrase: "It's been nice talking to you. Bye.",
+    category: "Closing",
+    register: "Polite / Neutral",
+    context: "Smooth, respectful ending after an enjoyable chat at a conference or party",
+    arMeaning: "كان من اللطيف جداً التحدث معك. مع السلامة.",
+    responseNote: "Polite standard wrap-up formula taught across British Council centres."
+  },
+  {
+    id: "sb12",
+    phrase: "Excuse me. Sorry to bother you...",
+    category: "Initiating",
+    register: "Polite / Formal",
+    context: "Courteous conversational opener when approaching someone who is reading or busy",
+    arMeaning: "عفواً، أعتذر لمقاطعتك وإزعاجك... (افتتاح مؤدب ولطيف للحديث مع غريب)",
+    responseNote: "Softens the interruption before delivering your query."
+  }
+];
+
+const SESSION_15_VOCAB_GROUPS = {
+  instruction: "Categorize the 28 session vocabulary words into 4 functional conversational domains.",
+  categories: [
+    {
+      name: "Conversational Openers & Icebreakers",
+      icon: "🤝",
+      words: ["Initiate", "Small talk", "Icebreaker", "Unscramble", "Whereabouts", "Tone of voice", "Eye contact"],
+      note: "Starting conversations smoothly with strangers and new acquaintances."
+    },
+    {
+      name: "Closing Signals & Floor Management",
+      icon: "⏱️",
+      words: ["Dead air", "Bother", "Signal", "Interrupt", "Wrap up", "Lunch break", "Awkward"],
+      note: "Ending conversations gracefully and navigating awkward silences."
+    },
+    {
+      name: "Advice Formulas & Hometown Exploration",
+      icon: "🏙️",
+      words: ["Recommendation", "Hometown", "Co-worker", "Colleague", "Briskly", "Firm handshake", "Social gathering"],
+      note: "Recommending sights and welcoming new arrivals to town."
+    },
+    {
+      name: "Dilemmas, Preferences & Hypotheticals",
+      icon: "⚖️",
+      words: ["Dilemma", "Hypothetical", "Would rather", "Get used to", "Mansion", "Average pay"],
+      note: "Weighing hypothetical choices and practicing Second Conditional grammar."
+    }
+  ]
+};
+
+const SESSION_15_DILEMMAS = [
+  {
+    id: "dil17",
+    itemNum: 17,
+    title: "The Wealth Strategy Dilemma",
+    optionA: {
+      text: "Get £1,000 today in cash",
+      pros: "Immediate capital, can spend or invest right now, zero waiting",
+      cons: "It is a small one-time lump sum that will disappear quickly"
+    },
+    optionB: {
+      text: "Get £100 every month for life",
+      pros: "Guaranteed passive income (£1,200/year; £36,000 over 30 years!)",
+      cons: "Requires long-term patience; £100 will buy less over time due to inflation"
+    },
+    modelSecondConditional: "If I had the choice, I would choose £100 every month for life, because in just ten months I would already exceed the initial £1,000!",
+    audioText: "If I had the choice, I would choose 100 pounds every month for life, because steady recurring income provides long-term financial security."
+  },
+  {
+    id: "dil18",
+    itemNum: 18,
+    title: "The Lifestyle Dilemma",
+    optionA: {
+      text: "Live in a luxury mansion",
+      pros: "Prestige, enormous living space, private amenities (pool, cinema, garden)",
+      cons: "Extremely high maintenance, property taxes, cleaning costs, static location"
+    },
+    optionB: {
+      text: "Travel around the world freely",
+      pros: "Discover diverse cultures, try international cuisine, collect lifelong memories",
+      cons: "No stable permanent home, frequent jet lag, continuous packing and travel fatigue"
+    },
+    modelSecondConditional: "If I were forced to pick one, I would definitely rather travel around the world, because authentic life experiences are worth far more than bricks and mortar.",
+    audioText: "If I were forced to pick one, I would rather travel around the world, because authentic life experiences and cultural discoveries are worth far more than owning a mansion."
+  },
+  {
+    id: "dil19",
+    itemNum: 19,
+    title: "The Work-Life Balance Dilemma",
+    optionA: {
+      text: "Work 3 days a week (full 10-hour days)",
+      pros: "4 full days of weekend every week, great for hobbies and long road trips",
+      cons: "The 3 working days are exhausting with little personal time in the evenings"
+    },
+    optionB: {
+      text: "Work 5 days a week with shorter hours (4 hours/day)",
+      pros: "Plenty of free time every single afternoon, consistent daily routine, less daily stress",
+      cons: "Still have to commute into work five days every week; short weekend"
+    },
+    modelSecondConditional: "If I could design my schedule, I would rather work 3 days a week. Having a 4-day weekend would allow me to travel and pursue creative hobbies.",
+    audioText: "If I could design my schedule, I would rather work 3 days a week. Having a four-day weekend every single week would provide true freedom."
+  },
+  {
+    id: "dil20",
+    itemNum: 20,
+    title: "The Career & Money Dilemma",
+    optionA: {
+      text: "Have your dream job with average pay",
+      pros: "Daily joy, passion, deep purpose, zero burnout, proud of your craft",
+      cons: "Must live within a modest budget; cannot afford luxury vacations or goods"
+    },
+    optionB: {
+      text: "Have a boring job with amazing pay",
+      pros: "Financial freedom, luxury lifestyle, early retirement, generous savings",
+      cons: "Daily monotony, lack of motivation, feeling that 40 hours a week are wasted"
+    },
+    modelSecondConditional: "If you offered me both, I would pick the dream job with average pay. As our teacher noted on the smartboard: 'Work is just not about money!'",
+    audioText: "If you offered me both, I would pick the dream job with average pay. Work is just not about money, you spend one third of your life at work and you need to enjoy it."
+  },
+  {
+    id: "dil21",
+    itemNum: 21,
+    title: "The Ultimate Freedom Dilemma",
+    optionA: {
+      text: "Buy everything you want without limit",
+      pros: "Unlimited material luxury, designer clothes, sports cars, buying gifts for everyone",
+      cons: "May lead to greed, superficial relationships, and losing appreciation for things"
+    },
+    optionB: {
+      text: "Never have to work again for the rest of your life",
+      pros: "Complete control of your time, zero workplace stress, freedom to sleep, read, and volunteer",
+      cons: "Without a daily routine or goals, some people feel bored or lost"
+    },
+    modelSecondConditional: "If I had the ability not to work, I would definitely not work! I would dedicate my days to volunteering, reading, and learning new languages.",
+    audioText: "If I had the ability not to work, I would not work. Having complete ownership of your time is the greatest luxury in the world."
+  }
+];
+
+const SESSION_15_DISCUSSION_LAB = [
+  {
+    num: 1,
+    prompt: "Imagine an overseas visitor arrives in your town or city. They know nothing about the area and want recommendations on places to go and things to do. What advice would you give them?",
+    level: "B1/B2 Advice Fluency Model",
+    modelSpeech: "If you were visiting my city for the first time, one thing I would strongly recommend is taking an early morning stroll along the historic waterfront. Why don't you try visiting the ancient citadel at sunset? The panoramic view across the bay is truly breathtaking. For dinner, you should definitely check out the traditional seafood grill in the old bazaar. If I were you, I would avoid the tourist trap cafes along the main highway and stick to the authentic local alleyways.",
+    audioText: "If you were visiting my city for the first time, one thing I would strongly recommend is an early morning walk along the waterfront. Why don't you try visiting the citadel at sunset? You should definitely check out the seafood grill in the bazaar.",
+    keyLexisUsed: ["recommendation", "hometown", "advice formulas", "why don't you try", "if I were you", "you should definitely"]
+  },
+  {
+    num: 2,
+    prompt: "Roleplay: A new co-worker has just joined your department. They are completely new to town and want advice on weekend activities and hobbies. How would you initiate the conversation and avoid dead air?",
+    level: "B1/B2 Workplace Roleplay Model",
+    modelSpeech: "Hi there! Have you got a minute? My name is Alex from the technical team. Welcome to the company! Whereabouts in town are you staying? Since you are new to the area, you should check out the community sports complex down the road if you enjoy playing football or tennis. Also, if you need a recommendation for good weekend coffee spots, I would be delighted to send you a list. Well, my lunch break is almost over, but it was lovely to meet you! See you around the office.",
+    audioText: "Hi there! Have you got a minute? My name is Alex. Welcome to the company! Whereabouts in town are you staying? You should check out the sports complex down the road. Well, my lunch break is almost over, lovely to meet you!",
+    keyLexisUsed: ["co-worker", "initiate", "whereabouts", "lunch break", "wrap up", "avoid dead air"]
+  },
+  {
+    num: 3,
+    prompt: "What strategies do you use when an awkward dead air silence happens during a social gathering with people you don't know well?",
+    level: "B2 Fluency & Communication Strategy",
+    modelSpeech: "Whenever an awkward silence strikes, the best remedy is to throw out an open-ended icebreaker about the shared environment or current events. For instance, commenting on the venue music, asking 'How do you know the host?', or asking about recent travel plans immediately breaks the dead air. Maintaining friendly eye contact and relaxed body language also reassures the other person and encourages them to speak freely.",
+    audioText: "Whenever an awkward silence strikes, the best remedy is to throw out an open-ended icebreaker about the shared environment. Asking how they know the host breaks the dead air. Maintaining eye contact reassures the other person.",
+    keyLexisUsed: ["dead air", "awkward", "icebreaker", "social gathering", "eye contact", "body language"]
+  }
+];
+
+const SESSION_15_TEACHER_FEEDBACK = [
+  {
+    id: "clinic15_1",
+    incorrect: "If you have the ability not to work, you will not work.",
+    struck: "have ... will",
+    correct: "If you had the ability not to work, you would not work.",
+    teacherPen: "had ... would",
+    category: "Second Conditional for Hypothetical Dilemmas (Smartboard 4)",
+    rule: "When discussing unreal, imaginary, or hypothetical dilemmas (like Smartboard 3 Would You Rather choices), use the Second Conditional: If + Past Simple, would + bare infinitive. Using 'have ... will' makes it sound like a guaranteed real-world fact (First Conditional), whereas not having to work is purely hypothetical.",
+    arRule: "في المواقف الافتراضية والتخيلية (الحالة الشرطية الثانية Second Conditional): نستخدم الماضي البسيط بعد If (had) متبوعاً بـ would + الفعل المجرد في جواب الشرط (would not work)، وليس have و will.",
+    speech: "If you had the ability not to work, you would not work."
+  },
+  {
+    id: "clinic15_2",
+    incorrect: "Work it's just not about money.",
+    struck: "it's",
+    correct: "Work is just not about money.",
+    teacherPen: "is (delete 'it')",
+    category: "Resumptive Subject Pronoun Redundancy (Smartboard 4)",
+    rule: "In English sentence structure, a noun subject ('Work') cannot be followed immediately by a duplicate personal pronoun ('it'). This common interference stems from Arabic grammar (العمل هو ليس فقط عن المال). In English, say directly: 'Work is just not about money.'",
+    arRule: "تداخل لغوي شائع من اللغة العربية: في الإنجليزية لا يجوز وضع ضمير فاعل مكرر (it) مباشرة بعد الفاعل الصريح (Work). نقول مباشرة: Work is just not about money وليس Work it is.",
+    speech: "Work is just not about money."
+  },
+  {
+    id: "clinic15_3",
+    incorrect: "You will get use to it.",
+    struck: "use",
+    correct: "You will get used to it.",
+    teacherPen: "used (-ed)",
+    category: "Fixed Idiomatic Pattern: get used to + noun / -ing (Smartboard 4)",
+    rule: "The expression meaning 'to become accustomed to something unfamiliar' is fixed as 'get used to' (with an '-ed' ending). Although the 'd' sound assimilates into the 't' of 'to' in spoken speech (/ɡet ˈjuːst tuː/), it must ALWAYS be spelled with 'used'.",
+    arRule: "التعبير الاصطلاحي الدال على الاعتياد والتأقلم يكتب دائماً: get used to (بحرف d) متبوعاً باسم أو gerund. ورغم أن صوت d يدمج نطقاً مع t في الكلام السريع، إلا أن كتابته بحرف d إلزامية.",
+    speech: "You will get used to it over time."
+  },
+  {
+    id: "clinic15_4",
+    incorrect: "For me, I need new apartment, so I'll choose the first one.",
+    struck: "new apartment ... I'll",
+    correct: "For me, I need a new apartment, so I'd choose the first one.",
+    teacherPen: "a new apartment ... I'd choose",
+    category: "Indefinite Article & Hypothetical Modal Contraction (Smartboard 4)",
+    rule: "Two corrections: 1) Singular countable nouns like 'apartment' require an indefinite article ('a new apartment'). 2) When selecting a choice in a hypothetical dilemma game, use the conditional modal contraction 'I'd choose' (I would choose) instead of future certainty 'I'll choose'.",
+    arRule: "تصحيحان مهمان: 1) الأسماء المعدودة المفردة تتطلب أداة نكرة (a new apartment). 2) عند الاختيار في لعبة افتراضية نستخدم صيغة الشرط المخففة (I'd choose = I would choose) بدلاً من المستقبل المؤكد (I'll choose).",
+    speech: "For me, I need a new apartment, so I would choose the first one."
+  },
+  {
+    id: "clinic15_5",
+    incorrect: "I like reading also.",
+    struck: "reading also",
+    correct: "I also like reading. / I like reading too.",
+    teacherPen: "also like reading / ... too",
+    category: "Adverb Position in Spoken English (Smartboard 4)",
+    rule: "In natural English, the adverb 'also' belongs in the mid-position directly before the main verb: 'I also like reading.' If you want to put an addition word at the very end of a sentence, use 'too' or 'as well': 'I like reading too.' Avoid ending clauses with 'also'.",
+    arRule: "موقع الظرف also في الجملة الإنجليزية: يوضع also في المنتصف قبل الفعل الأساسي (I also like reading). وإذا أردت وضع كلمة تدل على الإضافة في نهاية الجملة استخدم too أو as well وليس also.",
+    speech: "I also like reading in my spare time."
+  }
+];
+
+const SESSION_15_PRONUNCIATION_LAB = [
+  {
+    category: "Sentence Stress & Weak Forms /ə/ (Schwa) in Social Questions",
+    rule: "In conversational English, content words (nouns, main verbs) carry strong stress and pitch peaks, while grammatical function words (auxiliary verbs, pronouns, prepositions) reduce to the weak neutral vowel /ə/ (schwa). This creates the natural rhythm of English and prevents speech from sounding stiff.",
+    items: [
+      {
+        question: "How are things with you?",
+        ipa: "/haʊ ə ˈθɪŋz wɪð juː/",
+        stressPattern: "Strong stress on THI-ngs; 'are' weakens to short /ə/.",
+        arNote: "كلمة are تتحول إلى صوت شوا ضعيف /ə/ بينما يقع النبر الأقوى على كلمة things."
+      },
+      {
+        question: "How do you do?",
+        ipa: "/haʊ djuː ˈduː/",
+        stressPattern: "Rhythmical formal beat: first 'do' contracts to /d/, final 'DO' takes main stress.",
+        arNote: "في التحية الرسمية يندمج do you إلى /djuː/ وينصب النبر الأساسي على الفعل الأخير DO."
+      },
+      {
+        question: "Where do you come from?",
+        ipa: "/ˈweə də juː ˈkʌm frəm/",
+        stressPattern: "Peaks on WHERE and COME; 'from' reduces to weak /frəm/.",
+        arNote: "النبر القوي على أداة الاستفهام WHERE وفعل COME بينما تنطق from بصوت الشوا الخفيف /frəm/."
+      },
+      {
+        question: "Is this your first visit to Singapore?",
+        ipa: "/ɪz ðɪs jɔː ˈfɜːst ˈvɪz.ɪt tə ˈsɪŋ.ə.pɔː/",
+        stressPattern: "Peaks on FIRST, VI-sit, and SIN-gapore; 'to' reduces to /tə/.",
+        arNote: "حرف الجر to يتحول لصوت شوا خفيف /tə/ والنبر الأساسي على first و visit و Singapore."
+      }
+    ]
+  },
+  {
+    category: "Intonation Patterns: Initiating vs Closing Conversations",
+    rule: "Initiating phrases and open questions typically end in a lively, friendly rising or fall-rise pitch to encourage the partner to talk. Closing signals ('Well, my lunch break is almost over') begin with a high 'Well...' followed by a gentle, conclusive downward fall indicating that the speaker is politely taking their leave.",
+    items: [
+      {
+        phrase: "Hi! My name's Jon. What's yours? ↗",
+        type: "Open Icebreaker (Friendly Rising Pitch)",
+        note: "High pitch on 'Jon', rising inflection on 'yours?' to invite immediate reply."
+      },
+      {
+        phrase: "Well, my lunch break is almost over. ↘",
+        type: "Polite Closer Signal (Definitive Falling Pitch)",
+        note: "Stretched 'Well...' signals departure intention, followed by descending pitch."
+      },
+      {
+        phrase: "It was a pleasure to speak to you! ↘",
+        type: "Warm Professional Farewell (Warm Falling Pitch)",
+        note: "Sincere descending warmth leaving a memorable final impression."
+      }
+    ]
+  }
+];
+
+const SESSION_15_NOTEBOOK_PAGES = [
+  {
+    id: "s15_note_starting_ending",
+    title: "Smartboard Slide 1: Starting & Ending Conversations",
+    imgUrl: "./assets/images/session15_board_starting_ending.jpg",
+    tag: "Authentic Smartboard Capture",
+    summary: "Teacher classroom board listing key functional phrases under two distinct columns: Starting vs Ending a conversation.",
+    fullTranscription: `[SMARTBOARD SLIDE: CONVERSATION SKILLS]
+Left Column: STARTING
+• Hi!
+• How was your day?
+• Morning?
+• What's up?
+• How are you doing?
+
+Right Column: ENDING
+• Nice to see you!
+• Have a nice day!
+• See you later
+• It was a pleasure to speak to you
+• Well, my lunch break is almost over
+
+Classroom pedagogical note: Notice how "Well, my lunch break is almost over" acts as an indirect, polite signaling device before saying "See you later".`
+  },
+  {
+    id: "s15_note_additions",
+    title: "Smartboard Slide 2: Conversational Additions & Slang Registers",
+    imgUrl: "./assets/images/session15_board_starting_ending_additions.jpg",
+    tag: "Teacher Live Additions",
+    summary: "Interactive smartboard with student and teacher live pen contributions showing informal alternatives and contextual remarks.",
+    fullTranscription: `[SMARTBOARD SLIDE WITH LIVE PEN CONTRIBUTIONS]
+Left Column: STARTING (Live Red & Purple Additions)
+• What's good? (Colloquial slang alternative to "What's up?")
+• Look at those... (Contextual remark about the immediate surroundings / food / weather)
+• Hi, you're [Name], aren't you? (Tag question opener when recognizing someone)
+
+Right Column: ENDING (Live Additions)
+• Well, my lunch break is almost over.
+• Catch you later!
+• Have a great weekend!
+
+Teacher note on board: Always match the formality of your opener to the social setting (casual party vs corporate meeting).`
+  },
+  {
+    id: "s15_note_dilemmas",
+    title: "Smartboard Slide 3: Would You Rather Dilemmas (Questions 17–21)",
+    imgUrl: "./assets/images/session15_board_dilemmas_would_you_rather.jpg",
+    tag: "Interactive Dilemma Slide",
+    summary: "British Council classroom slide with 5 provocative hypothetical decision choices used for speaking fluency debate.",
+    fullTranscription: `[SMARTBOARD SLIDE: WOULD YOU RATHER...]
+17. Get £1,000 today - OR - Get £100 every month for life
+18. Live in a mansion - OR - Travel around the world
+19. Work 3 days a week - OR - Work 5 days a week with shorter hours
+20. Have a dream job with average pay - OR - Have a boring job with amazing pay
+21. Buy everything you want - OR - Never have to work again
+
+Classroom task: Work with a partner. Choose one option for each dilemma, justify your choice using Second Conditional grammar ("If I chose... I would..."), and debate your partner's counter-arguments.`
+  },
+  {
+    id: "s15_note_language_feedback",
+    title: "Smartboard Slide 4: Teacher Live Language Feedback & Corrections Clinic",
+    imgUrl: "./assets/images/session15_board_language_feedback.jpg",
+    tag: "Error Analysis & Grammar Clinic",
+    summary: "Authentic teacher whiteboard capturing real student speech errors, strikethroughs, and grammatical corrections.",
+    fullTranscription: `[TEACHER LIVE LANGUAGE FEEDBACK BOARD]
+1. "If you have the ability not to work, you will not work."
+   Teacher correction in purple: struck through have ➔ had, struck through will ➔ would.
+   Rule: Second Conditional for hypothetical dilemmas.
+
+2. "Work it's just not about money."
+   Teacher correction in red: crossed out "it's" ➔ "Work is just not about money."
+   Rule: Do not duplicate noun subject with pronoun "it".
+
+3. "You will get use to it."
+   Teacher correction in purple: corrected to "get used to it" (-ed ending).
+   Rule: Fixed idiom: get used to + noun/pronoun.
+
+4. "For me, I need new apartment, so I'll choose the first one."
+   Teacher correction in red: inserted article "a" ("a new apartment") and changed "I'll" to "I'd choose".
+
+5. "I like reading also"
+   Teacher correction: repositioned to "I also like reading" or "I like reading too".`
+  }
+];
+
 /* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
@@ -5116,6 +5996,7 @@ if (typeof window !== 'undefined') {
   window.VOCAB_SESSION_12 = typeof VOCAB_SESSION_12 !== 'undefined' ? VOCAB_SESSION_12 : [];
   window.VOCAB_SESSION_13 = typeof VOCAB_SESSION_13 !== 'undefined' ? VOCAB_SESSION_13 : [];
   window.VOCAB_SESSION_14 = typeof VOCAB_SESSION_14 !== 'undefined' ? VOCAB_SESSION_14 : [];
+  window.VOCAB_SESSION_15 = typeof VOCAB_SESSION_15 !== 'undefined' ? VOCAB_SESSION_15 : [];
 
   // Session 1
   window.SESSION_1_DESCRIBING_OBJECTS = typeof SESSION_1_DESCRIBING_OBJECTS !== 'undefined' ? SESSION_1_DESCRIBING_OBJECTS : undefined;
@@ -5173,6 +6054,19 @@ if (typeof window !== 'undefined') {
   window.SESSION_14_TEACHER_FEEDBACK = typeof SESSION_14_TEACHER_FEEDBACK !== 'undefined' ? SESSION_14_TEACHER_FEEDBACK : undefined;
   window.SESSION_14_PRONUNCIATION_LAB = typeof SESSION_14_PRONUNCIATION_LAB !== 'undefined' ? SESSION_14_PRONUNCIATION_LAB : undefined;
   window.SESSION_14_NOTEBOOK_PAGES = typeof SESSION_14_NOTEBOOK_PAGES !== 'undefined' ? SESSION_14_NOTEBOOK_PAGES : undefined;
+
+  // Session 15
+  window.VOCAB_SESSION_15 = typeof VOCAB_SESSION_15 !== 'undefined' ? VOCAB_SESSION_15 : [];
+  window.SESSION_15_LEAD_IN = typeof SESSION_15_LEAD_IN !== 'undefined' ? SESSION_15_LEAD_IN : undefined;
+  window.SESSION_15_DIALOGUES = typeof SESSION_15_DIALOGUES !== 'undefined' ? SESSION_15_DIALOGUES : undefined;
+  window.SESSION_15_SMARTBOARD_MATCHING = typeof SESSION_15_SMARTBOARD_MATCHING !== 'undefined' ? SESSION_15_SMARTBOARD_MATCHING : undefined;
+  window.SESSION_15_VOCAB_GROUPS = typeof SESSION_15_VOCAB_GROUPS !== 'undefined' ? SESSION_15_VOCAB_GROUPS : undefined;
+  window.SESSION_15_DILEMMAS = typeof SESSION_15_DILEMMAS !== 'undefined' ? SESSION_15_DILEMMAS : undefined;
+  window.SESSION_15_DISCUSSION_LAB = typeof SESSION_15_DISCUSSION_LAB !== 'undefined' ? SESSION_15_DISCUSSION_LAB : undefined;
+  window.SESSION_15_TEACHER_FEEDBACK = typeof SESSION_15_TEACHER_FEEDBACK !== 'undefined' ? SESSION_15_TEACHER_FEEDBACK : undefined;
+  window.SESSION_15_PRONUNCIATION_LAB = typeof SESSION_15_PRONUNCIATION_LAB !== 'undefined' ? SESSION_15_PRONUNCIATION_LAB : undefined;
+  window.SESSION_15_NOTEBOOK_PAGES = typeof SESSION_15_NOTEBOOK_PAGES !== 'undefined' ? SESSION_15_NOTEBOOK_PAGES : undefined;
+
 }
 
 

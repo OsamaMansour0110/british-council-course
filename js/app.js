@@ -17,6 +17,7 @@ let MASTER_VOCAB = (currentSessionId === '1') ? VOCAB_SESSION_1
   : (currentSessionId === '12') ? VOCAB_SESSION_12
   : (currentSessionId === '13') ? (typeof VOCAB_SESSION_13 !== 'undefined' ? VOCAB_SESSION_13 : VOCAB_SESSION_10)
   : (currentSessionId === '14') ? (typeof VOCAB_SESSION_14 !== 'undefined' ? VOCAB_SESSION_14 : VOCAB_SESSION_10)
+  : (currentSessionId === '15') ? (typeof VOCAB_SESSION_15 !== 'undefined' ? VOCAB_SESSION_15 : VOCAB_SESSION_10)
   : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
 /* --------------------------------------------------------------------------
@@ -77,6 +78,7 @@ function switchSession(sessionId) {
     : (currentSessionId === '12') ? VOCAB_SESSION_12
     : (currentSessionId === '13') ? (typeof VOCAB_SESSION_13 !== 'undefined' ? VOCAB_SESSION_13 : VOCAB_SESSION_10)
     : (currentSessionId === '14') ? (typeof VOCAB_SESSION_14 !== 'undefined' ? VOCAB_SESSION_14 : VOCAB_SESSION_10)
+  : (currentSessionId === '15') ? (typeof VOCAB_SESSION_15 !== 'undefined' ? VOCAB_SESSION_15 : VOCAB_SESSION_10)
     : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
   // Sync toolbar select dropdown
@@ -99,6 +101,7 @@ function switchSession(sessionId) {
   const sec12Materials = document.getElementById('session12Materials');
   const sec13Materials = document.getElementById('session13Materials');
   const sec14Materials = document.getElementById('session14Materials');
+  const sec15Materials = document.getElementById('session15Materials');
   const storiesSec = document.getElementById('storiesSection');
   const spareTopicsSec = document.getElementById('spareTopicsSection');
 
@@ -371,6 +374,7 @@ function switchSession(sessionId) {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'block';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">📖</span><span class="nav-text">Stories Hub</span>';
@@ -414,7 +418,8 @@ function switchSession(sessionId) {
     if (sec11Materials) sec11Materials.style.display = 'none';
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
-    if (sec14Materials) sec14Materials.style.display = 'block';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'block';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">💍</span><span class="nav-text">Weddings Hub</span>';
@@ -449,8 +454,8 @@ function switchSession(sessionId) {
     renderSession14Feedback();
     renderSession14Pronunciation();
     renderSession14Notebook();
-  } else {
-    // Default fallback to Session 14
+  } else if (currentSessionId === '15') {
+    // Session 15: Conversation Skills: Avoiding 'Dead Air'
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
     if (sec3Materials) sec3Materials.style.display = 'none';
@@ -459,7 +464,53 @@ function switchSession(sessionId) {
     if (sec11Materials) sec11Materials.style.display = 'none';
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
-    if (sec14Materials) sec14Materials.style.display = 'block';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'block';
+
+    if (navLinkMat) {
+      navLinkMat.innerHTML = '<span class="nav-icon">💬</span><span class="nav-text">Conversation Hub</span>';
+      navLinkMat.setAttribute('href', '#session15Materials');
+    }
+    if (mobileLinkMat) {
+      mobileLinkMat.innerHTML = '<span>💬</span> Conversation Hub &amp; Avoiding Dead Air';
+      mobileLinkMat.setAttribute('href', '#session15Materials');
+    }
+    if (bottomLinkMat) {
+      bottomLinkMat.setAttribute('href', '#session15Materials');
+    }
+
+    if (heroTag) heroTag.textContent = 'ACTIVE SESSION 15';
+    if (heroDocTag) heroDocTag.textContent = 'DOC: ARB_B1_07_I029CEA';
+    if (heroTitle) heroTitle.innerHTML = 'Conversation Skills: <span>Avoiding ‘Dead Air’</span>';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B2 conversation management and social interaction vocabulary words, practice open icebreakers and graceful closing signals, complete the interactive "Would You Rather" Dilemma challenge (Items 17–21), review Teacher Live Corrections from Smartboard 4, and master sentence stress and weak forms /ə/ with British audio.';
+    if (heroVocabCount) heroVocabCount.textContent = '28';
+    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 15: Conversation Skills: Avoiding ‘Dead Air’ • Handout ID: <code>ARB_B1_07_I029CEA_HO_v1.0</code>';
+    if (heroAudioBtn) {
+      heroAudioBtn.onclick = () => speakUK('British Council Session fifteen: Conversation skills, avoiding dead air, giving advice, and would you rather dilemmas.');
+    }
+
+    renderSession15LeadIn();
+    renderSession15Dialogues();
+    renderSession15Smartboard();
+    renderSession15VocabGroups();
+    renderSession15Dilemmas();
+    renderSession15Speaking();
+    renderSession15Feedback();
+    renderSession15Pronunciation();
+    renderSession15Notebook();
+    // Default fallback to Session 15
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'block';
   }
 
   // Re-initialize games for selected session
@@ -483,7 +534,7 @@ function initSessionsDropdown() {
   const notice = document.getElementById('sessionNotice');
   const numSpan = document.getElementById('sessionNumberDisplay');
 
-  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14'];
+  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15'];
 
   if (select) {
     select.value = currentSessionId;
@@ -5547,6 +5598,814 @@ function updateThemeSymbol(theme) {
   if (el) el.textContent = theme === 'dark' ? '☀️' : '🌙';
 }
 
+
+/* ==========================================================================
+   SESSION 15: CONVERSATION SKILLS & AVOIDING 'DEAD AIR'
+   Complete Interactive Pedagogical Rendering Suite
+   ========================================================================== */
+function getSession15Data(key) {
+  if (typeof window !== 'undefined' && window[key]) return window[key];
+  try {
+    return eval(key);
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderSession15LeadIn() {
+  const container = document.getElementById('session15LeadInWrap');
+  const data = getSession15Data('SESSION_15_LEAD_IN');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--bc-blue); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--bc-blue); color:#fff; border:none;">HANDOUT PAGE 1 • WARM-UP DISCUSSION</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Meeting New People &amp; Social vs. Business Situations
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Work with a partner and discuss the following questions. Are you good at meeting new people? When was the last time you met someone new? What kind of questions might you ask in a social party versus a formal business meeting?')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Prompts
+        </button>
+      </div>
+
+      <!-- 3 Discussion Questions -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+        ${data.questions.map(q => `
+          <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; gap:0.75rem;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem;">
+              <span class="teacher-badge" style="font-size:0.75rem; padding:0.15rem 0.5rem;">QUESTION #${q.num}</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(q.q)}')">🔊</button>
+            </div>
+            <p style="font-size:0.98rem; font-weight:700; color:var(--text-main); margin:0;">
+              ${escapeHtml(q.q)}
+            </p>
+            <p style="font-size:0.85rem; color:var(--text-muted); margin:0; direction:rtl; text-align:right;">
+              ${escapeHtml(q.qAr)}
+            </p>
+            <div style="margin-top:auto; padding-top:0.75rem; border-top:1px dashed var(--border-light);">
+              <button type="button" class="btn-outline-subtle btn-s15-answer-toggle" data-target="s15LeadInAns_${q.num}" style="width:100%; font-size:0.8rem; padding:0.35rem 0.75rem; display:flex; justify-content:space-between; align-items:center;">
+                <span>💡 Model Partner Response</span>
+                <span class="toggle-icon">▼</span>
+              </button>
+              <div id="s15LeadInAns_${q.num}" style="display:none; margin-top:0.65rem; background:rgba(0,102,245,0.05); border:1px solid rgba(0,102,245,0.15); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.88rem; line-height:1.5;">
+                <p style="margin:0 0 0.5rem; color:var(--text-body);">
+                  ${escapeHtml(q.modelAnswer)}
+                </p>
+                <button class="btn btn-primary" onclick="speakUK('${escapeJs(q.audioText)}')" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+                  🔊 Play Model Turn
+                </button>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Social vs Business Setting Matrix -->
+      <div style="background:var(--bg-subtle); border-radius:var(--radius-md); padding:1rem;">
+        <h5 style="font-size:0.95rem; font-weight:800; color:var(--text-main); margin:0 0 0.75rem; display:flex; align-items:center; gap:0.4rem;">
+          <span>⚖️</span> Comparing Registers: Social Gatherings vs. Formal Business Settings
+        </h5>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+          ${data.contextComparison.map(c => `
+            <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.85rem; display:flex; flex-direction:column; gap:0.5rem;">
+              <div style="display:flex; align-items:center; gap:0.5rem;">
+                <span style="font-size:1.3rem;">${c.icon}</span>
+                <strong style="font-size:0.95rem; color:var(--text-main);">${escapeHtml(c.setting)}</strong>
+              </div>
+              <div style="font-size:0.84rem; color:var(--text-body);">
+                <strong>Tone &amp; Style:</strong> ${escapeHtml(c.tone)}
+              </div>
+              <div style="font-size:0.84rem; color:var(--text-body);">
+                <strong>Safe Topics:</strong> ${escapeHtml(c.topics)}
+              </div>
+              <div style="font-size:0.84rem; color:var(--text-body);">
+                <strong>Body Language:</strong> ${escapeHtml(c.bodyLanguage)}
+              </div>
+              <div style="font-size:0.82rem; background:rgba(0,102,245,0.04); border-left:3px solid var(--bc-blue); padding:0.4rem 0.6rem; border-radius:2px; margin-top:0.25rem;">
+                <strong>Typical Openers:</strong> ${c.openers.join(' • ')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+
+  container.querySelectorAll('.btn-s15-answer-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-target');
+      const targetEl = document.getElementById(targetId);
+      const icon = btn.querySelector('.toggle-icon');
+      if (targetEl) {
+        const isHidden = targetEl.style.display === 'none';
+        targetEl.style.display = isHidden ? 'block' : 'none';
+        if (icon) icon.textContent = isHidden ? '▲' : '▼';
+      }
+    });
+  });
+}
+
+function renderSession15Dialogues() {
+  const container = document.getElementById('session15DialoguesWrap');
+  const data = getSession15Data('SESSION_15_DIALOGUES');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <!-- Dialogue 1: The Boat Race -->
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">HANDOUT PAGE 3 • LISTENING 1</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${escapeHtml(data.dialogue1.title)}
+          </h4>
+          <span style="font-size:0.85rem; color:var(--text-muted);">${escapeHtml(data.dialogue1.topic)}</span>
+        </div>
+        <div style="display:flex; gap:0.5rem; align-items:center;">
+          <button class="btn btn-primary" onclick="checkSession15Story1Gaps()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            ✓ Check Gaps
+          </button>
+          <button class="btn-outline-subtle" onclick="revealSession15Story1Gaps()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            👁 Reveal
+          </button>
+          <button class="btn-outline-subtle" onclick="resetSession15Story1Gaps()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            🔄 Reset
+          </button>
+          <button class="audio-circle-btn" onclick="playSession15Story1Audio()" title="Listen to full dialogue">🔊</button>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:0.65rem; margin-bottom:1.25rem;">
+        ${data.dialogue1.turns.map((turn, idx) => `
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; background:${idx % 2 === 0 ? 'var(--bg-surface)' : 'var(--bg-subtle)'}; padding:0.65rem 0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-light);">
+            <span style="font-weight:800; min-width:65px; color:${turn.speaker === 'Mark' ? 'var(--bc-blue)' : 'var(--emerald)'};">
+              ${escapeHtml(turn.speaker)}:
+            </span>
+            <div style="flex:1; font-size:0.92rem; line-height:1.5; color:var(--text-body);">
+              ${turn.isGap ? `
+                <div style="display:inline-block; vertical-align:middle; width:100%;">
+                  <input type="text" id="s15_gap_story1_${idx}" class="filter-input task-input s15-story1-gap" data-answer="${escapeHtml(turn.answer)}" placeholder="Type conversation closing signal..." style="width:100%; font-weight:700; padding:0.3rem 0.6rem; font-size:0.88rem;">
+                  <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">
+                    💡 <em>Prompt: ${escapeHtml(turn.prompt)}</em>
+                  </div>
+                </div>
+              ` : escapeHtml(turn.text)}
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(turn.text)}')">🔊</button>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Pedagogical Analysis -->
+      <div style="background:rgba(16,185,129,0.06); border:1px solid rgba(16,185,129,0.2); border-radius:var(--radius-sm); padding:0.85rem;">
+        <h6 style="font-size:0.88rem; font-weight:800; color:var(--emerald); margin:0 0 0.35rem;">
+          📋 British Council Listening Analysis:
+        </h6>
+        <p style="font-size:0.88rem; color:var(--text-main); margin:0 0 0.35rem; font-weight:600;">
+          ${escapeHtml(data.dialogue1.pedagogicalAnalysis.question)}
+        </p>
+        <p style="font-size:0.85rem; color:var(--text-body); margin:0 0 0.35rem;">
+          ${escapeHtml(data.dialogue1.pedagogicalAnalysis.answerEn)}
+        </p>
+        <p style="font-size:0.82rem; color:var(--text-muted); margin:0; direction:rtl; text-align:right;">
+          ${escapeHtml(data.dialogue1.pedagogicalAnalysis.answerAr)}
+        </p>
+      </div>
+    </div>
+
+    <!-- Dialogue 2: Colleagues at Work -->
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">HANDOUT PAGE 3 &amp; 4 • LISTENING 2</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${escapeHtml(data.dialogue2.title)}
+          </h4>
+          <span style="font-size:0.85rem; color:var(--text-muted);">${escapeHtml(data.dialogue2.topic)}</span>
+        </div>
+        <div style="display:flex; gap:0.5rem; align-items:center;">
+          <button class="btn btn-primary" onclick="checkSession15Story2Gaps()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            ✓ Check Gaps
+          </button>
+          <button class="btn-outline-subtle" onclick="revealSession15Story2Gaps()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            👁 Reveal
+          </button>
+          <button class="btn-outline-subtle" onclick="resetSession15Story2Gaps()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            🔄 Reset
+          </button>
+          <button class="audio-circle-btn" onclick="playSession15Story2Audio()" title="Listen to full dialogue">🔊</button>
+        </div>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:0.65rem; margin-bottom:1.25rem;">
+        ${data.dialogue2.turns.map((turn, idx) => `
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; background:${idx % 2 === 0 ? 'var(--bg-surface)' : 'var(--bg-subtle)'}; padding:0.65rem 0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-light);">
+            <span style="font-weight:800; min-width:65px; color:${turn.speaker === 'Sarah' ? 'var(--rose)' : 'var(--purple)'};">
+              ${escapeHtml(turn.speaker)}:
+            </span>
+            <div style="flex:1; font-size:0.92rem; line-height:1.5; color:var(--text-body);">
+              ${turn.isGap ? `
+                <div style="display:inline-block; vertical-align:middle; width:100%;">
+                  <input type="text" id="s15_gap_story2_${idx}" class="filter-input task-input s15-story2-gap" data-answer="${escapeHtml(turn.answer)}" placeholder="Type advice formula..." style="width:100%; font-weight:700; padding:0.3rem 0.6rem; font-size:0.88rem;">
+                  <div style="font-size:0.75rem; color:var(--text-muted); margin-top:0.25rem;">
+                    💡 <em>Formula: ${escapeHtml(turn.gapType)}</em>
+                  </div>
+                </div>
+              ` : escapeHtml(turn.text)}
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(turn.text)}')">🔊</button>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Pedagogical Analysis -->
+      <div style="background:rgba(124,58,237,0.06); border:1px solid rgba(124,58,237,0.2); border-radius:var(--radius-sm); padding:0.85rem;">
+        <h6 style="font-size:0.88rem; font-weight:800; color:var(--purple); margin:0 0 0.35rem;">
+          📋 Language of Advice Breakdown:
+        </h6>
+        <p style="font-size:0.88rem; color:var(--text-main); margin:0 0 0.35rem; font-weight:600;">
+          ${escapeHtml(data.dialogue2.pedagogicalAnalysis.question)}
+        </p>
+        <p style="font-size:0.85rem; color:var(--text-body); margin:0 0 0.35rem;">
+          ${escapeHtml(data.dialogue2.pedagogicalAnalysis.answerEn)}
+        </p>
+        <p style="font-size:0.82rem; color:var(--text-muted); margin:0; direction:rtl; text-align:right;">
+          ${escapeHtml(data.dialogue2.pedagogicalAnalysis.answerAr)}
+        </p>
+      </div>
+    </div>
+
+    <!-- Dialogue 3: Singapore Business Icebreakers -->
+    <div class="study-card" style="border-top:4px solid var(--amber);">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--amber); color:#000; border:none;">HANDOUT PAGE 1 &amp; 2 • EXERCISES 2 &amp; 3</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${escapeHtml(data.dialogue3.title)}
+          </h4>
+          <span style="font-size:0.85rem; color:var(--text-muted);">${escapeHtml(data.dialogue3.topic)}</span>
+        </div>
+        <button class="audio-circle-btn" onclick="playSession15Story3Audio()" title="Listen to full dialogue">🔊</button>
+      </div>
+
+      <div style="display:flex; flex-direction:column; gap:0.65rem; margin-bottom:1rem;">
+        ${data.dialogue3.turns.map((turn, idx) => `
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; background:${idx % 2 === 0 ? 'var(--bg-surface)' : 'var(--bg-subtle)'}; padding:0.65rem 0.85rem; border-radius:var(--radius-sm); border:1px solid var(--border-light);">
+            <span style="font-weight:800; min-width:65px; color:${turn.speaker === 'Emma' ? 'var(--bc-blue)' : 'var(--amber)'};">
+              ${escapeHtml(turn.speaker)}:
+            </span>
+            <div style="flex:1; font-size:0.92rem; line-height:1.5; color:var(--text-body);">
+              ${escapeHtml(turn.text)}
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(turn.text)}')">🔊</button>
+          </div>
+        `).join('')}
+      </div>
+
+      <div style="background:rgba(245,158,11,0.06); border:1px solid rgba(245,158,11,0.25); border-radius:var(--radius-sm); padding:0.85rem;">
+        <h6 style="font-size:0.88rem; font-weight:800; color:var(--amber); margin:0 0 0.35rem;">
+          📋 Pedagogical Analysis: Reciprocal Social Questions
+        </h6>
+        <p style="font-size:0.85rem; color:var(--text-body); margin:0 0 0.35rem;">
+          ${escapeHtml(data.dialogue3.pedagogicalAnalysis.answerEn)}
+        </p>
+        <p style="font-size:0.82rem; color:var(--text-muted); margin:0; direction:rtl; text-align:right;">
+          ${escapeHtml(data.dialogue3.pedagogicalAnalysis.answerAr)}
+        </p>
+      </div>
+    </div>
+  `;
+}
+
+function checkSession15Story1Gaps() {
+  const inputs = document.querySelectorAll('.s15-story1-gap');
+  inputs.forEach(inp => {
+    const val = inp.value.trim().toLowerCase();
+    const ans = inp.getAttribute('data-answer').toLowerCase();
+    if (val.length > 5 && (ans.includes(val) || val.includes('lunch break') || val.includes('see you later'))) {
+      inp.style.borderColor = 'var(--emerald)';
+      inp.style.background = 'rgba(16,185,129,0.08)';
+    } else {
+      inp.style.borderColor = 'var(--rose)';
+      inp.style.background = 'rgba(239,68,68,0.08)';
+    }
+  });
+}
+
+function revealSession15Story1Gaps() {
+  const inputs = document.querySelectorAll('.s15-story1-gap');
+  inputs.forEach(inp => {
+    inp.value = inp.getAttribute('data-answer');
+  });
+  checkSession15Story1Gaps();
+}
+
+function resetSession15Story1Gaps() {
+  const inputs = document.querySelectorAll('.s15-story1-gap');
+  inputs.forEach(inp => {
+    inp.value = '';
+    inp.style.borderColor = '';
+    inp.style.background = '';
+  });
+}
+
+function playSession15Story1Audio() {
+  const data = getSession15Data('SESSION_15_DIALOGUES');
+  if (!data || !data.dialogue1) return;
+  const script = data.dialogue1.turns.map(t => `${t.speaker}: ${t.text}`).join('. ');
+  speakUK(script);
+}
+
+function checkSession15Story2Gaps() {
+  const inputs = document.querySelectorAll('.s15-story2-gap');
+  inputs.forEach(inp => {
+    const val = inp.value.trim().toLowerCase();
+    const ans = inp.getAttribute('data-answer').toLowerCase();
+    if (val.length > 3 && ans.includes(val)) {
+      inp.style.borderColor = 'var(--emerald)';
+      inp.style.background = 'rgba(16,185,129,0.08)';
+    } else {
+      inp.style.borderColor = 'var(--rose)';
+      inp.style.background = 'rgba(239,68,68,0.08)';
+    }
+  });
+}
+
+function revealSession15Story2Gaps() {
+  const inputs = document.querySelectorAll('.s15-story2-gap');
+  inputs.forEach(inp => {
+    inp.value = inp.getAttribute('data-answer');
+  });
+  checkSession15Story2Gaps();
+}
+
+function resetSession15Story2Gaps() {
+  const inputs = document.querySelectorAll('.s15-story2-gap');
+  inputs.forEach(inp => {
+    inp.value = '';
+    inp.style.borderColor = '';
+    inp.style.background = '';
+  });
+}
+
+function playSession15Story2Audio() {
+  const data = getSession15Data('SESSION_15_DIALOGUES');
+  if (!data || !data.dialogue2) return;
+  const script = data.dialogue2.turns.map(t => `${t.speaker}: ${t.text}`).join('. ');
+  speakUK(script);
+}
+
+function playSession15Story3Audio() {
+  const data = getSession15Data('SESSION_15_DIALOGUES');
+  if (!data || !data.dialogue3) return;
+  const script = data.dialogue3.turns.map(t => `${t.speaker}: ${t.text}`).join('. ');
+  speakUK(script);
+}
+
+function renderSession15Smartboard() {
+  const container = document.getElementById('session15SmartboardWrap');
+  const items = getSession15Data('SESSION_15_SMARTBOARD_MATCHING');
+  if (!container || !items) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid #0284c7; margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:#0284c7; color:#fff; border:none;">HANDOUT PAGE 3 &amp; SMARTBOARDS 1 &amp; 2 • MATCHING LAB</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            12 Conversational Phrases: Initiating vs. Closing &amp; Register Sorting
+          </h4>
+          <p style="font-size:0.85rem; color:var(--text-muted); margin:0.2rem 0 0;">
+            Classify each authentic British Council phrase into Initiating (I) or Closing (C), and test your intuition on Formal vs. Informal registers.
+          </p>
+        </div>
+        <div style="display:flex; gap:0.5rem;">
+          <button class="btn btn-primary" onclick="checkSession15Matches()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            ✓ Check Matches
+          </button>
+          <button class="btn-outline-subtle" onclick="revealSession15Matches()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            👁 Reveal All
+          </button>
+          <button class="btn-outline-subtle" onclick="resetSession15Matches()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            🔄 Reset
+          </button>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+        ${items.map(item => `
+          <div class="study-card s15-match-card" id="s15_match_${item.id}" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; gap:0.65rem;">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+              <span class="teacher-badge" style="font-size:0.72rem;">PHRASE #${item.id.replace('sb', '')}</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.phrase)}')">🔊</button>
+            </div>
+
+            <!-- The Phrase -->
+            <div style="background:rgba(0,102,245,0.06); border:1.5px solid rgba(0,102,245,0.2); border-radius:var(--radius-sm); padding:0.65rem 0.8rem; font-size:1.02rem; font-weight:800; color:var(--text-main);">
+              "${escapeHtml(item.phrase)}"
+            </div>
+
+            <!-- Two Selectors: Initiating/Closing and Formal/Informal -->
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem;">
+              <div>
+                <label style="font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:0.2rem;">Function:</label>
+                <select class="filter-input task-select s15-cat-select" id="s15_cat_${item.id}" data-correct="${escapeHtml(item.category)}" style="width:100%; font-size:0.82rem; padding:0.3rem 0.5rem; font-weight:700;">
+                  <option value="">-- Function --</option>
+                  <option value="Initiating">Initiating (I)</option>
+                  <option value="Closing">Closing (C)</option>
+                </select>
+              </div>
+              <div>
+                <label style="font-size:0.75rem; color:var(--text-muted); display:block; margin-bottom:0.2rem;">Register:</label>
+                <select class="filter-input task-select s15-reg-select" id="s15_reg_${item.id}" data-correct="${escapeHtml(item.register)}" style="width:100%; font-size:0.82rem; padding:0.3rem 0.5rem; font-weight:700;">
+                  <option value="">-- Register --</option>
+                  <option value="Formal">Formal</option>
+                  <option value="Neutral / Informal">Neutral / Informal</option>
+                  <option value="Informal">Informal</option>
+                  <option value="Very Informal">Very Informal</option>
+                  <option value="Polite / Formal">Polite / Formal</option>
+                  <option value="Neutral / Polite">Neutral / Polite</option>
+                  <option value="Polite / Neutral">Polite / Neutral</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Arabic Meaning & Teacher Board Note -->
+            <div style="font-size:0.82rem; color:var(--text-muted); border-top:1px dashed var(--border-light); padding-top:0.5rem; margin-top:auto;">
+              <div style="direction:rtl; text-align:right; margin-bottom:0.25rem; color:var(--text-body);">
+                ${escapeHtml(item.arMeaning)}
+              </div>
+              <div style="font-size:0.78rem; background:var(--bg-subtle); padding:0.3rem 0.5rem; border-radius:4px; color:var(--text-main); line-height:1.4;">
+                📋 <strong>Usage Note:</strong> ${escapeHtml(item.responseNote)}
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function checkSession15Matches() {
+  const catSelects = document.querySelectorAll('.s15-cat-select');
+  catSelects.forEach(sel => {
+    const val = sel.value;
+    const correct = sel.getAttribute('data-correct');
+    if (val === correct) {
+      sel.style.borderColor = 'var(--emerald)';
+      sel.style.background = 'rgba(16,185,129,0.08)';
+    } else {
+      sel.style.borderColor = 'var(--rose)';
+      sel.style.background = 'rgba(239,68,68,0.08)';
+    }
+  });
+
+  const regSelects = document.querySelectorAll('.s15-reg-select');
+  regSelects.forEach(sel => {
+    const val = sel.value;
+    const correct = sel.getAttribute('data-correct');
+    // Flexible check for registers
+    if (val && correct.toLowerCase().includes(val.toLowerCase())) {
+      sel.style.borderColor = 'var(--emerald)';
+      sel.style.background = 'rgba(16,185,129,0.08)';
+    } else {
+      sel.style.borderColor = 'var(--rose)';
+      sel.style.background = 'rgba(239,68,68,0.08)';
+    }
+  });
+}
+
+function revealSession15Matches() {
+  const catSelects = document.querySelectorAll('.s15-cat-select');
+  catSelects.forEach(sel => {
+    sel.value = sel.getAttribute('data-correct');
+  });
+  const regSelects = document.querySelectorAll('.s15-reg-select');
+  regSelects.forEach(sel => {
+    sel.value = sel.getAttribute('data-correct');
+  });
+  checkSession15Matches();
+}
+
+function resetSession15Matches() {
+  const catSelects = document.querySelectorAll('.s15-cat-select');
+  catSelects.forEach(sel => {
+    sel.value = '';
+    sel.style.borderColor = '';
+    sel.style.background = '';
+  });
+  const regSelects = document.querySelectorAll('.s15-reg-select');
+  regSelects.forEach(sel => {
+    sel.value = '';
+    sel.style.borderColor = '';
+    sel.style.background = '';
+  });
+}
+
+function renderSession15VocabGroups() {
+  const container = document.getElementById('session15GroupsWrap');
+  const data = getSession15Data('SESSION_15_VOCAB_GROUPS');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">4 THEMATIC DOMAINS • 28 TARGET LEXIS</span>
+        <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+          Categorized Vocabulary &amp; Conversational Toolkit
+        </h4>
+        <p style="font-size:0.85rem; color:var(--text-muted); margin:0.2rem 0 0;">
+          ${escapeHtml(data.instruction)}
+        </p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;">
+        ${data.categories.map(cat => `
+          <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-md); padding:1rem; display:flex; flex-direction:column; gap:0.65rem;">
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <span style="font-size:1.3rem;">${cat.icon}</span>
+              <strong style="font-size:0.95rem; color:var(--text-main);">${escapeHtml(cat.name)}</strong>
+            </div>
+            <p style="font-size:0.8rem; color:var(--text-muted); margin:0;">
+              ${escapeHtml(cat.note)}
+            </p>
+            <div style="display:flex; flex-wrap:wrap; gap:0.35rem; margin-top:0.35rem;">
+              ${cat.words.map(w => `
+                <button type="button" class="tag-pill" onclick="speakUK('${escapeJs(w)}')" style="cursor:pointer; display:flex; align-items:center; gap:0.25rem; padding:0.25rem 0.55rem; font-size:0.8rem; background:rgba(124,58,237,0.06); color:var(--purple); border:1px solid rgba(124,58,237,0.25); border-radius:var(--radius-sm);">
+                  <span>${escapeHtml(w)}</span>
+                  <span style="font-size:0.65rem;">🔊</span>
+                </button>
+              `).join('')}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession15Dilemmas() {
+  const container = document.getElementById('session15DilemmasWrap');
+  const dilemmas = getSession15Data('SESSION_15_DILEMMAS');
+  if (!container || !dilemmas) return;
+
+  container.innerHTML = dilemmas.map(dil => `
+    <div class="study-card s15-dil-card" id="card_${dil.id}" style="border-top:3.5px solid var(--amber); display:flex; flex-direction:column; gap:0.75rem;">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem;">
+        <span class="teacher-badge" style="background:rgba(245,158,11,0.12); color:var(--amber); border-color:rgba(245,158,11,0.3); font-size:0.75rem; font-weight:800;">
+          ITEM #${dil.itemNum} • WOULD YOU RATHER...?
+        </span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(dil.optionA.text)} or ${escapeJs(dil.optionB.text)}?')">🔊</button>
+      </div>
+
+      <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0;">
+        ${escapeHtml(dil.title)}
+      </h5>
+
+      <!-- Choice Option A -->
+      <button type="button" class="btn-outline-subtle s15-choice-btn" id="btn_${dil.id}_A" onclick="voteSession15Dilemma('${dil.id}', 'A')" style="width:100%; text-align:left; padding:0.65rem 0.85rem; font-size:0.92rem; font-weight:700; border-radius:var(--radius-sm); border:1.5px solid var(--border-light); background:var(--bg-surface); cursor:pointer; display:flex; justify-content:space-between; align-items:center;">
+        <span>🅰️ ${escapeHtml(dil.optionA.text)}</span>
+        <span class="vote-indicator" id="ind_${dil.id}_A" style="font-size:0.75rem; color:var(--text-muted);">Vote</span>
+      </button>
+
+      <!-- Choice Option B -->
+      <button type="button" class="btn-outline-subtle s15-choice-btn" id="btn_${dil.id}_B" onclick="voteSession15Dilemma('${dil.id}', 'B')" style="width:100%; text-align:left; padding:0.65rem 0.85rem; font-size:0.92rem; font-weight:700; border-radius:var(--radius-sm); border:1.5px solid var(--border-light); background:var(--bg-surface); cursor:pointer; display:flex; justify-content:space-between; align-items:center;">
+        <span>🅱️ ${escapeHtml(dil.optionB.text)}</span>
+        <span class="vote-indicator" id="ind_${dil.id}_B" style="font-size:0.75rem; color:var(--text-muted);">Vote</span>
+      </button>
+
+      <!-- Second Conditional Speech Model (Shown on click) -->
+      <div id="speech_${dil.id}" style="display:none; background:rgba(245,158,11,0.06); border:1px solid rgba(245,158,11,0.25); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.86rem; line-height:1.45; margin-top:0.25rem;">
+        <div style="font-weight:700; color:var(--amber); margin-bottom:0.25rem;">
+          💬 Second Conditional Debate Model:
+        </div>
+        <p style="margin:0 0 0.5rem; color:var(--text-body);">
+          "${escapeHtml(dil.modelSecondConditional)}"
+        </p>
+        <button class="btn btn-primary" onclick="speakUK('${escapeJs(dil.audioText)}')" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+          🔊 Play Model Speech
+        </button>
+      </div>
+
+      <!-- Pros and Cons Comparison -->
+      <div style="margin-top:auto; padding-top:0.5rem; border-top:1px dashed var(--border-light); font-size:0.78rem; color:var(--text-muted);">
+        <div><strong>A Pros:</strong> ${escapeHtml(dil.optionA.pros)}</div>
+        <div><strong>B Pros:</strong> ${escapeHtml(dil.optionB.pros)}</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function voteSession15Dilemma(dilId, chosenOpt) {
+  const btnA = document.getElementById(`btn_${dilId}_A`);
+  const btnB = document.getElementById(`btn_${dilId}_B`);
+  const indA = document.getElementById(`ind_${dilId}_A`);
+  const indB = document.getElementById(`ind_${dilId}_B`);
+  const speechBox = document.getElementById(`speech_${dilId}`);
+
+  if (chosenOpt === 'A') {
+    btnA.style.borderColor = 'var(--emerald)';
+    btnA.style.background = 'rgba(16,185,129,0.1)';
+    indA.textContent = '✓ Your Choice (68%)';
+    indA.style.color = 'var(--emerald)';
+    indA.style.fontWeight = '800';
+
+    btnB.style.borderColor = 'var(--border-light)';
+    btnB.style.background = 'var(--bg-surface)';
+    indB.textContent = '32%';
+    indB.style.color = 'var(--text-muted)';
+  } else {
+    btnB.style.borderColor = 'var(--emerald)';
+    btnB.style.background = 'rgba(16,185,129,0.1)';
+    indB.textContent = '✓ Your Choice (74%)';
+    indB.style.color = 'var(--emerald)';
+    indB.style.fontWeight = '800';
+
+    btnA.style.borderColor = 'var(--border-light)';
+    btnA.style.background = 'var(--bg-surface)';
+    indA.textContent = '26%';
+    indA.style.color = 'var(--text-muted)';
+  }
+
+  if (speechBox) {
+    speechBox.style.display = 'block';
+  }
+}
+
+function renderSession15Speaking() {
+  const container = document.getElementById('session15SpeakingWrap');
+  const prompts = getSession15Data('SESSION_15_DISCUSSION_LAB');
+  if (!container || !prompts) return;
+
+  container.innerHTML = prompts.map(p => `
+    <div class="study-card" style="border-top:3.5px solid var(--bc-blue); display:flex; flex-direction:column; gap:0.75rem;">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem;">
+        <span class="teacher-badge" style="font-size:0.72rem; padding:0.15rem 0.45rem;">
+          PROMPT #${p.num} • ${escapeHtml(p.level)}
+        </span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.prompt)}')">🔊</button>
+      </div>
+
+      <p style="font-size:0.95rem; font-weight:700; color:var(--text-main); margin:0; line-height:1.45;">
+        ${escapeHtml(p.prompt)}
+      </p>
+
+      <div style="display:flex; flex-wrap:wrap; gap:0.35rem;">
+        ${p.keyLexisUsed.map(w => `<span class="teacher-badge" style="font-size:0.7rem; padding:0.1rem 0.4rem; background:rgba(0,102,245,0.06); color:var(--bc-blue); border-color:rgba(0,102,245,0.2);">${escapeHtml(w)}</span>`).join('')}
+      </div>
+
+      <div style="margin-top:auto; padding-top:0.65rem; border-top:1px dashed var(--border-light);">
+        <button type="button" class="btn-outline-subtle btn-s15-speech-toggle" data-target="s15SpeechAns_${p.num}" style="width:100%; font-size:0.8rem; padding:0.35rem 0.75rem; display:flex; justify-content:space-between; align-items:center;">
+          <span>💡 Expandable Model Answer</span>
+          <span class="toggle-icon">▼</span>
+        </button>
+        <div id="s15SpeechAns_${p.num}" style="display:none; margin-top:0.65rem; background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.88rem; line-height:1.5;">
+          <p style="margin:0 0 0.5rem; color:var(--text-body);">
+            "${escapeHtml(p.modelSpeech)}"
+          </p>
+          <button class="btn btn-primary" onclick="speakUK('${escapeJs(p.audioText)}')" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+            🔊 Play Spoken Speech
+          </button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  container.querySelectorAll('.btn-s15-speech-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-target');
+      const targetEl = document.getElementById(targetId);
+      const icon = btn.querySelector('.toggle-icon');
+      if (targetEl) {
+        const isHidden = targetEl.style.display === 'none';
+        targetEl.style.display = isHidden ? 'block' : 'none';
+        if (icon) icon.textContent = isHidden ? '▲' : '▼';
+      }
+    });
+  });
+}
+
+function renderSession15Feedback() {
+  const container = document.getElementById('session15FeedbackWrap');
+  const items = getSession15Data('SESSION_15_TEACHER_FEEDBACK');
+  if (!container || !items) return;
+
+  container.innerHTML = items.map(f => `
+    <div class="study-card" style="border-top:3.5px solid var(--rose); display:flex; flex-direction:column; gap:0.65rem; background:linear-gradient(180deg, var(--bg-surface) 0%, rgba(239,68,68,0.02) 100%);">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span class="teacher-badge" style="background:rgba(239,68,68,0.1); color:var(--rose); border-color:rgba(239,68,68,0.3); font-size:0.72rem;">
+          ${escapeHtml(f.category)}
+        </span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(f.speech)}')">🔊</button>
+      </div>
+
+      <!-- Incorrect (Live Board Markup) -->
+      <div style="background:rgba(239,68,68,0.08); padding:0.45rem 0.65rem; border-radius:var(--radius-sm); font-size:0.88rem; color:var(--rose); font-family:monospace;">
+        ❌ <s style="text-decoration:line-through; font-weight:600;">${escapeHtml(f.incorrect)}</s>
+      </div>
+
+      <!-- Correct (Teacher Green Pen) -->
+      <div style="background:rgba(16,185,129,0.08); padding:0.45rem 0.65rem; border-radius:var(--radius-sm); font-size:0.9rem; font-weight:700; color:var(--emerald);">
+        ✅ ${escapeHtml(f.correct)}
+      </div>
+
+      <!-- Grammar Rule -->
+      <div style="font-size:0.84rem; color:var(--text-body); line-height:1.45; margin-top:auto;">
+        💡 <strong>Tutor Rule:</strong> ${escapeHtml(f.rule)}
+      </div>
+
+      <!-- Arabic Explanation -->
+      <div style="font-size:0.8rem; color:var(--text-muted); direction:rtl; text-align:right; border-top:1px dashed var(--border-light); padding-top:0.45rem;">
+        ${escapeHtml(f.arRule)}
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderSession15Pronunciation() {
+  const container = document.getElementById('session15PronunciationWrap');
+  const sections = getSession15Data('SESSION_15_PRONUNCIATION_LAB');
+  if (!container || !sections) return;
+
+  container.innerHTML = sections.map((sec, idx) => `
+    <div class="study-card" style="border-top:3.5px solid ${idx === 0 ? 'var(--bc-blue)' : 'var(--purple)'}; display:flex; flex-direction:column; gap:0.75rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span class="teacher-badge" style="font-size:0.72rem;">
+          ${idx === 0 ? 'WEAK FORMS /ə/' : 'INTONATION CURVES'}
+        </span>
+      </div>
+
+      <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0;">
+        ${escapeHtml(sec.category)}
+      </h5>
+
+      <p style="font-size:0.84rem; color:var(--text-muted); margin:0; line-height:1.45;">
+        ${escapeHtml(sec.rule)}
+      </p>
+
+      <div style="display:flex; flex-direction:column; gap:0.5rem; margin-top:0.25rem;">
+        ${sec.items.map(item => `
+          <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.6rem 0.75rem; display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
+            <div>
+              <strong style="font-size:0.9rem; color:var(--text-main); display:block;">
+                ${escapeHtml(item.question || item.phrase)}
+              </strong>
+              ${item.ipa ? `<span style="font-size:0.82rem; font-family:monospace; color:var(--bc-blue); display:block;">${escapeHtml(item.ipa)}</span>` : ''}
+              <span style="font-size:0.76rem; color:var(--text-muted); display:block;">
+                ${escapeHtml(item.stressPattern || item.note)}
+              </span>
+              ${item.arNote ? `<span style="font-size:0.75rem; color:var(--text-muted); direction:rtl; text-align:right; display:block; margin-top:0.15rem;">${escapeHtml(item.arNote)}</span>` : ''}
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.question || item.phrase)}')">🔊</button>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderSession15Notebook() {
+  const container = document.getElementById('session15NotebookWrap');
+  const pages = getSession15Data('SESSION_15_NOTEBOOK_PAGES');
+  if (!container || !pages) return;
+
+  container.innerHTML = pages.map(p => `
+    <div class="study-card paper-texture" style="border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; gap:0.75rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span class="teacher-badge" style="font-size:0.72rem; padding:0.15rem 0.45rem;">
+          ${escapeHtml(p.tag)}
+        </span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.title)}')">🔊</button>
+      </div>
+
+      <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0;">
+        ${escapeHtml(p.title)}
+      </h5>
+
+      <!-- Image thumbnail with lightbox click -->
+      <div style="position:relative; border-radius:var(--radius-sm); overflow:hidden; border:1px solid var(--border-light); cursor:pointer;" onclick="openLightbox('${p.imgUrl}', '${escapeJs(p.title)}', '${escapeJs(p.summary)}')">
+        <img src="${p.imgUrl}" alt="${escapeHtml(p.title)}" style="width:100%; height:180px; object-fit:cover; display:block; transition:transform 0.3s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        <div style="position:absolute; bottom:0; left:0; right:0; background:rgba(0,0,0,0.65); color:#fff; font-size:0.75rem; padding:0.35rem 0.65rem; text-align:center;">
+          🔍 Click to view full-resolution classroom photo
+        </div>
+      </div>
+
+      <p style="font-size:0.84rem; color:var(--text-muted); margin:0;">
+        ${escapeHtml(p.summary)}
+      </p>
+
+      <!-- Verbatim Transcription Box -->
+      <div style="margin-top:auto; background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.75rem; font-size:0.82rem; line-height:1.45; font-family:monospace; max-height:220px; overflow-y:auto; white-space:pre-wrap; color:var(--text-body);">
+        ${escapeHtml(p.fullTranscription)}
+      </div>
+    </div>
+  `).join('');
+}
+
+
 /* --------------------------------------------------------------------------
    15. HELPER UTILITIES & STRING ESCAPERS
    -------------------------------------------------------------------------- */
@@ -5595,6 +6454,7 @@ function showStoriesView(storyId = 'bad_blood') {
   const sec12Materials = document.getElementById('session12Materials');
   const sec13Materials = document.getElementById('session13Materials');
   const sec14Materials = document.getElementById('session14Materials');
+  const sec15Materials = document.getElementById('session15Materials');
 
   // Hide all session materials & spare topics
   if (sec1Materials) sec1Materials.style.display = 'none';
@@ -5606,6 +6466,7 @@ function showStoriesView(storyId = 'bad_blood') {
   if (sec12Materials) sec12Materials.style.display = 'none';
   if (sec13Materials) sec13Materials.style.display = 'none';
   if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   if (spareTopicsSec) spareTopicsSec.style.display = 'none';
 
   if (storiesSec) {
@@ -5633,6 +6494,7 @@ function showSpareTopicsView(topicId = 'reading_and_books') {
   const sec12Materials = document.getElementById('session12Materials');
   const sec13Materials = document.getElementById('session13Materials');
   const sec14Materials = document.getElementById('session14Materials');
+  const sec15Materials = document.getElementById('session15Materials');
 
   // Hide all session materials & stories
   if (sec1Materials) sec1Materials.style.display = 'none';
@@ -5644,6 +6506,7 @@ function showSpareTopicsView(topicId = 'reading_and_books') {
   if (sec12Materials) sec12Materials.style.display = 'none';
   if (sec13Materials) sec13Materials.style.display = 'none';
   if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   if (storiesSec) storiesSec.style.display = 'none';
 
   if (spareTopicsSec) {
@@ -5674,6 +6537,7 @@ function showActiveSessionMaterials() {
   const sec12Materials = document.getElementById('session12Materials');
   const sec13Materials = document.getElementById('session13Materials');
   const sec14Materials = document.getElementById('session14Materials');
+  const sec15Materials = document.getElementById('session15Materials');
 
   let targetEl = null;
   if (currentSessionId === '1') {
@@ -5686,6 +6550,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else if (currentSessionId === '2') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) { sec2Materials.style.display = 'block'; targetEl = sec2Materials; }
@@ -5696,6 +6561,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else if (currentSessionId === '3') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
@@ -5706,6 +6572,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else if (currentSessionId === '10') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
@@ -5716,6 +6583,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else if (currentSessionId === '11') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
@@ -5726,6 +6594,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else if (currentSessionId === '12') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
@@ -5736,6 +6605,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) { sec12Materials.style.display = 'block'; targetEl = sec12Materials; }
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else if (currentSessionId === '13') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
@@ -5746,6 +6616,7 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) { sec13Materials.style.display = 'block'; targetEl = sec13Materials; }
     if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
   } else {
     // Session 14 fallback
     if (sec1Materials) sec1Materials.style.display = 'none';
@@ -5756,7 +6627,8 @@ function showActiveSessionMaterials() {
     if (sec11Materials) sec11Materials.style.display = 'none';
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
-    if (sec14Materials) { sec14Materials.style.display = 'block'; targetEl = sec14Materials; }
+    if (sec14Materials) { sec14Materials.style.display = 'none'; }
+    if (sec15Materials) { sec15Materials.style.display = 'block'; targetEl = sec15Materials; }
   }
 
   if (targetEl) {
