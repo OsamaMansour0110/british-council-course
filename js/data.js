@@ -5983,7 +5983,1870 @@ Classroom task: Work with a partner. Choose one option for each dilemma, justify
   }
 ];
 
+
 /* ==========================================================================
+   SESSION 16: IMPROVING CONVERSATION SKILLS: AVOIDING AWKWARD SILENCES
+   Authentic Handout ARS_B1_01_I029CEU_HO_v1.0 & Smartboards 1–5
+   ========================================================================== */
+
+const VOCAB_SESSION_16 = [
+  {
+    id: 1601,
+    word: "awkward silence",
+    phonetic: "/ˈɔːk.wəd ˈsaɪ.ləns/",
+    pos: "noun",
+    def: "an uncomfortable pause when nobody knows what to say in conversation.",
+    opposite: "flowing dialogue",
+    ar: "صمت محرج / وقفة غير مريحة في المحادثة",
+    context: "There was an awkward silence after the speaker finished his joke, so I asked a question.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1602,
+    word: "small talk",
+    phonetic: "/ˈsmɔːl ˌtɔːk/",
+    pos: "noun",
+    def: "polite, informal conversation about light, everyday topics like the weather.",
+    opposite: "deep discussion",
+    ar: "أحاديث ودية قصيرة وغير رسمية / دردشة عامة",
+    context: "At business conferences, making polite small talk with strangers helps you establish new connections.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1603,
+    word: "break the ice",
+    phonetic: "/breɪk ðiː aɪs/",
+    pos: "idiom",
+    def: "to say or do something that helps people feel relaxed together.",
+    opposite: "create tension",
+    ar: "يكسر الجليد / يزيل التوتر الأولي بين الغرباء",
+    context: "She offered some appetizers to break the ice before starting the marketing presentation.",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 1604,
+    word: "tag question",
+    phonetic: "/ˈtæɡ ˌkwes.tʃən/",
+    pos: "noun",
+    def: "a short question at the end of a sentence to check information.",
+    opposite: "direct question",
+    ar: "سؤال ذيلي / سؤال قصير في نهاية الجملة للتأكيد",
+    context: "You are a friend of Anna's, aren't you? That is a very friendly tag question.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1605,
+    word: "intonation",
+    phonetic: "/ˌɪn.təˈneɪ.ʃən/",
+    pos: "noun",
+    def: "the rise and fall of the pitch of your voice when speaking.",
+    opposite: "monotone voice",
+    ar: "نبرة الصوت والتنغيم صعوداً وهبوطاً أثناء الكلام",
+    context: "When checking known information with a tag question, your intonation normally falls at the end.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1606,
+    word: "mingle",
+    phonetic: "/ˈmɪŋ.ɡəl/",
+    pos: "verb",
+    def: "to move around and talk to different people at a social gathering.",
+    opposite: "isolate yourself",
+    ar: "يختلط بالآخرين ويتجول للتحدث في الحفلات",
+    context: "During the summer party, students were encouraged to mingle and find common interests.",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1607,
+    word: "put off",
+    phonetic: "/pʊt ɒf/",
+    pos: "phrasal verb",
+    def: "to make someone dislike something or feel discouraged from doing it.",
+    opposite: "attract",
+    ar: "ينفر / يصرف الشخص عن الشيء أو يجعله يتردد",
+    context: "People who complain constantly about work often put off others from having a long chat.",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 1608,
+    word: "icebreaker",
+    phonetic: "/ˈaɪsˌbreɪ.kər/",
+    pos: "noun",
+    def: "a question or remark that starts a friendly conversation with a stranger.",
+    opposite: "conversation killer",
+    ar: "عبارة أو سؤال افتتاحي لبدء الحديث مع شخص جديد",
+    context: "Asking about the food or venue is a classic icebreaker at any evening party.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1609,
+    word: "reception",
+    phonetic: "/rɪˈsep.ʃən/",
+    pos: "noun",
+    def: "a formal social party to welcome guests, like after a wedding.",
+    opposite: "private departure",
+    ar: "حفل استقبال رسمي أو اجتماعي للترحيب بالضيوف",
+    context: "Chris flew over to Italy specifically to attend Anna's wedding reception.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1610,
+    word: "sales advisor",
+    phonetic: "/ˈseɪlz ədˌvaɪ.zər/",
+    pos: "noun",
+    def: "a company worker who assists customers and gives advice about buying products.",
+    opposite: "customer",
+    ar: "مستشار مبيعات / مسؤول تقديم المشورة للعملاء",
+    context: "Dave explained that he works as a sales advisor for an international technology firm.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1611,
+    word: "public relations",
+    phonetic: "/ˌpʌb.lɪk rɪˈleɪ.ʃənz/",
+    pos: "noun",
+    def: "the business of presenting a positive image of an organization to people.",
+    opposite: "negative publicity",
+    ar: "العلاقات العامة / بناء صورة إيجابية للمؤسسة",
+    context: "Jane works in public relations, managing media announcements and corporate brand communications.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1612,
+    word: "interruption",
+    phonetic: "/ˌɪn.təˈrʌp.ʃən/",
+    pos: "noun",
+    def: "something that stops someone from speaking or continuing what they are doing.",
+    opposite: "continuity",
+    ar: "مقاطعة للحديث أو العمل",
+    context: "Dave apologized for the sudden interruption when his mobile phone started ringing loudly.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1613,
+    word: "dead air",
+    phonetic: "/ˌded ˈeər/",
+    pos: "noun",
+    def: "an unwanted period of silence during a talk or conversation.",
+    opposite: "lively talk",
+    ar: "فترة صمت مطبقة وغير مرغوبة في الحديث أو البث",
+    context: "Good conversationalists use follow-up questions to eliminate dead air when meeting strangers.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1614,
+    word: "transition",
+    phonetic: "/trænˈzɪʃ.ən/",
+    pos: "noun",
+    def: "a smooth change from one conversation topic or subject to another.",
+    opposite: "abrupt stop",
+    ar: "انتقال سلس من موضوع حديث إلى آخر",
+    context: "Using phrases like 'By the way' allows a natural transition to a new topic.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1615,
+    word: "floor holder",
+    phonetic: "/flɔːr ˈhəʊl.dər/",
+    pos: "noun",
+    def: "a phrase like well or anyway used to keep control of talking.",
+    opposite: "silent pause",
+    ar: "عبارة استبقاء للحديث مثل 'anyway' أو 'well' لمنع المقاطعة",
+    context: "Words like 'Well' and 'Anyway' act as a floor holder while you decide what to say next.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1616,
+    word: "mutual friend",
+    phonetic: "/ˈmjuː.tʃu.əl frend/",
+    pos: "noun",
+    def: "a person who is a friend of two people who meet.",
+    opposite: "total stranger",
+    ar: "صديق مشترك بين طرفين التقيا",
+    context: "Maria and Chris discovered they share a mutual friend named Anna from secondary school.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1617,
+    word: "closing signal",
+    phonetic: "/ˈkləʊ.zɪŋ ˈsɪɡ.nəl/",
+    pos: "noun",
+    def: "a polite sentence showing that you want to end a conversation.",
+    opposite: "opening remark",
+    ar: "إشارة ختامية مهذبة تدل على الرغبة في إنهاء الحديث",
+    context: "'I'd better be getting on' is a very British closing signal when leaving a conference break.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1618,
+    word: "farewell",
+    phonetic: "/feəˈwel/",
+    pos: "noun",
+    def: "an expression or statement of good wishes when parting or leaving.",
+    opposite: "greeting",
+    ar: "توديع وداع / كلمات الوداع والتمنيات الطيبة",
+    context: "They exchanged warm farewells and promised to stay in touch after the wedding.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1619,
+    word: "chit-chat",
+    phonetic: "/ˈtʃɪt.tʃæt/",
+    pos: "noun",
+    def: "light, informal conversation about matters that are not very serious.",
+    opposite: "serious debate",
+    ar: "دردشة خفيفة وتبادل أحاديث بسيطة وغير رسمية",
+    context: "We spent twenty minutes engaged in friendly chit-chat while waiting for the seminar to begin.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1620,
+    word: "common ground",
+    phonetic: "/ˌkɒm.ən ˈɡraʊnd/",
+    pos: "noun",
+    def: "shared interests or opinions between people who are talking together.",
+    opposite: "disagreement",
+    ar: "أرضية مشتركة واهتمامات يتقاسمها الطرفان",
+    context: "They found common ground quickly when they realized both had spent holidays travelling in Rome.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1621,
+    word: "hesitation",
+    phonetic: "/ˌhez.ɪˈteɪ.ʃən/",
+    pos: "noun",
+    def: "a short pause before speaking or acting because you feel unsure.",
+    opposite: "readiness",
+    ar: "تردد / وقفة قصيرة قبل التحدث لعدم التأكد",
+    context: "After a slight hesitation, Nick admitted that his new job in accounts was overwhelming.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1622,
+    word: "rapport",
+    phonetic: "/ræpˈɔːr/",
+    pos: "noun",
+    def: "a friendly relationship where people understand each other and communicate well.",
+    opposite: "hostility",
+    ar: "وفاق وانسجام وتفاهم عميق بين طرفين",
+    context: "Dave tried to build positive rapport with Jane before pitching his marketing proposal.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1623,
+    word: "reciprocal",
+    phonetic: "/rɪˈsɪp.rə.kəl/",
+    pos: "adj",
+    def: "an action or feeling that is given and received equally by both.",
+    opposite: "one-sided",
+    ar: "متبادل / فعل أو شعور يقدمه ويتبادله الطرفان بالتساوي",
+    context: "Healthy social dialogue requires reciprocal questioning rather than one person talking non-stop.",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 1624,
+    word: "social etiquette",
+    phonetic: "/ˌsəʊ.ʃəl ˈet.ɪ.ket/",
+    pos: "noun",
+    def: "polite rules of behavior expected in social and professional situations.",
+    opposite: "rudeness",
+    ar: "آداب اللياقة الاجتماعية وقواعد السلوك المهذب",
+    context: "Social etiquette requires excusing yourself politely before answering an urgent phone call.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1625,
+    word: "turn-taking",
+    phonetic: "/ˈtɜːn ˌteɪ.kɪŋ/",
+    pos: "noun",
+    def: "the natural order in which people speak and listen during dialogue.",
+    opposite: "monologue",
+    ar: "تبادل الأدوار بالتناوب بين المتحدث والمستمع",
+    context: "Smooth turn-taking ensures both speakers have an equal opportunity to express their opinions.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1626,
+    word: "tone of voice",
+    phonetic: "/ˌtəʊn əv ˈvɔɪs/",
+    pos: "noun",
+    def: "the sound and feeling in your voice that shows your attitude.",
+    opposite: "expressionless voice",
+    ar: "نبرة الصوت الدالة على المشاعر والموقف النفسي",
+    context: "A warm and inviting tone of voice helps strangers feel comfortable talking with you.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1627,
+    word: "compliment",
+    phonetic: "/ˈkɒm.plɪ.mənt/",
+    pos: "noun",
+    def: "a polite remark saying something nice or praising another person.",
+    opposite: "insult",
+    ar: "مجاملة لطيفة وثناء على مظهر أو إنجاز الآخرين",
+    context: "Jon paid Blanca a charming compliment by saying that she has a very lovely name.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1628,
+    word: "departure",
+    phonetic: "/dɪˈpɑː.tʃər/",
+    pos: "noun",
+    def: "the act of leaving a conversation, meeting, or social event politely.",
+    opposite: "arrival",
+    ar: "مغادرة / انصراف مهذب من محادثة أو مناسبة",
+    context: "Julia made a quick but graceful departure when Nick started complaining about his long hours.",
+    partOfSpeech: "noun"
+  }
+];
+
+const SESSION_16_LEAD_IN = {
+  questions: [
+    {
+      num: 1,
+      q: "Do you remember a time when you were at a party or a conference where you didn’t know many people? What happened?",
+      b1PartnerModel: "Yes! Last summer I attended an international software conference in London. At first, I felt quite shy because everyone seemed to already know colleagues. But during the morning coffee break, I walked up to the refreshments table and commented on how great the espresso was. That simple comment sparked an hour-long chat with a designer from Berlin!",
+      audioText: "Last summer I attended a software conference in London. I felt shy, but at the coffee break, I made a comment about the espresso. That sparked an hour-long chat with a designer from Berlin."
+    },
+    {
+      num: 2,
+      q: "How easy is it for you to make conversation with people you don’t know? Does it make a difference what language you are speaking?",
+      b1PartnerModel: "It depends a lot on the atmosphere. In my native language, I find it quite effortless because idioms come naturally. However, when speaking English, I sometimes pause to find the exact vocabulary. But I noticed that friendly eye contact, active listening, and a warm smile matter much more than perfect grammar.",
+      audioText: "In my native language it is effortless, but in English I sometimes hesitate for words. However, friendly eye contact and active listening matter far more than grammar."
+    },
+    {
+      num: 3,
+      q: "What are good ways of starting a conversation with someone you don’t know well?",
+      b1PartnerModel: "The most natural way is making an observational remark about your shared environment, like 'It's a fantastic venue, isn't it?' or asking a polite contextual question like 'Have you seen the main speaker before?'. Asking how they know the host is another infallible opener.",
+      audioText: "The most natural way is making an observational remark about your shared environment, or asking a polite contextual question like how they know the host."
+    },
+    {
+      num: 4,
+      q: "What are good topics to talk about with someone you don’t know well?",
+      b1PartnerModel: "Safe, neutral topics are ideal for small talk: recent travel experiences, the food and drinks at the event, local city recommendations, upcoming holidays, and movies or podcasts. These topics allow everyone to participate without controversy.",
+      audioText: "Safe, neutral topics are ideal: recent travel, the food and venue, local recommendations, holidays, and movies. These avoid controversy."
+    },
+    {
+      num: 5,
+      q: "What questions would you never ask someone you don’t know well?",
+      b1PartnerModel: "In British social etiquette, you should strictly avoid asking personal questions about how much money they earn, their political beliefs, marital status, religion, or why they do not have children. Such topics can make people feel very uncomfortable.",
+      audioText: "In social etiquette, avoid personal questions about salary, politics, marital status, or religion. These make strangers feel uncomfortable."
+    },
+    {
+      num: 6,
+      q: "What makes you want to talk to someone again? What puts you off speaking to someone again?",
+      b1PartnerModel: "I want to speak again with people who show genuine curiosity, practice reciprocal turn-taking, and smile warmly. On the contrary, what puts me off is someone who complains non-stop, dominates the dialogue without listening, or constantly glances around the room while you are speaking.",
+      audioText: "I want to talk again with people who show genuine curiosity and listen. What puts me off is someone who complains non-stop or dominates the conversation."
+    }
+  ],
+  questionFormsExercise: [
+    {
+      num: 1,
+      prompt: "___ you enjoying the party?",
+      answer: "Are",
+      options: ["Are", "Have", "Do", "Was"],
+      type: "Present Continuous Question"
+    },
+    {
+      num: 2,
+      prompt: "___ you lived around here for long?",
+      answer: "Have",
+      options: ["Have", "Did", "Are", "Do"],
+      type: "Present Perfect Question (Duration)"
+    },
+    {
+      num: 3,
+      prompt: "What ___ you do for a living?",
+      answer: "do",
+      options: ["do", "are", "have", "did"],
+      type: "Present Simple Question (Profession)"
+    },
+    {
+      num: 4,
+      prompt: "___ this your first visit to Amsterdam?",
+      answer: "Is",
+      options: ["Is", "Was", "Are", "Did"],
+      type: "Present Simple with 'to be'"
+    },
+    {
+      num: 5,
+      prompt: "How ___ your flight?",
+      answer: "was",
+      options: ["was", "is", "did", "were"],
+      type: "Past Simple Question (Experience)"
+    },
+    {
+      num: 6,
+      prompt: "Where ___ you go on holiday last year?",
+      answer: "did",
+      options: ["did", "have", "were", "do"],
+      type: "Past Simple Question (Completed Travel)"
+    }
+  ]
+};
+
+const SESSION_16_DIALOGUES = [
+  {
+    num: 1,
+    title: "Conversation 1: Maria & Chris",
+    setting: "At a wedding party / reception",
+    badge: "Wedding Reception • Social Opener",
+    speakers: ["Maria", "Chris"],
+    audioText: "Maria: Excuse me, could you pass me one of those? Chris: The tomato things? Maria: Yeah, thanks. Hey, you're a friend of Anna's, aren't you? Chris: Yes, we've known each other for years. We were at school together. Maria: Wow! And do you still live around here? Chris: No, I just came over for the wedding. I'm working in Italy at the moment. Maria: Oh, that sounds great. Chris: Yes, I really like it. Have you been there? Maria: Just once, to Rome. I loved it. Chris: Yes, it's a great city. And what about you, where do you...",
+    lines: [
+      { speaker: "Maria", text: "Excuse me, could you pass me one of those..." },
+      { speaker: "Chris", text: "The tomato things?" },
+      { speaker: "Maria", text: "Yeah ... thanks ... Hey, you’re a friend of Anna’s, aren’t you?" },
+      { speaker: "Chris", text: "Yes, we’ve known each other for years. We were at school together." },
+      { speaker: "Maria", text: "Wow! And do you still live around here?" },
+      { speaker: "Chris", text: "No, I just came over for the wedding. I’m working in Italy at the moment." },
+      { speaker: "Maria", text: "Oh, that sounds great." },
+      { speaker: "Chris", text: "Yes, I really like it. Have you been there?" },
+      { speaker: "Maria", text: "Just once, to Rome. I loved it." },
+      { speaker: "Chris", text: "Yes, it’s a great city. And what about you, where do you..." }
+    ],
+    gapQuestion: "Hey, you’re a friend of Anna’s, [aren't you]?",
+    keyFunctions: ["Passing food as icebreaker", "Tag question to confirm shared acquaintance", "Asking about living arrangements and travel"]
+  },
+  {
+    num: 2,
+    title: "Conversation 2: Dave & Jane",
+    setting: "At a marketing conference",
+    badge: "Business Conference • Professional Networking",
+    speakers: ["Dave", "Jane"],
+    audioText: "Dave: Hi, I'm Dave. Do you mind if I join you? Jane: Not at all. I'm Jane. Dave: You were in the marketing presentation this morning, weren't you? Jane: That's right. I thought it was quite interesting. Dave: Yes, he made some very good points. Jane: Anyway, what do you do, Dave? Dave: I'm a sales advisor. What about you? Jane: I'm in PR. I... Dave: Oh, that's my boss calling. If you'll excuse me I have to get that. Jane: Fine. Hopefully we'll get the chance to talk again later.",
+    lines: [
+      { speaker: "Dave", text: "Hi, I’m Dave. Do you mind if I join you?" },
+      { speaker: "Jane", text: "Not at all. I’m Jane." },
+      { speaker: "Dave", text: "You were in the marketing presentation this morning, weren’t you?" },
+      { speaker: "Jane", text: "That’s right. I thought it was quite interesting." },
+      { speaker: "Dave", text: "Yes, he made some very good points." },
+      { speaker: "Jane", text: "Anyway, what do you do, Dave?" },
+      { speaker: "Dave", text: "I’m a sales advisor. What about you?" },
+      { speaker: "Jane", text: "I’m in PR. I ..." },
+      { speaker: "Dave", text: "Oh, that’s my boss calling. If you’ll excuse me I have to get that." },
+      { speaker: "Jane", text: "Fine. Hopefully we’ll get the chance to talk again later." }
+    ],
+    gapQuestion: "You were in the marketing presentation this morning, [weren't you]?",
+    keyFunctions: ["Polite joining request", "Past simple tag question", "Topic pivot with 'Anyway'", "Graceful phone call departure"]
+  },
+  {
+    num: 3,
+    title: "Conversation 3: Jon & Blanca",
+    setting: "At a house party",
+    badge: "Social Party • Casual Icebreaker",
+    speakers: ["Jon", "Blanca"],
+    audioText: "Jon: It's a great party, isn't it? Blanca: Yeah, the foods great. Do you know many people here? Jon: Not really. What about you? Blanca: Me neither. I came with a friend of Fred's. Jon: My name's Jon by the way. Blanca: Blanca. Jon: That's a Spanish name isn't it? Blanca: Maybe, but there's no one Spanish in my family. I suppose my parents just liked the name. Jon: I see. It's a nice name anyway. Blanca: Look, It's time I was going and my friend's waiting for me. Jon: Ok. See you...",
+    lines: [
+      { speaker: "Jon", text: "It’s a great party, isn’t it?" },
+      { speaker: "Blanca", text: "Yeah, the foods great. Do you know many people here?" },
+      { speaker: "Jon", text: "Not really. What about you?" },
+      { speaker: "Blanca", text: "Me neither. I came with a friend of Fred’s." },
+      { speaker: "Jon", text: "My name’s Jon by the way." },
+      { speaker: "Blanca", text: "Blanca." },
+      { speaker: "Jon", text: "That’s a Spanish name isn’t it?" },
+      { speaker: "Blanca", text: "Maybe, but there’s no one Spanish in my family. I suppose my parents just liked the name." },
+      { speaker: "Jon", text: "I see. It’s a nice name anyway." },
+      { speaker: "Blanca", text: "Look, It’s time I was going and my friend’s waiting for me." },
+      { speaker: "Jon", text: "Ok. See you …" }
+    ],
+    gapQuestion: "That’s a Spanish name, [isn't it]?",
+    keyFunctions: ["Party atmosphere tag opener", "Finding common unfamiliarity", "Introducing name mid-chat", "Polite departure excuse"]
+  },
+  {
+    num: 4,
+    title: "Conversation 4: Nick & Julia",
+    setting: "At a company conference break",
+    badge: "Company Conference • Break Mingle",
+    speakers: ["Nick", "Julia"],
+    audioText: "Nick: Well, it's been a busy day, hasn't it? Julia: Yes, but interesting. I don't think I know you, do I? Nick: Sorry, I'm Nick. Julia: Julia. Pleased to meet you. You haven't been with the company long, have you, Nick? Nick: No, I just joined last week. I'm working in the accounts department. Everyone seems quite friendly, but they're so busy all the time and I've got so much work. I've been working late every evening you know, and... Julia: Aha. Nick: ...and, well, I thought this conference would be a bit of a break, but there are such early starts and then... Julia: Well, nice to meet you, Nick. I'd better be getting on. Good luck with the job.",
+    lines: [
+      { speaker: "Nick", text: "Well, it’s been a busy day, hasn’t it?" },
+      { speaker: "Julia", text: "Yes, but interesting. I don’t think I know you, do I?" },
+      { speaker: "Nick", text: "Sorry, I’m Nick." },
+      { speaker: "Julia", text: "Julia. Pleased to meet you. You haven’t been with the company long, have you, Nick?" },
+      { speaker: "Nick", text: "No, I just joined last week. I’m working in the accounts department. Everyone seems quite friendly, but they’re so busy all the time and I’ve got so much work. I’ve been working late every evening you know, and …" },
+      { speaker: "Julia", text: "Aha." },
+      { speaker: "Nick", text: "… and, well, I thought this conference would be a bit of a break, but there are such early starts and then …" },
+      { speaker: "Julia", text: "Well, nice to meet you, Nick. I’d better be getting on. Good luck with the job." }
+    ],
+    gapQuestion: "You haven’t been with the company long, [have you]?",
+    keyFunctions: ["Shared fatigue tag question", "Negative tag with positive meaning", "Complaining puts off partner", "Prompt exit signal: 'I'd better be getting on'"]
+  }
+];
+
+const SESSION_16_SMARTBOARD_MATCHING = [
+  {
+    id: "s16_m1",
+    phrase: "Hello, you work in the café, don't you?",
+    category: "Starting a conversation",
+    arNote: "بدء محادثة باستخدام سؤال ذيلي للتعرف على شخص مألوف"
+  },
+  {
+    id: "s16_m2",
+    phrase: "Let me give you my card.",
+    category: "Closing a conversation",
+    arNote: "إنهاء المحادثة بتبادل بطاقات العمل للتواصل المستقبلي"
+  },
+  {
+    id: "s16_m3",
+    phrase: "It was very nice meeting you.",
+    category: "Closing a conversation",
+    arNote: "عبارة ختامية مهذبة تدل على سرور اللقاء قبل المغادرة"
+  },
+  {
+    id: "s16_m4",
+    phrase: "By the way ...",
+    category: "Changing topic",
+    arNote: "أداة انتقال شائعة لتغيير الموضوع بطريقة طبيعية"
+  },
+  {
+    id: "s16_m5",
+    phrase: "Okay, enjoy the rest of the conference.",
+    category: "Closing a conversation",
+    arNote: "توديع مهذب وختام للمحادثة في المؤتمرات المهنية"
+  },
+  {
+    id: "s16_m6",
+    phrase: "Hi, I think we met at Martin's party.",
+    category: "Starting a conversation",
+    arNote: "افتتاحية كسر الجليد بالإشارة إلى لقاء سابق أو مناسبة مشتركة"
+  },
+  {
+    id: "s16_m7",
+    phrase: "Excuse me, could you pass me one of those...?",
+    category: "Starting a conversation",
+    arNote: "طلب شيء من البيئة المحيطة كطريقة عفوية لبدء الحديث"
+  },
+  {
+    id: "s16_m8",
+    phrase: "Hi, I'm Dave. Do you mind if I join you?",
+    category: "Starting a conversation",
+    arNote: "افتتاحية مهذبة للانضمام إلى طاولة أو مجموعة جديدة"
+  },
+  {
+    id: "s16_m9",
+    phrase: "Anyway, what do you do, Dave?",
+    category: "Changing topic",
+    arNote: "استخدام anyway لإعادة توجيه الحديث والسؤال عن الوظيفة"
+  },
+  {
+    id: "s16_m10",
+    phrase: "If you'll excuse me, I have to get that.",
+    category: "Closing a conversation",
+    arNote: "اعتذار مؤقت أو إنهاء الحديث للرد على مكالمة هاتفية"
+  },
+  {
+    id: "s16_m11",
+    phrase: "It's time I was going and my friend's waiting for me.",
+    category: "Closing a conversation",
+    arNote: "إشارة ختامية تدل على ضيق الوقت وانتظار صديق"
+  },
+  {
+    id: "s16_m12",
+    phrase: "I'd better be getting on. Good luck with the job.",
+    category: "Closing a conversation",
+    arNote: "إنهاء الحديث بلباقة لتجنب الاستماع إلى الشكاوى المتكررة"
+  }
+];
+
+const SESSION_16_VOCAB_GROUPS = [
+  {
+    title: "1. Conversational Openers & Social Icebreakers",
+    badge: "Classroom Openers & Meeting New People",
+    icon: "🤝",
+    desc: "Key phrases and strategies to initiate interactions gracefully with strangers in social and casual settings without awkward hesitation.",
+    words: ["mingle", "icebreaker", "small talk", "break the ice", "compliment", "common ground", "mutual friend"]
+  },
+  {
+    title: "2. Question Tags & Auxiliary Grammar",
+    badge: "Smartboard Slides 3 & 4 • Intonation Mechanics",
+    icon: "❓",
+    desc: "Grammatical question tags and vocal pitch contours used to seek agreement, verify shared background, and keep conversation flowing effortlessly.",
+    words: ["tag question", "intonation", "tone of voice", "turn-taking", "floor holder", "hesitation", "reciprocal"]
+  },
+  {
+    title: "3. Workplace & Professional Networking",
+    badge: "Marketing Conference & Accounts Department Context",
+    icon: "💼",
+    desc: "Vocabulary related to business presentations, conference coffee breaks, job roles, handling disruptions, and professional social etiquette.",
+    words: ["sales advisor", "public relations", "reception", "interruption", "social etiquette", "dead air", "awkward silence"]
+  },
+  {
+    title: "4. Smooth Transitions & Polite Partings",
+    badge: "Handout Page 3 • Closing Signals & Goodbyes",
+    icon: "👋",
+    desc: "Strategic phrases for changing subjects naturally, holding the floor, signaling departure, and wrapping up conversations pleasantly.",
+    words: ["transition", "chit-chat", "rapport", "put off", "closing signal", "farewell", "departure"]
+  }
+];
+
+const SESSION_16_QUESTION_TAGS_LAB = {
+  rules: [
+    {
+      title: "Rule 1: Auxiliary Reversal Pattern",
+      content: "Positive statement (+) requires a Negative tag (-): 'You are a friend of Anna's, aren't you?'
+Negative statement (-) requires a Positive tag (+): 'You aren't from around here, are you?'"
+    },
+    {
+      title: "Rule 2: Falling vs. Rising Intonation",
+      content: "Falling intonation (↘): Used when checking information you already believe to be true or expecting agreement. The voice dips at the end.
+Rising intonation (↗): Used when you genuinely do not know the answer and are asking a real question."
+    },
+    {
+      title: "Rule 3: Pronoun Matching",
+      content: "The subject of the tag must always be a personal pronoun matching the sentence subject: 'This cake is delicious, isn't it?' ('This cake' -> 'it'). 'He always throws great parties, doesn't he?'"
+    }
+  ],
+  practiceItems: [
+    {
+      id: "qt_1",
+      statement: "This cake’s delicious,",
+      tag: "isn't it?",
+      full: "This cake's delicious, isn't it?",
+      intonation: "Falling ↘ (Speaker expects agreement; both are eating the cake)",
+      expectedReply: "Yes, it is! The chocolate icing is wonderful."
+    },
+    {
+      id: "qt_2",
+      statement: "We met at the conference last year,",
+      tag: "didn't we?",
+      full: "We met at the conference last year, didn't we?",
+      intonation: "Falling ↘ (Speaker is 90% sure and checking recognition)",
+      expectedReply: "Yes, in Berlin! It's great to see you again."
+    },
+    {
+      id: "qt_3",
+      statement: "The weather wasn’t very good at the weekend,",
+      tag: "was it?",
+      full: "The weather wasn't very good at the weekend, was it?",
+      intonation: "Falling ↘ (Checking shared experience of bad weather)",
+      expectedReply: "No, it rained non-stop all Sunday."
+    },
+    {
+      id: "qt_4",
+      statement: "You went to university with Ally,",
+      tag: "didn't you?",
+      full: "You went to university with Ally, didn't you?",
+      intonation: "Falling ↘ (Checking known fact to open conversation)",
+      expectedReply: "That's right, we shared a flat during our second year."
+    },
+    {
+      id: "qt_5",
+      statement: "You aren’t from around here,",
+      tag: "are you?",
+      full: "You aren't from around here, are you?",
+      intonation: "Slight rise ↗ / fall ↘ (Friendly curiosity about hometown)",
+      expectedReply: "No, I just relocated from Edinburgh last month."
+    },
+    {
+      id: "qt_6",
+      statement: "It’s a fantastic film,",
+      tag: "isn't it?",
+      full: "It's a fantastic film, isn't it?",
+      intonation: "Falling ↘ (Sharing an enthusiastic opinion)",
+      expectedReply: "Absolutely! The cinematography was incredible."
+    },
+    {
+      id: "qt_7",
+      statement: "He always throws great parties,",
+      tag: "doesn't he?",
+      full: "He always throws great parties, doesn't he?",
+      intonation: "Falling ↘ (Social affirmation among guests)",
+      expectedReply: "He really does; the music and food are always spot-on."
+    },
+    {
+      id: "qt_8",
+      statement: "It’s been a lovely week,",
+      tag: "hasn't it?",
+      full: "It's been a lovely week, hasn't it?",
+      intonation: "Falling ↘ (Classic British weather/time opener)",
+      expectedReply: "Yes, so refreshing after all the rain last month."
+    }
+  ]
+};
+
+const SESSION_16_DISCUSSION_LAB = [
+  {
+    num: 1,
+    title: "Prompt 1: The School Summer Party Mingle (Handout p. 3 Ex 5)",
+    scenario: "You are attending your English school's summer party. Mingle with fellow students from different classes. Find at least three things you have in common.",
+    modelSpeech: "Hello there! It's a wonderful evening for a garden party, isn't it? My name is Tariq from the upper-intermediate group. I noticed you were talking about weekend hikes earlier—do you enjoy outdoor trekking? Me too! In fact, I went up to the national park last weekend. How long have you been studying English here? Oh, six months? So have I! We should definitely organize a group hike with our classmates before the term ends.",
+    audioText: "Hello there! It's a wonderful evening for a garden party, isn't it? My name is Tariq. I noticed you were talking about weekend hikes—do you enjoy trekking? Me too! How long have you been studying English here? So have I! We should definitely organize a group hike.",
+    keyLexisUsed: ["mingle", "common ground", "tag question", "small talk", "reciprocal"]
+  },
+  {
+    num: 2,
+    title: "Prompt 2: Conference Coffee Break Networking (Handout p. 3 Ex 3)",
+    scenario: "Roleplay: You are at an international industry conference during a fifteen-minute coffee break. Approach someone standing alone, establish professional rapport, and close politely with a business card exchange.",
+    modelSpeech: "Excuse me, do you mind if I take the chair next to you? It's been quite an intense morning, hasn't it? My name is Sarah, and I work in public relations for GreenTech Solutions. That keynote on renewable supply chains was thought-provoking, wasn't it? What line of work are you in? Oh, sales advisor in industrial logistics? That sounds fascinating. Look, my phone indicates the next workshop is starting in two minutes. Let me give you my card. Hopefully we'll get the chance to talk again later!",
+    audioText: "Excuse me, do you mind if I take the chair next to you? It's been an intense morning, hasn't it? My name is Sarah. That keynote was thought-provoking. What line of work are you in? Let me give you my card. Hopefully we will talk again later!",
+    keyLexisUsed: ["public relations", "sales advisor", "tag question", "closing signal", "farewell"]
+  },
+  {
+    num: 3,
+    title: "Prompt 3: Rescuing an Awkward Silence",
+    scenario: "You are seated next to someone you have never met before at a formal wedding banquet. A heavy awkward silence suddenly falls over the table. How do you intervene?",
+    modelSpeech: "Whenever an awkward silence strikes, I refuse to let panic set in. I usually look around for an immediate sensory hook—perhaps the floral centerpiece or the background music. I might say with a warm smile, 'That jazz band has been playing since five, haven't they? They are remarkably talented!' Then I transition smoothly into a reciprocal question: 'Are you into live music yourself?' This immediately breaks the tension and gives the other person an easy, pressure-free topic to talk about.",
+    audioText: "Whenever an awkward silence strikes, I look around for an immediate sensory hook. I might say, 'That jazz band has been playing since five, haven't they?' Then I ask, 'Are you into live music yourself?' This breaks the tension.",
+    keyLexisUsed: ["awkward silence", "dead air", "transition", "icebreaker", "tone of voice"]
+  }
+];
+
+const SESSION_16_TEACHER_FEEDBACK = [
+  {
+    id: "clinic16_1",
+    incorrect: "You are from Spain, no?",
+    struck: "no?",
+    correct: "You are from Spain, aren't you?",
+    teacherPen: "aren't you? (Use auxiliary tag)",
+    category: "Tag Question vs. Literal Translation Interference",
+    rule: "Many languages (Spanish, Arabic, Italian) use a simple word like 'no?' or 'right?' at the end of statements. In standard English, natural conversational checking requires an auxiliary question tag matching the verb: 'You are... aren't you?'",
+    arRule: "تداخل لغوي شائع: في اللغات الأخرى يقال 'صح؟' أو 'no؟' في نهاية الجملة. في الإنجليزية الطبيعية، نستخدم السؤال الذيلي المتطابق مع الفعل المساعد: You are ➔ aren't you.",
+    speech: "You are from Spain, aren't you?"
+  },
+  {
+    id: "clinic16_2",
+    incorrect: "Excuse me, what did you said?",
+    struck: "said",
+    correct: "Excuse me, what did you say?",
+    teacherPen: "say (bare infinitive after 'did')",
+    category: "Double Past Tense Error in Questions",
+    rule: "In Past Simple questions, the auxiliary 'did' already carries the past tense. The main verb must remain in its bare base form (infinitive without 'to'): 'What did you say?', not 'What did you said?'.",
+    arRule: "خطأ تكرار صيغة الماضي: الفعل المساعد did يحمل زمن الماضي بالفعل، لذا يجب أن يعود الفعل الأساسي إلى مصدره المجرد: What did you say وليس said.",
+    speech: "Excuse me, what did you say?"
+  },
+  {
+    id: "clinic16_3",
+    incorrect: "I am working here since two years.",
+    struck: "am working ... since",
+    correct: "I have been working here for two years.",
+    teacherPen: "have been working ... for",
+    category: "Present Perfect Continuous for Duration up to Now",
+    rule: "To express an ongoing action that started in the past and continues into the present moment, use Present Perfect Continuous ('have been working'). Use 'for' for a length of time (two years) and 'since' for a starting point (since 2024).",
+    arRule: "للتعبير عن عمل بدأ في الماضي ومستمر حتى الآن: نستخدم المضارع التام المستمر (have been working)، ونستخدم for للدلالة على المدة الزمنية (for two years) وليس since.",
+    speech: "I have been working here for two years."
+  },
+  {
+    id: "clinic16_4",
+    incorrect: "By the way, what you do?",
+    struck: "what you do?",
+    correct: "By the way, what do you do?",
+    teacherPen: "what do you do? (insert auxiliary 'do')",
+    category: "Missing Auxiliary 'do' in Present Simple Wh-Questions",
+    rule: "In English information questions (Wh-questions) in the Present Simple, the auxiliary verb 'do' or 'does' is mandatory between the question word and subject pronoun: 'What do you do for a living?'",
+    arRule: "إغفال الفعل المساعد do: في أسئلة المضارع البسيط يجب وضع الفعل المساعد do قبل الفاعل: What do you do وليس What you do.",
+    speech: "By the way, what do you do for a living?"
+  },
+  {
+    id: "clinic16_5",
+    incorrect: "I must to go now, my friend waits me.",
+    struck: "must to ... waits me",
+    correct: "I have to go now; my friend is waiting for me.",
+    teacherPen: "have to go / is waiting for me",
+    category: "Modal Verb Structure & Prepositional Phrasal Verb",
+    rule: "1) The modal verb 'must' takes a bare infinitive without 'to' (or use 'I have to go' / 'I'd better be getting on'). 2) The verb 'wait' requires the preposition 'for' when followed by an object: 'waiting for me', not 'waits me'.",
+    arRule: "تصحيحان: 1) لا يجوز وضع to بعد must، والأفضل في الانصراف المهذب قول I have to go أو I'd better be getting on. 2) الفعل wait يتطلب حرف الجر for: waiting for me وليس waits me.",
+    speech: "I have to go now; my friend is waiting for me."
+  }
+];
+
+const SESSION_16_PRONUNCIATION_LAB = [
+  {
+    category: "Intonation in Question Tags: Agreement Checking vs. Real Question",
+    rule: "If you know or expect the listener to agree with your statement, your pitch falls on the tag question (↘). If you genuinely do not know and need information, your pitch rises on the tag (↗). In social conversation, falling intonation sounds friendlier and encourages the listener to continue chatting.",
+    items: [
+      {
+        question: "It's a great party, isn't it? ↘",
+        type: "Agreement Pitch (Falling ↘)",
+        note: "Speaker is enjoying the party and expects Blanca to confirm. Voice falls on 'it'."
+      },
+      {
+        question: "You haven't been with the company long, have you? ↘",
+        type: "Checking Shared Knowledge (Falling ↘)",
+        note: "Julia already observed Nick is new. Falling intonation prompts him to explain his role."
+      },
+      {
+        question: "You don't happen to have the time, do you? ↗",
+        type: "Genuine Inquiry (Rising ↗)",
+        note: "Speaker does not know the time and needs actual information."
+      }
+    ]
+  },
+  {
+    category: "Connected Speech & Auxiliary Weakening (/ə/ Schwa & Flaps)",
+    rule: "In natural British dialogue, auxiliary verbs in question tags connect smoothly with following pronouns. 'Aren't you' becomes /ˈɑːnt juː/, 'Didn't you' undergoes yod-coalescence to /ˈdɪdntʃuː/, and 'have you' simplifies without heavy glottal stopping.",
+    items: [
+      {
+        phrase: "You went to university with Ally, didn't you?",
+        phonetic: "/jʊ ˈwent tə ˌjuːnɪˈvɜːsɪti wɪð ˈæli | ˈdɪdntʃuː/",
+        note: "Notice the contraction of 'didn't you' into /ˈdɪdntʃuː/ in fast British speech."
+      },
+      {
+        phrase: "This cake's delicious, isn't it?",
+        phonetic: "/ðɪs ˈkeɪks dɪˈlɪʃəs | ˈɪznt ɪt/",
+        note: "The /t/ in 'isn't' links into the vowel /ɪ/ of 'it' without any pause."
+      }
+    ]
+  }
+];
+
+const SESSION_16_NOTEBOOK_PAGES = [
+  {
+    id: "s16_board_1",
+    title: "Smartboard Slide 1: Question Completion & Auxiliary Verbs",
+    imgUrl: "./assets/images/session16_board_question_forms.jpg",
+    tag: "Authentic Smartboard Capture",
+    summary: "British Council classroom smartboard exercise completing conversation questions with auxiliary verbs (do, are, have, was, is, did).",
+    fullTranscription: `[SMARTBOARD SLIDE: ENCOURAGING CONVERSATION]
+Complete the questions with these words:
+[ Have | did | do | was | Are | Is ]
+
+1. [Are] you enjoying the party?
+2. [Have] you lived around here for long?
+3. What [do] you do for a living?
+4. [Is] this your first visit to Amsterdam?
+5. How [was] your flight?
+6. Where [did] you go on holiday last year?
+
+Pedagogical note on board: These questions cover the essential small-talk categories: Present Experience, Living Area, Career, Travel Impressions, Journey, and Recent Holidays.`
+  },
+  {
+    id: "s16_board_2",
+    title: "Smartboard Slide 2: Listening Replies to Tag Questions",
+    imgUrl: "./assets/images/session16_board_listening_replies.jpg",
+    tag: "Classroom Dialogue Focus",
+    summary: "Authentic smartboard showing verbatim listener responses to tag questions from the first three conversations.",
+    fullTranscription: `[SMARTBOARD SLIDE: LISTENING REPLIES]
+Listen to the first three conversations again. What replies do the speakers give?
+
+1. Maria: "You're a friend of Anna's, aren't you?"
+   Chris: "Yes, we've known each other for years. We were at school together."
+
+2. Dave: "You were in the marketing presentation this morning, weren't you?"
+   Jane: "That's right. I thought it was quite interesting."
+
+3. Jon: "It's a great party, isn't it?"
+   Blanca: "Yeah, the foods great. Do you know many people here?"
+
+4. Jon: "That's a Spanish name, isn't it?"
+   Blanca: "Maybe, but there's no one Spanish in my family. I suppose my parents just liked the name."`
+  },
+  {
+    id: "s16_board_3",
+    title: "Smartboard Slide 3: Tag Question Rules & Intonation Contours",
+    imgUrl: "./assets/images/session16_board_tag_rules_intonation.jpg",
+    tag: "Grammar & Phonetics Whiteboard",
+    summary: "Whiteboard notes defining the structure of question tags and comparing falling intonation (agreement) with rising intonation (real question).",
+    fullTranscription: `[SMARTBOARD SLIDE: QUESTION TAG RULES & INTONATION]
+1. Structure:
+   Statement (+) + Negative Tag (-) ➔ "It's a great film, isn't it?"
+   Statement (-) + Positive Tag (+) ➔ "You aren't from around here, are you?"
+
+2. Intonation patterns:
+   - Falling intonation (↘): When you check information or expect the listener to agree.
+     Example: "It's been a busy day, hasn't it? ↘"
+   - Rising intonation (↗): When you genuinely do not know the answer and are asking a question.
+     Example: "I don't think I know you, do I? ↗"`
+  },
+  {
+    id: "s16_board_4",
+    title: "Smartboard Slide 4: Question Tag Practice (Sentences 1–8)",
+    imgUrl: "./assets/images/session16_board_tag_practice.jpg",
+    tag: "Interactive Practice Whiteboard",
+    summary: "Smartboard slide with 8 authentic sentences completed with their appropriate question tags and student practice notes.",
+    fullTranscription: `[SMARTBOARD SLIDE: QUESTION TAG PRACTICE]
+1. This cake's delicious, isn't it?
+2. We met at the conference last year, didn't we?
+3. The weather wasn't very good at the weekend, was it?
+4. You went to university with Ally, didn't you?
+5. You aren't from around here, are you?
+6. It's a fantastic film, isn't it?
+7. He always throws great parties, doesn't he?
+8. It's been a lovely week, hasn't it?
+
+Teacher tip: Practice speaking these sentences with your partner using natural falling intonation on the tag.`
+  },
+  {
+    id: "s16_board_5",
+    title: "Smartboard Slide 5: Categorizing Functional Phrases",
+    imgUrl: "./assets/images/session16_board_conversation_categories.jpg",
+    tag: "Functional Language Table",
+    summary: "Whiteboard table sorting conversational strategies into Starting a conversation, Closing a conversation, and Changing topic.",
+    fullTranscription: `[SMARTBOARD SLIDE: CONVERSATION STAGES]
+1. Starting a conversation:
+   • Hello, you work in the café, don't you?
+   • Hi, I think we met at Martin's party.
+   • Excuse me, could you pass me one of those...
+   • Hi, I'm Dave. Do you mind if I join you?
+
+2. Closing a conversation:
+   • Let me give you my card.
+   • It was very nice meeting you.
+   • Okay, enjoy the rest of the conference.
+   • If you'll excuse me, I have to get that.
+   • It's time I was going and my friend's waiting for me.
+   • I'd better be getting on. Good luck with the job.
+
+3. Changing topic:
+   • By the way ...
+   • Anyway ...`
+  }
+];
+\n
+/* ==========================================================================
+   SESSION 17: COMMUNICATING WITH CONFIDENCE: JOB APPRAISAL INTERVIEW
+   Authentic Handout ARC_B1_01_I016CEU_HO_v1.1 & Smartboards 1–9
+   ========================================================================== */
+
+const VOCAB_SESSION_17 = [
+  {
+    id: 1701,
+    word: "appraisal",
+    phonetic: "/əˈpreɪ.zəl/",
+    pos: "noun",
+    def: "a formal meeting between an employee and manager to review job performance.",
+    opposite: "dismissal",
+    ar: "تقييم أداء سنوي / مقابلة رسمية لتقييم الموظف",
+    context: "During her annual appraisal, Emma discussed her career aspirations and time management goals.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1702,
+    word: "performance",
+    phonetic: "/pəˈfɔː.məns/",
+    pos: "noun",
+    def: "how well or badly a worker completes their tasks and duties.",
+    opposite: "incompetence",
+    ar: "أداء وظيفي / مستوى إنجاز المهام في العمل",
+    context: "Emma's overall performance over the past year was commended by senior directors.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1703,
+    word: "objective",
+    phonetic: "/əbˈdʒek.tɪv/",
+    pos: "noun",
+    def: "a clear goal that a worker aims to achieve within a timeframe.",
+    opposite: "random action",
+    ar: "هدف وظيفي محدد مطلوب تحقيقه خلال فترة زمنية",
+    context: "Setting clear quarterly objectives helps staff members stay motivated and focused on results.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1704,
+    word: "promotion",
+    phonetic: "/prəˈməʊ.ʃən/",
+    pos: "noun",
+    def: "a move to a higher, more important position inside a company.",
+    opposite: "demotion",
+    ar: "ترقية وظيفية إلى منصب أعلى وأهم",
+    context: "After three years of dedicated service, Emma hoped to receive a promotion to Senior Manager.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1705,
+    word: "strength",
+    phonetic: "/streŋθ/",
+    pos: "noun",
+    def: "a good skill or quality that helps someone do work very well.",
+    opposite: "weakness",
+    ar: "نقطة قوة / مهارة متميزة تمكن الموظف من التفوق",
+    context: "Her greatest strength is her ability to communicate complex concepts with extreme clarity.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1706,
+    word: "weakness",
+    phonetic: "/ˈwiːk.nəs/",
+    pos: "noun",
+    def: "an area or habit in someone work that needs development and improvement.",
+    opposite: "strength",
+    ar: "نقطة ضعف / جانب وظيفي بحاجة إلى تدريب وتطوير",
+    context: "Emma's main weakness is allowing departmental meetings to run far beyond their scheduled duration.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1707,
+    word: "punctuality",
+    phonetic: "/ˌpʌŋk.tʃuˈæl.ə.ti/",
+    pos: "noun",
+    def: "the habit of always arriving on time for work and meetings.",
+    opposite: "tardiness",
+    ar: "دقة في المواعيد / الالتزام الصارم بالحضور في الوقت",
+    context: "Punctuality is a crucial professional trait expected from all senior leadership candidates.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1708,
+    word: "deadline",
+    phonetic: "/ˈded.laɪn/",
+    pos: "noun",
+    def: "the specific date or time by which a task must be finished.",
+    opposite: "open schedule",
+    ar: "الموعد النهائي لتسليم العمل أو إنجاز المهمة",
+    context: "Dependable team leaders ensure that their department meets every major project deadline.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1709,
+    word: "time management",
+    phonetic: "/ˈtaɪm ˌmæn.ɪdʒ.mənt/",
+    pos: "noun",
+    def: "the skill of planning and controlling how your work hours are spent.",
+    opposite: "wasting time",
+    ar: "إدارة الوقت وتنظيم الساعات بإنتاجية عالية",
+    context: "Enrolling in a professional time management course would help Emma keep her meetings concise.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1710,
+    word: "adaptability",
+    phonetic: "/əˌdæp.təˈbɪl.ə.ti/",
+    pos: "noun",
+    def: "the ability to change your behavior easily in new or different situations.",
+    opposite: "rigidity",
+    ar: "قدرة على التكيف والتأقلم مع المتغيرات بسهولة",
+    context: "Emma displayed admirable adaptability when restructuring her department during organizational changes.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1711,
+    word: "initiative",
+    phonetic: "/ɪˈnɪʃ.ə.tɪv/",
+    pos: "noun",
+    def: "the ability to take action and make decisions without being told first.",
+    opposite: "passivity",
+    ar: "روح المبادرة والبدء بالعمل دون انتظار التعليمات",
+    context: "Taking personal initiative to solve client complaints demonstrates genuine executive readiness.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1712,
+    word: "workload",
+    phonetic: "/ˈwɜːk.ləʊd/",
+    pos: "noun",
+    def: "the amount of work that a person is expected to do.",
+    opposite: "light duty",
+    ar: "عبء العمل وحجم المهام المكلف بها الموظف",
+    context: "She adjusted her workload flexibly to support colleagues during the busy quarterly audit.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1713,
+    word: "productivity",
+    phonetic: "/ˌprɒd.ʌkˈtɪv.ə.ti/",
+    pos: "noun",
+    def: "the rate and efficiency at which a worker produces useful work.",
+    opposite: "unproductiveness",
+    ar: "إنتاجية / كفاءة ومعدل إنجاز العمل المفيد",
+    context: "Building team unity reduced friction and improved departmental productivity significantly.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1714,
+    word: "procedure",
+    phonetic: "/prəˈsiː.dʒər/",
+    pos: "noun",
+    def: "the correct official way of doing something step by step at work.",
+    opposite: "disorderly practice",
+    ar: "إجراء عمل رسمي ومتبع خطوة بخطوة في المؤسسة",
+    context: "Improving office procedures could save the company hundreds of valuable working hours.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1715,
+    word: "recommendation",
+    phonetic: "/ˌrek.ə.menˈdeɪ.ʃən/",
+    pos: "noun",
+    def: "a helpful suggestion about what someone should do to improve their work.",
+    opposite: "strict order",
+    ar: "توصية أو نصيحة مفيدة لتحسين الأداء الوظيفي",
+    context: "The appraiser provided constructive recommendations rather than harsh negative reprimands.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1716,
+    word: "constructive",
+    phonetic: "/kənˈstrʌk.tɪv/",
+    pos: "adj",
+    def: "useful advice or feedback that helps someone improve rather than hurts them.",
+    opposite: "destructive",
+    ar: "بناء / نقد وتوجيه إيجابي يهدف للتطوير والإصلاح",
+    context: "Managers should always deliver constructive feedback in a supportive and encouraging manner.",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 1717,
+    word: "cooperate",
+    phonetic: "/kəʊˈɒp.ər.eɪt/",
+    pos: "verb",
+    def: "to work together with other team members to achieve a shared goal.",
+    opposite: "obstruct",
+    ar: "يتعاون وينسق العمل المشترك مع الآخرين",
+    context: "Emma plans to cooperate with other branch managers to establish an integrated communication channel.",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1718,
+    word: "expectation",
+    phonetic: "/ˌek.spekˈteɪ.ʃən/",
+    pos: "noun",
+    def: "what a customer or manager reasonably hopes or expects will happen.",
+    opposite: "indifference",
+    ar: "توقع / ما ينتظره العميل أو المدير من نتائج",
+    context: "Managing customer expectations accurately prevents disappointment when project timelines shift.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1719,
+    word: "leadership",
+    phonetic: "/ˈliː.də.ʃɪp/",
+    pos: "noun",
+    def: "the ability to guide, encourage, and make good decisions for a team.",
+    opposite: "followership",
+    ar: "قيادة وتوجيه وإلهام الفريق لاتخاذ قرارات حكيمة",
+    context: "Her inspiring leadership helped maintain staff morale during difficult transition periods.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1720,
+    word: "feedback",
+    phonetic: "/ˈfiːd.bæk/",
+    pos: "noun",
+    def: "helpful comments and advice given to someone about their work performance.",
+    opposite: "silence",
+    ar: "تغذية راجعة / ملاحظات تقييمية للأداء والتوجيه",
+    context: "Receiving honest feedback during an appraisal empowers employees to overcome blind spots.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1721,
+    word: "overtime",
+    phonetic: "/ˈəʊ.və.taɪm/",
+    pos: "noun",
+    def: "extra hours that an employee works beyond their normal agreed working time.",
+    opposite: "regular hours",
+    ar: "ساعات عمل إضافية تتجاوز الدوام الرسمي المحدد",
+    context: "Working excessive overtime every evening is unsustainable and indicates poor scheduling.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1722,
+    word: "self-evaluation",
+    phonetic: "/ˌself.ɪˌvæl.juˈeɪ.ʃən/",
+    pos: "noun",
+    def: "the process of looking honestly at your own work strengths and weaknesses.",
+    opposite: "external judgment",
+    ar: "تقييم ذاتي / مراجعة الموظف لنقاط قوته وضعفه بنفسه",
+    context: "Completing a thorough self-evaluation form before the meeting prepared Emma for tough questions.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1723,
+    word: "development plan",
+    phonetic: "/dɪˈvel.əp.mənt ˌplæn/",
+    pos: "noun",
+    def: "a written list of learning goals and courses to improve job skills.",
+    opposite: "stagnation",
+    ar: "خطة تطوير مهني / برنامج دورات وتدريب للمستقبل",
+    context: "Together with her mentor, she created a six-month development plan focused on executive presentation skills.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1724,
+    word: "exceptional",
+    phonetic: "/ɪkˈsep.ʃən.əl/",
+    pos: "adj",
+    def: "much greater or better than usual; performing work to a superior standard.",
+    opposite: "mediocre",
+    ar: "استثنائي وفائق الجودة / متفوق بشكل باهر",
+    context: "Only five percent of company staff members are graded as performing exceptionally each year.",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 1725,
+    word: "administration",
+    phonetic: "/ədˌmɪn.ɪˈstreɪ.ʃən/",
+    pos: "noun",
+    def: "office work connected with organizing and managing company records and reports.",
+    opposite: "manual labor",
+    ar: "شؤون إدارية / أعمال مكتبية لتنظيم السجلات والتقارير",
+    context: "The extensive administration involved in writing employee review dossiers can be exhausting.",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1726,
+    word: "dependable",
+    phonetic: "/dɪˈpen.də.bəl/",
+    pos: "adj",
+    def: "trustworthy and reliable; someone who always does what they promised to do.",
+    opposite: "unreliable",
+    ar: "يعتمد عليه / موثوق ويلتزم دائماً بما يعد به",
+    context: "Emma has proven herself to be a dependable team player who supports colleagues under stress.",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 1727,
+    word: "resourceful",
+    phonetic: "/rɪˈzɔː.sfəl/",
+    pos: "adj",
+    def: "good at finding quick, clever ways to overcome difficulties and solve problems.",
+    opposite: "unimaginative",
+    ar: "واسع الحيلة / يبتكر حلولاً ذكية وسريعة للمشاكل",
+    context: "She remained remarkably resourceful when our primary software system failed right before the audit.",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 1728,
+    word: "managerial",
+    phonetic: "/ˌmæn.əˈdʒɪə.ri.əl/",
+    pos: "adj",
+    def: "connected with the work of managing a department, team, or business.",
+    opposite: "operational",
+    ar: "إداري / متعلق بمهام إدارة القسم أو الأعمال",
+    context: "Her natural managerial talents make her an outstanding contender for department director.",
+    partOfSpeech: "adjective"
+  }
+];
+
+const SESSION_17_LEAD_IN = {
+  quotes: [
+    {
+      id: "q1",
+      speaker: "Team Leader",
+      text: "It’s a good chance to give feedback on my team’s performance.",
+      sentiment: "Positive",
+      analysis: "Highlights appraisal as a constructive evaluation opportunity."
+    },
+    {
+      id: "q2",
+      speaker: "Junior Employee",
+      text: "You can never be totally honest because you have the appraisal with the person who manages you.",
+      sentiment: "Drawback",
+      analysis: "Underlines the power dynamic and fear of speaking truth to authority."
+    },
+    {
+      id: "q3",
+      speaker: "HR Specialist",
+      text: "We use the system to help with professional development.",
+      sentiment: "Positive",
+      analysis: "Emphasizes long-term training and skill building."
+    },
+    {
+      id: "q4",
+      speaker: "Technical Engineer",
+      text: "If I need training in a particular area I usually mention it at the appraisal.",
+      sentiment: "Positive",
+      analysis: "Uses the interview as a forum to request budget and courses."
+    },
+    {
+      id: "q5",
+      speaker: "Introverted Staff Member",
+      text: "I don’t really like it. I don’t enjoy talking about myself. Luckily it’s only once a year!",
+      sentiment: "Drawback",
+      analysis: "Reflects social anxiety and discomfort with self-promotion."
+    },
+    {
+      id: "q6",
+      speaker: "Senior Manager",
+      text: "There’s a lot of administration before and after the appraisal. I have to write full reports on all of my team.",
+      sentiment: "Drawback",
+      analysis: "Points out bureaucratic paperwork load."
+    },
+    {
+      id: "q7",
+      speaker: "Project Coordinator",
+      text: "The problem here is that my objectives usually change during the year.",
+      sentiment: "Drawback",
+      analysis: "Addresses agile business shifts that make annual targets obsolete."
+    },
+    {
+      id: "q8",
+      speaker: "Corporate Executive",
+      text: "We can only grade a few employees as “performing exceptionally”.",
+      sentiment: "Drawback",
+      analysis: "Refers to strict bell-curve quotas limiting top ratings."
+    }
+  ],
+  discussionQuestions: [
+    {
+      num: 1,
+      q: "Have you ever had a job appraisal / review meeting?",
+      smartboardAnswer: "Most professionals experience annual or semi-annual performance appraisals where goals, KPIs, and wage reviews are discussed with line managers.",
+      modelPartnerTurn: "Yes, in my previous role at a logistics firm, we had an annual appraisal every December. We sat down for forty-five minutes with our department head, reviewed completed projects against annual KPIs, and established a learning development plan for the upcoming fiscal year.",
+      audioText: "In my previous role, we had an annual appraisal every December. We reviewed projects against KPIs and established a learning plan for the upcoming year."
+    },
+    {
+      num: 2,
+      q: "What opportunities for employees do job appraisals create?",
+      smartboardAnswer: "Employees are aware of their strengths and weaknesses and can plan future development. (Verbatim Smartboard 2)",
+      modelPartnerTurn: "Appraisals create a formal channel to showcase achievements, request specialized software training, negotiate salary raises or promotions, and align personal career ambitions with company strategic goals.",
+      audioText: "Employees become aware of their strengths and weaknesses and can plan future development, request training, and negotiate promotions."
+    },
+    {
+      num: 3,
+      q: "What could be some drawbacks of job appraisals?",
+      smartboardAnswer: "It can be a nerve-wracking experience. (Verbatim Smartboard 2)",
+      modelPartnerTurn: "They can trigger high stress and anxiety. If managers lack empathy, appraisals can feel like a courtroom prosecution rather than supportive coaching. Additionally, heavy administrative paperwork and rigid quotas can demotivate high performers.",
+      audioText: "It can be a nerve-wracking experience. Heavy administrative paperwork and rigid grading quotas can demotivate high performers."
+    },
+    {
+      num: 4,
+      q: "How often do you think such reviews should take place?",
+      smartboardAnswer: "Usually at the end of every year. (Verbatim Smartboard 2)",
+      modelPartnerTurn: "While formal evaluations happen at the end of every year, many modern organizations combine this with lightweight monthly or quarterly check-ins. Waiting twelve whole months to provide critical feedback is often too late to correct emerging problems.",
+      audioText: "Usually at the end of every year, but combining this with quarterly check-ins is far more effective than waiting twelve months."
+    }
+  ]
+};
+
+const SESSION_17_EMMA_REPORT = {
+  background: "Emma has been working for a company for 3 years. She hopes to get promoted to Senior Manager. You are the director of this company. Read the report an appraiser wrote after Emma's review meeting and decide if you would give Emma a promotion.",
+  paragraphs: [
+    {
+      num: 1,
+      heading: "1. Adaptability & Changing Circumstances",
+      text: "Over the past year there have been a number of changes in our department. Emma has readily accepted change and has adapted to circumstances around her quite well. She adjusts her workload to meet the needs of the team and handles a variety of assignments. She is good at altering course when it is required. Over the next year Emma could continue working in this area and adapting to changing conditions.",
+      analysis: {
+        category: "Adaptability to change / Flexibility",
+        status: "Strength",
+        recommendation: "Emma could continue working in this area and adapting to changing conditions."
+      }
+    },
+    {
+      num: 2,
+      heading: "2. Meeting Management & Timekeeping",
+      text: "On the other hand, Emma leads meetings which frequently run beyond their allocated time. This often leads to delays in other meetings and interferes with the duties of staff members. Emma should ensure that her meetings start and end on time; one possibility might be for her to attend time management courses.",
+      analysis: {
+        category: "Attendance, Punctuality & Time Management",
+        status: "Weakness",
+        recommendation: "Emma should ensure that her meetings start and end on time; one possibility might be for her to attend time management courses."
+      }
+    },
+    {
+      num: 3,
+      heading: "3. Complex Communication & Interdepartmental Strategy",
+      text: "Nevertheless, one of Emma’s most important skills is her ability to effectively communicate on complex topics. This ability has been very useful for the company over the past year and has helped us overcome several difficulties that occurred. One of the ways for Emma to advance next year could be to cooperate with other departments in order to develop an efficient communication plan.",
+      analysis: {
+        category: "Effective Communication Skills",
+        status: "Strength",
+        recommendation: "One of the ways for Emma to advance next year could be to cooperate with other departments in order to develop an efficient communication plan."
+      }
+    },
+    {
+      num: 4,
+      heading: "4. Building Team Unity & Productivity",
+      text: "In addition, one of the positives about Emma’s management style is her ability to build unity. This has helped reduce disagreements between team members over the past year and has improved productivity significantly. A good idea for Emma’s development next year may be to lead a series of seminars to share her experience.",
+      analysis: {
+        category: "Effective Cooperation & Team Unity",
+        status: "Strength",
+        recommendation: "A good idea for Emma's development next year may be to lead a series of seminars to share her experience."
+      }
+    },
+    {
+      num: 5,
+      heading: "5. Process Innovation & Creative Initiative",
+      text: "Throughout the year, Emma has performed her work as instructed. However, she did not take any opportunities to think about new ways she could be working. Improving processes and procedures could be a significant benefit to the company, and Emma might need to work on her creativity and how to think about the steps she takes in her work and how she can reduce the time it takes.",
+      analysis: {
+        category: "Creativity & Process Innovation",
+        status: "Weakness",
+        recommendation: "Emma might need to work on her creativity, improve processes and procedures, and reduce task time."
+      }
+    },
+    {
+      num: 6,
+      heading: "6. Customer Expectations & Service Approach",
+      text: "Finally, Emma might need to work on managing customer expectations. Her customers reported frequent delays and problems which often turn out to be a problem with how she managed their expectations. Emma could discuss her ways of approaching customers with our customer service managers.",
+      analysis: {
+        category: "Customer Satisfaction & Expectation Management",
+        status: "Weakness",
+        recommendation: "Emma could discuss her ways of approaching customers with our customer service managers."
+      }
+    }
+  ],
+  smartboardSynthesis: {
+    strengths: [
+      "Adaptability to change, flexibility",
+      "Effective communication skills (handling complex topics)",
+      "Effective cooperation skills (building team unity & boosting productivity)"
+    ],
+    weaknesses: [
+      "Poor time management (meetings running over allocated time)",
+      "Lack of creativity (performing work only as instructed without process innovation)",
+      "Poor customer satisfaction (mismanaging delivery expectations leading to complaints)"
+    ],
+    strategies: [
+      "Adaptability: Continue working in this area and adapting to changing conditions.",
+      "Attendance & Punctuality: Should ensure that her meetings start and end on time; attend time management courses.",
+      "Communication: Cooperate with other departments in order to develop an efficient communication plan.",
+      "Cooperation: Lead a series of seminars to share her experience in team building.",
+      "Creativity: Improve processes and procedures; think about steps taken in work to reduce time.",
+      "Customer satisfaction: Discuss her ways of approaching customers with the customer service managers."
+    ]
+  }
+};
+
+const SESSION_17_SMARTBOARD_MATCHING = [
+  {
+    category: "Time management",
+    pos: "punctual, organized, meets deadlines",
+    neg: "always late, disorganized, misses deadlines",
+    arCategory: "إدارة الوقت والالتزام بالمواعيد"
+  },
+  {
+    category: "Communication",
+    pos: "clear, articulate, good listener",
+    neg: "unclear, talks too much, poor listener",
+    arCategory: "مهارات التواصل والاستماع الفعال"
+  },
+  {
+    category: "Teamwork skills",
+    pos: "cooperative, supportive, dependable",
+    neg: "uncooperative, selfish, unreliable",
+    arCategory: "مهارات العمل الجماعي ودعم الفريق"
+  },
+  {
+    category: "Creativity and innovation",
+    pos: "imaginative, resourceful, forward-thinking",
+    neg: "unoriginal, narrow-minded, resistant to change",
+    arCategory: "الإبداع والابتكار والتفكير المستقبلي"
+  },
+  {
+    category: "Customer satisfaction",
+    pos: "polite, attentive, service-minded",
+    neg: "rude, indifferent, unhelpful",
+    arCategory: "إرضاء العملاء وحسن الاستقبال والخدمة"
+  },
+  {
+    category: "Initiative",
+    pos: "proactive, self-motivated, takes charge",
+    neg: "passive, dependent, needs supervision",
+    arCategory: "روح المبادرة والدافع الذاتي"
+  },
+  {
+    category: "Job knowledge",
+    pos: "knowledgeable, skilled, experienced",
+    neg: "inexperienced, unskilled, uninformed",
+    arCategory: "المعرفة التخصصية والخبرة الوظيفية"
+  },
+  {
+    category: "Leadership",
+    pos: "inspiring, confident, decisive",
+    neg: "bossy, indecisive, lacks authority",
+    arCategory: "القيادة والحسم وإلهام الآخرين"
+  },
+  {
+    category: "Managerial skills",
+    pos: "fair, organized, strategic",
+    neg: "unfair, disorganized, poor planner",
+    arCategory: "المهارات الإدارية والتخطيط الاستراتيجي"
+  },
+  {
+    category: "Problem-solving skills",
+    pos: "analytical, practical, calm under pressure",
+    neg: "impulsive, panics easily, avoids problems",
+    arCategory: "حل المشكلات والهدوء تحت الضغط"
+  }
+];
+
+const SESSION_17_VOCAB_GROUPS = [
+  {
+    title: "1. Performance Evaluation & Appraisal",
+    badge: "Official Review Procedures & Outcomes",
+    icon: "📋",
+    desc: "Terminology surrounding formal review meetings, performance criteria, constructive evaluation, and managerial promotions.",
+    words: ["appraisal", "performance", "feedback", "self-evaluation", "constructive", "exceptional", "promotion"]
+  },
+  {
+    title: "2. Professional Objectives & Time Management",
+    badge: "Deadlines, Scheduling & Productivity",
+    icon: "⏱️",
+    desc: "Core vocabulary focused on establishing measurable goals, punctual habits, respecting deadlines, handling workload, and overtime.",
+    words: ["objective", "deadline", "punctuality", "time management", "workload", "productivity", "overtime"]
+  },
+  {
+    title: "3. Leadership, Teamwork & Interpersonal Skills",
+    badge: "Team Cohesion & Stakeholder Relations",
+    icon: "👥",
+    desc: "Qualities that distinguish supportive managers: inspiring leadership, cooperative habits, dependability, and customer expectations.",
+    words: ["leadership", "cooperate", "dependable", "managerial", "initiative", "expectation", "administration"]
+  },
+  {
+    title: "4. Strategic Development & Problem Solving",
+    badge: "Professional Training & Process Innovation",
+    icon: "💡",
+    desc: "Action-oriented lexis describing strengths, addressing weaknesses, embracing adaptability, and implementing development plans.",
+    words: ["recommendation", "development plan", "strength", "weakness", "adaptability", "procedure", "resourceful"]
+  }
+];
+
+const SESSION_17_MODALS_LAB = {
+  rule: "In professional appraisals, we use modal verbs (could, may, might, should) followed by a bare infinitive (base form of the verb) to give polite recommendations and developmental suggestions rather than giving strict authoritarian orders.",
+  situations: [
+    {
+      num: 1,
+      situation: "Anna has problems sleeping at night.",
+      boardAnswer: "She could try sleeping pills. / She might avoid caffeine.",
+      modalUsed: "could / might + base verb",
+      arExpl: "توصية مهذبة باستخدام could أو might متبوعة بالمصدر بدون to."
+    },
+    {
+      num: 2,
+      situation: "Alexander wants to sell his flat.",
+      boardAnswer: "He might try advertising online.",
+      modalUsed: "might + try advertising",
+      arExpl: "اقتراح فكرة محتملة باستخدام might try."
+    },
+    {
+      num: 3,
+      situation: "Maria can’t give up smoking.",
+      boardAnswer: "She might go on a special course.",
+      modalUsed: "might + go",
+      arExpl: "اقتراح حضور دورة متخصصة باستخدام might."
+    },
+    {
+      num: 4,
+      situation: "There’re some really strange noises coming from my car’s engine.",
+      boardAnswer: "You should be able to take it to a mechanic.",
+      modalUsed: "should + be able to take",
+      arExpl: "توصية عملية قوية باستخدام should."
+    },
+    {
+      num: 5,
+      situation: "Your friend doesn’t know what to get for his girlfriend’s birthday.",
+      boardAnswer: "You could always go with flowers.",
+      modalUsed: "could + always go",
+      arExpl: "اقتراح خيار كلاسيكي مضمون باستخدام could always."
+    },
+    {
+      num: 6,
+      situation: "Sasha has nothing to wear to the opera.",
+      boardAnswer: "You may borrow my suit / dress.",
+      modalUsed: "may + borrow",
+      arExpl: "عرض مهذب وموافقة كريمة باستخدام may borrow."
+    },
+    {
+      num: 7,
+      situation: "Bjorn doesn’t know what to do on his holiday.",
+      boardAnswer: "You could visit a local travel agent.",
+      modalUsed: "could + visit",
+      arExpl: "توصية مفيدة باستشارة وكيل سياحة باستخدام could."
+    },
+    {
+      num: 8,
+      situation: "Kira hasn’t got enough money to buy a flat.",
+      boardAnswer: "She might ask bank for a loan.",
+      modalUsed: "might + ask",
+      arExpl: "اقتراح التقدم بطلب قرض بنكي باستخدام might."
+    }
+  ]
+};
+
+const SESSION_17_DISCUSSION_LAB = [
+  {
+    num: 1,
+    title: "Task 1: Delivering Constructive Appraisal Feedback",
+    prompt: "Roleplay: You are conducting an annual performance review with a team member who is exceptionally creative and loved by customers, but frequently misses administrative deadlines and submits disorganized expense reports. How do you deliver constructive feedback?",
+    modelSpeech: "Thank you for joining me today, Sarah. First, I want to formally commend your exceptional creativity and the wonderful rapport you have built with our premier clients—customer satisfaction scores in your sector are up by twenty percent! However, looking at your administrative duties, there is an area we need to address. Several expense reports and project dossiers have missed their deadlines over the past quarter. Emma and I recommend that you set aside thirty minutes every Friday afternoon strictly for administration. You might also consider using our project management software notifications. How do you feel about implementing that schedule?",
+    audioText: "First, I want to commend your exceptional creativity and customer rapport. However, several expense reports missed deadlines. We recommend setting aside thirty minutes every Friday for administration. How do you feel about that?",
+    keyLexisUsed: ["appraisal", "commendable", "deadline", "constructive", "recommendation", "administration"]
+  },
+  {
+    num: 2,
+    title: "Task 2: Negotiating a Promotion & Professional Development Budget",
+    prompt: "Roleplay: You are Emma during your review with the company director. You want to ask for a promotion to Senior Manager, but the director has raised concerns about your meeting durations. How do you justify your promotion request while presenting a clear strategy?",
+    modelSpeech: "I truly appreciate your feedback regarding meeting management. I completely accept that allowing discussions to run over their allocated time creates knock-on delays for the department. To solve this immediately, I have already registered for an executive time-management seminar starting next Tuesday, and I am establishing strict fifteen-minute agendas for all team standups. Over the past three years, I have successfully adapted to departmental restructuring and boosted our team productivity significantly. With this structured improvement in place, I believe I am fully ready to take on the Senior Manager responsibilities.",
+    audioText: "I appreciate your feedback regarding meeting management. I accept that running over time causes delays. I have registered for a time-management seminar and set strict agendas. I believe I am ready for the Senior Manager role.",
+    keyLexisUsed: ["promotion", "time management", "allocated time", "productivity", "adaptability", "objective"]
+  },
+  {
+    num: 3,
+    title: "Task 3: Best Employee Bonus Decision (Handout p. 4 Ex 4)",
+    prompt: "Group Discussion: Review Emma's appraisal alongside other candidates. Should she be awarded the annual performance bonus, or should the bonus be reserved for a staff member with zero timekeeping issues?",
+    modelSpeech: "While Emma undeniably possesses commendable strengths in interdepartmental communication and team unity, awarding her the top performance bonus this year might send the wrong message regarding organizational discipline. Time management and customer satisfaction are core operational pillars. Instead, I propose awarding her a targeted professional development grant to cover her leadership training, with an explicit agreement that meeting punctuality and customer complaint resolution will be re-evaluated in six months for a formal promotion.",
+    audioText: "Awarding Emma the top bonus might send the wrong message regarding discipline. I propose awarding her a targeted professional development grant, with a formal review in six months.",
+    keyLexisUsed: ["performance", "bonus", "punctuality", "development plan", "criteria", "managerial"]
+  }
+];
+
+const SESSION_17_TEACHER_FEEDBACK = [
+  {
+    id: "clinic17_1",
+    incorrect: "He worked in this position for 2 years.",
+    struck: "worked",
+    correct: "He has worked in this position for 2 years.",
+    teacherPen: "has worked (Present Perfect for ongoing duration)",
+    category: "Present Perfect vs. Past Simple with 'for 2 years' (Smartboard 9)",
+    rule: "When an employee started a job in the past and is still currently in that same job today, you must use the Present Perfect: 'He has worked in this position for two years.' Using Past Simple ('He worked') means he has already left the position.",
+    arRule: "المضارع التام مع المدة الزمنية: بما أن الموظف ما زال في وظيفته حتى اللحظة، يجب استخدام المضارع التام (He has worked for 2 years). استخدام الماضي البسيط يعني أنه ترك الوظيفة.",
+    speech: "He has worked in this position for two years."
+  },
+  {
+    id: "clinic17_2",
+    incorrect: "She have high problem-solving skills.",
+    struck: "have high",
+    correct: "She has commendable (or strong) problem-solving skills.",
+    teacherPen: "has commendable / strong",
+    category: "Subject-Verb Agreement & Natural Business Collocations (Smartboard 9)",
+    rule: "Two errors: 1) Third person singular subject 'She' requires 'has', not 'have'. 2) In professional appraisal reports, we do not say 'high skills'; the standard professional collocations are 'commendable skills', 'strong skills', or 'exceptional problem-solving skills'.",
+    arRule: "تصحيحان: 1) توافق الفعل مع الفاعل: She has وليس have. 2) المتلازمات اللفظية المهنية: لا يقال high skills بل commendable skills (مهارات جديرة بالثناء) أو strong skills.",
+    speech: "She has commendable problem-solving skills."
+  },
+  {
+    id: "clinic17_3",
+    incorrect: "He should work his creativity.",
+    struck: "work his",
+    correct: "He should work on his creativity.",
+    teacherPen: "work on his",
+    category: "Preposition with Skill Improvement (Smartboard 9)",
+    rule: "The phrasal verb meaning 'to spend time producing or improving something' is 'work on'. You work on your weaknesses, work on your punctuality, or work on your creativity. Never omit 'on'.",
+    arRule: "حرف الجر مع فعل التطوير: للتعبير عن العمل على تحسين مهارة أو جانب معين نستخدم دائماً حرف الجر on: work on his creativity.",
+    speech: "He should work on his creativity."
+  },
+  {
+    id: "clinic17_4",
+    incorrect: "He can miss deadlines.",
+    struck: "miss",
+    correct: "He can meet deadlines.",
+    teacherPen: "meet deadlines (Professional achievement)",
+    category: "Opposite Collocation in Performance Reviews (Smartboard 9)",
+    rule: "In employee appraisals, finishing tasks on time is described with the positive collocation 'meet deadlines'. 'Miss deadlines' is a serious failure. Saying 'He can miss deadlines' as praise is a severe semantic confusion.",
+    arRule: "متلازمة الالتزام بالمواعيد: إنجاز العمل في الوقت المحدد يسمى meet deadlines، بينما miss deadlines يعني الفشل في الالتزام بالموعد النهائي.",
+    speech: "He is always able to meet deadlines."
+  },
+  {
+    id: "clinic17_5",
+    incorrect: "I make my best in my work every day.",
+    struck: "make my best",
+    correct: "I do my best in my work every day.",
+    teacherPen: "do my best (Fixed collocation)",
+    category: "Make vs. Do Collocation Error",
+    rule: "Effort, duty, and performance collocate with 'do', not 'make'. The fixed English idiom is always 'do one's best': 'I always do my best in my work.'",
+    arRule: "المتلازمة اللفظية الثابتة: بذل الجهد يقترن بالفعل do وليس make: يقال دائماً do my best وليس make my best.",
+    speech: "I do my best in my work every day."
+  }
+];
+
+const SESSION_17_PRONUNCIATION_LAB = [
+  {
+    category: "Silent Letters & Weak Forms in Modal Verbs (could, should, would)",
+    rule: "In the modal auxiliary verbs 'could', 'should', and 'would', the letter 'l' is completely silent (/kʊd/, /ʃʊd/, /wʊd/). When followed by 'have' in connected speech, they reduce to weak forms: 'should have' -> /ˈʃʊd.əv/.",
+    items: [
+      {
+        word: "could",
+        ipa: "/kʊd/",
+        ruleNote: "Silent 'l'. Rhymes with 'good' /ɡʊd/. Never pronounce the 'l'."
+      },
+      {
+        word: "should",
+        ipa: "/ʃʊd/",
+        ruleNote: "Silent 'l'. Starts with /ʃ/ and ends with /d/."
+      },
+      {
+        word: "should ensure",
+        ipa: "/ʃʊd ɪnˈʃɔːr/",
+        ruleNote: "Smooth transition from /d/ to /ɪ/ without a glottal pause."
+      }
+    ]
+  },
+  {
+    category: "Syllable Stress in Appraisal & Management Terminology",
+    rule: "Mastering the rhythmic stress peaks in polysyllabic business vocabulary ensures that your speech sounds authoritative and professional during appraisals.",
+    items: [
+      {
+        word: "appraisal",
+        ipa: "/əˈpreɪ.zəl/",
+        stress: "Second syllable: ap-PRAI-sal."
+      },
+      {
+        word: "punctuality",
+        ipa: "/ˌpʌŋk.tʃuˈæl.ə.ti/",
+        stress: "Primary stress on third syllable: punk-chu-AL-i-ty."
+      },
+      {
+        word: "productivity",
+        ipa: "/ˌprɒd.ʌkˈtɪv.ə.ti/",
+        stress: "Primary stress on third syllable: prod-uk-TIV-i-ty."
+      },
+      {
+        word: "recommendation",
+        ipa: "/ˌrek.ə.menˈdeɪ.ʃən/",
+        stress: "Primary stress on fourth syllable: rek-om-en-DAY-shun."
+      }
+    ]
+  }
+];
+
+const SESSION_17_NOTEBOOK_PAGES = [
+  {
+    id: "s17_board_1",
+    title: "Smartboard Slide 1: What is a Job Appraisal?",
+    imgUrl: "./assets/images/session17_board_what_is_appraisal.jpg",
+    tag: "Authentic Smartboard Capture",
+    summary: "Teacher smartboard presentation defining a job appraisal as an official assessment of strengths, weaknesses, and testing.",
+    fullTranscription: `[SMARTBOARD SLIDE: WHAT'S A JOB APPRAISAL?]
+"The official or formal assessment of the strengths and weaknesses of someone or something. Appraisal often involves observation or some kind of testing."
+
+Key concepts highlighted:
+• Formal vs informal feedback
+• Assessing both strengths and growth opportunities
+• Observation, KPI metrics, and structured development`
+  },
+  {
+    id: "s17_board_2",
+    title: "Smartboard Slide 2: Lead-in Questions & Model Classroom Answers",
+    imgUrl: "./assets/images/session17_board_lead_in_answers.jpg",
+    tag: "Classroom Discussion Board",
+    summary: "British Council whiteboard capturing student answers to the Lead-in questions on appraisal opportunities, drawbacks, and frequency.",
+    fullTranscription: `[SMARTBOARD SLIDE: LEAD-IN DISCUSSION ANSWERS]
+Questions & Green Board Answers:
+2. What opportunities for employees do job appraisals create?
+   ➔ "Employees are aware of their strengths and weaknesses and can plan future development."
+
+3. What could be some drawbacks of job appraisals?
+   ➔ "It can be a nerve-wracking experience."
+
+4. How often do you think such reviews should take place?
+   ➔ "Usually at the end of every year."`
+  },
+  {
+    id: "s17_board_3",
+    title: "Smartboard Slide 3: Emma's Strengths, Weaknesses & Improvement Strategies",
+    imgUrl: "./assets/images/session17_board_strengths_weaknesses.jpg",
+    tag: "Case Study Analysis Slide",
+    summary: "Complete whiteboard breakdown of Emma's 3-year performance review into Strengths, Weaknesses, and Improvement Strategies.",
+    fullTranscription: `[SMARTBOARD SLIDE: EMMA'S REVIEW ANALYSIS]
+1. Emma's Strengths & Weaknesses:
+   Strengths:
+   • Adaptability to change, flexibility
+   • Effective communication skills
+   • Effective cooperation skills
+   
+   Weaknesses:
+   • Poor time management
+   • Lack of creativity
+   • Poor customer satisfaction
+
+2. Strategies she should come up with to improve performance:
+   • Adaptability: Continue working in this area and adapting to changing conditions.
+   • Attendance & Punctuality: Should ensure that her meetings start and end on time.
+   • Communication: Cooperate with other departments in order to develop an efficient communication plan.
+   • Cooperation: Lead a series of seminars to share her experience.
+   • Creativity: Improve processes and procedures; think about steps taken in work and how she can reduce time.
+   • Customer satisfaction: Discuss her ways of approaching customers with the CS managers.`
+  },
+  {
+    id: "s17_board_4",
+    title: "Smartboard Slide 4: Language Focus — Modal Verbs for Future Development",
+    imgUrl: "./assets/images/session17_board_modal_verbs_rules.jpg",
+    tag: "Grammar Analysis Slide",
+    summary: "Classroom language focus analyzing phrases used for Emma's future development and establishing rules for modal verbs.",
+    fullTranscription: `[SMARTBOARD SLIDE: LANGUAGE FOCUS - MODAL VERBS]
+1. Phrases used to talk about future development for Emma:
+   • could continue working on this ...
+   • might be for her to attend time management courses
+   • could be to cooperate with other departments
+   • may be to lead a series of seminars
+   • might need to work on ...
+   • should be looking to ...
+
+2. Do these phrases express strict orders or recommendations?
+   ➔ Recommendations for possible development.
+
+3. Do they refer to past, present or future?
+   ➔ Future (and present development).
+
+4. What words do we use after modal verbs?
+   ➔ Bare Infinitive (base form of the verb without 'to').`
+  },
+  {
+    id: "s17_board_5",
+    title: "Smartboard Slide 5: 8 Situations & Recommended Actions",
+    imgUrl: "./assets/images/session17_board_situations_recommendations.jpg",
+    tag: "Classroom Practice Slide",
+    summary: "Smartboard displaying the 8 authentic life and work situations with green-highlighted model recommendations using modals.",
+    fullTranscription: `[SMARTBOARD SLIDE: 8 SITUATIONS & RECOMMENDATIONS]
+1. Anna has problems sleeping at night.
+   ➔ She could try sleeping pills.
+2. Alexander wants to sell his flat.
+   ➔ He might try advertising online.
+3. Maria can’t give up smoking.
+   ➔ She might go on a special course.
+4. There’re some really strange noises from my car’s engine.
+   ➔ You should be able to take it to a mechanic.
+5. Your friend doesn’t know what to get for his girlfriend’s birthday.
+   ➔ You could always go with flowers.
+6. Sasha has nothing to wear to the opera.
+   ➔ You may borrow my suit / dress.
+7. Bjorn doesn’t know what to do on his holiday.
+   ➔ You could visit a local travel agent.
+8. Kira hasn’t got enough money to buy a flat.
+   ➔ She might ask bank for a loan.`
+  },
+  {
+    id: "s17_board_6",
+    title: "Smartboard Slide 6: Feedback Categories & Adjectives Matrix",
+    imgUrl: "./assets/images/session17_board_feedback_matrix.jpg",
+    tag: "Vocabulary Matrix Slide",
+    summary: "Comprehensive 10-category classroom table contrasting positive vs negative adjectives for performance evaluation.",
+    fullTranscription: `[SMARTBOARD SLIDE: 10 FEEDBACK CATEGORIES MATRIX]
+1. Time management:
+   • Positive: punctual, organized, meets deadlines
+   • Negative: always late, disorganized, misses deadlines
+2. Communication:
+   • Positive: clear, articulate, good listener
+   • Negative: unclear, talks too much, poor listener
+3. Teamwork skills:
+   • Positive: cooperative, supportive, dependable
+   • Negative: uncooperative, selfish, unreliable
+4. Creativity and innovation:
+   • Positive: imaginative, resourceful, forward-thinking
+   • Negative: unoriginal, narrow-minded, resistant to change
+5. Customer satisfaction:
+   • Positive: polite, attentive, service-minded
+   • Negative: rude, indifferent, unhelpful
+6. Initiative:
+   • Positive: proactive, self-motivated, takes charge
+   • Negative: passive, dependent, needs supervision
+7. Job knowledge:
+   • Positive: knowledgeable, skilled, experienced
+   • Negative: inexperienced, unskilled, uninformed
+8. Leadership:
+   • Positive: inspiring, confident, decisive
+   • Negative: bossy, indecisive, lacks authority
+9. Managerial skills:
+   • Positive: fair, organized, strategic
+   • Negative: unfair, disorganized, poor planner
+10. Problem-solving skills:
+   • Positive: analytical, practical, calm under pressure
+   • Negative: impulsive, panics easily, avoids problems`
+  },
+  {
+    id: "s17_board_7",
+    title: "Smartboard Slide 7: Teacher Live Language Feedback Clinic",
+    imgUrl: "./assets/images/session17_board_teacher_live_clinic.jpg",
+    tag: "Error Analysis Whiteboard",
+    summary: "Authentic teacher whiteboard capturing real student speech errors, strikethroughs, and grammatical corrections.",
+    fullTranscription: `[TEACHER LIVE LANGUAGE FEEDBACK BOARD]
+1. "He worked in this position for 2 years."
+   Teacher correction in red: struck through "worked" ➔ "has worked"
+   Rule: Present Perfect with "for 2 years" for continuing duration.
+
+2. "She have high problem-solving skills."
+   Teacher correction in red: struck through "have" ➔ "has", circled "high" ➔ "commendable" (or "strong")
+   Rule: Subject-verb agreement (she has) & natural business collocations.
+
+3. "He should work his creativity."
+   Teacher correction in red: inserted preposition "on" ➔ "He should work on his creativity."
+   Rule: Phrasal verb "work on" + skill.
+
+4. "He can miss deadlines."
+   Teacher correction in red: corrected "miss" ➔ "meet deadlines."
+   Rule: Meet deadlines = positive achievement; miss deadlines = failure.`
+  }
+];
+\n/* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
 if (typeof window !== 'undefined') {
@@ -6065,7 +7928,31 @@ if (typeof window !== 'undefined') {
   window.SESSION_15_DISCUSSION_LAB = typeof SESSION_15_DISCUSSION_LAB !== 'undefined' ? SESSION_15_DISCUSSION_LAB : undefined;
   window.SESSION_15_TEACHER_FEEDBACK = typeof SESSION_15_TEACHER_FEEDBACK !== 'undefined' ? SESSION_15_TEACHER_FEEDBACK : undefined;
   window.SESSION_15_PRONUNCIATION_LAB = typeof SESSION_15_PRONUNCIATION_LAB !== 'undefined' ? SESSION_15_PRONUNCIATION_LAB : undefined;
-  window.SESSION_15_NOTEBOOK_PAGES = typeof SESSION_15_NOTEBOOK_PAGES !== 'undefined' ? SESSION_15_NOTEBOOK_PAGES : undefined;
+  window.SESSION_15_NOTEBOOK_PAGES = typeof SESSION_15_NOTEBOOK_PAGES !== 'undefined' ? SESSION_15_NOTEBOOK_PAGES : undefined;\n
+  // Session 16
+  window.VOCAB_SESSION_16 = typeof VOCAB_SESSION_16 !== 'undefined' ? VOCAB_SESSION_16 : [];
+  window.SESSION_16_LEAD_IN = typeof SESSION_16_LEAD_IN !== 'undefined' ? SESSION_16_LEAD_IN : undefined;
+  window.SESSION_16_DIALOGUES = typeof SESSION_16_DIALOGUES !== 'undefined' ? SESSION_16_DIALOGUES : undefined;
+  window.SESSION_16_SMARTBOARD_MATCHING = typeof SESSION_16_SMARTBOARD_MATCHING !== 'undefined' ? SESSION_16_SMARTBOARD_MATCHING : undefined;
+  window.SESSION_16_VOCAB_GROUPS = typeof SESSION_16_VOCAB_GROUPS !== 'undefined' ? SESSION_16_VOCAB_GROUPS : undefined;
+  window.SESSION_16_QUESTION_TAGS_LAB = typeof SESSION_16_QUESTION_TAGS_LAB !== 'undefined' ? SESSION_16_QUESTION_TAGS_LAB : undefined;
+  window.SESSION_16_DISCUSSION_LAB = typeof SESSION_16_DISCUSSION_LAB !== 'undefined' ? SESSION_16_DISCUSSION_LAB : undefined;
+  window.SESSION_16_TEACHER_FEEDBACK = typeof SESSION_16_TEACHER_FEEDBACK !== 'undefined' ? SESSION_16_TEACHER_FEEDBACK : undefined;
+  window.SESSION_16_PRONUNCIATION_LAB = typeof SESSION_16_PRONUNCIATION_LAB !== 'undefined' ? SESSION_16_PRONUNCIATION_LAB : undefined;
+  window.SESSION_16_NOTEBOOK_PAGES = typeof SESSION_16_NOTEBOOK_PAGES !== 'undefined' ? SESSION_16_NOTEBOOK_PAGES : undefined;
+
+  // Session 17
+  window.VOCAB_SESSION_17 = typeof VOCAB_SESSION_17 !== 'undefined' ? VOCAB_SESSION_17 : [];
+  window.SESSION_17_LEAD_IN = typeof SESSION_17_LEAD_IN !== 'undefined' ? SESSION_17_LEAD_IN : undefined;
+  window.SESSION_17_EMMA_REPORT = typeof SESSION_17_EMMA_REPORT !== 'undefined' ? SESSION_17_EMMA_REPORT : undefined;
+  window.SESSION_17_SMARTBOARD_MATCHING = typeof SESSION_17_SMARTBOARD_MATCHING !== 'undefined' ? SESSION_17_SMARTBOARD_MATCHING : undefined;
+  window.SESSION_17_VOCAB_GROUPS = typeof SESSION_17_VOCAB_GROUPS !== 'undefined' ? SESSION_17_VOCAB_GROUPS : undefined;
+  window.SESSION_17_MODALS_LAB = typeof SESSION_17_MODALS_LAB !== 'undefined' ? SESSION_17_MODALS_LAB : undefined;
+  window.SESSION_17_DISCUSSION_LAB = typeof SESSION_17_DISCUSSION_LAB !== 'undefined' ? SESSION_17_DISCUSSION_LAB : undefined;
+  window.SESSION_17_TEACHER_FEEDBACK = typeof SESSION_17_TEACHER_FEEDBACK !== 'undefined' ? SESSION_17_TEACHER_FEEDBACK : undefined;
+  window.SESSION_17_PRONUNCIATION_LAB = typeof SESSION_17_PRONUNCIATION_LAB !== 'undefined' ? SESSION_17_PRONUNCIATION_LAB : undefined;
+  window.SESSION_17_NOTEBOOK_PAGES = typeof SESSION_17_NOTEBOOK_PAGES !== 'undefined' ? SESSION_17_NOTEBOOK_PAGES : undefined;
+
 
 }
 
