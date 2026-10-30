@@ -602,17 +602,6 @@ function switchSession(sessionId) {
     renderSession17Feedback();
     renderSession17Pronunciation();
     renderSession17Notebook();
-    // Default fallback
-    if (sec1Materials) sec1Materials.style.display = 'none';
-    if (sec2Materials) sec2Materials.style.display = 'none';
-    if (sec3Materials) sec3Materials.style.display = 'none';
-    if (sec10Materials) sec10Materials.style.display = 'none';
-    if (sec10Grammar) sec10Grammar.style.display = 'none';
-    if (sec11Materials) sec11Materials.style.display = 'none';
-    if (sec12Materials) sec12Materials.style.display = 'none';
-    if (sec13Materials) sec13Materials.style.display = 'none';
-    if (sec14Materials) sec14Materials.style.display = 'none';
-    if (sec15Materials) sec15Materials.style.display = 'block';
   }
 
   // Re-initialize games for selected session
@@ -7761,8 +7750,7 @@ function showActiveSessionMaterials() {
     if (sec13Materials) { sec13Materials.style.display = 'block'; targetEl = sec13Materials; }
     if (sec14Materials) sec14Materials.style.display = 'none';
     if (sec15Materials) sec15Materials.style.display = 'none';
-  } else {
-    // Session 14 fallback
+  } else if (currentSessionId === '14') {
     if (sec1Materials) sec1Materials.style.display = 'none';
     if (sec2Materials) sec2Materials.style.display = 'none';
     if (sec3Materials) sec3Materials.style.display = 'none';
@@ -7772,11 +7760,47 @@ function showActiveSessionMaterials() {
     if (sec12Materials) sec12Materials.style.display = 'none';
     if (sec13Materials) sec13Materials.style.display = 'none';
     if (sec14Materials) { sec14Materials.style.display = 'block'; targetEl = sec14Materials; }
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
   } else if (currentSessionId === '15') {
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
     if (sec15Materials) { sec15Materials.style.display = 'block'; targetEl = sec15Materials; }
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
   } else if (currentSessionId === '16') {
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
     if (sec16Materials) { sec16Materials.style.display = 'block'; targetEl = sec16Materials; }
+    if (sec17Materials) sec17Materials.style.display = 'none';
   } else if (currentSessionId === '17') {
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
     if (sec17Materials) { sec17Materials.style.display = 'block'; targetEl = sec17Materials; }
   }
 
