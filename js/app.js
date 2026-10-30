@@ -605,15 +605,19 @@ function switchSession(sessionId) {
   }
 
   // Re-initialize games for selected session
-  cardIdx = 0;
-  streak = 0;
-  updateStreak();
-  updateMasteredBtn();
-  flipAndRender();
+  try {
+    cardIdx = 0;
+    streak = 0;
+    updateStreak();
+    updateMasteredBtn();
+    flipAndRender();
 
-  initPart2GapFill();
-  loadConnectSet();
-  startFullExam();
+    initPart2GapFill();
+    loadConnectSet();
+    startFullExam();
+  } catch (err) {
+    console.error('Error re-initializing session learning games:', err);
+  }
 
   if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
     AnimEngine.showToast(`Switched to Session ${currentSessionId}`, 'info');
@@ -7545,6 +7549,11 @@ function escapeHtml(str) {
 function escapeJs(str) {
   if (str === null || str === undefined) return '';
   return String(str).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"').replace(/\n/g, ' ');
+}
+
+function highlightKeywords(text) {
+  if (!text) return '';
+  return escapeHtml(text).replace(/\*([^*]+)\*/g, '<strong style="color:var(--bc-blue);">$1</strong>');
 }
 
 function formatStoryParagraph(text) {
