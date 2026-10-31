@@ -7418,185 +7418,185 @@ const VOCAB_SESSION_17 = [
     phonetic: "/ˌek.spekˈteɪ.ʃən/",
     partOfSpeech: "noun"
   },
-    {
+        {
     id: 1719,
-    word: "leadership",
-    pos: "noun",
+    word: "alter course",
+    pos: "phrase / verb",
     cambridgeLevel: "B1",
-    pronunciation: "/ˈliː.də.ʃɪp/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "the ability to guide, encourage, and make good decisions for a team.",
-    b1Explain: "the ability to guide, encourage, and make good decisions for a team.",
-    opposite: "followership",
-    arMeaning: "قيادة وتوجيه وإلهام الفريق لاتخاذ قرارات حكيمة",
-    sentence: "Her inspiring leadership helped maintain staff morale during difficult transition periods.",
-    def: "the ability to guide, encourage, and make good decisions for a team.",
-    context: "Her inspiring leadership helped maintain staff morale during difficult transition periods.",
-    ar: "قيادة وتوجيه وإلهام الفريق لاتخاذ قرارات حكيمة",
-    phonetic: "/ˈliː.də.ʃɪp/",
-    partOfSpeech: "noun"
+    pronunciation: "/ˈɔːl.tər kɔːs/",
+    citation: "Emma's Appraisal Report (Handout Para 1)",
+    definition: "To change a plan or action when the situation around you changes.",
+    b1Explain: "To change your plan when circumstances change.",
+    opposite: "stay on track",
+    arMeaning: "يغيّر مساره أو يغيّر خطته عندما تتطلب الظروف ذلك",
+    sentence: "Emma is good at altering course when project requirements change suddenly.",
+    def: "To change a plan or action when the situation around you changes.",
+    context: "Emma is good at altering course when project requirements change suddenly.",
+    ar: "يغيّر مساره أو يغيّر خطته عندما تتطلب الظروف ذلك",
+    phonetic: "/ˈɔːl.tər kɔːs/",
+    partOfSpeech: "phrase"
   },
     {
     id: 1720,
-    word: "feedback",
-    pos: "noun",
+    word: "allocated time",
+    pos: "noun phrase",
     cambridgeLevel: "B1",
-    pronunciation: "/ˈfiːd.bæk/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "helpful comments and advice given to someone about their work performance.",
-    b1Explain: "helpful comments and advice given to someone about their work performance.",
-    opposite: "silence",
-    arMeaning: "تغذية راجعة / ملاحظات تقييمية للأداء والتوجيه",
-    sentence: "Receiving honest feedback during an appraisal empowers employees to overcome blind spots.",
-    def: "helpful comments and advice given to someone about their work performance.",
-    context: "Receiving honest feedback during an appraisal empowers employees to overcome blind spots.",
-    ar: "تغذية راجعة / ملاحظات تقييمية للأداء والتوجيه",
-    phonetic: "/ˈfiːd.bæk/",
+    pronunciation: "/ˈæl.ə.keɪ.tɪd taɪm/",
+    citation: "Emma's Appraisal Report (Handout Para 2)",
+    definition: "The specific amount of time planned or given to finish an activity.",
+    b1Explain: "The planned time allowed for a meeting or task.",
+    opposite: "unlimited time",
+    arMeaning: "الوقت المحدد أو المخصص لمهمة أو اجتماع",
+    sentence: "Our morning meeting ran beyond its allocated time, causing delays for other staff.",
+    def: "The specific amount of time planned or given to finish an activity.",
+    context: "Our morning meeting ran beyond its allocated time, causing delays for other staff.",
+    ar: "الوقت المحدد أو المخصص لمهمة أو اجتماع",
+    phonetic: "/ˈæl.ə.keɪ.tɪd taɪm/",
     partOfSpeech: "noun"
   },
     {
     id: 1721,
-    word: "overtime",
-    pos: "noun",
+    word: "interfere with",
+    pos: "phrasal verb",
     cambridgeLevel: "B1",
-    pronunciation: "/ˈəʊ.və.taɪm/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "extra hours that an employee works beyond their normal agreed working time.",
-    b1Explain: "extra hours that an employee works beyond their normal agreed working time.",
-    opposite: "regular hours",
-    arMeaning: "ساعات عمل إضافية تتجاوز الدوام الرسمي المحدد",
-    sentence: "Working excessive overtime every evening is unsustainable and indicates poor scheduling.",
-    def: "extra hours that an employee works beyond their normal agreed working time.",
-    context: "Working excessive overtime every evening is unsustainable and indicates poor scheduling.",
-    ar: "ساعات عمل إضافية تتجاوز الدوام الرسمي المحدد",
-    phonetic: "/ˈəʊ.və.taɪm/",
-    partOfSpeech: "noun"
+    pronunciation: "/ˌɪn.təˈfɪər wɪð/",
+    citation: "Emma's Appraisal Report (Handout Para 2)",
+    definition: "To prevent something from working properly or stop someone from doing their work.",
+    b1Explain: "To stop or slow down someone while they do their work.",
+    opposite: "help / facilitate",
+    arMeaning: "يعيق أو يتداخل مع واجبات الآخرين ويعطل عملهم",
+    sentence: "Late meetings interfere with the daily duties of our customer service colleagues.",
+    def: "To prevent something from working properly or stop someone from doing their work.",
+    context: "Late meetings interfere with the daily duties of our customer service colleagues.",
+    ar: "يعيق أو يتداخل مع واجبات الآخرين ويعطل عملهم",
+    phonetic: "/ˌɪn.təˈfɪər wɪð/",
+    partOfSpeech: "phrasal verb"
   },
     {
     id: 1722,
-    word: "self-evaluation",
-    pos: "noun",
+    word: "build unity",
+    pos: "phrase / verb",
     cambridgeLevel: "B1",
-    pronunciation: "/ˌself.ɪˌvæl.juˈeɪ.ʃən/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "the process of looking honestly at your own work strengths and weaknesses.",
-    b1Explain: "the process of looking honestly at your own work strengths and weaknesses.",
-    opposite: "external judgment",
-    arMeaning: "تقييم ذاتي / مراجعة الموظف لنقاط قوته وضعفه بنفسه",
-    sentence: "Completing a thorough self-evaluation form before the meeting prepared Emma for tough questions.",
-    def: "the process of looking honestly at your own work strengths and weaknesses.",
-    context: "Completing a thorough self-evaluation form before the meeting prepared Emma for tough questions.",
-    ar: "تقييم ذاتي / مراجعة الموظف لنقاط قوته وضعفه بنفسه",
-    phonetic: "/ˌself.ɪˌvæl.juˈeɪ.ʃən/",
-    partOfSpeech: "noun"
+    pronunciation: "/bɪld ˈjuː.nə.ti/",
+    citation: "Emma's Appraisal Report (Handout Para 4)",
+    definition: "To help people in a team feel connected, friendly, and work together.",
+    b1Explain: "To help team members work together peacefully.",
+    opposite: "divide people",
+    arMeaning: "يبني الوحدة والترابط ويعزز روح الفريق الواحد",
+    sentence: "The manager helped build unity across the office by organizing weekly team discussions.",
+    def: "To help people in a team feel connected, friendly, and work together.",
+    context: "The manager helped build unity across the office by organizing weekly team discussions.",
+    ar: "يبني الوحدة والترابط ويعزز روح الفريق الواحد",
+    phonetic: "/bɪld ˈjuː.nə.ti/",
+    partOfSpeech: "phrase"
   },
     {
     id: 1723,
-    word: "development plan",
+    word: "disagreement",
     pos: "noun",
     cambridgeLevel: "B1",
-    pronunciation: "/dɪˈvel.əp.mənt ˌplæn/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "a written list of learning goals and courses to improve job skills.",
-    b1Explain: "a written list of learning goals and courses to improve job skills.",
-    opposite: "stagnation",
-    arMeaning: "خطة تطوير مهني / برنامج دورات وتدريب للمستقبل",
-    sentence: "Together with her mentor, she created a six-month development plan focused on executive presentation skills.",
-    def: "a written list of learning goals and courses to improve job skills.",
-    context: "Together with her mentor, she created a six-month development plan focused on executive presentation skills.",
-    ar: "خطة تطوير مهني / برنامج دورات وتدريب للمستقبل",
-    phonetic: "/dɪˈvel.əp.mənt ˌplæn/",
+    pronunciation: "/ˌdɪs.əˈɡriː.mənt/",
+    citation: "Emma's Appraisal Report (Handout Para 4)",
+    definition: "A situation where people have different opinions and argue about an idea.",
+    b1Explain: "When two people have different opinions and argue.",
+    opposite: "agreement",
+    arMeaning: "خلاف أو تباين في الرأي بين أعضاء الفريق",
+    sentence: "Good team managers reduce disagreements before they turn into major workplace arguments.",
+    def: "A situation where people have different opinions and argue about an idea.",
+    context: "Good team managers reduce disagreements before they turn into major workplace arguments.",
+    ar: "خلاف أو تباين في الرأي بين أعضاء الفريق",
+    phonetic: "/ˌdɪs.əˈɡriː.mənt/",
     partOfSpeech: "noun"
   },
     {
     id: 1724,
-    word: "exceptional",
-    pos: "adj",
+    word: "efficient plan",
+    pos: "noun phrase",
     cambridgeLevel: "B1",
-    pronunciation: "/ɪkˈsep.ʃən.əl/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "much greater or better than usual; performing work to a superior standard.",
-    b1Explain: "much greater or better than usual; performing work to a superior standard.",
-    opposite: "mediocre",
-    arMeaning: "استثنائي وفائق الجودة / متفوق بشكل باهر",
-    sentence: "Only five percent of company staff members are graded as performing exceptionally each year.",
-    def: "much greater or better than usual; performing work to a superior standard.",
-    context: "Only five percent of company staff members are graded as performing exceptionally each year.",
-    ar: "استثنائي وفائق الجودة / متفوق بشكل باهر",
-    phonetic: "/ɪkˈsep.ʃən.əl/",
-    partOfSpeech: "adj"
-  },
-    {
-    id: 1725,
-    word: "administration",
-    pos: "noun",
-    cambridgeLevel: "B1",
-    pronunciation: "/ədˌmɪn.ɪˈstreɪ.ʃən/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "office work connected with organizing and managing company records and reports.",
-    b1Explain: "office work connected with organizing and managing company records and reports.",
-    opposite: "manual labor",
-    arMeaning: "شؤون إدارية / أعمال مكتبية لتنظيم السجلات والتقارير",
-    sentence: "The extensive administration involved in writing employee review dossiers can be exhausting.",
-    def: "office work connected with organizing and managing company records and reports.",
-    context: "The extensive administration involved in writing employee review dossiers can be exhausting.",
-    ar: "شؤون إدارية / أعمال مكتبية لتنظيم السجلات والتقارير",
-    phonetic: "/ədˌmɪn.ɪˈstreɪ.ʃən/",
+    pronunciation: "/ɪˈfɪʃ.ənt plæn/",
+    citation: "Emma's Appraisal Report (Handout Para 3)",
+    definition: "A well-organized plan that works quickly and produces good results without wasting time.",
+    b1Explain: "A well-organized plan that works well without wasting time.",
+    opposite: "wasteful plan",
+    arMeaning: "خطة عمل فعالة ومنظمة تحقق النتائج دون إهدار للوقت",
+    sentence: "Emma helped the team develop an efficient plan to share project updates weekly.",
+    def: "A well-organized plan that works quickly and produces good results without wasting time.",
+    context: "Emma helped the team develop an efficient plan to share project updates weekly.",
+    ar: "خطة عمل فعالة ومنظمة تحقق النتائج دون إهدار للوقت",
+    phonetic: "/ɪˈfɪʃ.ənt plæn/",
     partOfSpeech: "noun"
   },
     {
-    id: 1726,
-    word: "dependable",
-    pos: "adj",
+    id: 1725,
+    word: "as instructed",
+    pos: "phrase / adverb",
     cambridgeLevel: "B1",
-    pronunciation: "/dɪˈpen.də.bəl/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "trustworthy and reliable; someone who always does what they promised to do.",
-    b1Explain: "trustworthy and reliable; someone who always does what they promised to do.",
-    opposite: "unreliable",
-    arMeaning: "يعتمد عليه / موثوق ويلتزم دائماً بما يعد به",
-    sentence: "Emma has proven herself to be a dependable team player who supports colleagues under stress.",
-    def: "trustworthy and reliable; someone who always does what they promised to do.",
-    context: "Emma has proven herself to be a dependable team player who supports colleagues under stress.",
-    ar: "يعتمد عليه / موثوق ويلتزم دائماً بما يعد به",
-    phonetic: "/dɪˈpen.də.bəl/",
-    partOfSpeech: "adj"
+    pronunciation: "/æz ɪnˈstrʌk.tɪd/",
+    citation: "Emma's Appraisal Report (Handout Para 5)",
+    definition: "Doing a task exactly in the way your manager told you to.",
+    b1Explain: "Doing work exactly as your manager told you.",
+    opposite: "disobediently",
+    arMeaning: "وفق التعليمات المحددة وبحسب ما أُمر به تماماً",
+    sentence: "She completed every report as instructed, but rarely suggested newer creative methods.",
+    def: "Doing a task exactly in the way your manager told you to.",
+    context: "She completed every report as instructed, but rarely suggested newer creative methods.",
+    ar: "وفق التعليمات المحددة وبحسب ما أُمر به تماماً",
+    phonetic: "/æz ɪnˈstrʌk.tɪd/",
+    partOfSpeech: "phrase"
+  },
+    {
+    id: 1726,
+    word: "creativity",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌkriː.eɪˈtɪv.ə.ti/",
+    citation: "Emma's Appraisal Report (Handout Para 5)",
+    definition: "The ability to produce original ideas and find new solutions to problems.",
+    b1Explain: "The ability to think of new and interesting ideas.",
+    opposite: "imitation",
+    arMeaning: "الإبداع والقدرة على ابتكار أفكار وحلول عمل جديدة",
+    sentence: "Senior managers need creativity to solve difficult business problems and streamline procedures.",
+    def: "The ability to produce original ideas and find new solutions to problems.",
+    context: "Senior managers need creativity to solve difficult business problems and streamline procedures.",
+    ar: "الإبداع والقدرة على ابتكار أفكار وحلول عمل جديدة",
+    phonetic: "/ˌkriː.eɪˈtɪv.ə.ti/",
+    partOfSpeech: "noun"
   },
     {
     id: 1727,
-    word: "resourceful",
-    pos: "adj",
+    word: "customer expectation",
+    pos: "noun phrase",
     cambridgeLevel: "B1",
-    pronunciation: "/rɪˈzɔː.sfəl/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "good at finding quick, clever ways to overcome difficulties and solve problems.",
-    b1Explain: "good at finding quick, clever ways to overcome difficulties and solve problems.",
-    opposite: "unimaginative",
-    arMeaning: "واسع الحيلة / يبتكر حلولاً ذكية وسريعة للمشاكل",
-    sentence: "She remained remarkably resourceful when our primary software system failed right before the audit.",
-    def: "good at finding quick, clever ways to overcome difficulties and solve problems.",
-    context: "She remained remarkably resourceful when our primary software system failed right before the audit.",
-    ar: "واسع الحيلة / يبتكر حلولاً ذكية وسريعة للمشاكل",
-    phonetic: "/rɪˈzɔː.sfəl/",
-    partOfSpeech: "adj"
+    pronunciation: "/ˈkʌs.tə.mər ˌek.spekˈteɪ.ʃən/",
+    citation: "Emma's Appraisal Report (Handout Para 6)",
+    definition: "What a client hopes and believes they will receive from a company.",
+    b1Explain: "What a customer expects to receive from your service.",
+    opposite: "unrealistic demand",
+    arMeaning: "توقعات العميل ومستوى الخدمة الذي ينتظر الحصول عليه",
+    sentence: "Managing customer expectation clearly from day one helps prevent misunderstandings about delivery dates.",
+    def: "What a client hopes and believes they will receive from a company.",
+    context: "Managing customer expectation clearly from day one helps prevent misunderstandings about delivery dates.",
+    ar: "توقعات العميل ومستوى الخدمة الذي ينتظر الحصول عليه",
+    phonetic: "/ˈkʌs.tə.mər ˌek.spekˈteɪ.ʃən/",
+    partOfSpeech: "noun"
   },
     {
     id: 1728,
-    word: "managerial",
-    pos: "adj",
+    word: "frequent delay",
+    pos: "noun phrase",
     cambridgeLevel: "B1",
-    pronunciation: "/ˌmæn.əˈdʒɪə.ri.əl/",
-    citation: "Handout ARC_B1_01 & Smartboard",
-    definition: "connected with the work of managing a department, team, or business.",
-    b1Explain: "connected with the work of managing a department, team, or business.",
-    opposite: "operational",
-    arMeaning: "إداري / متعلق بمهام إدارة القسم أو الأعمال",
-    sentence: "Her natural managerial talents make her an outstanding contender for department director.",
-    def: "connected with the work of managing a department, team, or business.",
-    context: "Her natural managerial talents make her an outstanding contender for department director.",
-    ar: "إداري / متعلق بمهام إدارة القسم أو الأعمال",
-    phonetic: "/ˌmæn.əˈdʒɪə.ri.əl/",
-    partOfSpeech: "adj"
+    pronunciation: "/ˈfriː.kwənt dɪˈleɪ/",
+    citation: "Emma's Appraisal Report (Handout Para 6)",
+    definition: "A situation when things happen later than planned many times in succession.",
+    b1Explain: "When something happens late many times.",
+    opposite: "on-time delivery",
+    arMeaning: "تأخير متكرر وتأخر مستمر في مواعيد التسليم",
+    sentence: "Clients complained about frequent delay in receiving their monthly software updates.",
+    def: "A situation when things happen later than planned many times in succession.",
+    context: "Clients complained about frequent delay in receiving their monthly software updates.",
+    ar: "تأخير متكرر وتأخر مستمر في مواعيد التسليم",
+    phonetic: "/ˈfriː.kwənt dɪˈleɪ/",
+    partOfSpeech: "noun"
   }
 ];
 
@@ -7747,11 +7747,11 @@ const SESSION_17_EMMA_REPORT = {
     {
       num: 6,
       heading: "6. Customer Expectations & Service Approach",
-      text: "Finally, Emma might need to work on managing customer expectations. Her customers reported frequent delays and problems which often turn out to be a problem with how she managed their expectations. Emma could discuss her ways of approaching customers with our customer service managers.",
+      text: "Finally, Emma needs to work on managing customer expectations. Her customers reported frequent delays and problems, which often turn out to be a problem with how she managed their expectations. Emma should be looking to discuss her ways of approaching customers with our customer service managers.",
       analysis: {
         category: "Customer Satisfaction & Expectation Management",
         status: "Weakness",
-        recommendation: "Emma could discuss her ways of approaching customers with our customer service managers."
+        recommendation: "Emma should be looking to discuss her ways of approaching customers with our customer service managers."
       }
     }
   ],
@@ -7846,28 +7846,28 @@ const SESSION_17_VOCAB_GROUPS = [
     badge: "Official Review Procedures & Outcomes",
     icon: "📋",
     desc: "Terminology surrounding formal review meetings, performance criteria, constructive evaluation, and managerial promotions.",
-    words: ["appraisal", "performance", "feedback", "self-evaluation", "constructive", "exceptional", "promotion"]
+    words: ["appraisal", "performance", "promotion", "workload", "productivity", "as instructed", "constructive"]
   },
   {
-    title: "2. Professional Objectives & Time Management",
+    title: "2. Time Management & Workplace Efficiency",
     badge: "Deadlines, Scheduling & Productivity",
     icon: "⏱️",
-    desc: "Core vocabulary focused on establishing measurable goals, punctual habits, respecting deadlines, handling workload, and overtime.",
-    words: ["objective", "deadline", "punctuality", "time management", "workload", "productivity", "overtime"]
+    desc: "Core vocabulary focused on establishing measurable goals, punctual habits, respecting deadlines, allocated time, and avoiding interference.",
+    words: ["allocated time", "deadline", "punctuality", "time management", "interfere with", "frequent delay", "objective"]
   },
   {
-    title: "3. Leadership, Teamwork & Interpersonal Skills",
+    title: "3. Teamwork, Collaboration & Customer Focus",
     badge: "Team Cohesion & Stakeholder Relations",
     icon: "👥",
-    desc: "Qualities that distinguish supportive managers: inspiring leadership, cooperative habits, dependability, and customer expectations.",
-    words: ["leadership", "cooperate", "dependable", "managerial", "initiative", "expectation", "administration"]
+    desc: "Qualities that build team unity, encourage cooperation, handle disagreements peacefully, and manage customer expectations effectively.",
+    words: ["build unity", "cooperate", "disagreement", "efficient plan", "initiative", "customer expectation", "expectation"]
   },
   {
-    title: "4. Strategic Development & Problem Solving",
+    title: "4. Adaptability, Creativity & Strategic Growth",
     badge: "Professional Training & Process Innovation",
     icon: "💡",
-    desc: "Action-oriented lexis describing strengths, addressing weaknesses, embracing adaptability, and implementing development plans.",
-    words: ["recommendation", "development plan", "strength", "weakness", "adaptability", "procedure", "resourceful"]
+    desc: "Action-oriented lexis describing strengths, addressing weaknesses, embracing adaptability, altering course, and applying creativity.",
+    words: ["alter course", "creativity", "strength", "weakness", "adaptability", "recommendation", "procedure"]
   }
 ];
 
@@ -8069,6 +8069,39 @@ const SESSION_17_PRONUNCIATION_LAB = [
 ];
 
 const SESSION_17_NOTEBOOK_PAGES = [
+  {
+    id: "s17_handout_report",
+    title: "Handout Page 2: Emma's 3-Year Appraisal Report (Authentic Student Worksheet)",
+    imgUrl: "./assets/images/session17_handout_emma_report.jpg",
+    tag: "Authentic Student Handout & Notes",
+    summary: "Verbatim British Council printed worksheet (ARC_B1_01_I016CEU) with authentic student pen underlines, modal recommendations, and vocabulary annotations.",
+    fullTranscription: `[BRITISH COUNCIL OFFICIAL WORKSHEET: EMMA'S APPRAISAL REPORT]
+Paragraph 1:
+"Over the past year there have been a number of changes in our department. Emma has readily accepted change and has adapted to circumstances around her quite well. She adjusts her workload to meet the needs of the team and handles a variety of assignments. She is good at altering course when it is required. Over the next year Emma could continue working in this area and adapting to changing conditions."
+• Student Annotation: Underlined "altering course" (idiomatic phrase for changing plans).
+
+Paragraph 2:
+"On the other hand, Emma leads meetings which frequently run beyond their allocated time. This often leads to delays in other meetings and interferes with the duties of staff members. Emma should [ensure] that her meetings start and end on time; one possibility might be for her to attend time management courses."
+• Student Annotation: Underlined "leads meetings which frequently run beyond their allocated time" and "delays in other meetings and interferes with the duties of staff members". Boxed modal verb "ensure" and underlined "attend time management courses".
+
+Paragraph 3:
+"Nevertheless, one of Emma's most important skills is her ability to effectively communicate on complex topics. This ability has been very useful for the company over the past year and has helped us overcome several difficulties that occurred. One of the ways for Emma to advance next year could be to cooperate with other departments in order to develop an efficient communication plan."
+• Student Annotation: Underlined "ability to effectively communicate on complex topics", "ability", and "cooperate with other departments in order to develop an efficient communication plan".
+
+Paragraph 4:
+"In addition, one of the positives about Emma's management style is her ability to build unity. This has helped reduce disagreements between team members over the past year and has improved productivity significantly. A good idea for Emma's development next year may be to lead a series of seminars to share her experience."
+• Student Annotation: Underlined "ability to build unity", "reduce disagreements between team members over the past year", "improved productivity significantly", and the whole recommendation sentence.
+
+Paragraph 5:
+"Throughout the year, Emma has performed her work as instructed. However, she did not take any opportunities to think about new ways she could be working. Improving processes and procedures could be a significant benefit to the company, and Emma might need to work on her creativity and how to think about the steps she takes in her work and how she can reduce the time it takes."
+• Student Annotation: Underlined "processes and procedures could be a significant benefit to the company, and Emma might need to work on her creativity and how to think about the steps she takes in her work and how she can reduce the time it takes".
+
+Paragraph 6:
+"Finally, Emma needs to work on managing customer expectations. Her customers reported frequent delays and problems, which often turn out to be a problem with how she managed their expectations. Emma should be looking to discuss her ways of approaching customers with our customer service managers."
+• Student Annotation: Underlined "managing customer expectations. Her customers reported frequent delays and problems" and "ways of approaching customers with our customer service managers".
+
+Source: www.britishcouncil.org • ARC_B1_01_I016CEU`
+  },
   {
     id: "s17_board_1",
     title: "Smartboard Slide 1: What is a Job Appraisal?",
