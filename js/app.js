@@ -584,10 +584,10 @@ function switchSession(sessionId) {
     if (heroTag) heroTag.textContent = 'ACTIVE SESSION 17';
     if (heroDocTag) heroDocTag.textContent = 'DOC: ARC_B1_01_I016CEU';
     if (heroTitle) heroTitle.innerHTML = 'Communicating with Confidence: <span>Job Appraisal Interview</span>';
-    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B1+ performance review and management vocabulary words, analyze Emma\'s 3-year appraisal report, master modal verbs for polite recommendations (could, may, might, should), explore 10 feedback categories matrix, and study authentic whiteboard corrections.';
-    if (heroVocabCount) heroVocabCount.textContent = '28';
-    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
-    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 36 B1/B2/C1 performance review and management vocabulary words, analyze Emma\'s 3-year appraisal report, master modal verbs for polite recommendations (could, may, might, should), explore 10 feedback categories matrix, and study authentic whiteboard corrections.';
+    if (heroVocabCount) heroVocabCount.textContent = '36';
+    if (heroPart4Sub) heroPart4Sub.textContent = '36-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (36 Questions)';
     if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 17: Communicating with Confidence: Job Appraisal Interview • Handout ID: <code>ARC_B1_01_I016CEU_HO_v1.1</code>';
     if (heroAudioBtn) {
       heroAudioBtn.onclick = () => speakUK('British Council Session seventeen: Communicating with confidence, job appraisal interview, performance feedback, and modal verbs for recommendations.');
