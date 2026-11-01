@@ -8414,6 +8414,1599 @@ Questions & Green Board Answers:
   }
 ];
 
+
+/* ==========================================================================
+   SESSION 18: DESCRIBING THINGS AND EXPLAINING THEIR IMPORTANCE
+   British Council Intermediate B1 • Focus on Fluency
+   Handout ID: ARB_B1_08_I022CEU_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_18 = [
+  {
+    id: 1801,
+    word: "sentimental",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌsen.tɪˈmen.təl/",
+    citation: "Handout Page 1 & Smartboard Lead-in",
+    definition: "Having value because it brings back personal memories and feelings.",
+    b1Explain: "Important to you because of personal feelings and memories.",
+    opposite: "unsentimental",
+    arMeaning: "ذو قيمة معنوية وعاطفية خاصة",
+    sentence: "This old silver ring has immense sentimental value because my grandmother gave it to me.",
+    def: "Having value because it brings back personal memories and feelings.",
+    context: "This old silver ring has immense sentimental value because my grandmother gave it to me.",
+    ar: "ذو قيمة معنوية وعاطفية خاصة",
+    phonetic: "/ˌsen.tɪˈmen.təl/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1802,
+    word: "valuable",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈvæl.jə.bəl/",
+    citation: "Handout Page 1 & Smartboard Lead-in",
+    definition: "Worth a large amount of money or having great practical importance.",
+    b1Explain: "Worth a lot of money or very useful.",
+    opposite: "worthless",
+    arMeaning: "قيّم / ثمين / عالي الأهمية",
+    sentence: "The museum displayed valuable ancient coins made of pure gold and silver.",
+    def: "Worth a large amount of money or having great practical importance.",
+    context: "The museum displayed valuable ancient coins made of pure gold and silver.",
+    ar: "قيّم / ثمين / عالي الأهمية",
+    phonetic: "/ˈvæl.jə.bəl/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1803,
+    word: "expensive",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪkˈspen.sɪv/",
+    citation: "Handout Page 1 & Smartboard Lead-in",
+    definition: "Costing a lot of money to buy or maintain.",
+    b1Explain: "Costing a lot of money.",
+    opposite: "cheap",
+    arMeaning: "باهظ الثمن / مكلف",
+    sentence: "Laptops with high-speed processors are quite expensive in electronics shops.",
+    def: "Costing a lot of money to buy or maintain.",
+    context: "Laptops with high-speed processors are quite expensive in electronics shops.",
+    ar: "باهظ الثمن / مكلف",
+    phonetic: "/ɪkˈspen.sɪv/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1804,
+    word: "unique",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/juːˈniːk/",
+    citation: "Handout Page 1 & Smartboard Lead-in",
+    definition: "Being the only one of its kind; unlike anything else.",
+    b1Explain: "Special and unlike anything else in the world.",
+    opposite: "common",
+    arMeaning: "فريد من نوعه / لا مثيل له",
+    sentence: "Each handmade pottery bowl has a unique shape and colorful pattern.",
+    def: "Being the only one of its kind; unlike anything else.",
+    context: "Each handmade pottery bowl has a unique shape and colorful pattern.",
+    ar: "فريد من نوعه / لا مثيل له",
+    phonetic: "/juːˈniːk/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1805,
+    word: "possession",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/pəˈzeʃ.ən/",
+    citation: "Handout Page 1 & Smartboard Lead-in",
+    definition: "Something that you own or have in your control.",
+    b1Explain: "An object or item that belongs to you.",
+    opposite: "loan",
+    arMeaning: "مقتنى / ملكية خاصة",
+    sentence: "His passport and camera were his most prized possessions during his trip abroad.",
+    def: "Something that you own or have in your control.",
+    context: "His passport and camera were his most prized possessions during his trip abroad.",
+    ar: "مقتنى / ملكية خاصة",
+    phonetic: "/pəˈzeʃ.ən/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1806,
+    word: "inherit",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪnˈher.ɪt/",
+    citation: "Handout Page 1 & Smartboard Lead-in",
+    definition: "To receive money or property from someone after they die.",
+    b1Explain: "To get property or money from a relative who passed away.",
+    opposite: "disown",
+    arMeaning: "يرث / ينال تركة",
+    sentence: "She inherited an antique wooden clock that had been in her family for generations.",
+    def: "To receive money or property from someone after they die.",
+    context: "She inherited an antique wooden clock that had been in her family for generations.",
+    ar: "يرث / ينال تركة",
+    phonetic: "/ɪnˈher.ɪt/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1807,
+    word: "leather",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈleð.ər/",
+    citation: "Handout Page 2 & Smartboard Language Focus",
+    definition: "Animal skin treated and used to make shoes, bags, and jackets.",
+    b1Explain: "Durable material made from treated animal skin.",
+    opposite: "fabric",
+    arMeaning: "جلد طبيعي متين",
+    sentence: "The briefcase was crafted from genuine black leather with neat stitching.",
+    def: "Animal skin treated and used to make shoes, bags, and jackets.",
+    context: "The briefcase was crafted from genuine black leather with neat stitching.",
+    ar: "جلد طبيعي متين",
+    phonetic: "/ˈleð.ər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1808,
+    word: "metal",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈmet.əl/",
+    citation: "Handout Page 2 & Smartboard Classroom Objects",
+    definition: "A hard, solid material such as iron, steel, or gold.",
+    b1Explain: "Hard, solid material like iron, steel, or aluminum.",
+    opposite: "plastic",
+    arMeaning: "معدن صلب",
+    sentence: "These kitchen scissors are made of strong stainless metal.",
+    def: "A hard, solid material such as iron, steel, or gold.",
+    context: "These kitchen scissors are made of strong stainless metal.",
+    ar: "معدن صلب",
+    phonetic: "/ˈmet.əl/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1809,
+    word: "plastic",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈplæs.tɪk/",
+    citation: "Handout Page 2 & Smartboard Classroom Objects",
+    definition: "A light artificial material that can be shaped when soft.",
+    b1Explain: "Light artificial material shaped into bottles, pens, or cases.",
+    opposite: "metal",
+    arMeaning: "بلاستيك / مادة لدنة",
+    sentence: "The phone casing is made of durable lightweight plastic.",
+    def: "A light artificial material that can be shaped when soft.",
+    context: "The phone casing is made of durable lightweight plastic.",
+    ar: "بلاستيك / مادة لدنة",
+    phonetic: "/ˈplæs.tɪk/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1810,
+    word: "glass",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɡlɑːs/",
+    citation: "Handout Page 2 & Smartboard Materials",
+    definition: "A hard clear material through which you can see clearly.",
+    b1Explain: "Clear, hard material used in windows, screens, and bottles.",
+    opposite: "opaque wood",
+    arMeaning: "زجاج شفاف",
+    sentence: "The smartphone display is protected by scratch-resistant tempered glass.",
+    def: "A hard clear material through which you can see clearly.",
+    context: "The smartphone display is protected by scratch-resistant tempered glass.",
+    ar: "زجاج شفاف",
+    phonetic: "/ɡlɑːs/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1811,
+    word: "brass",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/brɑːs/",
+    citation: "Smartboard Conversation 3 & Language Focus",
+    definition: "A bright yellow metal made by mixing copper and zinc.",
+    b1Explain: "Shiny yellow metal used for musical instruments and decorative locks.",
+    opposite: "silver",
+    arMeaning: "نحاس أصفر لامع",
+    sentence: "His vintage leather briefcase has sturdy brass locks on both sides.",
+    def: "A bright yellow metal made by mixing copper and zinc.",
+    context: "His vintage leather briefcase has sturdy brass locks on both sides.",
+    ar: "نحاس أصفر لامع",
+    phonetic: "/brɑːs/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1812,
+    word: "rectangular",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/rekˈtæŋ.ɡjə.lər/",
+    citation: "Handout Page 2 & Smartboard Slide 8",
+    definition: "Shaped like a flat box with four straight sides and corners.",
+    b1Explain: "Having four straight sides with opposite sides equal in length.",
+    opposite: "circular",
+    arMeaning: "مستطيل الشكل",
+    sentence: "The student carried a rectangular wooden box containing watercolor paints.",
+    def: "Shaped like a flat box with four straight sides and corners.",
+    context: "The student carried a rectangular wooden box containing watercolor paints.",
+    ar: "مستطيل الشكل",
+    phonetic: "/rekˈtæŋ.ɡjə.lər/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1813,
+    word: "triangular",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/traɪˈæŋ.ɡjə.lər/",
+    citation: "Handout Page 2 (Shape Descriptors)",
+    definition: "Having three straight sides and three points or angles.",
+    b1Explain: "Having three sides and three sharp corners.",
+    opposite: "square",
+    arMeaning: "مثلث الشكل",
+    sentence: "Road caution signs in the UK often have a distinctive triangular shape.",
+    def: "Having three straight sides and three points or angles.",
+    context: "Road caution signs in the UK often have a distinctive triangular shape.",
+    ar: "مثلث الشكل",
+    phonetic: "/traɪˈæŋ.ɡjə.lər/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1814,
+    word: "round",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/raʊnd/",
+    citation: "Handout Page 2 (Shape Descriptors)",
+    definition: "Having a circular shape like a ball, ring, or circle.",
+    b1Explain: "Shaped like a circle or ball.",
+    opposite: "square",
+    arMeaning: "مستدير / دائري",
+    sentence: "Grandpa wore a round antique watch on his left wrist.",
+    def: "Having a circular shape like a ball, ring, or circle.",
+    context: "Grandpa wore a round antique watch on his left wrist.",
+    ar: "مستدير / دائري",
+    phonetic: "/raʊnd/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1815,
+    word: "tiny",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈtaɪ.ni/",
+    citation: "Handout Page 2 (Dimension & Size)",
+    definition: "Extremely small in size, volume, or physical dimensions.",
+    b1Explain: "Very small in size or quantity.",
+    opposite: "huge",
+    arMeaning: "ضئيل الحجم / بالغ الصغر",
+    sentence: "The device features a tiny memory chip capable of storing thousands of files.",
+    def: "Extremely small in size, volume, or physical dimensions.",
+    context: "The device features a tiny memory chip capable of storing thousands of files.",
+    ar: "ضئيل الحجم / بالغ الصغر",
+    phonetic: "/ˈtaɪ.ni/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1816,
+    word: "average-sized",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈæv.ər.ɪdʒ saɪzd/",
+    citation: "Smartboard Conversation 3 (Briefcase Description)",
+    definition: "Having an ordinary medium size, neither very big nor small.",
+    b1Explain: "Medium in size, not too large and not too small.",
+    opposite: "extreme",
+    arMeaning: "متوسط الحجم والقياس",
+    sentence: "He carried an average-sized shoulder bag suitable for commuting on the train.",
+    def: "Having an ordinary medium size, neither very big nor small.",
+    context: "He carried an average-sized shoulder bag suitable for commuting on the train.",
+    ar: "متوسط الحجم والقياس",
+    phonetic: "/ˈæv.ər.ɪdʒ saɪzd/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1817,
+    word: "classical",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈklæs.ɪ.kəl/",
+    citation: "Handout Page 2 & Smartboard Slide 7",
+    definition: "Traditional and timeless in design, style, or appearance.",
+    b1Explain: "Traditional and high quality in a style that never dates.",
+    opposite: "modern",
+    arMeaning: "كلاسيكي أنيق / تقليدي رفيع الذوق",
+    sentence: "He bought a classical trench coat that always looks elegant in rainy weather.",
+    def: "Traditional and timeless in design, style, or appearance.",
+    context: "He bought a classical trench coat that always looks elegant in rainy weather.",
+    ar: "كلاسيكي أنيق / تقليدي رفيع الذوق",
+    phonetic: "/ˈklæs.ɪ.kəl/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1818,
+    word: "brand new",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌbrænd ˈnjuː/",
+    citation: "Handout Page 2 (Age & Quality)",
+    definition: "Completely new and never used or worn by anyone before.",
+    b1Explain: "Completely new and never used before.",
+    opposite: "second-hand",
+    arMeaning: "جديد كلياً / غير مستعمل مسبقاً",
+    sentence: "Her parents bought her a brand new bicycle for her sixteenth birthday.",
+    def: "Completely new and never used or worn by anyone before.",
+    context: "Her parents bought her a brand new bicycle for her sixteenth birthday.",
+    ar: "جديد كلياً / غير مستعمل مسبقاً",
+    phonetic: "/ˌbrænd ˈnjuː/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1819,
+    word: "reliable",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/rɪˈlaɪ.ə.bəl/",
+    citation: "Handout Page 2 (Quality & Utility)",
+    definition: "Able to work well and be trusted to perform reliably.",
+    b1Explain: "Trustworthy and performing well every time you use it.",
+    opposite: "unreliable",
+    arMeaning: "موثوق / يعتمد عليه",
+    sentence: "My old sedan car is still remarkably reliable on long highway journeys.",
+    def: "Able to work well and be trusted to perform reliably.",
+    context: "My old sedan car is still remarkably reliable on long highway journeys.",
+    ar: "موثوق / يعتمد عليه",
+    phonetic: "/rɪˈlaɪ.ə.bəl/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1820,
+    word: "fragile",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈfrædʒ.aɪl/",
+    citation: "Handout Page 2 (easy to break)",
+    definition: "Easily broken or damaged and requiring delicate, gentle handling.",
+    b1Explain: "Delicate and easily broken if dropped or handled roughly.",
+    opposite: "unbreakable",
+    arMeaning: "سريع العطب / قابل للكسر / هش",
+    sentence: "Be careful with that fragile porcelain tea set when packing the boxes.",
+    def: "Easily broken or damaged and requiring delicate, gentle handling.",
+    context: "Be careful with that fragile porcelain tea set when packing the boxes.",
+    ar: "سريع العطب / قابل للكسر / هش",
+    phonetic: "/ˈfrædʒ.aɪl/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1821,
+    word: "handle",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈhæn.dəl/",
+    citation: "Handout Page 2 (Object Components)",
+    definition: "The part of an object made for holding or opening.",
+    b1Explain: "The part of an item you hold with your hand.",
+    opposite: "base",
+    arMeaning: "مقبض / يد الحقيبة أو الإبريق",
+    sentence: "The leather briefcase has a reinforced handle that makes it comfortable to carry.",
+    def: "The part of an object made for holding or opening.",
+    context: "The leather briefcase has a reinforced handle that makes it comfortable to carry.",
+    ar: "مقبض / يد الحقيبة أو الإبريق",
+    phonetic: "/ˈhæn.dəl/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1822,
+    word: "lid",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/lɪd/",
+    citation: "Handout Page 2 (Object Components)",
+    definition: "A top cover for closing a pot, box, or container.",
+    b1Explain: "A removable top that covers and seals a container.",
+    opposite: "bottom",
+    arMeaning: "غطاء الإناء أو الصندوق",
+    sentence: "Lift the lid of the jewelry box carefully to see the velvet interior.",
+    def: "A top cover for closing a pot, box, or container.",
+    context: "Lift the lid of the jewelry box carefully to see the velvet interior.",
+    ar: "غطاء الإناء أو الصندوق",
+    phonetic: "/lɪd/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1823,
+    word: "lock",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/lɒk/",
+    citation: "Handout Page 2 & Smartboard Conversation 3",
+    definition: "A mechanical device kept closed and opened with a key.",
+    b1Explain: "A secure device opened with a key or special combination.",
+    opposite: "open latch",
+    arMeaning: "قفل أمان ومزلاج",
+    sentence: "He secured his suitcase with a small metal padlock before his flight.",
+    def: "A mechanical device kept closed and opened with a key.",
+    context: "He secured his suitcase with a small metal padlock before his flight.",
+    ar: "قفل أمان ومزلاج",
+    phonetic: "/lɒk/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1824,
+    word: "battery",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈbæt.ər.i/",
+    citation: "Handout Page 2 (Object Power Components)",
+    definition: "A portable device that supplies electricity to electronic devices.",
+    b1Explain: "A small object providing electrical energy to devices.",
+    opposite: "mains power",
+    arMeaning: "بطارية طاقة كهربائية",
+    sentence: "Her wireless mouse stopped responding because the alkaline battery was completely flat.",
+    def: "A portable device that supplies electricity to electronic devices.",
+    context: "Her wireless mouse stopped responding because the alkaline battery was completely flat.",
+    ar: "بطارية طاقة كهربائية",
+    phonetic: "/ˈbæt.ər.i/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1825,
+    word: "fingerprint",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈfɪŋ.ɡə.prɪnt/",
+    citation: "Smartboard Conversation 1 (Jo's Phone)",
+    definition: "The mark made by a person's fingertip used for security.",
+    b1Explain: "The unique pattern on your finger used to unlock phones.",
+    opposite: "password",
+    arMeaning: "بصمة الإصبع الحيوية",
+    sentence: "Modern smartphones use fingerprint technology to unlock the screen instantly and securely.",
+    def: "The mark made by a person's fingertip used for security.",
+    context: "Modern smartphones use fingerprint technology to unlock the screen instantly and securely.",
+    ar: "بصمة الإصبع الحيوية",
+    phonetic: "/ˈfɪŋ.ɡə.prɪnt/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1826,
+    word: "remind",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/rɪˈmaɪnd/",
+    citation: "Smartboard Conversation 2 & Language Focus",
+    definition: "To cause someone to remember a person, event, or duty.",
+    b1Explain: "To make someone remember an important person or memory.",
+    opposite: "forget",
+    arMeaning: "يُذكّر بذكرى أو شخص عزيز",
+    sentence: "Looking at this vintage pocket watch always reminds me of my beloved grandfather.",
+    def: "To cause someone to remember a person, event, or duty.",
+    context: "Looking at this vintage pocket watch always reminds me of my beloved grandfather.",
+    ar: "يُذكّر بذكرى أو شخص عزيز",
+    phonetic: "/rɪˈmaɪnd/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1827,
+    word: "anniversary",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌæn.ɪˈvɜː.sər.i/",
+    citation: "Smartboard Conversation 3 (Tenth Anniversary)",
+    definition: "The date on which an important event happened in the past.",
+    b1Explain: "A yearly celebration of a special date like a wedding.",
+    opposite: "ordinary day",
+    arMeaning: "ذكرى سنوية (زواج أو مناسبة هامة)",
+    sentence: "They exchanged meaningful silver gifts on their tenth wedding anniversary.",
+    def: "The date on which an important event happened in the past.",
+    context: "They exchanged meaningful silver gifts on their tenth wedding anniversary.",
+    ar: "ذكرى سنوية (زواج أو مناسبة هامة)",
+    phonetic: "/ˌæn.ɪˈvɜː.sər.i/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1828,
+    word: "smart cookie",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/smɑːt ˈkʊk.i/",
+    citation: "Smartboard Slide 12 (Idiom of the Day)",
+    definition: "A very intelligent, clever, and quick-thinking person.",
+    b1Explain: "An intelligent, capable person who solves problems quickly.",
+    opposite: "foolish person",
+    arMeaning: "شخص شديد الفطنة والذكاء وسريع البديهة",
+    sentence: "Elena figured out the complex logic puzzle in two minutes; she is one smart cookie!",
+    def: "A very intelligent, clever, and quick-thinking person.",
+    context: "Elena figured out the complex logic puzzle in two minutes; she is one smart cookie!",
+    ar: "شخص شديد الفطنة والذكاء وسريع البديهة",
+    phonetic: "/smɑːt ˈkʊk.i/",
+    partOfSpeech: "idiom"
+  }
+];
+
+const SESSION_18_VOCAB_GROUPS = [
+  {
+    title: "1. Emotional & Monetary Value",
+    badge: "Significance, Sentiment & Ownership",
+    icon: "💎",
+    desc: "Terminology used to convey what an object is worth, how it was acquired, its personal importance, and special family history.",
+    words: ["sentimental", "valuable", "expensive", "unique", "possession", "inherit", "remind"]
+  },
+  {
+    title: "2. Materials & Craftsmanship",
+    badge: "Substances & Physical Composition",
+    icon: "🧱",
+    desc: "Target materials describing what items are manufactured from, texture, metallic elements, and tactile surfaces.",
+    words: ["leather", "metal", "plastic", "glass", "brass", "fragile", "classical"]
+  },
+  {
+    title: "3. Dimensions, Shapes & Features",
+    badge: "Geometry, Forms & Structural Parts",
+    icon: "📐",
+    desc: "Geometric adjectives and functional hardware components used to specify the exact physical appearance of personal items.",
+    words: ["rectangular", "triangular", "round", "tiny", "average-sized", "handle", "lid"]
+  },
+  {
+    title: "4. Practical Utility & Keepsakes",
+    badge: "Reliability, Modern Tech & Occasions",
+    icon: "⌚",
+    desc: "Terms describing durability, security locks, modern battery power, fingerprint recognition, special anniversaries, and clever wits.",
+    words: ["brand new", "reliable", "lock", "battery", "fingerprint", "anniversary", "smart cookie"]
+  }
+];
+
+const SESSION_18_LEAD_IN = {
+  title: "Lead-In: Discussion & Personal Possessions Matching",
+  badge: "Handout Page 1 & Smartboard 1-2",
+  questions: [
+    {
+      q: "1. What is the most valuable thing that you own?",
+      model: "In terms of financial value, probably my laptop because I need it for university and work. But emotionally, my mother\\'s handwritten recipe book is much more precious.",
+      ar: "ما هو أثمن وأغلى شيء تملكه؟"
+    },
+    {
+      q: "2. What is the most expensive thing that you have ever bought?",
+      model: "The most expensive thing I\\'ve ever bought is my smartphone. I saved up for six months to purchase it brand new with high resolution and plenty of storage.",
+      ar: "ما هو أغلى شيء اشتريته في حياتك؟"
+    },
+    {
+      q: "3. Do you own anything that has sentimental value? Why is it sentimental to you?",
+      model: "Yes, I have an old silver wristwatch that my grandfather gave me on my graduation. Every time I look at it, it reminds me of his encouragement and wisdom.",
+      ar: "هل تملك شيئاً ذا قيمة معنوية وعاطفية؟ ولماذا؟"
+    },
+    {
+      q: "4. Have you ever inherited anything from someone?",
+      model: "I inherited a wooden bookshelf from my uncle when he moved abroad. It\\'s made of dark oak wood and has classical carved brass handles.",
+      ar: "هل ورثت أي شيء من أحد من قبل؟"
+    },
+    {
+      q: "5. Have you ever lost anything important?",
+      model: "Unfortunately, I once lost my wallet on the commuter train. Losing the money was bad, but losing family photos and personal ID cards was far more stressful.",
+      ar: "هل سبق لك أن فقدت شيئاً مهماً؟"
+    }
+  ],
+  matching: [
+    { word: "sentimental", pos: "adj", def: "having an emotional value to you", letter: "c", ar: "ذو قيمة معنوية / عاطفية" },
+    { word: "valuable", pos: "adj", def: "worth a lot of money + very helpful or important", letter: "d", ar: "قيّم / ثمين / عالي القيمة" },
+    { word: "expensive", pos: "adj", def: "costing a lot of money", letter: "f", ar: "باهظ الثمن / مكلف" },
+    { word: "unique", pos: "adj", def: "unlike anything else", letter: "b", ar: "فريد من نوعه / لا مثيل له" },
+    { word: "possession", pos: "noun", def: "something that you own", letter: "a", ar: "مقتنى / ملكية خاصة" },
+    { word: "inherit", pos: "verb", def: "to receive something from someone after they die", letter: "e", ar: "يرث / يحصل على تركة" }
+  ]
+};
+
+const SESSION_18_INPUT_CONVERSATIONS = [
+  {
+    id: 1,
+    speaker: "Jo (Conversation 1)",
+    object: "A Smartphone",
+    description: "White, very slim, modern smartphone featuring a really high resolution camera and fingerprint technology.",
+    importance: "I just can't live without my mobile. I'm completely lost without it. It has all my contacts, calendar, and memories.",
+    keyQuotes: [
+      "Well, it's white and very slim.",
+      "It's got a really high resolution camera.",
+      "It's also got fingerprint technology.",
+      "I just can't live without my mobile. I'm completely lost without it."
+    ],
+    audioScript: "Interviewer: Jo, tell us about an object that is indispensable to you.\\nJo: Well, it\\'s my mobile phone. It\\'s white and very slim, with a really high resolution camera and fingerprint technology. I\\'ve had it for about a year. Honestly, I just can\\'t live without my mobile. I\\'m completely lost without it!"
+  },
+  {
+    id: 2,
+    speaker: "Mark (Conversation 2)",
+    object: "An Antique Wristwatch",
+    description: "Classic round metallic wristwatch, vintage design, worn with gentle aging on the leather strap.",
+    importance: "I've had it for ages. It was given to me by my grandfather. It's got a lot of sentimental value for me; it reminds me of the summer holidays I used to spend with him.",
+    keyQuotes: [
+      "I've had it for ages.",
+      "It was given to me by my grandfather.",
+      "It's got a lot of sentimental value for me.",
+      "It reminds me of the summer holidays I used to spend with him."
+    ],
+    audioScript: "Interviewer: Mark, do you own something of sentimental importance?\\nMark: Absolutely. This round watch on my wrist. I\\'ve had it for ages. It was given to me by my grandfather before he passed away. It\\'s got a lot of sentimental value for me because it reminds me of the warm summer holidays I used to spend fishing with him."
+  },
+  {
+    id: 3,
+    speaker: "David (Conversation 3)",
+    object: "A Black Leather Briefcase",
+    description: "Rectangular, average-sized, made of sturdy black leather with classical styling, polished brass locks, and monogrammed initials 'BE'.",
+    importance: "My wife gave it to me on our tenth anniversary. It looks classical, holds all my important legal papers, and represents our decade of marriage.",
+    keyQuotes: [
+      "It's an expensive looking briefcase, sort of classical.",
+      "It's rectangular, average-sized.",
+      "It's made of black leather and it's got brass locks.",
+      "It's got the initials BE engraved on the side.",
+      "My wife gave it to me on our tenth anniversary."
+    ],
+    audioScript: "Interviewer: David, what possession would you hate to lose?\\nDavid: My briefcase. It\\'s an expensive looking briefcase, sort of classical and rectangular, average-sized. It\\'s made of black leather, and it\\'s got brass locks with the initials BE on it. My wife gave it to me on our tenth anniversary, so it means the world to me."
+  }
+];
+
+const SESSION_18_LANGUAGE_FOCUS = {
+  title: "Language Focus: Two Descriptive Pillars",
+  badge: "Smartboard Slides 6-8",
+  objectFeatures: [
+    { phrase: "It's made of leather / wood / metal / plastic / glass / brass.", category: "Material & Composition", eg: "It's made of black leather and brass." },
+    { phrase: "It's rectangular / triangular / round / tiny / long and thin / average-sized.", category: "Shape & Dimension", eg: "It's rectangular and average-sized." },
+    { phrase: "It's classical / brand new / reliable / striped / soft / fragile / valuable.", category: "Quality & Condition", eg: "It's classical and remarkably reliable." },
+    { phrase: "It's got brass locks / a handle / a lid / buttons / batteries / an LCD screen / fingerprint technology.", category: "Components & Hardware", eg: "It's got sturdy brass locks and a leather handle." },
+    { phrase: "It's used for writing / carrying things / cooking / taking high-resolution photos.", category: "Function & Purpose", eg: "It's used for carrying confidential files." }
+  ],
+  importancePhrases: [
+    { phrase: "I just can't live without it.", meaning: "It is an essential item for my daily life.", tone: "Colloquial & Emphatic" },
+    { phrase: "I'm completely lost without it.", meaning: "Without it, I cannot function or organize my day.", tone: "Strong Emotional Need" },
+    { phrase: "It's got a lot of sentimental value for me.", meaning: "Its value is emotional, not just financial.", tone: "Warm & Personal" },
+    { phrase: "It reminds me of the summer holidays I used to spend with him.", meaning: "It triggers precious memories of a loved one.", tone: "Nostalgic & Reflective" },
+    { phrase: "It was given to me by my grandfather.", meaning: "It is a cherished heirloom handed down through generations.", tone: "Historical & Hereditary" },
+    { phrase: "My wife gave it to me on our tenth anniversary.", meaning: "A symbolic gift commemorating a major milestone.", tone: "Milestone Celebration" }
+  ],
+  grammarRules: [
+    { rule: "It has got vs. I have got", note: "Use 'It has got' (It's got) to describe features of the object. Use 'I have got' (I've got) for personal possession: 'It's got brass locks' vs. 'I've got an antique watch'." },
+    { rule: "Made of vs. Made from", note: "Use 'made of' when the basic physical material remains clearly recognizable (e.g. 'made of wood / leather / glass'). Use 'made from' when the material undergoes chemical transformation (e.g. 'paper is made from wood')." },
+    { rule: "Used for + -ing vs. Used to + infinitive", note: "Express function with 'It's used for carrying papers' (preposition for + gerund) OR 'It's used to carry papers' (infinitive of purpose)." }
+  ]
+};
+
+const SESSION_18_LOST_PROPERTY_FORM = {
+  title: "British Council Lost Property Office Claim Form",
+  badge: "Handout Page 2-3 Role-Play",
+  fields: [
+    { label: "Item Category & Name", sample: "Vintage Men's Wristwatch", hint: "What kind of object is it?" },
+    { label: "Date & Location Lost", sample: "Lost on Wednesday afternoon around 4:30 PM in Classroom 3B.", hint: "Where and when was it misplaced?" },
+    { label: "Physical Description", sample: "Round metallic casing with a gold-tinted rim, white dial, black Roman numerals, and a brown leather strap showing slight wear. It has got a tiny scratch near the number 12.", hint: "Shape, materials, color, dimensions, distinctive marks." },
+    { label: "Hardware & Function", sample: "Analogue mechanical movement with a small brass winding crown on the right side. It does not require a battery.", hint: "Components, buttons, lids, locks, or power." },
+    { label: "Owner Claim & Sentimental Value", sample: "It has immense sentimental value because it was given to me by my late grandfather on my 21st birthday. I would be heartbroken if it were permanently lost.", hint: "Why is this object irreplaceable to you?" }
+  ]
+};
+
+const SESSION_18_TEACHER_FEEDBACK = [
+  {
+    original: "It's got a buttons.",
+    correction: "It's got buttons. / It's got a button.",
+    rule: "Indefinite article error: Never place 'a' before plural countable nouns. Say 'It has got buttons' (plural) or 'It has got a button' (singular).",
+    audio: "It has got buttons, or it has got a button."
+  },
+  {
+    original: "I got it two months ago.",
+    correction: "I got it two months ago. (Correct!)",
+    rule: "Accurate Past Simple: Use past simple ('got') with past time markers like 'ago'.",
+    audio: "I got it two months ago."
+  },
+  {
+    original: "It was a gift from my family.",
+    correction: "It was a gift from my family. (Correct!)",
+    rule: "Natural phrasing: 'a gift from [person]' is the correct collocation.",
+    audio: "It was a gift from my family."
+  },
+  {
+    original: "It's important to me because I got it when I was young.",
+    correction: "It's important to me because I got it when I was young. (Correct!)",
+    rule: "Compound sentence structure: Time clause introduced by 'when I was young' with correct past tense agreement.",
+    audio: "It is important to me because I got it when I was young."
+  },
+  {
+    original: "It's made of plastic.",
+    correction: "It's made of plastic. (Correct!)",
+    rule: "Preposition check: 'made of' + material is 100% correct.",
+    audio: "It is made of plastic."
+  },
+  {
+    original: "It's got a rectangular shape.",
+    correction: "It's got a rectangular shape. / It is rectangular.",
+    rule: "Both forms are acceptable: 'It has got a rectangular shape' (noun phrase with article) or simply 'It is rectangular' (adjective).",
+    audio: "It has got a rectangular shape, or it is rectangular."
+  },
+  {
+    original: "I don't have valuable things to talk about.",
+    correction: "I don't have anything valuable to talk about.",
+    rule: "Negative indefinite pronoun: In negative sentences, use 'anything + adjective' ('anything valuable') rather than clumsy plural phrases.",
+    audio: "I do not have anything valuable to talk about."
+  }
+];
+
+const SESSION_18_PRONUNCIATION_LAB = [
+  {
+    word: "sentimental",
+    ipa: "/ˌsen.tɪˈmen.təl/",
+    stress: "sen-ti-MEN-tal (Stress on 3rd syllable)",
+    tip: "Secondary stress on the first syllable 'sen', but the primary pitch rise is on 'MEN'."
+  },
+  {
+    word: "valuable",
+    ipa: "/ˈvæl.jə.bəl/",
+    stress: "VAL-u-a-ble (3 or 4 syllables, stress on VAL)",
+    tip: "Notice that British speakers usually compress this to 3 syllables /ˈvæl.jə.bəl/ rather than 4."
+  },
+  {
+    word: "rectangular",
+    ipa: "/rekˈtæŋ.ɡjə.lər/",
+    stress: "rec-TANG-gu-lar (Stress on TANG)",
+    tip: "The vowel in 'TANG' is an open front /æ/ sound with a velar nasal /ŋ/."
+  },
+  {
+    word: "triangular",
+    ipa: "/traɪˈæŋ.ɡjə.lər/",
+    stress: "tri-ANG-gu-lar (Stress on ANG)",
+    tip: "Begins with diphthong /traɪ/, then rises on the stressed syllable /æŋ/."
+  },
+  {
+    word: "possession",
+    ipa: "/pəˈzeʃ.ən/",
+    stress: "pos-SESS-ion (Stress on SESS)",
+    tip: "The first syllable is an unstressed schwa /pə/, the double 'ss' is pronounced as /z/, and the ending is /ʃən/."
+  },
+  {
+    word: "anniversary",
+    ipa: "/ˌæn.ɪˈvɜː.sər.i/",
+    stress: "an-ni-VER-sa-ry (Stress on VER)",
+    tip: "Primary stress lands on 'VER' with the long central vowel /ɜː/."
+  }
+];
+
+const SESSION_18_NOTEBOOK_PAGES = [
+  {
+    pageTitle: "Page 1: Smartboard Lead-In & Core Value Terminology",
+    handoutDoc: "ARB_B1_08_I022CEU_HO_v1.0",
+    date: "Session 18",
+    image: "assets/images/session18_board_leadin_matching.jpg",
+    summary: "Authentic whiteboard matching definitions with teacher blue annotations and full answer key (1c, 2d, 3f, 4b, 5a, 6e).",
+    notes: [
+      "sentimental (adj) -> c. having an emotional value to you (e.g., photo albums, family heirlooms).",
+      "valuable (adj) -> d. worth a lot of money + very helpful or important.",
+      "expensive (adj) -> f. costing a lot of money (monetary price).",
+      "unique (adj) -> b. unlike anything else (one of a kind).",
+      "possession (n) -> a. something that you own.",
+      "inherit (v) -> e. to receive something from someone after they die."
+    ]
+  },
+  {
+    pageTitle: "Page 2: The Three Objects & Audio Script Analysis",
+    handoutDoc: "ARB_B1_08_I022CEU_HO_v1.0",
+    date: "Session 18",
+    image: "assets/images/session18_board_input_answers.jpg",
+    summary: "Whiteboard notes identifying the three speakers, their target objects, and why they cherish them.",
+    notes: [
+      "Conversation 1: Jo talks about her mobile phone. Why? She just can\\'t live without it; she is completely lost without it.",
+      "Conversation 2: A vintage wristwatch. Why? It\\'s got a lot of sentimental value; reminds him of his grandfather.",
+      "Conversation 3: A leather briefcase. Why? Gift from his wife on their tenth wedding anniversary."
+    ]
+  },
+  {
+    pageTitle: "Page 3: Two-Column Language Matrix & Teacher Annotations",
+    handoutDoc: "ARB_B1_08_I022CEU_HO_v1.0",
+    date: "Session 18",
+    image: "assets/images/session18_board_language_focus_table.jpg",
+    summary: "Teacher classification contrasting descriptive features with emotional importance markers.",
+    notes: [
+      "Describing the object: 'It\\'s made of black leather', 'It\\'s got brass locks', 'It\\'s rectangular, average-sized', 'It\\'s got fingerprint technology'.",
+      "Describing importance: 'I just can\\'t live without it', 'I\\'m completely lost without it', 'It reminds me of the summer holidays', 'It\\'s got sentimental value'.",
+      "Grammar point on board: 'It has got' (object feature) vs 'I have got' (possession)."
+    ]
+  },
+  {
+    pageTitle: "Page 4: Teacher Live Clinic & Idiom of the Day",
+    handoutDoc: "ARB_B1_08_I022CEU_HO_v1.0",
+    date: "Session 18",
+    image: "assets/images/session18_board_language_feedback.jpg",
+    summary: "Whiteboard corrections on plural nouns, prepositions, and the authentic Idiom of the Day: Smart Cookie.",
+    notes: [
+      "Correction: 'It\\'s got a buttons' -> 'It\\'s got buttons' (No 'a' with plural nouns!).",
+      "Correction: 'I don\\'t have valuable things to talk about' -> 'I don\\'t have anything valuable to talk about'.",
+      "Idiom of the Day: Smart Cookie = A very intelligent and quick-thinking person (e.g., 'Elena is one smart cookie!')."
+    ]
+  }
+];
+
+
+
+/* ==========================================================================
+   SESSION 19: SPECIAL EDUCATIONAL NEEDS & SOCIAL INCLUSION
+   British Council Intermediate B1 • Social and Cultural Inclusion
+   Handout ID: ARB_B1_10_I120CEA_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_19 = [
+  {
+    id: 1901,
+    word: "disability",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌdɪs.əˈbɪl.ə.ti/",
+    citation: "Handout Page 1 & Smartboard Vocab Match",
+    definition: "A physical or mental condition making daily activities difficult.",
+    b1Explain: "A condition that makes it hard to do normal physical activities.",
+    opposite: "full ability",
+    arMeaning: "إعاقة / عجز جسدي أو عقلي",
+    sentence: "She overcame her physical disability and became an accomplished author and speaker.",
+    def: "A physical or mental condition making daily activities difficult.",
+    context: "She overcame her physical disability and became an accomplished author and speaker.",
+    ar: "إعاقة / عجز جسدي أو عقلي",
+    phonetic: "/ˌdɪs.əˈbɪl.ə.ti/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1902,
+    word: "condition",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/kənˈdɪʃ.ən/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "A long-term illness or health issue that cannot easily heal.",
+    b1Explain: "A chronic illness or medical problem that lasts for a long time.",
+    opposite: "good health",
+    arMeaning: "حالة صحية أو مرضية مزمنة",
+    sentence: "Her spinal condition requires her to use a customized wheelchair for mobility.",
+    def: "A long-term illness or health issue that cannot easily heal.",
+    context: "Her spinal condition requires her to use a customized wheelchair for mobility.",
+    ar: "حالة صحية أو مرضية مزمنة",
+    phonetic: "/kənˈdɪʃ.ən/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1903,
+    word: "attitude",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈæt.ɪ.tʃuːd/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "The personal way you think and feel about someone or something.",
+    b1Explain: "How you think and feel about life, people, or situations.",
+    opposite: "indifference",
+    arMeaning: "موقف / توجه عقلي وشعوري",
+    sentence: "Helen maintains a positive attitude towards education despite facing daily physical barriers.",
+    def: "The personal way you think and feel about someone or something.",
+    context: "Helen maintains a positive attitude towards education despite facing daily physical barriers.",
+    ar: "موقف / توجه عقلي وشعوري",
+    phonetic: "/ˈæt.ɪ.tʃuːd/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1904,
+    word: "mainstream",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈmeɪn.striːm/",
+    citation: "Handout Page 1 (Lead-In Statement 3)",
+    definition: "Considered normal and shared by the majority of ordinary people.",
+    b1Explain: "Normal and accepted by the majority, especially standard public schools.",
+    opposite: "specialized",
+    arMeaning: "التعليم العام / الاتجاه السائد والمشترك للجميع",
+    sentence: "Modern laws encourage enrolling students with special needs into mainstream classrooms.",
+    def: "Considered normal and shared by the majority of ordinary people.",
+    context: "Modern laws encourage enrolling students with special needs into mainstream classrooms.",
+    ar: "التعليم العام / الاتجاه السائد والمشترك للجميع",
+    phonetic: "/ˈmeɪn.striːm/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1905,
+    word: "inclusion",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ɪnˈkluː.ʒən/",
+    citation: "Handout Header: Social and Cultural Inclusion",
+    definition: "The practice of ensuring everyone can participate equally and feel welcomed.",
+    b1Explain: "Making sure everyone feels included, respected, and treated equally.",
+    opposite: "exclusion",
+    arMeaning: "الدمج الشامل وتكافؤ الفرص في المجتمع والتعليم",
+    sentence: "The university introduced an inclusion policy to guarantee wheelchair access in all lecture halls.",
+    def: "The practice of ensuring everyone can participate equally and feel welcomed.",
+    context: "The university introduced an inclusion policy to guarantee wheelchair access in all lecture halls.",
+    ar: "الدمج الشامل وتكافؤ الفرص في المجتمع والتعليم",
+    phonetic: "/ɪnˈkluː.ʒən/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1906,
+    word: "ramp",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ræmp/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "A sloping surface that connects two areas at different heights.",
+    b1Explain: "A slope connecting higher and lower ground for wheelchairs.",
+    opposite: "stairs",
+    arMeaning: "منحدر / ممر مائل لتسهيل حركة الكراسي المتحركة",
+    sentence: "A smooth concrete ramp was constructed alongside the steep main entrance steps.",
+    def: "A sloping surface that connects two areas at different heights.",
+    context: "A smooth concrete ramp was constructed alongside the steep main entrance steps.",
+    ar: "منحدر / ممر مائل لتسهيل حركة الكراسي المتحركة",
+    phonetic: "/ræmp/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1907,
+    word: "handrail",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈhænd.reɪl/",
+    citation: "Smartboard Live Clinic Feedback",
+    definition: "A bar attached to a wall to hold for support.",
+    b1Explain: "A long metal or wooden bar on a wall to hold onto.",
+    opposite: "open wall",
+    arMeaning: "درابزين / مقبض جداري للاستناد والتوازن",
+    sentence: "The school installed sturdy metal handrails along both sides of the corridor for extra balance.",
+    def: "A bar attached to a wall to hold for support.",
+    context: "The school installed sturdy metal handrails along both sides of the corridor for extra balance.",
+    ar: "درابزين / مقبض جداري للاستناد والتوازن",
+    phonetic: "/ˈhænd.reɪl/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1908,
+    word: "elevator",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈel.ɪ.veɪ.tər/",
+    citation: "Smartboard Live Clinic Feedback",
+    definition: "A machine that carries people up and down in buildings.",
+    b1Explain: "A lift that carries passengers between different floors.",
+    opposite: "staircase",
+    arMeaning: "مصعد كهربائي للأدوار المتعددة",
+    sentence: "The building has a spacious glass elevator that easily fits two wheelchairs.",
+    def: "A machine that carries people up and down in buildings.",
+    context: "The building has a spacious glass elevator that easily fits two wheelchairs.",
+    ar: "مصعد كهربائي للأدوار المتعددة",
+    phonetic: "/ˈel.ɪ.veɪ.tər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1909,
+    word: "escalator",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈes.kə.leɪ.tər/",
+    citation: "Smartboard Live Clinic Feedback",
+    definition: "Moving stairs that carry people between different floors of buildings.",
+    b1Explain: "Moving electric stairs found in malls and stations.",
+    opposite: "fixed stairs",
+    arMeaning: "سلم كهربائي متحرك",
+    sentence: "While tourists used the escalator, wheelchair users took the nearby elevator.",
+    def: "Moving stairs that carry people between different floors of buildings.",
+    context: "While tourists used the escalator, wheelchair users took the nearby elevator.",
+    ar: "سلم كهربائي متحرك",
+    phonetic: "/ˈes.kə.leɪ.tər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1910,
+    word: "vending machine",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈven.dɪŋ məˌʃiːn/",
+    citation: "Smartboard Live Clinic Feedback",
+    definition: "A coin-operated machine that serves snacks, drinks, or small goods.",
+    b1Explain: "An automatic machine selling cold drinks and snacks.",
+    opposite: "human cashier",
+    arMeaning: "آلة بيع ذاتية آلية للوجبات الخفيفة والمشروبات",
+    sentence: "The cafeteria lowered the buttons on the vending machine so students in wheelchairs could reach them.",
+    def: "A coin-operated machine that serves snacks, drinks, or small goods.",
+    context: "The cafeteria lowered the buttons on the vending machine so students in wheelchairs could reach them.",
+    ar: "آلة بيع ذاتية آلية للوجبات الخفيفة والمشروبات",
+    phonetic: "/ˈven.dɪŋ məˌʃiːn/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1911,
+    word: "flat terrain",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/flæt təˈreɪn/",
+    citation: "Smartboard Live Clinic Feedback",
+    definition: "Level, smooth ground without steep slopes, obstacles, or stairs.",
+    b1Explain: "Smooth and even ground that has no steep hills or steps.",
+    opposite: "rough ground",
+    arMeaning: "أرضية مستوية وممهدة تماماً دون عوائق",
+    sentence: "The university campus was landscaped with flat terrain to allow easy wheelchair commuting.",
+    def: "Level, smooth ground without steep slopes, obstacles, or stairs.",
+    context: "The university campus was landscaped with flat terrain to allow easy wheelchair commuting.",
+    ar: "أرضية مستوية وممهدة تماماً دون عوائق",
+    phonetic: "/flæt təˈreɪn/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1912,
+    word: "accommodate",
+    pos: "verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/əˈkɒm.ə.deɪt/",
+    citation: "Helen\\'s Reading Text (Handout Para 1)",
+    definition: "To make practical changes so someone can participate comfortably.",
+    b1Explain: "To adjust arrangements to fit someone's special needs comfortably.",
+    opposite: "neglect",
+    arMeaning: "يستوعب ويوفر التسهيلات المناسبة",
+    sentence: "The teacher rearranged desks to accommodate Helen and her wheelchair near the entrance.",
+    def: "To make practical changes so someone can participate comfortably.",
+    context: "The teacher rearranged desks to accommodate Helen and her wheelchair near the entrance.",
+    ar: "يستوعب ويوفر التسهيلات المناسبة",
+    phonetic: "/əˈkɒm.ə.deɪt/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1913,
+    word: "encourage",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪnˈkʌr.ɪdʒ/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "To give someone confidence, hope, or support to succeed.",
+    b1Explain: "To give someone hope, courage, and support.",
+    opposite: "discourage",
+    arMeaning: "يشجع ويحفز ويمد بالعزيمة",
+    sentence: "Good educators encourage all pupils to express their creative ideas freely.",
+    def: "To give someone confidence, hope, or support to succeed.",
+    context: "Good educators encourage all pupils to express their creative ideas freely.",
+    ar: "يشجع ويحفز ويمد بالعزيمة",
+    phonetic: "/ɪnˈkʌr.ɪdʒ/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1914,
+    word: "expect",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪkˈspekt/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "To think or believe that something will happen soon.",
+    b1Explain: "To believe that something will happen or arrive.",
+    opposite: "doubt",
+    arMeaning: "يتوقع حدوث شيء مستقبلاً",
+    sentence: "Parents expect local schools to provide equal educational opportunities for every child.",
+    def: "To think or believe that something will happen soon.",
+    context: "Parents expect local schools to provide equal educational opportunities for every child.",
+    ar: "يتوقع حدوث شيء مستقبلاً",
+    phonetic: "/ɪkˈspekt/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1915,
+    word: "surround",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/səˈraʊnd/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "To place people or objects all around someone or something.",
+    b1Explain: "To be all around someone or keep people close to you.",
+    opposite: "isolate",
+    arMeaning: "يحيط بـ / يلتف حوله برعاية واهتمام",
+    sentence: "She chose to surround herself with caring friends who treated her with dignity.",
+    def: "To place people or objects all around someone or something.",
+    context: "She chose to surround herself with caring friends who treated her with dignity.",
+    ar: "يحيط بـ / يلتف حوله برعاية واهتمام",
+    phonetic: "/səˈraʊnd/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1916,
+    word: "take for granted",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/teɪk fɔː ˈɡrɑːn.tɪd/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "To fail to appreciate something because you are used to it.",
+    b1Explain: "To not value something because you assume it will always be there.",
+    opposite: "cherish",
+    arMeaning: "يأخذ الأمر كمسلّم به دون تقدير لقيمته الحقيقية",
+    sentence: "Able-bodied people often take for granted how simple it is to walk up stairs.",
+    def: "To fail to appreciate something because you are used to it.",
+    context: "Able-bodied people often take for granted how simple it is to walk up stairs.",
+    ar: "يأخذ الأمر كمسلّم به دون تقدير لقيمته الحقيقية",
+    phonetic: "/teɪk fɔː ˈɡrɑːn.tɪd/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 1917,
+    word: "tick all the boxes",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/tɪk ɔːl ðə ˈbɒk.sɪz/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "To satisfy all necessary rules, requirements, or quality standards.",
+    b1Explain: "To meet all requirements or standards completely.",
+    opposite: "fall short",
+    arMeaning: "يستوفي جميع المعايير والشروط المطلوبة تماماً",
+    sentence: "The newly renovated library ticks all the boxes for disability access and digital learning.",
+    def: "To satisfy all necessary rules, requirements, or quality standards.",
+    context: "The newly renovated library ticks all the boxes for disability access and digital learning.",
+    ar: "يستوفي جميع المعايير والشروط المطلوبة تماماً",
+    phonetic: "/tɪk ɔːl ðə ˈbɒk.sɪz/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 1918,
+    word: "off limits",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌɒf ˈlɪm.ɪts/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "Not allowed to be entered, visited, or used by people.",
+    b1Explain: "A place where people are forbidden or unable to enter.",
+    opposite: "open to all",
+    arMeaning: "محظور الدخول / غير مسموح بالوصول إليه",
+    sentence: "Before the elevator was installed, the upper floor chemistry lab was off limits to wheelchair users.",
+    def: "Not allowed to be entered, visited, or used by people.",
+    context: "Before the elevator was installed, the upper floor chemistry lab was off limits to wheelchair users.",
+    ar: "محظور الدخول / غير مسموح بالوصول إليه",
+    phonetic: "/ˌɒf ˈlɪm.ɪts/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 1919,
+    word: "make a fuss",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/meɪk ə fʌs/",
+    citation: "Helen\\'s Reading Text (Handout Para 1)",
+    definition: "To create unnecessary excitement, complaints, or excessive worry.",
+    b1Explain: "To cause unnecessary drama or give too much unwanted attention.",
+    opposite: "stay calm",
+    arMeaning: "يفتعل ضجة وجلبة واهتماماً مبالغاً فيه بلا داعٍ",
+    sentence: "Helen asked her instructor not to make a fuss every time she entered the classroom.",
+    def: "To create unnecessary excitement, complaints, or excessive worry.",
+    context: "Helen asked her instructor not to make a fuss every time she entered the classroom.",
+    ar: "يفتعل ضجة وجلبة واهتماماً مبالغاً فيه بلا داعٍ",
+    phonetic: "/meɪk ə fʌs/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 1920,
+    word: "special treatment",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈspeʃ.əl ˈtriːt.mənt/",
+    citation: "Helen\\'s Reading Text (Handout Para 2)",
+    definition: "Giving unusual extra favors or privileges not shared by others.",
+    b1Explain: "Treating someone differently by giving them extra privileges.",
+    opposite: "equal treatment",
+    arMeaning: "معاملة خاصة استثنائية (تمييز إيجابي أو مبالغ فيه)",
+    sentence: "Helen wanted to be treated like any normal student rather than receiving awkward special treatment.",
+    def: "Giving unusual extra favors or privileges not shared by others.",
+    context: "Helen wanted to be treated like any normal student rather than receiving awkward special treatment.",
+    ar: "معاملة خاصة استثنائية (تمييز إيجابي أو مبالغ فيه)",
+    phonetic: "/ˈspeʃ.əl ˈtriːt.mənt/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1921,
+    word: "resent",
+    pos: "verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/rɪˈzent/",
+    citation: "Helen\\'s Reading Text (Handout Para 2)",
+    definition: "To feel angry and bitter about something perceived as unfair.",
+    b1Explain: "To feel angry or upset because you think something is unfair.",
+    opposite: "welcome",
+    arMeaning: "يستاء من / يشعر بالحنق والمرارة والضيق",
+    sentence: "She worried that other students might resent her if trips were cancelled on her account.",
+    def: "To feel angry and bitter about something perceived as unfair.",
+    context: "She worried that other students might resent her if trips were cancelled on her account.",
+    ar: "يستاء من / يشعر بالحنق والمرارة والضيق",
+    phonetic: "/rɪˈzent/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1922,
+    word: "burden",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈbɜː.dən/",
+    citation: "Helen\\'s Reading Text (Handout Para 2)",
+    definition: "A heavy duty or difficult responsibility causing extra stress.",
+    b1Explain: "A heavy problem or difficulty that worries you.",
+    opposite: "relief",
+    arMeaning: "عبء ثقيل / حمل مرهق نفسياً",
+    sentence: "She hated feeling like a burden to her classmates during collaborative team projects.",
+    def: "A heavy duty or difficult responsibility causing extra stress.",
+    context: "She hated feeling like a burden to her classmates during collaborative team projects.",
+    ar: "عبء ثقيل / حمل مرهق نفسياً",
+    phonetic: "/ˈbɜː.dən/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1923,
+    word: "downhill",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌdaʊnˈhɪl/",
+    citation: "Helen\\'s Reading Text (Handout Para 2)",
+    definition: "To deteriorate continuously and become much worse over time.",
+    b1Explain: "To get worse and worse progressively.",
+    opposite: "improve",
+    arMeaning: "يتدهور ويسير نحو الأسوأ باستمرار",
+    sentence: "After the teacher publicly criticized her seating needs, things quickly went downhill.",
+    def: "To deteriorate continuously and become much worse over time.",
+    context: "After the teacher publicly criticized her seating needs, things quickly went downhill.",
+    ar: "يتدهور ويسير نحو الأسوأ باستمرار",
+    phonetic: "/ˌdaʊnˈhɪl/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 1924,
+    word: "field trip",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈfiːld ˌtrɪp/",
+    citation: "Helen\\'s Reading Text (Handout Para 2)",
+    definition: "A school or work visit away from class for education.",
+    b1Explain: "An educational trip organized by a school outside class.",
+    opposite: "classroom lesson",
+    arMeaning: "رحلة مدرسية تعليمية ميدانية",
+    sentence: "The museum field trip gave students hands-on experience with ancient Egyptian artifacts.",
+    def: "A school or work visit away from class for education.",
+    context: "The museum field trip gave students hands-on experience with ancient Egyptian artifacts.",
+    ar: "رحلة مدرسية تعليمية ميدانية",
+    phonetic: "/ˈfiːld ˌtrɪp/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1925,
+    word: "crowded",
+    pos: "adj",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈkraʊ.dɪd/",
+    citation: "Helen\\'s Reading Text (Handout Para 1)",
+    definition: "Full of too many people or objects with little space.",
+    b1Explain: "Full of people with very little room to move.",
+    opposite: "spacious",
+    arMeaning: "مزدحم / مكتظ بالناس أو الأثاث",
+    sentence: "The classroom was narrow and crowded, making wheelchair navigation very difficult.",
+    def: "Full of too many people or objects with little space.",
+    context: "The classroom was narrow and crowded, making wheelchair navigation very difficult.",
+    ar: "مزدحم / مكتظ بالناس أو الأثاث",
+    phonetic: "/ˈkraʊ.dɪd/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 1926,
+    word: "participate",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/pɑːˈtɪs.ɪ.peɪt/",
+    citation: "Handout Lead-In Statement 6",
+    definition: "To take part in an activity along with other people.",
+    b1Explain: "To take part in an activity with others.",
+    opposite: "withdraw",
+    arMeaning: "يشارك وينخرط بفعالية في نشاط",
+    sentence: "Accessible facilities allow every student to participate fully in extracurricular sports and clubs.",
+    def: "To take part in an activity along with other people.",
+    context: "Accessible facilities allow every student to participate fully in extracurricular sports and clubs.",
+    ar: "يشارك وينخرط بفعالية في نشاط",
+    phonetic: "/pɑːˈtɪs.ɪ.peɪt/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 1927,
+    word: "facilities",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/fəˈsɪl.ə.tiz/",
+    citation: "Handout Page 3 Listening & Page 4 Task",
+    definition: "Buildings, equipment, or services provided for a particular purpose.",
+    b1Explain: "Rooms, equipment, and services provided in a building.",
+    opposite: "obstacles",
+    arMeaning: "مرافق وخدمات وتجهيزات مساعدة",
+    sentence: "The office upgraded its sanitary facilities with automatic doors and emergency call cords.",
+    def: "Buildings, equipment, or services provided for a particular purpose.",
+    context: "The office upgraded its sanitary facilities with automatic doors and emergency call cords.",
+    ar: "مرافق وخدمات وتجهيزات مساعدة",
+    phonetic: "/fəˈsɪl.ə.tiz/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 1928,
+    word: "resourceful",
+    pos: "adj",
+    cambridgeLevel: "C1",
+    pronunciation: "/rɪˈzɔː.sfəl/",
+    citation: "Session 17 & 19 Shared Leadership Quality",
+    definition: "Skilled at solving problems quickly with whatever tools you have.",
+    b1Explain: "Good at solving problems quickly with whatever is available.",
+    opposite: "helpless",
+    arMeaning: "واسع الحيلة وبارع في إيجاد الحلول السريعة",
+    sentence: "A resourceful teacher designs engaging classroom tasks that involve every student naturally.",
+    def: "Skilled at solving problems quickly with whatever tools you have.",
+    context: "A resourceful teacher designs engaging classroom tasks that involve every student naturally.",
+    ar: "واسع الحيلة وبارع في إيجاد الحلول السريعة",
+    phonetic: "/rɪˈzɔː.sfəl/",
+    partOfSpeech: "adj"
+  }
+];
+
+const SESSION_19_VOCAB_GROUPS = [
+  {
+    title: "1. Core Medical & Inclusion Concepts",
+    badge: "Medical Conditions & Social Rights",
+    icon: "🤝",
+    desc: "Key vocabulary covering physical conditions, equal educational rights, societal attitudes, and mainstream inclusion.",
+    words: ["disability", "condition", "attitude", "mainstream", "inclusion", "encourage", "expect"]
+  },
+  {
+    title: "2. Architectural & Physical Accessibility",
+    badge: "Building Architecture & Mobility Aids",
+    icon: "🏢",
+    desc: "Terms detailing architectural modifications such as slopes, wall supports, lifts, and level terrain.",
+    words: ["ramp", "handrail", "elevator", "escalator", "flat terrain", "facilities", "vending machine"]
+  },
+  {
+    title: "3. Social Interaction & Class Dynamics",
+    badge: "Psychological & Classroom Atmosphere",
+    icon: "👥",
+    desc: "Colloquial phrases and idioms describing how teachers and peers interact with individuals who have special needs.",
+    words: ["accommodate", "surround", "make a fuss", "special treatment", "resent", "burden", "downhill"]
+  },
+  {
+    title: "4. Practical Standards & Student Engagement",
+    badge: "Policy Standards & Active Participation",
+    icon: "✅",
+    desc: "Expressions for satisfying official audit criteria, exploring outside field trips, and actively participating as equals.",
+    words: ["take for granted", "tick all the boxes", "off limits", "field trip", "crowded", "participate", "resourceful"]
+  }
+];
+
+const SESSION_19_LEAD_IN = {
+  title: "Lead-In: Inclusion Statements & Philosophical Perspectives",
+  badge: "Handout Page 1 (Lead-In 1 & 2)",
+  statements: [
+    { id: 1, text: "Education should be available to all.", defaultAgree: true, discussion: "Access to quality learning is a fundamental human right regardless of physical or cognitive differences." },
+    { id: 2, text: "Every student has his/her own special needs.", defaultAgree: true, discussion: "Even neurotypical students require differentiated pacing, visual explanations, or tailored encouragement." },
+    { id: 3, text: "People with special needs should be able to access mainstream education.", defaultAgree: true, discussion: "Mainstream schooling fosters empathy among peers and prepares students with disabilities for civic life." },
+    { id: 4, text: "It is better to provide special schools for students with special needs.", defaultAgree: false, discussion: "While specialized schools offer targeted medical therapy, total segregation limits social integration." },
+    { id: 5, text: "Schools should provide extra support services for students with special needs.", defaultAgree: true, discussion: "Shadow teachers, speech therapists, and accessible mobility corridors must be state-funded." },
+    { id: 6, text: "Students with special needs should be able to participate fully in school/work life.", defaultAgree: true, discussion: "Participation extends beyond tests to sports, arts, social clubs, and school leadership." }
+  ]
+};
+
+const SESSION_19_READINGS = {
+  title: "Core Jigsaw Readings: Helen's Two School Experiences",
+  badge: "Authentic Handout ARC/ARB & Smartboard Slides 18-22",
+  readingA: {
+    title: "Reading A: A Nightmare Experience",
+    subtitle: "Authentic Transcribed Student Handout (ARC_B1_10_I120CEA_HO)",
+    photo: "assets/images/session19_handout_reading_a_text.jpg",
+    paragraphs: [
+      "The problems began on my first day of classes. The classroom was very small and quite crowded. It was difficult for me to get a place where I was near the door and could see the board. The teacher made a big fuss about having to move the furniture to accommodate me and my chair.",
+      "From that moment things just went downhill. Although I spoke to the teacher and told him that I just wanted to be included and not get special treatment, he would always mention my condition whenever we did any activity. 'Remember Helen can't move to you so you will have to move to her', he would say when we did interactive activities or 'We can't do that because Helen can't' when he spoke about going on field trips to museums or other places. I started to feel like my classmates resented me because I was limiting what they could do and that I was a burden.",
+      "Another thing that really annoyed me was the way the teacher spoke to me. Although I actually had quite good English, he would always speak to me in a slow, loud voice. I have a physical disability but that doesn't mean I am stupid! After two months, I'd had enough and I left that school."
+    ],
+    studentNotes: "Student handwritten note at bottom of page: 'teacher made big fuss and make other students pay attention... teacher treated her like she was stupid.'",
+    quiz: [
+      { q: "1. Helen had _____ with this school.", options: ["some problems", "many problems"], answer: 1, explanation: "Handout Para 1 & Slide 19: Helen faced continuous problems with furniture, field trips, and teacher condescension." },
+      { q: "2. It was _____ for Helen to get a good seat in the classroom.", options: ["easy", "difficult"], answer: 1, explanation: "The room was crowded and small, making it difficult to sit near the door and see the board." },
+      { q: "3. The teacher _____ about Helen's needs.", options: ["made a big fuss", "didn't make a fuss"], answer: 0, explanation: "The teacher made a dramatic fuss about moving furniture rather than handling it discreetly." },
+      { q: "4. The teacher _____ when Helen asked him not to make a fuss.", options: ["listened", "didn't listen"], answer: 1, explanation: "He continued highlighting her condition in every activity." },
+      { q: "5. The teacher _____ the other students' attention to Helen's needs.", options: ["drew", "didn't draw"], answer: 0, explanation: "He loudly announced 'Remember Helen can't move to you' which singled her out." },
+      { q: "6. Helen thought the other students saw her as _____.", options: ["an inspiration", "a problem and a burden"], answer: 1, explanation: "Because the teacher canceled field trips saying 'Helen can't', classmates began resenting her." },
+      { q: "7. Helen liked the way the teacher spoke to her.", options: ["True", "False (He spoke in a slow, loud voice as if she were stupid)"], answer: 1, explanation: "Having a physical disability does not mean someone has cognitive impairment." },
+      { q: "8. Helen _____ because of the problems.", options: ["stayed for a year", "left the school after two months"], answer: 1, explanation: "After two months of emotional exhaustion, she withdrew." }
+    ]
+  },
+  readingB: {
+    title: "Reading B: Better Than I Could Have Wished",
+    subtitle: "Pedagogical Jigsaw Contrast Text (Smartboard Slide 22)",
+    paragraphs: [
+      "When I registered at my new school, the experience could not have been more different. A week before term started, a senior coordinator invited me and my parents for a quiet campus tour. We discussed my mobility requirements without any awkwardness or drama.",
+      "On my first day, the teacher welcomed me with a friendly smile and simply handed out the syllabus like she did with every other student. The desks were already arranged with wide, accessible aisles, and an adjustable table had been placed naturally near the front. Nobody made a big fuss, and I didn't feel singled out.",
+      "Whenever group work happened, students teamed up naturally. For our off-campus field trip to the science museum, the school pre-booked an accessible mini-bus so everyone could travel together. The staff proved that with proper planning and respectful attitudes, students with special needs can flourish alongside everyone else."
+    ],
+    quiz: [
+      { q: "1. Helen is _____ with her new school.", options: ["unhappy", "happy and thriving"], answer: 1, explanation: "Slide 22 Answer 1: Helen feels valued and comfortable." },
+      { q: "2. Helen _____ from the other students in the class.", options: ["feels completely alienated", "doesn't feel different"], answer: 1, explanation: "Slide 22 Answer 2: She participates on equal terms." },
+      { q: "3. Helen thinks this school is _____ her last school.", options: ["similar to", "completely different from"], answer: 1, explanation: "Slide 22 Answer 3: Proactive preparation created a completely positive environment." },
+      { q: "4. Helen felt welcome from _____ at this school.", options: ["day one", "the third term"], answer: 0, explanation: "Slide 22 Answer 4: A warm, professional attitude greeted her from the very start." },
+      { q: "5. The staff discussed Helen's needs with her _____ she started class.", options: ["before", "weeks after"], answer: 0, explanation: "Slide 22 Answer 5: Pre-term consultation ensured smooth accommodation." },
+      { q: "6. The school made it clear to Helen that she was _____.", options: ["just like other students", "a burden on their budget"], answer: 0, explanation: "Slide 22 Answer 6: She was treated with equal dignity." },
+      { q: "7. The school checked with Helen to see if their facilities were suitable.", options: ["True", "False"], answer: 0, explanation: "Slide 22 Answer 7: They confirmed bathroom and corridor access in advance." },
+      { q: "8. The school's preparations made a _____ to how comfortable Helen felt.", options: ["tiny difference", "big difference"], answer: 1, explanation: "Slide 22 Answer 8: Thoughtful preparation removed social and physical friction." }
+    ]
+  }
+};
+
+const SESSION_19_ATTITUDES_QUIZ = {
+  title: "Whose Attitude? Stakeholder Perspectives",
+  badge: "Handout Page 2 & Smartboard Slide 15",
+  options: [
+    { key: "A", label: "Helen" },
+    { key: "B", label: "Helen's parents" },
+    { key: "C", label: "Many people" },
+    { key: "D", label: "Many businesses" }
+  ],
+  items: [
+    { id: 1, text: "People with disabilities have a lot to be unhappy about.", answer: "C", stakeholder: "Many people", note: "Common societal misconception assuming people with disabilities live in constant sorrow." },
+    { id: 2, text: "People should look at their strengths rather than their weaknesses.", answer: "A", stakeholder: "Helen", note: "Helen's empowering mindset: focus on cognitive talents and resilience rather than limitations." },
+    { id: 3, text: "People with disabilities should have the same access to education as everybody else.", answer: "B", stakeholder: "Helen's parents", note: "Advocacy position demanding equal civil rights and educational parity." },
+    { id: 4, text: "Going to school is just something we do.", answer: "C", stakeholder: "Many people", note: "Able-bodied people take schooling for granted without realizing the physical battles others endure." },
+    { id: 5, text: "Buildings do not need to have special access for people with special needs.", answer: "D", stakeholder: "Many businesses", note: "Unsupportive companies that view accessibility ramps and elevators merely as burdensome expenses." }
+  ]
+};
+
+const SESSION_19_ACCESSIBILITY_AUDIT = {
+  title: "Workplace & Office Accessibility Audit",
+  badge: "Handout Page 3-4 & Smartboard Slides 11, 28",
+  checklist: [
+    { item: "Entrance Ramps & Automatic Doors", standard: "Slopes no steeper than 1:12 ratio with slip-resistant surfaces.", importance: "Essential for independent wheelchair entry without needing assistance." },
+    { item: "Elevators vs. Escalators", standard: "Dedicated wide passenger elevators with Braille buttons and voice announcements.", importance: "Wheelchair users cannot use escalators; elevators must serve all building floors." },
+    { item: "Flat Terrain & Threshold Clearances", standard: "Ground surfaces completely level with zero tripping ledges or sudden steps.", importance: "Prevents wheel blockage and minimizes fall hazards for visually impaired workers." },
+    { item: "Wall Handrails & Support Bars", standard: "Continuous round handrails installed at a standard height of 900mm.", importance: "Provides essential stabilization for employees with mobility or joint disorders." },
+    { item: "Accessible Kitchens & Vending Machines", standard: "Controls, coin slots, and dispensers positioned at or below 1100mm height.", importance: "Ensures staff can independently purchase refreshments and prepare tea." },
+    { item: "Wide Corridors & Desk Clearances", standard: "Minimum 1200mm clear width between workstations and along fire exits.", importance: "Allows comfortable turning circles for electric wheelchairs." }
+  ]
+};
+
+const SESSION_19_SPEAKING_LAB = [
+  {
+    topic: "Mainstream Education vs. Specialized Schools",
+    prompt: "Should all students with special educational needs be included in mainstream education?",
+    b1Answer: "In my opinion, mainstream education is much better because it teaches all students how to cooperate and respect differences. When children study together, they don't see disability as something strange. However, schools must provide shadow teachers and ramps so nobody falls behind.",
+    b2Answer: "I firmly advocate for comprehensive mainstream inclusion. Segregated institutions, while well-intentioned, often perpetuate social exclusion and limit career horizons. When educational authorities invest in universal design—such as adaptive digital curricula and accessible architecture—everyone in the classroom benefits from diverse perspectives."
+  },
+  {
+    topic: "Workplace Awareness & Accommodations",
+    prompt: "Do you think your current school or workplace accommodates people with special needs?",
+    b1Answer: "At my workplace, they installed an elevator last year, which was a great improvement. But the cafeteria tables are still crowded and the vending machines are too high. We need more staff training so colleagues understand how to offer help politely without making a fuss.",
+    b2Answer: "While our corporate headquarters complies with baseline architectural codes such as entrance ramps and wide elevators, our cultural awareness remains deficient. True accommodation is not merely physical; it involves establishing neurodiverse hiring initiatives, flexible scheduling, and anti-bias workshops so individuals never feel stigmatized."
+  }
+];
+
+const SESSION_19_TEACHER_FEEDBACK = [
+  {
+    original: "Put arms on the walls for them to hold",
+    correction: "handrail (noun)",
+    rule: "Lexical precision: The architectural fixture mounted to a wall to hold for stability is termed a 'handrail'.",
+    audio: "Install handrails along the corridors for support."
+  },
+  {
+    original: "Elevators vs escalators",
+    correction: "elevators (lifts) vs. escalators (moving stairs)",
+    rule: "Functional distinction: Escalators cannot be safely navigated in a wheelchair. Buildings must provide elevators for inclusive access.",
+    audio: "Wheelchair users require elevators rather than escalators."
+  },
+  {
+    original: "How they can take food from the machine",
+    correction: "vending machine (noun)",
+    rule: "Vocabulary target: An automated machine that dispenses food and beverages upon payment is a 'vending machine'.",
+    audio: "Lower the buttons on the vending machine so everyone can reach."
+  },
+  {
+    original: "to make easily access",
+    correction: "to make access easy / to make it easily accessible",
+    rule: "Word order & syntax: 'Access' is a noun; use the adjective 'easy' after the object ('to make access easy') or use the adverb before the adjective ('easily accessible').",
+    audio: "The renovations will make access easy for everyone."
+  },
+  {
+    original: "Level ground",
+    correction: "flat terrain (noun phrase)",
+    rule: "Professional collocation: In urban planning and disability audits, use the professional collocation 'flat terrain' to denote smooth, unsloped surfaces.",
+    audio: "The campus was paved with smooth, flat terrain."
+  }
+];
+
+const SESSION_19_PRONUNCIATION_LAB = [
+  {
+    word: "disability",
+    ipa: "/ˌdɪs.əˈbɪl.ə.ti/",
+    stress: "dis-a-BIL-i-ty (Stress on BIL)",
+    tip: "Secondary stress on 'dis', but the sharp pitch rise occurs on the 3rd syllable 'BIL'."
+  },
+  {
+    word: "condition",
+    ipa: "/kənˈdɪʃ.ən/",
+    stress: "con-DI-tion (Stress on DI)",
+    tip: "The prefix 'con-' is reduced to a neutral schwa /kən/, rising on 'dɪʃ'."
+  },
+  {
+    word: "attitude",
+    ipa: "/ˈæt.ɪ.tʃuːd/",
+    stress: "AT-ti-tude (Stress on AT)",
+    tip: "British English pronounces the final syllable as /tʃuːd/ with stress firmly on the initial /æt/."
+  },
+  {
+    word: "escalator",
+    ipa: "/ˈes.kə.leɪ.tər/",
+    stress: "ES-ca-la-tor (Stress on ES)",
+    tip: "Initial stress on /es/, followed by two unstressed syllables and a weak agent ending."
+  },
+  {
+    word: "accommodate",
+    ipa: "/əˈkɒm.ə.deɪt/",
+    stress: "ac-COM-mo-date (Stress on COM)",
+    tip: "First vowel is a weak schwa /ə/, second syllable is stressed with a short /ɒ/ vowel."
+  },
+  {
+    word: "inclusion",
+    ipa: "/ɪnˈkluː.ʒən/",
+    stress: "in-CLU-sion (Stress on CLU)",
+    tip: "The middle syllable has a long /uː/ sound followed by the voiced postalveolar fricative /ʒən/."
+  }
+];
+
+const SESSION_19_NOTEBOOK_PAGES = [
+  {
+    pageTitle: "Page 1: Lesson Overview & Target Vocabulary Definitions",
+    handoutDoc: "ARB_B1_10_I120CEA_HO_v1.0",
+    date: "Session 19",
+    image: "assets/images/session19_board_vocab_matching.jpg",
+    summary: "Smartboard slide 6 transcribing the 10 core special needs vocabulary words matched to British Council definitions.",
+    notes: [
+      "condition (n) -> f. an illness or medical problem that you have for a long time.",
+      "attitude (n) -> h. the way that you think and feel about something.",
+      "surround (v) -> j. to choose to have particular people near you all the time.",
+      "disability (n) -> i. physical or mental condition making normal movement hard.",
+      "take for granted (v) -> d. to be so used to something that you do not recognize its true value.",
+      "encourage (v) -> a. to give somebody support, courage, or hope.",
+      "expect (v) -> c. to think or believe that something will happen.",
+      "ramp (n) -> b. a slope joining two areas when one is higher than the other.",
+      "off limits (adj) -> e. where people are not allowed or cannot go.",
+      "tick all the boxes (v) -> g. meet all necessary requirements."
+    ]
+  },
+  {
+    pageTitle: "Page 2: Reading A - Full Authentic Student Handout",
+    handoutDoc: "ARB_B1_10_I120CEA_HO_v1.0",
+    date: "Session 19",
+    image: "assets/images/session19_handout_reading_a_text.jpg",
+    summary: "Handout photo showing Helen\\'s personal account of discrimination and poor school preparation, with student handwriting.",
+    notes: [
+      "Helen\\'s experience at School A: 'The classroom was very small and crowded. Teacher made a big fuss about moving furniture.'",
+      "Teacher continuously singled her out: 'Remember Helen can\\'t move to you... We can\\'t do that because Helen can\\'t.'",
+      "Classmates resented her as a burden because field trips were canceled.",
+      "Teacher spoke in a slow, loud voice: 'I have a physical disability but that doesn\\'t mean I am stupid!'",
+      "Student handwritten notes: 'teacher made big fuss and make other students pay attention... teacher treated her like she was stupid.'"
+    ]
+  },
+  {
+    pageTitle: "Page 3: Stakeholder Attitudes & Jigsaw Comparisons",
+    handoutDoc: "ARB_B1_10_I120CEA_HO_v1.0",
+    date: "Session 19",
+    image: "assets/images/session19_board_attitudes_answers.jpg",
+    summary: "Analysis of societal perspectives (Helen, parents, businesses, general public) and contrasting School A vs School B.",
+    notes: [
+      "1C: Many people think people with disabilities have a lot to be unhappy about.",
+      "2A: Helen believes people should look at their strengths rather than their weaknesses.",
+      "3B: Helen\\'s parents advocate that children with disabilities must have equal educational access.",
+      "4C: Many people take schooling for granted as just something we do.",
+      "5D: Many businesses stubbornly claim buildings do not need special access."
+    ]
+  },
+  {
+    pageTitle: "Page 4: Teacher Live Clinic & Workplace Audit",
+    handoutDoc: "ARB_B1_10_I120CEA_HO_v1.0",
+    date: "Session 19",
+    image: "assets/images/session19_board_language_feedback.jpg",
+    summary: "Teacher whiteboard corrections on architectural terms and grammatical precision.",
+    notes: [
+      "Correction: 'Put arms on the walls for them to hold' = handrail.",
+      "Correction: 'Elevators vs escalators' (Wheelchairs require elevators; escalators are inaccessible).",
+      "Correction: 'How they can take food from machine' = vending machine.",
+      "Grammar: 'to make easily access' -> 'to make access easy'.",
+      "Collocation: 'Level ground' -> 'Flat terrain'."
+    ]
+  }
+];
+
+
 /* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
@@ -8520,6 +10113,30 @@ if (typeof window !== 'undefined') {
   window.SESSION_17_TEACHER_FEEDBACK = typeof SESSION_17_TEACHER_FEEDBACK !== 'undefined' ? SESSION_17_TEACHER_FEEDBACK : undefined;
   window.SESSION_17_PRONUNCIATION_LAB = typeof SESSION_17_PRONUNCIATION_LAB !== 'undefined' ? SESSION_17_PRONUNCIATION_LAB : undefined;
   window.SESSION_17_NOTEBOOK_PAGES = typeof SESSION_17_NOTEBOOK_PAGES !== 'undefined' ? SESSION_17_NOTEBOOK_PAGES : undefined;
+
+  // Session 18
+  window.VOCAB_SESSION_18 = typeof VOCAB_SESSION_18 !== 'undefined' ? VOCAB_SESSION_18 : [];
+  window.SESSION_18_VOCAB_GROUPS = typeof SESSION_18_VOCAB_GROUPS !== 'undefined' ? SESSION_18_VOCAB_GROUPS : undefined;
+  window.SESSION_18_LEAD_IN = typeof SESSION_18_LEAD_IN !== 'undefined' ? SESSION_18_LEAD_IN : undefined;
+  window.SESSION_18_INPUT_CONVERSATIONS = typeof SESSION_18_INPUT_CONVERSATIONS !== 'undefined' ? SESSION_18_INPUT_CONVERSATIONS : undefined;
+  window.SESSION_18_LANGUAGE_FOCUS = typeof SESSION_18_LANGUAGE_FOCUS !== 'undefined' ? SESSION_18_LANGUAGE_FOCUS : undefined;
+  window.SESSION_18_LOST_PROPERTY_FORM = typeof SESSION_18_LOST_PROPERTY_FORM !== 'undefined' ? SESSION_18_LOST_PROPERTY_FORM : undefined;
+  window.SESSION_18_TEACHER_FEEDBACK = typeof SESSION_18_TEACHER_FEEDBACK !== 'undefined' ? SESSION_18_TEACHER_FEEDBACK : undefined;
+  window.SESSION_18_PRONUNCIATION_LAB = typeof SESSION_18_PRONUNCIATION_LAB !== 'undefined' ? SESSION_18_PRONUNCIATION_LAB : undefined;
+  window.SESSION_18_NOTEBOOK_PAGES = typeof SESSION_18_NOTEBOOK_PAGES !== 'undefined' ? SESSION_18_NOTEBOOK_PAGES : undefined;
+
+  // Session 19
+  window.VOCAB_SESSION_19 = typeof VOCAB_SESSION_19 !== 'undefined' ? VOCAB_SESSION_19 : [];
+  window.SESSION_19_VOCAB_GROUPS = typeof SESSION_19_VOCAB_GROUPS !== 'undefined' ? SESSION_19_VOCAB_GROUPS : undefined;
+  window.SESSION_19_LEAD_IN = typeof SESSION_19_LEAD_IN !== 'undefined' ? SESSION_19_LEAD_IN : undefined;
+  window.SESSION_19_READINGS = typeof SESSION_19_READINGS !== 'undefined' ? SESSION_19_READINGS : undefined;
+  window.SESSION_19_ATTITUDES_QUIZ = typeof SESSION_19_ATTITUDES_QUIZ !== 'undefined' ? SESSION_19_ATTITUDES_QUIZ : undefined;
+  window.SESSION_19_ACCESSIBILITY_AUDIT = typeof SESSION_19_ACCESSIBILITY_AUDIT !== 'undefined' ? SESSION_19_ACCESSIBILITY_AUDIT : undefined;
+  window.SESSION_19_SPEAKING_LAB = typeof SESSION_19_SPEAKING_LAB !== 'undefined' ? SESSION_19_SPEAKING_LAB : undefined;
+  window.SESSION_19_TEACHER_FEEDBACK = typeof SESSION_19_TEACHER_FEEDBACK !== 'undefined' ? SESSION_19_TEACHER_FEEDBACK : undefined;
+  window.SESSION_19_PRONUNCIATION_LAB = typeof SESSION_19_PRONUNCIATION_LAB !== 'undefined' ? SESSION_19_PRONUNCIATION_LAB : undefined;
+  window.SESSION_19_NOTEBOOK_PAGES = typeof SESSION_19_NOTEBOOK_PAGES !== 'undefined' ? SESSION_19_NOTEBOOK_PAGES : undefined;
+
 
 
 }

@@ -20,6 +20,8 @@ let MASTER_VOCAB = (currentSessionId === '1') ? VOCAB_SESSION_1
   : (currentSessionId === '15') ? (typeof VOCAB_SESSION_15 !== 'undefined' ? VOCAB_SESSION_15 : VOCAB_SESSION_10)
   : (currentSessionId === '16') ? (typeof VOCAB_SESSION_16 !== 'undefined' ? VOCAB_SESSION_16 : VOCAB_SESSION_10)
   : (currentSessionId === '17') ? (typeof VOCAB_SESSION_17 !== 'undefined' ? VOCAB_SESSION_17 : VOCAB_SESSION_10)
+  : (currentSessionId === '18') ? (typeof VOCAB_SESSION_18 !== 'undefined' ? VOCAB_SESSION_18 : VOCAB_SESSION_10)
+  : (currentSessionId === '19') ? (typeof VOCAB_SESSION_19 !== 'undefined' ? VOCAB_SESSION_19 : VOCAB_SESSION_10)
   : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
 /* --------------------------------------------------------------------------
@@ -83,6 +85,8 @@ function switchSession(sessionId) {
     : (currentSessionId === '15') ? (typeof VOCAB_SESSION_15 !== 'undefined' ? VOCAB_SESSION_15 : VOCAB_SESSION_10)
     : (currentSessionId === '16') ? (typeof VOCAB_SESSION_16 !== 'undefined' ? VOCAB_SESSION_16 : VOCAB_SESSION_10)
     : (currentSessionId === '17') ? (typeof VOCAB_SESSION_17 !== 'undefined' ? VOCAB_SESSION_17 : VOCAB_SESSION_10)
+    : (currentSessionId === '18') ? (typeof VOCAB_SESSION_18 !== 'undefined' ? VOCAB_SESSION_18 : VOCAB_SESSION_10)
+    : (currentSessionId === '19') ? (typeof VOCAB_SESSION_19 !== 'undefined' ? VOCAB_SESSION_19 : VOCAB_SESSION_10)
     : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
   // Sync toolbar select dropdown
@@ -108,6 +112,8 @@ function switchSession(sessionId) {
   const sec15Materials = document.getElementById('session15Materials');
   const sec16Materials = document.getElementById('session16Materials');
   const sec17Materials = document.getElementById('session17Materials');
+  const sec18Materials = document.getElementById('session18Materials');
+  const sec19Materials = document.getElementById('session19Materials');
   const storiesSec = document.getElementById('storiesSection');
   const spareTopicsSec = document.getElementById('spareTopicsSection');
 
@@ -568,6 +574,8 @@ function switchSession(sessionId) {
     if (sec15Materials) sec15Materials.style.display = 'none';
     if (sec16Materials) sec16Materials.style.display = 'none';
     if (sec17Materials) sec17Materials.style.display = 'block';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) sec19Materials.style.display = 'none';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">💼</span><span class="nav-text">Appraisal Hub</span>';
@@ -602,6 +610,105 @@ function switchSession(sessionId) {
     renderSession17Feedback();
     renderSession17Pronunciation();
     renderSession17Notebook();
+  } else if (currentSessionId === '18') {
+    // Session 18: Focus on Fluency: Describing Things & Explaining Their Importance
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'block';
+    if (sec19Materials) sec19Materials.style.display = 'none';
+
+    if (navLinkMat) {
+      navLinkMat.innerHTML = '<span class="nav-icon">📦</span><span class="nav-text">Possessions Lab</span>';
+      navLinkMat.setAttribute('href', '#session18Materials');
+    }
+    if (mobileLinkMat) {
+      mobileLinkMat.innerHTML = '<span>📦</span> Possessions &amp; Fluency Lab';
+      mobileLinkMat.setAttribute('href', '#session18Materials');
+    }
+    if (bottomLinkMat) {
+      bottomLinkMat.setAttribute('href', '#session18Materials');
+    }
+
+    if (heroTag) heroTag.textContent = 'ACTIVE SESSION 18';
+    if (heroDocTag) heroDocTag.textContent = 'DOC: ARB_B1_08_I022CEU';
+    if (heroTitle) heroTitle.innerHTML = 'Focus on Fluency: <span>Describing Things &amp; Importance</span>';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B2 physical description and sentimental value vocabulary words, analyze three authentic audio conversations, solve Lost Property claim forms, and practice live teacher error corrections.';
+    if (heroVocabCount) heroVocabCount.textContent = '28';
+    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 18: Focus on Fluency: Describing Things &amp; Explaining Their Importance • Handout ID: <code>ARB_B1_08_I022CEU_HO_v1.0</code>';
+    if (heroAudioBtn) {
+      heroAudioBtn.onclick = () => speakUK('British Council Session eighteen: Focus on fluency, describing things and explaining their importance, materials, shapes, and sentimental value.');
+    }
+
+    renderSession18LeadIn();
+    renderSession18Conversations();
+    renderSession18LanguageFocus();
+    renderSession18VocabGroups();
+    renderSession18LostProperty();
+    renderSession18Feedback();
+    renderSession18Pronunciation();
+    renderSession18Notebook();
+  } else if (currentSessionId === '19') {
+    // Session 19: Social and Cultural Inclusion: Special Educational Needs
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) sec19Materials.style.display = 'block';
+
+    if (navLinkMat) {
+      navLinkMat.innerHTML = '<span class="nav-icon">♿</span><span class="nav-text">Inclusion Hub</span>';
+      navLinkMat.setAttribute('href', '#session19Materials');
+    }
+    if (mobileLinkMat) {
+      mobileLinkMat.innerHTML = '<span>♿</span> Special Needs &amp; Inclusion Hub';
+      mobileLinkMat.setAttribute('href', '#session19Materials');
+    }
+    if (bottomLinkMat) {
+      bottomLinkMat.setAttribute('href', '#session19Materials');
+    }
+
+    if (heroTag) heroTag.textContent = 'ACTIVE SESSION 19';
+    if (heroDocTag) heroDocTag.textContent = 'DOC: ARB_B1_10_I120CEA';
+    if (heroTitle) heroTitle.innerHTML = 'Social &amp; Cultural Inclusion: <span>Special Educational Needs</span>';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B2 inclusion, architectural accessibility, and social equity vocabulary words, analyze Helen\'s authentic school accounts (A Nightmare Experience vs. Better Than I Could Have Wished), examine societal attitudes, and audit workplace accessibility.';
+    if (heroVocabCount) heroVocabCount.textContent = '28';
+    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 19: Social and Cultural Inclusion: Special Educational Needs • Handout ID: <code>ARB_B1_10_I120CEA_HO_v1.0</code>';
+    if (heroAudioBtn) {
+      heroAudioBtn.onclick = () => speakUK('British Council Session nineteen: Social and cultural inclusion, special educational needs, accessibility, and Helen\'s school accounts.');
+    }
+
+    renderSession19LeadIn();
+    renderSession19Readings();
+    renderSession19Attitudes();
+    renderSession19VocabGroups();
+    renderSession19Accessibility();
+    renderSession19Speaking();
+    renderSession19Feedback();
+    renderSession19Pronunciation();
+    renderSession19Notebook();
   }
 
   // Re-initialize games for selected session
@@ -629,7 +736,7 @@ function initSessionsDropdown() {
   const notice = document.getElementById('sessionNotice');
   const numSpan = document.getElementById('sessionNumberDisplay');
 
-  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15', '16', '17'];
+  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19'];
 
   if (select) {
     select.value = currentSessionId;
@@ -7561,6 +7668,963 @@ function formatStoryParagraph(text) {
   return escapeHtml(text).replace(/([‘'"][^‘'"\n]+[’'"])/g, '<span class="dialogue-quote" style="font-weight:700; color:var(--text-main);">$1</span>');
 }
 
+
+/* ==========================================================================
+   SESSION 18 RENDERING ENGINES: FOCUS ON FLUENCY (DESCRIBING THINGS)
+   Handout ID: ARB_B1_08_I022CEU_HO_v1.0
+   ========================================================================== */
+
+function getSession18Data(key) {
+  if (typeof window !== 'undefined' && window[key]) return window[key];
+  try {
+    return eval(key);
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderSession18LeadIn() {
+  const container = document.getElementById('session18LeadInWrap');
+  const data = getSession18Data('SESSION_18_LEAD_IN');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--bc-blue); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--bc-blue); color:#fff; border:none;">HANDOUT PAGE 1 &amp; SMARTBOARDS 1 &amp; 2</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Personal Possessions &amp; Value Matching Lab
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Discuss what valuable and sentimental possessions mean to you, and match the target vocabulary words to their British Council definitions.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Overview
+        </button>
+      </div>
+
+      <!-- Part 1: Discussion Questions -->
+      <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin-bottom:0.75rem; display:flex; align-items:center; gap:0.5rem;">
+        <span>💬</span> 1. Classroom Fluency Questions (Discuss with Partner)
+      </h5>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem; margin-bottom:2rem;">
+        ${data.questions.map((q, idx) => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem;">
+            <div style="font-weight:700; color:var(--text-main); font-size:0.95rem; margin-bottom:0.35rem;">
+              ${q.q}
+            </div>
+            <div style="font-size:0.82rem; color:var(--bc-blue); font-weight:600; direction:rtl; margin-bottom:0.5rem;">
+              ${q.ar}
+            </div>
+            <div style="background:var(--bg-surface); border-left:3px solid var(--emerald); padding:0.6rem 0.75rem; border-radius:4px; font-size:0.86rem; color:var(--text-body); line-height:1.45;">
+              <strong style="color:var(--emerald); font-size:0.8rem; display:block; margin-bottom:0.2rem;">Model Partner Response:</strong>
+              “${q.model}”
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(q.model)}')" style="margin-top:0.5rem; width:28px; height:28px; font-size:0.75rem;" title="Listen to response">
+              🔊
+            </button>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Part 2: Matching Words to Definitions -->
+      <div style="background:rgba(0,102,245,0.04); border:1px solid rgba(0,102,245,0.18); border-radius:var(--radius-sm); padding:1.25rem;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem;">
+          <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0; display:flex; align-items:center; gap:0.5rem;">
+            <span>🧩</span> 2. Target Words &amp; Definition Matching (Whiteboard Answer Key)
+          </h5>
+          <div style="display:flex; gap:0.5rem;">
+            <button class="btn btn-primary" onclick="revealSession18Matching()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+              👁️ Reveal Key (1c, 2d, 3f, 4b, 5a, 6e)
+            </button>
+            <button class="btn-outline-subtle" onclick="resetSession18Matching()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+              🔄 Reset
+            </button>
+          </div>
+        </div>
+
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:0.85rem;" id="session18MatchingGrid">
+          ${data.matching.map((m, idx) => `
+            <div class="s18-match-card" style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.85rem; display:flex; flex-direction:column; gap:0.35rem;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <span style="font-size:1rem; font-weight:800; color:var(--text-main);">
+                  ${idx + 1}. ${m.word} <small style="color:var(--text-muted); font-size:0.75rem;">(${m.pos})</small>
+                </span>
+                <span class="teacher-badge s18-match-badge" style="background:var(--bg-subtle); color:var(--text-muted); font-size:0.75rem;">?</span>
+              </div>
+              <div style="font-size:0.82rem; color:var(--text-muted); direction:rtl;">${m.ar}</div>
+              <div class="s18-match-def" style="font-size:0.85rem; color:var(--text-body); border-top:1px dashed var(--border-light); padding-top:0.4rem; margin-top:0.2rem; display:none;">
+                <strong style="color:var(--bc-blue);">[${m.letter.toUpperCase()}]:</strong> ${m.def}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function revealSession18Matching() {
+  document.querySelectorAll('#session18MatchingGrid .s18-match-def').forEach(el => el.style.display = 'block');
+  const data = getSession18Data('SESSION_18_LEAD_IN');
+  if (!data) return;
+  document.querySelectorAll('#session18MatchingGrid .s18-match-badge').forEach((badge, idx) => {
+    badge.textContent = `Letter ${data.matching[idx].letter.toUpperCase()}`;
+    badge.style.background = 'var(--emerald)';
+    badge.style.color = '#fff';
+    badge.style.border = 'none';
+  });
+  if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+    AnimEngine.showToast('Revealed official British Council whiteboard answer key!', 'success');
+  }
+}
+
+function resetSession18Matching() {
+  document.querySelectorAll('#session18MatchingGrid .s18-match-def').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('#session18MatchingGrid .s18-match-badge').forEach(badge => {
+    badge.textContent = '?';
+    badge.style.background = 'var(--bg-subtle)';
+    badge.style.color = 'var(--text-muted)';
+  });
+}
+
+function renderSession18Conversations() {
+  const container = document.getElementById('session18ConversationsWrap');
+  const conversations = getSession18Data('SESSION_18_INPUT_CONVERSATIONS');
+  if (!container || !conversations) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">INPUT LISTENING • SMARTBOARD SLIDES 3 &amp; 4</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Three Meaningful Possessions: Audio Transcripts &amp; Linguistic Breakdown
+          </h4>
+        </div>
+        <span class="teacher-badge">British English Dialogue Corpus</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+        ${conversations.map(c => `
+          <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1.25rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+                <div>
+                  <span class="teacher-badge" style="font-size:0.75rem; background:rgba(124,58,237,0.1); color:var(--purple);">${c.speaker}</span>
+                  <h5 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+                    ${c.object}
+                  </h5>
+                </div>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(c.audioScript)}')" title="Listen to full dialogue" style="width:34px; height:34px;">
+                  🔊
+                </button>
+              </div>
+
+              <!-- Physical Description -->
+              <div style="background:var(--bg-subtle); border-radius:var(--radius-sm); padding:0.75rem; margin-bottom:0.75rem; font-size:0.86rem; color:var(--text-body);">
+                <strong style="color:var(--bc-blue); display:block; margin-bottom:0.2rem;">Physical Description:</strong>
+                ${c.description}
+              </div>
+
+              <!-- Why is it important? -->
+              <div style="background:rgba(16,185,129,0.06); border:1px solid rgba(16,185,129,0.2); border-radius:var(--radius-sm); padding:0.75rem; margin-bottom:0.75rem; font-size:0.86rem; color:var(--text-body);">
+                <strong style="color:var(--emerald); display:block; margin-bottom:0.2rem;">Emotional Importance:</strong>
+                “${c.importance}”
+              </div>
+
+              <!-- Key Phrases Highlight -->
+              <div style="margin-top:0.5rem;">
+                <span style="font-size:0.78rem; font-weight:700; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; display:block; margin-bottom:0.35rem;">Authentic Whiteboard Quotes:</span>
+                <ul style="margin:0; padding-left:1.1rem; font-size:0.82rem; color:var(--text-body); line-height:1.45;">
+                  ${c.keyQuotes.map(q => `<li>${q}</li>`).join('')}
+                </ul>
+              </div>
+            </div>
+
+            <!-- Audio Script Accordion -->
+            <details style="margin-top:1rem; border-top:1px dashed var(--border-light); padding-top:0.6rem; font-size:0.82rem; color:var(--text-muted);">
+              <summary style="cursor:pointer; font-weight:700; color:var(--bc-blue);">View Full Dialogue Script</summary>
+              <p style="margin:0.5rem 0 0; white-space:pre-line; line-height:1.4; color:var(--text-body);">
+                ${c.audioScript}
+              </p>
+            </details>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession18LanguageFocus() {
+  const container = document.getElementById('session18LanguageFocusWrap');
+  const data = getSession18Data('SESSION_18_LANGUAGE_FOCUS');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid #f59e0b; margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:#f59e0b; color:#fff; border:none;">HANDOUT PAGE 2 &amp; SMARTBOARDS 6-8</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Language Focus: The Two Descriptive Pillars
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Study the two columns: how to describe the physical object, and how to express its personal emotional importance.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Rules
+        </button>
+      </div>
+
+      <!-- 2 Pillars Columns -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem; margin-bottom:1.5rem;">
+        <!-- Column 1: Object Features -->
+        <div style="background:rgba(0,102,245,0.04); border:1px solid rgba(0,102,245,0.2); border-radius:var(--radius-sm); padding:1.25rem;">
+          <h5 style="font-size:1.1rem; font-weight:800; color:var(--bc-blue); margin-bottom:0.75rem; display:flex; align-items:center; gap:0.4rem;">
+            <span>📐</span> 1. To Talk About the Object (Appearance &amp; Hardware)
+          </h5>
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            ${data.objectFeatures.map(item => `
+              <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:4px; padding:0.75rem;">
+                <span class="teacher-badge" style="font-size:0.72rem; margin-bottom:0.3rem;">${item.category}</span>
+                <div style="font-size:0.88rem; font-weight:700; color:var(--text-main); margin-bottom:0.25rem;">
+                  ${item.phrase}
+                </div>
+                <div style="font-size:0.82rem; color:var(--text-muted); font-style:italic;">
+                  Example: “${item.eg}”
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <!-- Column 2: Emotional Importance -->
+        <div style="background:rgba(239,68,68,0.04); border:1px solid rgba(239,68,68,0.2); border-radius:var(--radius-sm); padding:1.25rem;">
+          <h5 style="font-size:1.1rem; font-weight:800; color:#ef4444; margin-bottom:0.75rem; display:flex; align-items:center; gap:0.4rem;">
+            <span>❤️</span> 2. To Talk About the Importance of the Object
+          </h5>
+          <div style="display:flex; flex-direction:column; gap:0.75rem;">
+            ${data.importancePhrases.map(item => `
+              <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:4px; padding:0.75rem;">
+                <span class="teacher-badge" style="font-size:0.72rem; margin-bottom:0.3rem; background:rgba(239,68,68,0.1); color:#ef4444;">${item.tone}</span>
+                <div style="font-size:0.88rem; font-weight:700; color:var(--text-main); margin-bottom:0.25rem;">
+                  “${item.phrase}”
+                </div>
+                <div style="font-size:0.82rem; color:var(--text-muted);">
+                  Meaning: ${item.meaning}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+
+      <!-- Whiteboard Grammar Rules Banner -->
+      <div style="background:var(--bg-subtle); border-radius:var(--radius-sm); padding:1rem; border-left:4px solid var(--bc-blue);">
+        <strong style="color:var(--text-main); font-size:0.95rem; display:block; margin-bottom:0.5rem;">
+          Teacher Whiteboard Grammar Notes (From Authentic Clinic):
+        </strong>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:0.75rem;">
+          ${data.grammarRules.map(r => `
+            <div style="font-size:0.84rem; color:var(--text-body); line-height:1.45;">
+              <strong style="color:var(--bc-blue);">${r.rule}:</strong> ${r.note}
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderSession18VocabGroups() {
+  const container = document.getElementById('session18GroupsWrap');
+  const groups = getSession18Data('SESSION_18_VOCAB_GROUPS');
+  const allVocab = getSession18Data('VOCAB_SESSION_18');
+  if (!container || !groups || !allVocab) return;
+
+  const vocabMap = new Map();
+  allVocab.forEach(v => vocabMap.set(v.word.toLowerCase(), v));
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+      ${groups.map(g => `
+        <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1.25rem; display:flex; flex-direction:column; gap:0.75rem;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem; padding-bottom:0.5rem; border-bottom:1px solid var(--border-light);">
+            <div>
+              <span class="teacher-badge" style="font-size:0.75rem;">${g.badge}</span>
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0; display:flex; align-items:center; gap:0.4rem;">
+                <span>${g.icon}</span> ${g.title}
+              </h4>
+            </div>
+          </div>
+          <p style="font-size:0.86rem; color:var(--text-body); margin:0; line-height:1.45;">
+            ${g.desc}
+          </p>
+          <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.5rem;">
+            ${g.words.map(w => {
+              const item = vocabMap.get(w.toLowerCase());
+              return `
+                <button type="button" class="vocab-token-pill" onclick="speakUK('${escapeJs(w)}')" title="${item ? escapeHtml(item.def) : ''}" style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:20px; padding:0.3rem 0.7rem; font-size:0.82rem; font-weight:700; color:var(--text-main); cursor:pointer; display:inline-flex; align-items:center; gap:0.35rem;">
+                  <span>🔊</span> ${w}
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession18LostProperty() {
+  const container = document.getElementById('session18LostPropertyWrap');
+  const form = getSession18Data('SESSION_18_LOST_PROPERTY_FORM');
+  if (!container || !form) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">HANDOUT PAGE 3 TASK • ROLE-PLAY SIMULATOR</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Lost Property Office Claim Card (Interactive Role-Play)
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="copySession18LostProperty()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          📋 Copy Claim Template
+        </button>
+      </div>
+
+      <p style="font-size:0.9rem; color:var(--text-body); line-height:1.5; margin-bottom:1.25rem;">
+        In exercise 4, students role-play describing their missing heirloom to the Lost Property Office clerk. Here is an authentic completed claim statement demonstrating all target vocabulary (shape, materials, hardware, and sentimental value).
+      </p>
+
+      <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1.25rem; display:flex; flex-direction:column; gap:1rem;" id="s18LostPropertyCard">
+        ${form.fields.map(f => `
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.25rem;">
+              <strong style="font-size:0.88rem; color:var(--text-main);">${f.label}</strong>
+              <small style="color:var(--text-muted); font-size:0.75rem;">${f.hint}</small>
+            </div>
+            <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:4px; padding:0.75rem; font-size:0.88rem; color:var(--text-body); line-height:1.45;">
+              ${f.sample}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function copySession18LostProperty() {
+  const form = getSession18Data('SESSION_18_LOST_PROPERTY_FORM');
+  if (!form) return;
+  const text = form.fields.map(f => `${f.label}:\n${f.sample}`).join('\n\n');
+  navigator.clipboard.writeText(text).then(() => {
+    if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+      AnimEngine.showToast('Copied Lost Property claim form to clipboard!', 'success');
+    }
+  });
+}
+
+function renderSession18Feedback() {
+  const container = document.getElementById('session18FeedbackWrap');
+  const items = getSession18Data('SESSION_18_TEACHER_FEEDBACK');
+  if (!container || !items) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${items.map(item => `
+        <div class="study-card" style="border-left:4px solid ${item.original.includes('buttons') ? '#ef4444' : 'var(--emerald)'}; background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="teacher-badge" style="font-size:0.72rem;">Student Phrase</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.audio)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+            </div>
+            <div style="font-size:0.92rem; font-weight:700; color:${item.original.includes('buttons') ? '#ef4444' : 'var(--text-main)'}; text-decoration:${item.original.includes('buttons') ? 'line-through' : 'none'}; margin-bottom:0.5rem;">
+              “${item.original}”
+            </div>
+            <div style="background:var(--bg-subtle); border-radius:4px; padding:0.6rem 0.75rem; margin-bottom:0.5rem;">
+              <strong style="color:var(--emerald); font-size:0.85rem; display:block; margin-bottom:0.15rem;">Teacher Correction:</strong>
+              <span style="font-size:0.88rem; font-weight:700; color:var(--text-main);">${item.correction}</span>
+            </div>
+            <p style="font-size:0.82rem; color:var(--text-body); margin:0; line-height:1.4;">
+              ${item.rule}
+            </p>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession18Pronunciation() {
+  const container = document.getElementById('session18PronunciationWrap');
+  const items = getSession18Data('SESSION_18_PRONUNCIATION_LAB');
+  if (!container || !items) return;
+
+  container.innerHTML = items.map(p => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
+        <span style="font-size:1.1rem; font-weight:800; color:var(--text-main);">${p.word}</span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.word)}')" style="width:28px; height:28px; font-size:0.75rem;">🔊</button>
+      </div>
+      <div style="font-family:monospace; color:var(--bc-blue); font-size:0.92rem; font-weight:700; margin-bottom:0.25rem;">
+        ${p.ipa}
+      </div>
+      <div style="font-size:0.82rem; font-weight:700; color:var(--purple); margin-bottom:0.4rem;">
+        ${p.stress}
+      </div>
+      <p style="font-size:0.82rem; color:var(--text-muted); margin:0; line-height:1.4;">
+        ${p.tip}
+      </p>
+    </div>
+  `).join('');
+}
+
+function renderSession18Notebook() {
+  const container = document.getElementById('session18NotebookWrap');
+  const pages = getSession18Data('SESSION_18_NOTEBOOK_PAGES');
+  if (!container || !pages) return;
+
+  container.innerHTML = pages.map((page, idx) => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1.25rem; display:flex; flex-direction:column; justify-content:space-between;">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+          <div>
+            <span class="teacher-badge" style="font-size:0.72rem;">${page.handoutDoc}</span>
+            <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0.3rem 0 0;">
+              ${page.pageTitle}
+            </h5>
+          </div>
+          <span class="teacher-badge" style="background:var(--bg-subtle);">${page.date}</span>
+        </div>
+
+        <div style="border-radius:var(--radius-sm); overflow:hidden; margin-bottom:0.85rem; border:1px solid var(--border-light); cursor:pointer;" onclick="openLightbox('${page.image}', '${escapeJs(page.pageTitle)}')">
+          <img src="${page.image}" alt="${page.pageTitle}" style="width:100%; height:200px; object-fit:cover; display:block; transition:transform 0.25s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+
+        <p style="font-size:0.85rem; color:var(--text-body); margin-bottom:0.75rem; line-height:1.45;">
+          ${page.summary}
+        </p>
+
+        <div style="background:var(--bg-subtle); border-radius:4px; padding:0.75rem;">
+          <strong style="color:var(--text-main); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.5px; display:block; margin-bottom:0.35rem;">Verbatim Transcriptions &amp; Notes:</strong>
+          <ul style="margin:0; padding-left:1.1rem; font-size:0.82rem; color:var(--text-body); line-height:1.45;">
+            ${page.notes.map(n => `<li>${n}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+
+/* ==========================================================================
+   SESSION 19 RENDERING ENGINES: SPECIAL EDUCATIONAL NEEDS & INCLUSION
+   Handout ID: ARB_B1_10_I120CEA_HO_v1.0
+   ========================================================================== */
+
+function getSession19Data(key) {
+  if (typeof window !== 'undefined' && window[key]) return window[key];
+  try {
+    return eval(key);
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderSession19LeadIn() {
+  const container = document.getElementById('session19LeadInWrap');
+  const data = getSession19Data('SESSION_19_LEAD_IN');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--bc-blue); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--bc-blue); color:#fff; border:none;">HANDOUT PAGE 1 (LEAD-IN 1 &amp; 2)</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Educational Rights &amp; Social Inclusion Statements
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Tick the statements you agree with and discuss how to make education and workplaces accessible to everyone.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Aim
+        </button>
+      </div>
+
+      <p style="font-size:0.9rem; color:var(--text-body); margin-bottom:1.25rem; line-height:1.5;">
+        Tick (✓) the statements you agree with. Discuss your reasoning with your partner using modal expressions (*should*, *must*, *is essential that*).
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">
+        ${data.statements.map(s => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem; margin-bottom:0.5rem;">
+                <span style="font-size:0.95rem; font-weight:800; color:var(--text-main);">${s.id}. ${s.text}</span>
+                <input type="checkbox" ${s.defaultAgree ? 'checked' : ''} style="width:20px; height:20px; cursor:pointer;" onchange="toggleSession19LeadInAgree(${s.id})">
+              </div>
+              <div style="background:var(--bg-surface); border-left:3px solid var(--bc-blue); padding:0.6rem 0.75rem; border-radius:4px; font-size:0.84rem; color:var(--text-body); line-height:1.45;">
+                <strong style="color:var(--bc-blue); font-size:0.78rem; display:block; margin-bottom:0.2rem;">Pedagogical Discussion Point:</strong>
+                ${s.discussion}
+              </div>
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(s.text + ' ' + s.discussion)}')" style="align-self:flex-start; margin-top:0.6rem; width:28px; height:28px; font-size:0.75rem;">
+              🔊
+            </button>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function toggleSession19LeadInAgree(id) {
+  if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+    AnimEngine.showToast(`Updated response for inclusion statement ${id}`, 'info');
+  }
+}
+
+function renderSession19Readings() {
+  const container = document.getElementById('session19ReadingsWrap');
+  const data = getSession19Data('SESSION_19_READINGS');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">JIGSAW READING LAB • HANDOUT PAGE 2 &amp; SMARTBOARDS 18-22</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Helen's Two School Experiences (A Nightmare vs. Better Than I Could Have Wished)
+          </h4>
+        </div>
+        <span class="teacher-badge">100% Verbatim Transcribed</span>
+      </div>
+
+      <!-- Reading A: A Nightmare Experience -->
+      <div style="background:rgba(239,68,68,0.03); border:1px solid rgba(239,68,68,0.2); border-radius:var(--radius-sm); padding:1.25rem; margin-bottom:2rem;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem;">
+          <div>
+            <span class="teacher-badge" style="background:#ef4444; color:#fff; border:none;">READING A: HANDOUT PHOTO ARCHIVE</span>
+            <h5 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+              ${data.readingA.title}
+            </h5>
+            <small style="color:var(--text-muted);">${data.readingA.subtitle}</small>
+          </div>
+          <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.readingA.paragraphs.join(' '))}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            🔊 Listen to Reading A
+          </button>
+        </div>
+
+        <!-- Text Box -->
+        <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1.25rem; font-size:0.95rem; line-height:1.65; color:var(--text-body); margin-bottom:1rem;">
+          ${data.readingA.paragraphs.map(p => `<p style="margin:0 0 0.85rem;">${p}</p>`).join('')}
+          <div style="background:rgba(239,68,68,0.06); border-left:3px solid #ef4444; padding:0.6rem 0.75rem; border-radius:4px; font-size:0.86rem; color:#b91c1c; font-style:italic;">
+            ✍️ ${data.readingA.studentNotes}
+          </div>
+        </div>
+
+        <!-- Reading A Quiz -->
+        <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <strong style="color:var(--text-main); font-size:0.95rem;">Smartboard Slide 18 &amp; 19 Comprehension Check:</strong>
+            <button class="btn btn-primary" onclick="checkSession19ReadingA()" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+              Check Answers
+            </button>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:0.75rem;" id="s19ReadingAQuiz">
+            ${data.readingA.quiz.map((q, idx) => `
+              <div style="background:var(--bg-subtle); border-radius:4px; padding:0.75rem;">
+                <div style="font-size:0.85rem; font-weight:700; color:var(--text-main); margin-bottom:0.4rem;">${q.q}</div>
+                <div style="display:flex; flex-direction:column; gap:0.25rem;">
+                  ${q.options.map((opt, optIdx) => `
+                    <label style="font-size:0.82rem; color:var(--text-body); display:flex; align-items:center; gap:0.4rem; cursor:pointer;">
+                      <input type="radio" name="s19_qa_${idx}" value="${optIdx}">
+                      <span>${opt}</span>
+                    </label>
+                  `).join('')}
+                </div>
+                <div class="s19-qa-exp" style="display:none; font-size:0.78rem; color:var(--emerald); font-weight:700; margin-top:0.4rem; border-top:1px dashed var(--border-light); padding-top:0.3rem;">
+                  ✓ ${q.explanation}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+
+      <!-- Reading B: Better Than I Could Have Wished -->
+      <div style="background:rgba(16,185,129,0.03); border:1px solid rgba(16,185,129,0.2); border-radius:var(--radius-sm); padding:1.25rem;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem;">
+          <div>
+            <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">READING B: JIGSAW MODEL CASE</span>
+            <h5 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+              ${data.readingB.title}
+            </h5>
+            <small style="color:var(--text-muted);">${data.readingB.subtitle}</small>
+          </div>
+          <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.readingB.paragraphs.join(' '))}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            🔊 Listen to Reading B
+          </button>
+        </div>
+
+        <!-- Text Box -->
+        <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1.25rem; font-size:0.95rem; line-height:1.65; color:var(--text-body); margin-bottom:1rem;">
+          ${data.readingB.paragraphs.map(p => `<p style="margin:0 0 0.85rem;">${p}</p>`).join('')}
+        </div>
+
+        <!-- Reading B Quiz -->
+        <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.75rem;">
+            <strong style="color:var(--text-main); font-size:0.95rem;">Smartboard Slide 22 Comprehension Check:</strong>
+            <button class="btn btn-primary" onclick="checkSession19ReadingB()" style="font-size:0.75rem; padding:0.25rem 0.65rem;">
+              Check Answers
+            </button>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:0.75rem;" id="s19ReadingBQuiz">
+            ${data.readingB.quiz.map((q, idx) => `
+              <div style="background:var(--bg-subtle); border-radius:4px; padding:0.75rem;">
+                <div style="font-size:0.85rem; font-weight:700; color:var(--text-main); margin-bottom:0.4rem;">${q.q}</div>
+                <div style="display:flex; flex-direction:column; gap:0.25rem;">
+                  ${q.options.map((opt, optIdx) => `
+                    <label style="font-size:0.82rem; color:var(--text-body); display:flex; align-items:center; gap:0.4rem; cursor:pointer;">
+                      <input type="radio" name="s19_qb_${idx}" value="${optIdx}">
+                      <span>${opt}</span>
+                    </label>
+                  `).join('')}
+                </div>
+                <div class="s19-qb-exp" style="display:none; font-size:0.78rem; color:var(--emerald); font-weight:700; margin-top:0.4rem; border-top:1px dashed var(--border-light); padding-top:0.3rem;">
+                  ✓ ${q.explanation}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function checkSession19ReadingA() {
+  document.querySelectorAll('#s19ReadingAQuiz .s19-qa-exp').forEach(el => el.style.display = 'block');
+  if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+    AnimEngine.showToast('Checked Reading A comprehension answers!', 'success');
+  }
+}
+
+function checkSession19ReadingB() {
+  document.querySelectorAll('#s19ReadingBQuiz .s19-qb-exp').forEach(el => el.style.display = 'block');
+  if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+    AnimEngine.showToast('Checked Reading B comprehension answers!', 'success');
+  }
+}
+
+function renderSession19Attitudes() {
+  const container = document.getElementById('session19AttitudesWrap');
+  const quiz = getSession19Data('SESSION_19_ATTITUDES_QUIZ');
+  if (!container || !quiz) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid #0284c7; margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:#0284c7; color:#fff; border:none;">HANDOUT PAGE 2 &amp; SMARTBOARD SLIDE 15</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Whose Attitude? Stakeholder Perspectives Matrix
+          </h4>
+        </div>
+        <div style="display:flex; gap:0.5rem;">
+          <button class="btn btn-primary" onclick="checkSession19Attitudes()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            👁️ Reveal Whiteboard Key (1C, 2A, 3B, 4C, 5D)
+          </button>
+        </div>
+      </div>
+
+      <p style="font-size:0.9rem; color:var(--text-body); margin-bottom:1.25rem; line-height:1.5;">
+        Decide whose attitude each statement represents: <strong>A. Helen</strong>, <strong>B. Helen's parents</strong>, <strong>C. Many people</strong>, <strong>D. Many businesses</strong>.
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;" id="s19AttitudesGrid">
+        ${quiz.items.map(item => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="font-size:0.92rem; font-weight:700; color:var(--text-main); margin-bottom:0.5rem;">
+                ${item.id}. “${item.text}”
+              </div>
+              <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-bottom:0.5rem;">
+                ${quiz.options.map(opt => `
+                  <button type="button" class="s19-opt-btn" onclick="speakUK('${escapeJs(opt.label)}')" style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:4px; padding:0.25rem 0.6rem; font-size:0.8rem; font-weight:700; color:var(--text-main); cursor:pointer;">
+                    ${opt.key}. ${opt.label}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+            <div class="s19-att-reveal" style="display:none; background:rgba(2,132,199,0.08); border-left:3px solid #0284c7; padding:0.5rem 0.75rem; border-radius:4px; font-size:0.82rem; color:var(--text-body); margin-top:0.5rem;">
+              <strong style="color:#0284c7;">Answer: [${item.answer}] ${item.stakeholder}</strong>
+              <div style="font-size:0.78rem; color:var(--text-muted); margin-top:0.2rem;">${item.note}</div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function checkSession19Attitudes() {
+  document.querySelectorAll('#s19AttitudesGrid .s19-att-reveal').forEach(el => el.style.display = 'block');
+  if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+    AnimEngine.showToast('Revealed official answers: 1C, 2A, 3B, 4C, 5D', 'success');
+  }
+}
+
+function renderSession19VocabGroups() {
+  const container = document.getElementById('session19GroupsWrap');
+  const groups = getSession19Data('SESSION_19_VOCAB_GROUPS');
+  const allVocab = getSession19Data('VOCAB_SESSION_19');
+  if (!container || !groups || !allVocab) return;
+
+  const vocabMap = new Map();
+  allVocab.forEach(v => vocabMap.set(v.word.toLowerCase(), v));
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+      ${groups.map(g => `
+        <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1.25rem; display:flex; flex-direction:column; gap:0.75rem;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem; padding-bottom:0.5rem; border-bottom:1px solid var(--border-light);">
+            <div>
+              <span class="teacher-badge" style="font-size:0.75rem;">${g.badge}</span>
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0; display:flex; align-items:center; gap:0.4rem;">
+                <span>${g.icon}</span> ${g.title}
+              </h4>
+            </div>
+          </div>
+          <p style="font-size:0.86rem; color:var(--text-body); margin:0; line-height:1.45;">
+            ${g.desc}
+          </p>
+          <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.5rem;">
+            ${g.words.map(w => {
+              const item = vocabMap.get(w.toLowerCase());
+              return `
+                <button type="button" class="vocab-token-pill" onclick="speakUK('${escapeJs(w)}')" title="${item ? escapeHtml(item.def) : ''}" style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:20px; padding:0.3rem 0.7rem; font-size:0.82rem; font-weight:700; color:var(--text-main); cursor:pointer; display:inline-flex; align-items:center; gap:0.35rem;">
+                  <span>🔊</span> ${w}
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession19Accessibility() {
+  const container = document.getElementById('session19AccessibilityWrap');
+  const audit = getSession19Data('SESSION_19_ACCESSIBILITY_AUDIT');
+  if (!container || !audit) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">HANDOUT PAGE 3 &amp; 4 TASK • ARCHITECTURAL AUDIT</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Workplace Accessibility Checklist &amp; Universal Design Audit
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Review the six essential building adaptations required to make schools and workplaces completely accessible.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Standards
+        </button>
+      </div>
+
+      <p style="font-size:0.9rem; color:var(--text-body); margin-bottom:1.25rem; line-height:1.5;">
+        Universal design principles require buildings to remove physical barriers. Audit each architectural component below by verifying standards.
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">
+        ${audit.checklist.map((item, idx) => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+                <h5 style="font-size:0.95rem; font-weight:800; color:var(--text-main); margin:0;">
+                  ${idx + 1}. ${item.item}
+                </h5>
+                <button type="button" class="btn-outline-subtle" onclick="toggleSession19AuditItem(this)" style="font-size:0.75rem; padding:0.2rem 0.5rem; cursor:pointer;">
+                  ✓ Pass Audit
+                </button>
+              </div>
+              <div style="background:var(--bg-surface); border-radius:4px; padding:0.6rem 0.75rem; margin-bottom:0.5rem; font-size:0.84rem; color:var(--text-body);">
+                <strong style="color:var(--emerald); font-size:0.78rem; display:block; margin-bottom:0.15rem;">Technical Standard:</strong>
+                ${item.standard}
+              </div>
+              <p style="font-size:0.82rem; color:var(--text-muted); margin:0; line-height:1.4;">
+                <strong>Importance:</strong> ${item.importance}
+              </p>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function toggleSession19AuditItem(btn) {
+  if (btn.textContent.includes('Pass')) {
+    btn.textContent = '❌ Fails Code';
+    btn.style.background = '#ef4444';
+    btn.style.color = '#fff';
+    btn.style.border = 'none';
+  } else {
+    btn.textContent = '✓ Pass Audit';
+    btn.style.background = 'var(--emerald)';
+    btn.style.color = '#fff';
+    btn.style.border = 'none';
+  }
+}
+
+function renderSession19Speaking() {
+  const container = document.getElementById('session19SpeakingWrap');
+  const lab = getSession19Data('SESSION_19_SPEAKING_LAB');
+  if (!container || !lab) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">SPEAKING LAB • HANDOUT PAGE 4 TASK OPTION 2</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Discussion &amp; Debate Lab: Inclusion in Schools &amp; Workplaces
+          </h4>
+        </div>
+        <span class="teacher-badge">B1 &amp; B2 Model Arguments</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+        ${lab.map(task => `
+          <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1.25rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <span class="teacher-badge" style="font-size:0.75rem; margin-bottom:0.5rem;">${task.topic}</span>
+              <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0 0 0.85rem;">
+                “${task.prompt}”
+              </h5>
+
+              <!-- B1 Model -->
+              <div style="background:var(--bg-subtle); border-left:3px solid var(--bc-blue); padding:0.75rem; border-radius:4px; margin-bottom:0.75rem; font-size:0.86rem; color:var(--text-body); line-height:1.45;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+                  <strong style="color:var(--bc-blue); font-size:0.8rem;">B1 Intermediate Model Response:</strong>
+                  <button class="audio-circle-btn" onclick="speakUK('${escapeJs(task.b1Answer)}')" style="width:24px; height:24px; font-size:0.7rem;">🔊</button>
+                </div>
+                “${task.b1Answer}”
+              </div>
+
+              <!-- B2 Model -->
+              <div style="background:rgba(124,58,237,0.04); border-left:3px solid var(--purple); padding:0.75rem; border-radius:4px; font-size:0.86rem; color:var(--text-body); line-height:1.45;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+                  <strong style="color:var(--purple); font-size:0.8rem;">B2 Advanced Vocabulary Response:</strong>
+                  <button class="audio-circle-btn" onclick="speakUK('${escapeJs(task.b2Answer)}')" style="width:24px; height:24px; font-size:0.7rem;">🔊</button>
+                </div>
+                “${task.b2Answer}”
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession19Feedback() {
+  const container = document.getElementById('session19FeedbackWrap');
+  const items = getSession19Data('SESSION_19_TEACHER_FEEDBACK');
+  if (!container || !items) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${items.map(item => `
+        <div class="study-card" style="border-left:4px solid var(--purple); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="teacher-badge" style="font-size:0.72rem;">Student Utterance</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.audio)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+            </div>
+            <div style="font-size:0.92rem; font-weight:700; color:#ef4444; margin-bottom:0.5rem; text-decoration:line-through;">
+              “${item.original}”
+            </div>
+            <div style="background:var(--bg-subtle); border-radius:4px; padding:0.6rem 0.75rem; margin-bottom:0.5rem;">
+              <strong style="color:var(--emerald); font-size:0.85rem; display:block; margin-bottom:0.15rem;">Teacher Whiteboard Correction:</strong>
+              <span style="font-size:0.88rem; font-weight:700; color:var(--text-main);">${item.correction}</span>
+            </div>
+            <p style="font-size:0.82rem; color:var(--text-body); margin:0; line-height:1.4;">
+              ${item.rule}
+            </p>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession19Pronunciation() {
+  const container = document.getElementById('session19PronunciationWrap');
+  const items = getSession19Data('SESSION_19_PRONUNCIATION_LAB');
+  if (!container || !items) return;
+
+  container.innerHTML = items.map(p => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
+        <span style="font-size:1.1rem; font-weight:800; color:var(--text-main);">${p.word}</span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.word)}')" style="width:28px; height:28px; font-size:0.75rem;">🔊</button>
+      </div>
+      <div style="font-family:monospace; color:var(--bc-blue); font-size:0.92rem; font-weight:700; margin-bottom:0.25rem;">
+        ${p.ipa}
+      </div>
+      <div style="font-size:0.82rem; font-weight:700; color:var(--purple); margin-bottom:0.4rem;">
+        ${p.stress}
+      </div>
+      <p style="font-size:0.82rem; color:var(--text-muted); margin:0; line-height:1.4;">
+        ${p.tip}
+      </p>
+    </div>
+  `).join('');
+}
+
+function renderSession19Notebook() {
+  const container = document.getElementById('session19NotebookWrap');
+  const pages = getSession19Data('SESSION_19_NOTEBOOK_PAGES');
+  if (!container || !pages) return;
+
+  container.innerHTML = pages.map((page, idx) => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1.25rem; display:flex; flex-direction:column; justify-content:space-between;">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+          <div>
+            <span class="teacher-badge" style="font-size:0.72rem;">${page.handoutDoc}</span>
+            <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0.3rem 0 0;">
+              ${page.pageTitle}
+            </h5>
+          </div>
+          <span class="teacher-badge" style="background:var(--bg-subtle);">${page.date}</span>
+        </div>
+
+        <div style="border-radius:var(--radius-sm); overflow:hidden; margin-bottom:0.85rem; border:1px solid var(--border-light); cursor:pointer;" onclick="openLightbox('${page.image}', '${escapeJs(page.pageTitle)}')">
+          <img src="${page.image}" alt="${page.pageTitle}" style="width:100%; height:200px; object-fit:cover; display:block; transition:transform 0.25s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+
+        <p style="font-size:0.85rem; color:var(--text-body); margin-bottom:0.75rem; line-height:1.45;">
+          ${page.summary}
+        </p>
+
+        <div style="background:var(--bg-subtle); border-radius:4px; padding:0.75rem;">
+          <strong style="color:var(--text-main); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.5px; display:block; margin-bottom:0.35rem;">Verbatim Transcriptions &amp; Notes:</strong>
+          <ul style="margin:0; padding-left:1.1rem; font-size:0.82rem; color:var(--text-body); line-height:1.45;">
+            ${page.notes.map(n => `<li>${n}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+
 /* --------------------------------------------------------------------------
    16. VIEW SWITCHING & SEPARATION (SESSIONS vs STORIES vs TOPICS)
    -------------------------------------------------------------------------- */
@@ -7811,6 +8875,36 @@ function showActiveSessionMaterials() {
     if (sec15Materials) sec15Materials.style.display = 'none';
     if (sec16Materials) sec16Materials.style.display = 'none';
     if (sec17Materials) { sec17Materials.style.display = 'block'; targetEl = sec17Materials; }
+  } else if (currentSessionId === '18') {
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) { sec18Materials.style.display = 'block'; targetEl = sec18Materials; }
+    if (sec19Materials) sec19Materials.style.display = 'none';
+  } else if (currentSessionId === '19') {
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) { sec19Materials.style.display = 'block'; targetEl = sec19Materials; }
   }
 
   if (targetEl) {
