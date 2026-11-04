@@ -22,6 +22,7 @@ let MASTER_VOCAB = (currentSessionId === '1') ? VOCAB_SESSION_1
   : (currentSessionId === '17') ? (typeof VOCAB_SESSION_17 !== 'undefined' ? VOCAB_SESSION_17 : VOCAB_SESSION_10)
   : (currentSessionId === '18') ? (typeof VOCAB_SESSION_18 !== 'undefined' ? VOCAB_SESSION_18 : VOCAB_SESSION_10)
   : (currentSessionId === '19') ? (typeof VOCAB_SESSION_19 !== 'undefined' ? VOCAB_SESSION_19 : VOCAB_SESSION_10)
+  : (currentSessionId === '20') ? (typeof VOCAB_SESSION_20 !== 'undefined' ? VOCAB_SESSION_20 : VOCAB_SESSION_10)
   : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
 /* --------------------------------------------------------------------------
@@ -87,6 +88,7 @@ function switchSession(sessionId) {
     : (currentSessionId === '17') ? (typeof VOCAB_SESSION_17 !== 'undefined' ? VOCAB_SESSION_17 : VOCAB_SESSION_10)
     : (currentSessionId === '18') ? (typeof VOCAB_SESSION_18 !== 'undefined' ? VOCAB_SESSION_18 : VOCAB_SESSION_10)
     : (currentSessionId === '19') ? (typeof VOCAB_SESSION_19 !== 'undefined' ? VOCAB_SESSION_19 : VOCAB_SESSION_10)
+    : (currentSessionId === '20') ? (typeof VOCAB_SESSION_20 !== 'undefined' ? VOCAB_SESSION_20 : VOCAB_SESSION_10)
     : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
   // Sync toolbar select dropdown
@@ -114,6 +116,7 @@ function switchSession(sessionId) {
   const sec17Materials = document.getElementById('session17Materials');
   const sec18Materials = document.getElementById('session18Materials');
   const sec19Materials = document.getElementById('session19Materials');
+  const sec20Materials = document.getElementById('session20Materials');
   const storiesSec = document.getElementById('storiesSection');
   const spareTopicsSec = document.getElementById('spareTopicsSection');
 
@@ -626,6 +629,7 @@ function switchSession(sessionId) {
     if (sec17Materials) sec17Materials.style.display = 'none';
     if (sec18Materials) sec18Materials.style.display = 'block';
     if (sec19Materials) sec19Materials.style.display = 'none';
+    if (sec20Materials) sec20Materials.style.display = 'none';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">📦</span><span class="nav-text">Possessions Lab</span>';
@@ -675,6 +679,7 @@ function switchSession(sessionId) {
     if (sec17Materials) sec17Materials.style.display = 'none';
     if (sec18Materials) sec18Materials.style.display = 'none';
     if (sec19Materials) sec19Materials.style.display = 'block';
+    if (sec20Materials) sec20Materials.style.display = 'none';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">♿</span><span class="nav-text">Inclusion Hub</span>';
@@ -709,6 +714,56 @@ function switchSession(sessionId) {
     renderSession19Feedback();
     renderSession19Pronunciation();
     renderSession19Notebook();
+  } else if (currentSessionId === '20') {
+    // Session 20: Conversation Skills: Daily Conversation
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) sec19Materials.style.display = 'none';
+    if (sec20Materials) sec20Materials.style.display = 'block';
+
+    if (navLinkMat) {
+      navLinkMat.innerHTML = '<span class="nav-icon">💬</span><span class="nav-text">Daily Talk Hub</span>';
+      navLinkMat.setAttribute('href', '#session20Materials');
+    }
+    if (mobileLinkMat) {
+      mobileLinkMat.innerHTML = '<span>💬</span> Daily Conversation Hub';
+      mobileLinkMat.setAttribute('href', '#session20Materials');
+    }
+    if (bottomLinkMat) {
+      bottomLinkMat.setAttribute('href', '#session20Materials');
+    }
+
+    if (heroTag) heroTag.textContent = 'ACTIVE SESSION 20';
+    if (heroDocTag) heroDocTag.textContent = 'DOC: ARB_B1_07_I007CEA';
+    if (heroTitle) heroTitle.innerHTML = 'Conversation Skills: <span>Daily Conversation</span>';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B2/C1 social communication vocabulary words, analyze greeting rituals and small talk strategies, master 8 conversational openers, study 7 leave-taking formulas, and practice an 11-step business departure role-play.';
+    if (heroVocabCount) heroVocabCount.textContent = '28';
+    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 20: Conversation Skills: Daily Conversation • Handout ID: <code>ARB_B1_07_I007CEA_HO_v1.0</code>';
+    if (heroAudioBtn) {
+      heroAudioBtn.onclick = () => speakUK('British Council Session twenty: Conversation skills, daily conversation, openers, developing replies, and polite leave-taking.');
+    }
+
+    renderSession20LeadIn();
+    renderSession20Openers();
+    renderSession20Goodbyes();
+    renderSession20LeavingConversation();
+    renderSession20VocabGroups();
+    renderSession20Feedback();
+    renderSession20Pronunciation();
+    renderSession20Notebook();
   }
 
   // Re-initialize games for selected session
@@ -736,7 +791,7 @@ function initSessionsDropdown() {
   const notice = document.getElementById('sessionNotice');
   const numSpan = document.getElementById('sessionNumberDisplay');
 
-  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19'];
+  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20'];
 
   if (select) {
     select.value = currentSessionId;
@@ -8625,6 +8680,392 @@ function renderSession19Notebook() {
 }
 
 
+
+/* ==========================================================================
+   SESSION 20 RENDERING ENGINES: DAILY CONVERSATION & SOCIAL TALK
+   Handout ID: ARB_B1_07_I007CEA_HO_v1.0
+   ========================================================================== */
+
+function getSession20Data(key) {
+  if (typeof window !== 'undefined' && window[key]) return window[key];
+  try {
+    return eval(key);
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderSession20LeadIn() {
+  const container = document.getElementById('session20LeadInWrap');
+  const data = getSession20Data('SESSION_20_LEAD_IN');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--bc-blue); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--bc-blue); color:#fff; border:none;">HANDOUT PAGE 1 &amp; SMARTBOARDS 4 &amp; 5</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            Greeting Customs &amp; The Architecture of Small Talk
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Explore cultural greeting rituals, and examine why and where native speakers make small talk.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Overview
+        </button>
+      </div>
+
+      <!-- Part 1: Greeting Rituals -->
+      <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin-bottom:0.75rem; display:flex; align-items:center; gap:0.5rem;">
+        <span>🤝</span> 1. Cultural Greeting Questions (Handout Page 1)
+      </h5>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem; margin-bottom:2rem;">
+        ${data.greetingQuestions.map((q, idx) => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="font-weight:700; color:var(--text-main); font-size:0.95rem; margin-bottom:0.35rem;">
+                ${idx + 1}. ${q.q}
+              </div>
+              <div style="font-size:0.82rem; color:var(--bc-blue); font-weight:600; direction:rtl; margin-bottom:0.6rem;">
+                ${q.ar}
+              </div>
+              <div style="background:var(--bg-surface); border-left:3px solid var(--emerald); padding:0.6rem 0.75rem; border-radius:4px; font-size:0.86rem; color:var(--text-body); line-height:1.45;">
+                <strong style="color:var(--emerald); font-size:0.78rem; display:block; margin-bottom:0.2rem;">Model Classroom Turn:</strong>
+                “${q.model}”
+              </div>
+            </div>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(q.model)}')" style="align-self:flex-start; margin-top:0.6rem; width:28px; height:28px; font-size:0.75rem;">
+              🔊
+            </button>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Part 2: Small Talk Matrix (Smartboard Slide 4) -->
+      <div style="background:rgba(0,102,245,0.04); border:1px solid rgba(0,102,245,0.2); border-radius:var(--radius-sm); padding:1.25rem;">
+        <h5 style="font-size:1.05rem; font-weight:800; color:var(--bc-blue); margin-bottom:0.85rem; display:flex; align-items:center; gap:0.5rem;">
+          <span>📋</span> 2. Whiteboard Small Talk Matrix (Slide 4)
+        </h5>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1rem;">
+          ${data.smallTalkTable.map(row => `
+            <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.85rem;">
+              <strong style="color:var(--text-main); font-size:0.92rem; display:block; margin-bottom:0.35rem;">
+                ${row.question}
+              </strong>
+              <p style="font-size:0.85rem; color:var(--text-body); margin:0; line-height:1.45;">
+                ${row.answer}
+              </p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderSession20Openers() {
+  const container = document.getElementById('session20OpenersWrap');
+  const data = getSession20Data('SESSION_20_OPENERS_MATCHING');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">HANDOUT PAGE 1 (EXERCISE 2)</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            8 Conversational Openers &amp; Developing Replies
+          </h4>
+        </div>
+        <div style="display:flex; gap:0.5rem;">
+          <button class="btn btn-primary" onclick="revealSession20Openers()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            👁️ Reveal Answer Key (1e, 2h, 3a, 4f, 5b, 6g, 7c, 8d)
+          </button>
+          <button class="btn-outline-subtle" onclick="resetSession20Openers()" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+            🔄 Reset
+          </button>
+        </div>
+      </div>
+
+      <p style="font-size:0.9rem; color:var(--text-body); margin-bottom:1.25rem; line-height:1.5;">
+        When starting a conversation, native speakers reply in a way that provides extra information and moves the interaction forward. Match each opener with its natural developing reply.
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;" id="s20OpenersGrid">
+        ${data.items.map(item => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <span style="font-size:0.95rem; font-weight:800; color:var(--text-main);">${item.id}. “${item.opener}”</span>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.opener)}')" style="width:26px; height:26px; font-size:0.7rem;">🔊</button>
+              </div>
+              <div class="s20-reply-box" style="display:none; background:var(--bg-surface); border-left:3px solid var(--purple); padding:0.6rem 0.75rem; border-radius:4px; margin-top:0.5rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.25rem;">
+                  <strong style="color:var(--purple); font-size:0.82rem;">[${item.letter.toUpperCase()}] Developing Reply:</strong>
+                  <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.reply)}')" style="width:24px; height:24px; font-size:0.68rem;">🔊</button>
+                </div>
+                <div style="font-size:0.88rem; color:var(--text-body); line-height:1.45;">
+                  “${item.reply}”
+                </div>
+                <small style="color:var(--text-muted); font-size:0.75rem; display:block; margin-top:0.35rem; border-top:1px dashed var(--border-light); padding-top:0.25rem;">
+                  💡 ${item.note}
+                </small>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function revealSession20Openers() {
+  document.querySelectorAll('#s20OpenersGrid .s20-reply-box').forEach(el => el.style.display = 'block');
+  if (window.AnimEngine && typeof AnimEngine.showToast === 'function') {
+    AnimEngine.showToast('Revealed 8 developing conversational replies!', 'success');
+  }
+}
+
+function resetSession20Openers() {
+  document.querySelectorAll('#s20OpenersGrid .s20-reply-box').forEach(el => el.style.display = 'none');
+}
+
+function renderSession20Goodbyes() {
+  const container = document.getElementById('session20GoodbyesWrap');
+  const data = getSession20Data('SESSION_20_GOODBYES_LAB');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid #f59e0b; margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:#f59e0b; color:#fff; border:none;">HANDOUT PAGE 2 &amp; SMARTBOARD SLIDE 9</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            The 7 Core Whiteboard Leave-Taking Formulas
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Practice the seven authentic British Council leave-taking phrases to conclude conversations politely.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Pronunciation
+        </button>
+      </div>
+
+      <!-- 7 Phrases Grid -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+        ${data.phrases.map(p => `
+          <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.35rem;">
+                <span class="teacher-badge" style="font-size:0.72rem;">${p.context}</span>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.phrase)}')" style="width:26px; height:26px; font-size:0.72rem;">🔊</button>
+              </div>
+              <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0 0 0.4rem;">
+                “${p.phrase}”
+              </h5>
+              <p style="font-size:0.84rem; color:var(--text-body); margin:0; line-height:1.45;">
+                ${p.meaning}
+              </p>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Audio Markers Row -->
+      <div style="background:var(--bg-subtle); border-radius:var(--radius-sm); padding:1rem; border-left:4px solid #f59e0b;">
+        <strong style="color:var(--text-main); font-size:0.92rem; display:block; margin-bottom:0.5rem;">
+          Casual Audio Farewell Markers (From Listening 3):
+        </strong>
+        <div style="display:flex; flex-wrap:wrap; gap:0.6rem;">
+          ${data.audioMarkers.map(m => `
+            <button type="button" class="vocab-token-pill" onclick="speakUK('${escapeJs(m.phrase)}')" title="${escapeHtml(m.meaning)}" style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:20px; padding:0.35rem 0.8rem; font-size:0.84rem; font-weight:700; color:var(--text-main); cursor:pointer; display:inline-flex; align-items:center; gap:0.35rem;">
+              <span>🔊</span> “${m.phrase}”
+            </button>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderSession20LeavingConversation() {
+  const container = document.getElementById('session20LeavingConversationWrap');
+  const data = getSession20Data('SESSION_20_LEAVING_CONVERSATION');
+  if (!container || !data) return;
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">HANDOUT PAGES 3 &amp; 4 (EXERCISE 6 &amp; 7)</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            11-Turn Departure Dialogue: Host &amp; Tokyo Visitor
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.turns.map(t => t.speaker + ': ' + t.line).join('. '))}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Play Entire Dialogue
+        </button>
+      </div>
+
+      <p style="font-size:0.88rem; color:var(--text-muted); margin-bottom:1.25rem; font-style:italic;">
+        ${data.scenario}
+      </p>
+
+      <div style="display:flex; flex-direction:column; gap:0.75rem;">
+        ${data.turns.map(t => {
+          const isVisitor = t.speaker === 'Visitor';
+          return `
+            <div style="background:${isVisitor ? 'rgba(0,102,245,0.03)' : 'rgba(16,185,129,0.03)'}; border:1px solid ${isVisitor ? 'rgba(0,102,245,0.18)' : 'rgba(16,185,129,0.18)'}; border-radius:var(--radius-sm); padding:0.85rem 1rem; display:flex; justify-content:space-between; align-items:flex-start; gap:0.75rem;">
+              <div style="flex:1;">
+                <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem;">
+                  <span class="teacher-badge" style="background:${isVisitor ? 'var(--bc-blue)' : 'var(--emerald)'}; color:#fff; font-size:0.72rem; border:none;">Step ${t.step}: ${t.speaker}</span>
+                  <span style="font-size:0.78rem; font-weight:700; color:var(--text-muted);">${t.function}</span>
+                </div>
+                <div style="font-size:0.95rem; font-weight:700; color:var(--text-main); line-height:1.45;">
+                  “${t.line}”
+                </div>
+              </div>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(t.line)}')" style="width:28px; height:28px; font-size:0.75rem; flex-shrink:0;" title="Listen to this line">
+                🔊
+              </button>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession20VocabGroups() {
+  const container = document.getElementById('session20GroupsWrap');
+  const groups = getSession20Data('SESSION_20_VOCAB_GROUPS');
+  const allVocab = getSession20Data('VOCAB_SESSION_20');
+  if (!container || !groups || !allVocab) return;
+
+  const vocabMap = new Map();
+  allVocab.forEach(v => vocabMap.set(v.word.toLowerCase(), v));
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+      ${groups.map(g => `
+        <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1.25rem; display:flex; flex-direction:column; gap:0.75rem;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:0.5rem; padding-bottom:0.5rem; border-bottom:1px solid var(--border-light);">
+            <div>
+              <span class="teacher-badge" style="font-size:0.75rem;">${g.badge}</span>
+              <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0; display:flex; align-items:center; gap:0.4rem;">
+                <span>${g.icon}</span> ${g.title}
+              </h4>
+            </div>
+          </div>
+          <p style="font-size:0.86rem; color:var(--text-body); margin:0; line-height:1.45;">
+            ${g.desc}
+          </p>
+          <div style="display:flex; flex-wrap:wrap; gap:0.4rem; margin-top:0.5rem;">
+            ${g.words.map(w => {
+              const item = vocabMap.get(w.toLowerCase());
+              return `
+                <button type="button" class="vocab-token-pill" onclick="speakUK('${escapeJs(w)}')" title="${item ? escapeHtml(item.def) : ''}" style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:20px; padding:0.3rem 0.7rem; font-size:0.82rem; font-weight:700; color:var(--text-main); cursor:pointer; display:inline-flex; align-items:center; gap:0.35rem;">
+                  <span>🔊</span> ${w}
+                </button>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession20Feedback() {
+  const container = document.getElementById('session20FeedbackWrap');
+  const items = getSession20Data('SESSION_20_TEACHER_FEEDBACK');
+  if (!container || !items) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${items.map(item => `
+        <div class="study-card" style="border-left:4px solid var(--purple); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="teacher-badge" style="font-size:0.72rem;">Student Utterance</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.audio)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+            </div>
+            <div style="font-size:0.92rem; font-weight:700; color:#ef4444; margin-bottom:0.5rem; text-decoration:line-through;">
+              “${item.original}”
+            </div>
+            <div style="background:var(--bg-subtle); border-radius:4px; padding:0.6rem 0.75rem; margin-bottom:0.5rem;">
+              <strong style="color:var(--emerald); font-size:0.85rem; display:block; margin-bottom:0.15rem;">Teacher Whiteboard Correction:</strong>
+              <span style="font-size:0.88rem; font-weight:700; color:var(--text-main);">${item.correction}</span>
+            </div>
+            <p style="font-size:0.82rem; color:var(--text-body); margin:0; line-height:1.4;">
+              ${item.rule}
+            </p>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession20Pronunciation() {
+  const container = document.getElementById('session20PronunciationWrap');
+  const items = getSession20Data('SESSION_20_PRONUNCIATION_LAB');
+  if (!container || !items) return;
+
+  container.innerHTML = items.map(p => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
+        <span style="font-size:1.1rem; font-weight:800; color:var(--text-main);">${p.word}</span>
+        <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.word)}')" style="width:28px; height:28px; font-size:0.75rem;">🔊</button>
+      </div>
+      <div style="font-family:monospace; color:var(--bc-blue); font-size:0.92rem; font-weight:700; margin-bottom:0.25rem;">
+        ${p.ipa}
+      </div>
+      <div style="font-size:0.82rem; font-weight:700; color:var(--purple); margin-bottom:0.4rem;">
+        ${p.stress}
+      </div>
+      <p style="font-size:0.82rem; color:var(--text-muted); margin:0; line-height:1.4;">
+        ${p.tip}
+      </p>
+    </div>
+  `).join('');
+}
+
+function renderSession20Notebook() {
+  const container = document.getElementById('session20NotebookWrap');
+  const pages = getSession20Data('SESSION_20_NOTEBOOK_PAGES');
+  if (!container || !pages) return;
+
+  container.innerHTML = pages.map((page, idx) => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1.25rem; display:flex; flex-direction:column; justify-content:space-between;">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+          <div>
+            <span class="teacher-badge" style="font-size:0.72rem;">${page.handoutDoc}</span>
+            <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0.3rem 0 0;">
+              ${page.pageTitle}
+            </h5>
+          </div>
+          <span class="teacher-badge" style="background:var(--bg-subtle);">${page.date}</span>
+        </div>
+
+        <div style="border-radius:var(--radius-sm); overflow:hidden; margin-bottom:0.85rem; border:1px solid var(--border-light); cursor:pointer;" onclick="openLightbox('${page.image}', '${escapeJs(page.pageTitle)}')">
+          <img src="${page.image}" alt="${page.pageTitle}" style="width:100%; height:200px; object-fit:cover; display:block; transition:transform 0.25s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+
+        <p style="font-size:0.85rem; color:var(--text-body); margin-bottom:0.75rem; line-height:1.45;">
+          ${page.summary}
+        </p>
+
+        <div style="background:var(--bg-subtle); border-radius:4px; padding:0.75rem;">
+          <strong style="color:var(--text-main); font-size:0.78rem; text-transform:uppercase; letter-spacing:0.5px; display:block; margin-bottom:0.35rem;">Verbatim Transcriptions &amp; Notes:</strong>
+          <ul style="margin:0; padding-left:1.1rem; font-size:0.82rem; color:var(--text-body); line-height:1.45;">
+            ${page.notes.map(n => `<li>${n}</li>`).join('')}
+          </ul>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+
 /* --------------------------------------------------------------------------
    16. VIEW SWITCHING & SEPARATION (SESSIONS vs STORIES vs TOPICS)
    -------------------------------------------------------------------------- */
@@ -8905,6 +9346,23 @@ function showActiveSessionMaterials() {
     if (sec17Materials) sec17Materials.style.display = 'none';
     if (sec18Materials) sec18Materials.style.display = 'none';
     if (sec19Materials) { sec19Materials.style.display = 'block'; targetEl = sec19Materials; }
+    if (sec20Materials) sec20Materials.style.display = 'none';
+  } else if (currentSessionId === '20') {
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) sec19Materials.style.display = 'none';
+    if (sec20Materials) { sec20Materials.style.display = 'block'; targetEl = sec20Materials; }
   }
 
   if (targetEl) {

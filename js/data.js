@@ -10007,6 +10007,802 @@ const SESSION_19_NOTEBOOK_PAGES = [
 ];
 
 
+
+/* ==========================================================================
+   SESSION 20: DAILY CONVERSATION & SOCIAL CONVERSATION SKILLS
+   British Council Intermediate B1 • Conversation Skills
+   Handout ID: ARB_B1_07_I007CEA_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_20 = [
+  {
+    id: 2001,
+    word: "greeting",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈɡriː.tɪŋ/",
+    citation: "Handout Page 1 (Speaking Lead-in)",
+    definition: "Words or actions used to welcome someone politely.",
+    b1Explain: "Polite words or gestures used when meeting someone.",
+    opposite: "farewell",
+    arMeaning: "تحية وترحيب رسمي أو ودي",
+    sentence: "In business culture, a firm handshake is the standard greeting.",
+    def: "Words or actions used to welcome someone politely.",
+    context: "In business culture, a firm handshake is the standard greeting.",
+    ar: "تحية وترحيب رسمي أو ودي",
+    phonetic: "/ˈɡriː.tɪŋ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2002,
+    word: "opener",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈəʊ.pən.ər/",
+    citation: "Handout Page 1 (Language Section)",
+    definition: "A friendly remark used to start a conversation easily.",
+    b1Explain: "A remark or question used to begin talking with someone.",
+    opposite: "closer",
+    arMeaning: "فاتحة حديث / عبارة لبدء المحادثة",
+    sentence: "Commenting on the lovely weather is a reliable conversational opener.",
+    def: "A friendly remark used to start a conversation easily.",
+    context: "Commenting on the lovely weather is a reliable conversational opener.",
+    ar: "فاتحة حديث / عبارة لبدء المحادثة",
+    phonetic: "/ˈəʊ.pən.ər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2003,
+    word: "small talk",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈsmɔːl ˌtɔːk/",
+    citation: "Smartboard Slide 4 & 5 (Small Talk Matrix)",
+    definition: "Polite conversation about light, ordinary, or safe topics.",
+    b1Explain: "Polite, friendly conversation about everyday safe topics.",
+    opposite: "deep debate",
+    arMeaning: "حديث ودي عابر / دردشة خفيفة لكسر الجليد",
+    sentence: "Colleagues made pleasant small talk by the office coffee machine.",
+    def: "Polite conversation about light, ordinary, or safe topics.",
+    context: "Colleagues made pleasant small talk by the office coffee machine.",
+    ar: "حديث ودي عابر / دردشة خفيفة لكسر الجليد",
+    phonetic: "/ˈsmɔːl ˌtɔːk/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2004,
+    word: "safe topic",
+    pos: "phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/seɪf ˈtɒp.ɪk/",
+    citation: "Smartboard Slide 4 (Safe Topics Table)",
+    definition: "A non-controversial subject suitable for conversation with anyone.",
+    b1Explain: "An easy subject like weather or hobbies that causes no arguments.",
+    opposite: "taboo topic",
+    arMeaning: "موضوع محايد وآمن للحديث العام",
+    sentence: "The weekend weather and popular movies are safe topics for networking.",
+    def: "A non-controversial subject suitable for conversation with anyone.",
+    context: "The weekend weather and popular movies are safe topics for networking.",
+    ar: "موضوع محايد وآمن للحديث العام",
+    phonetic: "/seɪf ˈtɒp.ɪk/",
+    partOfSpeech: "phrase"
+  },
+  {
+    id: 2005,
+    word: "rejoinder",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/rɪˈdʒɔɪn.dər/",
+    citation: "Handout Page 1 & Whiteboard Developing Replies",
+    definition: "A quick, witty, or polite conversational reply.",
+    b1Explain: "A polite and helpful answer that keeps a conversation going.",
+    opposite: "silence",
+    arMeaning: "رد لبق وسريع يُكمل مجرى الحوار",
+    sentence: "She offered a warm rejoinder that immediately put the guest at ease.",
+    def: "A quick, witty, or polite conversational reply.",
+    context: "She offered a warm rejoinder that immediately put the guest at ease.",
+    ar: "رد لبق وسريع يُكمل مجرى الحوار",
+    phonetic: "/rɪˈdʒɔɪn.dər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2006,
+    word: "develop",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/dɪˈvel.əp/",
+    citation: "Handout Page 1 (Develop the conversation)",
+    definition: "To expand or add details to keep a conversation moving.",
+    b1Explain: "To add information so the conversation does not stop awkwardly.",
+    opposite: "cut short",
+    arMeaning: "يطوّر ويُثري الحديث بمعلومات إضافية",
+    sentence: "Always develop the conversation by asking follow-up questions.",
+    def: "To expand or add details to keep a conversation moving.",
+    context: "Always develop the conversation by asking follow-up questions.",
+    ar: "يطوّر ويُثري الحديث بمعلومات إضافية",
+    phonetic: "/dɪˈvel.əp/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 2007,
+    word: "productive",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/prəˈdʌk.tɪv/",
+    citation: "Handout Page 4 (Line j: The meeting was very productive)",
+    definition: "Achieving good and useful results without wasting time.",
+    b1Explain: "Achieving good, successful results with practical outcomes.",
+    opposite: "unproductive",
+    arMeaning: "مثمر وفعال ومحقق لنتائج عملية",
+    sentence: "Both directors agreed the morning business meeting had been highly productive.",
+    def: "Achieving good and useful results without wasting time.",
+    context: "Both directors agreed the morning business meeting had been highly productive.",
+    ar: "مثمر وفعال ومحقق لنتائج عملية",
+    phonetic: "/prəˈdʌk.tɪv/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 2008,
+    word: "host",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/həʊst/",
+    citation: "Handout Page 3 (Exercise 6: Host and Visitor)",
+    definition: "A person who receives or entertains guests.",
+    b1Explain: "Someone who invites guests and welcomes them warmly.",
+    opposite: "guest",
+    arMeaning: "مُضيف يستقبل الزوار والضيوف",
+    sentence: "Our host provided coffee and introduced us to company executives.",
+    def: "A person who receives or entertains guests.",
+    context: "Our host provided coffee and introduced us to company executives.",
+    ar: "مُضيف يستقبل الزوار والضيوف",
+    phonetic: "/həʊst/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2009,
+    word: "visitor",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈvɪz.ɪ.tər/",
+    citation: "Handout Page 3 (Exercise 6: Host and Visitor)",
+    definition: "Someone who visits a person or place temporarily.",
+    b1Explain: "A person visiting a company, city, or friend.",
+    opposite: "resident",
+    arMeaning: "زائر مؤقت لمكان أو مؤسسة",
+    sentence: "The international visitor scheduled three factory tours during her stay.",
+    def: "Someone who visits a person or place temporarily.",
+    context: "The international visitor scheduled three factory tours during her stay.",
+    ar: "زائر مؤقت لمكان أو مؤسسة",
+    phonetic: "/ˈvɪz.ɪ.tər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2010,
+    word: "pleasure",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈpleʒ.ər/",
+    citation: "Handout Page 4 (Line k: It\'s been a pleasure)",
+    definition: "A feeling of happiness, satisfaction, or enjoyment.",
+    b1Explain: "A feeling of joy and polite satisfaction.",
+    opposite: "displeasure",
+    arMeaning: "متعة وسعادة وشرف بالتعارف والتعاون",
+    sentence: "It has truly been a pleasure working alongside your marketing team.",
+    def: "A feeling of happiness, satisfaction, or enjoyment.",
+    context: "It has truly been a pleasure working alongside your marketing team.",
+    ar: "متعة وسعادة وشرف بالتعارف والتعاون",
+    phonetic: "/ˈpleʒ.ər/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2011,
+    word: "regards",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/rɪˈɡɑːdz/",
+    citation: "Handout Page 3 (Line b: Give my regards to your wife)",
+    definition: "Friendly greetings sent through another person.",
+    b1Explain: "Warm greetings and good wishes passed on to someone.",
+    opposite: "disrespect",
+    arMeaning: "تحيات وسلامات وود يُرسل للغير",
+    sentence: "Please give my warmest regards to your family when you return.",
+    def: "Friendly greetings sent through another person.",
+    context: "Please give my warmest regards to your family when you return.",
+    ar: "تحيات وسلامات وود يُرسل للغير",
+    phonetic: "/rɪˈɡɑːdz/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2012,
+    word: "keep in touch",
+    pos: "idiom",
+    cambridgeLevel: "B1",
+    pronunciation: "/kiːp ɪn tʌtʃ/",
+    citation: "Smartboard Slide 9 (Leave-Taking Phrase 2)",
+    definition: "To continue communicating with someone regularly over time.",
+    b1Explain: "To stay in contact by calling, texting, or emailing.",
+    opposite: "lose contact",
+    arMeaning: "يبقى على تواصل واتصال مستمر",
+    sentence: "Don\'t be a stranger after graduation; let\'s keep in touch!",
+    def: "To continue communicating with someone regularly over time.",
+    context: "Don\'t be a stranger after graduation; let\'s keep in touch!",
+    ar: "يبقى على تواصل واتصال مستمر",
+    phonetic: "/kiːp ɪn tʌtʃ/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 2013,
+    word: "see around",
+    pos: "phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/siː əˈraʊnd/",
+    citation: "Smartboard Slide 9 (I\'ll see you around)",
+    definition: "To see someone casually from time to time.",
+    b1Explain: "To meet someone informally when you cross paths nearby.",
+    opposite: "never meet",
+    arMeaning: "أراك لاحقاً بالجوار / نلتقي قريباً",
+    sentence: "I work just across the street, so I\'ll see you around.",
+    def: "To see someone casually from time to time.",
+    context: "I work just across the street, so I\'ll see you around.",
+    ar: "أراك لاحقاً بالجوار / نلتقي قريباً",
+    phonetic: "/siː əˈraʊnd/",
+    partOfSpeech: "phrase"
+  },
+  {
+    id: 2014,
+    word: "safe journey",
+    pos: "phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/seɪf ˈdʒɜː.ni/",
+    citation: "Smartboard Slide 9 (Phrase 4: Safe journey!)",
+    definition: "A polite wish for someone traveling to arrive safely.",
+    b1Explain: "A friendly farewell wishing a traveler a safe trip.",
+    opposite: "rough travel",
+    arMeaning: "رحلة آمنة وموفقة بإذن الله",
+    sentence: "Have a wonderful flight back to London and safe journey!",
+    def: "A polite wish for someone traveling to arrive safely.",
+    context: "Have a wonderful flight back to London and safe journey!",
+    ar: "رحلة آمنة وموفقة بإذن الله",
+    phonetic: "/seɪf ˈdʒɜː.ni/",
+    partOfSpeech: "phrase"
+  },
+  {
+    id: 2015,
+    word: "be off",
+    pos: "phrasal verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/biː ɒf/",
+    citation: "Smartboard Slide 9 (Phrase 5: I\'ll be off then)",
+    definition: "To leave or depart from a place.",
+    b1Explain: "To leave right now and start traveling home.",
+    opposite: "stay put",
+    arMeaning: "يغادر وينصرف في الحال",
+    sentence: "It is getting quite late, so I\'ll be off then.",
+    def: "To leave or depart from a place.",
+    context: "It is getting quite late, so I\'ll be off then.",
+    ar: "يغادر وينصرف في الحال",
+    phonetic: "/biː ɒf/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2016,
+    word: "better be going",
+    pos: "phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈbet.ər biː ˈɡəʊ.ɪŋ/",
+    citation: "Smartboard Slide 9 (Phrase 1: I\'d better be going)",
+    definition: "A polite way to announce that you must depart.",
+    b1Explain: "A polite phrase meaning it is time to leave.",
+    opposite: "stay longer",
+    arMeaning: "حريٌّ بي أن أنصرف الآن / حان وقت ذهابي",
+    sentence: "Look at the clock; I\'d better be going before traffic starts.",
+    def: "A polite way to announce that you must depart.",
+    context: "Look at the clock; I\'d better be going before traffic starts.",
+    ar: "حريٌّ بي أن أنصرف الآن / حان وقت ذهابي",
+    phonetic: "/ˈbet.ər biː ˈɡəʊ.ɪŋ/",
+    partOfSpeech: "phrase"
+  },
+  {
+    id: 2017,
+    word: "touch",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/tʌtʃ/",
+    citation: "Handout Page 2 (I\'ll be in touch!)",
+    definition: "Contact or communication maintained between people.",
+    b1Explain: "Regular contact and communication through calls or messages.",
+    opposite: "isolation",
+    arMeaning: "تواصل واتصال بالأخبار والمستجدات",
+    sentence: "Send me an email next week so we can stay in touch.",
+    def: "Contact or communication maintained between people.",
+    context: "Send me an email next week so we can stay in touch.",
+    ar: "تواصل واتصال بالأخبار والمستجدات",
+    phonetic: "/tʌtʃ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2018,
+    word: "gain experience",
+    pos: "collocation",
+    cambridgeLevel: "B2",
+    pronunciation: "/ɡeɪn ɪkˈspɪə.ri.əns/",
+    citation: "Teacher Whiteboard Clinic Slide 2",
+    definition: "To acquire practical knowledge through working in a field.",
+    b1Explain: "To learn practical work skills by doing a job.",
+    opposite: "lack practice",
+    arMeaning: "يكتسب خبرة عملية وتطبيقية",
+    sentence: "Internships are an excellent method to gain experience in software development.",
+    def: "To acquire practical knowledge through working in a field.",
+    context: "Internships are an excellent method to gain experience in software development.",
+    ar: "يكتسب خبرة عملية وتطبيقية",
+    phonetic: "/ɡeɪn ɪkˈspɪə.ri.əns/",
+    partOfSpeech: "collocation"
+  },
+  {
+    id: 2019,
+    word: "earn money",
+    pos: "collocation",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɜːn ˈmʌn.i/",
+    citation: "Teacher Whiteboard Clinic Slide 2",
+    definition: "To receive payment in exchange for your work.",
+    b1Explain: "To get paid wages or salary for your work.",
+    opposite: "lose money",
+    arMeaning: "يكسب مالاً لقاء جهده وعمله",
+    sentence: "Students take part-time jobs on weekends to earn money for textbooks.",
+    def: "To receive payment in exchange for your work.",
+    context: "Students take part-time jobs on weekends to earn money for textbooks.",
+    ar: "يكسب مالاً لقاء جهده وعمله",
+    phonetic: "/ɜːn ˈmʌn.i/",
+    partOfSpeech: "collocation"
+  },
+  {
+    id: 2020,
+    word: "regret",
+    pos: "verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/rɪˈɡret/",
+    citation: "Teacher Whiteboard Clinic (regret working)",
+    definition: "To feel sorry or sad about an action you did.",
+    b1Explain: "To feel sad or sorry about something you did.",
+    opposite: "celebrate",
+    arMeaning: "يندم على فعل قام به سابقاً",
+    sentence: "Do you ever regret changing careers to enter web design?",
+    def: "To feel sorry or sad about an action you did.",
+    context: "Do you ever regret changing careers to enter web design?",
+    ar: "يندم على فعل قام به سابقاً",
+    phonetic: "/rɪˈɡret/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 2021,
+    word: "cuisine",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/kwɪˈziːn/",
+    citation: "Teacher Whiteboard Clinic Slide 2 (Favourite cuisine)",
+    definition: "A characteristic style of cooking and regional food.",
+    b1Explain: "A country's special traditional style of preparing food.",
+    opposite: "plain meal",
+    arMeaning: "فنون الطهي والمطبخ المميز لبلد ما",
+    sentence: "Italian cuisine is famous for handmade pasta and fresh olive oil.",
+    def: "A characteristic style of cooking and regional food.",
+    context: "Italian cuisine is famous for handmade pasta and fresh olive oil.",
+    ar: "فنون الطهي والمطبخ المميز لبلد ما",
+    phonetic: "/kwɪˈziːn/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2022,
+    word: "obsessed with",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/əbˈsest wɪð/",
+    citation: "Teacher Whiteboard Clinic Slide 2",
+    definition: "Unable to stop thinking about something you like.",
+    b1Explain: "Thinking about someone or something all the time with passion.",
+    opposite: "uninterested in",
+    arMeaning: "مهووس ومولع بشدة بشيء ما",
+    sentence: "My teenage brother is completely obsessed with football video games.",
+    def: "Unable to stop thinking about something you like.",
+    context: "My teenage brother is completely obsessed with football video games.",
+    ar: "مهووس ومولع بشدة بشيء ما",
+    phonetic: "/əbˈsest wɪð/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 2023,
+    word: "gourmet",
+    pos: "adj",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈɡʊə.meɪ/",
+    citation: "Teacher Whiteboard Clinic Slide 2 (Gourmet food)",
+    definition: "High quality, exquisite food prepared with great skill.",
+    b1Explain: "Delicious, premium food prepared by expert chefs.",
+    opposite: "fast food",
+    arMeaning: "طعام فاخر وعالي الجودة وممتاز الصنع",
+    sentence: "They treated their international guests to an elegant gourmet dinner.",
+    def: "High quality, exquisite food prepared with great skill.",
+    context: "They treated their international guests to an elegant gourmet dinner.",
+    ar: "طعام فاخر وعالي الجودة وممتاز الصنع",
+    phonetic: "/ˈɡʊə.meɪ/",
+    partOfSpeech: "adj"
+  },
+  {
+    id: 2024,
+    word: "comfort zone",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈkʌm.fət ˌzəʊn/",
+    citation: "Teacher Whiteboard Clinic Slide 2 (Out of my comfort zone)",
+    definition: "A situation where you feel safe, comfortable, and confident.",
+    b1Explain: "Familiar situations where you feel secure and comfortable.",
+    opposite: "stressful challenge",
+    arMeaning: "منطقة الراحة والأمان المعتادة",
+    sentence: "Giving speeches in English pushed him outside his usual comfort zone.",
+    def: "A situation where you feel safe, comfortable, and confident.",
+    context: "Giving speeches in English pushed him outside his usual comfort zone.",
+    ar: "منطقة الراحة والأمان المعتادة",
+    phonetic: "/ˈkʌm.fət ˌzəʊn/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2025,
+    word: "social butterfly",
+    pos: "idiom",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌsəʊ.ʃəl ˈbʌt.ə.flaɪ/",
+    citation: "Teacher Whiteboard Clinic Slide 2",
+    definition: "An outgoing person who enjoys socializing with many people.",
+    b1Explain: "An outgoing, friendly person who loves chatting with everyone.",
+    opposite: "loner",
+    arMeaning: "شخص اجتماعي جداً ومتألق في المناسبات",
+    sentence: "Sarah is a real social butterfly; she talks effortlessly to everyone at parties.",
+    def: "An outgoing person who enjoys socializing with many people.",
+    context: "Sarah is a real social butterfly; she talks effortlessly to everyone at parties.",
+    ar: "شخص اجتماعي جداً ومتألق في المناسبات",
+    phonetic: "/ˌsəʊ.ʃəl ˈbʌt.ə.flaɪ/",
+    partOfSpeech: "idiom"
+  },
+  {
+    id: 2026,
+    word: "polyglot",
+    pos: "noun",
+    cambridgeLevel: "C1",
+    pronunciation: "/ˈpɒl.i.ɡlɒt/",
+    citation: "Teacher Whiteboard Clinic Slide 1",
+    definition: "A person who knows and speaks many languages fluently.",
+    b1Explain: "A person who speaks four or more foreign languages fluently.",
+    opposite: "monolingual",
+    arMeaning: "متعدد اللغات / طليق في عدة ألسن",
+    sentence: "Our conference interpreter is a remarkable polyglot who speaks six languages.",
+    def: "A person who knows and speaks many languages fluently.",
+    context: "Our conference interpreter is a remarkable polyglot who speaks six languages.",
+    ar: "متعدد اللغات / طليق في عدة ألسن",
+    phonetic: "/ˈpɒl.i.ɡlɒt/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2027,
+    word: "pick up",
+    pos: "phrasal verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/pɪk ʌp/",
+    citation: "Teacher Whiteboard Clinic Slide 1 (Pick up new hobbies)",
+    definition: "To learn a new skill or hobby naturally.",
+    b1Explain: "To learn a skill easily without taking formal classes.",
+    opposite: "give up",
+    arMeaning: "يكتسب مهارة أو هواية جديدة بسهولة",
+    sentence: "He was able to pick up guitar chords quickly during summer vacation.",
+    def: "To learn a new skill or hobby naturally.",
+    context: "He was able to pick up guitar chords quickly during summer vacation.",
+    ar: "يكتسب مهارة أو هواية جديدة بسهولة",
+    phonetic: "/pɪk ʌp/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2028,
+    word: "take on",
+    pos: "phrasal verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/teɪk ɒn/",
+    citation: "Teacher Whiteboard Clinic Slide 1 (Take on an MA)",
+    definition: "To accept a new challenge, degree, or responsibility.",
+    b1Explain: "To accept a difficult task, job, or degree program.",
+    opposite: "refuse",
+    arMeaning: "يتحمل مسؤولية / يخوض تحدياً دراسياً أو عملياً",
+    sentence: "She decided to take on a Master's degree while continuing to work full-time.",
+    def: "To accept a new challenge, degree, or responsibility.",
+    context: "She decided to take on a Master's degree while continuing to work full-time.",
+    ar: "يتحمل مسؤولية / يخوض تحدياً دراسياً أو عملياً",
+    phonetic: "/teɪk ɒn/",
+    partOfSpeech: "phrasal verb"
+  }
+];
+
+const SESSION_20_VOCAB_GROUPS = [
+  {
+    title: "1. Greetings & Conversational Openers",
+    badge: "Meeting Customs, Small Talk & Openers",
+    icon: "🤝",
+    desc: "Target terms covering cultural greetings, initial remarks to start talking, polite rejoinders, and developing safe topics naturally.",
+    words: ["greeting", "opener", "small talk", "safe topic", "rejoinder", "develop", "productive"]
+  },
+  {
+    title: "2. Leaving Phrases & Formal Partings",
+    badge: "Hosts, Guests & Polite Leave-Taking",
+    icon: "👋",
+    desc: "Core business and social etiquette lexis for thanking hosts, acknowledging visitors, sending personal regards, and taking leave gracefully.",
+    words: ["host", "visitor", "pleasure", "regards", "keep in touch", "see around", "safe journey"]
+  },
+  {
+    title: "3. Leave-Taking Idioms & Career Choices",
+    badge: "Departures, Workplace Experience & Comfort",
+    icon: "🚪",
+    desc: "Colloquial farewell expressions, career milestones, distinguishing earning money from gaining experience, and stepping out of comfort zones.",
+    words: ["be off", "better be going", "touch", "gain experience", "earn money", "regret", "comfort zone"]
+  },
+  {
+    title: "4. Lifestyle, Hobbies & Social Nuances",
+    badge: "Cuisine, Passion, Habits & Talents",
+    icon: "🍱",
+    desc: "Authentic terminology describing international dining, culinary appreciation, social extroversion, multilingual polyglots, and adopting hobbies.",
+    words: ["cuisine", "obsessed with", "gourmet", "social butterfly", "polyglot", "pick up", "take on"]
+  }
+];
+
+const SESSION_20_LEAD_IN = {
+  title: "Greeting Customs & Small Talk Architecture",
+  badge: "Handout Page 1 & Smartboard Slides 4-5",
+  greetingQuestions: [
+    {
+      q: "Who do you usually say hello and goodbye to every day?",
+      model: "Every morning I say hello to my family members, then to the building security guard and the barista at my local coffee shop, before greeting my office team.",
+      ar: "بمن تبدأ بالتحية والسلام والوداع يومياً؟"
+    },
+    {
+      q: "How do you greet children vs. parents vs. colleagues vs. strangers?",
+      model: "With children, I smile and give a high-five or gentle wave. With parents, a warm hug or kiss on the cheek. With colleagues, a friendly nod or handshake. With strangers or taxi drivers, a polite 'Good morning' or verbal greeting.",
+      ar: "كيف تختلف تحيتك للأطفال، الوالدين، الزملاء، والغرباء؟"
+    },
+    {
+      q: "How many languages can you say hello and goodbye in?",
+      model: "I can greet people in Arabic (Marhaban / Ma\'a salama), English (Hello / Goodbye), French (Bonjour / Au revoir), and Spanish (Hola / Adiós).",
+      ar: "بكم لغة تستطيع إلقاء التحية وتوديع الآخرين؟"
+    }
+  ],
+  smallTalkTable: [
+    { question: "Who makes small talk?", answer: "People who do not know each other, or people who know each other a little." },
+    { question: "What do people talk about?", answer: "Safe topics: the weather, sports, food, work, travel, hobbies, films, current events, and general news." },
+    { question: "Where do people make small talk?", answer: "Anywhere: an office kitchen, an elevator, a bus stop, an airport lounge, a hotel lobby, or a cafeteria." },
+    { question: "Why do people make small talk?", answer: "To be friendly, to fill awkward silence, and to build rapport to get to know someone." }
+  ]
+};
+
+const SESSION_20_OPENERS_MATCHING = {
+  title: "Conversational Openers & Developing Replies",
+  badge: "Handout Page 1 (Exercise 2)",
+  items: [
+    { id: 1, opener: "How are you?", reply: "I'm fine, thanks. And you? You're looking well.", letter: "e", note: "Answers question, returns inquiry, and adds a sincere compliment to develop dialogue." },
+    { id: 2, opener: "Nice to see you again.", reply: "Nice to see you too. How are you?", letter: "h", note: "Reciprocates warm feeling and smoothly transitions into current well-being." },
+    { id: 3, opener: "It's been a long time, hasn't it?", reply: "Yes, I think we last met two years ago in Bangkok.", letter: "a", note: "Confirms shared history with specific time and geographical memory." },
+    { id: 4, opener: "Nice weather today, isn't it?", reply: "Yes, lovely. I hope it stays like this for the weekend.", letter: "f", note: "Classic British small talk opener; reply expands with weekend plans." },
+    { id: 5, opener: "Terrible weather, isn't it?", reply: "Yes, awful. I think it's rained every day since I arrived.", letter: "b", note: "Builds instant empathy through shared minor complaint." },
+    { id: 6, opener: "That's a nice shirt.", reply: "Thanks, my wife bought it for me.", letter: "g", note: "Accepts compliment graciously and gives brief personal background." },
+    { id: 7, opener: "This coffee's a bit weak.", reply: "Yes, it is. Not like the coffee we get in Italy.", letter: "c", note: "Agrees politely and broadens discussion into travel and international comparison." },
+    { id: 8, opener: "Did you get that report I sent you?", reply: "Yes, I did. It was very useful.", letter: "d", note: "Workplace transition opener; gives immediate positive reassurance." }
+  ]
+};
+
+const SESSION_20_GOODBYES_LAB = {
+  title: "The 7 Core Whiteboard Leave-Taking Formulas",
+  badge: "Handout Page 2 & Smartboard Slide 9",
+  phrases: [
+    { id: 1, phrase: "I'd better be going.", meaning: "Announcing departure politely without seeming rushed.", context: "Informal & Professional" },
+    { id: 2, phrase: "Keep in touch!", meaning: "Warm request to maintain future contact.", context: "Friends & Business Acquaintances" },
+    { id: 3, phrase: "I'll see you around.", meaning: "Casual farewell when people live or work in the same vicinity.", context: "Coworkers & Neighbors" },
+    { id: 4, phrase: "Safe journey!", meaning: "Wishing safe travels to someone boarding a flight or driving.", context: "Travelers & Visitors" },
+    { id: 5, phrase: "I'll be off then.", meaning: "Colloquial British parting remark right before walking away.", context: "Informal Gatherings" },
+    { id: 6, phrase: "It's been great meeting you.", meaning: "Enthusiastic farewell after an initial introduction or networking session.", context: "First-time Acquaintances" },
+    { id: 7, phrase: "Come and see me soon.", meaning: "Warm invitation for future reciprocal visits.", context: "Close Friends & Family" }
+  ],
+  audioMarkers: [
+    { phrase: "Have a good one!", meaning: "Casual wish for a pleasant day or evening ahead." },
+    { phrase: "See you!", meaning: "Quick informal contraction of 'See you later'." },
+    { phrase: "I'll be in touch!", meaning: "Promising to send an email or phone update soon." },
+    { phrase: "Speak soon.", meaning: "Expectation of another phone call or conversation in the near future." }
+  ]
+};
+
+const SESSION_20_LEAVING_CONVERSATION = {
+  title: "Master 11-Turn Leaving Conversation (Host & Tokyo Visitor)",
+  badge: "Handout Pages 3 & 4 (Exercise 6 & 7)",
+  scenario: "A host and visitor are having a leaving conversation after a successful business meeting. The visitor is flying back to Tokyo tomorrow.",
+  turns: [
+    { step: 1, speaker: "Visitor", function: "1. Start a 'leaving conversation'", line: "Is that the time? I guess I should be going.", letter: "a" },
+    { step: 2, speaker: "Host", function: "2. Reply to the visitor", line: "Oh, so soon?", letter: "d" },
+    { step: 3, speaker: "Visitor", function: "3. Say why you must leave", line: "I'm afraid so, I've got a long day tomorrow – I'm flying back to Tokyo.", letter: "e" },
+    { step: 4, speaker: "Host", function: "4. Show interest in the visitor's plans", line: "Really? What time do you get there?", letter: "c" },
+    { step: 5, speaker: "Visitor", function: "5. Give more information", line: "Around six in the evening local time, and then I have to catch a train.", letter: "h" },
+    { step: 6, speaker: "Host", function: "6. Make a final reference to business", line: "Well, thank you very much for coming. I think we had a very useful meeting.", letter: "g" },
+    { step: 7, speaker: "Visitor", function: "7. Thank the host for her/his help", line: "Yes, I agree, the meeting was very productive. And thanks for your help.", letter: "j" },
+    { step: 8, speaker: "Host", function: "8. Reply – say it's been a pleasure", line: "Not at all. It's been a pleasure.", letter: "k" },
+    { step: 9, speaker: "Visitor", function: "9. Make a second reference to leaving", line: "Well, I really must go now.", letter: "f" },
+    { step: 10, speaker: "Host", function: "10. Wish the visitor a good trip and send your regards to someone", line: "It's been nice meeting you again. Have a good trip, and give my regards to your wife.", letter: "b" },
+    { step: 11, speaker: "Visitor", function: "11. Refer to the next meeting and say goodbye", line: "Thanks, I'll do that. See you next month in Bangkok. Bye.", letter: "i" }
+  ]
+};
+
+const SESSION_20_TEACHER_FEEDBACK = [
+  {
+    original: "To gain money / To earn experience",
+    correction: "To earn money / To gain experience",
+    rule: "Collocation distinction: You 'earn' money through labor or salary. You 'gain' experience, reputation, or weight.",
+    audio: "You earn money from your job, and you gain experience over time."
+  },
+  {
+    original: "Do you regret to work in this field?",
+    correction: "Do you regret working in this field?",
+    rule: "Verb pattern: The verb 'regret' is followed by a gerund (-ing) when looking back at past actions.",
+    audio: "Do you regret working in this field?"
+  },
+  {
+    original: "Have you ever went to a Chinese restaurant?",
+    correction: "Have you ever been to a Chinese restaurant?",
+    rule: "Present perfect experience: Use 'been to' for completed visits where the person has gone and returned.",
+    audio: "Have you ever been to a Chinese restaurant?"
+  },
+  {
+    original: "What food do you like? Chinese, Syrian... What's your favourite kitchen?",
+    correction: "What's your favourite cuisine?",
+    rule: "Lexical precision: 'Kitchen' is the physical room. 'Cuisine' refers to regional styles of cooking.",
+    audio: "What is your favourite cuisine?"
+  },
+  {
+    original: "Which restaurant do that you prefer?",
+    correction: "Which restaurant do you prefer?",
+    rule: "Syntax error: Do not insert relative pronoun 'that' inside a direct question with auxiliary 'do'.",
+    audio: "Which restaurant do you prefer?"
+  },
+  {
+    original: "I want to speak many languages / I want to be multi-speaker",
+    correction: "I want to be a polyglot.",
+    rule: "Advanced vocabulary: A person who speaks many foreign languages fluently is termed a 'polyglot'.",
+    audio: "She wants to be a polyglot and speak four languages."
+  },
+  {
+    original: "It's out of my usual thing",
+    correction: "It's out of my comfort zone.",
+    rule: "Natural idiom: When trying something unfamiliar and challenging, say 'It is out of my comfort zone'.",
+    audio: "Public speaking is completely out of my comfort zone."
+  },
+  {
+    original: "I like to talk with people / I am very social person",
+    correction: "I am a social butterfly.",
+    rule: "Colloquial idiom: An extrovert who moves easily among groups at parties is a 'social butterfly'.",
+    audio: "He is a real social butterfly at corporate events."
+  },
+  {
+    original: "You had to must change it",
+    correction: "You had to change it. (Past obligation)",
+    rule: "Modal past tense: 'Must' has no past tense form. The past of 'must' and 'have to' is always 'had to'.",
+    audio: "You had to change your train ticket yesterday."
+  }
+];
+
+const SESSION_20_PRONUNCIATION_LAB = [
+  {
+    word: "productive",
+    ipa: "/prəˈdʌk.tɪv/",
+    stress: "pro-DUC-tive (Stress on 2nd syllable)",
+    tip: "Initial 'pro-' is reduced to a weak schwa /prə/, with strong stress on the short central vowel in 'DUC'."
+  },
+  {
+    word: "cuisine",
+    ipa: "/kwɪˈziːn/",
+    stress: "cui-SINE (Stress on 2nd syllable)",
+    tip: "Begins with /kwɪ/ and ends with a long tense /iː/ vowel on the stressed syllable."
+  },
+  {
+    word: "polyglot",
+    ipa: "/ˈpɒl.i.ɡlɒt/",
+    stress: "POL-y-glot (Stress on 1st syllable)",
+    tip: "Primary stress on the first syllable 'POL', with short open vowels /ɒ/."
+  },
+  {
+    word: "gourmet",
+    ipa: "/ˈɡʊə.meɪ/",
+    stress: "GOUR-met (Stress on 1st syllable)",
+    tip: "Borrowed from French; the 't' is silent, ending in diphthong /meɪ/."
+  },
+  {
+    word: "better be going",
+    ipa: "/ˈbet.ər biː ˈɡəʊ.ɪŋ/",
+    stress: "I'd BET-ter be GO-ing",
+    tip: "Linking 'r' connects 'better' and 'be', creating smooth continuous rhythm."
+  },
+  {
+    word: "social butterfly",
+    ipa: "/ˌsəʊ.ʃəl ˈbʌt.ə.flaɪ/",
+    stress: "SO-cial BUT-ter-fly",
+    tip: "Both words receive primary stress on their initial syllables."
+  }
+];
+
+const SESSION_20_NOTEBOOK_PAGES = [
+  {
+    pageTitle: "Page 1: Small Talk Definition & Safe Topics Matrix",
+    handoutDoc: "ARB_B1_07_I007CEA_HO_v1.0",
+    date: "Session 20",
+    image: "assets/images/session20_board_small_talk_table.jpg",
+    summary: "Authentic smartboard table categorizing who makes small talk, where it happens, safe conversational themes, and social rationale.",
+    notes: [
+      "Who: People who do not know each other well, or acquaintances.",
+      "What: Safe topics including weather, sports, food, travel, work, and films.",
+      "Where: Elevators, bus stops, office corridors, cafeterias, and airport terminals.",
+      "Why: To be polite and friendly, fill awkward silence, and establish trust."
+    ]
+  },
+  {
+    pageTitle: "Page 2: 4 Small Talk Themes & Sample Model Questions",
+    handoutDoc: "ARB_B1_07_I007CEA_HO_v1.0",
+    date: "Session 20",
+    image: "assets/images/session20_board_small_talk_topics.jpg",
+    summary: "Smartboard slide outlining practical conversational prompts across Weather, Sports, Hobbies, and Dining.",
+    notes: [
+      "Weather: 'Isn\'t the weather nice today?' / 'Isn\'t this weather terrible?'",
+      "Sports: 'Did you see the football game?' / 'Do you play badminton?'",
+      "Hobbies: 'What are your hobbies?' / 'What do you like to do in your free time?'",
+      "Food & Drink: 'Have you tried that new Thai restaurant?' / 'What kind of food do you like?'"
+    ]
+  },
+  {
+    pageTitle: "Page 3: Whiteboard Missing-Letters Leave-Taking Exercise",
+    handoutDoc: "ARB_B1_07_I007CEA_HO_v1.0",
+    date: "Session 20",
+    image: "assets/images/session20_board_goodbye_phrases.jpg",
+    summary: "Classroom board gap-fill transcribing the 7 authentic phrases used to say goodbye politely.",
+    notes: [
+      "1. I\'d better be going.",
+      "2. Keep in touch!",
+      "3. I\'ll see you around.",
+      "4. Safe journey!",
+      "5. I\'ll be off then.",
+      "6. It\'s been great meeting you.",
+      "7. Come and see me soon."
+    ]
+  },
+  {
+    pageTitle: "Page 4: Teacher Live Clinic 1 - Hobbies & Education",
+    handoutDoc: "ARB_B1_07_I007CEA_HO_v1.0",
+    date: "Session 20",
+    image: "assets/images/session20_board_teacher_clinic1.jpg",
+    summary: "Teacher whiteboard analysis of phrasal verbs, academic terminology, and grammatical precision.",
+    notes: [
+      "Phrasal Verb: 'pick up new hobbies' (adopt skills casually).",
+      "Academic collocation: 'take on an MA' (commit to postgraduate study).",
+      "Terminology: 'major / field' in university.",
+      "Vocabulary: 'slow metabolism' vs 'polyglot' (fluent in many languages)."
+    ]
+  },
+  {
+    pageTitle: "Page 5: Teacher Live Clinic 2 - Food, Idioms & Past Modals",
+    handoutDoc: "ARB_B1_07_I007CEA_HO_v1.0",
+    date: "Session 20",
+    image: "assets/images/session20_board_teacher_clinic2.jpg",
+    summary: "Whiteboard notes correcting collocations, food terminology, and modal verbs.",
+    notes: [
+      "Collocation: 'earn money' (wages) vs 'gain experience' (skills).",
+      "Grammar: 'regret working' (regret + gerund for past deeds).",
+      "Lexis: 'cuisine' (regional cooking) vs 'kitchen'.",
+      "Idioms: 'out of my comfort zone' & 'social butterfly'.",
+      "Modal Past: 'had to change it' (past form of must/have to)."
+    ]
+  }
+];
+
+
 /* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
@@ -10136,6 +10932,18 @@ if (typeof window !== 'undefined') {
   window.SESSION_19_TEACHER_FEEDBACK = typeof SESSION_19_TEACHER_FEEDBACK !== 'undefined' ? SESSION_19_TEACHER_FEEDBACK : undefined;
   window.SESSION_19_PRONUNCIATION_LAB = typeof SESSION_19_PRONUNCIATION_LAB !== 'undefined' ? SESSION_19_PRONUNCIATION_LAB : undefined;
   window.SESSION_19_NOTEBOOK_PAGES = typeof SESSION_19_NOTEBOOK_PAGES !== 'undefined' ? SESSION_19_NOTEBOOK_PAGES : undefined;
+
+  // Session 20
+  window.VOCAB_SESSION_20 = typeof VOCAB_SESSION_20 !== 'undefined' ? VOCAB_SESSION_20 : [];
+  window.SESSION_20_VOCAB_GROUPS = typeof SESSION_20_VOCAB_GROUPS !== 'undefined' ? SESSION_20_VOCAB_GROUPS : undefined;
+  window.SESSION_20_LEAD_IN = typeof SESSION_20_LEAD_IN !== 'undefined' ? SESSION_20_LEAD_IN : undefined;
+  window.SESSION_20_OPENERS_MATCHING = typeof SESSION_20_OPENERS_MATCHING !== 'undefined' ? SESSION_20_OPENERS_MATCHING : undefined;
+  window.SESSION_20_GOODBYES_LAB = typeof SESSION_20_GOODBYES_LAB !== 'undefined' ? SESSION_20_GOODBYES_LAB : undefined;
+  window.SESSION_20_LEAVING_CONVERSATION = typeof SESSION_20_LEAVING_CONVERSATION !== 'undefined' ? SESSION_20_LEAVING_CONVERSATION : undefined;
+  window.SESSION_20_TEACHER_FEEDBACK = typeof SESSION_20_TEACHER_FEEDBACK !== 'undefined' ? SESSION_20_TEACHER_FEEDBACK : undefined;
+  window.SESSION_20_PRONUNCIATION_LAB = typeof SESSION_20_PRONUNCIATION_LAB !== 'undefined' ? SESSION_20_PRONUNCIATION_LAB : undefined;
+  window.SESSION_20_NOTEBOOK_PAGES = typeof SESSION_20_NOTEBOOK_PAGES !== 'undefined' ? SESSION_20_NOTEBOOK_PAGES : undefined;
+
 
 
 
