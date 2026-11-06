@@ -1025,20 +1025,21 @@ button {
 .flashcard-3d-viewport {
   width: 100%;
   max-width: 680px;
-  min-height: 440px;
+  min-height: clamp(420px, 60vh, 480px);
   perspective: 1200px;
   cursor: pointer;
   touch-action: pan-y;
   user-select: none;
   -webkit-user-select: none;
   margin: 0 auto;
+  overflow: hidden !important; /* Cancel scrolling - pure clean card */
 }
 
 .flashcard-flipper {
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 440px;
+  min-height: clamp(420px, 60vh, 480px);
   transform-style: preserve-3d;
   transition: transform 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -1053,21 +1054,28 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  min-height: 440px;
+  min-height: clamp(420px, 60vh, 480px);
   background: var(--bg-surface);
   border: 2px solid var(--border-medium);
   border-radius: var(--radius-lg);
-  padding: clamp(0.75rem, 2.5vw, 1.4rem);
+  padding: clamp(0.7rem, 2.2vw, 1.3rem);
   box-shadow: var(--shadow-md);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow-y: auto !important; /* Fully responsive on any phone - never chops off content */
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-medium) transparent;
+  overflow: hidden !important; /* Cancel all scrolling - strictly non-scrollable */
+  overflow-y: hidden !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
   box-sizing: border-box;
+}
+
+.card-plane::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
 .card-plane-back {
@@ -1125,26 +1133,27 @@ button {
 .badge-phrase { background: #e0f2fe; color: #0369a1; }
 
 .card-center-lead {
-  flex: 1;
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 0.75rem 0;
+  justify-content: space-between;
+  padding: clamp(0.25rem, 0.9vw, 0.5rem) 0;
+  min-height: 0;
 }
 
 .card-face-subhead {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: clamp(0.18rem, 0.6vw, 0.35rem);
 }
 
 .card-role-pill {
-  font-size: 0.72rem;
+  font-size: clamp(0.66rem, 1.6vw, 0.72rem);
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  padding: 0.2rem 0.6rem;
+  letter-spacing: 0.4px;
+  padding: 0.16rem 0.55rem;
   border-radius: var(--radius-full);
 }
 
@@ -1152,19 +1161,19 @@ button {
 .role-back { background: rgba(16, 185, 129, 0.1); color: var(--emerald); }
 
 .card-word-title {
-  font-size: clamp(1.6rem, 5vw, 2.3rem);
+  font-size: clamp(1.35rem, 4.2vw, 2.1rem);
   font-weight: 900;
   color: var(--text-main);
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .card-phonetic-row {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.88rem;
+  gap: 0.4rem;
+  font-size: clamp(0.76rem, 1.9vw, 0.88rem);
   color: var(--text-muted);
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
 }
 
 .phonetic-uk-flag {
@@ -1177,27 +1186,28 @@ button {
 }
 
 .card-def-primary {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-size: clamp(0.92rem, 2.3vw, 1.16rem);
   font-weight: 700;
   color: var(--text-main);
-  line-height: 1.45;
-  margin-bottom: 0.5rem;
+  line-height: 1.35;
+  margin-bottom: clamp(0.2rem, 0.7vw, 0.4rem);
 }
 
 .card-def-secondary {
-  font-size: 0.9rem;
+  font-size: clamp(0.74rem, 1.7vw, 0.85rem);
   color: var(--text-body);
   background: var(--bg-subtle);
-  padding: 0.65rem 0.9rem;
+  padding: clamp(0.28rem, 0.9vw, 0.45rem) clamp(0.5rem, 1.4vw, 0.75rem);
   border-radius: var(--radius-sm);
-  margin-bottom: 0.75rem;
+  margin-bottom: clamp(0.2rem, 0.7vw, 0.4rem);
+  line-height: 1.3;
 }
 
 .back-example-sentence-box {
   background: var(--bg-surface);
   border: 1px solid var(--border-light);
   border-left: 3.5px solid var(--violet);
-  padding: 0.75rem 0.9rem;
+  padding: clamp(0.38rem, 1.1vw, 0.6rem) clamp(0.5rem, 1.5vw, 0.8rem);
   border-radius: var(--radius-sm);
   margin-top: auto;
 }
@@ -1206,21 +1216,21 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
 .back-label {
-  font-size: 0.75rem;
+  font-size: clamp(0.68rem, 1.6vw, 0.74rem);
   font-weight: 800;
   color: var(--violet);
   text-transform: uppercase;
 }
 
 .back-sentence-quote {
-  font-size: 0.92rem;
+  font-size: clamp(0.78rem, 1.9vw, 0.9rem);
   color: var(--text-body);
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.35;
 }
 
 .masked-blank {
@@ -1232,11 +1242,12 @@ button {
 }
 
 .card-flip-hint {
-  font-size: 0.76rem;
+  font-size: clamp(0.68rem, 1.5vw, 0.74rem);
   color: var(--text-muted);
   text-align: center;
   border-top: 1px solid var(--border-light);
-  padding-top: 0.5rem;
+  padding-top: clamp(0.22rem, 0.7vw, 0.4rem);
+  margin-top: auto;
 }
 
 /* Audio circle button */
@@ -4438,7 +4449,7 @@ img, iframe, video {
   align-items: center;
   gap: 0.35rem;
   background: var(--bg-subtle);
-  padding: 0.18rem 0.35rem;
+  padding: 0.16rem 0.32rem;
   border-radius: var(--radius-full);
   border: 1px solid var(--border-light);
 }
@@ -4451,9 +4462,9 @@ img, iframe, video {
   color: var(--text-main);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-full);
-  font-size: 0.78rem;
+  font-size: 0.76rem;
   font-weight: 700;
-  padding: 0.2rem 0.55rem;
+  padding: 0.18rem 0.5rem;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
@@ -4478,20 +4489,20 @@ img, iframe, video {
 .accent-voice-mini-group {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.22rem;
 }
 
 .voice-mini-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.22rem;
   background: var(--bg-subtle);
   color: var(--text-main);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-sm);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  padding: 0.15rem 0.45rem;
+  padding: 0.14rem 0.42rem;
   cursor: pointer;
   transition: all 0.18s ease;
 }
@@ -4514,37 +4525,37 @@ img, iframe, video {
 /* Card Word & Arabic Meaning in the SAME ROW */
 .card-word-arabic-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  margin: 0.35rem 0 0.5rem 0;
-  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: clamp(0.2rem, 0.7vw, 0.45rem) 0;
+  flex-wrap: nowrap;
 }
 
 .card-word-left-col {
-  flex: 1 1 200px;
+  flex: 1 1 auto;
   min-width: 0;
 }
 
 .card-arabic-side-box {
   flex: 0 1 auto;
-  max-width: 320px;
-  min-width: 130px;
+  max-width: 55%;
+  min-width: 120px;
   background: linear-gradient(135deg, rgba(2, 132, 199, 0.08), rgba(14, 165, 233, 0.04));
   border: 1px solid rgba(2, 132, 199, 0.25);
-  border-right: 3.5px solid #0284c7;
-  padding: 0.4rem 0.75rem;
+  border-right: 3px solid #0284c7;
+  padding: clamp(0.25rem, 0.8vw, 0.42rem) clamp(0.45rem, 1.2vw, 0.7rem);
   border-radius: var(--radius-sm);
   display: flex;
   flex-direction: column;
-  gap: 0.15rem;
+  gap: 0.1rem;
   text-align: right;
   direction: rtl;
   box-sizing: border-box;
 }
 
 .card-arabic-tag {
-  font-size: 0.68rem;
+  font-size: clamp(0.6rem, 1.4vw, 0.68rem);
   font-weight: 800;
   color: #0369a1;
   text-transform: uppercase;
@@ -4552,11 +4563,12 @@ img, iframe, video {
 }
 
 .card-arabic-text {
-  font-size: 1.05rem;
+  font-size: clamp(0.82rem, 2.1vw, 1.02rem);
   font-weight: 700;
   color: #0c4a6e;
-  line-height: 1.35;
+  line-height: 1.3;
   font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  word-break: break-word;
 }
 
 /* Definition Extras Row: Opposite + Compact Arabic Box in Same Row */
@@ -4564,21 +4576,22 @@ img, iframe, video {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
-  margin-bottom: 0.5rem;
-  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: clamp(0.2rem, 0.7vw, 0.4rem);
+  flex-wrap: nowrap;
 }
 
 /* Opposite / Antonym Box */
 .card-opposite-pill-box {
   background: rgba(245, 158, 11, 0.08);
   border: 1px dashed rgba(245, 158, 11, 0.4);
-  padding: 0.3rem 0.65rem;
+  padding: clamp(0.2rem, 0.6vw, 0.3rem) clamp(0.4rem, 1.1vw, 0.6rem);
   border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  font-size: 0.8rem;
+  gap: 0.35rem;
+  font-size: clamp(0.68rem, 1.5vw, 0.76rem);
+  flex-shrink: 0;
 }
 
 .card-opposite-pill-box .opposite-label {
@@ -4619,53 +4632,75 @@ img, iframe, video {
   color: #fef3c7;
 }
 
-/* Mobile Responsiveness for Any Phone Screen */
+/* Mobile Responsiveness for Any Phone Screen - 100% Non-Scrollable & Perfectly Fitted */
 @media (max-width: 640px) {
   .flashcard-3d-viewport,
   .flashcard-flipper,
   .card-plane {
-    min-height: 460px;
+    min-height: 420px;
+    height: 100%;
   }
 
   .card-plane {
-    padding: 0.85rem 0.75rem;
+    padding: 0.65rem 0.65rem;
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+    scrollbar-width: none !important;
   }
 
   .card-word-title {
-    font-size: 1.5rem !important;
+    font-size: clamp(1.22rem, 5.2vw, 1.55rem) !important;
+    line-height: 1.15 !important;
+  }
+
+  .card-word-arabic-row {
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin: 0.2rem 0;
   }
 
   .card-arabic-side-box {
     max-width: 100%;
     width: 100%;
-    margin-top: 0.25rem;
-  }
-
-  .card-def-primary {
-    font-size: 1.05rem !important;
-  }
-
-  .card-def-secondary {
-    font-size: 0.82rem !important;
-    padding: 0.45rem 0.65rem !important;
-    margin-bottom: 0.5rem !important;
-  }
-
-  .back-example-sentence-box {
-    padding: 0.55rem 0.7rem !important;
-  }
-
-  .back-sentence-quote {
-    font-size: 0.85rem !important;
-  }
-
-  .voice-dual-btn {
-    padding: 0.2rem 0.45rem;
-    font-size: 0.74rem;
+    padding: 0.25rem 0.5rem;
   }
 
   .card-def-middle-row {
-    flex-direction: column;
-    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .card-def-primary {
+    font-size: 0.92rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 0.22rem !important;
+  }
+
+  .card-def-secondary {
+    font-size: 0.76rem !important;
+    padding: 0.28rem 0.48rem !important;
+    margin-bottom: 0.22rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .back-example-sentence-box {
+    padding: 0.35rem 0.55rem !important;
+    margin-top: auto !important;
+  }
+
+  .back-sentence-quote {
+    font-size: 0.78rem !important;
+    line-height: 1.32 !important;
+  }
+
+  .voice-dual-btn {
+    padding: 0.16rem 0.42rem;
+    font-size: 0.72rem;
+  }
+
+  .card-flip-hint {
+    font-size: 0.68rem !important;
+    padding-top: 0.22rem !important;
   }
 }

@@ -1234,7 +1234,7 @@ function renderCard() {
 
         <div class="card-arabic-side-box" dir="rtl">
           <span class="card-arabic-tag">المعنى بالعربية:</span>
-          <span class="card-arabic-text">${item.arMeaning || ''}</span>
+          <span class="card-arabic-text">${item.arWord || item.arMeaning || ''}</span>
         </div>
       </div>
 

@@ -13,6 +13,7 @@ const VOCAB_SESSION_10 = [
     definition: "Step-by-step actions that teams follow to complete a job together.",
     b1Explain: "Step-by-step actions that teams follow to complete a job together.",
     opposite: "Chaos / Ad-hoc",
+    arWord: "عمليات / إجراءات / مسارات عمل / يعالج / يصنع",
     arMeaning: "إجراءات ومسارات العمل المنظمة خطوة بخطوة",
     sentence: "Our engineering team established clear processes so everyone knows what to do."
   },
@@ -24,6 +25,7 @@ const VOCAB_SESSION_10 = [
     definition: "Finding a fair, calm, and peaceful solution when people disagree.",
     b1Explain: "Finding a fair and calm solution when two people disagree.",
     opposite: "Escalating conflict",
+    arWord: "حل النزاعات / فض الخلافات / تسوية النزاع",
     arMeaning: "فض النزاعات وحل الخلافات بهدوء وإنصاف",
     sentence: "Learning conflict resolution helped the managers handle disagreements between team members calmly."
   },
@@ -35,6 +37,7 @@ const VOCAB_SESSION_10 = [
     definition: "Full of energy, active, and exciting; never boring.",
     b1Explain: "Energetic and exciting, never boring or standing still.",
     opposite: "Static / Stagnant",
+    arWord: "ديناميكي / حيوي / نشيط / متفاعل ومتغير باستمرار",
     arMeaning: "ديناميكي / مفعم بالحيوية والنشاط والتجدد",
     sentence: "The project leader created a dynamic atmosphere where everyone felt motivated to contribute."
   },
@@ -46,6 +49,7 @@ const VOCAB_SESSION_10 = [
     definition: "A difficult task that tests your ability and needs real effort.",
     b1Explain: "A task that is not easy, but exciting to try and finish.",
     opposite: "Easy task",
+    arWord: "تحدٍ / مهمة صعبة / يتحدى قدرة",
     arMeaning: "تحدٍ صعب ومحفز يختبر القدرات ويحتاج جهداً حقيقياً",
     sentence: "Building the tower out of paper tubes was a tough challenge, but our team succeeded."
   },
@@ -57,6 +61,7 @@ const VOCAB_SESSION_10 = [
     definition: "Close to an exact number or time, but not completely exact; about.",
     b1Explain: "About or nearly, when you don't know the exact figure.",
     opposite: "Exactly / Precisely",
+    arWord: "تقريباً / حوالي / زهاء / بنسبة تقريبية",
     arMeaning: "تقريباً / بتقدير تقريبي غير دقيق تماماً",
     sentence: "The team-building workshop lasted approximately two hours."
   },
@@ -68,6 +73,7 @@ const VOCAB_SESSION_10 = [
     definition: "To use a good situation, skill, or chance to get an advantage.",
     b1Explain: "To take advantage of something good that is available around you.",
     opposite: "Waste / Miss out",
+    arWord: "يستثمر / يستغل فرصة بنجاح / يستفيد لأقصى حد",
     arMeaning: "يستثمر الفرصة أو الميزة ويستغلها لصالحه",
     sentence: "We managed to capitalize on our architect's drawing skills to win the building competition."
   },
@@ -79,6 +85,7 @@ const VOCAB_SESSION_10 = [
     definition: "Cleverly designed and modern; not simple.",
     b1Explain: "Cleverly designed and advanced rather than simple.",
     opposite: "Primitive / Crude",
+    arWord: "متقدم / راقٍ / متطور تقنياً / معقد ببراعة",
     arMeaning: "متطور ومتقن التصميم وغير بدائي",
     sentence: "The winning bridge design used a sophisticated balance of wooden sticks and tape."
   },
@@ -90,6 +97,7 @@ const VOCAB_SESSION_10 = [
     definition: "Planning your time well so you finish all your work before the deadline.",
     b1Explain: "Planning your hours wisely so you finish all tasks before the deadline.",
     opposite: "Procrastination",
+    arWord: "إدارة الوقت / تنظيم وتوزيع أوقات العمل",
     arMeaning: "إدارة الوقت وتنظيم الساعات بذكاء لإنجاز العمل",
     sentence: "Good time-management allowed our group to plan, build, and test our model with minutes to spare."
   },
@@ -101,6 +109,7 @@ const VOCAB_SESSION_10 = [
     definition: "Specially made or arranged to fit the exact needs of a group.",
     b1Explain: "Made specially to fit your exact group and preferences.",
     opposite: "Standardized / Generic",
+    arWord: "مخصص / مفصل حسب الطلب / مصمم خصيصاً",
     arMeaning: "مخصص ومصمم خصيصاً ليلائم احتياجات محددة",
     sentence: "The trainer offered a customised course designed specifically for hotel reception staff."
   },
@@ -112,6 +121,7 @@ const VOCAB_SESSION_10 = [
     definition: "Having many different connected parts and not simple to understand.",
     b1Explain: "Hard to solve quickly because it has many connected parts.",
     opposite: "Simple / Straightforward",
+    arWord: "معقد / مركب / مجمع مبانٍ أو منشآت",
     arMeaning: "معقد ومتشابك العناصر ويحتاج تحليلاً",
     sentence: "The instructions for assembling the solar kit were complex, so we read them twice together."
   },
@@ -123,6 +133,7 @@ const VOCAB_SESSION_10 = [
     definition: "To meet in a group and share lots of creative ideas quickly.",
     b1Explain: "Sitting together to think of creative ideas freely.",
     opposite: "",
+    arWord: "عصف ذهني / يتبادل أفكاراً إبداعية / توليد أفكار حرة",
     arMeaning: "عصف ذهني وتوليد أفكار إبداعية في جلسة جماعية",
     sentence: "Before touching the materials, our group spent five minutes brainstorming possible layouts."
   },
@@ -134,6 +145,7 @@ const VOCAB_SESSION_10 = [
     definition: "To build or put pieces together to make something.",
     b1Explain: "To build something carefully using tools and materials.",
     opposite: "Demolish / Dismantle",
+    arWord: "يبني / يشيد / ينشئ / يركب بناءً",
     arMeaning: "يبني أو يشيد أو يركب أجزاء الشيء بعناية",
     sentence: "Using only cardboard and string, we constructed a small boat that could float on water."
   },
@@ -145,6 +157,7 @@ const VOCAB_SESSION_10 = [
     definition: "The process of choosing the best option as a team.",
     b1Explain: "The way a group chooses what to do next.",
     opposite: "Indecision",
+    arWord: "اتخاذ القرارات / صنع القرار وحسم الموقف",
     arMeaning: "صنع واتخاذ القرارات الجماعية بحكمة وحسم",
     sentence: "Fast and clear decision-making was the main reason Team Blue finished first."
   },
@@ -156,6 +169,7 @@ const VOCAB_SESSION_10 = [
     definition: "Helpful advice telling someone what they did well and how to get better.",
     b1Explain: "Telling someone what they did well and how they can improve.",
     opposite: "",
+    arWord: "تغذية راجعة / ملاحظات تقييمية / آراء نقدية بناءة",
     arMeaning: "تغذية راجعة وتقييم بناء للأداء لتطويره",
     sentence: "After the exercise, the teacher gave constructive feedback on our communication style."
   },
@@ -167,6 +181,7 @@ const VOCAB_SESSION_10 = [
     definition: "The outdoor sport of finding your way using a map and a compass.",
     b1Explain: "Navigating across outdoor trails using maps.",
     opposite: "",
+    arWord: "رياضة تحديد الاتجاهات / التنقل والملاحة بالخريطة والبوصلة",
     arMeaning: "رياضة تحديد المواقع والاتجاهات بالخريطة والبوصلة",
     sentence: "During the afternoon session, we went orienteering in the forest to locate hidden clues."
   },
@@ -178,6 +193,7 @@ const VOCAB_SESSION_10 = [
     definition: "Happening or moving together at the exact same time and speed.",
     b1Explain: "Moving together at the same time in harmony.",
     opposite: "Desynchronized",
+    arWord: "متزامن / متناسق في التوقيت / منسق بحركة واحدة",
     arMeaning: "متزامن ومنسجم في التوقيت والسرعة معاً",
     sentence: "Rowing the canoe required synchronized strokes from all four paddlers."
   },
@@ -189,6 +205,7 @@ const VOCAB_SESSION_10 = [
     definition: "Standing up on its own without leaning against a wall or pole.",
     b1Explain: "Standing upright without any wall or support holding it.",
     opposite: "Supported / Leaning",
+    arWord: "قائم بذاته / مستقل هيكلياً بدون دعائم خارجية",
     arMeaning: "قائم بذاته دون الاستناد إلى جدار أو دعامة خارجية",
     sentence: "The rules stated that the tower must remain freestanding for at least sixty seconds."
   },
@@ -200,6 +217,7 @@ const VOCAB_SESSION_10 = [
     definition: "How strong and stable an object is so it does not fall or break.",
     b1Explain: "The solid strength of a building that stops it from collapsing.",
     opposite: "Instability / Collapse",
+    arWord: "استقرار هيكلي / ثبات وتوازن البناء المعماري",
     arMeaning: "ثبات وتماسك الهيكل الهندسي لمنع الانهيار",
     sentence: "Adding triangular supports to the base improved the structural stability of the paper tower."
   },
@@ -211,6 +229,7 @@ const VOCAB_SESSION_10 = [
     definition: "To go into a new or unfamiliar place with curiosity and courage.",
     b1Explain: "To bravely go into an unknown place.",
     opposite: "Retreat / Stay put",
+    arWord: "مشروع مغامرة / عمل تجاري جديد وجريء / يجازف",
     arMeaning: "يخوض تجربة أو يغامر بالدخول في مجال أو مكان جديد",
     sentence: "Equipped with compasses, the teams ventured into the dense woodland to find the checkpoint."
   },
@@ -222,6 +241,7 @@ const VOCAB_SESSION_10 = [
     definition: "To finish a task or game before the time runs out.",
     b1Explain: "Completing a challenge before the timer hits zero.",
     opposite: "Run out of time",
+    arWord: "يسابق الزمن / ينجز المهمة قبل نفاد الوقت المحدد",
     arMeaning: "يتسابق مع الزمن وينهي المهمة قبل انتهاء الوقت",
     sentence: "We placed the final block with three seconds remaining and beat the clock!"
   },
@@ -233,6 +253,7 @@ const VOCAB_SESSION_10 = [
     definition: "Someone you know a little, but who is not a close friend.",
     b1Explain: "A person you know slightly, like a neighbor, but not a close friend.",
     opposite: "Close friend / Stranger",
+    arWord: "معرفة شخصية / شخص تعرفه سطحياً / دراية بموضوع",
     arMeaning: "معرفة عابرة أو شخص تعرفه سطحياً (ليس صديقاً مقرباً)",
     sentence: "He is not a close buddy of mine; he is just a business acquaintance from the conference."
   },
@@ -244,6 +265,7 @@ const VOCAB_SESSION_10 = [
     definition: "Messy, poorly planned, and not working in an orderly way.",
     b1Explain: "Not orderly, confused, and messy with poor planning.",
     opposite: "Well-organized",
+    arWord: "غير منظم / عشوائي / فوضوي في ترتيبه",
     arMeaning: "فوضوي وغير منظم ويعاني من سوء التخطيط",
     sentence: "Team Red lost valuable minutes because their workspace was completely disorganised."
   },
@@ -255,6 +277,7 @@ const VOCAB_SESSION_10 = [
     definition: "A nervous, uncomfortable feeling between people who disagree.",
     b1Explain: "An uncomfortable feeling when people feel angry or worried.",
     opposite: "Harmony / Calm",
+    arWord: "توتر / شد عصبي / ضغط نفسي أو خلاف مشحون",
     arMeaning: "توتر وقلق ومشاحنات بين الأطراف المختلفة",
     sentence: "Taking a short laugh break helped relieve the tension between the competing teams."
   },
@@ -266,6 +289,7 @@ const VOCAB_SESSION_10 = [
     definition: "A helpful sign or hint that helps you find an answer or solve a puzzle.",
     b1Explain: "A hint that helps you solve a puzzle or mystery.",
     opposite: "",
+    arWord: "دليل / إشارة توجيهية / خيط لحل لغز",
     arMeaning: "دليل أو إشارة إرشادية تساعد في حل اللغز",
     sentence: "The riddle written on the yellow card gave us a clue to find the next hidden flag."
   },
@@ -277,6 +301,7 @@ const VOCAB_SESSION_10 = [
     definition: "Given all the clothes, tools, or safety gear needed for an activity.",
     b1Explain: "Provided with all the equipment and safety gear you need.",
     opposite: "Ill-equipped",
+    arWord: "مجهز بـ / مزود بـ / مزود بمعدات وأدوات",
     arMeaning: "مجهز ومزود بجميع الملابس والأدوات اللازمة للمهمة",
     sentence: "All hikers were outfitted with waterproof jackets, helmets, and emergency whistles."
   }
@@ -292,6 +317,7 @@ const VOCAB_SESSION_11 = [
     definition: "To explain what someone said or wrote using your own simpler words.",
     b1Explain: "Explaining the same idea in simpler or different English words.",
     opposite: "Quote verbatim",
+    arWord: "يعيد صياغة / يعبّر بأسلوب آخر / صياغة جديدة / يفسر بكلمات أبسط",
     arMeaning: "إعادة صياغة الكلام بكلمات أسهل وأبسط لنقل المعنى",
     sentence: "If you don't know the exact word, paraphrase it by describing what it does."
   },
@@ -303,6 +329,7 @@ const VOCAB_SESSION_11 = [
     definition: "Feeling shy, nervous, or unsure about your own abilities.",
     b1Explain: "Feeling shy or afraid to speak because you worry about making mistakes.",
     opposite: "Self-confidence",
+    arWord: "انعدام الثقة / قلة الثقة بالنفس / تردد وشك في القدرات",
     arMeaning: "قلة الثقة بالنفس / الخجل والتردد في التحدث",
     sentence: "His hesitation in meetings was caused by a lack of confidence, not poor English."
   },
@@ -314,6 +341,7 @@ const VOCAB_SESSION_11 = [
     definition: "Very important and completely necessary.",
     b1Explain: "Something that you must have or that is extremely important.",
     opposite: "Optional / Trivial",
+    arWord: "أساسي / جوهري / ضروري للغاية / لا غنى عنه",
     arMeaning: "جوهري / ضروري وأساسي جداً ولا غنى عنه",
     sentence: "Maggie reminded the class that making mistakes is an essential part of learning."
   },
@@ -325,6 +353,7 @@ const VOCAB_SESSION_11 = [
     definition: "To change words or text from one language into another language.",
     b1Explain: "Converting words from your native language into English.",
     opposite: "Keep untranslated",
+    arWord: "يترجم / ينقل لغة / يفسر معنى / يحول لواقع",
     arMeaning: "يترجم من لغة إلى أخرى",
     sentence: "Translating word-for-word in your head slows down your speaking speed."
   },
@@ -336,6 +365,7 @@ const VOCAB_SESSION_11 = [
     definition: "The first language you learned to speak as a child from your parents.",
     b1Explain: "The primary language of your home country.",
     opposite: "Foreign / Second language",
+    arWord: "اللغة الأم / لغة المنشأ والوطن الأصلية",
     arMeaning: "اللغة الأم (اللغة الأولى التي تعلمها في الصغر)",
     sentence: "Try to think in English rather than translating from your native language."
   },
@@ -347,6 +377,7 @@ const VOCAB_SESSION_11 = [
     definition: "To recognise and name who someone or what something is.",
     b1Explain: "To find out exactly what or who something is.",
     opposite: "Overlook / Misdiagnose",
+    arWord: "يحدد / يميّز / يكتشف هوية الشيء أو الشخص",
     arMeaning: "يحدد / يتعرف على المشكلة أو السبب بدقة",
     sentence: "If I had this problem, I would try to identify the reason first."
   },
@@ -358,6 +389,7 @@ const VOCAB_SESSION_11 = [
     definition: "Created in the mind and existing only in imagination, not in reality.",
     b1Explain: "Not real; existing only in your thoughts or imagination.",
     opposite: "Real / Actual",
+    arWord: "خيالي / وهمي / مفترض في العقل فقط",
     arMeaning: "خيالي / افتراضي غير موجود على أرض الواقع",
     sentence: "The second conditional is used for imaginary or unreal situations in the present."
   },
@@ -369,6 +401,7 @@ const VOCAB_SESSION_11 = [
     definition: "A grammatical structure using past tense and would for hypothetical situations.",
     b1Explain: "The grammar pattern we use to imagine situations and give advice.",
     opposite: "",
+    arWord: "الحالة الشرطية الثانية (للمواقف غير الواقعية أو المستقبل غير المحتمل)",
     arMeaning: "الحالة الشرطية الثانية (للمواقف الافتراضية وتقديم النصيحة)",
     sentence: "We practiced the second conditional to give thoughtful study advice to our classmates."
   },
@@ -380,6 +413,7 @@ const VOCAB_SESSION_11 = [
     definition: "Feeling overwhelmed, anxious, and exhausted by too much pressure.",
     b1Explain: "Feeling overwhelmed, worried, and unable to rest.",
     opposite: "Relaxed / Calm",
+    arWord: "مرهق نفسياً / واقع تحت ضغط عصبي شديد / متوتر",
     arMeaning: "متوتر جداً / مجهد ومضغوط نفسياً وعصبياً",
     sentence: "Ahmed felt stressed out whenever the teacher asked him to speak in front of the whole class."
   },
@@ -391,6 +425,7 @@ const VOCAB_SESSION_11 = [
     definition: "The ability to speak or write a language smoothly, easily, and without hesitation.",
     b1Explain: "Speaking smoothly without stopping or searching for words.",
     opposite: "Hesitancy / Stuttering",
+    arWord: "طلاقة لغوية / فصاحة وسلاسة في التحدث دون توقف",
     arMeaning: "الطلاقة اللغوية (التحدث بسلاسة ويسر دون تعثر)",
     sentence: "Practicing English every day with native podcasts will greatly improve your fluency."
   },
@@ -402,6 +437,7 @@ const VOCAB_SESSION_11 = [
     definition: "To successfully deal with, defeat, or control a problem or difficulty.",
     b1Explain: "To defeat a problem or conquer a personal fear.",
     opposite: "Succumb / Surrender",
+    arWord: "يتغلب على / يتجاوز عقبة / ينتصر على صعوبة",
     arMeaning: "يتغلب على صعوبة أو عقبة ويتجاوزها بنجاح",
     sentence: "She managed to overcome her fear of public speaking by joining the college debate team."
   },
@@ -413,6 +449,7 @@ const VOCAB_SESSION_11 = [
     definition: "Moving up to a higher, more responsible or better-paid position at work.",
     b1Explain: "Getting a higher and better-paid position at work.",
     opposite: "Demotion",
+    arWord: "ترقية وظيفية / ترويج ودعاية / تقدم في المنصب",
     arMeaning: "ترقية وظيفية إلى منصب أعلى ومسؤوليات أكبر",
     sentence: "Improving his business English helped him earn a promotion to regional sales manager."
   },
@@ -424,6 +461,7 @@ const VOCAB_SESSION_11 = [
     definition: "A regular group meeting where learners gather to practice English conversation.",
     b1Explain: "A friendly meeting where learners practice talking in English.",
     opposite: "",
+    arWord: "نادي محادثة / حلقة نقاش وتدريب لغوي",
     arMeaning: "نادي محادثة لممارسة الحوار والتواصل باللغة الإنجليزية",
     sentence: "Joining the weekly British Council speaking club boosted my conversational confidence."
   },
@@ -435,6 +473,7 @@ const VOCAB_SESSION_11 = [
     definition: "A short extract or passage taken from a book, speech, or recording.",
     b1Explain: "A short piece taken from a conversation or recording.",
     opposite: "Full text",
+    arWord: "مقتطف / مقطع مأخوذ من نص أو تسجيل / اقتباس",
     arMeaning: "مقتطف / مقطع قصير مأخوذ من تسجيل صوتي أو كتاب",
     sentence: "Listen to this thirty-second audio excerpt and identify what advice Maggie gives."
   },
@@ -446,6 +485,7 @@ const VOCAB_SESSION_11 = [
     definition: "A statement estimating or guessing what will happen in the future.",
     b1Explain: "A guess about what will happen next based on what you already know.",
     opposite: "",
+    arWord: "تنبؤ / توقع مستقبلي / تخمين مبني على قرائن",
     arMeaning: "تنبؤ / توقع مبني على معطيات وملاحظات مسبقة",
     sentence: "Before listening, make a prediction about which learning problem is most common."
   },
@@ -457,6 +497,7 @@ const VOCAB_SESSION_11 = [
     definition: "Based on an imagined possibility rather than on actual real facts.",
     b1Explain: "Imagined as an example, not real or fact.",
     opposite: "Factual / Real",
+    arWord: "افتراضي / فرضي / قائم على تخيل احتمالي",
     arMeaning: "افتراضي / مبني على فرضية وتخيل وليس حقيقة واقعة",
     sentence: "'If I won the lottery' is a classic hypothetical statement used in the second conditional."
   },
@@ -468,6 +509,7 @@ const VOCAB_SESSION_11 = [
     definition: "To say that you are unhappy, dissatisfied, or annoyed about something.",
     b1Explain: "To say you are not satisfied with food, service, or treatment.",
     opposite: "Praise / Applaud",
+    arWord: "يشتكي / يتذمر / يقدم شكوى رسمية",
     arMeaning: "يشتكي / يتذمر من سوء المعاملة أو عدم الرضا",
     sentence: "Many students complain that English grammar rules have too many confusing exceptions."
   },
@@ -479,6 +521,7 @@ const VOCAB_SESSION_11 = [
     definition: "A conversational phrase used to give sympathetic advice or recommendations.",
     b1Explain: "The standard phrase used in English to give someone advice.",
     opposite: "",
+    arWord: "لو كنت مكانك / نصيحتي لك كأنني في موقعك",
     arMeaning: "لو كنت مكانك (صيغة تقديم النصيحة باللغة الإنجليزية)",
     sentence: "If I were you, I would listen to English news podcasts for fifteen minutes every morning."
   },
@@ -490,6 +533,7 @@ const VOCAB_SESSION_11 = [
     definition: "Useful suggestions and practical advice to help you learn more effectively.",
     b1Explain: "Useful little pieces of advice on how to study better.",
     opposite: "",
+    arWord: "نصائح دراسية / إرشادات وإضاءات للتفوق في المذاكرة",
     arMeaning: "نصائح وإرشادات دراسية لرفع كفاءة وسرعة التعلم",
     sentence: "The teacher shared five study tips to help students remember irregular verbs easily."
   },
@@ -501,6 +545,7 @@ const VOCAB_SESSION_11 = [
     definition: "A feeling of trust in your own abilities, qualities, and judgment.",
     b1Explain: "Belief in your own power and ability to do something well.",
     opposite: "Insecurity / Doubt",
+    arWord: "ثقة بالنفس / يقين واطمئنان / ائتمان",
     arMeaning: "الثقة بالنفس والإيمان بالقدرات الشخصية",
     sentence: "Speaking regularly with partners in class will gradually build your speaking confidence."
   },
@@ -512,6 +557,7 @@ const VOCAB_SESSION_11 = [
     definition: "The real, fundamental cause beneath the surface of a problem.",
     b1Explain: "The deep, real cause behind a difficulty that people don't see immediately.",
     opposite: "Surface symptom",
+    arWord: "السبب الدفين / الدافع الجذري الأساسي غير الظاهر",
     arMeaning: "السبب الجذري الخفي الكامن وراء المشكلة",
     sentence: "Fear of being judged by colleagues was the underlying reason for his workplace silence."
   },
@@ -523,6 +569,7 @@ const VOCAB_SESSION_11 = [
     definition: "Gradually developing or gaining a skill or language through natural practice.",
     b1Explain: "Gradually picking up a new language skill through daily use.",
     opposite: "Losing / Forgetting",
+    arWord: "اكتساب / تحصيل لغة أو مهارة / حيازة وشراء",
     arMeaning: "اكتساب المهارة أو اللغة تلقائياً عبر الممارسة المستمرة",
     sentence: "Acquiring natural British pronunciation requires active listening and repeated speaking drills."
   },
@@ -534,6 +581,7 @@ const VOCAB_SESSION_11 = [
     definition: "A polite, friendly idiom inviting someone to sit down comfortably.",
     b1Explain: "A polite invitation to sit down comfortably.",
     opposite: "Stand up",
+    arWord: "تفضل بالجلوس / خذ مقعدك واسترح",
     arMeaning: "تفضل بالجلوس (دعوة مهذبة ومألوفة للجلوس)",
     sentence: "'Please have a seat while I review your English assessment scores,' smiled the instructor."
   },
@@ -545,6 +593,7 @@ const VOCAB_SESSION_11 = [
     definition: "A person or thing that provides essential help in a difficult moment.",
     b1Explain: "A person who helps you out of a stressful problem just in time.",
     opposite: "",
+    arWord: "منقذ للموقف / حل سحري في اللحظة الحرجة",
     arMeaning: "منقذ حقيقي (شخص أو شيء يحل أزمة حرجة في وقتها)",
     sentence: "Lending me your course notes before the midterm exam was an absolute life saver!"
   },
@@ -556,6 +605,7 @@ const VOCAB_SESSION_11 = [
     definition: "To cause embarrassment by forcing someone to answer unexpected questions in public.",
     b1Explain: "Making someone feel uncomfortable by asking a sudden hard question in front of others.",
     opposite: "Put at ease",
+    arWord: "يُحرج شخصاً / يضعه في موقف محرج ومفاجئ يطلب إجابة فورية",
     arMeaning: "يحرجه بسؤال مباغت أو موقف مفاجئ أمام الحاضرين",
     sentence: "The teacher avoided putting shy students on the spot during whole-class discussions."
   },
@@ -567,6 +617,7 @@ const VOCAB_SESSION_11 = [
     definition: "To increase someone's confidence, energy, morale, or performance.",
     b1Explain: "Helping someone feel more certain and positive about their abilities.",
     opposite: "Discourage / Undermine",
+    arWord: "يدعم شخصاً / يحفزه ويرفع معنوياته وثقته",
     arMeaning: "يرفع معنوياته ويزيد من ثقته وحماسه وأدائه",
     sentence: "Receiving positive feedback on her presentation really boosted her confidence in English."
   },
@@ -578,6 +629,7 @@ const VOCAB_SESSION_11 = [
     definition: "A period of rhythmic hand clapping by an audience to show praise.",
     b1Explain: "When the group or audience claps together to appreciate someone.",
     opposite: "Booing / Silence",
+    arWord: "جولة تصفيق حار / تحية إعجاب جماعية بالأيدي",
     arMeaning: "جولة تصفيق حارة من الحاضرين تقديراً وتشجيعاً",
     sentence: "Let's give Sarah a big round of applause for her wonderful presentation on study habits."
   },
@@ -589,6 +641,7 @@ const VOCAB_SESSION_11 = [
     definition: "Among the top rank or highest standard in the world.",
     b1Explain: "Of top international standard, among the very best.",
     opposite: "Mediocre / Substandard",
+    arWord: "عالمي المستوى / فائق الجودة والاحترافية / ممتاز دولياً",
     arMeaning: "بمستوى عالمي رفيع / من الطراز الأول عالمياً",
     sentence: "The British Council provides world class language tuition with certified native educators."
   }
@@ -881,6 +934,7 @@ const VOCAB_SESSION_1 = [
     definition: "To talk with a seller to agree on a lower, cheaper price.",
     b1Explain: "Talking with a seller to get a cheaper price for what you want to buy.",
     opposite: "Pay fixed price",
+    arWord: "يفاوض على السعر / يساوم / يجادل في الثمن",
     arMeaning: "التفاوض / المساومة على السعر للحصول على تخفيض",
     sentence: "At the traditional market, shoppers often bargain over the price of handmade crafts."
   },
@@ -892,6 +946,7 @@ const VOCAB_SESSION_1 = [
     definition: "Used when you can still easily see the original material (like wood or glass).",
     b1Explain: "Used when the material hasn't changed its form (you can still see the wood, metal, or glass).",
     opposite: "Made from",
+    arWord: "مصنوع من (مادة لم تتغير طبيعتها)",
     arMeaning: "مصنوع من (المادة محتفظة بشكلها الأصلي كالخشب أو المعدن)",
     sentence: "This sturdy carpenter's workbench is made of solid beech wood."
   },
@@ -903,6 +958,7 @@ const VOCAB_SESSION_1 = [
     definition: "Used when the original material changes completely into something new (like paper from wood).",
     b1Explain: "Used when the original material is transformed into something new (like trees into paper).",
     opposite: "Made of",
+    arWord: "مصنوع من (مادة تحولت بالتصنيع)",
     arMeaning: "مصنوع من (المادة تحولت بالكامل لشيء جديد كالورق من الخشب)",
     sentence: "Cardboard boxes are made from recycled wood pulp and fibers."
   },
@@ -914,6 +970,7 @@ const VOCAB_SESSION_1 = [
     definition: "To repair and paint an old room or building so it looks new again.",
     b1Explain: "To fix up and modernise an old room or house so it looks brand new.",
     opposite: "Demolish / Neglect",
+    arWord: "يجدد / يرمم / يعيد تأهيل",
     arMeaning: "يرمم / يجدد مبنى قديم ويعيد طلاءه وإصلاحه",
     sentence: "They bought an old country cottage and spent three months renovating the kitchen."
   },
@@ -925,6 +982,7 @@ const VOCAB_SESSION_1 = [
     definition: "Do-It-Yourself: repairing, painting, or building things yourself at home.",
     b1Explain: "Doing home improvements and building furniture yourself at home.",
     opposite: "Hiring a contractor",
+    arWord: "افعلها بنفسك / صيانة منزلية ذاتية / تصليح يدوي",
     arMeaning: "اصنعها بنفسك (إصلاحات وأشغال يدوية منزلية ذاتية)",
     sentence: "He enjoys doing DIY on weekends and built his own wooden bookshelves."
   },
@@ -936,6 +994,7 @@ const VOCAB_SESSION_1 = [
     definition: "An activity that needs skill in making nice things by hand.",
     b1Explain: "Making beautiful or practical objects with your own hands.",
     opposite: "Mass production",
+    arWord: "حرفة / صنعة يدوية / مهارة فنية / يصنع ببراعة",
     arMeaning: "حرفة يدوية / صناعة باليد بمهارة وإتقان",
     sentence: "She creates traditional ceramic crafts and sells them at the weekend craft fair."
   },
@@ -947,6 +1006,7 @@ const VOCAB_SESSION_1 = [
     definition: "A sharp hand tool with metal teeth used to cut wood manually.",
     b1Explain: "A sharp hand tool with metal teeth used to cut wooden boards by hand.",
     opposite: "Power saw",
+    arWord: "منشار يدوي / منشار خشب",
     arMeaning: "منشار يدوي للخشب ذو أسنان معدنية",
     sentence: "He used a sharp handsaw to trim the wooden planks for the garden fence."
   },
@@ -958,6 +1018,7 @@ const VOCAB_SESSION_1 = [
     definition: "A handheld tool used to turn screws in or out.",
     b1Explain: "A handheld tool with a plastic grip used to turn screws in or out.",
     opposite: "",
+    arWord: "مفك براغي / مفك عادة / مفك صليبة",
     arMeaning: "مفك براغي يدوي لربط وفك البراغي",
     sentence: "I need a flat screwdriver to tighten the loose hinges on the kitchen cupboard."
   },
@@ -969,6 +1030,7 @@ const VOCAB_SESSION_1 = [
     definition: "A flexible metal ribbon used for measuring lengths and room sizes.",
     b1Explain: "A flexible metal ruler that pulls out of a case to measure room dimensions.",
     opposite: "",
+    arWord: "شريط قياس / شريط متري / متر قياس",
     arMeaning: "شريط قياس متري مرن لقياس الأبعاد والأطوال",
     sentence: "Always measure the wall with a measuring tape before buying a new wardrobe."
   },
@@ -980,6 +1042,7 @@ const VOCAB_SESSION_1 = [
     definition: "A power tool used to make holes in hard materials like wood or walls.",
     b1Explain: "An electric power tool that rotates fast to make holes in walls or timber.",
     opposite: "",
+    arWord: "مثقاب / شنيور / يثقب / تدريب عملي",
     arMeaning: "مثقاب كهربائي (دريل / شنيور) لعمل ثقوب بالجدران والخشب",
     sentence: "He used an electric drill to make two clean holes in the wall for the picture frame."
   },
@@ -991,6 +1054,7 @@ const VOCAB_SESSION_1 = [
     definition: "A straight tool with a floating bubble showing if a surface is level.",
     b1Explain: "A long straight tool with a floating green bubble that shows if a shelf or picture is straight.",
     opposite: "",
+    arWord: "ميزان مياه / ميزان تسوية / ميزان بناء",
     arMeaning: "ميزان ماء (ميزان تسوية لضبط استقامة الرفوف والأسطح)",
     sentence: "Place the spirit level on the shelf to confirm the bubble is resting right in the middle."
   },
@@ -1002,6 +1066,7 @@ const VOCAB_SESSION_1 = [
     definition: "A heated electrical tool used to melt soft metal and join wires.",
     b1Explain: "A heated metal tool used to melt soft metal and join electrical wires or computer boards.",
     opposite: "",
+    arWord: "كاوية لحام / مكواة قصدير / أداة لحام كهربي",
     arMeaning: "كاوية لحام كهربائية لصهر القصدير وتوصيل الأسلاك",
     sentence: "He fixed the loose headphone wire using a soldering iron and wire cutters."
   },
@@ -1013,6 +1078,7 @@ const VOCAB_SESSION_1 = [
     definition: "Metal angle supports and threaded fasteners used to fix shelves to walls securely.",
     b1Explain: "Right-angle metal supports and threaded pins used to hold wall shelves securely.",
     opposite: "",
+    arWord: "حوامل وبراغي / زوايا تثبيت ومسامير قلاووظ",
     arMeaning: "دعامات معدنية وبراغي تثبيت للرفوف الجدارية",
     sentence: "You will need four steel brackets and screws to put up these heavy book shelves."
   },
@@ -1024,6 +1090,7 @@ const VOCAB_SESSION_1 = [
     definition: "A very heavy hammer with a long handle used for breaking down walls.",
     b1Explain: "A very heavy hammer with a long handle used for breaking down brick or concrete walls.",
     opposite: "Light tack hammer",
+    arWord: "مرزبة / مطرقة ثقيلة / شاكوش هدم كبير",
     arMeaning: "مهدة / مطرقة هدم ثقيلة لتكسير الجدران والخرسانة",
     sentence: "The builders used a sledgehammer to knock down the partition wall between the rooms."
   },
@@ -1035,6 +1102,7 @@ const VOCAB_SESSION_1 = [
     definition: "A power tool that shoots nails into wood quickly and easily.",
     b1Explain: "A tool that shoots nails into wood quickly so you don't need to swing a hammer.",
     opposite: "Manual hammer",
+    arWord: "مسدس مسامير / فرد تثبيت مسامير",
     arMeaning: "مسدس مسامير آلي لتثبيت الأخشاب بسرعة فائقة",
     sentence: "The carpenter used an air-powered nail gun to assemble the timber roof frame in minutes."
   },
@@ -1046,6 +1114,7 @@ const VOCAB_SESSION_1 = [
     definition: "A soft rubber grip on a tool that prevents slipping and electric shocks.",
     b1Explain: "A soft grip on a tool that stops your hands from slipping and protects against electric shocks.",
     opposite: "Bare metal grip",
+    arWord: "مقبض مطاطي / يد كاوتشوك عازلة ومريحة",
     arMeaning: "مقبض مطاطي مانع للانزلاق وعازل للصدمات الكهربائية",
     sentence: "The wire cutters have a thick rubber handle to ensure a firm, safe grip while cutting."
   },
@@ -1057,6 +1126,7 @@ const VOCAB_SESSION_1 = [
     definition: "A metal hand tool with two handles used for gripping, pulling, or bending wire.",
     b1Explain: "A scissor-like tool with flat jaws used to hold, pull, or bend wire.",
     opposite: "",
+    arWord: "زرادية / بنسة / كماشة مسك وثني",
     arMeaning: "كماشة / زرادية لتثبيت وسحب وثني الأسلاك المعدنية",
     sentence: "He held the metal nut securely with a pair of pliers while tightening the bolt."
   },
@@ -1068,6 +1138,7 @@ const VOCAB_SESSION_1 = [
     definition: "A sharp hand tool shaped like pliers used to cut through electrical cables cleanly.",
     b1Explain: "A sharp hand tool shaped like pliers used to snip through electrical cables cleanly.",
     opposite: "",
+    arWord: "قصافة أسلاك / قطاعة أسلاك كهربائية",
     arMeaning: "قطاعة أسلاك كهربائية لقص الكابلات بدقة وأمان",
     sentence: "Use these insulated wire cutters to trim the excess speaker wire safely."
   },
@@ -1079,6 +1150,7 @@ const VOCAB_SESSION_1 = [
     definition: "A safety lock mechanism on a tool that prevents accidental operation or firing.",
     b1Explain: "A small switch on a power tool that locks it so it cannot start or shoot accidentally.",
     opposite: "Trigger release",
+    arWord: "صمام أمان / قفل حماية / قفل أمان لمنع التشغيل العرضي",
     arMeaning: "صمام أمان / قفل أمان لمنع انطلاق الأداة بالخطأ",
     sentence: "Always engage the safety catch on the nail gun before setting it down on the table."
   },
@@ -1090,6 +1162,7 @@ const VOCAB_SESSION_1 = [
     definition: "A metal saw with fine teeth used for cutting metal pipes and plastic tubes.",
     b1Explain: "A metal saw with tiny sharp teeth used for cutting metal pipes and plastic tubes.",
     opposite: "Wood handsaw",
+    arWord: "منشار معادن / منشار حديد مقوس",
     arMeaning: "منشار حديد دقيق الأسنان لقص المعادن والأنابيب",
     sentence: "He used a hacksaw to cut through the copper water pipe under the bathroom sink."
   },
@@ -1101,6 +1174,7 @@ const VOCAB_SESSION_1 = [
     definition: "A sharp metal hand tool hit with a hammer to carve or cut wood or stone.",
     b1Explain: "A sharp flat steel blade used with a hammer to carve shapes or cut grooves in wood.",
     opposite: "",
+    arWord: "أزميل / منقاش نحت وتكسير / ينحت بالأزميل",
     arMeaning: "إزميل فولاذي لنحت وحفر الخشب أو الحجارة",
     sentence: "The woodworker used a sharp chisel to carve neat grooves into the wooden cabinet door."
   },
@@ -1112,6 +1186,7 @@ const VOCAB_SESSION_1 = [
     definition: "A metal tool with adjustable parts used to hold and turn nuts, bolts, or pipes.",
     b1Explain: "A metal tool that grips nuts and bolts so you can turn, tighten, or loosen them.",
     opposite: "",
+    arWord: "مفتاح ربط / مفتاح فرنساوي / يشد ويربط بقوة",
     arMeaning: "مفتاح ربط الصواميل والمواسير (مفتاح إنجليزي / سبانة)",
     sentence: "He tightened the leaking plumbing pipe under the kitchen sink with an adjustable wrench."
   },
@@ -1123,6 +1198,7 @@ const VOCAB_SESSION_1 = [
     definition: "A small machine that answers phone calls and records messages when you are away.",
     b1Explain: "A machine that records voice messages when you are away from your telephone.",
     opposite: "",
+    arWord: "جهاز الرد الآلي / مسجل رسائل هاتفية",
     arMeaning: "جهاز الرد الآلي على الهاتف وتسجيل الرسائل الصوتية",
     sentence: "Please leave a brief message on my answering machine and I will phone you back."
   },
@@ -1134,6 +1210,7 @@ const VOCAB_SESSION_1 = [
     definition: "A small, portable computer that you can carry and use anywhere.",
     b1Explain: "A portable computer with a battery and screen that folds shut to carry anywhere.",
     opposite: "Desktop computer",
+    arWord: "كمبيوتر محمول / حاسوب متنقل / لابتوب",
     arMeaning: "حاسوب محمول (لابتوب) يعمل بالبطارية وسهل الحمل",
     sentence: "She packed her laptop computer into her backpack before heading to the British Council library."
   },
@@ -1145,6 +1222,7 @@ const VOCAB_SESSION_1 = [
     definition: "A camera that takes photos and saves them on an electronic memory card.",
     b1Explain: "An electronic camera that stores high-resolution photos on an internal memory card.",
     opposite: "Film camera",
+    arWord: "كاميرا رقمية / آلة تصوير إلكترونية",
     arMeaning: "كاميرا رقمية لتخزين الصور على بطاقة ذاكرة إلكترونية",
     sentence: "He took sharp architectural photos using a high-end digital camera."
   },
@@ -1156,6 +1234,7 @@ const VOCAB_SESSION_1 = [
     definition: "An electric machine that cleans floors and carpets by sucking up dust.",
     b1Explain: "An electrical household machine that sucks up dust and dirt from floors and rugs.",
     opposite: "Manual broom",
+    arWord: "مكنسة كهربائية / جهاز شفط أتربة",
     arMeaning: "مكنسة كهربائية لشفط الغبار وتنظيف السجاد والأرضيات",
     sentence: "He turned on the vacuum cleaner to clean the workshop floor after finishing the woodwork."
   },
@@ -1167,6 +1246,7 @@ const VOCAB_SESSION_1 = [
     definition: "A short written message sent from one mobile phone to another.",
     b1Explain: "A short written message sent from one mobile phone to another.",
     opposite: "Voice call",
+    arWord: "رسالة نصية / رسالة SMS قصيرة",
     arMeaning: "رسالة نصية قصيرة (SMS) بين الهواتف المحمولة",
     sentence: "Send me a quick text message when you arrive outside the British Council building."
   },
@@ -1178,6 +1258,7 @@ const VOCAB_SESSION_1 = [
     definition: "A small phone that you can carry with you to make calls and use the internet.",
     b1Explain: "A portable cellular smartphone carried in your pocket.",
     opposite: "Landline phone",
+    arWord: "هاتف محمول / جوال / موبايل / هاتف خلوي",
     arMeaning: "هاتف محمول / جوال محمول باليد للاتصال والإنترنت",
     sentence: "Please switch your mobile phone to silent mode during the English listening test."
   }
@@ -1681,6 +1762,7 @@ const VOCAB_SESSION_2 = [
     definition: "A flight between two places where you stay on the same plane without changing.",
     b1Explain: "A flight where you stay on the same plane with the same flight number until you arrive.",
     opposite: "Connecting flight",
+    arWord: "رحلة مباشرة / طيران بدون توقف / خط جوي مباشر",
     arMeaning: "رحلة طيران مباشرة دون تغيير الطائرة في مطار وسيط",
     sentence: "We booked a direct flight from London to Cairo to avoid wasting time in airport terminals."
   },
@@ -1692,6 +1774,7 @@ const VOCAB_SESSION_2 = [
     definition: "A long flight that travels across oceans or continents, usually over six hours.",
     b1Explain: "A very long flight to another continent that takes many hours.",
     opposite: "Short-haul flight",
+    arWord: "رحلة طويلة المدى / طيران لمسافات طويلة عبر القارات",
     arMeaning: "رحلة طيران طويلة المدى عابرة للقارات والمحيطات (تزيد عن 6 ساعات)",
     sentence: "On a long-haul flight from London to Tokyo, passengers receive two hot meals and movie headsets."
   },
@@ -1703,6 +1786,7 @@ const VOCAB_SESSION_2 = [
     definition: "A journey where you must get off one plane and get on another to reach your destination.",
     b1Explain: "When you change planes at another airport before reaching your final destination.",
     opposite: "Direct flight",
+    arWord: "رحلة متصلة / طيران ترانزيت مع تبديل طائرة",
     arMeaning: "رحلة ترانزيت (تبديل الطائرة في مطار وسيط للوصول للوجهة النهائية)",
     sentence: "Due to thick fog in Frankfurt, my first flight was delayed and I almost missed my connecting flight."
   },
@@ -1714,6 +1798,7 @@ const VOCAB_SESSION_2 = [
     definition: "A waiting time at an airport between two connecting flights.",
     b1Explain: "A short wait at an airport between two different flights.",
     opposite: "",
+    arWord: "فترة توقف ترانزيت / انتظار بين رحلتين / استراحة سفر",
     arMeaning: "فترة انتظار ترانزيت بين رحلتين داخل المطار",
     sentence: "We had a four-hour layover in Dubai, so we explored the duty-free shops and grabbed lunch."
   },
@@ -1725,6 +1810,7 @@ const VOCAB_SESSION_2 = [
     definition: "A more expensive section on a plane with bigger seats and better food.",
     b1Explain: "The expensive and comfortable section of a plane with large reclining seats and delicious meals.",
     opposite: "Economy class",
+    arWord: "درجة رجال الأعمال / الدرجة الممتازة",
     arMeaning: "درجة رجال الأعمال (مقاعد واسعة مريحة ووجبات فاخرة)",
     sentence: "The senior company directors always travel business class on overseas business trips."
   },
@@ -1736,6 +1822,7 @@ const VOCAB_SESSION_2 = [
     definition: "Cheap places to stay, like simple hotels, guesthouses, or hostels.",
     b1Explain: "Affordable places to stay that do not cost a lot of money.",
     opposite: "Luxury hotel",
+    arWord: "إقامة اقتصادية / سكن رخيص / نزول منخفض التكلفة",
     arMeaning: "إقامة اقتصادية منخفضة التكلفة (فنادق بسيطة، بيوت شباب)",
     sentence: "As backpackers on a tight budget, we looked for clean budget accommodation near the city centre."
   },
@@ -1747,6 +1834,7 @@ const VOCAB_SESSION_2 = [
     definition: "A hotel price that includes your room and all three daily meals.",
     b1Explain: "When your hotel price includes your room and all three meals every day.",
     opposite: "Room only",
+    arWord: "إقامة كاملة (شاملة الوجبات الثلاث)",
     arMeaning: "إقامة فندقية شاملة السكن والوجبات الثلاث اليومية (إفطار، غداء، عشاء)",
     sentence: "The beach resort offers full-board packages, so breakfast, lunch, and dinner are all covered."
   },
@@ -1758,6 +1846,7 @@ const VOCAB_SESSION_2 = [
     definition: "A hotel price that includes your room, breakfast, and dinner.",
     b1Explain: "A hotel package that gives you breakfast and dinner, but not lunch.",
     opposite: "Full-board",
+    arWord: "نصف إقامة (شاملة الفطور ووجبة رئيسية)",
     arMeaning: "إقامة فندقية نصف شاملة (تشمل المبيت والإفطار والعشاء فقط)",
     sentence: "We preferred half-board because we wanted to eat lunch at local cafes while exploring historical monuments."
   },
@@ -1769,6 +1858,7 @@ const VOCAB_SESSION_2 = [
     definition: "A holiday where the total price covers your room, all food, drinks, and activities.",
     b1Explain: "A holiday where one price pays for everything: room, food, drinks, and activities.",
     opposite: "Self-catering",
+    arWord: "شامل كلياً / شامل جميع الوجبات والمشروبات والخدمات",
     arMeaning: "إقامة شاملة كلياً لجميع الوجبات والمشروبات والأنشطة الترفيهية",
     sentence: "Booking an all-inclusive holiday in Sharm El-Sheikh helped us manage our family travel budget easily."
   },
@@ -1780,6 +1870,7 @@ const VOCAB_SESSION_2 = [
     definition: "A place to stay with a kitchen so you can cook your own food.",
     b1Explain: "A holiday apartment with a kitchen where you cook your own meals.",
     opposite: "All-inclusive",
+    arWord: "خدمة ذاتية لإعداد الطعام / سكن مجهز بمطبخ مستقل",
     arMeaning: "إقامة بنظام الخدمة الذاتية (شقة بمطبخ مجهز لطهي الوجبات بنفسك)",
     sentence: "We rented a quiet self-catering cottage in Scotland so we could cook our own fresh seafood meals."
   },
@@ -1791,6 +1882,7 @@ const VOCAB_SESSION_2 = [
     definition: "A private bathroom that is connected directly inside your bedroom.",
     b1Explain: "A private bathroom that is inside your bedroom so you don't have to share.",
     opposite: "Shared bathroom",
+    arWord: "حمام خاص داخل الغرفة / دورة مياه ملحقة",
     arMeaning: "حمام خاص ملحق مباشرة داخل غرفة النوم",
     sentence: "Every premium double bedroom in the boutique hotel comes with a private en-suite bathroom."
   },
@@ -1802,6 +1894,7 @@ const VOCAB_SESSION_2 = [
     definition: "Places, equipment, or services provided for you, like a gym or swimming pool.",
     b1Explain: "Useful services and places provided by a hotel, like a swimming pool, gym, or free Wi-Fi.",
     opposite: "",
+    arWord: "مرافق / خدمات وتسهيلات / تجهيزات الفندق",
     arMeaning: "مرافق وتجهيزات وخدمات ترفيهية ورياضية يقدمها الفندق للنزلاء",
     sentence: "The hotel facilities include a heated indoor pool, a modern fitness gym, and conference rooms."
   },
@@ -1813,6 +1906,7 @@ const VOCAB_SESSION_2 = [
     definition: "A plane or train seat right next to the walking path in the middle.",
     b1Explain: "A seat next to the walking passage so you can stand up easily without disturbing others.",
     opposite: "Window seat",
+    arWord: "مقعد الممر / كرسي جهة الممر في الطائرة",
     arMeaning: "مقعد بجانب الممر الأوسط في الطائرة أو القطار",
     sentence: "I always request an aisle seat so I can stretch my long legs and walk around during long flights."
   },
@@ -1824,6 +1918,7 @@ const VOCAB_SESSION_2 = [
     definition: "An overhead cupboard above your plane seat where you put your small bags.",
     b1Explain: "The cupboard above your seat in a plane where you put your small bag.",
     opposite: "Under-seat space",
+    arWord: "خزانة أمتعة علوية / صندوق حفظ الحقائب بالطائرة",
     arMeaning: "صندوق الأمتعة العلوي فوق مقاعد الركاب في الطائرة",
     sentence: "Please place your carry-on trolley bag wheels-first into the overhead locker above your seat."
   },
@@ -1835,6 +1930,7 @@ const VOCAB_SESSION_2 = [
     definition: "A paper or phone card you must show to get on an airplane.",
     b1Explain: "The ticket card or phone barcode you show to get onto the aeroplane.",
     opposite: "",
+    arWord: "بطاقة صعود الطائرة / تذكرة ركوب الطائرة",
     arMeaning: "بطاقة الصعود إلى الطائرة (تذكرة المرور عبر البوابة)",
     sentence: "Have your passport and digital boarding pass ready on your screen before approaching security."
   },
@@ -1846,6 +1942,7 @@ const VOCAB_SESSION_2 = [
     definition: "The numbered door in an airport where passengers wait to get on their plane.",
     b1Explain: "The door and waiting area at an airport where you get on your aeroplane.",
     opposite: "Arrivals gate",
+    arWord: "بوابة المغادرة / صالة ركوب الطائرة",
     arMeaning: "بوابة المغادرة المحددة في المطار لركوب الطائرة",
     sentence: "Flight BA 155 to London Heathrow is now boarding at departure gate number twenty-two."
   },
@@ -1857,6 +1954,7 @@ const VOCAB_SESSION_2 = [
     definition: "A person whose job is to serve passengers and keep them safe on a plane.",
     b1Explain: "A member of the aeroplane staff who serves meals and ensures safety on board.",
     opposite: "Passenger",
+    arWord: "مضيف طيران / مضيفة جوية / طاقم الضيافة الجوية",
     arMeaning: "مضيف / مضيفة طيران لخدمة الركاب وتأمين سلامتهم على متن الطائرة",
     sentence: "The friendly flight attendant demonstrated the emergency oxygen masks before takeoff."
   },
@@ -1868,6 +1966,7 @@ const VOCAB_SESSION_2 = [
     definition: "A safe room in a hotel or airport where you can leave your bags for a while.",
     b1Explain: "A safe room at a hotel where you can leave your bags before check-in or after check-out.",
     opposite: "",
+    arWord: "مخزن أمتعة / غرفة حفظ الحقائب والأمانات",
     arMeaning: "غرفة أمانات حفظ الحقائب والأمتعة بالفندق أو المطار",
     sentence: "Since our flight was at night, the receptionist stored our suitcases in the hotel luggage storage."
   },
@@ -1879,6 +1978,7 @@ const VOCAB_SESSION_2 = [
     definition: "A bus that makes regular trips between the airport and hotels or city centre.",
     b1Explain: "A bus that drives people between the airport terminal and nearby hotels.",
     opposite: "",
+    arWord: "حافلة المطار المكوكية / وسيلة نقل المطار الدورية",
     arMeaning: "حافلة نقل مكوكية منتظمة بين المطار والفندق",
     sentence: "The complimentary airport shuttle departs every thirty minutes directly from outside Terminal 2."
   },
@@ -1890,6 +1990,7 @@ const VOCAB_SESSION_2 = [
     definition: "An empty room in a hotel that is ready to rent.",
     b1Explain: "An empty room available for guests to book in a hotel.",
     opposite: "No vacancy / Fully booked",
+    arWord: "غرفة شاغرة / مكان متاح للحجز / وظيفة شاغرة",
     arMeaning: "غرفة شاغرة ومتاحة للحجز في الفندق",
     sentence: "The neon sign outside the seaside motel lit up to show they had no vacancy for the night."
   },
@@ -1901,6 +2002,7 @@ const VOCAB_SESSION_2 = [
     definition: "Having all rooms, tickets, or seats sold, with none left.",
     b1Explain: "When all hotel rooms or flight seats are completely taken and none are left.",
     opposite: "Vacancy available",
+    arWord: "محجوز بالكامل / مكتمل العدد / لا توجد أماكن شاغرة",
     arMeaning: "محجوز بالكامل ولا توجد أي غرف أو تذاكر شاغرة",
     sentence: "During the busy summer festival weekend, nearly all city centre hotels were fully booked."
   },
@@ -1912,6 +2014,7 @@ const VOCAB_SESSION_2 = [
     definition: "A large electronic screen at the airport showing landing times of planes.",
     b1Explain: "The electronic screen in an airport that shows when flights are landing.",
     opposite: "Departures board",
+    arWord: "لوحة مواعيد الوصول / شاشة الرحلات القادمة",
     arMeaning: "شاشة عرض مواعيد الرحلات القادمة والهابطة بالمطار",
     sentence: "We checked the arrivals board and saw that my cousin's flight from Manchester was on time."
   },
@@ -1923,6 +2026,7 @@ const VOCAB_SESSION_2 = [
     definition: "Small bags or backpacks that you are allowed to take with you inside the airplane.",
     b1Explain: "Small suitcases or bags that you carry with you onto the plane.",
     opposite: "Checked luggage",
+    arWord: "حقيبة يد / حقيبة مقصورة الطائرة / أمتعة محمولة",
     arMeaning: "حقائب اليد المسموح بحملها داخل مقصورة الطائرة",
     sentence: "Make sure all liquids in your hand luggage are in containers under one hundred millilitres."
   },
@@ -1934,6 +2038,7 @@ const VOCAB_SESSION_2 = [
     definition: "Having ramps, wide doors, and lifts so people in wheelchairs can enter easily.",
     b1Explain: "Designed with ramps and elevators so people in wheelchairs can enter comfortably.",
     opposite: "Inaccessible",
+    arWord: "مجهز لذوي الكراسي المتحركة / مسار ميسر حركياً",
     arMeaning: "مجهز بمسارات ومصاعد لتسهيل دخول مستخدمي الكراسي المتحركة",
     sentence: "The museum entrance and all gallery floors are fully wheelchair accessible."
   },
@@ -1945,6 +2050,7 @@ const VOCAB_SESSION_2 = [
     definition: "Allowing guests to bring their pet dogs or cats into the hotel.",
     b1Explain: "A hotel that allows you to bring your pet dog or cat to stay with you.",
     opposite: "No pets allowed",
+    arWord: "يسمح باصطحاب الحيوانات الأليفة / مرحب بالحيوانات",
     arMeaning: "فندق أو نزل يرحب باصطحاب الحيوانات الأليفة مع النزلاء",
     sentence: "We searched for a pet-friendly boutique hotel so our golden retriever could travel with us."
   },
@@ -1956,6 +2062,7 @@ const VOCAB_SESSION_2 = [
     definition: "A rule that lets you cancel your booking without paying any money.",
     b1Explain: "When you can cancel your hotel or flight booking and get all your money back.",
     opposite: "Non-refundable",
+    arWord: "إلغاء مجاني للحجز / استرداد كامل دون غرامة",
     arMeaning: "إلغاء مجاني للحجز مع استرداد كامل المبلغ المدفوع",
     sentence: "I chose the hotel room with free cancellation in case my business schedule changed at the last minute."
   },
@@ -1967,6 +2074,7 @@ const VOCAB_SESSION_2 = [
     definition: "A first payment that you lose if you decide to cancel your trip.",
     b1Explain: "An advance money payment that the hotel keeps if you decide to cancel your booking.",
     opposite: "Refundable deposit",
+    arWord: "عربون غير قابل للاسترداد / دفعة مقدمة غير مسترجعة",
     arMeaning: "عربون حجز مالي غير قابل للاسترداد عند إلغاء الرحلة",
     sentence: "Booking the luxury mountain villa required a non-refundable deposit of two hundred pounds."
   },
@@ -1978,6 +2086,7 @@ const VOCAB_SESSION_2 = [
     definition: "When hotel staff bring food or drinks directly to your bedroom.",
     b1Explain: "Ordering food and drinks over the hotel phone to be brought directly to your bedroom.",
     opposite: "Dine-in restaurant",
+    arWord: "خدمة الغرف / توصيل الطلبات والوجبات للغرفة",
     arMeaning: "خدمة الغرف (توصيل الطعام والمشروبات لغرفة النزيل)",
     sentence: "After a tiring twelve-hour journey, we ordered hot soup and sandwiches from twenty-four-hour room service."
   }
@@ -2360,6 +2469,7 @@ const VOCAB_SESSION_3 = [
     definition: "To know someone or something because you have seen or met them before.",
     b1Explain: "Knowing who someone is because you have seen their face or heard their voice before.",
     opposite: "Fail to recognize / Forget",
+    arWord: "يتعرف على / يميّز / يعترف بـ / يدرك شخصاً أو شيئاً",
     arMeaning: "يتعرف على شخص أو شيء رآه أو قابله من قبل",
     sentence: "I didn't recognize my childhood school friend at first because he had grown a beard."
   },
@@ -2371,6 +2481,7 @@ const VOCAB_SESSION_3 = [
     definition: "To understand or notice something clearly for the first time.",
     b1Explain: "Suddenly understanding a new fact or truth that you didn't notice before.",
     opposite: "Overlook / Misunderstand",
+    arWord: "يدرك / يعي / يفهم فجأة / يحقق هدفاً",
     arMeaning: "يدرك أو يستوعب حقيقة جديدة لأول مرة",
     sentence: "Halfway to the airport, he suddenly realized that he had left his British Council course book at home."
   },
@@ -2382,6 +2493,7 @@ const VOCAB_SESSION_3 = [
     definition: "A sad feeling of wishing you had made a different choice in the past.",
     b1Explain: "Feeling sorry about a decision you made in the past and wishing you could change it.",
     opposite: "Welcome / Rejoice in",
+    arWord: "يندم / يتحسر / يأسف على / ندم وأسف",
     arMeaning: "يندم أو يأسف على قرار أو تصرف سابق ويتمنى لو اتخذ غيره",
     sentence: "She never regretted studying English in London because it opened up international career opportunities."
   },
@@ -2393,6 +2505,7 @@ const VOCAB_SESSION_3 = [
     definition: "Going to study at a school or university in a different country.",
     b1Explain: "Living and taking university courses in a foreign country.",
     opposite: "Studying locally",
+    arWord: "الدراسة بالخارج / السفر للتعليم الدولي",
     arMeaning: "الدراسة في الخارج بجامعة أو معهد في بلد أجنبي",
     sentence: "Studying abroad in Edinburgh helped Omar become much more independent and fluent in English."
   },
@@ -2404,6 +2517,7 @@ const VOCAB_SESSION_3 = [
     definition: "Having many different facts or options to think about before deciding.",
     b1Explain: "Having a lot of important facts and details to weigh up before choosing.",
     opposite: "Simple decision",
+    arWord: "أمور كثيرة تستحق التفكير / اعتبارات ونقاط عديدة للدراسة",
     arMeaning: "أمور وخيارات كثيرة يجب دراستها والتفكير فيها قبل اتخاذ القرار",
     sentence: "Before accepting a job offer in a new city, there are lots to consider like housing and transport."
   },
@@ -2415,6 +2529,7 @@ const VOCAB_SESSION_3 = [
     definition: "The small hard parts of a plant from which new plants grow; or new ideas.",
     b1Explain: "Small grains that grow into plants; also used for the early beginnings of plans.",
     opposite: "Harvest / Result",
+    arWord: "بذور / حبوب الزراعة / نواة الفكرة أو البداية",
     arMeaning: "بذور النباتات أو بدايات الأفكار والمشاريع الجديدة",
     sentence: "The teacher explained that early mistakes are the seeds from which true fluency grows."
   },
@@ -2426,6 +2541,7 @@ const VOCAB_SESSION_3 = [
     definition: "The parts of a plant that grow under the ground; or family origins.",
     b1Explain: "The parts of a tree deep in the earth; or your ancestral culture and background.",
     opposite: "Branches",
+    arWord: "جذور / أصول العائلة / أساسات الشيء الثابتة",
     arMeaning: "جذور النباتات تحت الأرض أو الأصول العائلية والتراث الثقافي",
     sentence: "Even after living in Manchester for ten years, he remained deeply proud of his Alexandria roots."
   },
@@ -2437,6 +2553,7 @@ const VOCAB_SESSION_3 = [
     definition: "The flat green parts that grow on plants or tree branches.",
     b1Explain: "The flat green parts that grow on tree branches in spring.",
     opposite: "",
+    arWord: "أوراق الشجر / أوراق نبات / يغادر أو يترك",
     arMeaning: "أوراق الأشجار والنباتات الخضراء",
     sentence: "In autumn, the golden leaves fall from the oak trees across British parks."
   },
@@ -2448,6 +2565,7 @@ const VOCAB_SESSION_3 = [
     definition: "Having strong, large muscles from doing physical exercise.",
     b1Explain: "Having a strong body with well-developed athletic muscles.",
     opposite: "Frail / Weak",
+    arWord: "عضلي / قوي البنية / مفتول العضلات",
     arMeaning: "مفتول العضلات وقوي البنية الجسدية والرياضية",
     sentence: "Working on the construction site all summer made his arms and shoulders visibly muscular."
   },
@@ -2459,6 +2577,7 @@ const VOCAB_SESSION_3 = [
     definition: "The steps you take when thinking about choices before you decide.",
     b1Explain: "The structured steps a person follows to choose the best option.",
     opposite: "Hasty impulse",
+    arWord: "عملية اتخاذ القرار / خطوات حسم الاختيار",
     arMeaning: "مسار وعملية التفكير المتدرجة لاتخاذ القرار الصائب",
     sentence: "The university admission decision process takes about four weeks from submitting your form."
   },
@@ -2470,6 +2589,7 @@ const VOCAB_SESSION_3 = [
     definition: "Connecting words like before, after, while, and as soon as.",
     b1Explain: "Words that show when events happened in a story.",
     opposite: "",
+    arWord: "روابط زمنية / أدوات الربط الزمني بين الأحداث",
     arMeaning: "روابط زمنية (مثل before, after, while) لربط تسلسل الأحداث",
     sentence: "Using time linkers like 'as soon as' and 'meanwhile' made his story much easier to follow."
   },
@@ -2481,6 +2601,7 @@ const VOCAB_SESSION_3 = [
     definition: "From the time you graduated from university up to now.",
     b1Explain: "Starting from graduation day until the present moment.",
     opposite: "",
+    arWord: "منذ تخرجه من الجامعة / بعد ترك الجامعة",
     arMeaning: "منذ التخرج ومغادرة الجامعة وحتى اللحظة الراهنة",
     sentence: "Since leaving university, Layla has worked for two international tech firms in Cairo."
   },
@@ -2492,6 +2613,7 @@ const VOCAB_SESSION_3 = [
     definition: "At or before the time you reach thirty years old.",
     b1Explain: "Happening before your thirtieth birthday arrives.",
     opposite: "",
+    arWord: "مع بلوغ سن الثلاثين / قبل إتمام الثلاثين عاماً",
     arMeaning: "بحلول سن الثلاثين أو قبله",
     sentence: "Tariq hopes to buy his own apartment and launch a software startup by the age of thirty."
   },
@@ -2503,6 +2625,7 @@ const VOCAB_SESSION_3 = [
     definition: "During the past two or three months.",
     b1Explain: "In the recent two or three months just gone by.",
     opposite: "",
+    arWord: "في الشهرين الماضيين / خلال الشهرين الأخيرين",
     arMeaning: "خلال الشهرين أو الثلاثة أشهر الماضية القريبة",
     sentence: "In the last couple of months, our English class has made tremendous progress in speaking fluency."
   },
@@ -2514,6 +2637,7 @@ const VOCAB_SESSION_3 = [
     definition: "A grammar form used to talk about past situations that did not happen and regrets.",
     b1Explain: "Grammar with 'had done' and 'would have done' for past regrets.",
     opposite: "",
+    arWord: "الحالة الشرطية الثالثة (عن ماضٍ افتراضي مستحيل)",
     arMeaning: "الحالة الشرطية الثالثة (للتعبير عن الندم وافتراض ما لم يحدث في الماضي)",
     sentence: "We use the third conditional to express regrets: 'If I had studied harder, I would have passed.'"
   },
@@ -2525,6 +2649,7 @@ const VOCAB_SESSION_3 = [
     definition: "Modal structures like must have, could have, and can't have.",
     b1Explain: "Modal verbs used to make logical guesses about past events.",
     opposite: "",
+    arWord: "أفعال الاستنتاج الماضي (must have / could have)",
     arMeaning: "أفعال الاستنتاج والترجيح المنطقي عن أحداث الماضي (must have, can't have)",
     sentence: "In Session 3, we practiced past modals of deduction: 'He must have missed the bus because he is late.'"
   },
@@ -2536,6 +2661,7 @@ const VOCAB_SESSION_3 = [
     definition: "The process of reaching an answer or conclusion by looking at the facts.",
     b1Explain: "Working out the truth by examining all the available clues.",
     opposite: "Speculation / Wild guess",
+    arWord: "استنتاج منطقي / استدلال / خصم من حساب",
     arMeaning: "استنتاج منطقي مبني على فحص الأدلة والوقائع",
     sentence: "Through careful deduction, the detective realized the front door had been unlocked from inside."
   },
@@ -2547,6 +2673,7 @@ const VOCAB_SESSION_3 = [
     definition: "A phrase used to say you strongly wish you had followed someone's advice.",
     b1Explain: "Expressing a deep regret that you did not pay attention to advice.",
     opposite: "",
+    arWord: "ليتني كنت استمعت / لو أنني أصغيت للنصيحة فقط",
     arMeaning: "ليتني استمعت لنصيحتك (صيغة تحسر وندم شديد)",
     sentence: "If only I had listened to the teacher's exam advice, I wouldn't have run out of time."
   },
@@ -2558,6 +2685,7 @@ const VOCAB_SESSION_3 = [
     definition: "A phrase used to express sadness that you did not work harder in the past.",
     b1Explain: "Saying you feel sorry that you didn't spend more time studying.",
     opposite: "",
+    arWord: "أتمنى لو أنني ذاكرت بجهد أكبر / يا ليتني اجتهدت أكثر",
     arMeaning: "أتمنى لو أنني درست بجد أكبر (تعبير عن الندم الدراسي)",
     sentence: "'I wish I had studied harder for the IELTS listening section,' sighed Karim after the exam."
   },
@@ -2569,6 +2697,7 @@ const VOCAB_SESSION_3 = [
     definition: "A clear statement saying you are sorry that you left.",
     b1Explain: "Saying clearly that you wish you had stayed instead of walking away.",
     opposite: "I am glad I left",
+    arWord: "أندم على المغادرة / آسف على ترك العمل",
     arMeaning: "أنا نادم على الرحيل والمغادرة",
     sentence: "I regret leaving my previous company so early, as my former team was promoted soon after."
   },
@@ -2580,6 +2709,7 @@ const VOCAB_SESSION_3 = [
     definition: "A very large amusement park with big rides, roller coasters, and shows.",
     b1Explain: "A huge park with thrilling rides, shows, and games for visitors.",
     opposite: "",
+    arWord: "مدينة ملاهي ذات طابع خاص / متنزه ترفيهي تخصصي",
     arMeaning: "مدينة ملاهٍ كبرى وألعاب ترفيهية متكاملة",
     sentence: "We spent the entire Saturday at Alton Towers theme park riding the newest roller coasters."
   },
@@ -2591,6 +2721,7 @@ const VOCAB_SESSION_3 = [
     definition: "An outdoor event with games, food stalls, and fun rides for families.",
     b1Explain: "An outdoor travelling fair with rides, popcorn stalls, and carnival games.",
     opposite: "",
+    arWord: "مهرجان ألعاب وترفيه / معرض ملاهٍ متجول",
     arMeaning: "مهرجان ألعاب مفتوح في الهواء الطلق مع أكشاك وألعاب تسلية",
     sentence: "The annual summer fun fair in the town park had cotton candy, music, and bumper cars."
   },
@@ -2602,6 +2733,7 @@ const VOCAB_SESSION_3 = [
     definition: "An exciting ride on a track with steep drops, high turns, and fast speed.",
     b1Explain: "A fast railway ride that climbs high, plunges down, and loops upside down.",
     opposite: "",
+    arWord: "قطار الموت / أفعوانية الملاهي / تقلبات سريعة وصعود وهبوط",
     arMeaning: "قطار الموت (قطار الملاهي السريع الملتوي بالمنحدرات الشديدة)",
     sentence: "Riding the giant roller coaster was terrifying at first, but ended up being thrilling."
   },
@@ -2613,6 +2745,7 @@ const VOCAB_SESSION_3 = [
     definition: "A huge turning wheel with seats that takes people high up to see the view.",
     b1Explain: "A giant rotating Ferris wheel that lifts you high into the sky for a scenic view.",
     opposite: "",
+    arWord: "عجلة الملاهي الدوارة الكبيرة / عين لندن الترفيهية",
     arMeaning: "دولاب الهواء / عجلة الملاهي الدوارة العملاقة (عين لندن)",
     sentence: "We rode the big wheel at sunset and took magnificent panoramic photos of the city skyline."
   },
@@ -2624,6 +2757,7 @@ const VOCAB_SESSION_3 = [
     definition: "A round turning ride for children with model horses and music.",
     b1Explain: "A circular rotating ride with painted horses that go up and down to carnival music.",
     opposite: "",
+    arWord: "لعبة الخيول الدوارة / دوامة الأطفال الترفيهية",
     arMeaning: "دوامة الخيول الدوارة للأطفال في الملاهي",
     sentence: "The young children laughed with delight as they rode the colourful horses on the merry-go-round."
   },
@@ -2635,6 +2769,7 @@ const VOCAB_SESSION_3 = [
     definition: "The fun machines and roller coasters that people ride at a park.",
     b1Explain: "The mechanical machines and exciting attractions you ride at fun fairs.",
     opposite: "",
+    arWord: "ألعاب الملاهي / مراكب وأجهزة المغامرة الترفيهية",
     arMeaning: "ألعاب ومرافق الملاهي الترفيهية المتنوعة",
     sentence: "Our theme park ticket gave us unlimited access to all twenty-five amusement rides."
   },
@@ -2646,6 +2781,7 @@ const VOCAB_SESSION_3 = [
     definition: "The unstressed pronunciation of auxiliary words in fast natural speech.",
     b1Explain: "Pronouncing auxiliary words with a short weak sound like schwa in connected speech.",
     opposite: "Strong forms",
+    arWord: "أشكال النطق الضعيفة / صوت الشوا (ə) غير المشدد",
     arMeaning: "الأشكال الصوتية الضعيفة وصوت الشوا (ə) في الكلام الإنجليزي السريع المتصل",
     sentence: "In connected speech, 'would have' is pronounced with weak forms as /wʊdə/."
   },
@@ -2657,6 +2793,7 @@ const VOCAB_SESSION_3 = [
     definition: "Prepositions like in, on, and at showing when events happen.",
     b1Explain: "Little words that tell us the exact time or day an event happens.",
     opposite: "Prepositions of place",
+    arWord: "حروف جر الوقت والزمن (at, on, in)",
     arMeaning: "حروف الجر الدالة على الزمان (in, on, at)",
     sentence: "We reviewed prepositions of time: 'at' for clock times, 'on' for days, and 'in' for months."
   }
@@ -3084,6 +3221,7 @@ const VOCAB_SESSION_12 = [
     definition: "Friendly, energetic, and happy to talk to new people.",
     b1Explain: "Friendly, energetic, and happy to talk to new people.",
     opposite: "Introverted / Shy",
+    arWord: "اجتماعي / منفتح / ودود ومحب للناس / منطلق",
     arMeaning: "شخص اجتماعي، ودود، منفتح على الآخرين ويسهل عليه التحدث وبناء العلاقات",
     sentence: "Hotel guest hosts must be outgoing and enjoy starting conversations with international travelers."
   },
@@ -3095,6 +3233,7 @@ const VOCAB_SESSION_12 = [
     definition: "Liking to spend time with other people and making friends easily.",
     b1Explain: "Liking to spend time with other people and making friends easily.",
     opposite: "Unsociable / Solitary",
+    arWord: "مؤانس / محب للعلاقات الاجتماعية / لطيف المعاشرة",
     arMeaning: "شخص أنيس ومحب لمخالطة الناس والاستمتاع بالتجمعات وتكوين الصداقات",
     sentence: "Being sociable helps hotel receptionists create a warm and welcoming lounge atmosphere."
   },
@@ -3106,6 +3245,7 @@ const VOCAB_SESSION_12 = [
     definition: "Someone who listens kindly and cares about your feelings and problems.",
     b1Explain: "Someone who listens kindly and cares about your feelings and problems.",
     opposite: "Uncaring listener",
+    arWord: "مستمع متعاطف / منصت باهتمام وتفهم لمشاعر الآخرين",
     arMeaning: "مستمع متعاطف ومتفهم؛ ينصت باهتمام لمشاكل النزلاء ويواسيهم باحترافية",
     sentence: "A front-desk manager needs to be a sympathetic listener when guests have travel complaints."
   },
@@ -3117,6 +3257,7 @@ const VOCAB_SESSION_12 = [
     definition: "Arriving or doing things at the exact agreed time; not late.",
     b1Explain: "Arriving on time and never making people wait for you.",
     opposite: "Unpunctual / Late",
+    arWord: "دقيق في المواعيد / منضبط / في وقته تماماً / حريص على الوقت",
     arMeaning: "دقيق في المواعيد وحريص تماماً على عدم التأخير في أي واجب",
     sentence: "Please be punctual for the morning team briefing so we can open the lobby on time."
   },
@@ -3128,6 +3269,7 @@ const VOCAB_SESSION_12 = [
     definition: "The habit of always arriving on time and never being late.",
     b1Explain: "The good habit of always showing up exactly when promised.",
     opposite: "Tardiness",
+    arWord: "الانضباط في المواعيد / الدقة الزمنية / الالتزام بالوقت",
     arMeaning: "الالتزام الدقيق بالمواعيد كسمة مهنية أساسية في العمل",
     sentence: "Punctuality is essential in the hospitality sector because flights operate on strict schedules."
   },
@@ -3139,6 +3281,7 @@ const VOCAB_SESSION_12 = [
     definition: "The quality of being late or arriving after the agreed time.",
     b1Explain: "Repeatedly arriving late for meetings or work shifts.",
     opposite: "Punctuality",
+    arWord: "تأخر / تأخير / بطء / عدم انضباط في الحضور",
     arMeaning: "التأخر عن المواعيد أو التباطؤ (وهو نقيض الالتزام بالمواعيد تماماً)",
     sentence: "Repeated tardiness will result in a formal review with your department supervisor."
   },
@@ -3150,6 +3293,7 @@ const VOCAB_SESSION_12 = [
     definition: "Working quickly and effectively without wasting time, energy, or money.",
     b1Explain: "Getting jobs done fast and accurately without wasting any time.",
     opposite: "Inefficient",
+    arWord: "كفء / فعال / منجز / سريع الإتقان ومقتصد في الجهد والوقت",
     arMeaning: "كفء وسريع الإنجاز؛ يؤدي المهام بأعلى دقة وبدون هدر للوقت أو الموارد",
     sentence: "An efficient check-in clerk handles reservations rapidly and prevents lobby queues."
   },
@@ -3161,6 +3305,7 @@ const VOCAB_SESSION_12 = [
     definition: "Able to stay calm and perform effectively during stressful deadlines.",
     b1Explain: "Keeping calm and doing good work even when things get very busy and stressful.",
     opposite: "Panics under pressure",
+    arWord: "يعمل ببراعة تحت الضغوط / هادئ ومنجز في الأوقات الصعبة",
     arMeaning: "يعمل بإتقان وهدوء وثبات تحت وطأة الضغوط وحالات الطوارئ",
     sentence: "Concierges must work well under pressure when three airport shuttles arrive simultaneously."
   },
@@ -3172,6 +3317,7 @@ const VOCAB_SESSION_12 = [
     definition: "Relaxed, calm, and not easily upset or worried by difficulties.",
     b1Explain: "Relaxed and tolerant, not getting angry over small everyday problems.",
     opposite: "Demanding / Rigid",
+    arWord: "مرن الطباع / هادئ المزاج / غير متكلف / سهل المعاملة",
     arMeaning: "مرن، هادئ البال، متسامح وغير متشنج، لا يغضب من صغائر الأمور",
     sentence: "His easy-going personality makes him a pleasant colleague to share the night shift with."
   },
@@ -3183,6 +3329,7 @@ const VOCAB_SESSION_12 = [
     definition: "Peaceful, quiet, and not showing anger, excitement, or anxiety.",
     b1Explain: "Staying quiet, peaceful, and in control of your emotions.",
     opposite: "Agitated / Panicky",
+    arWord: "هادئ / ساكن / رابط الجأش / يهدئ الأعصاب",
     arMeaning: "هادئ، رزين ومتزن الأعصاب، يحتفظ برباطة جأشه في المواقف الصعبة",
     sentence: "She remained completely calm while resolving the angry customer's billing mistake."
   },
@@ -3194,6 +3341,7 @@ const VOCAB_SESSION_12 = [
     definition: "Behaving in a sensible and adult way with good judgment.",
     b1Explain: "Acting wisely like a sensible adult and taking responsibility.",
     opposite: "Immature / Childish",
+    arWord: "ناضج فكرياً / راشد / متزن التصرفات",
     arMeaning: "ناضج، مكتمل الوعي، يتصرف بحكمة ورزانة ويتحمل عواقب قراراته",
     sentence: "Although he is only nineteen, Omar has a very mature attitude toward his hospitality career."
   },
@@ -3205,6 +3353,7 @@ const VOCAB_SESSION_12 = [
     definition: "Sensible, trustworthy, and able to make good independent choices.",
     b1Explain: "Dependable and honest, making sure all duties are completed properly.",
     opposite: "Irresponsible",
+    arWord: "مسؤول / يعتمد عليه / أهل للثقة / واعٍ بواجباته",
     arMeaning: "مسؤول ومحل ثقة، يُعتمد عليه في إدارة المنشأة وتأدية الواجبات بأمانة",
     sentence: "The night manager is responsible for the overall safety and security of all hotel guests."
   },
@@ -3216,6 +3365,7 @@ const VOCAB_SESSION_12 = [
     definition: "Able to make choices quickly, clearly, and with firm confidence.",
     b1Explain: "Making choices quickly and clearly without hesitating or second-guessing.",
     opposite: "Indecisive / Hesitant",
+    arWord: "حاسم / قاطع في قراراته / لا يتردد",
     arMeaning: "حاسم وقاطع في اتخاذ القرارات دون تردد أو تسويف",
     sentence: "In an evacuation emergency, staff must be decisive and give clear instructions to guests."
   },
@@ -3227,6 +3377,7 @@ const VOCAB_SESSION_12 = [
     definition: "Slow to reveal emotions or opinions; quiet and private.",
     b1Explain: "Quiet and keeping your feelings to yourself rather than speaking loudly.",
     opposite: "Outgoing / Expressive",
+    arWord: "متحفظ / قليل الكلام / كتوم وهادئ المشاعر",
     arMeaning: "متحفظ، كفوف اللسان وكتوم، لا يفصح عن مشاعره بسهولة ويفضل الهدوء",
     sentence: "He is somewhat reserved with strangers, but opens up once he gets to know the team."
   },
@@ -3238,6 +3389,7 @@ const VOCAB_SESSION_12 = [
     definition: "Very eager, interested, and enthusiastic about doing something.",
     b1Explain: "Very enthusiastic, excited, and eager to learn or work.",
     opposite: "Indifferent / Apathetic",
+    arWord: "شغوف / متحمس / حريص جداً / حاد الذهن",
     arMeaning: "متحمس للغاية، شغوف، وراغب بجدية في التعلم وتطوير مهاراته",
     sentence: "The new apprentice is very keen to learn foreign languages and culinary techniques."
   },
@@ -3249,6 +3401,7 @@ const VOCAB_SESSION_12 = [
     definition: "Easily becoming angry, irritable, or annoyed by small things.",
     b1Explain: "Getting angry and impatient very quickly over minor matters.",
     opposite: "Good-tempered / Patient",
+    arWord: "سريع الغضب / عصبي المزاج / نكد الطبع",
     arMeaning: "سريع الغضب وعصبي المزاج؛ ينفعل لأتفه الأسباب (عكس هادئ الطباع)",
     sentence: "Working twenty hours without proper sleep made the sous-chef visibly bad-tempered."
   },
@@ -3260,6 +3413,7 @@ const VOCAB_SESSION_12 = [
     definition: "Complaining frequently in an annoying, high-pitched, child-like tone.",
     b1Explain: "Always complaining about minor troubles in an irritating voice.",
     opposite: "Content / Resilient",
+    arWord: "كثير الشكوى / متذمر / نقاق بصوت متأفف",
     arMeaning: "كثير التذمر والشكوى؛ يتأفف باستمرار بنبرة بكائية مزعجة",
     sentence: "Nobody enjoys working with colleagues who are whiny and refuse to look for solutions."
   },
@@ -3271,6 +3425,7 @@ const VOCAB_SESSION_12 = [
     definition: "Putting a lot of effort, energy, and care into your work.",
     b1Explain: "Putting energy and serious effort into completing tasks thoroughly.",
     opposite: "Lazy / Slacker",
+    arWord: "مكافح / مجتهد في عمله / دؤوب ومثابر",
     arMeaning: "مجد ومجتهد؛ يبذل قصارى جهده وطاقته لإنجاز عمله على أكمل وجه",
     sentence: "Housekeeping staff are extraordinarily hard-working and clean fifty suites every morning."
   },
@@ -3282,6 +3437,7 @@ const VOCAB_SESSION_12 = [
     definition: "Able to wait calmly without becoming annoyed, anxious, or angry.",
     b1Explain: "Able to stay calm and polite when things take a long time.",
     opposite: "Impatient",
+    arWord: "صبور / حليم ومتحمل / مريض طبي",
     arMeaning: "صبور وباله طويل؛ يتحمل الانتظار ولا ينفعل من بطء الإجراءات",
     sentence: "A tour guide must be patient when answering repeated questions from curious visitors."
   },
@@ -3293,6 +3449,7 @@ const VOCAB_SESSION_12 = [
     definition: "Consistently trustworthy and doing what you promised to do.",
     b1Explain: "Dependable, always doing what you promised without failing.",
     opposite: "Unreliable",
+    arWord: "موثوق / يعتمد عليه / مضمون الأداء والوفاء",
     arMeaning: "موثوق ويُعتمد عليه تماماً في الوفاء بالعهود وإنجاز المهام",
     sentence: "Hassan is our most reliable driver; he has never once missed an airport pickup."
   },
@@ -3304,6 +3461,7 @@ const VOCAB_SESSION_12 = [
     definition: "Using imagination and original ideas to create new things.",
     b1Explain: "Having original ideas and inventing clever artistic solutions.",
     opposite: "Unimaginative",
+    arWord: "مبدع / مبتكر / خلاق ولديه خيال واسع",
     arMeaning: "مبدع ومبتكر؛ يوظف خياله لابتكار أفكار جديدة وحلول غير تقليدية",
     sentence: "The hotel marketing team developed a creative social media campaign to attract tourists."
   },
@@ -3315,6 +3473,7 @@ const VOCAB_SESSION_12 = [
     definition: "Showing good manners, respect, and consideration for other people.",
     b1Explain: "Saying please and thank you, treating everyone with kindness and respect.",
     opposite: "Rude / Impolite",
+    arWord: "مؤدب / مهذب / دمث الخلق ولبق",
     arMeaning: "مهذب ومؤدب؛ يتعامل بأعلى درجات اللباقة والكياسة والاحترام",
     sentence: "Always maintain a polite and respectful tone, even when handling unreasonable demands."
   },
@@ -3326,6 +3485,7 @@ const VOCAB_SESSION_12 = [
     definition: "Feeling sure of your own abilities, qualities, and judgment.",
     b1Explain: "Feeling sure of your skills and not feeling shy or nervous.",
     opposite: "Insecure / Shy",
+    arWord: "واثق من نفسه / معتد بذاته وقدراته",
     arMeaning: "واثق من نفسه ومن قدراته ومهاراته وتقديره للأمور",
     sentence: "Her self-confident body language and fluent presentation impressed the hotel board."
   },
@@ -3337,6 +3497,7 @@ const VOCAB_SESSION_12 = [
     definition: "Easily affected by emotions or showing awareness of others' feelings.",
     b1Explain: "Easily hurt by criticism, or deeply caring about other people's emotions.",
     opposite: "Insensitive / Thick-skinned",
+    arWord: "حساس / رقيق المشاعر / سريع التأثر",
     arMeaning: "حساس؛ مرهف المشاعر وسريع التأثر بما يقال، أو مراعٍ لمشاعر غيره",
     sentence: "Be gentle with your constructive feedback because she can be quite sensitive to criticism."
   },
@@ -3348,6 +3509,7 @@ const VOCAB_SESSION_12 = [
     definition: "Having or showing good practical judgment, wisdom, and common sense.",
     b1Explain: "Making practical, smart, and safe choices based on common sense.",
     opposite: "Foolish / Reckless",
+    arWord: "عاقل / حكيم ورشيد / تصرفه منطقي وسليم",
     arMeaning: "عاقل، حكيم وذو منطق سليم؛ يتصرف برزانة وتدبير واقعي",
     sentence: "It was sensible to cancel the outdoor beach party before the severe thunderstorm hit."
   },
@@ -3359,6 +3521,7 @@ const VOCAB_SESSION_12 = [
     definition: "Determined not to change your mind, attitude, or decision.",
     b1Explain: "Refusing to change your mind or admit you might be mistaken.",
     opposite: "Flexible / Adaptable",
+    arWord: "عنيد / متشبث برأيه / صلب الرأس",
     arMeaning: "عنيد ومتشبث برأيه؛ يرفض التراجع أو التنازل حتى لو تبين خطؤه",
     sentence: "He was too stubborn to admit that he had booked the wrong conference dates."
   },
@@ -3370,6 +3533,7 @@ const VOCAB_SESSION_12 = [
     definition: "Liking to talk a lot and engage in conversation.",
     b1Explain: "Talking a great deal and enjoying sharing stories with people.",
     opposite: "Quiet / Taciturn",
+    arWord: "ثرثار / كثير الكلام / محب للدردشة باستفاضة",
     arMeaning: "ثرثار ومحب للكلام؛ يسترسل في الأحاديث وتجاذب أطراف الحوار",
     sentence: "The taxi driver was remarkably talkative and shared historic anecdotes all the way to Giza."
   },
@@ -3381,6 +3545,7 @@ const VOCAB_SESSION_12 = [
     definition: "Not arriving at the agreed time; repeatedly arriving late.",
     b1Explain: "Failing to arrive on time; regularly showing up after the scheduled hour.",
     opposite: "Punctual",
+    arWord: "غير منضبط في المواعيد / دائم التأخر عن أوقاته",
     arMeaning: "غير منضبط في المواعيد؛ دائم التأخر عن التوقيت المحدد للعمل أو المواعيد",
     sentence: "Being unpunctual for flight duties is unacceptable in commercial international aviation."
   }
@@ -3886,6 +4051,7 @@ const VOCAB_SESSION_13 = [
     definition: "A performer who does tricks that seem impossible to surprise people.",
     b1Explain: "A performer who does tricks that seem impossible to surprise people.",
     opposite: "",
+    arWord: "ساحر / خبير ألعاب خفة / بهلوان مدهش",
     arMeaning: "ساحر أو فنان خفة يقدم عروضاً بصرية وحيلاً سحرية لإبهار الجمهور",
     sentence: "The magician made a white rabbit vanish into thin air before our eyes."
   },
@@ -3897,6 +4063,7 @@ const VOCAB_SESSION_13 = [
     definition: "A huge passenger ship that takes people on holidays across the sea.",
     b1Explain: "A huge passenger ship that takes people on holidays across the sea.",
     opposite: "",
+    arWord: "سفينة سياحية فاخرة / باخرة رحلات بحرية كبيرة",
     arMeaning: "سفينة سياحية ضخمة تنقل المسافرين في رحلات ترفيهية بحرية فاخرة",
     sentence: "Every summer, thousands of tourists travel across the Mediterranean on a luxury cruise ship."
   },
@@ -3908,6 +4075,7 @@ const VOCAB_SESSION_13 = [
     definition: "To make a loud, harsh, sharp sound like a parrot or angry bird.",
     b1Explain: "To make a loud, harsh, sharp sound like a parrot or angry bird.",
     opposite: "Whisper",
+    arWord: "ينعق / يصيح بصوت حاد / صرخة طائر مزعجة",
     arMeaning: "ينعق أو يصيح بصوت خشن حاد ومزعج (مثل صوت الببغاء المرتفع)",
     sentence: "The captain's colourful parrot would squawk loudly whenever the magic show began."
   },
@@ -3919,6 +4087,7 @@ const VOCAB_SESSION_13 = [
     definition: "A magic trick where something vanishes; or leaving suddenly without telling anyone.",
     b1Explain: "A magic trick where something vanishes; or leaving suddenly without telling anyone.",
     opposite: "Appearance",
+    arWord: "فقرة الإخفاء السحرية / حيلة التواري والاختفاء",
     arMeaning: "خدعة التواري أو الاختفاء السحري؛ أو الهروب والتملص المفاجئ من المكان",
     sentence: "The magician practiced his famous disappearing act until the illusion was completely seamless."
   },
@@ -3930,6 +4099,7 @@ const VOCAB_SESSION_13 = [
     definition: "A very large piece of freshwater ice floating in the cold ocean.",
     b1Explain: "A very large piece of freshwater ice floating in the cold ocean.",
     opposite: "",
+    arWord: "جبل جليدي عائم / كتلة جليد بحرية ضخمة",
     arMeaning: "جبل جليدي ضخم طافٍ في مياه المحيط انفصل عن مثلجة قطبية",
     sentence: "In the middle of the stormy night, the cruise ship tragically struck a floating iceberg."
   },
@@ -3941,6 +4111,7 @@ const VOCAB_SESSION_13 = [
     definition: "A small boat kept on a ship to save people if the ship sinks.",
     b1Explain: "A small boat kept on a ship to save people if the ship sinks.",
     opposite: "",
+    arWord: "قارب نجاة مطاطي / طوافة إنقاذ بحرية طارئة",
     arMeaning: "قارب نجاة مطاطي أو طوافة إنقاذ تستخدم للنجاة عند غرق السفن في البحر",
     sentence: "The magician and the parrot found themselves floating alone together on a tiny rubber life raft."
   },
@@ -3952,6 +4123,7 @@ const VOCAB_SESSION_13 = [
     definition: "To make a low, rough, hoarse sound like a frog.",
     b1Explain: "To make a low, rough, hoarse sound like a frog.",
     opposite: "Melodic song",
+    arWord: "ينعق / يخور / صوت الضفدع أو النقيق الأجش",
     arMeaning: "ينعق بصوت أجش وخشن ومبحوح يخرج بصعوبة من الحلق",
     sentence: "After three days without fresh water in the hot sun, the exhausted parrot could only croak faintly."
   },
@@ -3963,6 +4135,7 @@ const VOCAB_SESSION_13 = [
     definition: "To say that something is true, often when you feel embarrassed about it.",
     b1Explain: "To say that something is true, often when you feel embarrassed about it.",
     opposite: "Deny",
+    arWord: "يعترف بـ / يقر بذنب / يقبل دخولاً / يسجل في مستشفى",
     arMeaning: "يعترف بالواقع أو يقر بصحة أمر ما بعد تردد أو إنكار",
     sentence: "Finally, the stubborn parrot admitted: 'Okay, I give up! Where did you hide the cruise ship?'"
   },
@@ -3974,6 +4147,7 @@ const VOCAB_SESSION_13 = [
     definition: "A boat used to catch fish in the sea or a river.",
     b1Explain: "A boat used to catch fish in the sea or a river.",
     opposite: "",
+    arWord: "مركب صيد / سفينة صيد سمك صغيرة",
     arMeaning: "سفينة أو قارب صيد مخصص لاصطياد الأسماك في عرض البحر",
     sentence: "Early at dawn, the coastal fishing boat returned to Alexandria port filled with fresh tuna."
   },
@@ -3985,6 +4159,7 @@ const VOCAB_SESSION_13 = [
     definition: "In the sea, near to the land or beach.",
     b1Explain: "In the sea, near to the land or beach.",
     opposite: "Inland",
+    arWord: "قبالة الساحل / في عرض البحر قرب الشاطئ",
     arMeaning: "قبالة الشاطئ أو بمحاذاة الساحل البحري على مسافة قصيرة من اليابسة",
     sentence: "The cargo vessel broke down roughly three miles off the southern coast of England."
   },
@@ -3996,6 +4171,7 @@ const VOCAB_SESSION_13 = [
     definition: "The crime of breaking or ruining someone else's property on purpose.",
     b1Explain: "The crime of breaking or ruining someone else's property on purpose.",
     opposite: "Lawful preservation",
+    arWord: "إتلاف جنائي / تخريب متعمد لممتلكات الغير",
     arMeaning: "إتلاف جنائي متعمد للممتلكات وتدميرها بالمخالفة للقانون",
     sentence: "The suspect was arrested and formally charged with criminal damage after breaking the shop windows."
   },
@@ -4007,6 +4183,7 @@ const VOCAB_SESSION_13 = [
     definition: "To offer help, information, or evidence to the police.",
     b1Explain: "To offer help, information, or evidence to the police.",
     opposite: "Hold back / Stay silent",
+    arWord: "يتقدم للإدلاء بمعلومات / يتطوع للشهادة والمساعدة",
     arMeaning: "يتقدم طواعية للإدلاء بشهادة أو الكشف عن معلومات حاسمة لتبرئة مظلوم",
     sentence: "Detectives appealed to eyewitnesses to come forward and share any mobile phone video clips."
   },
@@ -4018,6 +4195,7 @@ const VOCAB_SESSION_13 = [
     definition: "To move people or goods from one place to another using a vehicle.",
     b1Explain: "To move people or goods from one place to another using a vehicle.",
     opposite: "",
+    arWord: "وسيلة نقل / مواصلات / ينقل بضائع أو ركاب",
     arMeaning: "ينقل البضائع أو الركاب أو المواشي بوسائل النقل لمسافات بعيدة",
     sentence: "The farmer used an open wooden trailer to transport five pigs to the county livestock fair."
   },
@@ -4029,6 +4207,7 @@ const VOCAB_SESSION_13 = [
     definition: "A sudden strong feeling of fear that stops you from thinking clearly.",
     b1Explain: "A sudden strong feeling of fear that stops you from thinking clearly.",
     opposite: "Composure / Calm",
+    arWord: "ذعر / فزع شديد / يصاب بالهلع وفقدان السيطرة",
     arMeaning: "يصيبه الذعر والهلع المفاجئ ويفقد السيطرة على تصرفاته من شدة الخوف",
     sentence: "When the pig unexpectedly jumped into the driver's lap, the driver panicked and lost control."
   },
@@ -4040,6 +4219,7 @@ const VOCAB_SESSION_13 = [
     definition: "Any vehicle, like a plane or helicopter, that flies in the sky.",
     b1Explain: "Any vehicle, like a plane or helicopter, that flies in the sky.",
     opposite: "",
+    arWord: "طائرة / مركبة جوية / طائرات حربية أو مدنية",
     arMeaning: "طائرة أو مركبة جوية مصممة للتحليق في الفضاء الجوي",
     sentence: "The pilot guided the damaged aircraft through the thick storm clouds and landed safely."
   },
@@ -4051,6 +4231,7 @@ const VOCAB_SESSION_13 = [
     definition: "To take someone in your car to the place they want to go for free.",
     b1Explain: "To take someone in your car to the place they want to go for free.",
     opposite: "",
+    arWord: "يوصل شخصاً بسيارته / يقله مجاناً في طريقه",
     arMeaning: "يوصل شخصاً في طريقه بسيارته مجاناً كمعروف إنساني",
     sentence: "It was pouring with rain, so my kind neighbour gave me a lift to the metro station."
   },
@@ -4062,6 +4243,7 @@ const VOCAB_SESSION_13 = [
     definition: "To move faster than a walk but slower than a run, with short quick steps.",
     b1Explain: "To move faster than a walk but slower than a run, with short quick steps.",
     opposite: "Sprint / Walk slowly",
+    arWord: "يخبّ / يهرول بخطوات سريعة متتالية (للخيول والحيوانات)",
     arMeaning: "يهرول أو يخب في مشيه بخطوات سريعة متتالية (بين المشي والركض)",
     sentence: "The escaped pig started trotting cheerfully along the motorway hard shoulder."
   },
@@ -4073,6 +4255,7 @@ const VOCAB_SESSION_13 = [
     definition: "To drive past another slower car that is moving in front of you.",
     b1Explain: "To drive past another slower car that is moving in front of you.",
     opposite: "Follow behind",
+    arWord: "يتجاوز سيارة أخرى / يسبق في الطريق أو السباق",
     arMeaning: "يتجاوز أو يتخطى سيارة أبطأ منه تسير في نفس الاتجاه على الطريق",
     sentence: "He accelerated into the right lane to overtake the slow-moving farm tractor safely."
   },
@@ -4084,6 +4267,7 @@ const VOCAB_SESSION_13 = [
     definition: "Extremely tired, with no energy left in your body.",
     b1Explain: "Extremely tired, with no energy left in your body.",
     opposite: "Energized / Refreshed",
+    arWord: "منهك القوى / مجهد تماماً / خائر القوى من التعب",
     arMeaning: "منهك القوى، مرهق تماماً ومستنزف الطاقة البدنية والذهنية",
     sentence: "After trotting twenty kilometres in the midday summer heat, the runaway pig was utterly exhausted."
   },
@@ -4095,6 +4279,7 @@ const VOCAB_SESSION_13 = [
     definition: "An English saying used to say that something is impossible and will never happen.",
     b1Explain: "An English saying used to say that something is impossible and will never happen.",
     opposite: "Certain to happen",
+    arWord: "في المشمش / مستحيل حدوثه / ضرب من المحال",
     arMeaning: "عشم إبليس في الجنة (مثل إنجليزي شهير يقال عند استحالة وقوع الشيء)",
     sentence: "'Do you think the boss will give us all a fifty percent pay raise?' 'Yes, and pigs might fly!'"
   },
@@ -4106,6 +4291,7 @@ const VOCAB_SESSION_13 = [
     definition: "A strong desire to go very fast in a car or sport.",
     b1Explain: "A strong desire to go very fast in a car or sport.",
     opposite: "Cautious driving",
+    arWord: "الشغف بالسرعة / الرغبة في الانطلاق السريع والاندفاع",
     arMeaning: "الهوس بالسرعة والرغبة الجامحة في الانطلاق والقيادة السريعة",
     sentence: "Young sports car enthusiasts often confess they have an uncontrollable need for speed."
   },
@@ -4117,6 +4303,7 @@ const VOCAB_SESSION_13 = [
     definition: "Past tenses (past simple, continuous, and perfect) used together to tell stories.",
     b1Explain: "Past tenses (past simple, continuous, and perfect) used together to tell stories.",
     opposite: "",
+    arWord: "أزمنة السرد والقصص (الماضي البسيط والمستمر والتام)",
     arMeaning: "الأزمنة السردية (الماضي البسيط والمستمر والتام) المستخدمة لرواية القصص",
     sentence: "Mastering narrative tenses allows English storytellers to paint vivid, sequential past timelines."
   },
@@ -4128,6 +4315,7 @@ const VOCAB_SESSION_13 = [
     definition: "The tense used for completed actions and main events in the past.",
     b1Explain: "The tense used for completed actions and main events in the past.",
     opposite: "",
+    arWord: "زمن الماضي البسيط (للأحداث المنتهية المحددة)",
     arMeaning: "صيغة الماضي البسيط للأحداث المكتملة المتتالية في سياق القصة",
     sentence: "In storytelling, we use the past simple for the main plot events: 'He opened the door and ran.'"
   },
@@ -4139,6 +4327,7 @@ const VOCAB_SESSION_13 = [
     definition: "The tense (was/were + verb-ing) used for an action that was going on in the past when another event happened.",
     b1Explain: "The tense (was/were + verb-ing) used for an action that was going on in the past when another event happened.",
     opposite: "",
+    arWord: "زمن الماضي المستمر (للأحداث الجارية وقت وقوع غيرها)",
     arMeaning: "صيغة الماضي المستمر (was/were + ing) للحدث الخلفي المستمر الذي قاطعه حدث آخر",
     sentence: "We use the past continuous to describe the scene: 'The sun was shining and birds were singing.'"
   },
@@ -4150,6 +4339,7 @@ const VOCAB_SESSION_13 = [
     definition: "The tense (had + past participle) used for an action finished before another point in the past.",
     b1Explain: "The tense (had + past participle) used for an action finished before another point in the past.",
     opposite: "",
+    arWord: "زمن الماضي التام (للحدث الأسبق وقوعاً في الماضي)",
     arMeaning: "صيغة الماضي التام (had + p.p) لحدث اكتمل ووقع قبل حدث ماضٍ آخر",
     sentence: "When the police arrived at the docks, the runaway suspect had already vanished."
   },
@@ -4161,6 +4351,7 @@ const VOCAB_SESSION_13 = [
     definition: "Right while something is happening and not finished yet.",
     b1Explain: "Right while something is happening and not finished yet.",
     opposite: "",
+    arWord: "في خضم / أثناء وسط الحدث أو المعمعة",
     arMeaning: "في خضم أو أثناء وقوع الأمر وانشغال الشخص به قبل انتهائه",
     sentence: "She was right in the middle of preparing dinner when the kitchen fire alarm suddenly sounded."
   },
@@ -4172,6 +4363,7 @@ const VOCAB_SESSION_13 = [
     definition: "Used in stories to say that what someone expected or feared was really true.",
     b1Explain: "Used in stories to say that what someone expected or feared was really true.",
     opposite: "Unexpectedly",
+    arWord: "بالفعل تماماً / كما كان متوقعاً بلا ريب",
     arMeaning: "وكما كان متوقعاً بالضبط (تأكيد لما كان منتظراً في مسار القصة)",
     sentence: "We predicted it would rain on camping day and, sure enough, thunder shook our tents at dawn."
   },
@@ -4183,6 +4375,7 @@ const VOCAB_SESSION_13 = [
     definition: "When an animal runs fast and pants with its tongue out of its mouth.",
     b1Explain: "When an animal runs fast and pants with its tongue out of its mouth.",
     opposite: "",
+    arWord: "لسانه متدلٍ من شدة العطش أو الإجهاد واللهاث",
     arMeaning: "لسانه متدلٍ من شدة الإجهاد واللهث بعد الركض والتعب الشديد",
     sentence: "The cheerful golden retriever jogged back to its owner with its pink tongue hanging out."
   }
@@ -4517,6 +4710,7 @@ const VOCAB_SESSION_14 = [
     definition: "The long walk or path between rows of seats where the bride walks.",
     b1Explain: "The long walk or path between rows of seats where the bride walks.",
     opposite: "",
+    arWord: "ممر الكنيسة أو القاعة / الممشى بين صفوف المقاعد",
     arMeaning: "الممر الأوسط بين مقاعد الكنيسة أو قاعة الاحتفال الذي تمشي فيه العروس نحو المذبح (حرف s صامت)",
     sentence: "Everyone stood up silently in church as the beautiful bride walked down the aisle on her father's arm."
   },
@@ -4528,6 +4722,7 @@ const VOCAB_SESSION_14 = [
     definition: "The special table at the front of a church where wedding vows are made.",
     b1Explain: "The special table at the front of a church where wedding vows are made.",
     opposite: "",
+    arWord: "مذبح الكنيسة / منصة مراسم الزواج المقدسة",
     arMeaning: "المذبح أو المنصة الدينية في مقدمة الكنيسة حيث تُعقد مراسم الزواج وتبادل العهود",
     sentence: "The nervous groom waited by the decorated flower altar for his bride to arrive."
   },
@@ -4539,6 +4734,7 @@ const VOCAB_SESSION_14 = [
     definition: "To go to and be present at an event, celebration, or meeting.",
     b1Explain: "To go to and be present at an event, celebration, or meeting.",
     opposite: "Miss / Skip",
+    arWord: "يحضر مناسبة / يشارك في حفل / يعتني بـ",
     arMeaning: "يحضر مناسبة رسمية أو حفلة زفاف أو اجتماعاً بصفته مدعواً أو مشاركاً",
     sentence: "Over two hundred close family members and university friends travelled to attend their wedding."
   },
@@ -4550,6 +4746,7 @@ const VOCAB_SESSION_14 = [
     definition: "The groom's closest friend who helps him at the wedding and keeps the rings.",
     b1Explain: "The groom's closest friend who helps him at the wedding and keeps the rings.",
     opposite: "Maid of honour",
+    arWord: "إشبين العريس / الصديق الملازم للعريس في زفافه",
     arMeaning: "الإشبين أو الصديق المقرب الأول للعريس، يتولى حراسة خواتم الزواج وإلقاء الخطاب التكريمي ومساندة العريس",
     sentence: "The best man delivered a hilarious yet touching speech that had all the wedding guests laughing and crying."
   },
@@ -4561,6 +4758,7 @@ const VOCAB_SESSION_14 = [
     definition: "A bunch of flowers held by the bride during a wedding ceremony.",
     b1Explain: "A bunch of flowers held by the bride during a wedding ceremony.",
     opposite: "",
+    arWord: "باقة زهور / بوكيه ورد العروس",
     arMeaning: "باقة ورد العروس المنسقة بعناية، والتي تحملها أثناء الزفاف وتلقيها تقليدياً نحو الفتيات العازبات",
     sentence: "At the end of the evening, the bride turned around and tossed her fragrant rose bouquet into the crowd."
   },
@@ -4572,6 +4770,7 @@ const VOCAB_SESSION_14 = [
     definition: "A woman on her wedding day.",
     b1Explain: "A woman on her wedding day.",
     opposite: "Groom",
+    arWord: "عروس / العروسة في يوم زفافها",
     arMeaning: "العروس؛ المرأة في يوم زفافها أو في فترة عقد القران",
     sentence: "The bride looked magnificent in her handmade ivory lace gown."
   },
@@ -4583,6 +4782,7 @@ const VOCAB_SESSION_14 = [
     definition: "A female friend or sister who helps the bride during a wedding.",
     b1Explain: "A female friend or sister who helps the bride during a wedding.",
     opposite: "Best man / Groomsman",
+    arWord: "وصيفة العروس / رفيقة العروس المساعدة",
     arMeaning: "وصيفة العروس؛ صديقة أو قريبة ترافق العروس وتساعدها في تنظيم الحفل ومتطلبات المظهر",
     sentence: "Her younger sister served as head bridesmaid and helped adjust her long veil before the photos."
   },
@@ -4594,6 +4794,7 @@ const VOCAB_SESSION_14 = [
     definition: "The business of preparing and serving food and drinks for parties and weddings.",
     b1Explain: "The business of preparing and serving food and drinks for parties and weddings.",
     opposite: "",
+    arWord: "خدمات تقديم الأطعمة والمشروبات / تموين الحفلات",
     arMeaning: "خدمات تقديم الطعام والضيافة والتجهيز الغذائي للمناسبات والحفلات الكبرى",
     sentence: "They hired a top-tier Egyptian catering company that prepared an exquisite four-course feast."
   },
@@ -4605,6 +4806,7 @@ const VOCAB_SESSION_14 = [
     definition: "A happy party or event held to mark a special occasion.",
     b1Explain: "A happy party or event held to mark a special occasion.",
     opposite: "Mourning",
+    arWord: "احتفال / بهجة وفرحة بمناسبة سعيدة",
     arMeaning: "احتفال أو مهرجان بهيج يُقام تكريماً لمناسبة استثنائية أو عقد زواج مبارك",
     sentence: "The wedding celebration continued late into the night with live Oriental and jazz music."
   },
@@ -4616,6 +4818,7 @@ const VOCAB_SESSION_14 = [
     definition: "A formal event with traditional actions, like a wedding or graduation.",
     b1Explain: "A formal event with traditional actions, like a wedding or graduation.",
     opposite: "Informal gathering",
+    arWord: "مراسم رسمية / طقوس احتفالية مهيبة",
     arMeaning: "مراسم أو طقوس رسمية أو دينية تُقام باتباع أعراف وتقاليد محددة لتوثيق الزواج",
     sentence: "The religious marriage ceremony lasted about forty-five minutes and included ancient family blessings."
   },
@@ -4627,6 +4830,7 @@ const VOCAB_SESSION_14 = [
     definition: "A room or building next to a church used for social parties and meetings.",
     b1Explain: "A room or building next to a church used for social parties and meetings.",
     opposite: "",
+    arWord: "قاعة الكنيسة الملحقة / صالة الفعاليات الاجتماعية",
     arMeaning: "قاعة ملحقة بالكنيسة مخصصة للأنشطة الاجتماعية واللقاءات والمناسبات المجتمعية",
     sentence: "After the vows, guests walked across the lawn to the church hall for tea and wedding cupcakes."
   },
@@ -4638,6 +4842,7 @@ const VOCAB_SESSION_14 = [
     definition: "A legal wedding ceremony conducted by an official rather than a religious leader.",
     b1Explain: "A legal wedding ceremony conducted by an official rather than a religious leader.",
     opposite: "Religious wedding",
+    arWord: "زواج مدني رسمي / عقد قران قانوني لدى المحكمة",
     arMeaning: "زواج مدني قانوني غير ديني يوثقه موظف السجل المدني الحكومي دون طقوس كنسية",
     sentence: "They chose to have a simple civil wedding at the town hall on Friday followed by a beach dinner on Saturday."
   },
@@ -4649,6 +4854,7 @@ const VOCAB_SESSION_14 = [
     definition: "Focused more on selling things and making money than on real meaning.",
     b1Explain: "Focused more on selling things and making money than on real meaning.",
     opposite: "Authentic / Non-commercial",
+    arWord: "تجاري بحت / مستغل لأغراض الربح والمال",
     arMeaning: "مُسوّق تجارياً أو طاغٍ عليه الطابع الاستهلاكي الربحي المبالغ فيه على حساب المشاعر الحقيقية",
     sentence: "Some people feel modern weddings have become far too commercialised and expensive."
   },
@@ -4660,6 +4866,7 @@ const VOCAB_SESSION_14 = [
     definition: "A man on his wedding day.",
     b1Explain: "A man on his wedding day.",
     opposite: "Bride",
+    arWord: "عريس / يهندم ويرتب مظهره / يعتني بحصان",
     arMeaning: "العريس؛ الرجل في يوم زواجه أو عقد قرانه",
     sentence: "The smiling groom stood proudly next to his new wife as their parents toasted their future."
   },
@@ -4671,6 +4878,7 @@ const VOCAB_SESSION_14 = [
     definition: "A special holiday taken by a newly married couple right after their wedding.",
     b1Explain: "A special holiday taken by a newly married couple right after their wedding.",
     opposite: "",
+    arWord: "شهر العسل / رحلة الزوجين بعد الزفاف",
     arMeaning: "شهر العسل؛ الإجازة أو الرحلة الرومانسية التي يقضيها الزوجان عقب حفل الزفاف مباشرة للاستجمام",
     sentence: "The newlyweds flew to Zanzibar for a fortnight's tropical honeymoon."
   },
@@ -4682,6 +4890,7 @@ const VOCAB_SESSION_14 = [
     definition: "To welcome guests and provide food and drinks for a party or event.",
     b1Explain: "To welcome guests and provide food and drinks for a party or event.",
     opposite: "Guest",
+    arWord: "مضيف / يستضيف ضيوفاً / مقدم الحفل أو البرنامج",
     arMeaning: "يستضيف أو يقيم أو ينظم مناسبة أو حفل زفاف ويوفر له متطلبات الضيافة والمكان اللائق",
     sentence: "The bride's generous parents offered to host the reception at their countryside home."
   },
@@ -4693,6 +4902,7 @@ const VOCAB_SESSION_14 = [
     definition: "A religious leader who is allowed to perform church weddings.",
     b1Explain: "A religious leader who is allowed to perform church weddings.",
     opposite: "",
+    arWord: "رجل دين / قسيس معتمد للمراسم / وزير حكومي",
     arMeaning: "رجل دين مرخص له بإتمام مراسم وعقود الزواج الكنسي",
     sentence: "The parish minister asked the bride and groom to join hands and repeat their sacred promises."
   },
@@ -4704,6 +4914,7 @@ const VOCAB_SESSION_14 = [
     definition: "Two people who have very recently been married to each other.",
     b1Explain: "Two people who have very recently been married to each other.",
     opposite: "Long-married couple",
+    arWord: "العروسان الجديدان / حديثو الزواج",
     arMeaning: "العروسان حديثا الزواج في أيامهما وأشهرهما الأولى معاً",
     sentence: "The wedding guests cheered and showered the happy newlyweds with rose petals and confetti."
   },
@@ -4715,6 +4926,7 @@ const VOCAB_SESSION_14 = [
     definition: "A session where a photographer takes many pictures of people in nice poses.",
     b1Explain: "A session where a photographer takes many pictures of people in nice poses.",
     opposite: "",
+    arWord: "جلسة تصوير فوتوغرافي / تصوير للعروسين أو عارضي الأزياء",
     arMeaning: "جلسة تصوير احترافية للعروسين والضيوف لتوثيق اللحظات التذكارية",
     sentence: "The sunset photoshoot in the palace gardens produced breathtaking photos for their wedding album."
   },
@@ -4726,6 +4938,7 @@ const VOCAB_SESSION_14 = [
     definition: "To ask someone to marry you.",
     b1Explain: "To ask someone to marry you.",
     opposite: "",
+    arWord: "يطلب يدها للزواج / يتقدم بخطبة / يقترح فكرة",
     arMeaning: "يطلب يدها للزواج ويتقدم بطلب الخطوبة رسمياً",
     sentence: "He surprised her by proposing on bended knee during a quiet dinner by the River Nile."
   },
@@ -4737,6 +4950,7 @@ const VOCAB_SESSION_14 = [
     definition: "The moment when someone asks another person to marry them.",
     b1Explain: "The moment when someone asks another person to marry them.",
     opposite: "",
+    arWord: "عرض زواج / طلب خطوبة / مقترح مشروع رسمي",
     arMeaning: "طلب الزواج أو التقدم بعرض الخطوبة رسمياً",
     sentence: "Her eyes filled with tears of joy when she accepted his romantic marriage proposal."
   },
@@ -4748,6 +4962,7 @@ const VOCAB_SESSION_14 = [
     definition: "The state of being successful, having good luck, and having enough money.",
     b1Explain: "The state of being successful, having good luck, and having enough money.",
     opposite: "Poverty / Hardship",
+    arWord: "رخاء / ازدهار مادي ورغد عيش",
     arMeaning: "الرخاء والازدهار والوفرة المالية والبركة في المعيشة",
     sentence: "In many cultures, throwing grains of rice over the bride and groom is a symbol of future prosperity."
   },
@@ -4759,6 +4974,7 @@ const VOCAB_SESSION_14 = [
     definition: "A celebratory party held after a wedding ceremony to eat, drink, and dance with guests.",
     b1Explain: "A celebratory party held after a wedding ceremony to eat, drink, and dance with guests.",
     opposite: "",
+    arWord: "حفل استقبال الزفاف / صالة الاستقبال بالفندق",
     arMeaning: "حفل استقبال وضيافة وعشاء يعقب مراسم عقد القران للاحتفال وتناول الطعام مع المدعوين",
     sentence: "The evening reception was hosted in the hotel's grand ballroom and featured live orchestral music."
   },
@@ -4770,6 +4986,7 @@ const VOCAB_SESSION_14 = [
     definition: "An official government person who conducts non-religious legal marriages.",
     b1Explain: "An official government person who conducts non-religious legal marriages.",
     opposite: "Religious minister",
+    arWord: "موثق عقود الزواج المدني / مأمور السجل الرسمي",
     arMeaning: "المأذون أو موظف السجل المدني المسؤول عن توثيق الزواج قانونياً وتسليم وثيقة الزواج",
     sentence: "The civil registrar checked both passports and witnessed the couple signing the official marriage register."
   },
@@ -4781,6 +4998,7 @@ const VOCAB_SESSION_14 = [
     definition: "A smart set of clothes with matching jacket and trousers worn by men.",
     b1Explain: "A smart set of clothes with matching jacket and trousers worn by men.",
     opposite: "Casual wear",
+    arWord: "بدلة رسمية / يناسب ويلائم ذوقاً أو موعداً",
     arMeaning: "بدلة رسمية متناسقة للرجال (سترة وبنطال)",
     sentence: "The groom looked exceptionally elegant in his tailored midnight-blue three-piece wedding suit."
   },
@@ -4792,6 +5010,7 @@ const VOCAB_SESSION_14 = [
     definition: "To represent or stand for an idea or feeling.",
     b1Explain: "To represent or stand for an idea or feeling.",
     opposite: "",
+    arWord: "يرمز إلى / يمثل دلالة ومعنى رمزياً",
     arMeaning: "يرمز أو يعبر عن معنى روحي أو قيمة معينة متوارثة",
     sentence: "The circular gold wedding rings symbolise everlasting love with no beginning and no end."
   },
@@ -4803,6 +5022,7 @@ const VOCAB_SESSION_14 = [
     definition: "A thin piece of material worn by a bride over her head or face.",
     b1Explain: "A thin piece of material worn by a bride over her head or face.",
     opposite: "",
+    arWord: "طرحة العروس / خمار / حجاب يغطي الوجه",
     arMeaning: "طرحة العروس الرقيقة المصنوعة من الدانتيل أو الحرير لتغطية الرأس أو الوجه",
     sentence: "The bride lifted her sheer lace veil just before sharing their first celebratory smile as husband and wife."
   },
@@ -4814,6 +5034,7 @@ const VOCAB_SESSION_14 = [
     definition: "Serious, formal promises that a bride and groom make to each other at a wedding.",
     b1Explain: "Serious, formal promises that a bride and groom make to each other at a wedding.",
     opposite: "",
+    arWord: "عهود الزواج / نذور الوفاء والارتباط الأبدي",
     arMeaning: "عهود الزواج والوعود الرسمية المتبادلة بين العروسين بالوفاء والإخلاص",
     sentence: "They wrote their own personal wedding vows, promising to support and cherish each other through thick and thin."
   }
@@ -5336,6 +5557,7 @@ const VOCAB_SESSION_15 = [
     definition: "An uncomfortable silence during a conversation when nobody is speaking.",
     b1Explain: "An uncomfortable silence during a conversation when nobody speaks.",
     opposite: "Lively conversation",
+    arWord: "صمت مطبق مفاجئ / انقطاع الكلام على الهواء أو الهاتف",
     arMeaning: "الصمت المحرج أو الفراغ غير المريح في المحادثة عندما يتوقف الجميع عن الكلام.",
     sentence: "She quickly asked about his hobbies to avoid awkward dead air."
   },
@@ -5347,6 +5569,7 @@ const VOCAB_SESSION_15 = [
     definition: "To start a conversation, activity, or process with another person.",
     b1Explain: "To start a conversation or discussion with someone.",
     opposite: "Conclude / End",
+    arWord: "يبادر / يبدأ حواراً أو خطوة أولى / يطلق مشروعاً",
     arMeaning: "يبدأ أو يفتتح (محادثة أو حواراً) مع شخص آخر.",
     sentence: "It is often easy to initiate a chat by asking a friendly question."
   },
@@ -5358,6 +5581,7 @@ const VOCAB_SESSION_15 = [
     definition: "Polite, friendly conversation about everyday topics like the weather or travel.",
     b1Explain: "Polite conversation about simple daily topics to break the ice.",
     opposite: "Deep debate",
+    arWord: "دردشة عابرة / حديث ودي قصير لكسر الحواجز",
     arMeaning: "حديث ودي خفيف ومجاملات اجتماعية حول مواضيع يومية بسيطة.",
     sentence: "Before the meeting started, the colleagues engaged in light small talk."
   },
@@ -5369,6 +5593,7 @@ const VOCAB_SESSION_15 = [
     definition: "A game or friendly remark that helps strangers relax together.",
     b1Explain: "Something friendly you say or do to help strangers feel relaxed.",
     opposite: "Awkward silence",
+    arWord: "كاسر الجليد / لعبة أو عبارة للتعارف وتلطيف الأجواء",
     arMeaning: "وسيلة أو عبارة لكسر حاجز الصمت والجليد وبدء التعارف.",
     sentence: "Asking about someone's flight is a wonderful icebreaker at business conferences."
   },
@@ -5380,6 +5605,7 @@ const VOCAB_SESSION_15 = [
     definition: "In or near what place; the general location where someone is.",
     b1Explain: "In or near which place someone lives or works.",
     opposite: "Exact address",
+    arWord: "مكان التواجد / موقع الإقامة أو الوجود الحالي",
     arMeaning: "أين تقريباً / في أي جهة أو منطقة (للسؤال عن المكان التقريبي).",
     sentence: "Whereabouts in London do you live and work?"
   },
@@ -5391,6 +5617,7 @@ const VOCAB_SESSION_15 = [
     definition: "To put mixed-up words or letters back into their correct order.",
     b1Explain: "To put jumbled words into the right sentence order.",
     opposite: "Jumble / Mix up",
+    arWord: "يفك تشفير / يعيد ترتيب الحروف أو الكلمات المبعثرة",
     arMeaning: "يفك تشويش أو يعيد ترتيب كلمات مبعثرة لتكوين جملة صحيحة.",
     sentence: "Students had to unscramble twelve questions to practice natural conversation starters."
   },
@@ -5402,6 +5629,7 @@ const VOCAB_SESSION_15 = [
     definition: "To interrupt, annoy, or cause trouble for someone who is busy.",
     b1Explain: "To disturb or interrupt someone when they are busy.",
     opposite: "Leave alone",
+    arWord: "يزعج / يضايق / يكلف نفسه عناء فعل شيء",
     arMeaning: "يزعج أو يقاطع شخصاً مشغولاً بلباقة.",
     sentence: "Excuse me, sorry to bother you, but do you have a minute?"
   },
@@ -5413,6 +5641,7 @@ const VOCAB_SESSION_15 = [
     definition: "To show by words, sounds, or actions what you want to do.",
     b1Explain: "To indicate or show clearly through your words or actions.",
     opposite: "Hide / Conceal",
+    arWord: "إشارة / يرسل إشارة أو دلالة حركية / تلميح",
     arMeaning: "يعطي إشارة أو يلمح بوضوح بنيته أو رغبته.",
     sentence: "Checking your wristwatch can signal politely that your lunch break is over."
   },
@@ -5424,6 +5653,7 @@ const VOCAB_SESSION_15 = [
     definition: "A person who works together with you in the same job.",
     b1Explain: "A person who works with you in the same company.",
     opposite: "Competitor",
+    arWord: "زميل عمل / رفيق في الوظيفة أو الفريق",
     arMeaning: "زميل عمل في نفس المؤسسة أو الوظيفة.",
     sentence: "A new co-worker joined our design team this morning."
   },
@@ -5435,6 +5665,7 @@ const VOCAB_SESSION_15 = [
     definition: "A helpful suggestion about a good thing to choose or visit.",
     b1Explain: "Helpful advice suggesting a good place to visit or try.",
     opposite: "Warning",
+    arWord: "توصية / ترشيح وتزكية لشيء أو شخص",
     arMeaning: "توصية أو ترشيح مفيد لمكان أو تجربة تستحق الزيارة.",
     sentence: "Can you give me a recommendation for a nice Italian restaurant?"
   },
@@ -5446,6 +5677,7 @@ const VOCAB_SESSION_15 = [
     definition: "The city or town where you were born or grew up.",
     b1Explain: "The town or city where you grew up as a child.",
     opposite: "Foreign city",
+    arWord: "مسقط الرأس / البلدة الأم التي نشأ فيها",
     arMeaning: "مسقط الرأس أو المدينة الأم التي نشأ فيها الشخص.",
     sentence: "He gave us fantastic tips on great tourist spots in his hometown."
   },
@@ -5457,6 +5689,7 @@ const VOCAB_SESSION_15 = [
     definition: "A difficult situation where you must choose between two hard choices.",
     b1Explain: "A situation where you have to choose between two different options.",
     opposite: "Easy decision",
+    arWord: "معضلة / مأزق حرج بين خيارين صعبين",
     arMeaning: "معضلة أو موقف صعب يتطلب الاختيار بين بديلين كلاهما يحمل تحديات.",
     sentence: "Choosing between high salary and job happiness is a common career dilemma."
   },
@@ -5468,6 +5701,7 @@ const VOCAB_SESSION_15 = [
     definition: "Based on an imagined situation rather than something that is real.",
     b1Explain: "Imagined as an example, not real right now.",
     opposite: "Real / Actual",
+    arWord: "افتراضي / مبني على تخيل نظري",
     arMeaning: "افتراضي أو تخيلي قائم على موقف غير واقعي أو مشروط.",
     sentence: "The teacher asked a hypothetical question about winning a million pounds."
   },
@@ -5479,6 +5713,7 @@ const VOCAB_SESSION_15 = [
     definition: "Used to show that you prefer one thing over another thing.",
     b1Explain: "Used when stating which choice you prefer over another.",
     opposite: "Dislike both",
+    arWord: "يفضل أن / يميل لاختيار بديل بعينه",
     arMeaning: "يفضل / يرجح خياراً على آخر في المقارنة.",
     sentence: "Would you rather travel around the world or live in a mansion?"
   },
@@ -5490,6 +5725,7 @@ const VOCAB_SESSION_15 = [
     definition: "To become familiar with something so it no longer feels strange.",
     b1Explain: "To become comfortable with a new situation over time.",
     opposite: "Feel unfamiliar",
+    arWord: "يعتاد على / يتأقلم تدريجياً مع وضع جديد",
     arMeaning: "يعتاد على أو يتأقلم مع وضع جديد حتى يصبح مألوفاً.",
     sentence: "It takes time to get used to waking up early for work."
   },
@@ -5501,6 +5737,7 @@ const VOCAB_SESSION_15 = [
     definition: "A very large, expensive, and impressive private house.",
     b1Explain: "A very large and luxurious house with many rooms.",
     opposite: "Cottage / Tiny flat",
+    arWord: "قصر فخم / فيلا سكنية واسعة وشاهقة",
     arMeaning: "قصر فخم وكبير جداً ذو مساحات وحدائق واسعة.",
     sentence: "He preferred traveling the world instead of owning an expensive mansion."
   },
@@ -5512,6 +5749,7 @@ const VOCAB_SESSION_15 = [
     definition: "A standard, normal salary that is neither very high nor low.",
     b1Explain: "A normal salary that is neither very high nor very low.",
     opposite: "Amazing pay / Luxury income",
+    arWord: "متوسط الأجر / الراتب المعتاد المتعارف عليه",
     arMeaning: "أجر متوسط أو راتب عادي غير مرتفع ولا منخفض.",
     sentence: "He took a dream job with average pay because he loved the work."
   },
@@ -5523,6 +5761,7 @@ const VOCAB_SESSION_15 = [
     definition: "The time during the working day when you pause to eat.",
     b1Explain: "A break in the middle of the workday for eating lunch.",
     opposite: "Working hours",
+    arWord: "استراحة الغداء / وقت تناول وجبة منتصف اليوم",
     arMeaning: "استراحة الغداء اليومية أثناء دوام العمل.",
     sentence: "Well, my lunch break is almost over, so I must get back to work."
   },
@@ -5534,6 +5773,7 @@ const VOCAB_SESSION_15 = [
     definition: "In a quick, active, and energetic way.",
     b1Explain: "Quickly and with plenty of energy.",
     opposite: "Slowly / Sluggishly",
+    arWord: "بنشاط وهمة / بخطوات سريعة وحيوية",
     arMeaning: "بنشاط وسرعة وحيوية ملحوظة.",
     sentence: "She walked briskly into the meeting room with a friendly smile."
   },
@@ -5545,6 +5785,7 @@ const VOCAB_SESSION_15 = [
     definition: "To stop someone speaking by speaking yourself or making a noise.",
     b1Explain: "To speak while another person is already talking.",
     opposite: "Listen quietly",
+    arWord: "يقاطع الحديث / يعترض مسار الكلام أو العمل",
     arMeaning: "يقاطع حديث شخص آخر قبل أن ينهي فكرته.",
     sentence: "It is polite to say 'excuse me' before you interrupt a conversation."
   },
@@ -5556,6 +5797,7 @@ const VOCAB_SESSION_15 = [
     definition: "To bring a conversation, meeting, or event to an end.",
     b1Explain: "To finish or conclude a discussion in a friendly way.",
     opposite: "Initiate / Open",
+    arWord: "يختم / ينهي اجتماعاً أو مكالمة / يغلّف هدية",
     arMeaning: "يختتم أو ينهي حديثاً أو اجتماعاً بشكل منظم.",
     sentence: "Let us wrap up our meeting so everyone can catch their trains."
   },
@@ -5567,6 +5809,7 @@ const VOCAB_SESSION_15 = [
     definition: "The quality or feeling in your voice that shows your attitude.",
     b1Explain: "The sound of your voice that shows whether you are friendly.",
     opposite: "Monotone speech",
+    arWord: "نبرة الصوت / طابع الكلام المعبر عن المشاعر",
     arMeaning: "نبرة الصوت التي تعبر عن مشاعر المتحدث وموقفه الودي.",
     sentence: "A warm tone of voice makes strangers feel comfortable talking to you."
   },
@@ -5578,6 +5821,7 @@ const VOCAB_SESSION_15 = [
     definition: "Movements or postures of your body that communicate your feelings.",
     b1Explain: "The gestures and postures that show how you feel without words.",
     opposite: "Spoken words",
+    arWord: "لغة الجسد / إيماءات وحركات الجسم التعبيرية",
     arMeaning: "لغة الجسد والإيماءات الحركية المعبرة عن المشاعر.",
     sentence: "Open body language like smiling and uncrossed arms welcomes conversation."
   },
@@ -5589,6 +5833,7 @@ const VOCAB_SESSION_15 = [
     definition: "Looking directly into another person's eyes while talking with them.",
     b1Explain: "Looking directly at someone when speaking to show polite attention.",
     opposite: "Looking away",
+    arWord: "التواصل البصري / التقاء العيون أثناء الحوار",
     arMeaning: "التواصل البصري والنظر المباشر لإظهار الاهتمام والصدق.",
     sentence: "Making friendly eye contact shows you are actively listening to your partner."
   },
@@ -5600,6 +5845,7 @@ const VOCAB_SESSION_15 = [
     definition: "Feeling uncomfortable, embarrassed, or not relaxed with other people.",
     b1Explain: "Uncomfortable or embarrassed, not natural or relaxed.",
     opposite: "Comfortable / Natural",
+    arWord: "محرج / مرتبك / غير مريح اجتماعياً",
     arMeaning: "محرج أو غير مريح ويثير الارتباك الاجتماعي.",
     sentence: "There was an awkward silence when neither person knew what to say."
   },
@@ -5611,6 +5857,7 @@ const VOCAB_SESSION_15 = [
     definition: "A person you work with in a profession or business.",
     b1Explain: "A person that you work with in the same office.",
     opposite: "Competitor",
+    arWord: "زميل عمل / رفيق مهنة",
     arMeaning: "زميل عمل في المهنة أو التخصص.",
     sentence: "She asked her colleague for advice on the new computer software."
   },
@@ -5622,6 +5869,7 @@ const VOCAB_SESSION_15 = [
     definition: "A strong, confident clasp of hands when greeting a person.",
     b1Explain: "A strong and polite greeting made by holding someone's hand.",
     opposite: "Limp handshake",
+    arWord: "مصافحة قوية / قبضة يد واثقة ومحترمة عند اللقاء",
     arMeaning: "مصافحة قوية واثقة تعكس الجدية والترحيب والاحترام.",
     sentence: "A firm handshake and a warm smile create a great first impression."
   },
@@ -5633,6 +5881,7 @@ const VOCAB_SESSION_15 = [
     definition: "A party or meeting where people come together to enjoy time.",
     b1Explain: "An informal event where friends or acquaintances meet to chat.",
     opposite: "Formal board meeting",
+    arWord: "تجمع اجتماعي / لقاء عائلي أو مناسبة ودية",
     arMeaning: "تجمع أو لقاء اجتماعي غير رسمي للتعارف وقضاء وقت ممتع.",
     sentence: "A birthday party is a relaxed social gathering where you can meet new people."
   }
@@ -6218,6 +6467,7 @@ const VOCAB_SESSION_16 = [
     definition: "an uncomfortable pause when nobody knows what to say in conversation.",
     b1Explain: "an uncomfortable pause when nobody knows what to say in conversation.",
     opposite: "flowing dialogue",
+    arWord: "صمت محرج / سكون ثقيل يقطع تدفق الحديث",
     arMeaning: "صمت محرج / وقفة غير مريحة في المحادثة",
     sentence: "There was an awkward silence after the speaker finished his joke, so I asked a question.",
     def: "an uncomfortable pause when nobody knows what to say in conversation.",
@@ -6236,6 +6486,7 @@ const VOCAB_SESSION_16 = [
     definition: "polite, informal conversation about light, everyday topics like the weather.",
     b1Explain: "polite, informal conversation about light, everyday topics like the weather.",
     opposite: "deep discussion",
+    arWord: "دردشة خفيفة / حديث عابر لتجاوز الصمت",
     arMeaning: "أحاديث ودية قصيرة وغير رسمية / دردشة عامة",
     sentence: "At business conferences, making polite small talk with strangers helps you establish new connections.",
     def: "polite, informal conversation about light, everyday topics like the weather.",
@@ -6254,6 +6505,7 @@ const VOCAB_SESSION_16 = [
     definition: "to say or do something that helps people feel relaxed together.",
     b1Explain: "to say or do something that helps people feel relaxed together.",
     opposite: "create tension",
+    arWord: "يكسر الجليد / يزيل الحرج والتوتر في بداية اللقاء",
     arMeaning: "يكسر الجليد / يزيل التوتر الأولي بين الغرباء",
     sentence: "She offered some appetizers to break the ice before starting the marketing presentation.",
     def: "to say or do something that helps people feel relaxed together.",
@@ -6272,6 +6524,7 @@ const VOCAB_SESSION_16 = [
     definition: "a short question at the end of a sentence to check information.",
     b1Explain: "a short question at the end of a sentence to check information.",
     opposite: "direct question",
+    arWord: "سؤال ذيلي توكيدي (مثل: أليس كذلك؟)",
     arMeaning: "سؤال ذيلي / سؤال قصير في نهاية الجملة للتأكيد",
     sentence: "You are a friend of Anna's, aren't you? That is a very friendly tag question.",
     def: "a short question at the end of a sentence to check information.",
@@ -6290,6 +6543,7 @@ const VOCAB_SESSION_16 = [
     definition: "the rise and fall of the pitch of your voice when speaking.",
     b1Explain: "the rise and fall of the pitch of your voice when speaking.",
     opposite: "monotone voice",
+    arWord: "تنغيم صوتي / ارتفاع وانخفاض نبرة الصوت في الجمل",
     arMeaning: "نبرة الصوت والتنغيم صعوداً وهبوطاً أثناء الكلام",
     sentence: "When checking known information with a tag question, your intonation normally falls at the end.",
     def: "the rise and fall of the pitch of your voice when speaking.",
@@ -6308,6 +6562,7 @@ const VOCAB_SESSION_16 = [
     definition: "to move around and talk to different people at a social gathering.",
     b1Explain: "to move around and talk to different people at a social gathering.",
     opposite: "isolate yourself",
+    arWord: "يختلط بالناس / يندمج ويتنقل بين الضيوف في الحفل",
     arMeaning: "يختلط بالآخرين ويتجول للتحدث في الحفلات",
     sentence: "During the summer party, students were encouraged to mingle and find common interests.",
     def: "to move around and talk to different people at a social gathering.",
@@ -6326,6 +6581,7 @@ const VOCAB_SESSION_16 = [
     definition: "to make someone dislike something or feel discouraged from doing it.",
     b1Explain: "to make someone dislike something or feel discouraged from doing it.",
     opposite: "attract",
+    arWord: "ينفّر / يؤجل موعداً / يثير اشمئزازاً أو ضيقاً",
     arMeaning: "ينفر / يصرف الشخص عن الشيء أو يجعله يتردد",
     sentence: "People who complain constantly about work often put off others from having a long chat.",
     def: "to make someone dislike something or feel discouraged from doing it.",
@@ -6344,6 +6600,7 @@ const VOCAB_SESSION_16 = [
     definition: "a question or remark that starts a friendly conversation with a stranger.",
     b1Explain: "a question or remark that starts a friendly conversation with a stranger.",
     opposite: "conversation killer",
+    arWord: "نشاط تعارفي كاسر للجليد / عبارة لبدء الود",
     arMeaning: "عبارة أو سؤال افتتاحي لبدء الحديث مع شخص جديد",
     sentence: "Asking about the food or venue is a classic icebreaker at any evening party.",
     def: "a question or remark that starts a friendly conversation with a stranger.",
@@ -6362,6 +6619,7 @@ const VOCAB_SESSION_16 = [
     definition: "a formal social party to welcome guests, like after a wedding.",
     b1Explain: "a formal social party to welcome guests, like after a wedding.",
     opposite: "private departure",
+    arWord: "حفل استقبال / مكتب الاستقبال والإرشاد",
     arMeaning: "حفل استقبال رسمي أو اجتماعي للترحيب بالضيوف",
     sentence: "Chris flew over to Italy specifically to attend Anna's wedding reception.",
     def: "a formal social party to welcome guests, like after a wedding.",
@@ -6380,6 +6638,7 @@ const VOCAB_SESSION_16 = [
     definition: "a company worker who assists customers and gives advice about buying products.",
     b1Explain: "a company worker who assists customers and gives advice about buying products.",
     opposite: "customer",
+    arWord: "مستشار مبيعات / مسؤول توجيه العملاء والشراء",
     arMeaning: "مستشار مبيعات / مسؤول تقديم المشورة للعملاء",
     sentence: "Dave explained that he works as a sales advisor for an international technology firm.",
     def: "a company worker who assists customers and gives advice about buying products.",
@@ -6398,6 +6657,7 @@ const VOCAB_SESSION_16 = [
     definition: "the business of presenting a positive image of an organization to people.",
     b1Explain: "the business of presenting a positive image of an organization to people.",
     opposite: "negative publicity",
+    arWord: "علاقات عامة / بناء الصورة الذهنية والتواصل المجتمعي",
     arMeaning: "العلاقات العامة / بناء صورة إيجابية للمؤسسة",
     sentence: "Jane works in public relations, managing media announcements and corporate brand communications.",
     def: "the business of presenting a positive image of an organization to people.",
@@ -6416,6 +6676,7 @@ const VOCAB_SESSION_16 = [
     definition: "something that stops someone from speaking or continuing what they are doing.",
     b1Explain: "something that stops someone from speaking or continuing what they are doing.",
     opposite: "continuity",
+    arWord: "مقاطعة للحديث / تشويش على المتكلم",
     arMeaning: "مقاطعة للحديث أو العمل",
     sentence: "Dave apologized for the sudden interruption when his mobile phone started ringing loudly.",
     def: "something that stops someone from speaking or continuing what they are doing.",
@@ -6434,6 +6695,7 @@ const VOCAB_SESSION_16 = [
     definition: "an unwanted period of silence during a talk or conversation.",
     b1Explain: "an unwanted period of silence during a talk or conversation.",
     opposite: "lively talk",
+    arWord: "صمت لاغي ومحرج / توقف مريب للكلام",
     arMeaning: "فترة صمت مطبقة وغير مرغوبة في الحديث أو البث",
     sentence: "Good conversationalists use follow-up questions to eliminate dead air when meeting strangers.",
     def: "an unwanted period of silence during a talk or conversation.",
@@ -6452,6 +6714,7 @@ const VOCAB_SESSION_16 = [
     definition: "a smooth change from one conversation topic or subject to another.",
     b1Explain: "a smooth change from one conversation topic or subject to another.",
     opposite: "abrupt stop",
+    arWord: "انتقال سلس / تحول من موضوع حوار إلى آخر",
     arMeaning: "انتقال سلس من موضوع حديث إلى آخر",
     sentence: "Using phrases like 'By the way' allows a natural transition to a new topic.",
     def: "a smooth change from one conversation topic or subject to another.",
@@ -6470,6 +6733,7 @@ const VOCAB_SESSION_16 = [
     definition: "a phrase like well or anyway used to keep control of talking.",
     b1Explain: "a phrase like well or anyway used to keep control of talking.",
     opposite: "silent pause",
+    arWord: "عبارة حفظ الدور في الكلام (مثل: حسناً، في الواقع)",
     arMeaning: "عبارة استبقاء للحديث مثل 'anyway' أو 'well' لمنع المقاطعة",
     sentence: "Words like 'Well' and 'Anyway' act as a floor holder while you decide what to say next.",
     def: "a phrase like well or anyway used to keep control of talking.",
@@ -6488,6 +6752,7 @@ const VOCAB_SESSION_16 = [
     definition: "a person who is a friend of two people who meet.",
     b1Explain: "a person who is a friend of two people who meet.",
     opposite: "total stranger",
+    arWord: "صديق مشترك بين طرفين",
     arMeaning: "صديق مشترك بين طرفين التقيا",
     sentence: "Maria and Chris discovered they share a mutual friend named Anna from secondary school.",
     def: "a person who is a friend of two people who meet.",
@@ -6506,6 +6771,7 @@ const VOCAB_SESSION_16 = [
     definition: "a polite sentence showing that you want to end a conversation.",
     b1Explain: "a polite sentence showing that you want to end a conversation.",
     opposite: "opening remark",
+    arWord: "إشارة ختام الحديث / عبارة تمهيدية للاستئذان والرحيل",
     arMeaning: "إشارة ختامية مهذبة تدل على الرغبة في إنهاء الحديث",
     sentence: "'I'd better be getting on' is a very British closing signal when leaving a conference break.",
     def: "a polite sentence showing that you want to end a conversation.",
@@ -6524,6 +6790,7 @@ const VOCAB_SESSION_16 = [
     definition: "an expression or statement of good wishes when parting or leaving.",
     b1Explain: "an expression or statement of good wishes when parting or leaving.",
     opposite: "greeting",
+    arWord: "وداع / توديع رسمي أو حار عند المغادرة",
     arMeaning: "توديع وداع / كلمات الوداع والتمنيات الطيبة",
     sentence: "They exchanged warm farewells and promised to stay in touch after the wedding.",
     def: "an expression or statement of good wishes when parting or leaving.",
@@ -6542,6 +6809,7 @@ const VOCAB_SESSION_16 = [
     definition: "light, informal conversation about matters that are not very serious.",
     b1Explain: "light, informal conversation about matters that are not very serious.",
     opposite: "serious debate",
+    arWord: "ثرثرة ودية / محادثة عفوية خفيفة للتسلية",
     arMeaning: "دردشة خفيفة وتبادل أحاديث بسيطة وغير رسمية",
     sentence: "We spent twenty minutes engaged in friendly chit-chat while waiting for the seminar to begin.",
     def: "light, informal conversation about matters that are not very serious.",
@@ -6560,6 +6828,7 @@ const VOCAB_SESSION_16 = [
     definition: "shared interests or opinions between people who are talking together.",
     b1Explain: "shared interests or opinions between people who are talking together.",
     opposite: "disagreement",
+    arWord: "أرضية مشتركة / نقاط اهتمام واتفاق متطابقة",
     arMeaning: "أرضية مشتركة واهتمامات يتقاسمها الطرفان",
     sentence: "They found common ground quickly when they realized both had spent holidays travelling in Rome.",
     def: "shared interests or opinions between people who are talking together.",
@@ -6578,6 +6847,7 @@ const VOCAB_SESSION_16 = [
     definition: "a short pause before speaking or acting because you feel unsure.",
     b1Explain: "a short pause before speaking or acting because you feel unsure.",
     opposite: "readiness",
+    arWord: "تردد / تلكؤ وتوقف قبل النطق أو القرار",
     arMeaning: "تردد / وقفة قصيرة قبل التحدث لعدم التأكد",
     sentence: "After a slight hesitation, Nick admitted that his new job in accounts was overwhelming.",
     def: "a short pause before speaking or acting because you feel unsure.",
@@ -6596,6 +6866,7 @@ const VOCAB_SESSION_16 = [
     definition: "a friendly relationship where people understand each other and communicate well.",
     b1Explain: "a friendly relationship where people understand each other and communicate well.",
     opposite: "hostility",
+    arWord: "ألفة وانسجام / تفاهم وروابط ودية سريعة",
     arMeaning: "وفاق وانسجام وتفاهم عميق بين طرفين",
     sentence: "Dave tried to build positive rapport with Jane before pitching his marketing proposal.",
     def: "a friendly relationship where people understand each other and communicate well.",
@@ -6614,6 +6885,7 @@ const VOCAB_SESSION_16 = [
     definition: "an action or feeling that is given and received equally by both.",
     b1Explain: "an action or feeling that is given and received equally by both.",
     opposite: "one-sided",
+    arWord: "متبادل / ثنائي ومتكافئ بين الطرفين",
     arMeaning: "متبادل / فعل أو شعور يقدمه ويتبادله الطرفان بالتساوي",
     sentence: "Healthy social dialogue requires reciprocal questioning rather than one person talking non-stop.",
     def: "an action or feeling that is given and received equally by both.",
@@ -6632,6 +6904,7 @@ const VOCAB_SESSION_16 = [
     definition: "polite rules of behavior expected in social and professional situations.",
     b1Explain: "polite rules of behavior expected in social and professional situations.",
     opposite: "rudeness",
+    arWord: "آداب اللباقة الاجتماعية / بروتوكول المعاملات الراقية",
     arMeaning: "آداب اللياقة الاجتماعية وقواعد السلوك المهذب",
     sentence: "Social etiquette requires excusing yourself politely before answering an urgent phone call.",
     def: "polite rules of behavior expected in social and professional situations.",
@@ -6650,6 +6923,7 @@ const VOCAB_SESSION_16 = [
     definition: "the natural order in which people speak and listen during dialogue.",
     b1Explain: "the natural order in which people speak and listen during dialogue.",
     opposite: "monologue",
+    arWord: "تبادل الأدوار في الحديث / احترام دور كل متحدث",
     arMeaning: "تبادل الأدوار بالتناوب بين المتحدث والمستمع",
     sentence: "Smooth turn-taking ensures both speakers have an equal opportunity to express their opinions.",
     def: "the natural order in which people speak and listen during dialogue.",
@@ -6668,6 +6942,7 @@ const VOCAB_SESSION_16 = [
     definition: "the sound and feeling in your voice that shows your attitude.",
     b1Explain: "the sound and feeling in your voice that shows your attitude.",
     opposite: "expressionless voice",
+    arWord: "نغمة الصوت / حرارة ونبرة المتكلم",
     arMeaning: "نبرة الصوت الدالة على المشاعر والموقف النفسي",
     sentence: "A warm and inviting tone of voice helps strangers feel comfortable talking with you.",
     def: "the sound and feeling in your voice that shows your attitude.",
@@ -6686,6 +6961,7 @@ const VOCAB_SESSION_16 = [
     definition: "a polite remark saying something nice or praising another person.",
     b1Explain: "a polite remark saying something nice or praising another person.",
     opposite: "insult",
+    arWord: "مجاملة رقيقة / يمتدح ويثني على شخص أو مظهره",
     arMeaning: "مجاملة لطيفة وثناء على مظهر أو إنجاز الآخرين",
     sentence: "Jon paid Blanca a charming compliment by saying that she has a very lovely name.",
     def: "a polite remark saying something nice or praising another person.",
@@ -6704,6 +6980,7 @@ const VOCAB_SESSION_16 = [
     definition: "the act of leaving a conversation, meeting, or social event politely.",
     b1Explain: "the act of leaving a conversation, meeting, or social event politely.",
     opposite: "arrival",
+    arWord: "رحيل / انصراف ومغادرة المكان أو السفر",
     arMeaning: "مغادرة / انصراف مهذب من محادثة أو مناسبة",
     sentence: "Julia made a quick but graceful departure when Nick started complaining about his long hours.",
     def: "the act of leaving a conversation, meeting, or social event politely.",
@@ -7322,6 +7599,7 @@ const VOCAB_SESSION_17 = [
     definition: "A formal meeting between an employee and manager to review job performance.",
     b1Explain: "A formal meeting to talk about how well you do your job.",
     opposite: "dismissal",
+    arWord: "تقييم وظيفي سنوي / مراجعة الأداء المهني / تثمين قيمة",
     arMeaning: "تقييم أداء سنوي / مقابلة رسمية لتقييم الموظف",
     sentence: "During her annual appraisal, Emma discussed her career aspirations and time management goals.",
     def: "A formal meeting between an employee and manager to review job performance.",
@@ -7340,6 +7618,7 @@ const VOCAB_SESSION_17 = [
     definition: "How well or badly a person does their work at a company.",
     b1Explain: "How well a person does their job.",
     opposite: "poor work",
+    arWord: "أداء وظيفي / إنجاز مهني / عرض تمثيلي",
     arMeaning: "أداء العمل ومستوى الإنجاز الوظيفي",
     sentence: "The director praised her outstanding performance in improving interdepartmental communication this year.",
     def: "How well or badly a person does their work at a company.",
@@ -7358,6 +7637,7 @@ const VOCAB_SESSION_17 = [
     definition: "A clear goal that you want to achieve through careful work.",
     b1Explain: "A goal that you plan to achieve.",
     opposite: "aimless task",
+    arWord: "هدف محدد / غاية عملية / موضوعي ومنصف",
     arMeaning: "هدف مهني محدد يسعى الموظف لتحقيقه",
     sentence: "They agreed on three clear performance objectives for the upcoming financial year.",
     def: "A clear goal that you want to achieve through careful work.",
@@ -7376,6 +7656,7 @@ const VOCAB_SESSION_17 = [
     definition: "Moving up to a higher, more important position at work.",
     b1Explain: "Getting a higher job with better pay in your company.",
     opposite: "demotion",
+    arWord: "ترقية لوظيفة أعلى / ترويج تجاري",
     arMeaning: "ترقية وظيفية إلى منصب أعلى ومسؤولية أكبر",
     sentence: "Emma worked hard for three years hoping to earn a promotion to Senior Manager.",
     def: "Moving up to a higher, more important position at work.",
@@ -7394,6 +7675,7 @@ const VOCAB_SESSION_17 = [
     definition: "A good quality or ability that makes someone effective at their work.",
     b1Explain: "A skill or good quality that you do very well.",
     opposite: "weakness",
+    arWord: "نقطة قوة / ميزة تنافسية / صلابة وقدرة",
     arMeaning: "نقطة قوة وميزة مهارية في أداء الشخص",
     sentence: "Her greatest strength is communicating complex technical ideas clearly to new staff members.",
     def: "A good quality or ability that makes someone effective at their work.",
@@ -7412,6 +7694,7 @@ const VOCAB_SESSION_17 = [
     definition: "An area of work where someone needs practice and personal improvement.",
     b1Explain: "An area where you are not yet good and need to improve.",
     opposite: "strength",
+    arWord: "نقطة ضعف / جانب يحتاج تحسيناً / وهن",
     arMeaning: "نقطة ضعف أو مجال بحاجة إلى تطوير وتحسين",
     sentence: "Poor punctuality during morning meetings was highlighted as Emma's primary weakness.",
     def: "An area of work where someone needs practice and personal improvement.",
@@ -7430,6 +7713,7 @@ const VOCAB_SESSION_17 = [
     definition: "The habit of arriving and finishing tasks at the agreed time.",
     b1Explain: "Arriving on time and not being late.",
     opposite: "lateness",
+    arWord: "انضباط في المواعيد / الالتزام الصارم بالوقت",
     arMeaning: "الالتزام الدقيق بالمواعيد والانضباط الزمني",
     sentence: "Strict punctuality is essential when hosting meetings with corporate clients.",
     def: "The habit of arriving and finishing tasks at the agreed time.",
@@ -7448,6 +7732,7 @@ const VOCAB_SESSION_17 = [
     definition: "The exact time or date when a job must be finished.",
     b1Explain: "The time when a task must be finished.",
     opposite: "flexible date",
+    arWord: "موعد نهائي للتسليم / آخر أجل لإنهاء العمل",
     arMeaning: "الموعد النهائي لتسليم العمل",
     sentence: "She always meets deadlines for monthly reports without needing any managerial reminders.",
     def: "The exact time or date when a job must be finished.",
@@ -7466,6 +7751,7 @@ const VOCAB_SESSION_17 = [
     definition: "Using your working hours effectively to finish tasks without wasting time.",
     b1Explain: "Planning your time well so you get your work done.",
     opposite: "time-wasting",
+    arWord: "إدارة وتنظيم الوقت / جدولة الساعات بكفاءة",
     arMeaning: "إدارة الوقت وتنظيم جدول المهام بكفاءة",
     sentence: "Attending a time management workshop helped Emma keep team meetings strictly on schedule.",
     def: "Using your working hours effectively to finish tasks without wasting time.",
@@ -7484,6 +7770,7 @@ const VOCAB_SESSION_17 = [
     definition: "The ability to change your methods easily when conditions change.",
     b1Explain: "Being able to change easily when new situations happen.",
     opposite: "inflexibility",
+    arWord: "مرونة التكيف / القدرة على التأقلم مع المتغيرات",
     arMeaning: "القدرة على التكيف والمرونة مع الظروف المتغيرة",
     sentence: "Her adaptability helped our department adjust smoothly when new company software was introduced.",
     def: "The ability to change your methods easily when conditions change.",
@@ -7502,6 +7789,7 @@ const VOCAB_SESSION_17 = [
     definition: "The ability to take action and make decisions without being told.",
     b1Explain: "Doing something good without waiting for your boss to tell you.",
     opposite: "passivity",
+    arWord: "مبادرة ذاتية / روح الإقدام والتصرف الاستباقي",
     arMeaning: "المبادرة الذاتية والتحرك الإيجابي دون انتظار التوجيه",
     sentence: "Emma showed great initiative by proposing a streamlined system for customer feedback.",
     def: "The ability to take action and make decisions without being told.",
@@ -7520,6 +7808,7 @@ const VOCAB_SESSION_17 = [
     definition: "The amount of work that someone has to do in a day.",
     b1Explain: "The amount of work you have to do.",
     opposite: "free time",
+    arWord: "حجم العمل / عبء المهام الموكلة للموظف",
     arMeaning: "عبء العمل وحجم المهام اليومية المطلوبة",
     sentence: "She adjusts her daily workload carefully to ensure all urgent client tickets are answered.",
     def: "The amount of work that someone has to do in a day.",
@@ -7538,6 +7827,7 @@ const VOCAB_SESSION_17 = [
     definition: "The rate at which a person or team finishes useful work.",
     b1Explain: "How much good work you get done.",
     opposite: "unproductiveness",
+    arWord: "إنتاجية / معدل إنجاز المخرجات في زمن محدد",
     arMeaning: "الإنتاجية ومعدل إنجاز العمل المفيد",
     sentence: "Building team unity improved office productivity and reduced repeated errors.",
     def: "The rate at which a person or team finishes useful work.",
@@ -7556,6 +7846,7 @@ const VOCAB_SESSION_17 = [
     definition: "The official, step-by-step way of doing something at a company.",
     b1Explain: "The correct official steps to do a job.",
     opposite: "disorder",
+    arWord: "إجراء إداري رسمي / خطوة نظامية متبعة",
     arMeaning: "إجراءات العمل الرسمية والخطوات المتبعة",
     sentence: "Staff must follow safety procedures whenever they handle delicate equipment.",
     def: "The official, step-by-step way of doing something at a company.",
@@ -7574,6 +7865,7 @@ const VOCAB_SESSION_17 = [
     definition: "Helpful advice suggesting the best thing to do in a situation.",
     b1Explain: "Helpful advice on what you should do.",
     opposite: "warning",
+    arWord: "توصية مهنية / مقترح تحسين معتمد",
     arMeaning: "توصية مهنية ونصيحة لتطوير الأداء",
     sentence: "The appraiser made a recommendation that Emma should attend advanced leadership seminars.",
     def: "Helpful advice suggesting the best thing to do in a situation.",
@@ -7592,6 +7884,7 @@ const VOCAB_SESSION_17 = [
     definition: "Useful advice that is intended to help someone improve their work.",
     b1Explain: "Helpful and positive, meant to help you improve.",
     opposite: "destructive",
+    arWord: "بناء ومثمر / مفيد ويدعو للتطوير الإيجابي",
     arMeaning: "بنّاء ومفيد ويهدف إلى تطوير الشخص",
     sentence: "The manager offered constructive feedback on her presentation style rather than harsh criticism.",
     def: "Useful advice that is intended to help someone improve their work.",
@@ -7610,6 +7903,7 @@ const VOCAB_SESSION_17 = [
     definition: "To work together with someone to achieve a common goal.",
     b1Explain: "To work together with other people happily.",
     opposite: "compete",
+    arWord: "يتعاون / يتكاتف ويعمل بروح الفريق الواحد",
     arMeaning: "يتعاون ويعمل مع الآخرين بروح الفريق",
     sentence: "Different departments must cooperate closely to deliver the new software on time.",
     def: "To work together with someone to achieve a common goal.",
@@ -7628,6 +7922,7 @@ const VOCAB_SESSION_17 = [
     definition: "What you believe or hope will happen in the future.",
     b1Explain: "What you hope or expect will happen.",
     opposite: "surprise",
+    arWord: "توقع / ما ينتظر تحقيقه من مستوى أو نتائج",
     arMeaning: "توقعات مستقبلية لما ينتظر حدوثه",
     sentence: "Clear communication helps align client expectations with actual project delivery dates.",
     def: "What you believe or hope will happen in the future.",
@@ -7646,6 +7941,7 @@ const VOCAB_SESSION_17 = [
     definition: "To change a plan or action when the situation around you changes.",
     b1Explain: "To change your plan when circumstances change.",
     opposite: "stay on track",
+    arWord: "يعدل المسار / يغير خطة العمل لمواكبة الظروف",
     arMeaning: "يغيّر مساره أو يغيّر خطته عندما تتطلب الظروف ذلك",
     sentence: "Emma is good at altering course when project requirements change suddenly.",
     def: "To change a plan or action when the situation around you changes.",
@@ -7664,6 +7960,7 @@ const VOCAB_SESSION_17 = [
     definition: "The specific amount of time planned or given to finish an activity.",
     b1Explain: "The planned time allowed for a meeting or task.",
     opposite: "unlimited time",
+    arWord: "الوقت المخصص / الزمن المحدد سلفاً لمهمة أو اجتماع",
     arMeaning: "الوقت المحدد أو المخصص لمهمة أو اجتماع",
     sentence: "Our morning meeting ran beyond its allocated time, causing delays for other staff.",
     def: "The specific amount of time planned or given to finish an activity.",
@@ -7682,6 +7979,7 @@ const VOCAB_SESSION_17 = [
     definition: "To prevent something from working properly or stop someone from doing their work.",
     b1Explain: "To stop or slow down someone while they do their work.",
     opposite: "help / facilitate",
+    arWord: "يتداخل مع / يعرقل أو يربك مهام أخرى",
     arMeaning: "يعيق أو يتداخل مع واجبات الآخرين ويعطل عملهم",
     sentence: "Late meetings interfere with the daily duties of our customer service colleagues.",
     def: "To prevent something from working properly or stop someone from doing their work.",
@@ -7700,6 +7998,7 @@ const VOCAB_SESSION_17 = [
     definition: "To help people in a team feel connected, friendly, and work together.",
     b1Explain: "To help team members work together peacefully.",
     opposite: "divide people",
+    arWord: "يبني التكاتف والوحدة / يرسخ تماسك وترابط الفريق",
     arMeaning: "يبني الوحدة والترابط ويعزز روح الفريق الواحد",
     sentence: "The manager helped build unity across the office by organizing weekly team discussions.",
     def: "To help people in a team feel connected, friendly, and work together.",
@@ -7718,6 +8017,7 @@ const VOCAB_SESSION_17 = [
     definition: "A situation where people have different opinions and argue about an idea.",
     b1Explain: "When two people have different opinions and argue.",
     opposite: "agreement",
+    arWord: "خلاف في الرأي / تباين في وجهات النظر / نزاع ودي",
     arMeaning: "خلاف أو تباين في الرأي بين أعضاء الفريق",
     sentence: "Good team managers reduce disagreements before they turn into major workplace arguments.",
     def: "A situation where people have different opinions and argue about an idea.",
@@ -7736,6 +8036,7 @@ const VOCAB_SESSION_17 = [
     definition: "A well-organized plan that works quickly and produces good results without wasting time.",
     b1Explain: "A well-organized plan that works well without wasting time.",
     opposite: "wasteful plan",
+    arWord: "خطة فعالة وكفؤة / استراتيجية عمل متقنة وناجزة",
     arMeaning: "خطة عمل فعالة ومنظمة تحقق النتائج دون إهدار للوقت",
     sentence: "Emma helped the team develop an efficient plan to share project updates weekly.",
     def: "A well-organized plan that works quickly and produces good results without wasting time.",
@@ -7754,6 +8055,7 @@ const VOCAB_SESSION_17 = [
     definition: "Doing a task exactly in the way your manager told you to.",
     b1Explain: "Doing work exactly as your manager told you.",
     opposite: "disobediently",
+    arWord: "وفقاً للتوجيهات / كما طُلب تماماً وبحسب التعليمات",
     arMeaning: "وفق التعليمات المحددة وبحسب ما أُمر به تماماً",
     sentence: "She completed every report as instructed, but rarely suggested newer creative methods.",
     def: "Doing a task exactly in the way your manager told you to.",
@@ -7772,6 +8074,7 @@ const VOCAB_SESSION_17 = [
     definition: "The ability to produce original ideas and find new solutions to problems.",
     b1Explain: "The ability to think of new and interesting ideas.",
     opposite: "imitation",
+    arWord: "إبداع وابتكار / تفكير خلاق خارج الصندوق",
     arMeaning: "الإبداع والقدرة على ابتكار أفكار وحلول عمل جديدة",
     sentence: "Senior managers need creativity to solve difficult business problems and streamline procedures.",
     def: "The ability to produce original ideas and find new solutions to problems.",
@@ -7790,6 +8093,7 @@ const VOCAB_SESSION_17 = [
     definition: "What a client hopes and believes they will receive from a company.",
     b1Explain: "What a customer expects to receive from your service.",
     opposite: "unrealistic demand",
+    arWord: "توقعات العملاء / ما ينتظره الزبون من جودة وسرعة",
     arMeaning: "توقعات العميل ومستوى الخدمة الذي ينتظر الحصول عليه",
     sentence: "Managing customer expectation clearly from day one helps prevent misunderstandings about delivery dates.",
     def: "What a client hopes and believes they will receive from a company.",
@@ -7808,6 +8112,7 @@ const VOCAB_SESSION_17 = [
     definition: "A situation when things happen later than planned many times in succession.",
     b1Explain: "When something happens late many times.",
     opposite: "on-time delivery",
+    arWord: "تأخير متكرر / بطء مكرر خارج الجدول الزمني",
     arMeaning: "تأخير متكرر وتأخر مستمر في مواعيد التسليم",
     sentence: "Clients complained about frequent delay in receiving their monthly software updates.",
     def: "A situation when things happen later than planned many times in succession.",
@@ -7826,6 +8131,7 @@ const VOCAB_SESSION_17 = [
     definition: "Quickly, willingly, and happily without showing any hesitation or complaints.",
     b1Explain: "Quickly and willingly without complaining.",
     opposite: "reluctantly",
+    arWord: "بكل سرور وسهولة / بطيب خاطر ودون تردد",
     arMeaning: "بكل استعداد وطواعية وعن طيب خاطر",
     sentence: "Emma has readily accepted departmental changes and adapted to her new colleagues.",
     def: "Quickly, willingly, and happily without showing any hesitation or complaints.",
@@ -7844,6 +8150,7 @@ const VOCAB_SESSION_17 = [
     definition: "The conditions, facts, and events around you that affect a situation.",
     b1Explain: "The facts and conditions around you that affect what you do.",
     opposite: "fixed state",
+    arWord: "ظروف محيطة / ملابسات وأوضاع راهنة",
     arMeaning: "الظروف والملابسات المحيطة بالموقف",
     sentence: "She adapted to unexpected office circumstances when our budget was reduced.",
     def: "The conditions, facts, and events around you that affect a situation.",
@@ -7862,6 +8169,7 @@ const VOCAB_SESSION_17 = [
     definition: "To continue past the planned end time or official limit.",
     b1Explain: "To take more time than planned and finish late.",
     opposite: "finish early",
+    arWord: "يتجاوز الوقت المحدد / يمتد لأطول من الموعد المقرر",
     arMeaning: "يتجاوز الوقت المحدد ويستمر أطول من المخطط",
     sentence: "When meetings run beyond their end time, colleagues arrive late to other commitments.",
     def: "To continue past the planned end time or official limit.",
@@ -7880,6 +8188,7 @@ const VOCAB_SESSION_17 = [
     definition: "To find solutions and successfully defeat complex problems at work.",
     b1Explain: "To solve hard problems successfully.",
     opposite: "give up",
+    arWord: "يتغلب على الصعاب / يجتاز العقبات بنجاح",
     arMeaning: "يتغلب على الصعوبات ويتجاوز العقبات بنجاح",
     sentence: "Her communication skills helped the team overcome difficulties during the product launch.",
     def: "To find solutions and successfully defeat complex problems at work.",
@@ -7898,6 +8207,7 @@ const VOCAB_SESSION_17 = [
     definition: "The personal way a manager leads, guides, and communicates with their team.",
     b1Explain: "The way a manager leads and talks to their team.",
     opposite: "laissez-faire",
+    arWord: "أسلوب القيادة والإدارة / طريقة التعامل وتوجيه المرؤوسين",
     arMeaning: "الأسلوب الإداري وطريقة قيادة الفريق وتوجيهه",
     sentence: "Her collaborative management style made employees feel valued and motivated.",
     def: "The personal way a manager leads, guides, and communicates with their team.",
@@ -7916,6 +8226,7 @@ const VOCAB_SESSION_17 = [
     definition: "To speak to clients, listen to their needs, and handle their requests.",
     b1Explain: "How you talk to customers and help them.",
     opposite: "ignore clients",
+    arWord: "يتواصل مع العملاء / يتعامل مع الزبائن بلباقة واستيعاب",
     arMeaning: "أسلوب التعامل مع العملاء والتواصل معهم",
     sentence: "She met with the director to improve her methods of approaching customers with empathy.",
     def: "To speak to clients, listen to their needs, and handle their requests.",
@@ -7934,6 +8245,7 @@ const VOCAB_SESSION_17 = [
     definition: "To happen in a particular way or be discovered to be true.",
     b1Explain: "To happen or be discovered in the end.",
     opposite: "remain hidden",
+    arWord: "يتضح في النهاية / يتبين أنه كذا / يسفر عن",
     arMeaning: "يتبين / يتضح في النهاية أنه كذا",
     sentence: "The delayed delivery turned out to be an error in the postal address.",
     def: "To happen in a particular way or be discovered to be true.",
@@ -7952,6 +8264,7 @@ const VOCAB_SESSION_17 = [
     definition: "Good at finding quick, clever ways to overcome difficulties and solve problems.",
     b1Explain: "Skilled at solving problems quickly with whatever you have.",
     opposite: "unimaginative",
+    arWord: "واسع الحيلة والتدبير / صاحب حلول ذكية وعملية",
     arMeaning: "واسع الحيلة وبارع في إيجاد الحلول السريعة",
     sentence: "A resourceful manager finds solutions even when project budgets are reduced.",
     def: "Good at finding quick, clever ways to overcome difficulties and solve problems.",
@@ -8650,6 +8963,7 @@ const VOCAB_SESSION_18 = [
     definition: "Having value because it brings back personal memories and feelings.",
     b1Explain: "Important to you because of personal feelings and memories.",
     opposite: "unsentimental",
+    arWord: "عاطفي / ذو قيمة معنوية غالية / متعلق بالذكريات",
     arMeaning: "ذو قيمة معنوية وعاطفية خاصة",
     sentence: "This old silver ring has immense sentimental value because my grandmother gave it to me.",
     def: "Having value because it brings back personal memories and feelings.",
@@ -8668,6 +8982,7 @@ const VOCAB_SESSION_18 = [
     definition: "Worth a large amount of money or having great practical importance.",
     b1Explain: "Worth a lot of money or very useful.",
     opposite: "worthless",
+    arWord: "قيّم وثمين / ذو فائدة أو قيمة مادية أو معنوية كبرى",
     arMeaning: "قيّم / ثمين / عالي الأهمية",
     sentence: "The museum displayed valuable ancient coins made of pure gold and silver.",
     def: "Worth a large amount of money or having great practical importance.",
@@ -8686,6 +9001,7 @@ const VOCAB_SESSION_18 = [
     definition: "Costing a lot of money to buy or maintain.",
     b1Explain: "Costing a lot of money.",
     opposite: "cheap",
+    arWord: "باهظ الثمن / غالٍ / عالي التكلفة",
     arMeaning: "باهظ الثمن / مكلف",
     sentence: "Laptops with high-speed processors are quite expensive in electronics shops.",
     def: "Costing a lot of money to buy or maintain.",
@@ -8704,6 +9020,7 @@ const VOCAB_SESSION_18 = [
     definition: "Being the only one of its kind; unlike anything else.",
     b1Explain: "Special and unlike anything else in the world.",
     opposite: "common",
+    arWord: "فريد من نوعه / لا مثيل له / استثنائي",
     arMeaning: "فريد من نوعه / لا مثيل له",
     sentence: "Each handmade pottery bowl has a unique shape and colorful pattern.",
     def: "Being the only one of its kind; unlike anything else.",
@@ -8722,6 +9039,7 @@ const VOCAB_SESSION_18 = [
     definition: "Something that you own or have in your control.",
     b1Explain: "An object or item that belongs to you.",
     opposite: "loan",
+    arWord: "مقتنى شخصي / ملكية خاصة / حيازة شيء",
     arMeaning: "مقتنى / ملكية خاصة",
     sentence: "His passport and camera were his most prized possessions during his trip abroad.",
     def: "Something that you own or have in your control.",
@@ -8740,6 +9058,7 @@ const VOCAB_SESSION_18 = [
     definition: "To receive money or property from someone after they die.",
     b1Explain: "To get property or money from a relative who passed away.",
     opposite: "disown",
+    arWord: "يرث / يرث مالاً أو مقتنيات أو جينات من عائلته",
     arMeaning: "يرث / ينال تركة",
     sentence: "She inherited an antique wooden clock that had been in her family for generations.",
     def: "To receive money or property from someone after they die.",
@@ -8758,6 +9077,7 @@ const VOCAB_SESSION_18 = [
     definition: "Animal skin treated and used to make shoes, bags, and jackets.",
     b1Explain: "Durable material made from treated animal skin.",
     opposite: "fabric",
+    arWord: "جلد طبيعي مدبوغ",
     arMeaning: "جلد طبيعي متين",
     sentence: "The briefcase was crafted from genuine black leather with neat stitching.",
     def: "Animal skin treated and used to make shoes, bags, and jackets.",
@@ -8776,6 +9096,7 @@ const VOCAB_SESSION_18 = [
     definition: "A hard, solid material such as iron, steel, or gold.",
     b1Explain: "Hard, solid material like iron, steel, or aluminum.",
     opposite: "plastic",
+    arWord: "معدن صلب / سبيكة فلزية",
     arMeaning: "معدن صلب",
     sentence: "These kitchen scissors are made of strong stainless metal.",
     def: "A hard, solid material such as iron, steel, or gold.",
@@ -8794,6 +9115,7 @@ const VOCAB_SESSION_18 = [
     definition: "A light artificial material that can be shaped when soft.",
     b1Explain: "Light artificial material shaped into bottles, pens, or cases.",
     opposite: "metal",
+    arWord: "بلاستيك / مادة لدنة صناعية",
     arMeaning: "بلاستيك / مادة لدنة",
     sentence: "The phone casing is made of durable lightweight plastic.",
     def: "A light artificial material that can be shaped when soft.",
@@ -8812,6 +9134,7 @@ const VOCAB_SESSION_18 = [
     definition: "A hard clear material through which you can see clearly.",
     b1Explain: "Clear, hard material used in windows, screens, and bottles.",
     opposite: "opaque wood",
+    arWord: "زجاج شفاف / كأس زجاجي",
     arMeaning: "زجاج شفاف",
     sentence: "The smartphone display is protected by scratch-resistant tempered glass.",
     def: "A hard clear material through which you can see clearly.",
@@ -8830,6 +9153,7 @@ const VOCAB_SESSION_18 = [
     definition: "A bright yellow metal made by mixing copper and zinc.",
     b1Explain: "Shiny yellow metal used for musical instruments and decorative locks.",
     opposite: "silver",
+    arWord: "نحاس أصفر مصقول",
     arMeaning: "نحاس أصفر لامع",
     sentence: "His vintage leather briefcase has sturdy brass locks on both sides.",
     def: "A bright yellow metal made by mixing copper and zinc.",
@@ -8848,6 +9172,7 @@ const VOCAB_SESSION_18 = [
     definition: "Shaped like a flat box with four straight sides and corners.",
     b1Explain: "Having four straight sides with opposite sides equal in length.",
     opposite: "circular",
+    arWord: "مستطيل الشكل / ذو زوايا قائمة وأضلاع متفاوتة",
     arMeaning: "مستطيل الشكل",
     sentence: "The student carried a rectangular wooden box containing watercolor paints.",
     def: "Shaped like a flat box with four straight sides and corners.",
@@ -8866,6 +9191,7 @@ const VOCAB_SESSION_18 = [
     definition: "Having three straight sides and three points or angles.",
     b1Explain: "Having three sides and three sharp corners.",
     opposite: "square",
+    arWord: "مثلث الشكل / ذو ثلاثة أضلاع وزوايا",
     arMeaning: "مثلث الشكل",
     sentence: "Road caution signs in the UK often have a distinctive triangular shape.",
     def: "Having three straight sides and three points or angles.",
@@ -8884,6 +9210,7 @@ const VOCAB_SESSION_18 = [
     definition: "Having a circular shape like a ball, ring, or circle.",
     b1Explain: "Shaped like a circle or ball.",
     opposite: "square",
+    arWord: "مستدير / دائري الشكل / كروي",
     arMeaning: "مستدير / دائري",
     sentence: "Grandpa wore a round antique watch on his left wrist.",
     def: "Having a circular shape like a ball, ring, or circle.",
@@ -8902,6 +9229,7 @@ const VOCAB_SESSION_18 = [
     definition: "Extremely small in size, volume, or physical dimensions.",
     b1Explain: "Very small in size or quantity.",
     opposite: "huge",
+    arWord: "متناهي الصغر / ضئيل الحجم جداً",
     arMeaning: "ضئيل الحجم / بالغ الصغر",
     sentence: "The device features a tiny memory chip capable of storing thousands of files.",
     def: "Extremely small in size, volume, or physical dimensions.",
@@ -8920,6 +9248,7 @@ const VOCAB_SESSION_18 = [
     definition: "Having an ordinary medium size, neither very big nor small.",
     b1Explain: "Medium in size, not too large and not too small.",
     opposite: "extreme",
+    arWord: "متوسط الحجم / قياسي ومعتاد الأبعاد",
     arMeaning: "متوسط الحجم والقياس",
     sentence: "He carried an average-sized shoulder bag suitable for commuting on the train.",
     def: "Having an ordinary medium size, neither very big nor small.",
@@ -8938,6 +9267,7 @@ const VOCAB_SESSION_18 = [
     definition: "Traditional and timeless in design, style, or appearance.",
     b1Explain: "Traditional and high quality in a style that never dates.",
     opposite: "modern",
+    arWord: "كلاسيكي / تقليدي رفيع المستوى وعريق",
     arMeaning: "كلاسيكي أنيق / تقليدي رفيع الذوق",
     sentence: "He bought a classical trench coat that always looks elegant in rainy weather.",
     def: "Traditional and timeless in design, style, or appearance.",
@@ -8956,6 +9286,7 @@ const VOCAB_SESSION_18 = [
     definition: "Completely new and never used or worn by anyone before.",
     b1Explain: "Completely new and never used before.",
     opposite: "second-hand",
+    arWord: "جديد تماماً / غير مستعمل ولسه في كرتونته",
     arMeaning: "جديد كلياً / غير مستعمل مسبقاً",
     sentence: "Her parents bought her a brand new bicycle for her sixteenth birthday.",
     def: "Completely new and never used or worn by anyone before.",
@@ -8974,6 +9305,7 @@ const VOCAB_SESSION_18 = [
     definition: "Able to work well and be trusted to perform reliably.",
     b1Explain: "Trustworthy and performing well every time you use it.",
     opposite: "unreliable",
+    arWord: "موثوق به / يعتمد عليه ولا يتعطل بسهولة",
     arMeaning: "موثوق / يعتمد عليه",
     sentence: "My old sedan car is still remarkably reliable on long highway journeys.",
     def: "Able to work well and be trusted to perform reliably.",
@@ -8992,6 +9324,7 @@ const VOCAB_SESSION_18 = [
     definition: "Easily broken or damaged and requiring delicate, gentle handling.",
     b1Explain: "Delicate and easily broken if dropped or handled roughly.",
     opposite: "unbreakable",
+    arWord: "هش / قابل للكسر بسرعة / رقيق ويحتاج عناية",
     arMeaning: "سريع العطب / قابل للكسر / هش",
     sentence: "Be careful with that fragile porcelain tea set when packing the boxes.",
     def: "Easily broken or damaged and requiring delicate, gentle handling.",
@@ -9010,6 +9343,7 @@ const VOCAB_SESSION_18 = [
     definition: "The part of an object made for holding or opening.",
     b1Explain: "The part of an item you hold with your hand.",
     opposite: "base",
+    arWord: "مقبض / يد الباب أو الحقيبة / يتعامل مع موقف",
     arMeaning: "مقبض / يد الحقيبة أو الإبريق",
     sentence: "The leather briefcase has a reinforced handle that makes it comfortable to carry.",
     def: "The part of an object made for holding or opening.",
@@ -9028,6 +9362,7 @@ const VOCAB_SESSION_18 = [
     definition: "A top cover for closing a pot, box, or container.",
     b1Explain: "A removable top that covers and seals a container.",
     opposite: "bottom",
+    arWord: "غطاء / غطاء الإناء أو الصندوق / جفن العين",
     arMeaning: "غطاء الإناء أو الصندوق",
     sentence: "Lift the lid of the jewelry box carefully to see the velvet interior.",
     def: "A top cover for closing a pot, box, or container.",
@@ -9046,6 +9381,7 @@ const VOCAB_SESSION_18 = [
     definition: "A mechanical device kept closed and opened with a key.",
     b1Explain: "A secure device opened with a key or special combination.",
     opposite: "open latch",
+    arWord: "قفل أمان / يقفل بالمفتاح / يغلق بإحكام",
     arMeaning: "قفل أمان ومزلاج",
     sentence: "He secured his suitcase with a small metal padlock before his flight.",
     def: "A mechanical device kept closed and opened with a key.",
@@ -9064,6 +9400,7 @@ const VOCAB_SESSION_18 = [
     definition: "A portable device that supplies electricity to electronic devices.",
     b1Explain: "A small object providing electrical energy to devices.",
     opposite: "mains power",
+    arWord: "بطارية شحن / حجارة الطاقة الكهربائية",
     arMeaning: "بطارية طاقة كهربائية",
     sentence: "Her wireless mouse stopped responding because the alkaline battery was completely flat.",
     def: "A portable device that supplies electricity to electronic devices.",
@@ -9082,6 +9419,7 @@ const VOCAB_SESSION_18 = [
     definition: "The mark made by a person's fingertip used for security.",
     b1Explain: "The unique pattern on your finger used to unlock phones.",
     opposite: "password",
+    arWord: "بصمة الإصبع / أثر البصمة البيومترية",
     arMeaning: "بصمة الإصبع الحيوية",
     sentence: "Modern smartphones use fingerprint technology to unlock the screen instantly and securely.",
     def: "The mark made by a person's fingertip used for security.",
@@ -9100,6 +9438,7 @@ const VOCAB_SESSION_18 = [
     definition: "To cause someone to remember a person, event, or duty.",
     b1Explain: "To make someone remember an important person or memory.",
     opposite: "forget",
+    arWord: "يذكّر / يستحضر في الذهن ذكرى أو موعداً",
     arMeaning: "يُذكّر بذكرى أو شخص عزيز",
     sentence: "Looking at this vintage pocket watch always reminds me of my beloved grandfather.",
     def: "To cause someone to remember a person, event, or duty.",
@@ -9118,6 +9457,7 @@ const VOCAB_SESSION_18 = [
     definition: "The date on which an important event happened in the past.",
     b1Explain: "A yearly celebration of a special date like a wedding.",
     opposite: "ordinary day",
+    arWord: "ذكرى سنوية / عيد سنوي لمناسبة زواج أو تأسيس",
     arMeaning: "ذكرى سنوية (زواج أو مناسبة هامة)",
     sentence: "They exchanged meaningful silver gifts on their tenth wedding anniversary.",
     def: "The date on which an important event happened in the past.",
@@ -9136,6 +9476,7 @@ const VOCAB_SESSION_18 = [
     definition: "A very intelligent, clever, and quick-thinking person.",
     b1Explain: "An intelligent, capable person who solves problems quickly.",
     opposite: "foolish person",
+    arWord: "شخص ذكي ولماح / داهية وشديد الفطنة",
     arMeaning: "شخص شديد الفطنة والذكاء وسريع البديهة",
     sentence: "Elena figured out the complex logic puzzle in two minutes; she is one smart cookie!",
     def: "A very intelligent, clever, and quick-thinking person.",
@@ -9457,6 +9798,7 @@ const VOCAB_SESSION_19 = [
     definition: "A physical or mental condition making daily activities difficult.",
     b1Explain: "A condition that makes it hard to do normal physical activities.",
     opposite: "full ability",
+    arWord: "إعاقة جسدية أو حسية / عجز حركي أو إدراكي",
     arMeaning: "إعاقة / عجز جسدي أو عقلي",
     sentence: "She overcame her physical disability and became an accomplished author and speaker.",
     def: "A physical or mental condition making daily activities difficult.",
@@ -9475,6 +9817,7 @@ const VOCAB_SESSION_19 = [
     definition: "A long-term illness or health issue that cannot easily heal.",
     b1Explain: "A chronic illness or medical problem that lasts for a long time.",
     opposite: "good health",
+    arWord: "حالة صحية أو طبية / شرط أو ظرف مقيد",
     arMeaning: "حالة صحية أو مرضية مزمنة",
     sentence: "Her spinal condition requires her to use a customized wheelchair for mobility.",
     def: "A long-term illness or health issue that cannot easily heal.",
@@ -9493,6 +9836,7 @@ const VOCAB_SESSION_19 = [
     definition: "The personal way you think and feel about someone or something.",
     b1Explain: "How you think and feel about life, people, or situations.",
     opposite: "indifference",
+    arWord: "موقف عقلي / اتجاه نفسي أو نظرة تصرفية",
     arMeaning: "موقف / توجه عقلي وشعوري",
     sentence: "Helen maintains a positive attitude towards education despite facing daily physical barriers.",
     def: "The personal way you think and feel about someone or something.",
@@ -9511,6 +9855,7 @@ const VOCAB_SESSION_19 = [
     definition: "Considered normal and shared by the majority of ordinary people.",
     b1Explain: "Normal and accepted by the majority, especially standard public schools.",
     opposite: "specialized",
+    arWord: "التعليم العام المدمج / التيار العام السائد في المجتمع",
     arMeaning: "التعليم العام / الاتجاه السائد والمشترك للجميع",
     sentence: "Modern laws encourage enrolling students with special needs into mainstream classrooms.",
     def: "Considered normal and shared by the majority of ordinary people.",
@@ -9529,6 +9874,7 @@ const VOCAB_SESSION_19 = [
     definition: "The practice of ensuring everyone can participate equally and feel welcomed.",
     b1Explain: "Making sure everyone feels included, respected, and treated equally.",
     opposite: "exclusion",
+    arWord: "الدمج الشامل / إشراك الجميع وتكافؤ الفرص",
     arMeaning: "الدمج الشامل وتكافؤ الفرص في المجتمع والتعليم",
     sentence: "The university introduced an inclusion policy to guarantee wheelchair access in all lecture halls.",
     def: "The practice of ensuring everyone can participate equally and feel welcomed.",
@@ -9547,6 +9893,7 @@ const VOCAB_SESSION_19 = [
     definition: "A sloping surface that connects two areas at different heights.",
     b1Explain: "A slope connecting higher and lower ground for wheelchairs.",
     opposite: "stairs",
+    arWord: "منحدر صعود مائل / ممر مائل للكراسي المتحركة",
     arMeaning: "منحدر / ممر مائل لتسهيل حركة الكراسي المتحركة",
     sentence: "A smooth concrete ramp was constructed alongside the steep main entrance steps.",
     def: "A sloping surface that connects two areas at different heights.",
@@ -9565,6 +9912,7 @@ const VOCAB_SESSION_19 = [
     definition: "A bar attached to a wall to hold for support.",
     b1Explain: "A long metal or wooden bar on a wall to hold onto.",
     opposite: "open wall",
+    arWord: "درابزين / مسند يد للاتكاء عند صعود الدرج",
     arMeaning: "درابزين / مقبض جداري للاستناد والتوازن",
     sentence: "The school installed sturdy metal handrails along both sides of the corridor for extra balance.",
     def: "A bar attached to a wall to hold for support.",
@@ -9583,6 +9931,7 @@ const VOCAB_SESSION_19 = [
     definition: "A machine that carries people up and down in buildings.",
     b1Explain: "A lift that carries passengers between different floors.",
     opposite: "staircase",
+    arWord: "مصعد كهربائي / أسانسير",
     arMeaning: "مصعد كهربائي للأدوار المتعددة",
     sentence: "The building has a spacious glass elevator that easily fits two wheelchairs.",
     def: "A machine that carries people up and down in buildings.",
@@ -9601,6 +9950,7 @@ const VOCAB_SESSION_19 = [
     definition: "Moving stairs that carry people between different floors of buildings.",
     b1Explain: "Moving electric stairs found in malls and stations.",
     opposite: "fixed stairs",
+    arWord: "سلم كهربائي متحرك",
     arMeaning: "سلم كهربائي متحرك",
     sentence: "While tourists used the escalator, wheelchair users took the nearby elevator.",
     def: "Moving stairs that carry people between different floors of buildings.",
@@ -9619,6 +9969,7 @@ const VOCAB_SESSION_19 = [
     definition: "A coin-operated machine that serves snacks, drinks, or small goods.",
     b1Explain: "An automatic machine selling cold drinks and snacks.",
     opposite: "human cashier",
+    arWord: "ماكينة بيع ذاتي للأطعمة والمشروبات بالعملة",
     arMeaning: "آلة بيع ذاتية آلية للوجبات الخفيفة والمشروبات",
     sentence: "The cafeteria lowered the buttons on the vending machine so students in wheelchairs could reach them.",
     def: "A coin-operated machine that serves snacks, drinks, or small goods.",
@@ -9637,6 +9988,7 @@ const VOCAB_SESSION_19 = [
     definition: "Level, smooth ground without steep slopes, obstacles, or stairs.",
     b1Explain: "Smooth and even ground that has no steep hills or steps.",
     opposite: "rough ground",
+    arWord: "أرض منبسطة مستوية خالية من المرتفعات والعوائق",
     arMeaning: "أرضية مستوية وممهدة تماماً دون عوائق",
     sentence: "The university campus was landscaped with flat terrain to allow easy wheelchair commuting.",
     def: "Level, smooth ground without steep slopes, obstacles, or stairs.",
@@ -9655,6 +10007,7 @@ const VOCAB_SESSION_19 = [
     definition: "To make practical changes so someone can participate comfortably.",
     b1Explain: "To adjust arrangements to fit someone's special needs comfortably.",
     opposite: "neglect",
+    arWord: "يتكيف مع الاحتياجات / يوفر سبيلاً ميسراً / يستوعب ضيوفاً",
     arMeaning: "يستوعب ويوفر التسهيلات المناسبة",
     sentence: "The teacher rearranged desks to accommodate Helen and her wheelchair near the entrance.",
     def: "To make practical changes so someone can participate comfortably.",
@@ -9673,6 +10026,7 @@ const VOCAB_SESSION_19 = [
     definition: "To give someone confidence, hope, or support to succeed.",
     b1Explain: "To give someone hope, courage, and support.",
     opposite: "discourage",
+    arWord: "يشجع / يحفز ويدعم معنوياً لبذل الجهد",
     arMeaning: "يشجع ويحفز ويمد بالعزيمة",
     sentence: "Good educators encourage all pupils to express their creative ideas freely.",
     def: "To give someone confidence, hope, or support to succeed.",
@@ -9691,6 +10045,7 @@ const VOCAB_SESSION_19 = [
     definition: "To think or believe that something will happen soon.",
     b1Explain: "To believe that something will happen or arrive.",
     opposite: "doubt",
+    arWord: "يتوقع / ينتظر حدوث شيء / يرجو",
     arMeaning: "يتوقع حدوث شيء مستقبلاً",
     sentence: "Parents expect local schools to provide equal educational opportunities for every child.",
     def: "To think or believe that something will happen soon.",
@@ -9709,6 +10064,7 @@ const VOCAB_SESSION_19 = [
     definition: "To place people or objects all around someone or something.",
     b1Explain: "To be all around someone or keep people close to you.",
     opposite: "isolate",
+    arWord: "يحيط بـ / يكتنف من كل جانب",
     arMeaning: "يحيط بـ / يلتف حوله برعاية واهتمام",
     sentence: "She chose to surround herself with caring friends who treated her with dignity.",
     def: "To place people or objects all around someone or something.",
@@ -9727,6 +10083,7 @@ const VOCAB_SESSION_19 = [
     definition: "To fail to appreciate something because you are used to it.",
     b1Explain: "To not value something because you assume it will always be there.",
     opposite: "cherish",
+    arWord: "يعتبره أمراً مسلماً به ومفروغاً منه دون تقدير",
     arMeaning: "يأخذ الأمر كمسلّم به دون تقدير لقيمته الحقيقية",
     sentence: "Able-bodied people often take for granted how simple it is to walk up stairs.",
     def: "To fail to appreciate something because you are used to it.",
@@ -9745,6 +10102,7 @@ const VOCAB_SESSION_19 = [
     definition: "To satisfy all necessary rules, requirements, or quality standards.",
     b1Explain: "To meet all requirements or standards completely.",
     opposite: "fall short",
+    arWord: "يستوفي جميع المعايير / يطابق كامل الشروط المطلوبة",
     arMeaning: "يستوفي جميع المعايير والشروط المطلوبة تماماً",
     sentence: "The newly renovated library ticks all the boxes for disability access and digital learning.",
     def: "To satisfy all necessary rules, requirements, or quality standards.",
@@ -9763,6 +10121,7 @@ const VOCAB_SESSION_19 = [
     definition: "Not allowed to be entered, visited, or used by people.",
     b1Explain: "A place where people are forbidden or unable to enter.",
     opposite: "open to all",
+    arWord: "محظور الدخول / منطقة ممنوعة وغير مصرح بارتيادها",
     arMeaning: "محظور الدخول / غير مسموح بالوصول إليه",
     sentence: "Before the elevator was installed, the upper floor chemistry lab was off limits to wheelchair users.",
     def: "Not allowed to be entered, visited, or used by people.",
@@ -9781,6 +10140,7 @@ const VOCAB_SESSION_19 = [
     definition: "To create unnecessary excitement, complaints, or excessive worry.",
     b1Explain: "To cause unnecessary drama or give too much unwanted attention.",
     opposite: "stay calm",
+    arWord: "يثير ضجة وجلبة / يضخم الأمور بافتعال غير مبرر",
     arMeaning: "يفتعل ضجة وجلبة واهتماماً مبالغاً فيه بلا داعٍ",
     sentence: "Helen asked her instructor not to make a fuss every time she entered the classroom.",
     def: "To create unnecessary excitement, complaints, or excessive worry.",
@@ -9799,6 +10159,7 @@ const VOCAB_SESSION_19 = [
     definition: "Giving unusual extra favors or privileges not shared by others.",
     b1Explain: "Treating someone differently by giving them extra privileges.",
     opposite: "equal treatment",
+    arWord: "معاملة تفضيلية استثنائية / رعاية خاصة إضافية",
     arMeaning: "معاملة خاصة استثنائية (تمييز إيجابي أو مبالغ فيه)",
     sentence: "Helen wanted to be treated like any normal student rather than receiving awkward special treatment.",
     def: "Giving unusual extra favors or privileges not shared by others.",
@@ -9817,6 +10178,7 @@ const VOCAB_SESSION_19 = [
     definition: "To feel angry and bitter about something perceived as unfair.",
     b1Explain: "To feel angry or upset because you think something is unfair.",
     opposite: "welcome",
+    arWord: "يستاء من / يمتعض ويشعر بالحقد أو الظلم",
     arMeaning: "يستاء من / يشعر بالحنق والمرارة والضيق",
     sentence: "She worried that other students might resent her if trips were cancelled on her account.",
     def: "To feel angry and bitter about something perceived as unfair.",
@@ -9835,6 +10197,7 @@ const VOCAB_SESSION_19 = [
     definition: "A heavy duty or difficult responsibility causing extra stress.",
     b1Explain: "A heavy problem or difficulty that worries you.",
     opposite: "relief",
+    arWord: "عبء ثقيل / حمل مرهق ومسؤولية شاقة / يرهق كاهلاً",
     arMeaning: "عبء ثقيل / حمل مرهق نفسياً",
     sentence: "She hated feeling like a burden to her classmates during collaborative team projects.",
     def: "A heavy duty or difficult responsibility causing extra stress.",
@@ -9853,6 +10216,7 @@ const VOCAB_SESSION_19 = [
     definition: "To deteriorate continuously and become much worse over time.",
     b1Explain: "To get worse and worse progressively.",
     opposite: "improve",
+    arWord: "نحو الأسفل / هبوطاً / تدهور في الحالة نحو الأسوأ",
     arMeaning: "يتدهور ويسير نحو الأسوأ باستمرار",
     sentence: "After the teacher publicly criticized her seating needs, things quickly went downhill.",
     def: "To deteriorate continuously and become much worse over time.",
@@ -9871,6 +10235,7 @@ const VOCAB_SESSION_19 = [
     definition: "A school or work visit away from class for education.",
     b1Explain: "An educational trip organized by a school outside class.",
     opposite: "classroom lesson",
+    arWord: "رحلة ميدانية تعليمية / جولة استكشافية خارج الفصل",
     arMeaning: "رحلة مدرسية تعليمية ميدانية",
     sentence: "The museum field trip gave students hands-on experience with ancient Egyptian artifacts.",
     def: "A school or work visit away from class for education.",
@@ -9889,6 +10254,7 @@ const VOCAB_SESSION_19 = [
     definition: "Full of too many people or objects with little space.",
     b1Explain: "Full of people with very little room to move.",
     opposite: "spacious",
+    arWord: "مزدحم / مكتظ بالناس أو المركبات",
     arMeaning: "مزدحم / مكتظ بالناس أو الأثاث",
     sentence: "The classroom was narrow and crowded, making wheelchair navigation very difficult.",
     def: "Full of too many people or objects with little space.",
@@ -9907,6 +10273,7 @@ const VOCAB_SESSION_19 = [
     definition: "To take part in an activity along with other people.",
     b1Explain: "To take part in an activity with others.",
     opposite: "withdraw",
+    arWord: "يشارك / يسهم في نشاط أو حوار تفاعلي",
     arMeaning: "يشارك وينخرط بفعالية في نشاط",
     sentence: "Accessible facilities allow every student to participate fully in extracurricular sports and clubs.",
     def: "To take part in an activity along with other people.",
@@ -9925,6 +10292,7 @@ const VOCAB_SESSION_19 = [
     definition: "Buildings, equipment, or services provided for a particular purpose.",
     b1Explain: "Rooms, equipment, and services provided in a building.",
     opposite: "obstacles",
+    arWord: "تجهيزات وتسهيلات بيئية / مرافق خدمية ميسرة",
     arMeaning: "مرافق وخدمات وتجهيزات مساعدة",
     sentence: "The office upgraded its sanitary facilities with automatic doors and emergency call cords.",
     def: "Buildings, equipment, or services provided for a particular purpose.",
@@ -9943,6 +10311,7 @@ const VOCAB_SESSION_19 = [
     definition: "Skilled at solving problems quickly with whatever tools you have.",
     b1Explain: "Good at solving problems quickly with whatever is available.",
     opposite: "helpless",
+    arWord: "مبتكر ومتحايل على الصعاب / واسع الحيلة في حل المشكلات",
     arMeaning: "واسع الحيلة وبارع في إيجاد الحلول السريعة",
     sentence: "A resourceful teacher designs engaging classroom tasks that involve every student naturally.",
     def: "Skilled at solving problems quickly with whatever tools you have.",
@@ -10243,6 +10612,7 @@ const VOCAB_SESSION_20 = [
     definition: "Words or actions used to welcome someone politely.",
     b1Explain: "Polite words or gestures used when meeting someone.",
     opposite: "farewell",
+    arWord: "تحية ترحيب / إلقاء السلام واستقبال الآخرين",
     arMeaning: "تحية وترحيب رسمي أو ودي",
     sentence: "In business culture, a firm handshake is the standard greeting.",
     def: "Words or actions used to welcome someone politely.",
@@ -10261,6 +10631,7 @@ const VOCAB_SESSION_20 = [
     definition: "A friendly remark used to start a conversation easily.",
     b1Explain: "A remark or question used to begin talking with someone.",
     opposite: "closer",
+    arWord: "افتتاحية الكلام / عبارة استهلالية لكسر الصمت وبدء الحوار",
     arMeaning: "فاتحة حديث / عبارة لبدء المحادثة",
     sentence: "Commenting on the lovely weather is a reliable conversational opener.",
     def: "A friendly remark used to start a conversation easily.",
@@ -10279,6 +10650,7 @@ const VOCAB_SESSION_20 = [
     definition: "Polite conversation about light, ordinary, or safe topics.",
     b1Explain: "Polite, friendly conversation about everyday safe topics.",
     opposite: "deep debate",
+    arWord: "محادثة خفيفة وودية / دردشة استكشافية غير رسمية",
     arMeaning: "حديث ودي عابر / دردشة خفيفة لكسر الجليد",
     sentence: "Colleagues made pleasant small talk by the office coffee machine.",
     def: "Polite conversation about light, ordinary, or safe topics.",
@@ -10297,6 +10669,7 @@ const VOCAB_SESSION_20 = [
     definition: "A non-controversial subject suitable for conversation with anyone.",
     b1Explain: "An easy subject like weather or hobbies that causes no arguments.",
     opposite: "taboo topic",
+    arWord: "موضوع حديث آمن وحيادي (كالطقس أو الرياضة)",
     arMeaning: "موضوع محايد وآمن للحديث العام",
     sentence: "The weekend weather and popular movies are safe topics for networking.",
     def: "A non-controversial subject suitable for conversation with anyone.",
@@ -10315,6 +10688,7 @@ const VOCAB_SESSION_20 = [
     definition: "A quick, witty, or polite conversational reply.",
     b1Explain: "A polite and helpful answer that keeps a conversation going.",
     opposite: "silence",
+    arWord: "رد سريع وفطن / تعليق حواري يعيد الكرة للمتحدث",
     arMeaning: "رد لبق وسريع يُكمل مجرى الحوار",
     sentence: "She offered a warm rejoinder that immediately put the guest at ease.",
     def: "A quick, witty, or polite conversational reply.",
@@ -10333,6 +10707,7 @@ const VOCAB_SESSION_20 = [
     definition: "To expand or add details to keep a conversation moving.",
     b1Explain: "To add information so the conversation does not stop awkwardly.",
     opposite: "cut short",
+    arWord: "يطور / ينمي الفكرة ويوسع مجرى الحديث / يتطور",
     arMeaning: "يطوّر ويُثري الحديث بمعلومات إضافية",
     sentence: "Always develop the conversation by asking follow-up questions.",
     def: "To expand or add details to keep a conversation moving.",
@@ -10351,6 +10726,7 @@ const VOCAB_SESSION_20 = [
     definition: "Achieving good and useful results without wasting time.",
     b1Explain: "Achieving good, successful results with practical outcomes.",
     opposite: "unproductive",
+    arWord: "مثمر ومنتج / محقق للنتائج والفوائد المرجوة",
     arMeaning: "مثمر وفعال ومحقق لنتائج عملية",
     sentence: "Both directors agreed the morning business meeting had been highly productive.",
     def: "Achieving good and useful results without wasting time.",
@@ -10369,6 +10745,7 @@ const VOCAB_SESSION_20 = [
     definition: "A person who receives or entertains guests.",
     b1Explain: "Someone who invites guests and welcomes them warmly.",
     opposite: "guest",
+    arWord: "مضيف اللقاء أو الدعوة / يستضيف ضيفاً أو برنامجاً",
     arMeaning: "مُضيف يستقبل الزوار والضيوف",
     sentence: "Our host provided coffee and introduced us to company executives.",
     def: "A person who receives or entertains guests.",
@@ -10387,6 +10764,7 @@ const VOCAB_SESSION_20 = [
     definition: "Someone who visits a person or place temporarily.",
     b1Explain: "A person visiting a company, city, or friend.",
     opposite: "resident",
+    arWord: "زائر / ضيف وافد من مكان آخر",
     arMeaning: "زائر مؤقت لمكان أو مؤسسة",
     sentence: "The international visitor scheduled three factory tours during her stay.",
     def: "Someone who visits a person or place temporarily.",
@@ -10405,6 +10783,7 @@ const VOCAB_SESSION_20 = [
     definition: "A feeling of happiness, satisfaction, or enjoyment.",
     b1Explain: "A feeling of joy and polite satisfaction.",
     opposite: "displeasure",
+    arWord: "سرور وسعادة بالغة / دواعي سروري وشرف لي",
     arMeaning: "متعة وسعادة وشرف بالتعارف والتعاون",
     sentence: "It has truly been a pleasure working alongside your marketing team.",
     def: "A feeling of happiness, satisfaction, or enjoyment.",
@@ -10423,6 +10802,7 @@ const VOCAB_SESSION_20 = [
     definition: "Friendly greetings sent through another person.",
     b1Explain: "Warm greetings and good wishes passed on to someone.",
     opposite: "disrespect",
+    arWord: "تحيات حارة / أطيب السلام والتمنيات العطرة",
     arMeaning: "تحيات وسلامات وود يُرسل للغير",
     sentence: "Please give my warmest regards to your family when you return.",
     def: "Friendly greetings sent through another person.",
@@ -10441,6 +10821,7 @@ const VOCAB_SESSION_20 = [
     definition: "To continue communicating with someone regularly over time.",
     b1Explain: "To stay in contact by calling, texting, or emailing.",
     opposite: "lose contact",
+    arWord: "يبقى على تواصل / يحافظ على الاتصال والمودة",
     arMeaning: "يبقى على تواصل واتصال مستمر",
     sentence: "Don\'t be a stranger after graduation; let\'s keep in touch!",
     def: "To continue communicating with someone regularly over time.",
@@ -10459,6 +10840,7 @@ const VOCAB_SESSION_20 = [
     definition: "To see someone casually from time to time.",
     b1Explain: "To meet someone informally when you cross paths nearby.",
     opposite: "never meet",
+    arWord: "أراك لاحقاً بالجوار / نلتقي قريباً في المكان",
     arMeaning: "أراك لاحقاً بالجوار / نلتقي قريباً",
     sentence: "I work just across the street, so I\'ll see you around.",
     def: "To see someone casually from time to time.",
@@ -10477,6 +10859,7 @@ const VOCAB_SESSION_20 = [
     definition: "A polite wish for someone traveling to arrive safely.",
     b1Explain: "A friendly farewell wishing a traveler a safe trip.",
     opposite: "rough travel",
+    arWord: "رحلة آمنة وموفقة / سفراً سالماً ميموناً",
     arMeaning: "رحلة آمنة وموفقة بإذن الله",
     sentence: "Have a wonderful flight back to London and safe journey!",
     def: "A polite wish for someone traveling to arrive safely.",
@@ -10495,6 +10878,7 @@ const VOCAB_SESSION_20 = [
     definition: "To leave or depart from a place.",
     b1Explain: "To leave right now and start traveling home.",
     opposite: "stay put",
+    arWord: "يستعد للانصراف / ينطلق مغادراً المكان في الحال",
     arMeaning: "يغادر وينصرف في الحال",
     sentence: "It is getting quite late, so I\'ll be off then.",
     def: "To leave or depart from a place.",
@@ -10513,6 +10897,7 @@ const VOCAB_SESSION_20 = [
     definition: "A polite way to announce that you must depart.",
     b1Explain: "A polite phrase meaning it is time to leave.",
     opposite: "stay longer",
+    arWord: "حان وقت المغادرة / ينبغي عليّ الرحيل والذهاب الآن",
     arMeaning: "حريٌّ بي أن أنصرف الآن / حان وقت ذهابي",
     sentence: "Look at the clock; I\'d better be going before traffic starts.",
     def: "A polite way to announce that you must depart.",
@@ -10531,6 +10916,7 @@ const VOCAB_SESSION_20 = [
     definition: "Contact or communication maintained between people.",
     b1Explain: "Regular contact and communication through calls or messages.",
     opposite: "isolation",
+    arWord: "لمس / تواصل واحتكاك / يؤثر وجدانياً",
     arMeaning: "تواصل واتصال بالأخبار والمستجدات",
     sentence: "Send me an email next week so we can stay in touch.",
     def: "Contact or communication maintained between people.",
@@ -10549,6 +10935,7 @@ const VOCAB_SESSION_20 = [
     definition: "To acquire practical knowledge through working in a field.",
     b1Explain: "To learn practical work skills by doing a job.",
     opposite: "lack practice",
+    arWord: "يكتسب خبرة عملية وتجربة حياتية جديدة",
     arMeaning: "يكتسب خبرة عملية وتطبيقية",
     sentence: "Internships are an excellent method to gain experience in software development.",
     def: "To acquire practical knowledge through working in a field.",
@@ -10567,6 +10954,7 @@ const VOCAB_SESSION_20 = [
     definition: "To receive payment in exchange for your work.",
     b1Explain: "To get paid wages or salary for your work.",
     opposite: "lose money",
+    arWord: "يكسب المال / يجني أرباحاً وراتباً من جهده",
     arMeaning: "يكسب مالاً لقاء جهده وعمله",
     sentence: "Students take part-time jobs on weekends to earn money for textbooks.",
     def: "To receive payment in exchange for your work.",
@@ -10585,6 +10973,7 @@ const VOCAB_SESSION_20 = [
     definition: "To feel sorry or sad about an action you did.",
     b1Explain: "To feel sad or sorry about something you did.",
     opposite: "celebrate",
+    arWord: "يندم على ما فات / يأسف ويتحسر على فرصة ضائعة",
     arMeaning: "يندم على فعل قام به سابقاً",
     sentence: "Do you ever regret changing careers to enter web design?",
     def: "To feel sorry or sad about an action you did.",
@@ -10603,6 +10992,7 @@ const VOCAB_SESSION_20 = [
     definition: "A characteristic style of cooking and regional food.",
     b1Explain: "A country's special traditional style of preparing food.",
     opposite: "plain meal",
+    arWord: "فن الطهي / المطبخ التقليدي لبلد أو ثقافة معينة",
     arMeaning: "فنون الطهي والمطبخ المميز لبلد ما",
     sentence: "Italian cuisine is famous for handmade pasta and fresh olive oil.",
     def: "A characteristic style of cooking and regional food.",
@@ -10621,6 +11011,7 @@ const VOCAB_SESSION_20 = [
     definition: "Unable to stop thinking about something you like.",
     b1Explain: "Thinking about someone or something all the time with passion.",
     opposite: "uninterested in",
+    arWord: "مهووس بـ / مولع وشديد التعلق بشيء لدرجة الهوس",
     arMeaning: "مهووس ومولع بشدة بشيء ما",
     sentence: "My teenage brother is completely obsessed with football video games.",
     def: "Unable to stop thinking about something you like.",
@@ -10639,6 +11030,7 @@ const VOCAB_SESSION_20 = [
     definition: "High quality, exquisite food prepared with great skill.",
     b1Explain: "Delicious, premium food prepared by expert chefs.",
     opposite: "fast food",
+    arWord: "ذواقة طعام / أطباق فاخرة عالية التميز والجودة",
     arMeaning: "طعام فاخر وعالي الجودة وممتاز الصنع",
     sentence: "They treated their international guests to an elegant gourmet dinner.",
     def: "High quality, exquisite food prepared with great skill.",
@@ -10657,6 +11049,7 @@ const VOCAB_SESSION_20 = [
     definition: "A situation where you feel safe, comfortable, and confident.",
     b1Explain: "Familiar situations where you feel secure and comfortable.",
     opposite: "stressful challenge",
+    arWord: "منطقة الراحة والأمان النفسي والاعتياد",
     arMeaning: "منطقة الراحة والأمان المعتادة",
     sentence: "Giving speeches in English pushed him outside his usual comfort zone.",
     def: "A situation where you feel safe, comfortable, and confident.",
@@ -10675,6 +11068,7 @@ const VOCAB_SESSION_20 = [
     definition: "An outgoing person who enjoys socializing with many people.",
     b1Explain: "An outgoing, friendly person who loves chatting with everyone.",
     opposite: "loner",
+    arWord: "فراشة اجتماعية / شخص شديد الاندماج ومحب للتعارف",
     arMeaning: "شخص اجتماعي جداً ومتألق في المناسبات",
     sentence: "Sarah is a real social butterfly; she talks effortlessly to everyone at parties.",
     def: "An outgoing person who enjoys socializing with many people.",
@@ -10693,6 +11087,7 @@ const VOCAB_SESSION_20 = [
     definition: "A person who knows and speaks many languages fluently.",
     b1Explain: "A person who speaks four or more foreign languages fluently.",
     opposite: "monolingual",
+    arWord: "متحدث بلغات متعددة / ضليع في عدة ألسن",
     arMeaning: "متعدد اللغات / طليق في عدة ألسن",
     sentence: "Our conference interpreter is a remarkable polyglot who speaks six languages.",
     def: "A person who knows and speaks many languages fluently.",
@@ -10711,6 +11106,7 @@ const VOCAB_SESSION_20 = [
     definition: "To learn a new skill or hobby naturally.",
     b1Explain: "To learn a skill easily without taking formal classes.",
     opposite: "give up",
+    arWord: "يلتقط / يتعلم لغة عفوياً / يستقبل شخصاً بسيارة",
     arMeaning: "يكتسب مهارة أو هواية جديدة بسهولة",
     sentence: "He was able to pick up guitar chords quickly during summer vacation.",
     def: "To learn a new skill or hobby naturally.",
@@ -10729,6 +11125,7 @@ const VOCAB_SESSION_20 = [
     definition: "To accept a new challenge, degree, or responsibility.",
     b1Explain: "To accept a difficult task, job, or degree program.",
     opposite: "refuse",
+    arWord: "يتولى مسؤولية جديدة / يقبل تحدياً / يوظف عاملاً",
     arMeaning: "يتحمل مسؤولية / يخوض تحدياً دراسياً أو عملياً",
     sentence: "She decided to take on a Master's degree while continuing to work full-time.",
     def: "To accept a new challenge, degree, or responsibility.",
