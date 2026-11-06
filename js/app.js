@@ -956,20 +956,7 @@ function initPart1() {
     flipAndRender();
   });
 
-  // Audio Accent Mode Listeners (UK / US)
-  const btnAccentUK = document.getElementById('btnAccentUK');
-  const btnAccentUS = document.getElementById('btnAccentUS');
-
-  btnAccentUK?.addEventListener('click', () => {
-    setPreferredAccent('uk');
-  });
-
-  btnAccentUS?.addEventListener('click', () => {
-    setPreferredAccent('us');
-  });
-
   updateModeButtons();
-  updateAccentButtons();
   renderCard();
   startCardTimer();
 
@@ -1142,11 +1129,13 @@ function renderCard() {
           ${isOnFront ? '📖 DEFINITION (GUESS THE WORD)' : '📖 DEFINITION REVEALED'}
         </span>
         <div class="accent-voice-dual-group">
-          <button class="voice-dual-btn btn-play-def-uk" title="Listen to Definition in British English (UK)">
-            <span class="flag-icon">🇬🇧</span> UK
+          <button class="voice-dual-btn btn-play-def-uk" title="Listen in British English (UK)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            <span>UK</span>
           </button>
-          <button class="voice-dual-btn btn-play-def-us" title="Listen to Definition in American English (US)">
-            <span class="flag-icon">🇺🇸</span> US
+          <button class="voice-dual-btn btn-play-def-us" title="Listen in American English (US)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            <span>US</span>
           </button>
         </div>
       </div>
@@ -1159,18 +1148,20 @@ function renderCard() {
         💡 <strong>B1 Explanation:</strong> ${item.b1Explain}
       </div>
 
-      <!-- Prominent Arabic Meaning Box -->
-      <div class="card-arabic-meaning-box" dir="rtl">
-        <span class="card-arabic-label">المعنى بالعربية:</span>
-        <span class="card-arabic-text">${item.arMeaning || ''}</span>
-      </div>
+      <!-- Definition Extras Row: Opposite + Compact Arabic Box in Same Row -->
+      <div class="card-def-middle-row">
+        ${item.opposite ? `
+        <div class="card-opposite-pill-box">
+          <span class="opposite-label">⚡ Opposite / Antonym:</span>
+          <strong class="opposite-val">${item.opposite}</strong>
+        </div>
+        ` : '<div></div>'}
 
-      ${item.opposite ? `
-      <div class="card-opposite-pill-box">
-        <span class="opposite-label">⚡ Opposite / Antonym:</span>
-        <strong class="opposite-val">${item.opposite}</strong>
+        <div class="card-arabic-side-box" dir="rtl">
+          <span class="card-arabic-tag">المعنى بالعربية:</span>
+          <span class="card-arabic-text">${item.arMeaning || ''}</span>
+        </div>
       </div>
-      ` : ''}
 
       <div class="back-example-sentence-box">
         <div class="back-sentence-row">
@@ -1178,8 +1169,14 @@ function renderCard() {
             ${isOnFront ? '💼 Workplace Sentence (Fill the blank):' : '💼 Workplace Sentence:'}
           </span>
           <div class="accent-voice-mini-group">
-            <button class="voice-mini-btn btn-play-sentence-uk" title="Sentence in UK English">🇬🇧 UK</button>
-            <button class="voice-mini-btn btn-play-sentence-us" title="Sentence in US English">🇺🇸 US</button>
+            <button class="voice-mini-btn btn-play-sentence-uk" title="Sentence in UK English">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+              <span>UK</span>
+            </button>
+            <button class="voice-mini-btn btn-play-sentence-us" title="Sentence in US English">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+              <span>US</span>
+            </button>
           </div>
         </div>
         <p class="back-sentence-quote">
@@ -1211,29 +1208,34 @@ function renderCard() {
           ${isOnFront ? '🔤 TARGET WORD' : '✓ THE WORD REVEALED'}
         </span>
         <div class="accent-voice-dual-group">
-          <button class="voice-dual-btn btn-play-word-uk" title="Listen to Word in British English (UK)">
-            <span class="flag-icon">🇬🇧</span> UK
+          <button class="voice-dual-btn btn-play-word-uk" title="Listen in British English (UK)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            <span>UK</span>
           </button>
-          <button class="voice-dual-btn btn-play-word-us" title="Listen to Word in American English (US)">
-            <span class="flag-icon">🇺🇸</span> US
+          <button class="voice-dual-btn btn-play-word-us" title="Listen in American English (US)">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            <span>US</span>
           </button>
         </div>
       </div>
 
-      <h3 class="card-word-title">
-        ${item.word}
-      </h3>
+      <!-- Word & Arabic Meaning in the SAME ROW -->
+      <div class="card-word-arabic-row">
+        <div class="card-word-left-col">
+          <h3 class="card-word-title">
+            ${item.word}
+          </h3>
+          <div class="card-phonetic-row">
+            <span class="phonetic-val">${item.pronunciation}</span>
+            <span class="phonetic-dot">•</span>
+            <span class="phonetic-pos">${item.pos}</span>
+          </div>
+        </div>
 
-      <div class="card-phonetic-row">
-        <span class="phonetic-val">${item.pronunciation}</span>
-        <span class="phonetic-dot">•</span>
-        <span class="phonetic-pos">${item.pos}</span>
-      </div>
-
-      <!-- Prominent Arabic Meaning Box -->
-      <div class="card-arabic-meaning-box" dir="rtl">
-        <span class="card-arabic-label">المعنى بالعربية:</span>
-        <span class="card-arabic-text">${item.arMeaning || ''}</span>
+        <div class="card-arabic-side-box" dir="rtl">
+          <span class="card-arabic-tag">المعنى بالعربية:</span>
+          <span class="card-arabic-text">${item.arMeaning || ''}</span>
+        </div>
       </div>
 
       ${item.opposite ? `
@@ -1253,8 +1255,14 @@ function renderCard() {
         <div class="back-sentence-row">
           <span class="back-label">💼 Full Workplace Sentence:</span>
           <div class="accent-voice-mini-group">
-            <button class="voice-mini-btn btn-play-sentence-uk" title="Sentence in UK English">🇬🇧 UK</button>
-            <button class="voice-mini-btn btn-play-sentence-us" title="Sentence in US English">🇺🇸 US</button>
+            <button class="voice-mini-btn btn-play-sentence-uk" title="Sentence in UK English">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+              <span>UK</span>
+            </button>
+            <button class="voice-mini-btn btn-play-sentence-us" title="Sentence in US English">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-1px;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+              <span>US</span>
+            </button>
           </div>
         </div>
         <p class="back-sentence-quote">
@@ -1324,7 +1332,7 @@ function attachCardAudio(plane, item) {
     });
   });
 
-  // Fallback triggers respecting preferredAccent
+  // Fallback triggers
   plane.querySelectorAll('.btn-play-def:not(.btn-play-def-uk):not(.btn-play-def-us)').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
