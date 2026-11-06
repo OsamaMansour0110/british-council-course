@@ -11418,6 +11418,1471 @@ const SESSION_20_NOTEBOOK_PAGES = [
 ];
 
 
+
+
+/* ==========================================================================
+   SESSION 21: THE VALUE OF SPORT (FOCUS ON FLUENCY)
+   British Council Intermediate B1 • Focus on Fluency
+   Handout ID: ARB_B1_08_I095CEU_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_21 = [
+  {
+    id: 2101,
+    word: "triathlon",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/traɪˈæθ.lɒn/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "A race where athletes swim, cycle, and run long distances one after another.",
+    b1Explain: "A multi-sport race that combines swimming, cycling, and running.",
+    opposite: "single-sport race",
+    arWord: "ترياثلون / سباق ثلاثي (سباحة، دراجات، ركض)",
+    arMeaning: "سباق رياضي ثلاثي يشمل السباحة وركوب الدراجات والجري",
+    sentence: "Anthony started training for his first triathlon at the age of fifty-five.",
+    def: "A race where athletes swim, cycle, and run long distances one after another.",
+    context: "Anthony started training for his first triathlon at the age of fifty-five.",
+    ar: "سباق رياضي ثلاثي يشمل السباحة وركوب الدراجات والجري",
+    phonetic: "/traɪˈæθ.lɒn/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2102,
+    word: "weightlifting",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈweɪtˌlɪf.tɪŋ/",
+    citation: "Handout Page 1 & Smartboard Slide 6",
+    definition: "A sport where you lift heavy metal bars to build strength and muscle.",
+    b1Explain: "Exercising by lifting heavy weights to build strong muscles.",
+    opposite: "aerobics / light cardio",
+    arWord: "رفع الأثقال / رياضة حمل الأوزان والحديد",
+    arMeaning: "رياضة رفع الأوزان الثقيلة لبناء القوة والعضلات",
+    sentence: "Sue took up weightlifting at university to increase her physical stamina.",
+    def: "A sport where you lift heavy metal bars to build strength and muscle.",
+    context: "Sue took up weightlifting at university to increase her physical stamina.",
+    ar: "رياضة رفع الأوزان الثقيلة لبناء القوة والعضلات",
+    phonetic: "/ˈweɪtˌlɪf.tɪŋ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2103,
+    word: "switch off",
+    pos: "phrasal verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/swɪtʃ ɒf/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "To stop thinking about work or daily stress and completely relax your mind.",
+    b1Explain: "To turn off your mental stress and focus on relaxing.",
+    opposite: "stress out / obsess over",
+    arWord: "يفصل عن التفكير / يسترخي / يوقف التوتر / يغلق جهازاً",
+    arMeaning: "التوقف عن التفكير في ضغوط العمل والاسترخاء الذهني",
+    sentence: "Going to the gym helps me switch off from the stress of a busy workday.",
+    def: "To stop thinking about work or daily stress and completely relax your mind.",
+    context: "Going to the gym helps me switch off from the stress of a busy workday.",
+    ar: "التوقف عن التفكير في ضغوط العمل والاسترخاء الذهني",
+    phonetic: "/swɪtʃ ɒf/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2104,
+    word: "take up",
+    pos: "phrasal verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/teɪk ʌp/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "To start doing a new hobby, sport, or activity for the first time.",
+    b1Explain: "To begin practicing a new sport or regular activity.",
+    opposite: "give up / quit",
+    arWord: "يبدأ ممارسة / يخوض نشاطاً جديداً / يشغل وقتاً أو حيزاً",
+    arMeaning: "البدء في ممارسة رياضة أو هواية جديدة لأول مرة",
+    sentence: "My friend suggested I come down to the club and take up running.",
+    def: "To start doing a new hobby, sport, or activity for the first time.",
+    context: "My friend suggested I come down to the club and take up running.",
+    ar: "البدء في ممارسة رياضة أو هواية جديدة لأول مرة",
+    phonetic: "/teɪk ʌp/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2105,
+    word: "hooked on",
+    pos: "adjective phrase",
+    cambridgeLevel: "B2",
+    pronunciation: "/hʊkt ɒn/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "Extremely excited about an activity and wanting to do it as much as possible.",
+    b1Explain: "Feeling so enthusiastic about an activity that you cannot stop doing it.",
+    opposite: "bored with / indifferent to",
+    arWord: "شديد التعلق بـ / مهووس ومتحمس للغاية / مدمن إيجابياً على",
+    arMeaning: "التعلق الشديد بنشاط معين والمداومة عليه بشغف",
+    sentence: "After training for only two weeks, Sue was completely hooked on weightlifting.",
+    def: "Extremely excited about an activity and wanting to do it as much as possible.",
+    context: "After training for only two weeks, Sue was completely hooked on weightlifting.",
+    ar: "التعلق الشديد بنشاط معين والمداومة عليه بشغف",
+    phonetic: "/hʊkt ɒn/",
+    partOfSpeech: "adjective phrase"
+  },
+  {
+    id: 2106,
+    word: "burn off",
+    pos: "phrasal verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/bɜːn ɒf/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "To use up physical energy or calories through intense exercise or movement.",
+    b1Explain: "To get rid of extra energy or body fat through exercise.",
+    opposite: "store fat / gain weight",
+    arWord: "يحرق سعرات حرارية / يستهلك طاقة الجسم / يتخلص من الدهون",
+    arMeaning: "حرق السعرات الحرارية والتخلص من الطاقة الزائدة بالرياضة",
+    sentence: "An intensive training session helps burn off excess calories quickly.",
+    def: "To use up physical energy or calories through intense exercise or movement.",
+    context: "An intensive training session helps burn off excess calories quickly.",
+    ar: "حرق السعرات الحرارية والتخلص من الطاقة الزائدة بالرياضة",
+    phonetic: "/bɜːn ɒf/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2107,
+    word: "build up",
+    pos: "phrasal verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/bɪld ʌp/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "To gradually increase your physical strength, muscle mass, or endurance over time.",
+    b1Explain: "To make your muscles or stamina stronger step by step.",
+    opposite: "weaken / lose muscle",
+    arWord: "يبني / يقوي تدريجياً / ينمي عضلات ولياقة",
+    arMeaning: "تقوية العضلات وبناء اللياقة البدنية والتحمل تدريجياً",
+    sentence: "Lifting weights regularly will build up your muscle strength and bone density.",
+    def: "To gradually increase your physical strength, muscle mass, or endurance over time.",
+    context: "Lifting weights regularly will build up your muscle strength and bone density.",
+    ar: "تقوية العضلات وبناء اللياقة البدنية والتحمل تدريجياً",
+    phonetic: "/bɪld ʌp/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2108,
+    word: "hard on",
+    pos: "adjective phrase",
+    cambridgeLevel: "B2",
+    pronunciation: "/hɑːd ɒn/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "Causing strain, wear, or physical stress to delicate joints like knees and ankles.",
+    b1Explain: "Putting painful pressure or strain on parts of the body.",
+    opposite: "gentle on / joint-friendly",
+    arWord: "شديد الإجهاد على / مجهد للمفاصل / قاسٍ على الركبتين",
+    arMeaning: "مجهد ويسبب ضغطاً وألماً على المفاصل والأربطة",
+    sentence: "Long-distance running on concrete pavements can be very hard on the knees.",
+    def: "Causing strain, wear, or physical stress to delicate joints like knees and ankles.",
+    context: "Long-distance running on concrete pavements can be very hard on the knees.",
+    ar: "مجهد ويسبب ضغطاً وألماً على المفاصل والأربطة",
+    phonetic: "/hɑːd ɒn/",
+    partOfSpeech: "adjective phrase"
+  },
+  {
+    id: 2109,
+    word: "stamina",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈstæm.ɪ.nə/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "The physical or mental energy to keep doing hard exercise for a long time.",
+    b1Explain: "The power to keep running or exercising without getting tired quickly.",
+    opposite: "exhaustion / fatigue",
+    arWord: "قوة التحمل / طاقة الصمود والاستمرار / جلد بدني",
+    arMeaning: "القدرة البدنية على مواصلة الجهد الشاق لفترة طويلة",
+    sentence: "Triathlon athletes need extraordinary stamina to finish the swimming, cycling, and running.",
+    def: "The physical or mental energy to keep doing hard exercise for a long time.",
+    context: "Triathlon athletes need extraordinary stamina to finish the swimming, cycling, and running.",
+    ar: "القدرة البدنية على مواصلة الجهد الشاق لفترة طويلة",
+    phonetic: "/ˈstæm.ɪ.nə/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2110,
+    word: "endurance",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ɪnˈdʒʊə.rəns/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "The ability to suffer difficult physical pain or tiredness without giving up.",
+    b1Explain: "Continuing through hard physical effort over long distances.",
+    opposite: "fragility / giving up",
+    arWord: "صمود / قدرة التحمل / صيرورة وطول نفس",
+    arMeaning: "القدرة على تحمل المشاق والإرهاق دون استسلام",
+    sentence: "Marathon runners train for months to develop their cardiovascular endurance.",
+    def: "The ability to suffer difficult physical pain or tiredness without giving up.",
+    context: "Marathon runners train for months to develop their cardiovascular endurance.",
+    ar: "القدرة على تحمل المشاق والإرهاق دون استسلام",
+    phonetic: "/ɪnˈdʒʊə.rəns/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2111,
+    word: "downside",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈdaʊn.saɪd/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "The disadvantage, negative aspect, or drawback of a situation or sport.",
+    b1Explain: "A negative point or disadvantage of an activity.",
+    opposite: "upside / benefit",
+    arWord: "جانب سلبي / عيب / نقيصة / وجه غير محبذ",
+    arMeaning: "الجانب السلبي أو العيب في نشاط أو قرار",
+    sentence: "The only downside of intense training is the high risk of joint injuries.",
+    def: "The disadvantage, negative aspect, or drawback of a situation or sport.",
+    context: "The only downside of intense training is the high risk of joint injuries.",
+    ar: "الجانب السلبي أو العيب في نشاط أو قرار",
+    phonetic: "/ˈdaʊn.saɪd/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2112,
+    word: "benefit",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈben.ɪ.fɪt/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "A helpful, positive, or healthy result that improves your life or fitness.",
+    b1Explain: "A good, positive advantage that you get from doing something.",
+    opposite: "drawback / harm",
+    arWord: "فائدة / ميزة / منفعة صحية / نفع",
+    arMeaning: "فائدة وميزة إيجابية تعود على الصحة أو النفس",
+    sentence: "Regular exercise offers both physical health benefits and social connection.",
+    def: "A helpful, positive, or healthy result that improves your life or fitness.",
+    context: "Regular exercise offers both physical health benefits and social connection.",
+    ar: "فائدة وميزة إيجابية تعود على الصحة أو النفس",
+    phonetic: "/ˈben.ɪ.fɪt/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2113,
+    word: "in good shape",
+    pos: "idiom / phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪn ɡʊd ʃeɪp/",
+    citation: "Smartboard Slide 9 (Anthony's Benefits)",
+    definition: "Being healthy, physically fit, and having a strong, active body.",
+    b1Explain: "Having a fit, healthy body from exercising regularly.",
+    opposite: "out of shape / unfit",
+    arWord: "في لياقة بدنية ممتازة / بصحة جيدة وجسم رشيق",
+    arMeaning: "التمتع بلياقة بدنية وصحية عالية وجسم قوي",
+    sentence: "Training three days a week keeps Anthony in good shape in his sixties.",
+    def: "Being healthy, physically fit, and having a strong, active body.",
+    context: "Training three days a week keeps Anthony in good shape in his sixties.",
+    ar: "التمتع بلياقة بدنية وصحية عالية وجسم قوي",
+    phonetic: "/ɪn ɡʊd ʃeɪp/",
+    partOfSpeech: "idiom / phrase"
+  },
+  {
+    id: 2114,
+    word: "come down",
+    pos: "phrasal verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/kʌm daʊn/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "To travel or visit a local venue or club to join others.",
+    b1Explain: "To visit a place or club to take part in an activity.",
+    opposite: "stay away / depart",
+    arWord: "يأتي لزيارة / ينزل للنادي / ينضم إلى لقاء",
+    arMeaning: "القدوم إلى مكان أو نادٍ للانضمام إلى مجموعة",
+    sentence: "Why don't you come down to the sports hall on Saturday and meet the team?",
+    def: "To travel or visit a local venue or club to join others.",
+    context: "Why don't you come down to the sports hall on Saturday and meet the team?",
+    ar: "القدوم إلى مكان أو نادٍ للانضمام إلى مجموعة",
+    phonetic: "/kʌm daʊn/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2115,
+    word: "keep off",
+    pos: "phrasal verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/kiːp ɒf/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "To prevent extra body weight or fat from returning after you lose it.",
+    b1Explain: "To make sure unwanted weight does not come back.",
+    opposite: "gain back weight / regain pounds",
+    arWord: "يمنع رجوع الوزن / يحافظ على ثبات الوزن / يتجنب السمنة",
+    arMeaning: "منع عودة الوزن الزائد بعد فقدانه والحفاظ على الرشاقة",
+    sentence: "A balanced diet combined with lifting weights helps keep the weight off permanently.",
+    def: "To prevent extra body weight or fat from returning after you lose it.",
+    context: "A balanced diet combined with lifting weights helps keep the weight off permanently.",
+    ar: "منع عودة الوزن الزائد بعد فقدانه والحفاظ على الرشاقة",
+    phonetic: "/kiːp ɒf/",
+    partOfSpeech: "phrasal verb"
+  },
+  {
+    id: 2116,
+    word: "energetic",
+    pos: "adjective",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌen.əˈdʒet.ɪk/",
+    citation: "Smartboard Slide 17 (Teacher Clinic)",
+    definition: "Full of vitality, active power, and enthusiasm; never feeling slow or tired.",
+    b1Explain: "Having lots of energy and eager to move or be active.",
+    opposite: "lethargic / sluggish",
+    arWord: "مفعم بالحيوية / نشيط / ذو طاقة متجددة / حماسي",
+    arMeaning: "مليء بالنشاط والحيوية والطاقة الإيجابية",
+    sentence: "Exercising in the morning makes you feel alert and energetic throughout the whole day.",
+    def: "Full of vitality, active power, and enthusiasm; never feeling slow or tired.",
+    context: "Exercising in the morning makes you feel alert and energetic throughout the whole day.",
+    ar: "مليء بالنشاط والحيوية والطاقة الإيجابية",
+    phonetic: "/ˌen.əˈdʒet.ɪk/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2117,
+    word: "sprint distance",
+    pos: "compound noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/sprɪnt ˈdɪs.təns/",
+    citation: "Smartboard Slide 9 (Triathlon Distances)",
+    definition: "A shorter race format designed for speed rather than very long endurance.",
+    b1Explain: "A shorter sports race distance where athletes go as fast as possible.",
+    opposite: "marathon distance",
+    arWord: "مسافة السرعة القصيرة / سباق المسافات القصيرة",
+    arMeaning: "سباق بمسافات قصيرة يركز على السرعة بدلاً من التحمل الطويل",
+    sentence: "A sprint distance triathlon consists of a 750-meter swim, 20-kilometer cycle, and 5-kilometer run.",
+    def: "A shorter race format designed for speed rather than very long endurance.",
+    context: "A sprint distance triathlon consists of a 750-meter swim, 20-kilometer cycle, and 5-kilometer run.",
+    ar: "سباق بمسافات قصيرة يركز على السرعة بدلاً من التحمل الطويل",
+    phonetic: "/sprɪnt ˈdɪs.təns/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2118,
+    word: "Olympic distance",
+    pos: "compound noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/əˈlɪm.pɪk ˈdɪs.təns/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "The official international triathlon standard: 1.5km swim, 40km bike, and 10km run.",
+    b1Explain: "The standard triathlon distance used in the Olympic Games.",
+    opposite: "ironman distance",
+    arWord: "المسافة الأولمبية القياسية / السباق الأولمبي المعتمد",
+    arMeaning: "المسافة الأولمبية الرسمية للسباق الثلاثي",
+    sentence: "Anthony competed in the Olympic distance triathlon, finishing in under three hours.",
+    def: "The official international triathlon standard: 1.5km swim, 40km bike, and 10km run.",
+    context: "Anthony competed in the Olympic distance triathlon, finishing in under three hours.",
+    ar: "المسافة الأولمبية الرسمية للسباق الثلاثي",
+    phonetic: "/əˈlɪm.pɪk ˈdɪs.təns/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2119,
+    word: "recommend",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌrek.əˈmend/",
+    citation: "Handout Page 2 (Presenter Questions)",
+    definition: "To suggest an activity or sport to someone because you believe it is good.",
+    b1Explain: "To tell someone that a sport or activity is great to try.",
+    opposite: "discourage / warn against",
+    arWord: "يوصي بـ / يرشح / ينصح بتجربة شيء",
+    arMeaning: "تزكية ونصح الآخرين بممارسة رياضة أو خوض تجربة",
+    sentence: "Sue would definitely recommend weightlifting to other young women wanting to feel strong.",
+    def: "To suggest an activity or sport to someone because you believe it is good.",
+    context: "Sue would definitely recommend weightlifting to other young women wanting to feel strong.",
+    ar: "تزكية ونصح الآخرين بممارسة رياضة أو خوض تجربة",
+    phonetic: "/ˌrek.əˈmend/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 2120,
+    word: "injury",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈɪn.dʒər.i/",
+    citation: "Handout Page 1 (Exercise 2)",
+    definition: "Physical damage to your body, muscles, or bones caused by an accident or exercise.",
+    b1Explain: "Harm or damage done to your body during physical training.",
+    opposite: "recovery / wellness",
+    arWord: "إصابة بدنية / أذى جسدي / تمزق أو جرح",
+    arMeaning: "إصابة أو ضرر جسدي يحدث للعضلات أو العظام أثناء التمرين",
+    sentence: "Warming up thoroughly before heavy squats helps prevent serious knee injuries.",
+    def: "Physical damage to your body, muscles, or bones caused by an accident or exercise.",
+    context: "Warming up thoroughly before heavy squats helps prevent serious knee injuries.",
+    ar: "إصابة أو ضرر جسدي يحدث للعضلات أو العظام أثناء التمرين",
+    phonetic: "/ˈɪn.dʒər.i/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2121,
+    word: "climbing",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈklaɪ.mɪŋ/",
+    citation: "Handout Page 1 (Lead-in Activities)",
+    definition: "The sport of using your hands and feet to ascend steep rock walls or mountains.",
+    b1Explain: "The activity of going up steep rocks or artificial climbing walls.",
+    opposite: "descending / base walking",
+    arWord: "تسلق الجبال والصخور / رياضة الصعود العمودي",
+    arMeaning: "رياضة تسلق المرتفعات أو الجدران الصخرية باستخدام اليدين والقدمين",
+    sentence: "Indoor rock climbing builds tremendous grip strength and upper body power.",
+    def: "The sport of using your hands and feet to ascend steep rock walls or mountains.",
+    context: "Indoor rock climbing builds tremendous grip strength and upper body power.",
+    ar: "رياضة تسلق المرتفعات أو الجدران الصخرية باستخدام اليدين والقدمين",
+    phonetic: "/ˈklaɪ.mɪŋ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2122,
+    word: "cycling",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈsaɪ.klɪŋ/",
+    citation: "Handout Page 1 (Lead-in Activities)",
+    definition: "The sport or activity of riding a bicycle for fitness or racing.",
+    b1Explain: "Riding a bike on roads or tracks for exercise.",
+    opposite: "driving / walking",
+    arWord: "ركوب الدراجات / سباق الدراجات الهوائية",
+    arMeaning: "رياضة ركوب الدراجات الهوائية للتنقل أو اللياقة البدنية",
+    sentence: "Cycling along scenic country lanes is Anthony's favorite part of triathlon training.",
+    def: "The sport or activity of riding a bicycle for fitness or racing.",
+    context: "Cycling along scenic country lanes is Anthony's favorite part of triathlon training.",
+    ar: "رياضة ركوب الدراجات الهوائية للتنقل أو اللياقة البدنية",
+    phonetic: "/ˈsaɪ.klɪŋ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2123,
+    word: "bowling",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈbəʊ.lɪŋ/",
+    citation: "Handout Page 1 (Lead-in Activities)",
+    definition: "A game where players roll a heavy ball down a lane to knock down pins.",
+    b1Explain: "A social sport where you roll a ball to knock down ten wooden pins.",
+    opposite: "athletics / combat sports",
+    arWord: "البولينج / لعبة دحرجة الكرة لإسقاط الأوتاد",
+    arMeaning: "لعبة دحرجة كرة ثقيلة في مسار خشبي لإسقاط الأهداف العشرة",
+    sentence: "Our office team went ten-pin bowling on Friday for a relaxing social evening.",
+    def: "A game where players roll a heavy ball down a lane to knock down pins.",
+    context: "Our office team went ten-pin bowling on Friday for a relaxing social evening.",
+    ar: "لعبة دحرجة كرة ثقيلة في مسار خشبي لإسقاط الأهداف العشرة",
+    phonetic: "/ˈbəʊ.lɪŋ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2124,
+    word: "muscles",
+    pos: "noun (plural)",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈmʌs.əlz/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "Tissues inside the body that contract to produce movement, strength, and posture.",
+    b1Explain: "Parts of the body that give you strength to lift and run.",
+    opposite: "fat tissue",
+    arWord: "عضلات الجسم / أنسجة القوة العضلية",
+    arMeaning: "أنسجة الجسم المسؤولة عن الحركة وبذل القوة البدنية",
+    sentence: "Compound exercises like deadlifts activate multiple major muscle groups simultaneously.",
+    def: "Tissues inside the body that contract to produce movement, strength, and posture.",
+    context: "Compound exercises like deadlifts activate multiple major muscle groups simultaneously.",
+    ar: "أنسجة الجسم المسؤولة عن الحركة وبذل القوة البدنية",
+    phonetic: "/ˈmʌs.əlz/",
+    partOfSpeech: "noun (plural)"
+  },
+  {
+    id: 2125,
+    word: "ankles",
+    pos: "noun (plural)",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈæŋ.kəlz/",
+    citation: "Handout Page 1 & Smartboard Slide 9",
+    definition: "The joints connecting your feet with your lower legs that bear your body weight.",
+    b1Explain: "The joint between your foot and the bottom of your leg.",
+    opposite: "wrists / shoulders",
+    arWord: "كواحل القدمين / مفاصل الكاحل",
+    arMeaning: "مفاصل القدمين التي تربط الساق بالقدم وتحمل وزن الجسم",
+    sentence: "Wearing supportive running shoes protects your ankles on uneven trails.",
+    def: "The joints connecting your feet with your lower legs that bear your body weight.",
+    context: "Wearing supportive running shoes protects your ankles on uneven trails.",
+    ar: "مفاصل القدمين التي تربط الساق بالقدم وتحمل وزن الجسم",
+    phonetic: "/ˈæŋ.kəlz/",
+    partOfSpeech: "noun (plural)"
+  },
+  {
+    id: 2126,
+    word: "calories",
+    pos: "noun (plural)",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈkæl.ər.iz/",
+    citation: "Handout Page 1 & Smartboard Slide 10",
+    definition: "Units measuring the amount of energy provided by food and burned during exercise.",
+    b1Explain: "Units of energy in food that you burn off when exercising.",
+    opposite: "empty mass",
+    arWord: "سعرات حرارية / وحدات طاقة غذائية",
+    arMeaning: "وحدات قياس الطاقة الغذائية المستهلكة في النشاط البدني",
+    sentence: "A one-hour cross-training workout can burn off more than six hundred calories.",
+    def: "Units measuring the amount of energy provided by food and burned during exercise.",
+    context: "A one-hour cross-training workout can burn off more than six hundred calories.",
+    ar: "وحدات قياس الطاقة الغذائية المستهلكة في النشاط البدني",
+    phonetic: "/ˈkæl.ər.iz/",
+    partOfSpeech: "noun (plural)"
+  },
+  {
+    id: 2127,
+    word: "cardio",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈkɑː.di.əʊ/",
+    citation: "Smartboard Slide 9 (Sue's Advice)",
+    definition: "Aerobic exercise that raises your heart rate, such as running, swimming, or cycling.",
+    b1Explain: "Exercise like running or swimming that makes your heart beat faster.",
+    opposite: "static stretching",
+    arWord: "تمارين الكارديو / تمارين القلب والأوعية الهوائية",
+    arMeaning: "التمارين الرياضية الهوائية التي ترفع نبضات القلب وتنشط الدورة الدموية",
+    sentence: "Combining strength training with moderate cardio creates the most balanced physical fitness.",
+    def: "Aerobic exercise that raises your heart rate, such as running, swimming, or cycling.",
+    context: "Combining strength training with moderate cardio creates the most balanced physical fitness.",
+    ar: "التمارين الرياضية الهوائية التي ترفع نبضات القلب وتنشط الدورة الدموية",
+    phonetic: "/ˈkɑː.di.əʊ/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2128,
+    word: "training schedule",
+    pos: "compound noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈtreɪ.nɪŋ ˌʃedʒ.uːl/",
+    citation: "Handout Page 1 (Exercise 1)",
+    definition: "A planned timetable showing the days, times, and types of workouts you must do.",
+    b1Explain: "A weekly plan showing when and how you will exercise.",
+    opposite: "random exercise / no plan",
+    arWord: "جدول التدريب الرياضي / خطة التمارين المجدولة",
+    arMeaning: "خطة زمنية منتظمة تحدد مواعيد التمارين الرياضية وأنواعها",
+    sentence: "Sticking to a weekly training schedule ensures steady progress before an endurance race.",
+    def: "A planned timetable showing the days, times, and types of workouts you must do.",
+    context: "Sticking to a weekly training schedule ensures steady progress before an endurance race.",
+    ar: "خطة زمنية منتظمة تحدد مواعيد التمارين الرياضية وأنواعها",
+    phonetic: "/ˈtreɪ.nɪŋ ˌʃedʒ.uːl/",
+    partOfSpeech: "compound noun"
+  }
+];
+
+const SESSION_21_SPORTS_RANKING = {
+  title: "Lead-in: The 8 Core Sports & Activity Enjoyment Index",
+  badge: "Handout Page 1 (Lead-in Activity)",
+  description: "Rate the following sports and physical activities in order of enjoyment for doing (not just watching!) from 1 (most enjoyable) to 8 (least enjoyable).",
+  activities: [
+    { id: 1, name: "Running", icon: "🏃", benefits: "Cardiovascular health, high calorie burn, mental clarity", risk: "Hard on knees and ankle joints" },
+    { id: 2, name: "Cycling", icon: "🚴", benefits: "Low impact on joints, leg endurance, outdoor exploration", risk: "Traffic and road safety" },
+    { id: 3, name: "Swimming", icon: "🏊", benefits: "Full-body workout, zero joint impact, lung capacity", risk: "Pool access and technique" },
+    { id: 4, name: "Tennis", icon: "🎾", benefits: "Agility, hand-eye coordination, social competition", risk: "Elbow strain and sudden stopping" },
+    { id: 5, name: "Walking", icon: "🚶", benefits: "Accessible to everyone, switches off daily stress, sustainable", risk: "Lower intensity" },
+    { id: 6, name: "Bowling", icon: "🎳", benefits: "Relaxing, highly sociable, friendly team atmosphere", risk: "Low cardiovascular challenge" },
+    { id: 7, name: "Going to the gym", icon: "🏋️", benefits: "Targeted muscle building, climate controlled, flexible", risk: "Gym membership cost, intimidation" },
+    { id: 8, name: "Climbing", icon: "🧗", benefits: "Extreme grip strength, problem-solving, thrill", risk: "Fear of heights, specialized gear required" }
+  ]
+};
+
+const SESSION_21_LISTENING_INTERVIEW = {
+  title: "Radio Feature: Why We Love Our Sports (Anthony & Sue)",
+  badge: "Handout Page 1 & Smartboard Slides 6 & 9",
+  summary: "A presenter interviews two athletes who found a life-changing passion in demanding sports: Anthony, who took up triathlons in his mid-fifties, and Sue, who fell in love with competitive weightlifting at nineteen.",
+  characters: [
+    {
+      name: "Anthony (Triathlon Athlete)",
+      sport: "Triathlons (Swimming 1.5km, Cycling 40km, Running 10km)",
+      ageStarted: "Started at 55 (now 61)",
+      reason: "Had more free time and running club friends suggested it",
+      benefits: "Keeps him in great physical shape; vast social network of active friends",
+      drawbacks: "Running can be hard on the knees and ankles; requires structured training",
+      quote: "Triathlons keep me physically sharp and give me an incredible circle of supportive friends."
+    },
+    {
+      name: "Sue (Weightlifter)",
+      sport: "Olympic Weightlifting",
+      ageStarted: "Started at 19 (university)",
+      reason: "University friend recommended it to build functional strength",
+      benefits: "Builds strength and stamina, burns off calories, keeps weight off, and switches off mental stress",
+      drawbacks: "Must balance lifting with cardio and running to avoid becoming slow or overly heavy",
+      quote: "Lifting heavy weights switches my brain off from work stress better than anything else."
+    }
+  ],
+  qaCards: [
+    {
+      q: "1. When and why did Anthony start training for triathlons?",
+      a: "Six years ago, when he was 55, because he had more free time and friends from a running club suggested it.",
+      audio: "Anthony started six years ago at age fifty-five because he had free time and friends suggested it."
+    },
+    {
+      q: "2. How far is an Olympic distance triathlon?",
+      a: "It consists of a 1.5 km swim, 40 km bike ride, and 10 km run (= exactly twice the sprint triathlon distance).",
+      audio: "An Olympic distance triathlon is a 1.5 kilometer swim, 40 kilometer bike ride, and 10 kilometer run."
+    },
+    {
+      q: "3. What are the benefits of the sport for Anthony?",
+      a: "Being in great physical shape, improving cardiovascular health, and enjoying social benefits from a large circle of friends.",
+      audio: "The benefits are staying in top physical shape and gaining a large number of active friends."
+    },
+    {
+      q: "4. Are there any disadvantages for Anthony?",
+      a: "Running can be hard on the knees and ankles, though it is manageable if you train properly with good footwear.",
+      audio: "Running can be hard on the knees and ankles, but it is fine if you train with proper technique."
+    },
+    {
+      q: "5. When and why did Sue start weightlifting?",
+      a: "Four years ago, when she was 19, because a friend at university suggested it.",
+      audio: "Sue started four years ago at age nineteen after a university friend recommended it."
+    },
+    {
+      q: "6. What are the benefits of the sport for Sue?",
+      a: "Physical health (building strength and stamina), switching off from job stress, and burning off calories to keep weight off.",
+      audio: "She gains strength and stamina, switches off from job stress, and burns off calories."
+    },
+    {
+      q: "7. What training advice does Sue give about lifting?",
+      a: "Don't just do heavy weights alone because it builds up heavy muscle and makes you slow; combine it with running.",
+      audio: "Don't just lift heavy weights; you should run as well so you don't become slow and heavy."
+    }
+  ]
+};
+
+const SESSION_21_MULTIWORD_VERBS_LAB = {
+  title: "Multiword Verbs Laboratory: Sports & Physical Wellbeing",
+  badge: "Handout Page 1 & Smartboard Slides 10 & 11",
+  prepositions: ["down", "off", "up", "on"],
+  items: [
+    {
+      id: 1,
+      sentence: "Anthony's friend suggested he come _____ to the running club.",
+      verb: "come down",
+      prep: "down",
+      meaning: "Travel or visit a club or group venue.",
+      ar: "ينزل أو يأتي لزيارة النادي والانضمام إليه"
+    },
+    {
+      id: 2,
+      sentence: "Weightlifting helps Sue switch _____ from the stress of her job.",
+      verb: "switch off",
+      prep: "off",
+      meaning: "Disconnect mentally and stop thinking about stress.",
+      ar: "يفصل عقلياً ويتوقف عن التفكير في ضغوط العمل"
+    },
+    {
+      id: 3,
+      sentence: "Anthony took _____ triathlons in his mid-50s.",
+      verb: "take up",
+      prep: "up",
+      meaning: "Start practicing a new sport or hobby.",
+      ar: "يبدأ ممارسة رياضة أو نشاط جديد لأول مرة"
+    },
+    {
+      id: 4,
+      sentence: "Running on hard roads can be hard _____ the knees and ankles.",
+      verb: "hard on",
+      prep: "on",
+      meaning: "Cause painful physical pressure, wear, or strain on joints.",
+      ar: "شديد الإجهاد والضغط على المفاصل والأوتار"
+    },
+    {
+      id: 5,
+      sentence: "After a few weeks Sue was hooked _____ weightlifting.",
+      verb: "hooked on",
+      prep: "on",
+      meaning: "Extremely excited, passionate, or addicted to an activity.",
+      ar: "شديد الشغف والتعلق بالنشاط والمداومة عليه"
+    },
+    {
+      id: 6,
+      sentence: "Weightlifting is great at burning _____ calories and helps to keep the weight off.",
+      verb: "burn off",
+      prep: "off",
+      meaning: "Use up calories through intensive physical effort.",
+      ar: "يحرق السعرات الحرارية الزائدة ويتخلص من الدهون"
+    },
+    {
+      id: 7,
+      sentence: "Weightlifting can build _____ muscle, strength, and stamina.",
+      verb: "build up",
+      prep: "up",
+      meaning: "Increase strength and physical power gradually.",
+      ar: "يبني ويقوي العضلات وقوة التحمل تدريجياً"
+    }
+  ]
+};
+
+const SESSION_21_PRESENTER_QUESTIONS = {
+  title: "The 6 Essential Sports Interviewer Question Formulas",
+  badge: "Handout Page 2 (Exercise 3)",
+  questions: [
+    { id: 1, gap: "How [long] have you been doing triathlons?", word: "long", full: "How long have you been doing triathlons?", tip: "Present Perfect Continuous for duration of athletic hobby" },
+    { id: 2, gap: "How did you [get] started?", word: "get", full: "How did you get started?", tip: "Common idiom for investigating initial inspiration" },
+    { id: 3, gap: "How did your first race [go]?", word: "go", full: "How did your first race go?", tip: "Asking about success, outcome, and initial experience" },
+    { id: 4, gap: "How do you think it [helps] you in your life?", word: "helps", full: "How do you think it helps you in your life?", tip: "Exploring broader lifestyle, physical, and psychological benefits" },
+    { id: 5, gap: "Would you [recommend] it to other girls?", word: "recommend", full: "Would you recommend it to other girls?", tip: "Inviting advice for peers and prospective newcomers" },
+    { id: 6, gap: "Are there any [downsides]?", word: "downsides", full: "Are there any downsides?", tip: "Inviting balanced reflection on injuries, costs, and challenges" }
+  ]
+};
+
+const SESSION_21_TEACHER_FEEDBACK = [
+  {
+    original: "She agree with the statement.",
+    correction: "She agrees with the statement.",
+    rule: "Subject-Verb Agreement: In the Present Simple, third-person singular subjects (he/she/it) require the -s or -es verb ending.",
+    audio: "She agrees with the statement."
+  },
+  {
+    original: "If something goes wrong, it will be a great risk.",
+    correction: "If something goes wrong, it poses a big risk. / ...there will be a high risk.",
+    rule: "Collocation & First Conditional: We say 'pose a risk' or 'run a risk'. We generally describe risks as 'high', 'serious', or 'big', rather than 'great'.",
+    audio: "If something goes wrong, it poses a big risk."
+  },
+  {
+    original: "They take care of a lot of things, so we can't call them lazy.",
+    correction: "They take care of a lot of things, so we can't call them lazy. (Grammatically accurate!)",
+    rule: "Phrasal Verb Accuracy: 'Take care of' is correctly used here to mean handling responsibilities proactively.",
+    audio: "They take care of a lot of things, so we can't call them lazy."
+  },
+  {
+    original: "It make you feel happy and you switch off stress.",
+    correction: "It makes you feel happy and it switches off stress.",
+    rule: "Parallel Agreement: Keep subject-verb agreement consistent across coordinated clauses ('it makes... and it switches off...').",
+    audio: "It makes you feel happy and it switches off stress."
+  }
+];
+
+const SESSION_21_PRONUNCIATION_LAB = [
+  { word: "heard", ipa: "/hɜːd/", sound: "Long central vowel /ɜː/", note: "Rhymes with 'bird' and 'word'. Do not pronounce like 'hear' or 'beard'." },
+  { word: "think", ipa: "/θɪŋk/", sound: "Voiceless dental fricative /θ/", note: "Place tongue between teeth. Do not substitute with /s/ or /f/." },
+  { word: "energetic", ipa: "/ˌen.əˈdʒet.ɪk/", sound: "Secondary stress on /en-/, main stress on /-dʒet-/", note: "Four syllables with rhythm: en-er-GET-ic." },
+  { word: "triathlon", ipa: "/traɪˈæθ.lɒn/", sound: "Three distinct syllables: tri-ATH-lon", note: "Avoid inserting an extra vowel sound like 'tri-ath-a-lon'." },
+  { word: "muscles", ipa: "/ˈmʌs.əlz/", sound: "Silent 'c'", note: "Pronounced identically to the seafood 'mussels' (/ˈmʌs.əlz/)." },
+  { word: "ankles", ipa: "/ˈæŋ.kəlz/", sound: "Velar nasal /ŋ/ before /k/", note: "Distinct from 'uncle' (/ˈʌŋ.kəl/); ensure front open vowel /æ/." }
+];
+
+const SESSION_21_WHITEBOARD_GALLERY = [
+  { img: "assets/images/session21_board_input_sports.jpg", title: "Smartboard Slide 6: Radio Interview Input (Anthony & Sue)", desc: "Core listening introduction: Anthony's triathlon passion (swimming, cycling, running) and Sue's Olympic weightlifting." },
+  { img: "assets/images/session21_board_input_answers.jpg", title: "Smartboard Slide 9: Complete Listening Q&A Key", desc: "Detailed breakdown of Anthony starting at 55, Olympic distances (1.5km swim, 40km bike, 10km run), joint impacts, Sue's routine, and cardio balance." },
+  { img: "assets/images/session21_board_multiword_verbs.jpg", title: "Smartboard Slide 10: Multiword Verbs Exercise", desc: "Filling prepositions (down, off, up, on) into high-frequency British sports and wellness phrasal verbs." },
+  { img: "assets/images/session21_board_teacher_annotations.jpg", title: "Smartboard Slide 10 Annotations: Teacher's Red Pen Insights", desc: "Live classroom explanations: switch off = turn off stress, took up = try something new, hooked on = extremely excited/addicted." },
+  { img: "assets/images/session21_board_partner_questions.jpg", title: "Smartboard Slide 11: Speaking Partner Discussion Tasks", desc: "Classroom fluency prompts testing conversational fluency with multiword verbs and injury recovery strategies." },
+  { img: "assets/images/session21_board_teacher_clinic.jpg", title: "Smartboard Slide 17: Live Teacher Language Clinic", desc: "Real-time student error correction: third person singular 's', risk collocations, energetic pronunciation, and vowel drills (/heard/, /think/)." }
+];
+
+
+/* ==========================================================================
+   SESSION 22: CONVERSATION TOPICS & SOCIAL INCLUSION
+   British Council Intermediate B1 • Social and Cultural Inclusion
+   Handout ID: ARB_B1_10_I122CEA_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_22 = [
+  {
+    id: 2201,
+    word: "common ground",
+    pos: "compound noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌkɒm.ən ˈɡraʊnd/",
+    citation: "Handout Page 2 & Smartboard Slide 9",
+    definition: "Shared interests, beliefs, or experiences that help two different people connect easily.",
+    b1Explain: "Interests and ideas that two people both share and enjoy.",
+    opposite: "total disagreement / polarization",
+    arWord: "أرضية مشتركة / نقاط اهتمام وتفاهم مشتركة",
+    arMeaning: "الاهتمامات والخبرات المشتركة التي تجمع بين شخصين",
+    sentence: "Finding common ground about favorite travel destinations helped us break the ice immediately.",
+    def: "Shared interests, beliefs, or experiences that help two different people connect easily.",
+    context: "Finding common ground about favorite travel destinations helped us break the ice immediately.",
+    ar: "الاهتمامات والخبرات المشتركة التي تجمع بين شخصين",
+    phonetic: "/ˌkɒm.ən ˈɡraʊnd/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2202,
+    word: "strategy",
+    pos: "noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈstræt.ə.dʒi/",
+    citation: "Handout Page 2 & Smartboard Slide 9",
+    definition: "A smart, careful plan or method designed to achieve success in conversation or life.",
+    b1Explain: "A clear plan of action to handle a situation or conversation well.",
+    opposite: "random action / ad-hoc",
+    arWord: "استراتيجية / خطة عمل محكمة / أسلوب منهجي",
+    arMeaning: "خطة مدروسة ومنهجية لتحقيق هدف أو إدارة حوار بنجاح",
+    sentence: "Using the 'Three A's' strategy makes social conversations feel natural and balanced.",
+    def: "A smart, careful plan or method designed to achieve success in conversation or life.",
+    context: "Using the 'Three A's' strategy makes social conversations feel natural and balanced.",
+    ar: "خطة مدروسة ومنهجية لتحقيق هدف أو إدارة حوار بنجاح",
+    phonetic: "/ˈstræt.ə.dʒi/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2203,
+    word: "interactive",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌɪn.təˈræk.tɪv/",
+    citation: "Handout Page 2 & Smartboard Slide 9",
+    definition: "Involving active communication and mutual participation where both sides talk and listen.",
+    b1Explain: "When people participate actively together rather than just one person talking.",
+    opposite: "passive / one-sided lecture",
+    arWord: "تفاعلي / متبادل المشاركة / قائم على التحاور المشترك",
+    arMeaning: "تفاعلي يتطلب مشاركة وتجاوب الطرفين في الحديث",
+    sentence: "A good networking conversation must be interactive, not just one person asking all the questions.",
+    def: "Involving active communication and mutual participation where both sides talk and listen.",
+    context: "A good networking conversation must be interactive, not just one person asking all the questions.",
+    ar: "تفاعلي يتطلب مشاركة وتجاوب الطرفين في الحديث",
+    phonetic: "/ˌɪn.təˈræk.tɪv/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2204,
+    word: "offended",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/əˈfen.dɪd/",
+    citation: "Handout Page 2 & Smartboard Slide 9",
+    definition: "Feeling upset, hurt, or annoyed because someone said something rude or inappropriate.",
+    b1Explain: "Feeling hurt or angry because of an impolite or intrusive comment.",
+    opposite: "pleased / complimented",
+    arWord: "مستاء / متضايق من إساءة / منزعج ومجروح المشاعر",
+    arMeaning: "الشعور بالاستياء أو الانزعاج بسبب كلام غير لائق",
+    sentence: "Some people feel offended when strangers ask prying questions about their salary or age.",
+    def: "Feeling upset, hurt, or annoyed because someone said something rude or inappropriate.",
+    context: "Some people feel offended when strangers ask prying questions about their salary or age.",
+    ar: "الشعور بالاستياء أو الانزعاج بسبب كلام غير لائق",
+    phonetic: "/əˈfen.dɪd/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2205,
+    word: "taboo topic",
+    pos: "compound noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/təˈbuː ˈtɒp.ɪk/",
+    citation: "Handout Page 2 & Smartboard Slide 9",
+    definition: "A sensitive subject that people avoid discussing because social etiquette considers it unacceptable.",
+    b1Explain: "A topic that is considered impolite or inappropriate to talk about in public.",
+    opposite: "safe topic / open subject",
+    arWord: "موضوع محظور اجتماعياً / مسألة شائكة وممنوع الخوض فيها",
+    arMeaning: "موضوع حساس يتجنب الناس مناقشته لعدم ملاءمته اجتماعياً",
+    sentence: "In many corporate cultures, personal debt and political affiliation are treated as taboo topics.",
+    def: "A sensitive subject that people avoid discussing because social etiquette considers it unacceptable.",
+    context: "In many corporate cultures, personal debt and political affiliation are treated as taboo topics.",
+    ar: "موضوع حساس يتجنب الناس مناقشته لعدم ملاءمته اجتماعياً",
+    phonetic: "/təˈbuː ˈtɒp.ɪk/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2206,
+    word: "controversial",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌkɒn.trəˈvɜː.ʃəl/",
+    citation: "Smartboard Slide 5 (Complete Sentences)",
+    definition: "Causing a lot of disagreement, strong arguments, or opposing public opinions.",
+    b1Explain: "Something that causes heated debates and strong disagreements among people.",
+    opposite: "uncontroversial / consensus",
+    arWord: "مثير للجدل / مثار خلاف وانقسام في الآراء",
+    arMeaning: "يسبب جدلاً واسعاً واختلافاً حاداً في وجهات النظر",
+    sentence: "Immigration and taxation can be highly controversial topics at an informal dinner party.",
+    def: "Causing a lot of disagreement, strong arguments, or opposing public opinions.",
+    context: "Immigration and taxation can be highly controversial topics at an informal dinner party.",
+    ar: "يسبب جدلاً واسعاً واختلافاً حاداً في وجهات النظر",
+    phonetic: "/ˌkɒn.trəˈvɜː.ʃəl/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2207,
+    word: "trivial",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈtrɪv.i.əl/",
+    citation: "Smartboard Slide 5 (Complete Sentences)",
+    definition: "Having little value, seriousness, or real importance; small and ordinary.",
+    b1Explain: "Very small and unimportant; not worth worrying about.",
+    opposite: "crucial / significant",
+    arWord: "تافه / بسيط وغير مهم / سطحي وقليل القيمة",
+    arMeaning: "بسيط وقليل الأهمية ولا يستحق القلق أو الخلاف",
+    sentence: "Don't waste time arguing over trivial details like who chose the restaurant.",
+    def: "Having little value, seriousness, or real importance; small and ordinary.",
+    context: "Don't waste time arguing over trivial details like who chose the restaurant.",
+    ar: "بسيط وقليل الأهمية ولا يستحق القلق أو الخلاف",
+    phonetic: "/ˈtrɪv.i.əl/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2208,
+    word: "vent",
+    pos: "verb",
+    cambridgeLevel: "B2",
+    pronunciation: "/vent/",
+    citation: "Smartboard Slide 5 (Complete Sentences)",
+    definition: "To express strong negative feelings, anger, or frustration openly to a trusted friend.",
+    b1Explain: "To talk freely about your anger or frustration to feel relieved.",
+    opposite: "bottle up / suppress",
+    arWord: "يفضفض / ينفس عن غضبه / يبوح بما في صدره",
+    arMeaning: "التعبير عن المشاعر السلبية والإحباط لتفريغ الشحنة النفسية",
+    sentence: "After a frustrating confrontation at the office, she needed to vent to her colleague.",
+    def: "To express strong negative feelings, anger, or frustration openly to a trusted friend.",
+    context: "After a frustrating confrontation at the office, she needed to vent to her colleague.",
+    ar: "التعبير عن المشاعر السلبية والإحباط لتفريغ الشحنة النفسية",
+    phonetic: "/vent/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 2209,
+    word: "make small talk",
+    pos: "verb phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/meɪk ˈsmɔːl ˌtɔːk/",
+    citation: "Smartboard Slide 5 (Complete Sentences)",
+    definition: "To have a polite, casual conversation about light and neutral topics before serious business.",
+    b1Explain: "To chat casually about ordinary things to make someone feel comfortable.",
+    opposite: "plunge into formal debate",
+    arWord: "يتبادل أحاديث ودية خفيفة / يتجاذب أطراف الحديث",
+    arMeaning: "إجراء محادثة ودية خفيفة حول موضوعات بسيطة لكسر الحواجز",
+    sentence: "It is customary to make small talk about the flight before launching into the contract negotiation.",
+    def: "To have a polite, casual conversation about light and neutral topics before serious business.",
+    context: "It is customary to make small talk about the flight before launching into the contract negotiation.",
+    ar: "إجراء محادثة ودية خفيفة حول موضوعات بسيطة لكسر الحواجز",
+    phonetic: "/meɪk ˈsmɔːl ˌtɔːk/",
+    partOfSpeech: "verb phrase"
+  },
+  {
+    id: 2210,
+    word: "offensive",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/əˈfen.sɪv/",
+    citation: "Smartboard Slide 5 (Complete Sentences)",
+    definition: "Likely to make someone angry or disgusted; rude and disrespectful.",
+    b1Explain: "Rude or hurtful words that upset other people.",
+    opposite: "courteous / polite",
+    arWord: "مسيء / مهين وغير لائق / جارح للمشاعر",
+    arMeaning: "مسيء ويجرح المشاعر أو يفتقر إلى اللباقة والاحترام",
+    sentence: "Making jokes about a person's religion or ethnic background is unacceptable and offensive.",
+    def: "Likely to make someone angry or disgusted; rude and disrespectful.",
+    context: "Making jokes about a person's religion or ethnic background is unacceptable and offensive.",
+    ar: "مسيء ويجرح المشاعر أو يفتقر إلى اللباقة والاحترام",
+    phonetic: "/əˈfen.sɪv/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2211,
+    word: "stereotype",
+    pos: "noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈster.i.ə.taɪp/",
+    citation: "Smartboard Slides 19 & 20 (Teacher Feedback)",
+    definition: "A fixed, oversimplified, and often unfair general idea that people have about a group.",
+    b1Explain: "A general belief about all people in a group that is often not true.",
+    opposite: "nuanced understanding / individuality",
+    arWord: "صورة نمطية / فكرة مسبقة شائعة وغير دقيقة",
+    arMeaning: "فكرة نمطية مسبقة وغير دقيقة عن جماعة أو ثقافة معينة",
+    sentence: "Cultural exchange programs help travelers overcome stereotypes about international communities.",
+    def: "A fixed, oversimplified, and often unfair general idea that people have about a group.",
+    context: "Cultural exchange programs help travelers overcome stereotypes about international communities.",
+    ar: "فكرة نمطية مسبقة وغير دقيقة عن جماعة أو ثقافة معينة",
+    phonetic: "/ˈster.i.ə.taɪp/",
+    partOfSpeech: "noun"
+  },
+  {
+    id: 2212,
+    word: "get to know",
+    pos: "verb phrase",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɡet tuː nəʊ/",
+    citation: "Smartboard Slides 19 & 20 (Teacher Feedback)",
+    definition: "To spend time with someone gradually so that you learn about their personality and life.",
+    b1Explain: "To spend time with a person until you understand them well.",
+    opposite: "remain strangers",
+    arWord: "يتعرف على تدريجياً / يكتشف شخصية فلان مع الوقت",
+    arMeaning: "التعرف على شخص بمرور الوقت واكتشاف طباعه واهتماماته",
+    sentence: "Working on the community project helped the volunteers get to know each other closely.",
+    def: "To spend time with someone gradually so that you learn about their personality and life.",
+    context: "Working on the community project helped the volunteers get to know each other closely.",
+    ar: "التعرف على شخص بمرور الوقت واكتشاف طباعه واهتماماته",
+    phonetic: "/ɡet tuː nəʊ/",
+    partOfSpeech: "verb phrase"
+  },
+  {
+    id: 2213,
+    word: "hilarious",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/hɪˈleə.ri.əs/",
+    citation: "Smartboard Slides 19 & 20 & Adjectives Table",
+    definition: "Extremely funny and entertaining, making people laugh out loud.",
+    b1Explain: "So funny that it makes everyone laugh loudly (extreme of funny).",
+    opposite: "boring / solemn",
+    arWord: "مضحك للغاية / في غاية الطرافة / مسلٍ جداً",
+    arMeaning: "مضحك جداً ومثير للضحك بصوت عالٍ (صفة قوية لا تقبل very)",
+    sentence: "The speaker shared a hilarious story about his first confusing day living abroad.",
+    def: "Extremely funny and entertaining, making people laugh out loud.",
+    context: "The speaker shared a hilarious story about his first confusing day living abroad.",
+    ar: "مضحك جداً ومثير للضحك بصوت عالٍ (صفة قوية لا تقبل very)",
+    phonetic: "/hɪˈleə.ri.əs/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2214,
+    word: "freezing",
+    pos: "adjective",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈfriː.zɪŋ/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely cold, having a temperature near or below the freezing point of water.",
+    b1Explain: "Very, very cold (extreme of cold).",
+    opposite: "boiling",
+    arWord: "شديد البرودة / متجمد من البرد / قارص",
+    arMeaning: "شديد البرودة لدرجة التجمد",
+    sentence: "Put your thick winter coat on because it's absolutely freezing outside today.",
+    def: "Extremely cold, having a temperature near or below the freezing point of water.",
+    context: "Put your thick winter coat on because it's absolutely freezing outside today.",
+    ar: "شديد البرودة لدرجة التجمد",
+    phonetic: "/ˈfriː.zɪŋ/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2215,
+    word: "boiling",
+    pos: "adjective",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈbɔɪ.lɪŋ/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely hot; feeling uncomfortably warm and sweaty in high temperatures.",
+    b1Explain: "Very, very hot (extreme of hot).",
+    opposite: "freezing",
+    arWord: "شديد الحرارة / حار جداً كالغليان / ملتهب",
+    arMeaning: "شديد الحرارة بشكل لا يطاق",
+    sentence: "Without air conditioning in August, the top-floor office was boiling.",
+    def: "Extremely hot; feeling uncomfortably warm and sweaty in high temperatures.",
+    context: "Without air conditioning in August, the top-floor office was boiling.",
+    ar: "شديد الحرارة بشكل لا يطاق",
+    phonetic: "/ˈbɔɪ.lɪŋ/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2216,
+    word: "furious",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈfjʊə.ri.əs/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely angry; filled with intense rage and displeasure.",
+    b1Explain: "Very, very angry (extreme of angry).",
+    opposite: "delighted / calm",
+    arWord: "غاضب جداً / ثائر ومحنق للغاية / مستشيط غضباً",
+    arMeaning: "شديد الغضب وممتلئ بالحنق والانفعال",
+    sentence: "The client was furious when our shipment arrived three days after the firm deadline.",
+    def: "Extremely angry; filled with intense rage and displeasure.",
+    context: "The client was furious when our shipment arrived three days after the firm deadline.",
+    ar: "شديد الغضب وممتلئ بالحنق والانفعال",
+    phonetic: "/ˈfjʊə.ri.əs/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2217,
+    word: "exhausted",
+    pos: "adjective",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪɡˈzɔː.stɪd/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely tired, having completely drained all your physical and mental strength.",
+    b1Explain: "Very, very tired (extreme of tired).",
+    opposite: "refreshed / energetic",
+    arWord: "منهك تماماً / مجهد لأقصى درجة / خائر القوى",
+    arMeaning: "في غاية التعب والإرهاق بعد استنفاد كامل الطاقة",
+    sentence: "After facilitating the eight-hour bilingual workshop, Noi was completely exhausted.",
+    def: "Extremely tired, having completely drained all your physical and mental strength.",
+    context: "After facilitating the eight-hour bilingual workshop, Noi was completely exhausted.",
+    ar: "في غاية التعب والإرهاق بعد استنفاد كامل الطاقة",
+    phonetic: "/ɪɡˈzɔː.stɪd/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2218,
+    word: "filthy",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈfɪl.θi/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely dirty, covered with thick layers of dust, mud, or grease.",
+    b1Explain: "Very, very dirty (extreme of dirty).",
+    opposite: "spotless / clean",
+    arWord: "شديد القذارة / متسخ جداً / مغطى بالأتربة",
+    arMeaning: "في غاية الاتساخ والقذارة",
+    sentence: "His mountain biking shoes were filthy after cycling through muddy forest tracks.",
+    def: "Extremely dirty, covered with thick layers of dust, mud, or grease.",
+    context: "His mountain biking shoes were filthy after cycling through muddy forest tracks.",
+    ar: "في غاية الاتساخ والقذارة",
+    phonetic: "/ˈfɪl.θi/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2219,
+    word: "tiny",
+    pos: "adjective",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈtaɪ.ni/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely small in size, volume, or dimension.",
+    b1Explain: "Very, very small (extreme of small).",
+    opposite: "enormous / huge",
+    arWord: "ضئيل الحجم جداً / متناهي الصغر / قميء",
+    arMeaning: "صغير جداً ومتناهي الضآلة",
+    sentence: "The microchip inside the smart identity card is tiny but holds vast data.",
+    def: "Extremely small in size, volume, or dimension.",
+    context: "The microchip inside the smart identity card is tiny but holds vast data.",
+    ar: "صغير جداً ومتناهي الضآلة",
+    phonetic: "/ˈtaɪ.ni/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2220,
+    word: "enormous",
+    pos: "adjective",
+    cambridgeLevel: "B1",
+    pronunciation: "/ɪˈnɔː.məs/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely large in size, quantity, or degree; huge and vast.",
+    b1Explain: "Very, very large (extreme of big).",
+    opposite: "tiny",
+    arWord: "ضخم للغاية / هائل / فائق الكبر والاتساع",
+    arMeaning: "ضخم وهائل جداً في الحجم أو الأثر",
+    sentence: "The new community sports complex has an enormous Olympic swimming pool.",
+    def: "Extremely large in size, quantity, or degree; huge and vast.",
+    context: "The new community sports complex has an enormous Olympic swimming pool.",
+    ar: "ضخم وهائل جداً في الحجم أو الأثر",
+    phonetic: "/ɪˈnɔː.məs/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2221,
+    word: "terrifying",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈter.ə.faɪ.ɪŋ/",
+    citation: "Smartboard Extreme Adjectives Table",
+    definition: "Extremely scary, frightening, and causing intense panic or dread.",
+    b1Explain: "Very, very scary (extreme of scary).",
+    opposite: "comforting / soothing",
+    arWord: "مرعب ومخيف جداً / مروع ويثير الفزع",
+    arMeaning: "مخيف للغاية ومثير للرعب والهلع",
+    sentence: "Turbulence during the storm was a terrifying experience for nervous passengers.",
+    def: "Extremely scary, frightening, and causing intense panic or dread.",
+    context: "Turbulence during the storm was a terrifying experience for nervous passengers.",
+    ar: "مخيف للغاية ومثير للرعب والهلع",
+    phonetic: "/ˈter.ə.faɪ.ɪŋ/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2222,
+    word: "surroundings",
+    pos: "noun (plural)",
+    cambridgeLevel: "B1",
+    pronunciation: "/səˈraʊn.dɪŋz/",
+    citation: "Handout Page 1 (Listening Question 6)",
+    definition: "The place, objects, and environment around you, which serve as an easy conversation topic.",
+    b1Explain: "The physical environment and room around you.",
+    opposite: "distant context",
+    arWord: "المكان المحيط / البيئة والأجواء المجاورة",
+    arMeaning: "المكان والبيئة المحيطة بالشخص والتي تصلح كموضوع لبدء الحوار",
+    sentence: "Commenting on the tasteful décor of the conference room is an easy way to start talking.",
+    def: "The place, objects, and environment around you, which serve as an easy conversation topic.",
+    context: "Commenting on the tasteful décor of the conference room is an easy way to start talking.",
+    ar: "المكان والبيئة المحيطة بالشخص والتي تصلح كموضوع لبدء الحوار",
+    phonetic: "/səˈraʊn.dɪŋz/",
+    partOfSpeech: "noun (plural)"
+  },
+  {
+    id: 2223,
+    word: "participate",
+    pos: "verb",
+    cambridgeLevel: "B1",
+    pronunciation: "/pɑːˈtɪs.ɪ.peɪt/",
+    citation: "Handout Page 1 (Listening Question 2)",
+    definition: "To take part in an activity or conversation along with other people.",
+    b1Explain: "To join in and take an active part in a conversation.",
+    opposite: "withdraw / remain silent",
+    arWord: "يشارك / يسهم في الحوار / ينخرط مع الآخرين",
+    arMeaning: "المشاركة الفعالة والتحدث في حوار جماعي",
+    sentence: "Zhang wanted to participate more naturally instead of just giving short, passive answers.",
+    def: "To take part in an activity or conversation along with other people.",
+    context: "Zhang wanted to participate more naturally instead of just giving short, passive answers.",
+    ar: "المشاركة الفعالة والتحدث في حوار جماعي",
+    phonetic: "/pɑːˈtɪs.ɪ.peɪt/",
+    partOfSpeech: "verb"
+  },
+  {
+    id: 2224,
+    word: "safe topic",
+    pos: "compound noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/seɪf ˈtɒp.ɪk/",
+    citation: "Handout Page 1 & Smartboard Discussion",
+    definition: "A neutral subject like the weather, food, or sports that will not cause discomfort or offense.",
+    b1Explain: "An easy, polite topic that does not offend anyone.",
+    opposite: "taboo topic",
+    arWord: "موضوع آمن للحوار / حديث حيادي خالٍ من الحرج",
+    arMeaning: "موضوع حيادي وآمن مثل الطقس أو الرياضة لا يثير أي حرج أو خلاف",
+    sentence: "When chatting with international clients for the first time, stick to safe topics like travel.",
+    def: "A neutral subject like the weather, food, or sports that will not cause discomfort or offense.",
+    context: "When chatting with international clients for the first time, stick to safe topics like travel.",
+    ar: "موضوع حيادي وآمن مثل الطقس أو الرياضة لا يثير أي حرج أو خلاف",
+    phonetic: "/seɪf ˈtɒp.ɪk/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2225,
+    word: "sensitive topic",
+    pos: "compound noun",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˈsen.sɪ.tɪv ˈtɒp.ɪk/",
+    citation: "Handout Page 1 (Listening Question 9)",
+    definition: "A delicate subject that needs careful handling because it can easily trigger emotional distress.",
+    b1Explain: "A delicate subject that can easily make people uncomfortable or annoyed.",
+    opposite: "casual topic",
+    arWord: "موضوع حساس / مسألة شائكة تتطلب الحذر والكياسة",
+    arMeaning: "موضوع دقيق وحساس قد يثير انفعالات أو مشاعر محرجة",
+    sentence: "Personal finances and religious beliefs are sensitive topics that require utmost tact.",
+    def: "A delicate subject that needs careful handling because it can easily trigger emotional distress.",
+    context: "Personal finances and religious beliefs are sensitive topics that require utmost tact.",
+    ar: "موضوع دقيق وحساس قد يثير انفعالات أو مشاعر محرجة",
+    phonetic: "/ˈsen.sɪ.tɪv ˈtɒp.ɪk/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2226,
+    word: "cross-cultural",
+    pos: "adjective",
+    cambridgeLevel: "B2",
+    pronunciation: "/ˌkrɒsˈkʌl.tʃər.əl/",
+    citation: "Handout Page 1 (Listening Overview)",
+    definition: "Involving, comparing, or combining people and ideas from different countries and traditions.",
+    b1Explain: "Connecting or involving people from different world cultures.",
+    opposite: "monocultural",
+    arWord: "عابر للثقافات / متعدد الثقافات / تواصل بين الثقافات",
+    arMeaning: "متعلق بالتفاعل والمقارنة بين ثقافات وعادات شعوب مختلفة",
+    sentence: "Effective cross-cultural communication requires understanding that polite topics vary around the world.",
+    def: "Involving, comparing, or combining people and ideas from different countries and traditions.",
+    context: "Effective cross-cultural communication requires understanding that polite topics vary around the world.",
+    ar: "متعلق بالتفاعل والمقارنة بين ثقافات وعادات شعوب مختلفة",
+    phonetic: "/ˌkrɒsˈkʌl.tʃər.əl/",
+    partOfSpeech: "adjective"
+  },
+  {
+    id: 2227,
+    word: "role play",
+    pos: "compound noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˈrəʊl ˌpleɪ/",
+    citation: "Handout Page 1 (Exercise 3)",
+    definition: "Practicing a real-life conversation by pretending to be in a specific situation with a partner.",
+    b1Explain: "Acting out a situation in class to practice speaking English.",
+    opposite: "real incident",
+    arWord: "لعب أدوار تمثيلية / محاكاة تدريبية لموقف واقعي",
+    arMeaning: "تقمص أدوار واقعية والتدرب على المحادثة في سياق محدد",
+    sentence: "The teacher asked Dewi and Alan to perform a role play at a simulated university reception.",
+    def: "Practicing a real-life conversation by pretending to be in a specific situation with a partner.",
+    context: "The teacher asked Dewi and Alan to perform a role play at a simulated university reception.",
+    ar: "تقمص أدوار واقعية والتدرب على المحادثة في سياق محدد",
+    phonetic: "/ˈrəʊl ˌpleɪ/",
+    partOfSpeech: "compound noun"
+  },
+  {
+    id: 2228,
+    word: "two-way conversation",
+    pos: "compound noun",
+    cambridgeLevel: "B1",
+    pronunciation: "/ˌtuː.weɪ ˌkɒn.vəˈseɪ.ʃən/",
+    citation: "Smartboard Slide 13 (The Three A's)",
+    definition: "A dialogue where both speakers contribute ideas, ask questions, and listen equally.",
+    b1Explain: "A conversation where both people talk and listen equally.",
+    opposite: "monologue / interrogation",
+    arWord: "محادثة ثنائية الاتجاه / حوار متبادل متكافئ",
+    arMeaning: "حوار متبادل يتشارك فيه الطرفان بالكلام والاستماع بالتساوي",
+    sentence: "Using the 'Answer, Add, Ask' formula transforms an awkward interview into a genuine two-way conversation.",
+    def: "A dialogue where both speakers contribute ideas, ask questions, and listen equally.",
+    context: "Using the 'Answer, Add, Ask' formula transforms an awkward interview into a genuine two-way conversation.",
+    ar: "حوار متبادل يتشارك فيه الطرفان بالكلام والاستماع بالتساوي",
+    phonetic: "/ˌtuː.weɪ ˌkɒn.vəˈseɪ.ʃən/",
+    partOfSpeech: "compound noun"
+  }
+];
+
+const SESSION_22_TOPICS_CATEGORIZER = {
+  title: "Lead-in: Acceptable vs. Taboo Conversation Topics",
+  badge: "Handout Page 1 (Lead-in Activity)",
+  description: "When meeting someone from another country or culture for the first time, some topics build instant rapport, while others can cause deep discomfort.",
+  categories: {
+    safe: [
+      { topic: "The Weather", why: "Universal, non-controversial, and a classic British icebreaker.", example: "Lovely day today, isn't it?" },
+      { topic: "Your Surroundings", why: "Immediate shared reality; comment on the venue, food, or view.", example: "This venue has incredible lighting, don't you think?" },
+      { topic: "Travel & Hometowns", why: "People love sharing positive memories of where they grew up or visited.", example: "Have you ever visited northern Italy?" },
+      { topic: "Food & Cuisines", why: "Engaging and universally enjoyable cultural topic.", example: "Do you know any great local Thai restaurants around here?" },
+      { topic: "Sports & Hobbies", why: "Great for finding passionate common ground.", example: "Are you into tennis or football?" }
+    ],
+    taboo: [
+      { topic: "Personal Income / Salaries", why: "Asking 'How much do you earn?' is considered rude and invasive in the UK and US.", example: "Avoid asking about money or rent." },
+      { topic: "Political Affiliations", why: "Highly polarized; can create heated arguments before rapport is established.", example: "Avoid asking who someone voted for." },
+      { topic: "Religious Beliefs", why: "Deeply personal; risk of offending or sounding judgmental.", example: "Avoid questioning religious practices." },
+      { topic: "Age & Marital Status", why: "Can feel like an interrogation or intrusive personal pressure.", example: "Avoid asking 'Why aren't you married yet?'." },
+      { topic: "Negative Physical Comments", why: "Commenting on someone's weight or tired appearance is offensive.", example: "Never say 'You look exhausted today'." }
+    ]
+  }
+};
+
+const SESSION_22_LISTENING_PASSAGE = {
+  title: "Cross-Cultural Case Study: Zhang, Dewi, Julie & Alan",
+  badge: "Handout Page 1 (Exercises 1, 2 & 3)",
+  audioContext: "A university seminar on communicating across cultures in English. Tutor Noi facilitates role-plays and discussions with international students Zhang (from China) and Dewi (from Indonesia) to overcome conversational anxiety.",
+  transcript: `Tutor Noi: Welcome everyone. Today we are looking at communicating across cultures in English. Many learners tell me that when they meet native speakers, they feel like they are being interrogated with lots of questions! Zhang, you experienced this, didn't you?
+
+Zhang: Yes, absolutely! At first, I felt so stressed. British people kept asking me question after question. I thought I was answering politely, but the conversations always died out quickly.
+
+Tutor Noi: Exactly. In English conversation, giving one-word answers forces the other person to work too hard. To make it interactive, you need a strategy. We call it 'The Three A's': Answer, Add, and Ask. Let's see how Zhang did in his first role-play with Julie.
+
+Julie: So, Zhang, where do you come from?
+Zhang: I'm from China. Actually, I'm from the capital, Beijing. Have you ever been to China, Julie?
+Julie: Oh, I haven't, but I've always wanted to see the Great Wall! How long did you live in Beijing?
+
+Tutor Noi: Fantastic! Notice how Zhang didn't just stop at 'I'm from China'. He added a detail about Beijing, and then asked Julie a reciprocal question. That transformed it into a genuine two-way conversation.
+
+Now, let's look at Dewi's role-play with Alan at a reception. Dewi was nervous about taboo topics. What did you talk about, Dewi?
+
+Dewi: Alan and I started by talking about our immediate surroundings—the music playing and the historic hall. Our surroundings are so easy because you are both seeing and hearing the same things right now! Alan then asked about my flight. It was safe, polite, and we quickly discovered common ground about our mutual love of photography.
+
+Tutor Noi: Well done. Remember: what is considered personal or taboo can differ between cultures. Asking about someone's salary or marital status might be normal small talk in some countries, but in the UK it can cause real offense. Stick to safe topics first, use the Three A's, and listen actively!`,
+  trueFalseQuiz: [
+    { id: 1, statement: "Zhang feels comfortable talking to British people because they ask him a lot of questions.", isTrue: false, explanation: "False: At first, Zhang felt stressed and like he was being interrogated because he only gave short answers." },
+    { id: 2, statement: "Zhang needs to learn how to participate more in a conversation and not just answer questions.", isTrue: true, explanation: "True: He needed to learn how to add information and ask questions back to make it a two-way dialogue." },
+    { id: 3, statement: "In the first role play, Zhang listens to what Julie says and asks about her responses.", isTrue: true, explanation: "True: Zhang applied the 3 A's by asking 'Have you ever been to China, Julie?'." },
+    { id: 4, statement: "To have a good conversation you should only give basic answers to questions so the other person has to keep asking more questions.", isTrue: false, explanation: "False: Basic one-word answers kill conversations; you should add details and ask questions in return." },
+    { id: 5, statement: "Asking someone how much money they earn is usually an OK question.", isTrue: false, explanation: "False: Asking about salaries is considered a taboo topic and impolite in British culture." },
+    { id: 6, statement: "Talking about your surroundings is one of the easiest things to talk about.", isTrue: true, explanation: "True: Surroundings (the room, music, venue, weather) are shared experiences that are immediate and neutral." },
+    { id: 7, statement: "In the second role play, Dewi only talks about music at the party.", isTrue: false, explanation: "False: Dewi talked about the historic hall, her flight, and their shared interest in photography." },
+    { id: 8, statement: "Alan changed the topic in the role play to a more serious one.", isTrue: false, explanation: "False: They kept the conversation casual, friendly, and focused on safe topics and hobbies." },
+    { id: 9, statement: "Topics that are seen as too personal are the same across all cultures.", isTrue: false, explanation: "False: What is acceptable or taboo varies significantly across different cultures around the world." },
+    { id: 10, statement: "Noi feels that students need to learn how to talk about things in a personal way.", isTrue: true, explanation: "True: Noi teaches students to share safe personal details using the 'Add' step to build warmth and rapport." }
+  ]
+};
+
+const SESSION_22_THREE_AS_LAB = {
+  title: "The Three A's Conversational Strategy Laboratory",
+  badge: "Smartboard Slide 13 (Language Focus)",
+  description: "Transform every interview into an enjoyable two-way conversation using the proven 3 A's formula: Answer, Add, and Ask.",
+  formula: [
+    { letter: "1. Answer", role: "Direct & Polite", desc: "Answer the question directly. Never give a blunt 'yes', 'no', or single-word reply.", example: "Julie: 'Where do you come from?' ➔ Zhang: 'I'm from China.'" },
+    { letter: "2. Add", role: "Color & Context", desc: "Volunteer 1 or 2 interesting extra facts, personal stories, or feelings to give the other person something to react to.", example: "Zhang: 'Actually, I'm from the capital, Beijing.'" },
+    { letter: "3. Ask", role: "Pass the Ball", desc: "Ask a reciprocal or related question back to keep the flow balanced and show genuine interest.", example: "Zhang: 'Have you ever been to China, Julie?'" }
+  ],
+  practiceScenarios: [
+    {
+      partnerQ: "Do you play any sports?",
+      modelA: "Yes, I do. (Answer)",
+      modelAdd: "I took up cycling last year and I ride about twenty kilometers every Sunday morning. (Add)",
+      modelAsk: "How about you? Do you prefer outdoor sports or going to the gym? (Ask)",
+      audio: "Yes, I do. I took up cycling last year and I ride about twenty kilometers every Sunday morning. How about you? Do you prefer outdoor sports or going to the gym?"
+    },
+    {
+      partnerQ: "Is this your first time at this conference?",
+      modelA: "Yes, it is my first time here. (Answer)",
+      modelAdd: "I flew in from Cairo yesterday, and I've been really impressed by the keynote speakers so far. (Add)",
+      modelAsk: "Have you attended this event in previous years? (Ask)",
+      audio: "Yes, it is my first time here. I flew in from Cairo yesterday, and I've been really impressed by the keynote speakers so far. Have you attended this event in previous years?"
+    },
+    {
+      partnerQ: "What do you think of the venue?",
+      modelA: "I think it's fantastic. (Answer)",
+      modelAdd: "The historic architecture and the garden terrace outside are truly wonderful. (Add)",
+      modelAsk: "Did you travel far to get here this morning? (Ask)",
+      audio: "I think it's fantastic. The historic architecture and the garden terrace outside are truly wonderful. Did you travel far to get here this morning?"
+    }
+  ]
+};
+
+const SESSION_22_VOCAB_MATCHING = {
+  title: "Core Lexical Matching & Sentence Completion",
+  badge: "Handout Page 2 & Smartboard Slides 5 & 9",
+  definitionsQuiz: [
+    { term: "common ground", correct: "b", options: { a: "shared location", b: "shared interests and experiences", c: "shared hometowns and facilities" } },
+    { term: "strategy", correct: "a", options: { a: "a careful plan or way of doing something", b: "a way of asking questions", c: "a careful way of controlling a situation" } },
+    { term: "interactive", correct: "b", options: { a: "responding to the actions of a user", b: "involving participation from all", c: "requiring people to work together" } },
+    { term: "offended", correct: "c", options: { a: "embarrassed by something or someone", b: "confused by something or someone", c: "upset by something or someone" } },
+    { term: "taboo topics", correct: "b", options: { a: "things that are not interesting to talk about", b: "things that are not acceptable to talk about", c: "things that must never be talked about" } }
+  ],
+  gapSentences: [
+    { id: 1, sentence: "In some cultures, talking about money or salaries is considered [taboo].", word: "taboo", hint: "Unacceptable subject in polite company" },
+    { id: 2, sentence: "When you meet someone from another country, it is useful to [make small talk] before starting a serious conversation.", word: "make small talk", hint: "Chat casually about safe, friendly topics" },
+    { id: 3, sentence: "Making jokes about someone's religion or nationality can be very [offensive].", word: "offensive", hint: "Hurtful and impolite" },
+    { id: 4, sentence: "Some people think that discussing immigration is a [controversial] topic because it creates strong disagreements.", word: "controversial", hint: "Provokes arguments and divided opinions" },
+    { id: 5, sentence: "Don't worry about such a [trivial] problem. There are much more important things to discuss.", word: "trivial", hint: "Small, unimportant detail" },
+    { id: 6, sentence: "When my colleague feels frustrated about discrimination at work, she needs to [vent] to a friend.", word: "vent", hint: "Express frustration freely to relieve stress" }
+  ]
+};
+
+const SESSION_22_EXTREME_ADJECTIVES = {
+  title: "Extreme Adjectives Laboratory (Smartboard Table)",
+  badge: "Smartboard Slide & Espresso English Reference",
+  rule: "Extreme adjectives (non-gradable adjectives) already contain the idea of 'very'. Therefore, you CANNOT say 'very freezing' or 'very hilarious'. Instead, use 'absolutely', 'completely', or use the extreme adjective on its own!",
+  pairs: [
+    { base: "cold", extreme: "freezing", ipa: "/ˈfriː.zɪŋ/", example: "It's not just cold outside; it's absolutely freezing!" },
+    { base: "hot", extreme: "boiling", ipa: "/ˈbɔɪ.lɪŋ/", example: "Open the window! The conference room is boiling." },
+    { base: "angry", extreme: "furious", ipa: "/ˈfjʊə.ri.əs/", example: "She wasn't just annoyed; she was furious when the meeting was cancelled." },
+    { base: "tired", extreme: "exhausted", ipa: "/ɪɡˈzɔː.stɪd/", example: "After flying for twelve hours, I felt completely exhausted." },
+    { base: "dirty", extreme: "filthy", ipa: "/ˈfɪl.θi/", example: "Wash your hands immediately; they are filthy from the garden." },
+    { base: "funny", extreme: "hilarious", ipa: "/hɪˈleə.ri.əs/", example: "His speech at the dinner was absolutely hilarious." },
+    { base: "small", extreme: "tiny", ipa: "/ˈtaɪ.ni/", example: "Their apartment in Tokyo was tiny, but very well organized." },
+    { base: "big", extreme: "enormous / huge", ipa: "/ɪˈnɔː.məs/", example: "They hosted the gala in an enormous ballroom." },
+    { base: "scary", extreme: "terrifying", ipa: "/ˈter.ə.faɪ.ɪŋ/", example: "Driving on icy mountain cliffs was a terrifying experience." },
+    { base: "good", extreme: "wonderful / fantastic / excellent", ipa: "/ˈwʌn.də.fəl/", example: "The performance by the international choir was fantastic." }
+  ]
+};
+
+const SESSION_22_TEACHER_FEEDBACK = [
+  {
+    original: "Stereotype",
+    correction: "Stereotype (Noun / Verb): Learn to recognize cultural stereotypes.",
+    rule: "Lexical Mastery: A 'stereotype' is an oversimplified generalization about a group. We say 'cultural stereotypes' or 'to challenge stereotypes'.",
+    audio: "A stereotype is an oversimplified idea about a group of people."
+  },
+  {
+    original: "How much have you been here?",
+    correction: "How long have you been here?",
+    rule: "Duration vs. Quantity: Use 'How long' with the Present Perfect to inquire about time duration. 'How much' asks about cost or uncountable quantities (e.g., money, coffee).",
+    audio: "How long have you been here in the United Kingdom?"
+  },
+  {
+    original: "Till we know each other",
+    correction: "Till we get to know each other",
+    rule: "State vs. Process: 'Know' is a stative verb (having existing knowledge). 'Get to know' expresses the ongoing process of becoming familiar with someone over time.",
+    audio: "We should chat for a while till we get to know each other."
+  },
+  {
+    original: "This is very very funny",
+    correction: "This is hilarious. / This is absolutely hilarious.",
+    rule: "Extreme Adjectives: Do not use 'very' with extreme adjectives. Say 'hilarious' or 'absolutely hilarious', not 'very hilarious'.",
+    audio: "That comedian was absolutely hilarious."
+  }
+];
+
+const SESSION_22_BBC_PRONUNCIATION = {
+  title: "Tim's Pronunciation Workshop: Connected Speech in Conversation",
+  badge: "BBC Learning English Reference (Slide 21)",
+  summary: "In natural English conversation, words link together smoothly without awkward pauses. Understanding these patterns helps you speak more fluently and understand fast speech.",
+  tips: [
+    { feature: "Consonant to Vowel Linking", rule: "When a word ends in a consonant and the next begins with a vowel, connect them smoothly.", example: "get_to_know_each_other ➔ /ɡet tə nəʊ wiːtʃ ˈʌð.ər/" },
+    { feature: "Elision of /t/ and /d/", rule: "The sounds /t/ and /d/ are often dropped in fast speech when surrounded by consonants.", example: "next topic ➔ /neks ˈtɒp.ɪk/ • common ground ➔ /ˈkɒm.ən ɡraʊnd/" },
+    { feature: "Intonation in Openers", rule: "Use a friendly rising-falling intonation on conversational questions to sound approachable.", example: "Lovely day, isn't it? ↗↘" },
+    { feature: "The /θ/ vs /s/ Contrast", rule: "Ensure clear distinction between 'theme' /θiːm/ and 'seem' /siːm/.", example: "I think it's a safe theme. /aɪ θɪŋk ɪts ə seɪf θiːm/" }
+  ]
+};
+
+const SESSION_22_WHITEBOARD_GALLERY = [
+  { img: "assets/images/session22_board_sentence_completion.jpg", title: "Smartboard Slide 5: Lexical Gap-Fill (Taboo, Vent, Trivial)", desc: "Classroom sentences testing words: taboo, make small talk, offensive, controversial, trivial, and vent." },
+  { img: "assets/images/session22_board_vocab_matching.jpg", title: "Smartboard Slide 9: Vocabulary Definitions Match", desc: "Multiple choice matching for common ground, strategy, interactive, offended, and taboo topics." },
+  { img: "assets/images/session22_board_vocab_answers.jpg", title: "Smartboard Slide 9 Key: Revealed Definitions", desc: "Teacher's verified answer key highlighting shared interests, careful plans, and unacceptable conversational themes." },
+  { img: "assets/images/session22_board_three_as_strategy.jpg", title: "Smartboard Slide 13: The Three A's Strategy", desc: "Breakdown of Answer, Add, Ask with Zhang and Julie's authentic dialogue: Answer (China), Add (Beijing), Ask (Have you been?)." },
+  { img: "assets/images/session22_board_teacher_clinic1.jpg", title: "Smartboard Slide 19: Teacher Live Clinic (Error Correction)", desc: "Teacher in front of the board correcting: How long vs How much, get to know, and extreme adjective 'hilarious'." },
+  { img: "assets/images/session22_board_language_feedback.jpg", title: "Smartboard Slide 20: Clean Language Feedback Slide", desc: "Full whiteboard view of key feedback: stereotypes, duration questions, relationship processes, and hilarious." },
+  { img: "assets/images/session22_board_extreme_adjectives.jpg", title: "Smartboard Table: 10 Extreme Adjectives", desc: "Espresso English / British Council reference table: cold-freezing, hot-boiling, angry-furious, tired-exhausted, dirty-filthy, funny-hilarious, tiny, enormous, terrifying, fantastic." },
+  { img: "assets/images/session22_board_bbc_pronunciation.jpg", title: "Smartboard Slide 21: Tim's Pronunciation Workshop", desc: "BBC Learning English Pronunciation Workshop showing connected speech rules, linking, and conversational intonation." }
+];
+
 /* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
@@ -11558,6 +13023,27 @@ if (typeof window !== 'undefined') {
   window.SESSION_20_TEACHER_FEEDBACK = typeof SESSION_20_TEACHER_FEEDBACK !== 'undefined' ? SESSION_20_TEACHER_FEEDBACK : undefined;
   window.SESSION_20_PRONUNCIATION_LAB = typeof SESSION_20_PRONUNCIATION_LAB !== 'undefined' ? SESSION_20_PRONUNCIATION_LAB : undefined;
   window.SESSION_20_NOTEBOOK_PAGES = typeof SESSION_20_NOTEBOOK_PAGES !== 'undefined' ? SESSION_20_NOTEBOOK_PAGES : undefined;
+
+  // Session 21
+  window.VOCAB_SESSION_21 = typeof VOCAB_SESSION_21 !== 'undefined' ? VOCAB_SESSION_21 : [];
+  window.SESSION_21_SPORTS_RANKING = typeof SESSION_21_SPORTS_RANKING !== 'undefined' ? SESSION_21_SPORTS_RANKING : undefined;
+  window.SESSION_21_LISTENING_INTERVIEW = typeof SESSION_21_LISTENING_INTERVIEW !== 'undefined' ? SESSION_21_LISTENING_INTERVIEW : undefined;
+  window.SESSION_21_MULTIWORD_VERBS_LAB = typeof SESSION_21_MULTIWORD_VERBS_LAB !== 'undefined' ? SESSION_21_MULTIWORD_VERBS_LAB : undefined;
+  window.SESSION_21_PRESENTER_QUESTIONS = typeof SESSION_21_PRESENTER_QUESTIONS !== 'undefined' ? SESSION_21_PRESENTER_QUESTIONS : undefined;
+  window.SESSION_21_TEACHER_FEEDBACK = typeof SESSION_21_TEACHER_FEEDBACK !== 'undefined' ? SESSION_21_TEACHER_FEEDBACK : undefined;
+  window.SESSION_21_PRONUNCIATION_LAB = typeof SESSION_21_PRONUNCIATION_LAB !== 'undefined' ? SESSION_21_PRONUNCIATION_LAB : undefined;
+  window.SESSION_21_WHITEBOARD_GALLERY = typeof SESSION_21_WHITEBOARD_GALLERY !== 'undefined' ? SESSION_21_WHITEBOARD_GALLERY : undefined;
+
+  // Session 22
+  window.VOCAB_SESSION_22 = typeof VOCAB_SESSION_22 !== 'undefined' ? VOCAB_SESSION_22 : [];
+  window.SESSION_22_TOPICS_CATEGORIZER = typeof SESSION_22_TOPICS_CATEGORIZER !== 'undefined' ? SESSION_22_TOPICS_CATEGORIZER : undefined;
+  window.SESSION_22_LISTENING_PASSAGE = typeof SESSION_22_LISTENING_PASSAGE !== 'undefined' ? SESSION_22_LISTENING_PASSAGE : undefined;
+  window.SESSION_22_THREE_AS_LAB = typeof SESSION_22_THREE_AS_LAB !== 'undefined' ? SESSION_22_THREE_AS_LAB : undefined;
+  window.SESSION_22_VOCAB_MATCHING = typeof SESSION_22_VOCAB_MATCHING !== 'undefined' ? SESSION_22_VOCAB_MATCHING : undefined;
+  window.SESSION_22_EXTREME_ADJECTIVES = typeof SESSION_22_EXTREME_ADJECTIVES !== 'undefined' ? SESSION_22_EXTREME_ADJECTIVES : undefined;
+  window.SESSION_22_TEACHER_FEEDBACK = typeof SESSION_22_TEACHER_FEEDBACK !== 'undefined' ? SESSION_22_TEACHER_FEEDBACK : undefined;
+  window.SESSION_22_BBC_PRONUNCIATION = typeof SESSION_22_BBC_PRONUNCIATION !== 'undefined' ? SESSION_22_BBC_PRONUNCIATION : undefined;
+  window.SESSION_22_WHITEBOARD_GALLERY = typeof SESSION_22_WHITEBOARD_GALLERY !== 'undefined' ? SESSION_22_WHITEBOARD_GALLERY : undefined;
 
 
 
