@@ -484,16 +484,30 @@
           </button>
         </div>
 
-        <!-- Card Display Order Choice: Definition First vs Word First -->
-        <div class="card-mode-toggle-bar">
-          <span class="mode-toggle-label">Start Each Card With:</span>
-          <div class="segmented-control" role="group" aria-label="Default Front Side Preference">
-            <button type="button" id="btnModeDefFirst" class="segment-btn active" data-side="defFirst">
-              📖 Definition First
-            </button>
-            <button type="button" id="btnModeWordFirst" class="segment-btn" data-side="wordFirst">
-              🔤 Word First
-            </button>
+        <!-- Card Display Order Choice & Audio Voice Accent (UK / US) -->
+        <div class="card-mode-toggle-bar" style="display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:1.25rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span class="mode-toggle-label">Start Each Card With:</span>
+            <div class="segmented-control" role="group" aria-label="Default Front Side Preference">
+              <button type="button" id="btnModeDefFirst" class="segment-btn active" data-side="defFirst">
+                📖 Definition First
+              </button>
+              <button type="button" id="btnModeWordFirst" class="segment-btn" data-side="wordFirst">
+                🔤 Word First
+              </button>
+            </div>
+          </div>
+
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <span class="mode-toggle-label">Voice Accent:</span>
+            <div class="segmented-control" role="group" aria-label="Default Voice Accent Preference">
+              <button type="button" id="btnAccentUK" class="segment-btn active" data-accent="uk" title="Listen in British English (UK)">
+                🇬🇧 UK English
+              </button>
+              <button type="button" id="btnAccentUS" class="segment-btn" data-accent="us" title="Listen in American English (US)">
+                🇺🇸 US English
+              </button>
+            </div>
           </div>
         </div>
 

@@ -26,33 +26,53 @@ let MASTER_VOCAB = (currentSessionId === '1') ? VOCAB_SESSION_1
   : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
 /* --------------------------------------------------------------------------
-   1. BRITISH SPEECH SYNTHESIS ENGINE WITH EQUALIZER VISUALIZER
+   1. BILINGUAL SPEECH SYNTHESIS ENGINE (BRITISH UK & AMERICAN US VOICES)
    -------------------------------------------------------------------------- */
 let ukVoice = null;
+let usVoice = null;
+let preferredAccent = localStorage.getItem('bc_preferred_accent') || 'uk';
 
 function initSpeech() {
   if ('speechSynthesis' in window) {
-    function pickVoice() {
+    function pickVoices() {
       const voices = window.speechSynthesis.getVoices();
-      ukVoice = voices.find(v => v.lang === 'en-GB' || v.name.includes('UK') || v.name.includes('British') || v.name.includes('George') || v.name.includes('Hazel') || v.name.includes('Susan'))
+      
+      // Best British UK Voice
+      ukVoice = voices.find(v => (v.lang === 'en-GB' || v.lang === 'en_GB') && (v.name.includes('Natural') || v.name.includes('Online')))
+        || voices.find(v => v.lang === 'en-GB' || v.name.includes('UK') || v.name.includes('British') || v.name.includes('George') || v.name.includes('Hazel') || v.name.includes('Susan'))
         || voices.find(v => v.lang.startsWith('en-GB') || v.lang.startsWith('en_GB'))
         || voices.find(v => v.lang.startsWith('en'))
         || null;
+
+      // Best American US Voice
+      usVoice = voices.find(v => (v.lang === 'en-US' || v.lang === 'en_US') && (v.name.includes('Natural') || v.name.includes('Online')))
+        || voices.find(v => v.lang === 'en-US' || v.name.includes('US') || v.name.includes('United States') || v.name.includes('David') || v.name.includes('Zira') || v.name.includes('Samantha') || v.name.includes('Jenny') || v.name.includes('Guy'))
+        || voices.find(v => v.lang.startsWith('en-US') || v.lang.startsWith('en_US'))
+        || voices.find(v => v.lang.startsWith('en'))
+        || null;
     }
-    pickVoice();
+    pickVoices();
     if (speechSynthesis.onvoiceschanged !== undefined) {
-      speechSynthesis.onvoiceschanged = pickVoice;
+      speechSynthesis.onvoiceschanged = pickVoices;
     }
   }
 }
 
-function speakUK(text, pitch = 1.0, rate = 0.95) {
+function speakVoice(text, accent = null, pitch = 1.0, rate = 0.95) {
   if (!('speechSynthesis' in window) || !text) return;
   window.speechSynthesis.cancel();
 
+  const chosenAccent = (accent || preferredAccent || 'uk').toLowerCase();
   const utterance = new SpeechSynthesisUtterance(text);
-  if (ukVoice) utterance.voice = ukVoice;
-  utterance.lang = 'en-GB';
+
+  if (chosenAccent === 'us') {
+    if (usVoice) utterance.voice = usVoice;
+    utterance.lang = 'en-US';
+  } else {
+    if (ukVoice) utterance.voice = ukVoice;
+    utterance.lang = 'en-GB';
+  }
+
   utterance.rate = rate;
   utterance.pitch = pitch;
 
@@ -69,6 +89,36 @@ function speakUK(text, pitch = 1.0, rate = 0.95) {
   };
 
   window.speechSynthesis.speak(utterance);
+}
+
+function speakUK(text, pitch = 1.0, rate = 0.95) {
+  speakVoice(text, 'uk', pitch, rate);
+}
+
+function speakUS(text, pitch = 1.0, rate = 0.95) {
+  speakVoice(text, 'us', pitch, rate);
+}
+
+function setPreferredAccent(accent) {
+  if (accent === 'us' || accent === 'uk') {
+    preferredAccent = accent;
+    localStorage.setItem('bc_preferred_accent', accent);
+    updateAccentButtons();
+  }
+}
+
+function updateAccentButtons() {
+  const btnUK = document.getElementById('btnAccentUK');
+  const btnUS = document.getElementById('btnAccentUS');
+  if (btnUK && btnUS) {
+    if (preferredAccent === 'us') {
+      btnUK.classList.remove('active');
+      btnUS.classList.add('active');
+    } else {
+      btnUS.classList.remove('active');
+      btnUK.classList.add('active');
+    }
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -906,7 +956,20 @@ function initPart1() {
     flipAndRender();
   });
 
+  // Audio Accent Mode Listeners (UK / US)
+  const btnAccentUK = document.getElementById('btnAccentUK');
+  const btnAccentUS = document.getElementById('btnAccentUS');
+
+  btnAccentUK?.addEventListener('click', () => {
+    setPreferredAccent('uk');
+  });
+
+  btnAccentUS?.addEventListener('click', () => {
+    setPreferredAccent('us');
+  });
+
   updateModeButtons();
+  updateAccentButtons();
   renderCard();
   startCardTimer();
 
@@ -1065,7 +1128,7 @@ function renderCard() {
   const buildDefFace = (isOnFront) => `
     <div class="card-top-meta">
       <div class="card-meta-left">
-        <span class="chip-citation">📍 ${item.citation}</span>
+        <span class="chip-citation">📍 ${item.citation || 'Course Lexis'}</span>
       </div>
       <div class="card-meta-right">
         ${getCambridgeBadgeHTML(item.cambridgeLevel)}
@@ -1078,7 +1141,14 @@ function renderCard() {
         <span class="card-role-pill ${isOnFront ? 'role-front' : 'role-back'}">
           ${isOnFront ? '📖 DEFINITION (GUESS THE WORD)' : '📖 DEFINITION REVEALED'}
         </span>
-        <button class="audio-circle-btn btn-play-def" title="Listen to Definition in British English">🔊</button>
+        <div class="accent-voice-dual-group">
+          <button class="voice-dual-btn btn-play-def-uk" title="Listen to Definition in British English (UK)">
+            <span class="flag-icon">🇬🇧</span> UK
+          </button>
+          <button class="voice-dual-btn btn-play-def-us" title="Listen to Definition in American English (US)">
+            <span class="flag-icon">🇺🇸</span> US
+          </button>
+        </div>
       </div>
 
       <div class="card-def-primary">
@@ -1089,12 +1159,28 @@ function renderCard() {
         💡 <strong>B1 Explanation:</strong> ${item.b1Explain}
       </div>
 
+      <!-- Prominent Arabic Meaning Box -->
+      <div class="card-arabic-meaning-box" dir="rtl">
+        <span class="card-arabic-label">المعنى بالعربية:</span>
+        <span class="card-arabic-text">${item.arMeaning || ''}</span>
+      </div>
+
+      ${item.opposite ? `
+      <div class="card-opposite-pill-box">
+        <span class="opposite-label">⚡ Opposite / Antonym:</span>
+        <strong class="opposite-val">${item.opposite}</strong>
+      </div>
+      ` : ''}
+
       <div class="back-example-sentence-box">
         <div class="back-sentence-row">
           <span class="back-label">
             ${isOnFront ? '💼 Workplace Sentence (Fill the blank):' : '💼 Workplace Sentence:'}
           </span>
-          <button class="audio-circle-btn btn-play-sentence" title="Listen to Sentence in British English">🔊</button>
+          <div class="accent-voice-mini-group">
+            <button class="voice-mini-btn btn-play-sentence-uk" title="Sentence in UK English">🇬🇧 UK</button>
+            <button class="voice-mini-btn btn-play-sentence-us" title="Sentence in US English">🇺🇸 US</button>
+          </div>
         </div>
         <p class="back-sentence-quote">
           "${isOnFront ? maskWord(item.sentence, item.word) : highlightWord(item.sentence, item.word)}"
@@ -1111,7 +1197,7 @@ function renderCard() {
   const buildWordFace = (isOnFront) => `
     <div class="card-top-meta">
       <div class="card-meta-left">
-        <span class="chip-citation">📍 ${item.citation}</span>
+        <span class="chip-citation">📍 ${item.citation || 'Course Lexis'}</span>
       </div>
       <div class="card-meta-right">
         ${getCambridgeBadgeHTML(item.cambridgeLevel)}
@@ -1124,7 +1210,14 @@ function renderCard() {
         <span class="card-role-pill ${isOnFront ? 'role-front' : 'role-back'}">
           ${isOnFront ? '🔤 TARGET WORD' : '✓ THE WORD REVEALED'}
         </span>
-        <button class="audio-circle-btn btn-play-word" title="Listen to Word in British English">🔊</button>
+        <div class="accent-voice-dual-group">
+          <button class="voice-dual-btn btn-play-word-uk" title="Listen to Word in British English (UK)">
+            <span class="flag-icon">🇬🇧</span> UK
+          </button>
+          <button class="voice-dual-btn btn-play-word-us" title="Listen to Word in American English (US)">
+            <span class="flag-icon">🇺🇸</span> US
+          </button>
+        </div>
       </div>
 
       <h3 class="card-word-title">
@@ -1132,11 +1225,23 @@ function renderCard() {
       </h3>
 
       <div class="card-phonetic-row">
-        <span class="phonetic-uk-flag">🇬🇧 UK</span>
         <span class="phonetic-val">${item.pronunciation}</span>
         <span class="phonetic-dot">•</span>
         <span class="phonetic-pos">${item.pos}</span>
       </div>
+
+      <!-- Prominent Arabic Meaning Box -->
+      <div class="card-arabic-meaning-box" dir="rtl">
+        <span class="card-arabic-label">المعنى بالعربية:</span>
+        <span class="card-arabic-text">${item.arMeaning || ''}</span>
+      </div>
+
+      ${item.opposite ? `
+      <div class="card-opposite-pill-box">
+        <span class="opposite-label">⚡ Opposite / Antonym:</span>
+        <strong class="opposite-val">${item.opposite}</strong>
+      </div>
+      ` : ''}
 
       ${!isOnFront ? `
       <div class="card-quick-def">
@@ -1147,7 +1252,10 @@ function renderCard() {
       <div class="back-example-sentence-box">
         <div class="back-sentence-row">
           <span class="back-label">💼 Full Workplace Sentence:</span>
-          <button class="audio-circle-btn btn-play-sentence" title="Listen to Full Sentence in British English">🔊</button>
+          <div class="accent-voice-mini-group">
+            <button class="voice-mini-btn btn-play-sentence-uk" title="Sentence in UK English">🇬🇧 UK</button>
+            <button class="voice-mini-btn btn-play-sentence-us" title="Sentence in US English">🇺🇸 US</button>
+          </div>
         </div>
         <p class="back-sentence-quote">
           "${highlightWord(item.sentence, item.word)}"
@@ -1176,22 +1284,63 @@ function renderCard() {
 }
 
 function attachCardAudio(plane, item) {
-  plane.querySelectorAll('.btn-play-def').forEach(btn => {
+  // UK audio triggers
+  plane.querySelectorAll('.btn-play-def-uk').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       speakUK(item.definition);
     });
   });
-  plane.querySelectorAll('.btn-play-word').forEach(btn => {
+  plane.querySelectorAll('.btn-play-word-uk').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       speakUK(item.word);
     });
   });
-  plane.querySelectorAll('.btn-play-sentence').forEach(btn => {
+  plane.querySelectorAll('.btn-play-sentence-uk').forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
       speakUK(item.sentence);
+    });
+  });
+
+  // US audio triggers
+  plane.querySelectorAll('.btn-play-def-us').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakUS(item.definition);
+    });
+  });
+  plane.querySelectorAll('.btn-play-word-us').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakUS(item.word);
+    });
+  });
+  plane.querySelectorAll('.btn-play-sentence-us').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakUS(item.sentence);
+    });
+  });
+
+  // Fallback triggers respecting preferredAccent
+  plane.querySelectorAll('.btn-play-def:not(.btn-play-def-uk):not(.btn-play-def-us)').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakVoice(item.definition, preferredAccent);
+    });
+  });
+  plane.querySelectorAll('.btn-play-word:not(.btn-play-word-uk):not(.btn-play-word-us)').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakVoice(item.word, preferredAccent);
+    });
+  });
+  plane.querySelectorAll('.btn-play-sentence:not(.btn-play-sentence-uk):not(.btn-play-sentence-us)').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      speakVoice(item.sentence, preferredAccent);
     });
   });
 }
