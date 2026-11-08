@@ -56,8 +56,6 @@
             <option value="18">Session 18: Focus on Fluency (Describing Things &amp; Importance)</option>
             <option value="19">Session 19: Special Educational Needs (Social &amp; Cultural Inclusion)</option>
             <option value="20">Session 20: Conversation Skills (Daily Conversation)</option>
-          <option value="21">Session 21: The Value of Sport</option>
-          <option value="22">Session 22: Conversation Topics</option>
             <option value="21">Session 21: Focus on Fluency (The Value of Sport)</option>
             <option value="22">Session 22: Social &amp; Cultural Inclusion (Conversation Topics)</option>
           </select>
@@ -70,7 +68,7 @@
           <a href="./index.html" class="pillar-tab-btn active" id="navPillarSessions">
             <span>🎓</span>
             <span>Sessions</span>
-            <span class="pillar-badge">17</span>
+            <span class="pillar-badge">22 Sessions</span>
           </a>
           <a href="./stories.html" class="pillar-tab-btn" id="navPillarStories">
             <span>📚</span>
@@ -126,6 +124,8 @@
           <option value="18">Session 18: Describing Things &amp; Importance</option>
           <option value="19">Session 19: Special Educational Needs</option>
           <option value="20">Session 20: Conversation Skills (Daily Conversation)</option>
+          <option value="21">Session 21: Focus on Fluency (The Value of Sport)</option>
+          <option value="22">Session 22: Social &amp; Cultural Inclusion (Conversation Topics)</option>
         </select>
       </div>
       <a href="./index.html" class="mobile-scroll-pill active">🎓 Sessions Hub</a>
@@ -141,6 +141,7 @@
     <!-- ========================================================================
          UNIFIED 3-PART HAMBURGER DRAWER SYSTEM
          ======================================================================== -->
+    <div id="drawerBackdrop" class="drawer-backdrop" aria-hidden="true"></div>
     <div id="mobileDrawerMenu" class="mobile-menu-drawer" aria-label="Site Navigation Drawer">
       <div class="drawer-header">
         <div class="bc-brand-badge">
@@ -158,6 +159,35 @@
           <div class="drawer-part-title">
             <span>🎓 PART 1: COURSE SESSIONS</span>
             <span class="part-badge">22 Sessions</span>
+          </div>
+
+          <!-- Quick Jump Chips Bar for Instant Mobile Access -->
+          <div class="drawer-quick-jump">
+            <span class="quick-jump-label">⚡ Direct Jump to Session (1–22):</span>
+            <div class="quick-jump-chips">
+              <button type="button" class="jump-chip" onclick="switchSession('1')">01</button>
+              <button type="button" class="jump-chip" onclick="switchSession('2')">02</button>
+              <button type="button" class="jump-chip" onclick="switchSession('3')">03</button>
+              <button type="button" class="jump-chip" onclick="switchSession('4')">04</button>
+              <button type="button" class="jump-chip" onclick="switchSession('5')">05</button>
+              <button type="button" class="jump-chip" onclick="switchSession('6')">06</button>
+              <button type="button" class="jump-chip" onclick="switchSession('7')">07</button>
+              <button type="button" class="jump-chip" onclick="switchSession('8')">08</button>
+              <button type="button" class="jump-chip" onclick="switchSession('9')">09</button>
+              <button type="button" class="jump-chip" onclick="switchSession('10')">10</button>
+              <button type="button" class="jump-chip" onclick="switchSession('11')">11</button>
+              <button type="button" class="jump-chip" onclick="switchSession('12')">12</button>
+              <button type="button" class="jump-chip" onclick="switchSession('13')">13</button>
+              <button type="button" class="jump-chip" onclick="switchSession('14')">14</button>
+              <button type="button" class="jump-chip" onclick="switchSession('15')">15</button>
+              <button type="button" class="jump-chip" onclick="switchSession('16')">16</button>
+              <button type="button" class="jump-chip" onclick="switchSession('17')">17</button>
+              <button type="button" class="jump-chip" onclick="switchSession('18')">18</button>
+              <button type="button" class="jump-chip" onclick="switchSession('19')">19</button>
+              <button type="button" class="jump-chip" onclick="switchSession('20')">20</button>
+              <button type="button" class="jump-chip jump-chip-featured" onclick="switchSession('21')">21 🏃</button>
+              <button type="button" class="jump-chip jump-chip-featured" onclick="switchSession('22')">22 🗣️</button>
+            </div>
           </div>
           <a href="./index.html" class="drawer-item-link active">
             <span class="drawer-item-icon">📂</span>

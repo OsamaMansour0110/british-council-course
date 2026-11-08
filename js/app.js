@@ -155,6 +155,24 @@ function switchSession(sessionId) {
     mobSelect.value = currentSessionId;
   }
 
+  // Highlight active session card and jump chip in drawer
+  document.querySelectorAll('.drawer-session-card').forEach(card => {
+    const isThis = card.getAttribute('onclick')?.includes(`'${currentSessionId}'`);
+    if (isThis) {
+      card.classList.add('active');
+    } else {
+      card.classList.remove('active');
+    }
+  });
+  document.querySelectorAll('.jump-chip').forEach(chip => {
+    const isThis = chip.getAttribute('onclick')?.includes(`'${currentSessionId}'`);
+    if (isThis) {
+      chip.classList.add('active');
+    } else {
+      chip.classList.remove('active');
+    }
+  });
+
   // Section references
   const sec1Materials = document.getElementById('session1Materials');
   const sec2Materials = document.getElementById('session2Materials');
@@ -6069,16 +6087,38 @@ function initThemeAndDrawer() {
   const mobileBtn = document.getElementById('btnMobileToggle');
   const mobileDrawer = document.getElementById('mobileDrawerMenu');
   const closeBtn = document.getElementById('btnDrawerClose');
+  const drawerBackdrop = document.getElementById('drawerBackdrop');
+
+  function openDrawer() {
+    if (!mobileDrawer) return;
+    mobileDrawer.classList.add('open');
+    if (drawerBackdrop) drawerBackdrop.classList.add('active');
+    document.body.classList.add('drawer-open-lock');
+    mobileBtn?.setAttribute('aria-expanded', 'true');
+  }
+
+  function closeDrawer() {
+    if (!mobileDrawer) return;
+    mobileDrawer.classList.remove('open');
+    if (drawerBackdrop) drawerBackdrop.classList.remove('active');
+    document.body.classList.remove('drawer-open-lock');
+    mobileBtn?.setAttribute('aria-expanded', 'false');
+  }
+
   if (mobileBtn && mobileDrawer) {
     mobileBtn.addEventListener('click', () => {
-      mobileDrawer.classList.toggle('open');
-      mobileBtn.setAttribute('aria-expanded', mobileDrawer.classList.contains('open'));
+      if (mobileDrawer.classList.contains('open')) {
+        closeDrawer();
+      } else {
+        openDrawer();
+      }
     });
-    closeBtn?.addEventListener('click', () => {
-      mobileDrawer.classList.remove('open');
-    });
-    mobileDrawer.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => mobileDrawer.classList.remove('open'));
+    closeBtn?.addEventListener('click', closeDrawer);
+    drawerBackdrop?.addEventListener('click', closeDrawer);
+    mobileDrawer.querySelectorAll('a, button.jump-chip').forEach(el => {
+      el.addEventListener('click', () => {
+        closeDrawer();
+      });
     });
   }
 

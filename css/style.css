@@ -451,49 +451,7 @@ button {
   background: var(--bg-subtle);
 }
 
-/* Mobile Slide-Out Drawer Menu */
-.mobile-menu-drawer {
-  position: fixed;
-  top: 64px;
-  left: 0;
-  width: 100%;
-  background: var(--bg-surface);
-  border-bottom: 2px solid var(--bc-blue);
-  box-shadow: var(--shadow-lg);
-  padding: 1rem 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  transform: translateY(-120%);
-  opacity: 0;
-  pointer-events: none;
-  transition: all var(--transition-normal);
-  z-index: 999;
-}
-
-.mobile-menu-drawer.open {
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.mobile-menu-drawer a {
-  padding: 0.75rem 1rem;
-  border-radius: var(--radius-sm);
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--text-main);
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  background: var(--bg-subtle);
-  text-decoration: none;
-}
-
-.mobile-menu-drawer a:active, .mobile-menu-drawer a.active {
-  background: rgba(0, 102, 245, 0.12);
-  color: var(--bc-blue);
-}
+/* Mobile Slide-Out Drawer Menu (Consolidated in Section 20) */
 
 /* Session Alert Banner */
 .session-alert-banner {
@@ -2914,25 +2872,60 @@ button {
   color: #ffffff;
 }
 
-/* Enhanced 3-Part Hamburger Drawer */
+/* Body lock when drawer is active */
+body.drawer-open-lock {
+  overflow: hidden !important;
+  touch-action: none;
+}
+
+/* Drawer Backdrop Blur */
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 15, 30, 0.65);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 1999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.drawer-backdrop.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Enhanced Full-Height Hamburger Drawer */
 .mobile-menu-drawer {
   position: fixed;
-  top: 64px;
+  top: 0;
   right: 0;
   width: 100%;
   max-width: 440px;
-  height: calc(100vh - 64px);
+  height: 100vh;
+  height: 100dvh;
   background: var(--bg-surface);
   border-left: 2px solid var(--bc-blue);
-  box-shadow: -10px 0 35px rgba(0, 0, 0, 0.35);
+  box-shadow: -10px 0 35px rgba(0, 0, 0, 0.45);
   padding: 1.25rem 1.4rem;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
-  transition: all var(--transition-normal);
-  z-index: 1200;
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.25s ease;
+  z-index: 2000;
+}
+
+@media (max-width: 480px) {
+  .mobile-menu-drawer {
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem 1rem;
+    border-left: none;
+  }
 }
 
 .mobile-menu-drawer.open {
@@ -2972,12 +2965,79 @@ button {
 }
 
 .drawer-scroll-body {
+  flex: 1 1 auto;
+  min-height: 0; /* CRITICAL: Enables smooth flex child scrolling on iOS/Android */
+  height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
   padding-right: 0.35rem;
-  flex: 1;
+  padding-bottom: 7rem; /* Generous bottom clearance so Session 21/22 are never clipped */
+}
+
+/* Quick Jump Chips Bar */
+.drawer-quick-jump {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 0.85rem;
+  margin-top: 0.35rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.quick-jump-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--bc-blue);
+  margin-bottom: 0.5rem;
+}
+
+.quick-jump-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  max-height: 140px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.jump-chip {
+  padding: 0.32rem 0.65rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.jump-chip:hover, .jump-chip.active {
+  background: var(--bc-blue);
+  color: #fff;
+  border-color: var(--bc-blue);
+  transform: scale(1.05);
+}
+
+.jump-chip-featured {
+  border-color: var(--emerald);
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--emerald);
+  font-weight: 900;
+}
+
+.jump-chip-featured:hover, .jump-chip-featured.active {
+  background: var(--emerald);
+  color: #fff;
+  border-color: var(--emerald);
 }
 
 .drawer-part-group {
