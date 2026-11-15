@@ -12886,6 +12886,1287 @@ const SESSION_22_WHITEBOARD_GALLERY = [
 /* ==========================================================================
    GLOBAL WINDOW EXPOSURE (CROSS-SCRIPT SAFEGUARD)
    ========================================================================== */
+
+/* ==========================================================================
+   SESSION 23 DATASET: FOCUS ON FLUENCY - ONLINE ADDICTION
+   Handout ID: ARB_B1_08_I116CEA_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_23 = [
+  {
+    id: 2301,
+    word: "condition",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/kənˈdɪʃ.ən/",
+    definition: "An illness or medical problem that someone has for a long time.",
+    b1Explain: "A health problem that affects how you live your everyday life.",
+    arWord: "حالة مرضية / وعكة مزمنة / وضع صحي",
+    arMeaning: "مرض أو مشكلة صحية مستمرة تؤثر على حياة الشخص لفترة طويلة.",
+    opposite: "robust health",
+    example: "Leon suffered from a newly recognised medical condition known as internet addiction.",
+    citation: "Handout Page 2 & Smartboard (Leon\'s Story)"
+  },
+  {
+    id: 2302,
+    word: "dependence",
+    cambridgeLevel: "B2",
+    pos: "noun",
+    pronunciation: "/dɪˈpen.dəns/",
+    definition: "The state of being unable to live or function normally without something.",
+    b1Explain: "When you rely so much on something that you cannot manage without it.",
+    arWord: "اعتمادية / تبعية / اتكال مرضي",
+    arMeaning: "الاعتماد الشديد على شيء بحيث لا يستطيع الشخص الاستغناء عنه.",
+    opposite: "independence",
+    example: "A government study reported that ten per cent of young people suffer from internet dependence.",
+    citation: "Handout Page 2 & Smartboard Vocabulary Key"
+  },
+  {
+    id: 2303,
+    word: "suffer",
+    cambridgeLevel: "B1",
+    pos: "verb",
+    pronunciation: "/ˈsʌf.ər/",
+    definition: "To experience physical or mental pain, or for work and life to become worse.",
+    b1Explain: "To feel bad or have things get worse because of a serious problem.",
+    arWord: "يعاني / يتضرر / يقاسي",
+    arMeaning: "التعرض للألم أو تراجع مستوى العمل والدراسة بسبب مشكلة ما.",
+    opposite: "thrive / flourish",
+    example: "My university work started to suffer because I stayed up all night playing online games.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2304,
+    word: "addicted to",
+    cambridgeLevel: "B1",
+    pos: "adjective",
+    pronunciation: "/əˈdɪk.tɪd tuː/",
+    definition: "Unable to stop doing or using something harmful as a habit.",
+    b1Explain: "Hooked on something so badly that you cannot stop doing it.",
+    arWord: "مدمن على / متعلق بشدة بـ",
+    arMeaning: "غير قادر على التوقف عن ممارسة عادة ضارة أو استخدام شيء ما.",
+    opposite: "free from / detached",
+    example: "He became addicted to online gaming and neglected his job and family responsibilities.",
+    citation: "Handout Page 2 (Exercise 1)"
+  },
+  {
+    id: 2305,
+    word: "obsessed with",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/əbˈsest wɪð/",
+    definition: "Thinking or worrying about something constantly to an unhealthy degree.",
+    b1Explain: "Unable to get something out of your mind day and night.",
+    arWord: "مهووس بـ / مستحوذ عليه",
+    arMeaning: "التفكير الدائم في شيء معين بشكل مفرط وغير صحي.",
+    opposite: "uninterested / unconcerned",
+    example: "Even when I wasn\'t online, I was obsessed with planning my next move in the game.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2306,
+    word: "hooked on",
+    cambridgeLevel: "B1",
+    pos: "adjective",
+    pronunciation: "/hʊkt ɒn/",
+    definition: "Extremely interested in or captivated by an activity so you cannot stop.",
+    b1Explain: "Enjoying something so much that you want to do it all the time.",
+    arWord: "مأسور بـ / مولع بـ / لا يستطيع تركه",
+    arMeaning: "شديد التعلق بنشاط أو لعبة لدرجة تجعل التوقف أمراً صعباً.",
+    opposite: "bored of / indifferent",
+    example: "From the moment I started playing the new strategy game, I was completely hooked.",
+    citation: "Reading Text (Paragraph C)"
+  },
+  {
+    id: 2307,
+    word: "psychologist",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/saɪˈkɒl.ə.dʒɪst/",
+    definition: "A specialist doctor who studies and treats the human mind and behavior.",
+    b1Explain: "An expert who helps people with emotional, behavioral, and mental problems.",
+    arWord: "أخصائي نفسي / طبيب سلوكي",
+    arMeaning: "طبيب أو معالج متخصص في دراسة العقل البشري وتعديل السلوك.",
+    opposite: "physical surgeon",
+    example: "I started seeing a psychologist who specialises in cyber and digital addiction issues.",
+    citation: "Reading Text (Paragraph D)"
+  },
+  {
+    id: 2308,
+    word: "cyber",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/ˈsaɪ.bər/",
+    definition: "Relating to computers, the internet, and virtual reality networks.",
+    b1Explain: "Connected to computers, online life, and the digital internet space.",
+    arWord: "إلكتروني / سيبراني / رقمي",
+    arMeaning: "مرتبط بالإنترنت وأجهزة الحاسوب والفضاء الرقمي.",
+    opposite: "offline / physical",
+    example: "The clinic provides specialised therapy for young people struggling with cyber dependence.",
+    citation: "Handout Page 2 & Smartboard"
+  },
+  {
+    id: 2309,
+    word: "caught up in",
+    cambridgeLevel: "B2",
+    pos: "phrase",
+    pronunciation: "/kɔːt ʌp ɪn/",
+    definition: "Becoming deeply involved in an unhealthy situation against your better judgement.",
+    b1Explain: "Getting trapped or lost inside an activity so you forget real life.",
+    arWord: "منغمس في / متورط في / عالق في",
+    arMeaning: "الانغماس العميق في موقف أو عالم افتراضي لدرجة فقدان السيطرة.",
+    opposite: "detached from / uninvolved",
+    example: "I can\'t risk getting caught up in that virtual gaming world ever again.",
+    citation: "Reading Text (Paragraph D)"
+  },
+  {
+    id: 2310,
+    word: "extreme",
+    cambridgeLevel: "B1",
+    pos: "adjective",
+    pronunciation: "/ɪkˈstriːm/",
+    definition: "Reaching a very high degree or far beyond normal, healthy limits.",
+    b1Explain: "Much greater or more intense than usual; very severe.",
+    arWord: "شديد / مفرط / متطرف",
+    arMeaning: "بالغ الشدة أو متجاوز للحدود الطبيعية والمعقولة.",
+    opposite: "mild / moderate",
+    example: "Although Leon\'s story may seem extreme, screen addiction is becoming very common.",
+    citation: "Reading Text (Paragraph E)"
+  },
+  {
+    id: 2311,
+    word: "withdrawal",
+    cambridgeLevel: "B2",
+    pos: "noun",
+    pronunciation: "/wɪðˈdrɔː.əl/",
+    definition: "The unpleasant physical and emotional symptoms experienced when stopping an addictive habit.",
+    b1Explain: "Feeling irritable, tired, or unhappy when you cannot go online.",
+    arWord: "أعراض انسحاب / توقف قسري",
+    arMeaning: "المشاعر السلبية والإرهاق التي تظهر عند الابتعاد القسري عن الإنترنت.",
+    opposite: "indulgence / consumption",
+    example: "When the internet was disconnected, he experienced severe emotional withdrawal and irritability.",
+    citation: "Handout Page 2 (7 Signs of Addiction)"
+  },
+  {
+    id: 2312,
+    word: "glued to",
+    cambridgeLevel: "B1",
+    pos: "adjective",
+    pronunciation: "/ɡluːd tuː/",
+    definition: "Giving all your attention to a screen so that you cannot look away.",
+    b1Explain: "Staring continuously at your phone or screen without moving.",
+    arWord: "ملتصق بـ / متسمر أمام",
+    arMeaning: "النظر بتركيز شديد ودائم إلى الشاشة دون الالتفات لما حولك.",
+    opposite: "away from screen / detached",
+    example: "Instead of talking to family, the teenager stayed glued to his smartphone all evening.",
+    citation: "Smartboard Task (Slide 9)"
+  },
+  {
+    id: 2313,
+    word: "screen-time",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˈskriːn.taɪm/",
+    definition: "The amount of time someone spends looking at a smartphone, computer, or television.",
+    b1Explain: "Hours spent using digital devices each day.",
+    arWord: "وقت الشاشة / زمن الاستخدام الرقمي",
+    arMeaning: "الوقت الإجمالي الذي يقضيه الشخص أمام شاشات الهواتف والحواسيب.",
+    opposite: "offline hours",
+    example: "The 7-day recovery plan sets strict daily screen-time limits for teenage gamers.",
+    citation: "Smartboard Task (Slide 9)"
+  },
+  {
+    id: 2314,
+    word: "log on",
+    cambridgeLevel: "B1",
+    pos: "phrasal verb",
+    pronunciation: "/lɒɡ ɒn/",
+    definition: "To connect to a computer system or website by typing in your credentials.",
+    b1Explain: "To sign in and connect to the internet or an online service.",
+    arWord: "يسجل الدخول / يتصل بالشبكة",
+    arMeaning: "الاتصال بنظام حاسوبي أو موقع إلكتروني عبر إدخال البيانات.",
+    opposite: "log off / log out",
+    example: "At the end of a busy work day, he would log on to the net and play for hours.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2315,
+    word: "kill time",
+    cambridgeLevel: "B1",
+    pos: "idiom",
+    pronunciation: "/kɪl taɪm/",
+    definition: "To do something easy or entertaining just to pass the time while waiting.",
+    b1Explain: "To spend time doing something pleasant because you have nothing urgent to do.",
+    arWord: "يقضي وقتاً / يضيع الوقت في الانتظار",
+    arMeaning: "تمضية الوقت في نشاط خفيف أو ترفيهي لملء الفراغ.",
+    opposite: "use time productively",
+    example: "He initially played the online game on Friday nights simply to kill a couple of hours.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2316,
+    word: "strategy game",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˈstræt.ə.dʒi ɡeɪm/",
+    definition: "A video game where careful thinking and planning are required to succeed.",
+    b1Explain: "A game that needs tactical decisions and planning rather than fast reflexes.",
+    arWord: "لعبة استراتيجية / لعبة تخطيط ذهني",
+    arMeaning: "لعبة إلكترونية تعتمد على التفكير المنطقي والتخطيط التكتيكي.",
+    opposite: "action reflex game",
+    example: "Leon became fascinated by an online strategy game with thousands of global players.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2317,
+    word: "switch off",
+    cambridgeLevel: "B1",
+    pos: "phrasal verb",
+    pronunciation: "/swɪtʃ ɒf/",
+    definition: "To turn off a computer or mentally stop thinking about work pressures.",
+    b1Explain: "To power down a machine, or relax your mind and forget stress.",
+    arWord: "يطفئ الجهاز / يفصل ذهنياً عن الضغوط",
+    arMeaning: "إيقاف تشغيل جهاز إلكتروني أو التوقف عن التفكير في المشاغل.",
+    opposite: "switch on / stress out",
+    example: "At first he could switch off the computer and return easily to everyday family life.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2318,
+    word: "stay up",
+    cambridgeLevel: "B1",
+    pos: "phrasal verb",
+    pronunciation: "/steɪ ʌp/",
+    definition: "To remain awake and out of bed during the night past your usual bedtime.",
+    b1Explain: "Not going to sleep when you normally should.",
+    arWord: "يسهر / يبقى مستيقظاً ليلاً",
+    arMeaning: "البقاء يقظاً طوال الليل وتأجيل النوم لوقت متأخر جداً.",
+    opposite: "go to bed early",
+    example: "He would often stay up all night playing online battles until dawn arrived.",
+    citation: "Reading Text (Paragraph B)"
+  },
+  {
+    id: 2319,
+    word: "feel in control",
+    cambridgeLevel: "B1",
+    pos: "phrase",
+    pronunciation: "/fiːl ɪn kənˈtrəʊl/",
+    definition: "To have the confidence and power to manage your own circumstances.",
+    b1Explain: "Feeling that you are directing what happens rather than being helpless.",
+    arWord: "يشعر بالسيطرة / يتحكم في مجريات الأمور",
+    arMeaning: "الإحساس بالقدرة على قيادة وتوجيه الأحداث بثقة.",
+    opposite: "feel overwhelmed / helpless",
+    example: "Inside the virtual game, all his workplace anxieties vanished and he felt in control.",
+    citation: "Reading Text (Paragraph C)"
+  },
+  {
+    id: 2320,
+    word: "overtime",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˈəʊ.və.taɪm/",
+    definition: "Time worked at your job beyond normal regular office hours.",
+    b1Explain: "Extra hours worked at the office, often for extra pay.",
+    arWord: "عمل إضافي / ساعات عمل زائدة",
+    arMeaning: "العمل لساعات إضافية تتجاوز الدوام الرسمي المعتاد.",
+    opposite: "regular hours",
+    example: "He lied to his wife, falsely claiming that he had to stay late at the office doing overtime.",
+    citation: "Reading Text (Paragraph C)"
+  },
+  {
+    id: 2321,
+    word: "concentrate",
+    cambridgeLevel: "B1",
+    pos: "verb",
+    pronunciation: "/ˈkɒn.sən.treɪt/",
+    definition: "To direct all your mental effort and attention toward a specific task.",
+    b1Explain: "To focus deeply on what you are doing without getting distracted.",
+    arWord: "يركز / يوجه كامل انتباهه",
+    arMeaning: "تركيز الفكر والجهد على مهمة معينة دون تشتت.",
+    opposite: "lose focus / get distracted",
+    example: "He was so sleep-deprived from late-night gaming that he could not concentrate at work.",
+    citation: "Reading Text (Paragraph C)"
+  },
+  {
+    id: 2322,
+    word: "come crashing down",
+    cambridgeLevel: "B2",
+    pos: "idiom",
+    pronunciation: "/kʌm ˈkræʃ.ɪŋ daʊn/",
+    definition: "To suddenly and dramatically fail, collapse, or fall apart completely.",
+    b1Explain: "When everything in your life suddenly breaks down and collapses.",
+    arWord: "ينهار فجأة / يتحطم بالكامل",
+    arMeaning: "الانهيار المفاجئ والكامل للمسار المهني أو الحياة الشخصية.",
+    opposite: "succeed smoothly / remain stable",
+    example: "Then one day his secret life came crashing down when his boss called him into the office.",
+    citation: "Reading Text (Paragraph D)"
+  },
+  {
+    id: 2323,
+    word: "get fired",
+    cambridgeLevel: "B1",
+    pos: "phrase",
+    pronunciation: "/ɡet ˈfaɪəd/",
+    definition: "To lose your job because your employer is dissatisfied with your work.",
+    b1Explain: "To be dismissed from your job because of poor performance.",
+    arWord: "يُفصل من العمل / يُطرد من وظيفته",
+    arMeaning: "فقدان الوظيفة وإنهاء الخدمة بسبب التقصير أو سوء الأداء.",
+    opposite: "get hired / get promoted",
+    example: "Because of his repeated absenteeism and poor focus, Leon was fired from his company.",
+    citation: "Reading Text (Paragraph D)"
+  },
+  {
+    id: 2324,
+    word: "break down",
+    cambridgeLevel: "B2",
+    pos: "phrasal verb",
+    pronunciation: "/breɪk daʊn/",
+    definition: "To lose emotional control and start crying openly because of stress.",
+    b1Explain: "To cry and show intense sadness because you can no longer hold it inside.",
+    arWord: "ينهار بالبكاء / يفقد تماسكه العاطفي",
+    arMeaning: "فقدان السيطرة على المشاعر والبدء في البكاء بحرقة بسبب الضغط.",
+    opposite: "stay composed / keep calm",
+    example: "When he returned home, he broke down in tears and confessed everything to his wife.",
+    citation: "Reading Text (Paragraph D)"
+  },
+  {
+    id: 2325,
+    word: "cured",
+    cambridgeLevel: "B1",
+    pos: "adjective",
+    pronunciation: "/kjʊəd/",
+    definition: "Having recovered completely from an illness or destructive psychological habit.",
+    b1Explain: "Completely healthy again and no longer suffering from an illness.",
+    arWord: "مُعافى / شُفي تماماً / بَرِئ",
+    arMeaning: "الشفاء التام والتعافي الكامل من علة أو إدمان سلوكي.",
+    opposite: "ill / relapsed",
+    example: "After intensive therapy with a psychologist, Leon is proud to say he is fully cured.",
+    citation: "Reading Text (Paragraph D)"
+  },
+  {
+    id: 2326,
+    word: "virtual world",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˈvɜː.tʃu.əl wɜːld/",
+    definition: "A simulated computer environment where users interact via avatars and screens.",
+    b1Explain: "The artificial digital world created inside internet games and networks.",
+    arWord: "عالم افتراضي / بيئة رقمية محاكاة",
+    arMeaning: "بيئة رقمية مولدة بالحاسوب يتفاعل فيها المستخدمون افتراضياً.",
+    opposite: "physical world / real life",
+    example: "Some people find the virtual world so thrilling that they completely ignore real life.",
+    citation: "Reading Text (Headings Slide)"
+  },
+  {
+    id: 2327,
+    word: "alarming",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/əˈlɑː.mɪŋ/",
+    definition: "Causing great fear, worry, or acute concern about a growing danger.",
+    b1Explain: "Very worrying and making people feel frightened about the future.",
+    arWord: "مُقلق للغاية / مُنذر بالخطر / مُفزع",
+    arMeaning: "مثير للقلق الشديد ومحذر من خطر متزايد يستدعي الانتباه.",
+    opposite: "reassuring / comforting",
+    example: "The research findings showed an alarming rise in internet addiction among teenagers.",
+    citation: "Reading Text (Paragraph E)"
+  },
+  {
+    id: 2328,
+    word: "detox",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˈdiː.tɒks/",
+    definition: "A structured period when someone abstains from an unhealthy habit like screen overuse.",
+    b1Explain: "A time when you completely stop using something harmful to clean your life.",
+    arWord: "ديتوكس رقمي / تنقية وتخلص من السموم",
+    arMeaning: "فترة زمنية محددة يمتنع فيها الشخص عن الشاشات لاستعادة التوازن.",
+    opposite: "binge / screen marathon",
+    example: "The class designed a 7-day digital detox to help students disconnect from smartphones.",
+    citation: "Smartboard Task (Slide 9)"
+  }
+];
+
+const SESSION_23_LEAD_IN = {
+  title: "Lead-in: The 6-Question Internet Usage Diagnostic",
+  badge: "Handout Page 1 (Lead-in Activity)",
+  description: "Complete this diagnostic self-assessment about your online habits, then compare your answers with a partner.",
+  questions: [
+    {
+      id: 1,
+      q: "How often do you check social media or websites before doing other necessary tasks?",
+      ar: "كم مرة تتفقد وسائل التواصل أو المواقع قبل إنجاز مهامك الضرورية؟",
+      advice: "Checking feeds first thing in the morning trains your brain to seek dopamine spikes before deep work."
+    },
+    {
+      id: 2,
+      q: "How often do you find yourself thinking about being online while doing offline activities?",
+      ar: "كم مرة تجد نفسك تفكر في الإنترنت أثناء قيامك بأنشطة واقعية؟",
+      advice: "Mental preoccupation is a prime clinical indicator of emerging psychological dependence."
+    },
+    {
+      id: 3,
+      q: "How often do you say 'Just a couple more minutes' when someone asks you to step away?",
+      ar: "كم مرة تقول 'دقيقتين فقط' عندما يطلب منك أحدهم ترك هاتفك أو جهازك؟",
+      advice: "Underestimating session duration is typical of loss of executive control over screen-time."
+    },
+    {
+      id: 4,
+      q: "How often do you lie to friends or family about how much time you actually spend online?",
+      ar: "كم مرة تكذب على أصدقائك أو عائلتك بشأن الوقت الفعلي الذي تقضيه على الإنترنت؟",
+      advice: "Concealing usage indicates deep down you recognize your habits have become problematic."
+    },
+    {
+      id: 5,
+      q: "How often do you choose to stay online over going out and meeting friends in person?",
+      ar: "كم مرة تفضل البقاء متصلاً بالإنترنت على الخروج ومقابلة الأصدقاء واقعياً؟",
+      advice: "Substituting real-world human social bonds with virtual feeds damages wellbeing."
+    },
+    {
+      id: 6,
+      q: "How often do you feel significantly happier when you are online compared to offline?",
+      ar: "كم مرة تشعر بسعادة أكبر بكثير عندما تكون متصلاً مقارنة بحياتك الواقعية؟",
+      advice: "Using the virtual sphere as an emotional escape valve often triggers cyclical dependence."
+    }
+  ]
+};
+
+const SESSION_23_READING_LEON = {
+  title: "Authentic Reading: Real Life Lost to the Virtual World (Leon\'s Story)",
+  badge: "Handout Page 1 & Smartboard Slides 4, 5 & 6",
+  summary: "The compelling case study of Leon Wang, who almost lost his marriage, career, and family to online gaming addiction before undergoing psychological rehabilitation.",
+  paragraphs: [
+    {
+      label: "Paragraph A",
+      heading: "Real life lost to the virtual world",
+      text: "Leon Wang had what many people would think was the perfect life - a good job, a nice home, a loving wife and two beautiful daughters - but he almost lost it all to the internet. Leon suffered from a newly recognised medical condition known as internet dependence or addiction: he just couldn\'t control his online time. Leon tells his story."
+    },
+    {
+      label: "Paragraph B",
+      heading: "First signs of trouble",
+      text: "It all started in my final year of university. At the end of a busy week I would log on to the net and kill a couple of hours in an online strategy game. At first it was innocent enough: I only played on a Friday night, enjoyed the game, chatted to a few other players around the world and then switched off the computer and went back to my everyday life. However, over time I found myself starting to play on other nights and sometimes I would stay up all night playing. My university work started to suffer and even when I wasn\'t online I was thinking about it. I became addicted. Then luckily I met my future wife and I stopped. I thought, well, that was it. Yes, I was becoming a bit obsessed but now I no longer thought about it or even wanted to play."
+    },
+    {
+      label: "Paragraph C",
+      heading: "The problem returns",
+      text: "Fast forward a few years and I was married, had started a busy job and had twin daughters. I began to get a bit stressed at work, and life at home with two new babies wasn\'t always easy and my wife and I started to argue. Then one night after work in my office I logged on to a new game I had heard about. From the moment I started playing I got lost in the game, all my problems at work and home disappeared and I felt in control. I was hooked. I would stay back at the office after work and play for hours. I started lying to my wife and told her that I was doing overtime. I would come into work tired and I couldn\'t concentrate because all I could think about was getting to the end of the day so I could go online. Of course, I felt bad that I was lying to people I loved. I wasn\'t helping out at home and I wasn\'t doing my job but I just couldn\'t stop myself. The only time I felt really happy was when I was online."
+    },
+    {
+      label: "Paragraph D",
+      heading: "Crisis and recovery",
+      text: "Then one day it all came crashing down. My boss called me into his office and told me he wasn\'t happy with my work and that I was fired. That was the worst day of my life! But instead of going home I went to an internet cafe and played the game. When I got home that night, my wife was waiting for me: she wanted to know where I had been. One of my colleagues from work had called her to tell her I had been fired. I broke down and told her everything. I am a lucky man because, although my wife was angry, she still loved me. She told me I needed help, that I had a problem and I had to agree. I started seeing a psychologist who specialises in online or cyber issues, and although it was hard work I can now say I am cured. Of course I still use the internet but I no longer play games because I know I can\'t risk getting caught up in that world again."
+    },
+    {
+      label: "Paragraph E",
+      heading: "A growing global problem",
+      text: "Although Leon\'s story may seem extreme, online addiction is becoming much more common. Last year, researchers from Hong Kong University released the results of a study which found that four per cent of the world\'s population suffers from some form of internet addiction or dependence. While this figure may not seem high, it is rising, and it is alarming when one considers that only 39 per cent of the population at this time has access to the internet. In Australia, where internet access is close to 100 per cent, a recent government study reported that ten per cent of young people suffer from internet dependence."
+    }
+  ],
+  headingMatchChallenge: [
+    { para: "Paragraph A", correct: "Real life lost to the virtual world" },
+    { para: "Paragraph B", correct: "First signs of trouble" },
+    { para: "Paragraph C", correct: "The problem returns" },
+    { para: "Paragraph D", correct: "Crisis and recovery" },
+    { para: "Paragraph E", correct: "A growing global problem" }
+  ]
+};
+
+const SESSION_23_SIGNS_OF_ADDICTION = {
+  title: "Clinical Diagnostic: The 7 Signs of Internet Addiction",
+  badge: "Handout Page 2 (Exercise 1)",
+  description: "Examine these 7 core clinical indicators of online addiction and see how Leon Wang manifested each sign in his authentic testimony.",
+  signs: [
+    {
+      num: 1,
+      name: "Loss of control",
+      definition: "Feeling anxious when disconnected from the net; craving to be online more frequently.",
+      leonEvidence: "Leon could not stop himself from logging on, staying back at the office for hours after work."
+    },
+    {
+      num: 2,
+      name: "Withdrawal",
+      definition: "Feeling irritable, exhausted, socially withdrawn, or lacking physical energy when offline.",
+      leonEvidence: "Coming into work tired, irritable, unable to concentrate on anything except waiting to go online."
+    },
+    {
+      num: 3,
+      name: "Escape",
+      definition: "Using the online virtual environment to avoid dealing with real-world problems and emotional stress.",
+      leonEvidence: "Using strategy games to escape marital arguments, twin babies at home, and workplace stress."
+    },
+    {
+      num: 4,
+      name: "Staying online longer than planned",
+      definition: "Inability to maintain boundaries on session length ('just a couple more minutes').",
+      leonEvidence: "Intending to kill a couple of hours on Friday nights, but ending up staying awake all night until sunrise."
+    },
+    {
+      num: 5,
+      name: "Lying about online usage",
+      definition: "Deceiving family members, spouses, or employers about the extent of screen-time.",
+      leonEvidence: "Lying to his wife that he was staying back late at the office doing professional overtime."
+    },
+    {
+      num: 6,
+      name: "Obsessing over the next online visit",
+      definition: "Constant mental preoccupation with internet activities during offline moments.",
+      leonEvidence: "Thinking about the game while away from the screen, and watching the clock until his workday ended."
+    },
+    {
+      num: 7,
+      name: "Neglecting real life responsibilities",
+      definition: "Allowing work, studies, relationships, and health to deteriorate because of screen time.",
+      leonEvidence: "Failing to help his wife with twin babies, neglecting job duties, and ultimately getting fired."
+    }
+  ]
+};
+
+const SESSION_23_VOCAB_MATCHING = {
+  title: "Core Lexical Definitions Match (Smartboard Slide 2)",
+  badge: "Handout Page 2 & Smartboard Answers (Slide 2)",
+  items: [
+    { id: 1, term: "condition", correct: "g", options: { g: "an illness or disease that a person has for a long time", c: "to become worse because of being badly affected", a: "a doctor who treats the mind and behaviour" } },
+    { id: 2, term: "dependence", correct: "h", options: { h: "the state of being influenced or controlled by something else", e: "unable to stop doing something harmful", j: "too interested in something" } },
+    { id: 3, term: "suffer", correct: "c", options: { c: "to become worse because of being badly affected by something", b: "having become involved but not wanting to be", f: "to think about something too much" } },
+    { id: 4, term: "addicted to", correct: "e", options: { e: "unable to stop doing something that is harmful", g: "an illness or disease that a person has for a long time", i: "very serious or severe" } },
+    { id: 5, term: "obsessed with", correct: "f", options: { f: "to think about something too much", h: "the state of being controlled by something else", d: "related to computers" } },
+    { id: 6, term: "hooked (on)", correct: "j", options: { j: "too interested in something", a: "a doctor who treats the mind and behaviour", b: "having become involved but not wanting to be" } },
+    { id: 7, term: "psychologist", correct: "a", options: { a: "a doctor who treats the mind and behaviour", g: "an illness that a person has for a long time", c: "to become worse because of being badly affected" } },
+    { id: 8, term: "cyber", correct: "d", options: { d: "related to computers and digital networks", e: "unable to stop doing something harmful", i: "very serious or severe" } },
+    { id: 9, term: "caught up in", correct: "b", options: { b: "having become involved but not wanting to be", f: "to think about something too much", h: "the state of being influenced by something" } },
+    { id: 10, term: "extreme", correct: "i", options: { i: "very serious or severe; far beyond normal", c: "to become worse because of being affected", j: "too interested in something" } }
+  ]
+};
+
+const SESSION_23_SEVEN_DAY_DETOX = {
+  title: "Task Studio: The 7-Day Teen Digital Detox Programme",
+  badge: "Smartboard Slide 9 (Collaborative Task)",
+  brief: "Design a realistic 7-day plan for a teenager who spends too much time online (glued to screens instead of making memories).",
+  guidelines: [
+    { title: "Daily Screen-Time Limits", detail: "Cap recreational phone and gaming usage to maximum 60–90 minutes per day on weekdays." },
+    { title: "Offline Activities", detail: "Substitute screens with sports (cycling, swimming), board games, acoustic musical instruments, or hands-on cooking." },
+    { title: "Rules for Phone Use", detail: "Strict 'No Phones in the Bedroom at Night' rule; charge phones in the kitchen from 9:00 PM." },
+    { title: "Rewards for Following the Plan", detail: "Weekend family excursions, tickets to live sporting events, or outdoor adventure trips." }
+  ],
+  boardAnnotations: [
+    { phrase: "glued", context: "Teenagers are glued to their screens for 8+ hours a day." },
+    { phrase: "Instead of making memories", context: "Young people miss real-world adventures because they are absorbed in virtual feeds." }
+  ]
+};
+
+const SESSION_23_PRONUNCIATION_LAB = {
+  title: "Articulatory Fluency Lab: Tongue Twisters",
+  badge: "Smartboard Slide 1 (Warm-up Activity)",
+  twisters: [
+    {
+      text: "Nine nice night nurses nursing nicely.",
+      targetSound: "Alveolar Nasal /n/ & Diphthong /aɪ/",
+      phonetic: "/naɪn naɪs naɪt ˈnɜː.sɪz ˈnɜː.sɪŋ ˈnaɪs.li/",
+      tip: "Touch the tip of your tongue to the alveolar ridge behind your upper front teeth for crisp /n/ sounds."
+    },
+    {
+      text: "A happy hippo hopped and hiccupped.",
+      targetSound: "Voiceless Glottal Fricative /h/ & Short Vowels",
+      phonetic: "/ə ˈhæp.i ˈhɪp.əʊ hɒpt ənd ˈhɪk.ʌpt/",
+      tip: "Expel air gently from the throat without vocal cord vibration on /h/."
+    },
+    {
+      text: "She sells seashells by the seashore.",
+      targetSound: "Postalveolar /ʃ/ vs. Alveolar /s/",
+      phonetic: "/ʃiː selz ˈsiː.ʃelz baɪ ðə ˈsiː.ʃɔː/",
+      tip: "Alternate between rounded lips for /ʃ/ and spread smiling lips for /s/."
+    },
+    {
+      text: "Betty Botter bought some butter, but she said the butter\'s bitter.",
+      targetSound: "Plosive Bilabials /b/, /p/ & Flapped /t/",
+      phonetic: "/ˈbet.i ˈbɒt.ər bɔːt sʌm ˈbʌt.ər/",
+      tip: "Build rhythm and explosive lip closure on /b/."
+    }
+  ]
+};
+
+const SESSION_23_TEACHER_FEEDBACK = [
+  {
+    original: "He is addicted by the internet.",
+    correction: "He is addicted to the internet.",
+    rule: "Prepositional Collocation: The adjective 'addicted' always takes the preposition 'to', never 'by' or 'with'.",
+    audio: "He is addicted to the internet."
+  },
+  {
+    original: "Leon suffered with internet addiction.",
+    correction: "Leon suffered from internet addiction.",
+    rule: "Dependent Preposition: When indicating an illness or condition, 'suffer' collocates with 'from'.",
+    audio: "Leon suffered from internet addiction."
+  },
+  {
+    original: "He stayed awake to kill the time.",
+    correction: "He played games to kill time.",
+    rule: "Idiomatic Precision: The idiom is 'kill time' without the definite article 'the'.",
+    audio: "He played games to kill time."
+  },
+  {
+    original: "The teenager is gluing to his screen.",
+    correction: "The teenager is glued to his screen.",
+    rule: "Passive Adjective: We use the past participle 'glued' to describe being unable to look away.",
+    audio: "The teenager is glued to his screen."
+  }
+];
+
+const SESSION_23_WHITEBOARD_GALLERY = [
+  { img: "assets/images/session23_board_tongue_twisters.jpg", title: "Smartboard Slide 1: Tongue Twister Fluency Warm-up", desc: "Warm-up pronunciation challenges: 'Nine nice night nurses', 'happy hippo', and 'seashells'." },
+  { img: "assets/images/session23_board_vocab_matching.jpg", title: "Smartboard Slide 2: Lexical Definitions Key (1-10)", desc: "Authentic board answers matching condition, dependence, suffer, addicted, obsessed, etc." },
+  { img: "assets/images/session23_board_reading_headings.jpg", title: "Smartboard Slide 3: Reading Headings Challenge", desc: "5 structural headings for Leon's narrative on online strategy gaming and recovery." },
+  { img: "assets/images/session23_board_reading_text_ab.jpg", title: "Smartboard Slide 4: Reading Input (Paragraphs A & B)", desc: "Introduction of Leon Wang and the first signs of university strategy gaming trouble." },
+  { img: "assets/images/session23_board_reading_text_c.jpg", title: "Smartboard Slide 5: Reading Input (Paragraph C - The Return)", desc: "Relapse during workplace stress, overtime deceit, and late-night gaming sessions." },
+  { img: "assets/images/session23_board_reading_text_d.jpg", title: "Smartboard Slide 6: Reading Input (Paragraph D - Crisis & Cure)", desc: "Getting fired, internet cafe visit, breakdown confession to his wife, and psychologist therapy." },
+  { img: "assets/images/session23_board_reading_text_e.jpg", title: "Smartboard Slide 7: Reading Input (Paragraph E - Global Statistics)", desc: "Hong Kong University & Australian government data on worldwide internet dependence." },
+  { img: "assets/images/session23_board_reading_answers.jpg", title: "Smartboard Slide 8: Full Paragraph Headings Answer Key", desc: "Complete verified answer key matching paragraphs A through E to headings." },
+  { img: "assets/images/session23_board_task_detox_plan.jpg", title: "Smartboard Slide 9: 7-Day Teen Digital Detox Task", desc: "Collaborative plan criteria with teacher notes: 'glued' and 'Instead of making memories'." }
+];
+
+
+/* ==========================================================================
+   SESSION 24 DATASET: SOCIAL INCLUSION - CULTURAL MISUNDERSTANDINGS
+   Handout ID: ARB_B1_10_I124CEA_HO_v1.0
+   ========================================================================== */
+
+const VOCAB_SESSION_24 = [
+  {
+    id: 2401,
+    word: "put your foot in it",
+    cambridgeLevel: "B2",
+    pos: "idiom",
+    pronunciation: "/pʊt jɔː fʊt ɪn ɪt/",
+    definition: "To accidentally say or do something tactless that embarrasses or upsets someone.",
+    b1Explain: "To say the wrong thing by mistake and make someone feel offended.",
+    arWord: "يقع في الزلل / يقول كلاماً غير لائق بالخطأ / يخبص في الكلام",
+    arMeaning: "قول شيء غير لائق أو محرج عن غير قصد مما يسبب ضيقاً للآخرين.",
+    opposite: "speak tactfully / say the right thing",
+    example: "I really put my foot in it when I asked my colleague about her age in front of everyone.",
+    citation: "Handout Page 2 & Smartboard (Exercise 1)"
+  },
+  {
+    id: 2402,
+    word: "realise",
+    cambridgeLevel: "B1",
+    pos: "verb",
+    pronunciation: "/ˈrɪə.laɪz/",
+    definition: "To become aware of a fact, situation, or social mistake.",
+    b1Explain: "To suddenly understand or notice something you didn\'t know before.",
+    arWord: "يُدرك / يتنبه إلى / يعي",
+    arMeaning: "الانتباه إلى حقيقة أو خطأ اجتماعي لم يكن الشخص واعياً به.",
+    opposite: "overlook / ignore",
+    example: "Nok didn\'t realise that asking personal questions was considered taboo in the UK.",
+    citation: "Handout Page 2 & Smartboard Key"
+  },
+  {
+    id: 2403,
+    word: "get offended by",
+    cambridgeLevel: "B1",
+    pos: "phrase",
+    pronunciation: "/ɡet əˈfen.dɪd baɪ/",
+    definition: "To feel hurt, annoyed, or insulted by someone\'s words or behaviour.",
+    b1Explain: "To feel upset because someone said or did something impolite.",
+    arWord: "يستاء من / ينزعج من / يأخذ الأمر كإهانة",
+    arMeaning: "الشعور بالإهانة أو الانزعاج الشديد نتيجة تصرف أو قول غير ملائم.",
+    opposite: "feel flattered / welcome",
+    example: "The woman at the dinner party got offended by the direct question about her salary.",
+    citation: "Handout Page 2 & Smartboard Key"
+  },
+  {
+    id: 2404,
+    word: "inappropriate",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/ˌɪn.əˈprəʊ.pri.ət/",
+    definition: "Not suitable, polite, or acceptable in a specific social context.",
+    b1Explain: "Not right or polite for the situation.",
+    arWord: "غير لائق / غير مناسب / غير ملائم اجتماعياً",
+    arMeaning: "لا يناسب الموقف أو العرف الاجتماعي السائد ويعد غير مقبول.",
+    opposite: "appropriate / fitting",
+    example: "Asking people about their marital status or private finances is deemed inappropriate.",
+    citation: "Handout Page 2 & Smartboard Key"
+  },
+  {
+    id: 2405,
+    word: "pay a compliment",
+    cambridgeLevel: "B1",
+    pos: "collocation",
+    pronunciation: "/peɪ ə ˈkɒm.plɪ.mənt/",
+    definition: "To say something nice, admiring, or congratulatory to someone.",
+    b1Explain: "To praise someone politely on their appearance, food, or achievements.",
+    arWord: "يُجامل / يُثني على / يمدح بأدب",
+    arMeaning: "توجيه عبارات الثناء والإعجاب لشخص ما لتعزيز المودة.",
+    opposite: "criticize / insult",
+    example: "Instead of asking about her age, it would\'ve been better to pay her a compliment on her dress.",
+    citation: "Language Focus (Slide 2)"
+  },
+  {
+    id: 2406,
+    word: "split the bill",
+    cambridgeLevel: "B1",
+    pos: "collocation",
+    pronunciation: "/splɪt ðə bɪl/",
+    definition: "To divide the total cost of a restaurant meal equally among everyone present.",
+    b1Explain: "Sharing the food bill so each person pays their fair share.",
+    arWord: "يتقاسم الفاتورة / يدفع كل شخص نصيبه",
+    arMeaning: "تقسيم الحساب الإجمالي للطعام بالتساوي بين جميع الحاضرين.",
+    opposite: "cover the whole bill / treat everyone",
+    example: "At the end of the meal, the colleagues agreed to split the bill down the middle.",
+    citation: "Handout Page 2 & Smartboard Key"
+  },
+  {
+    id: 2407,
+    word: "go Dutch",
+    cambridgeLevel: "B2",
+    pos: "idiom",
+    pronunciation: "/ɡəʊ dʌtʃ/",
+    definition: "An informal arrangement where each person pays for their own meal or expenses.",
+    b1Explain: "When everyone in the group pays for what they ordered themselves.",
+    arWord: "يدفع كل فرد حسابه الشخصي / نظام هولندي",
+    arMeaning: "ترتيب يدفع فيه كل شخص تكلفة طعامه وشرابه بمفرده دون ضيافة.",
+    opposite: "pick up the tab / treat",
+    example: "When British friends dine out together, they commonly go Dutch unless it is a birthday.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2408,
+    word: "fashionably late",
+    cambridgeLevel: "B2",
+    pos: "idiom",
+    pronunciation: "/ˈfæʃ.ən.ə.bli leɪt/",
+    definition: "Arriving intentionally slightly after the agreed time to appear stylish or relaxed.",
+    b1Explain: "Arriving 15–20 minutes late to a social party on purpose so you don\'t seem too eager.",
+    arWord: "تأخر لائق اجتماعياً / وصول متأخر بأناقة",
+    arMeaning: "التأخر المتعمد لبضع دقائق عن موعد الحفل كعادة اجتماعية مألوفة.",
+    opposite: "punctual / dead on time",
+    example: "At large social parties, arriving fashionably late is often acceptable, but not for dinner reservations.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2409,
+    word: "leave someone hanging",
+    cambridgeLevel: "B2",
+    pos: "idiom",
+    pronunciation: "/liːv ˈsʌm.wʌn ˈhæŋ.ɪŋ/",
+    definition: "To leave someone\'s outstretched hand unreciprocated, or ignore their greeting gesture.",
+    b1Explain: "Not shaking someone\'s hand or not high-fiving them when they offer their hand.",
+    arWord: "يترك يده معلقة في الهواء / يتجاهل مصافحته",
+    arMeaning: "تجاهل مد يد شخص للمصافحة وتركها دون استجابة مما يسبب له حرجاً.",
+    opposite: "reciprocate handshake / greet warmly",
+    example: "When she rejected his handshake, she left him hanging and it felt very uncomfortable.",
+    citation: "Teacher Language Feedback (Slide 6)"
+  },
+  {
+    id: 2410,
+    word: "boundaries",
+    cambridgeLevel: "B2",
+    pos: "noun",
+    pronunciation: "/ˈbaʊn.dər.iz/",
+    definition: "The acceptable limits regarding personal space, privacy, and sensitive topics.",
+    b1Explain: "The social lines that you shouldn\'t cross when talking or interacting with others.",
+    arWord: "حدود شخصية / ضوابط التعامل / خطوط حمراء",
+    arMeaning: "الحدود الفاصلة التي تحمي خصوصية الفرد ومساحته الشخصية.",
+    opposite: "intrusion / overstepping",
+    example: "In multicultural workplaces, everyone must respect each other\'s personal boundaries.",
+    citation: "Teacher Language Feedback (Slide 6)"
+  },
+  {
+    id: 2411,
+    word: "take something as an insult",
+    cambridgeLevel: "B2",
+    pos: "collocation",
+    pronunciation: "/teɪk ˈsʌm.θɪŋ æz ən ˈɪn.sʌlt/",
+    definition: "To interpret someone\'s innocent action or custom as a deliberate attack or offense.",
+    b1Explain: "Feeling insulted by something that was not meant to hurt you.",
+    arWord: "يأخذ الأمر كإهانة / يعتبره انتقاصاً متعمداً",
+    arMeaning: "تفسير تصرف بريء أو اختلاف ثقافي على أنه إهانة مقصودة.",
+    opposite: "take in good faith / overlook",
+    example: "He shouldn\'t have taken it as an insult; it was just a cultural misunderstanding.",
+    citation: "Teacher Language Feedback (Slide 6)"
+  },
+  {
+    id: 2412,
+    word: "subtle difference",
+    cambridgeLevel: "B2",
+    pos: "collocation",
+    pronunciation: "/ˈsʌt.əl ˈdɪf.ər.əns/",
+    definition: "A delicate or small distinction that is not immediately obvious but culturally significant.",
+    b1Explain: "A small, delicate difference that is easy to miss if you don\'t pay attention.",
+    arWord: "فرق دقيق / اختلاف طفيف وحساس",
+    arMeaning: "فارق دقيق وغير ظاهر للعيان لكنه مهم جداً في التواصل الثقافي.",
+    opposite: "obvious difference / stark contrast",
+    example: "There is a subtle difference between showing interest and asking intrusive questions.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2413,
+    word: "it's on me",
+    cambridgeLevel: "B1",
+    pos: "phrase",
+    pronunciation: "/ɪts ɒn miː/",
+    definition: "An informal, generous way of saying 'I will pay for everyone\'s meal or drink.'",
+    b1Explain: "I am paying for this; you don\'t need to spend any money.",
+    arWord: "الحساب عليّ / الضيافة على حسابي",
+    arMeaning: "عبارة تدل على الكرم وتعني التكفل بدفع الحساب نيابة عن الآخرين.",
+    opposite: "pay your share",
+    example: "Put your wallet away! It\'s on me tonight to celebrate your new promotion.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2414,
+    word: "it's my treat",
+    cambridgeLevel: "B1",
+    pos: "phrase",
+    pronunciation: "/ɪts maɪ triːt/",
+    definition: "A polite, friendly offer to pay for someone else as a celebration or gift.",
+    b1Explain: "A kind way of offering to buy someone lunch or coffee.",
+    arWord: "عزومتي / ضيافتي / على نفقتي الخاصة",
+    arMeaning: "عرض مهذب للتكفل بالمصاريف احتفاءً بالشخص الآخر.",
+    opposite: "split the expenses",
+    example: "Let me buy you lunch today; it\'s my treat for helping me with the report.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2415,
+    word: "punctuality",
+    cambridgeLevel: "B2",
+    pos: "noun",
+    pronunciation: "/ˌpʌŋk.tʃuˈæl.ə.ti/",
+    definition: "The habit of arriving exactly at the agreed time; being on time.",
+    b1Explain: "Being on time for meetings, dates, and dinners.",
+    arWord: "دقة في المواعيد / التزام بالوقت",
+    arMeaning: "الحرص الشديد على الحضور في الوقت المتفق عليه دون تأخير.",
+    opposite: "lateness / tardiness",
+    example: "In German and British business culture, punctuality is seen as a sign of high respect.",
+    citation: "Handout Page 1 (Lead-in Activity)"
+  },
+  {
+    id: 2416,
+    word: "table manners",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˈteɪ.bəl ˌmæn.əz/",
+    definition: "Rules of polite and acceptable behavior while eating a meal at a table with others.",
+    b1Explain: "How you behave, use cutlery, and eat politely during a meal.",
+    arWord: "آداب المائدة / إتيكيت تناول الطعام",
+    arMeaning: "القواعد والتقاليد المتبعة لتناول الطعام بلباقة واحترام.",
+    opposite: "bad manners / rude dining",
+    example: "Different cultures possess very distinct ideas regarding proper table manners.",
+    citation: "Handout Page 1 (Lead-in Activity)"
+  },
+  {
+    id: 2417,
+    word: "help yourself to",
+    cambridgeLevel: "B1",
+    pos: "phrasal verb",
+    pronunciation: "/help jɔːˈself tuː/",
+    definition: "To take food or drinks for yourself without waiting for someone to serve you.",
+    b1Explain: "To put food on your plate freely.",
+    arWord: "يخدم نفسه بنفسه / يغرف لنفسه من الطعام",
+    arMeaning: "تناول الطعام أو الشراب بنفسك دون انتظار أن يسكبه لك أحد.",
+    opposite: "wait to be served",
+    example: "Nok helped herself to the dish on the table, not realising it was an individual order.",
+    citation: "Handout Page 2 (Listening Statement 7)"
+  },
+  {
+    id: 2418,
+    word: "individual dish",
+    cambridgeLevel: "B1",
+    pos: "collocation",
+    pronunciation: "/ˌɪn.dɪˈvɪdʒ.u.əl dɪʃ/",
+    definition: "A specific plate of food ordered for and eaten by one person only.",
+    b1Explain: "A meal plate meant just for you, not for sharing with the table.",
+    arWord: "طبق فردي / وجبة لشخص واحد فقط",
+    arMeaning: "صحن طعام يطلبه شخص ليتناوله بمفرده دون مشاركة عامة.",
+    opposite: "communal platter / shared bowl",
+    example: "In many British restaurants, diners order individual dishes rather than communal platters.",
+    citation: "Handout Page 2 (Listening Statement 8)"
+  },
+  {
+    id: 2419,
+    word: "misunderstanding",
+    cambridgeLevel: "B1",
+    pos: "noun",
+    pronunciation: "/ˌmɪs.ʌn.dəˈstæn.dɪŋ/",
+    definition: "A failure to understand someone correctly, causing confusion, embarrassment, or conflict.",
+    b1Explain: "A mistake in understanding what someone said, did, or meant.",
+    arWord: "سوء تفاهم / التباس / لبس في الفهم",
+    arMeaning: "عدم فهم قصد الطرف الآخر بدقة مما يؤدي إلى ارتباك أو حرج.",
+    opposite: "mutual understanding / clarity",
+    example: "The tension at the dinner party arose purely from cultural misunderstandings.",
+    citation: "Handout Page 1 & Title"
+  },
+  {
+    id: 2420,
+    word: "beforehand",
+    cambridgeLevel: "B1",
+    pos: "adverb",
+    pronunciation: "/bɪˈfɔː.hænd/",
+    definition: "Earlier than a particular event; in advance.",
+    b1Explain: "Before something happens.",
+    arWord: "مُسبقاً / من قبل / في وقت سابق",
+    arMeaning: "القيام بالشيء أو الاستفسار عنه قبل وقوع الحدث بفترة كافية.",
+    opposite: "afterwards / subsequently",
+    example: "Tom told Nok: 'I probably would\'ve checked how the bill was being handled beforehand.'",
+    citation: "Language Focus (Slide 3)"
+  },
+  {
+    id: 2421,
+    word: "running late",
+    cambridgeLevel: "B1",
+    pos: "idiom",
+    pronunciation: "/ˈrʌn.ɪŋ leɪt/",
+    definition: "Traveling more slowly than scheduled and likely to arrive after the appointed time.",
+    b1Explain: "Realising that you will be late for an appointment.",
+    arWord: "متأخر عن الموعد / في عجلة لتدارك التأخير",
+    arMeaning: "التأخر في الطريق عن الوقت المحدد للقاء أو الاجتماع.",
+    opposite: "running early / ahead of schedule",
+    example: "If you\'re stuck in traffic, phone the host to inform them that you\'re running late.",
+    citation: "Language Focus (Slide 2)"
+  },
+  {
+    id: 2422,
+    word: "controversial",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/ˌkɒn.trəˈvɜː.ʃəl/",
+    definition: "Causing a lot of disagreement, heated debate, or strong opposing opinions.",
+    b1Explain: "Something that makes people argue because they have completely opposite views.",
+    arWord: "مثير للجدل / خلافي / محل نزاع",
+    arMeaning: "موضوع حساس يثير خلافات ونقاشات حادة بين الأطراف.",
+    opposite: "uncontroversial / consensual",
+    example: "Avoid debating controversial political topics when meeting business contacts for dinner.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2423,
+    word: "taboo",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/təˈbuː/",
+    definition: "Forbidden or strictly avoided because of religious, cultural, or social customs.",
+    b1Explain: "Something that society considers wrong or impolite to talk about.",
+    arWord: "محظور اجتماعياً / تابو / أمر محرم عرفاً",
+    arMeaning: "موضوع محظور التطرق إليه في الحديث بسبب الأعراف والتقاليد.",
+    opposite: "acceptable / customary",
+    example: "In the UK, asking strangers how much money they earn is considered taboo.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2424,
+    word: "offensive",
+    cambridgeLevel: "B2",
+    pos: "adjective",
+    pronunciation: "/əˈfen.sɪv/",
+    definition: "Likely to cause people to feel deeply insulted, upset, or hurt.",
+    b1Explain: "Rude and hurtful to other people\'s feelings.",
+    arWord: "مسيء / مهين / جارح للمشاعر",
+    arMeaning: "ما يسبب الإهانة أو جرح المشاعر بسبب قلة اللباقة أو الفظاظة.",
+    opposite: "polite / respectful",
+    example: "What is completely normal in one country might be deeply offensive in another.",
+    citation: "Incidental Vocabulary (Slide 6)"
+  },
+  {
+    id: 2425,
+    word: "praise",
+    cambridgeLevel: "B1",
+    pos: "verb",
+    pronunciation: "/preɪz/",
+    definition: "To express warm admiration and sincere approval of someone or their actions.",
+    b1Explain: "To say kind words about something someone did very well.",
+    arWord: "يمدح / يُثني على / يُشيد بـ",
+    arMeaning: "التعبير عن الإعجاب والتقدير الصادق لإنجاز أو سلوك شخص ما.",
+    opposite: "criticize / scold",
+    example: "The host praised Nok\'s thoughtful gift and placed it on the mantelpiece.",
+    citation: "Handout Page 2 & Smartboard"
+  },
+  {
+    id: 2426,
+    word: "etiquette",
+    cambridgeLevel: "B2",
+    pos: "noun",
+    pronunciation: "/ˈet.ɪ.ket/",
+    definition: "The formal and customary rules of correct, polite behavior in society.",
+    b1Explain: "The accepted polite rules for how to behave with people.",
+    arWord: "إتيكيت / آداب السلوك / بروتوكول التعامل",
+    arMeaning: "مجموعة القواعد والآداب الاجتماعية التي تنظم السلوك الراقي.",
+    opposite: "bad manners / rudeness",
+    example: "Learning local dining etiquette helps international travellers avoid awkward moments.",
+    citation: "Handout Page 1 & 3"
+  },
+  {
+    id: 2427,
+    word: "second serving",
+    cambridgeLevel: "B1",
+    pos: "collocation",
+    pronunciation: "/ˈsek.ənd ˈsɜː.vɪŋ/",
+    definition: "An additional portion or plate of food offered after you have finished your first plate.",
+    b1Explain: "A second helping of food during dinner.",
+    arWord: "صحن إضافي / حصة ثانية من الطعام",
+    arMeaning: "كمية إضافية من الطعام يقدمها المضيف بعد انتهاء الوجبة الأولى.",
+    opposite: "initial plate / single portion",
+    example: "Because she finished everything on her plate, the host assumed she wanted a second serving.",
+    citation: "Scenarios Card (Slide 5)"
+  },
+  {
+    id: 2428,
+    word: "uncomfortable",
+    cambridgeLevel: "B1",
+    pos: "adjective",
+    pronunciation: "/ʌnˈkʌm.fə.tə.bəl/",
+    definition: "Feeling uneasy, socially awkward, or embarrassed in a social situation.",
+    b1Explain: "Feeling awkward or embarrassed when something goes wrong with others.",
+    arWord: "غير مرتاح / محرج / يشعر بالضيق والحرج",
+    arMeaning: "الشعور بالحرج والارتباك النفسي نتيجة موقف اجتماعي غير مريح.",
+    opposite: "comfortable / at ease",
+    example: "When she didn\'t take his outstretched hand, it created an uncomfortable silence.",
+    citation: "Scenarios Card (Slide 5)"
+  }
+];
+
+const SESSION_24_LEAD_IN = {
+  title: "Lead-in: Cross-Cultural Differences Matrix",
+  badge: "Handout Page 1 (Lead-in Activity)",
+  description: "People from different cultural backgrounds can hold vastly different conventions regarding social etiquette. Explore the 5 core domains below:",
+  domains: [
+    {
+      domain: "Time and Punctuality",
+      icon: "⏰",
+      ukNorm: "Punctuality is crucial. Arriving more than 10 minutes late without notifying the host is seen as disrespectful.",
+      globalVariation: "In southern Europe and Latin America, arriving 15–30 minutes after the stated time ('fashionably late') is normal and expected."
+    },
+    {
+      domain: "Acceptable Conversation Topics",
+      icon: "💬",
+      ukNorm: "Safe small talk centers on weather, travel, pets, or surroundings. Salaries, politics, religion, and age are strictly taboo.",
+      globalVariation: "In many Asian and Middle Eastern cultures, inquiring warmly about marital status, children, and career is a customary sign of friendly care."
+    },
+    {
+      domain: "Table Manners & Cutlery",
+      icon: "🍴",
+      ukNorm: "Fork remains in left hand, knife in right. Hands rest in lap when not eating; chewing with mouth closed is essential.",
+      globalVariation: "In East Asia, chopsticks are customary, slumping noodles shows enjoyment, and leaving a tiny bit of food signifies the host provided plenty."
+    },
+    {
+      domain: "Ordering and Sharing Food",
+      icon: "🍲",
+      ukNorm: "Diners usually order individual dishes. Reaching across to take food from another\'s plate without asking is a major faux pas.",
+      globalVariation: "Communal dining is the norm across Thailand, China, and the Arab world, where multiple dishes are shared collectively by everyone."
+    },
+    {
+      domain: "Who Pays for the Meal",
+      icon: "💳",
+      ukNorm: "Friends routinely 'go Dutch' or split the bill down the middle. One person only pays if they explicitly stated 'It\'s my treat beforehand.'",
+      globalVariation: "The host who initiated the invitation is strongly expected to cover the entire bill; fighting to pay is a standard ritual of hospitality."
+    }
+  ]
+};
+
+const SESSION_24_LISTENING_DINNER_PARTY = {
+  title: "Neighbourhood Case Study: Nok & Tom\'s Dinner Party",
+  badge: "Handout Page 1 & 2 (Listening Comprehension)",
+  summary: "Nok shares the awkward incidents that occurred when she attended her neighbour Nick\'s dinner party in the UK, while Tom provides cultural explanations and linguistic advice.",
+  trueFalseStatements: [
+    { id: 1, statement: "Nok had a great time at the dinner.", isTrue: false, correction: "She felt terribly embarrassed and anxious because of repeated cultural misunderstandings." },
+    { id: 2, statement: "Nok arrived late because it took her a long time to get to the restaurant.", isTrue: true, correction: "She underestimated the travel duration and traffic." },
+    { id: 3, statement: "Nok didn\'t phone to say she would be late because she didn\'t think it would be a problem.", isTrue: true, correction: "In her home culture, 20 minutes late is completely normal." },
+    { id: 4, statement: "At the dinner, Nok sat next to a couple she knew well.", isTrue: false, correction: "She was seated next to complete strangers she had never met before." },
+    { id: 5, statement: "Nok asked the woman about her age because she was surprised that she had adult children.", isTrue: true, correction: "Nok intended it as a genuine compliment on how youthful the woman looked." },
+    { id: 6, statement: "The woman was happy to answer Nok\'s question.", isTrue: false, correction: "The woman was shocked, became visibly offended, and stopped speaking to Nok." },
+    { id: 7, statement: "Nok helped herself to the food on the table because she thought it was to share.", isTrue: true, correction: "In Nok\'s culture, all dishes on a dinner table are communal." },
+    { id: 8, statement: "People in the UK always order individual dishes at restaurants.", isTrue: true, correction: "Unless dining at a tapas or family-style restaurant, dishes belong strictly to the person who ordered them." },
+    { id: 9, statement: "Nok was surprised that everyone didn\'t have to pay for their own meal.", isTrue: false, correction: "She was surprised that they DID split the bill; she assumed the host Nick was treating everyone." },
+    { id: 10, statement: "Nick sent a message to Nok to apologise for the misunderstandings.", isTrue: false, correction: "Nok was worried she had ruined the evening and felt she owed Nick an explanation." }
+  ]
+};
+
+const SESSION_24_VOCAB_MATCHING = {
+  title: "Vocabulary Focus: Expressions in Context (Smartboard Slide 1)",
+  badge: "Handout Page 2 & Smartboard Answers (1A 2B 3A 4A 5A 6B)",
+  items: [
+    {
+      id: 1,
+      phrase: "to put your foot in it",
+      correct: "a",
+      options: { a: "to say or do something by accident which embarrasses or upsets someone", b: "to stand in something" }
+    },
+    {
+      id: 2,
+      phrase: "to realise",
+      correct: "b",
+      options: { a: "to make real or concrete", b: "to be aware of, to understand" }
+    },
+    {
+      id: 3,
+      phrase: "to get offended by",
+      correct: "a",
+      options: { a: "to become upset or unhappy because of something", b: "to do something against the rules or law" }
+    },
+    {
+      id: 4,
+      phrase: "inappropriate",
+      correct: "a",
+      options: { a: "not suitable or correct in a social context", b: "not clear, not easy to understand" }
+    },
+    {
+      id: 5,
+      phrase: "to pay (someone) a compliment",
+      correct: "a",
+      options: { a: "to say something nice, to praise, to congratulate", b: "to give a monetary gift or reward" }
+    },
+    {
+      id: 6,
+      phrase: "to split (the bill)",
+      correct: "b",
+      options: { a: "to leave, to depart quickly", b: "to divide and share the expenses equally" }
+    }
+  ]
+};
+
+const SESSION_24_PAST_MODALS_LAB = {
+  title: "Language Focus: Past Modals of Advice & Regret",
+  badge: "Smartboard Slides 2, 3 & 4 (Language Focus)",
+  ruleFormula: "Modal verb (would / should / could) + have + Past Participle (V3)",
+  negativeFormula: "Negative modal (wouldn\'t / shouldn\'t / couldn\'t) + have + Past Participle (V3)",
+  adverbsExplanation: "Adverbs of certainty (probably, definitely, possibly, perhaps) soften or modify the force of advice.",
+  exercises: [
+    {
+      id: 1,
+      context: "Nick was upset about Nok being late. Nok didn\'t intend to be late, but travel took a long time.",
+      speaker: "Tom",
+      gap: "I [probably would\'ve called] him to tell him I was running late.",
+      answer: "probably would\'ve called",
+      audioText: "I probably would have called him to tell him I was running late."
+    },
+    {
+      id: 2,
+      context: "Nok asked a woman at the dinner an inappropriate question about her age. The woman got offended.",
+      speaker: "Tom",
+      gap: "You [probably shouldn\'t have asked] her about her age.",
+      answer: "probably shouldn\'t have asked",
+      audioText: "You probably should not have asked her about her age."
+    },
+    {
+      id: 3,
+      context: "Nok reflects on what she could have said instead of asking the woman\'s age.",
+      speaker: "Nok",
+      gap: "It [would\'ve been better] to pay her a compliment.",
+      answer: "would\'ve been better",
+      audioText: "It would have been better to pay her a compliment."
+    },
+    {
+      id: 4,
+      context: "Nok served herself food that was meant for someone else. The woman got upset again.",
+      speaker: "Tom",
+      gap: "Maybe [you could\'ve explained] to her that sharing dishes is common where you come from.",
+      answer: "you could\'ve explained",
+      audioText: "Maybe you could have explained to her that sharing dishes is common where you come from."
+    },
+    {
+      id: 5,
+      context: "Nok didn\'t have enough cash to pay her share of the bill, but she carried a credit card.",
+      speaker: "Tom",
+      gap: "[Couldn\'t you have used] your credit card?",
+      answer: "Couldn\'t you have used",
+      audioText: "Could not you have used your credit card?"
+    }
+  ]
+};
+
+const SESSION_24_SCENARIOS_STUDIO = {
+  title: "Cultural Misunderstandings Dilemma Cards",
+  badge: "Smartboard Slide 5 & Handout Page 3",
+  description: "Read each real-world cross-cultural dilemma. What past modal advice would you give to each person?",
+  scenarios: [
+    {
+      id: 6,
+      title: "Opening the Birthday Gift Immediately",
+      text: "A colleague at work gave me a small gift for my birthday. I immediately opened the present in front of her. It was an interesting book and I thanked her. The colleague and everyone else in the room looked uncomfortable.",
+      advice: "In many Western cultures, opening gifts immediately with enthusiasm is polite. However, in East Asia, you should\'ve put the gift aside and opened it later in private so the giver doesn\'t feel embarrassed about the cost."
+    },
+    {
+      id: 7,
+      title: "20 Minutes Late for Coffee",
+      text: "I arranged to meet some new friends for coffee. I arrived on time but they were 20 minutes late. I was quite annoyed but they didn\'t say anything about being late.",
+      advice: "You probably shouldn\'t have gotten too angry immediately. In polychronic cultures, 20 minutes is considered well within acceptable social time."
+    },
+    {
+      id: 8,
+      title: "Empty Plate Leads to Unwanted Second Serving",
+      text: "I went to a dinner party at another student\'s house. The meal tasted strange but I finished what was on my plate to be polite. When she noticed I had finished, my friend asked me if I liked it. I said yes. She then gave me a second serving!",
+      advice: "You could\'ve left a small mouthful on your plate. In her culture, an empty plate signals to the host that the guest is still hungry and requires more food."
+    },
+    {
+      id: 9,
+      title: "Blunt Opinion on a New Hairstyle",
+      text: "A colleague came to work with a new hairstyle last Monday. I thought it was too short for her. She asked me my opinion and I told her what I thought. She hasn\'t spoken to me since.",
+      advice: "You definitely should\'ve paid her a tactful compliment! When someone asks about a fresh haircut, they are looking for positive reassurance, not brutal honesty."
+    },
+    {
+      id: 10,
+      title: "The Rejected Handshake Dilemma",
+      text: "I was introduced to a new business associate. I put out my hand for a handshake but she didn\'t take it. It felt like forever that I had my hand out. It was really uncomfortable.",
+      advice: "She shouldn\'t have left you hanging! But in some conservative or religious cultures, physical contact between genders is strictly avoided; you could\'ve placed your hand over your heart with a slight nod instead."
+    }
+  ]
+};
+
+const SESSION_24_TEACHER_FEEDBACK = [
+  {
+    original: "You could\'ve take off your shoes.",
+    correction: "You could\'ve taken off your shoes.",
+    rule: "Grammar Formula: Past modals require the past participle (V3): could have + taken (not the base verb 'take').",
+    audio: "You could have taken off your shoes."
+  },
+  {
+    original: "He shouldn\'t have considered it as an insult.",
+    correction: "He shouldn\'t have taken it as an insult.",
+    rule: "Lexical Collocation: The natural native collocation is 'take something as an insult' (or 'take offence').",
+    audio: "He should not have taken it as an insult."
+  },
+  {
+    original: "Respect each other\'s desires in conversation.",
+    correction: "Respect each other\'s boundaries in conversation.",
+    rule: "Lexical Precision: In cross-cultural etiquette, personal limits are called 'boundaries', not 'desires'.",
+    audio: "Respect each other\'s boundaries in conversation."
+  },
+  {
+    original: "She kept my hand in the air.",
+    correction: "She left me hanging.",
+    rule: "Authentic Idiom: When someone refuses or ignores an outstretched handshake or high-five, we say they 'left me hanging'.",
+    audio: "She left me hanging."
+  }
+];
+
+const SESSION_24_INCIDENTAL_LEXIS = {
+  title: "Classroom Board Incidental Lexicon (Slide 6)",
+  badge: "Whiteboard Incidental Vocabulary List",
+  items: [
+    { term: "Fashionably late", meaning: "Arriving 15–20 minutes late to a social party intentionally so as not to appear overly eager.", ar: "تأخر لائق ومألوف اجتماعياً" },
+    { term: "Go Dutch", meaning: "An agreement where each person pays for their own food and drink.", ar: "يدفع كل شخص حسابه الخاص" },
+    { term: "Split the bill", meaning: "Dividing the total bill equally among the diners.", ar: "تقاسم الفاتورة بالتساوي" },
+    { term: "Controversial", meaning: "A topic that causes intense disagreement, debate, and opposing opinions.", ar: "موضوع خلافي مثير للجدل" },
+    { term: "Taboo", meaning: "Topics strictly avoided in polite society (e.g. salaries, age, religion).", ar: "محظور التطرق إليه عرفاً" },
+    { term: "Offensive", meaning: "Likely to cause deep hurt, indignation, or insult.", ar: "مسيء أو جارح للمشاعر" },
+    { term: "Subtle difference", meaning: "A delicate distinction that is small but very meaningful culturally.", ar: "فارق دقيق وحساس" },
+    { term: "It\'s on me", meaning: "An informal way to announce that you are paying for the drinks or meal.", ar: "الحساب عليّ" },
+    { term: "It\'s my treat!", meaning: "A polite, friendly declaration that this meal is a gift from you.", ar: "عزومتي وعلى نفقتي" }
+  ]
+};
+
+const SESSION_24_WHITEBOARD_GALLERY = [
+  { img: "assets/images/session24_board_vocab_matching.jpg", title: "Smartboard Slide 1: Vocabulary Definitions Key", desc: "Core expressions: put your foot in it, realise, offended, inappropriate, pay a compliment, split." },
+  { img: "assets/images/session24_board_language_gapfill1.jpg", title: "Smartboard Slide 2: Language Focus - Past Modals Q1 & Q2", desc: "Tom's advice to Nok: 'probably would've called' and 'probably shouldn't have asked'." },
+  { img: "assets/images/session24_board_language_gapfill2.jpg", title: "Smartboard Slide 3: Language Focus - Past Modals Q3, Q4 & Q5", desc: "Sharing dishes, beforehand, and credit card usage: 'could've explained', 'should've asked'." },
+  { img: "assets/images/session24_board_grammar_formula_timeline.jpg", title: "Smartboard Slide 4: Modal Grammar Formula & Timeline", desc: "Board timeline: would/should/could + have + V3 for past regret, advice, and unchangeable past." },
+  { img: "assets/images/session24_board_adverbs_certainty.jpg", title: "Smartboard Slide 5: Adverbs of Certainty (Slide 5)", desc: "Using probably, definitely, possibly, perhaps to soften and modulate the force of advice." },
+  { img: "assets/images/session24_board_scenarios_cards.jpg", title: "Smartboard Slide 6: Cultural Dilemma Cards 6-10", desc: "Real-world scenarios: opening presents, 20 mins late, empty plate, haircut comment, rejected handshake." },
+  { img: "assets/images/session24_board_language_feedback.jpg", title: "Smartboard Slide 7: Language Feedback & Incidental Vocab", desc: "Teacher corrections: 'taken off shoes', 'taken as an insult', 'boundaries', 'left me hanging'." }
+];
+
+
+
 if (typeof window !== 'undefined') {
   // Vocabulary sets
   window.VOCAB_SESSION_1 = typeof VOCAB_SESSION_1 !== 'undefined' ? VOCAB_SESSION_1 : [];
@@ -13044,6 +14325,29 @@ if (typeof window !== 'undefined') {
   window.SESSION_22_TEACHER_FEEDBACK = typeof SESSION_22_TEACHER_FEEDBACK !== 'undefined' ? SESSION_22_TEACHER_FEEDBACK : undefined;
   window.SESSION_22_BBC_PRONUNCIATION = typeof SESSION_22_BBC_PRONUNCIATION !== 'undefined' ? SESSION_22_BBC_PRONUNCIATION : undefined;
   window.SESSION_22_WHITEBOARD_GALLERY = typeof SESSION_22_WHITEBOARD_GALLERY !== 'undefined' ? SESSION_22_WHITEBOARD_GALLERY : undefined;
+
+  // Session 23
+  window.VOCAB_SESSION_23 = typeof VOCAB_SESSION_23 !== 'undefined' ? VOCAB_SESSION_23 : [];
+  window.SESSION_23_LEAD_IN = typeof SESSION_23_LEAD_IN !== 'undefined' ? SESSION_23_LEAD_IN : undefined;
+  window.SESSION_23_READING_LEON = typeof SESSION_23_READING_LEON !== 'undefined' ? SESSION_23_READING_LEON : undefined;
+  window.SESSION_23_SIGNS_OF_ADDICTION = typeof SESSION_23_SIGNS_OF_ADDICTION !== 'undefined' ? SESSION_23_SIGNS_OF_ADDICTION : undefined;
+  window.SESSION_23_VOCAB_MATCHING = typeof SESSION_23_VOCAB_MATCHING !== 'undefined' ? SESSION_23_VOCAB_MATCHING : undefined;
+  window.SESSION_23_SEVEN_DAY_DETOX = typeof SESSION_23_SEVEN_DAY_DETOX !== 'undefined' ? SESSION_23_SEVEN_DAY_DETOX : undefined;
+  window.SESSION_23_PRONUNCIATION_LAB = typeof SESSION_23_PRONUNCIATION_LAB !== 'undefined' ? SESSION_23_PRONUNCIATION_LAB : undefined;
+  window.SESSION_23_TEACHER_FEEDBACK = typeof SESSION_23_TEACHER_FEEDBACK !== 'undefined' ? SESSION_23_TEACHER_FEEDBACK : undefined;
+  window.SESSION_23_WHITEBOARD_GALLERY = typeof SESSION_23_WHITEBOARD_GALLERY !== 'undefined' ? SESSION_23_WHITEBOARD_GALLERY : undefined;
+
+  // Session 24
+  window.VOCAB_SESSION_24 = typeof VOCAB_SESSION_24 !== 'undefined' ? VOCAB_SESSION_24 : [];
+  window.SESSION_24_LEAD_IN = typeof SESSION_24_LEAD_IN !== 'undefined' ? SESSION_24_LEAD_IN : undefined;
+  window.SESSION_24_LISTENING_DINNER_PARTY = typeof SESSION_24_LISTENING_DINNER_PARTY !== 'undefined' ? SESSION_24_LISTENING_DINNER_PARTY : undefined;
+  window.SESSION_24_VOCAB_MATCHING = typeof SESSION_24_VOCAB_MATCHING !== 'undefined' ? SESSION_24_VOCAB_MATCHING : undefined;
+  window.SESSION_24_PAST_MODALS_LAB = typeof SESSION_24_PAST_MODALS_LAB !== 'undefined' ? SESSION_24_PAST_MODALS_LAB : undefined;
+  window.SESSION_24_SCENARIOS_STUDIO = typeof SESSION_24_SCENARIOS_STUDIO !== 'undefined' ? SESSION_24_SCENARIOS_STUDIO : undefined;
+  window.SESSION_24_TEACHER_FEEDBACK = typeof SESSION_24_TEACHER_FEEDBACK !== 'undefined' ? SESSION_24_TEACHER_FEEDBACK : undefined;
+  window.SESSION_24_INCIDENTAL_LEXIS = typeof SESSION_24_INCIDENTAL_LEXIS !== 'undefined' ? SESSION_24_INCIDENTAL_LEXIS : undefined;
+  window.SESSION_24_WHITEBOARD_GALLERY = typeof SESSION_24_WHITEBOARD_GALLERY !== 'undefined' ? SESSION_24_WHITEBOARD_GALLERY : undefined;
+
 
 
 

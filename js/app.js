@@ -25,6 +25,8 @@ let MASTER_VOCAB = (currentSessionId === '1') ? VOCAB_SESSION_1
   : (currentSessionId === '20') ? (typeof VOCAB_SESSION_20 !== 'undefined' ? VOCAB_SESSION_20 : VOCAB_SESSION_10)
   : (currentSessionId === '21') ? (typeof VOCAB_SESSION_21 !== 'undefined' ? VOCAB_SESSION_21 : VOCAB_SESSION_10)
   : (currentSessionId === '22') ? (typeof VOCAB_SESSION_22 !== 'undefined' ? VOCAB_SESSION_22 : VOCAB_SESSION_10)
+  : (currentSessionId === '23') ? (typeof VOCAB_SESSION_23 !== 'undefined' ? VOCAB_SESSION_23 : VOCAB_SESSION_10)
+  : (currentSessionId === '24') ? (typeof VOCAB_SESSION_24 !== 'undefined' ? VOCAB_SESSION_24 : VOCAB_SESSION_10)
   : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
 /* --------------------------------------------------------------------------
@@ -143,6 +145,8 @@ function switchSession(sessionId) {
     : (currentSessionId === '20') ? (typeof VOCAB_SESSION_20 !== 'undefined' ? VOCAB_SESSION_20 : VOCAB_SESSION_10)
     : (currentSessionId === '21') ? (typeof VOCAB_SESSION_21 !== 'undefined' ? VOCAB_SESSION_21 : VOCAB_SESSION_10)
     : (currentSessionId === '22') ? (typeof VOCAB_SESSION_22 !== 'undefined' ? VOCAB_SESSION_22 : VOCAB_SESSION_10)
+    : (currentSessionId === '23') ? (typeof VOCAB_SESSION_23 !== 'undefined' ? VOCAB_SESSION_23 : VOCAB_SESSION_10)
+    : (currentSessionId === '24') ? (typeof VOCAB_SESSION_24 !== 'undefined' ? VOCAB_SESSION_24 : VOCAB_SESSION_10)
     : ((currentSessionId === '10') ? VOCAB_SESSION_10 : VOCAB_SESSION_11);
 
   // Sync toolbar select dropdown
@@ -191,6 +195,8 @@ function switchSession(sessionId) {
   const sec20Materials = document.getElementById('session20Materials');
   const sec21Materials = document.getElementById('session21Materials');
   const sec22Materials = document.getElementById('session22Materials');
+  const sec23Materials = document.getElementById('session23Materials');
+  const sec24Materials = document.getElementById('session24Materials');
   const storiesSec = document.getElementById('storiesSection');
   const spareTopicsSec = document.getElementById('spareTopicsSection');
 
@@ -861,6 +867,8 @@ function switchSession(sessionId) {
     if (sec20Materials) sec20Materials.style.display = 'none';
     if (sec21Materials) sec21Materials.style.display = 'block';
     if (sec22Materials) sec22Materials.style.display = 'none';
+    if (sec23Materials) sec23Materials.style.display = 'none';
+    if (sec24Materials) sec24Materials.style.display = 'none';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">🏃</span><span class="nav-text">Sport Hub</span>';
@@ -913,6 +921,8 @@ function switchSession(sessionId) {
     if (sec20Materials) sec20Materials.style.display = 'none';
     if (sec21Materials) sec21Materials.style.display = 'none';
     if (sec22Materials) sec22Materials.style.display = 'block';
+    if (sec23Materials) sec23Materials.style.display = 'none';
+    if (sec24Materials) sec24Materials.style.display = 'none';
 
     if (navLinkMat) {
       navLinkMat.innerHTML = '<span class="nav-icon">🗣️</span><span class="nav-text">Topics Hub</span>';
@@ -947,6 +957,116 @@ function switchSession(sessionId) {
     renderSession22Feedback();
     renderSession22Pronunciation();
     renderSession22Gallery();
+  } else if (currentSessionId === '23') {
+    // Session 23: Focus on Fluency: Online Addiction
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) sec19Materials.style.display = 'none';
+    if (sec20Materials) sec20Materials.style.display = 'none';
+    if (sec21Materials) sec21Materials.style.display = 'none';
+    if (sec22Materials) sec22Materials.style.display = 'none';
+    if (sec23Materials) sec23Materials.style.display = 'block';
+    if (sec24Materials) sec24Materials.style.display = 'none';
+
+    if (navLinkMat) {
+      navLinkMat.innerHTML = '<span class="nav-icon">💻</span><span class="nav-text">Online Addiction</span>';
+      navLinkMat.setAttribute('href', '#session23Materials');
+    }
+    if (mobileLinkMat) {
+      mobileLinkMat.innerHTML = '<span>💻</span> Online Addiction Hub';
+      mobileLinkMat.setAttribute('href', '#session23Materials');
+    }
+    if (bottomLinkMat) {
+      bottomLinkMat.setAttribute('href', '#session23Materials');
+    }
+
+    if (heroTag) heroTag.textContent = 'ACTIVE SESSION 23';
+    if (heroDocTag) heroDocTag.textContent = 'DOC: ARB_B1_08_I116CEA';
+    if (heroTitle) heroTitle.innerHTML = 'Focus on Fluency: <span>Online Addiction</span>';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B2 digital health & technology vocabulary words, analyze Leon Wang\'s authentic gaming addiction case study, study the 7 clinical signs of screen dependence, design a 7-day digital detox programme, and practice tongue twister fluency labs.';
+    if (heroVocabCount) heroVocabCount.textContent = '28';
+    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 23: Online Addiction • Handout ID: <code>ARB_B1_08_I116CEA_HO_v1.0</code>';
+    if (heroAudioBtn) {
+      heroAudioBtn.onclick = () => speakUK("British Council Session twenty-three: Focus on fluency, online addiction, Leon\'s case study, clinical signs, and digital detox.");
+    }
+
+    renderSession23LeadIn();
+    renderSession23Reading();
+    renderSession23Signs();
+    renderSession23VocabMatching();
+    renderSession23Detox();
+    renderSession23Vocab();
+    renderSession23Feedback();
+    renderSession23Pronunciation();
+    renderSession23Gallery();
+  } else if (currentSessionId === '24') {
+    // Session 24: Social & Cultural Inclusion: Cultural Misunderstandings
+    if (sec1Materials) sec1Materials.style.display = 'none';
+    if (sec2Materials) sec2Materials.style.display = 'none';
+    if (sec3Materials) sec3Materials.style.display = 'none';
+    if (sec10Materials) sec10Materials.style.display = 'none';
+    if (sec10Grammar) sec10Grammar.style.display = 'none';
+    if (sec11Materials) sec11Materials.style.display = 'none';
+    if (sec12Materials) sec12Materials.style.display = 'none';
+    if (sec13Materials) sec13Materials.style.display = 'none';
+    if (sec14Materials) sec14Materials.style.display = 'none';
+    if (sec15Materials) sec15Materials.style.display = 'none';
+    if (sec16Materials) sec16Materials.style.display = 'none';
+    if (sec17Materials) sec17Materials.style.display = 'none';
+    if (sec18Materials) sec18Materials.style.display = 'none';
+    if (sec19Materials) sec19Materials.style.display = 'none';
+    if (sec20Materials) sec20Materials.style.display = 'none';
+    if (sec21Materials) sec21Materials.style.display = 'none';
+    if (sec22Materials) sec22Materials.style.display = 'none';
+    if (sec23Materials) sec23Materials.style.display = 'none';
+    if (sec24Materials) sec24Materials.style.display = 'block';
+
+    if (navLinkMat) {
+      navLinkMat.innerHTML = '<span class="nav-icon">🌍</span><span class="nav-text">Misunderstandings</span>';
+      navLinkMat.setAttribute('href', '#session24Materials');
+    }
+    if (mobileLinkMat) {
+      mobileLinkMat.innerHTML = '<span>🌍</span> Cultural Misunderstandings Hub';
+      mobileLinkMat.setAttribute('href', '#session24Materials');
+    }
+    if (bottomLinkMat) {
+      bottomLinkMat.setAttribute('href', '#session24Materials');
+    }
+
+    if (heroTag) heroTag.textContent = 'ACTIVE SESSION 24';
+    if (heroDocTag) heroDocTag.textContent = 'DOC: ARB_B1_10_I124CEA';
+    if (heroTitle) heroTitle.innerHTML = 'Social &amp; Cultural Inclusion: <span>Cultural Misunderstandings</span>';
+    if (heroSubtitle) heroSubtitle.textContent = 'Master 28 B1/B2 cross-cultural communication vocabulary words, analyze Nok & Tom\'s dinner party dialogue, master Past Modals of Advice & Regret (would/should/could have + V3), explore certainty adverbs, and solve 5 authentic dilemma cards.';
+    if (heroVocabCount) heroVocabCount.textContent = '28';
+    if (heroPart4Sub) heroPart4Sub.textContent = '28-question final exam';
+    if (part4Header) part4Header.textContent = 'All-Words Final Exam (28 Questions)';
+    if (footerText) footerText.innerHTML = 'Intermediate B1 Course • Session 24: Cultural Misunderstandings • Handout ID: <code>ARB_B1_10_I124CEA_HO_v1.0</code>';
+    if (heroAudioBtn) {
+      heroAudioBtn.onclick = () => speakUK("British Council Session twenty-four: Social and cultural inclusion, cultural misunderstandings, past modals of advice, and dinner party etiquette.");
+    }
+
+    renderSession24LeadIn();
+    renderSession24Listening();
+    renderSession24VocabMatching();
+    renderSession24PastModals();
+    renderSession24Scenarios();
+    renderSession24Vocab();
+    renderSession24Feedback();
+    renderSession24Incidental();
+    renderSession24Gallery();
   }
 
   // Re-initialize games for selected session
@@ -974,7 +1094,7 @@ function initSessionsDropdown() {
   const notice = document.getElementById('sessionNotice');
   const numSpan = document.getElementById('sessionNumberDisplay');
 
-  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22'];
+  const activeSessions = ['1', '2', '3', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24'];
 
   if (select) {
     select.value = currentSessionId;
@@ -10435,6 +10555,982 @@ function renderSession22Gallery() {
 }
 
 
+
+/* ==========================================================================
+   SESSION 23 RENDERING ENGINES: FOCUS ON FLUENCY - ONLINE ADDICTION
+   Handout ID: ARB_B1_08_I116CEA_HO_v1.0
+   ========================================================================== */
+
+function getSession23Data(key) {
+  if (typeof window !== 'undefined' && window[key]) return window[key];
+  try {
+    return eval(key);
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderSession23LeadIn() {
+  const container = document.getElementById('session23LeadInWrap');
+  const data = getSession23Data('SESSION_23_LEAD_IN');
+  if (!container || !data) return;
+
+  const questions = data.questions || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">${data.badge || 'Handout Page 1'}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Take the six-question diagnostic self-assessment on your internet and screen habits.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Overview
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.25rem;">
+        ${data.description}
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+        ${questions.map((q, idx) => `
+          <div class="study-card" id="s23-q-card-${q.id}" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="font-size:0.75rem; font-weight:800; color:var(--emerald); text-transform:uppercase; margin-bottom:0.35rem;">
+                Diagnostic Question #${q.id}
+              </div>
+              <h5 style="font-size:0.95rem; font-weight:700; color:var(--text-main); line-height:1.45; margin:0 0 0.4rem;">
+                ${q.q}
+              </h5>
+              <div style="font-size:0.82rem; color:var(--text-muted); direction:rtl; margin-bottom:0.75rem;">
+                ${q.ar}
+              </div>
+            </div>
+
+            <div>
+              <div style="display:flex; gap:0.35rem; margin-bottom:0.6rem;">
+                ${['Never', 'Rarely', 'Often', 'Always'].map(freq => `
+                  <button type="button" class="btn" onclick="selectSession23Diag(${q.id}, '${freq}')" id="s23-btn-${q.id}-${freq}" style="flex:1; font-size:0.75rem; font-weight:700; padding:0.3rem 0; background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:4px; color:var(--text-main);">
+                    ${freq}
+                  </button>
+                `).join('')}
+              </div>
+              <div id="s23-advice-${q.id}" style="display:none; background:rgba(16,185,129,0.08); border-left:3px solid var(--emerald); padding:0.5rem 0.65rem; border-radius:4px; font-size:0.8rem; color:var(--text-body);">
+                💡 <strong>Clinical Insight:</strong> ${q.advice}
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+window.selectSession23Diag = function(qId, freq) {
+  ['Never', 'Rarely', 'Often', 'Always'].forEach(f => {
+    const btn = document.getElementById(`s23-btn-${qId}-${f}`);
+    if (btn) {
+      if (f === freq) {
+        btn.style.background = 'var(--emerald)';
+        btn.style.color = '#fff';
+        btn.style.borderColor = 'var(--emerald)';
+      } else {
+        btn.style.background = 'var(--bg-subtle)';
+        btn.style.color = 'var(--text-main)';
+        btn.style.borderColor = 'var(--border-light)';
+      }
+    }
+  });
+  const advice = document.getElementById(`s23-advice-${qId}`);
+  if (advice) advice.style.display = 'block';
+};
+
+function renderSession23Reading() {
+  const container = document.getElementById('session23ReadingWrap');
+  const data = getSession23Data('SESSION_23_READING_LEON');
+  if (!container || !data) return;
+
+  const paragraphs = data.paragraphs || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--bc-blue); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--bc-blue); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.summary)}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Case Summary
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.5rem;">
+        ${data.summary}
+      </p>
+
+      <!-- Full Story Paragraph Cards -->
+      <div style="display:flex; flex-direction:column; gap:1.25rem; margin-bottom:1.75rem;">
+        ${paragraphs.map((p, idx) => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1.25rem; border-left:4px solid var(--bc-blue);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+              <span class="teacher-badge" style="font-size:0.75rem; font-weight:800;">${p.label}</span>
+              <span style="font-size:0.85rem; font-weight:700; color:var(--bc-blue); background:rgba(0,102,245,0.08); padding:0.2rem 0.6rem; border-radius:4px;">
+                Heading: ${p.heading}
+              </span>
+            </div>
+            <p style="font-size:0.92rem; color:var(--text-body); line-height:1.6; margin:0 0 0.75rem;">
+              ${p.text}
+            </p>
+            <div style="display:flex; justify-content:flex-end;">
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(p.text.substring(0, 200))}')" style="width:28px; height:28px; font-size:0.75rem;" title="Listen to excerpt">🔊</button>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Heading Match Challenge -->
+      <div style="background:rgba(0,102,245,0.05); border:1px solid rgba(0,102,245,0.2); border-radius:var(--radius-sm); padding:1.25rem;">
+        <h5 style="font-size:1.05rem; font-weight:800; color:var(--bc-blue); margin-bottom:0.75rem; display:flex; align-items:center; gap:0.5rem;">
+          <span>🎯</span> Whiteboard Heading Match Summary (Slide 8)
+        </h5>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:0.75rem;">
+          ${(data.headingMatchChallenge || []).map(h => `
+            <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:4px; padding:0.75rem;">
+              <strong style="color:var(--text-main); font-size:0.88rem; display:block; margin-bottom:0.2rem;">${h.para}:</strong>
+              <span style="color:var(--emerald); font-weight:700; font-size:0.85rem;">✓ “${h.correct}”</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderSession23Signs() {
+  const container = document.getElementById('session23SignsWrap');
+  const data = getSession23Data('SESSION_23_SIGNS_OF_ADDICTION');
+  if (!container || !data) return;
+
+  const signs = data.signs || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Review the seven clinical indicators of online addiction and Leon\'s case evidence.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.5rem;">
+        ${data.description}
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">
+        ${signs.map(s => `
+          <div class="study-card" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                <span class="teacher-badge" style="font-size:0.72rem;">Sign #${s.num}</span>
+                <span style="color:var(--purple); font-weight:800; font-size:0.9rem;">⚠️ Manifested</span>
+              </div>
+              <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0 0 0.4rem;">
+                ${s.name}
+              </h5>
+              <p style="font-size:0.86rem; color:var(--text-muted); line-height:1.45; margin:0 0 0.75rem;">
+                ${s.definition}
+              </p>
+            </div>
+            <div style="background:var(--bg-subtle); border-left:3px solid var(--purple); padding:0.6rem 0.75rem; border-radius:4px; font-size:0.82rem; color:var(--text-body); line-height:1.45;">
+              <strong style="color:var(--purple); display:block; font-size:0.75rem; text-transform:uppercase; margin-bottom:0.15rem;">Leon's Case Evidence:</strong>
+              “${s.leonEvidence}”
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession23VocabMatching() {
+  const container = document.getElementById('session23VocabMatchingWrap');
+  const data = getSession23Data('SESSION_23_VOCAB_MATCHING');
+  if (!container || !data) return;
+
+  const items = data.items || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--amber); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--amber); color:#000; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Match the ten addiction vocabulary terms to their correct definitions.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen
+        </button>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+        ${items.map((it, idx) => `
+          <div class="study-card" id="s23-match-card-${it.id}" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <h5 style="font-size:1.1rem; font-weight:800; color:var(--bc-blue); margin:0;">
+                  ${it.id}. ${it.term}
+                </h5>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(it.term)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+              </div>
+
+              <div style="display:flex; flex-direction:column; gap:0.4rem; margin-bottom:0.75rem;">
+                ${Object.entries(it.options).map(([optKey, optText]) => `
+                  <button type="button" class="btn" id="s23-opt-${it.id}-${optKey}" onclick="checkSession23Match(${it.id}, '${optKey}', '${it.correct}')" style="text-align:left; font-size:0.82rem; padding:0.45rem 0.65rem; background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:4px; color:var(--text-body);">
+                    <strong>${optKey.toUpperCase()}.</strong> ${optText}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+
+            <div id="s23-match-fb-${it.id}" style="display:none; font-size:0.8rem; font-weight:700; padding:0.4rem 0.6rem; border-radius:4px;">
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+window.checkSession23Match = function(id, selected, correct) {
+  const fb = document.getElementById(`s23-match-fb-${id}`);
+  const card = document.getElementById(`s23-match-card-${id}`);
+  const btn = document.getElementById(`s23-opt-${id}-${selected}`);
+
+  if (fb) {
+    fb.style.display = 'block';
+    if (selected === correct) {
+      fb.style.background = 'rgba(16,185,129,0.1)';
+      fb.style.color = 'var(--emerald)';
+      fb.textContent = '✓ Correct Definition (Slide 2 Key)';
+      if (card) card.style.borderColor = 'var(--emerald)';
+      if (btn) {
+        btn.style.background = 'var(--emerald)';
+        btn.style.color = '#fff';
+      }
+    } else {
+      fb.style.background = 'rgba(239,68,68,0.1)';
+      fb.style.color = '#ef4444';
+      fb.textContent = '✗ Try again.';
+      if (btn) btn.style.borderColor = '#ef4444';
+    }
+  }
+};
+
+function renderSession23Detox() {
+  const container = document.getElementById('session23DetoxWrap');
+  const data = getSession23Data('SESSION_23_SEVEN_DAY_DETOX');
+  if (!container || !data) return;
+
+  const guidelines = data.guidelines || [];
+  const boardNotes = data.boardAnnotations || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.brief)}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Brief
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.5rem;">
+        ${data.brief}
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem; margin-bottom:1.5rem;">
+        ${guidelines.map(g => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem; border-top:3px solid var(--emerald);">
+            <strong style="color:var(--text-main); font-size:0.95rem; display:block; margin-bottom:0.35rem;">
+              ✓ ${g.title}
+            </strong>
+            <p style="font-size:0.85rem; color:var(--text-body); margin:0; line-height:1.45;">
+              ${g.detail}
+            </p>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- Teacher Whiteboard Callout Notes -->
+      <div style="background:rgba(16,185,129,0.06); border:1px solid rgba(16,185,129,0.25); border-radius:var(--radius-sm); padding:1.25rem;">
+        <h5 style="font-size:1.05rem; font-weight:800; color:var(--emerald); margin-bottom:0.75rem;">
+          📝 Teacher Whiteboard Annotations (Slide 9):
+        </h5>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;">
+          ${boardNotes.map(n => `
+            <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:4px; padding:0.85rem;">
+              <span style="font-family:cursive, sans-serif; font-size:1.15rem; font-weight:800; color:var(--bc-blue); display:block; margin-bottom:0.25rem;">
+                "${n.phrase}"
+              </span>
+              <p style="font-size:0.85rem; color:var(--text-body); margin:0;">
+                ${n.context}
+              </p>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function renderSession23Vocab() {
+  const container = document.getElementById('session23VocabWrap');
+  const vocab = getSession23Data('VOCAB_SESSION_23');
+  if (!container || !vocab) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${vocab.map(item => `
+        <div class="study-card" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="chip-citation" style="font-size:0.75rem;">📍 ${item.citation || 'Online Addiction'}</span>
+              <div style="display:flex; gap:0.25rem;">
+                ${getCambridgeBadgeHTML(item.cambridgeLevel)}
+                ${getTypeBadgeHTML(item.pos)}
+              </div>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:0.35rem;">
+              <h4 style="font-size:1.18rem; font-weight:800; color:var(--text-main); margin:0;">
+                ${item.word}
+              </h4>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.word)}')" style="width:26px; height:26px; font-size:0.75rem;" title="Listen in British English">🔊</button>
+            </div>
+
+            <div style="font-size:0.82rem; font-family:monospace; color:var(--bc-blue); margin-bottom:0.5rem;">
+              ${item.pronunciation} • ${item.pos}
+            </div>
+
+            <!-- Arabic Translation Badge (arWord) -->
+            <div class="arabic-translation-box" style="margin-bottom:0.6rem; font-size:0.86rem; padding:0.4rem 0.6rem;" dir="rtl">
+              ${item.arWord || item.arMeaning}
+            </div>
+
+            <p style="font-size:0.86rem; color:var(--text-body); line-height:1.45; margin:0 0 0.5rem;">
+              <strong>Definition:</strong> ${item.definition}
+            </p>
+
+            <div style="font-size:0.82rem; color:var(--purple); margin-bottom:0.5rem;">
+              💡 <em>${item.b1Explain}</em>
+            </div>
+
+            ${item.opposite ? `
+              <div style="font-size:0.8rem; background:var(--bg-subtle); padding:0.3rem 0.5rem; border-radius:4px; margin-bottom:0.5rem;">
+                <span style="color:var(--text-muted); font-weight:600;">Opposite:</span> <strong>${item.opposite}</strong>
+              </div>
+            ` : ''}
+          </div>
+
+          <div style="background:var(--bg-subtle); border-left:3px solid var(--emerald); padding:0.5rem 0.75rem; border-radius:4px; font-size:0.82rem; display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
+            <span style="font-style:italic; color:var(--text-main);">"${item.example}"</span>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.example)}')" style="width:24px; height:24px; font-size:0.7rem;" title="Listen to Example">🔊</button>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession23Feedback() {
+  const container = document.getElementById('session23FeedbackWrap');
+  const items = getSession23Data('SESSION_23_TEACHER_FEEDBACK');
+  if (!container || !items) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${items.map(item => `
+        <div class="study-card" style="border-left:4px solid var(--emerald); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="teacher-badge" style="font-size:0.72rem;">Student Utterance</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.audio || item.correction)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+            </div>
+            <div style="font-size:0.92rem; font-weight:700; color:#ef4444; margin-bottom:0.5rem; text-decoration:line-through;">
+              “${item.original}”
+            </div>
+            <div style="background:var(--bg-subtle); border-radius:4px; padding:0.6rem 0.75rem; margin-bottom:0.5rem;">
+              <strong style="color:var(--emerald); font-size:0.85rem; display:block; margin-bottom:0.15rem;">Teacher Whiteboard Correction:</strong>
+              <span style="font-size:0.88rem; font-weight:700; color:var(--text-main);">${item.correction}</span>
+            </div>
+          </div>
+          <p style="font-size:0.82rem; color:var(--text-body); margin:0; line-height:1.4;">
+            ${item.rule}
+          </p>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession23Pronunciation() {
+  const container = document.getElementById('session23PronunciationWrap');
+  const data = getSession23Data('SESSION_23_PRONUNCIATION_LAB');
+  if (!container || !data) return;
+
+  const twisters = data.twisters || [];
+
+  container.innerHTML = twisters.map(t => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
+          <span style="font-size:0.8rem; font-weight:800; color:var(--emerald); text-transform:uppercase;">${t.targetSound}</span>
+          <button class="audio-circle-btn" onclick="speakUK('${escapeJs(t.text)}')" style="width:28px; height:28px; font-size:0.75rem;">🔊</button>
+        </div>
+        <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0 0 0.4rem; line-height:1.4;">
+          “${t.text}”
+        </h5>
+        <div style="font-family:monospace; color:var(--bc-blue); font-size:0.85rem; margin-bottom:0.4rem;">
+          ${t.phonetic}
+        </div>
+      </div>
+      <p style="font-size:0.82rem; color:var(--text-muted); margin:0; line-height:1.4;">
+        ${t.tip}
+      </p>
+    </div>
+  `).join('');
+}
+
+function renderSession23Gallery() {
+  const container = document.getElementById('session23GalleryWrap');
+  const items = getSession23Data('SESSION_23_WHITEBOARD_GALLERY');
+  if (!container || !items) return;
+
+  container.innerHTML = items.map((board, idx) => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+          <h5 style="font-size:1rem; font-weight:800; color:var(--text-main); margin:0;">
+            ${board.title}
+          </h5>
+        </div>
+
+        <div style="border-radius:var(--radius-sm); overflow:hidden; margin-bottom:0.85rem; border:1px solid var(--border-light); cursor:pointer;" onclick="openLightbox('${board.img}', '${escapeJs(board.title)}')">
+          <img src="${board.img}" alt="${board.title}" style="width:100%; height:200px; object-fit:cover; display:block; transition:transform 0.25s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+
+        <p style="font-size:0.85rem; color:var(--text-body); margin:0; line-height:1.45;">
+          ${board.desc}
+        </p>
+      </div>
+    </div>
+  `).join('');
+}
+
+
+/* ==========================================================================
+   SESSION 24 RENDERING ENGINES: SOCIAL INCLUSION - CULTURAL MISUNDERSTANDINGS
+   Handout ID: ARB_B1_10_I124CEA_HO_v1.0
+   ========================================================================== */
+
+function getSession24Data(key) {
+  if (typeof window !== 'undefined' && window[key]) return window[key];
+  try {
+    return eval(key);
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderSession24LeadIn() {
+  const container = document.getElementById('session24LeadInWrap');
+  const data = getSession24Data('SESSION_24_LEAD_IN');
+  if (!container || !data) return;
+
+  const domains = data.domains || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--bc-blue); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--bc-blue); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Explore the five cultural domains where misunderstandings frequently happen.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.25rem;">
+        ${data.description}
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+        ${domains.map(d => `
+          <div style="background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:1rem;">
+            <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">
+              <span style="font-size:1.4rem;">${d.icon}</span>
+              <strong style="color:var(--text-main); font-size:1rem;">${d.domain}</strong>
+            </div>
+            <div style="background:var(--bg-surface); border-left:3px solid var(--bc-blue); padding:0.5rem 0.65rem; border-radius:4px; font-size:0.82rem; margin-bottom:0.5rem;">
+              <strong style="color:var(--bc-blue); font-size:0.75rem; display:block;">UK / Western Standard:</strong>
+              ${d.ukNorm}
+            </div>
+            <div style="background:var(--bg-surface); border-left:3px solid var(--amber); padding:0.5rem 0.65rem; border-radius:4px; font-size:0.82rem;">
+              <strong style="color:var(--amber); font-size:0.75rem; display:block;">Global Cultural Variations:</strong>
+              ${d.globalVariation}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession24Listening() {
+  const container = document.getElementById('session24ListeningWrap');
+  const data = getSession24Data('SESSION_24_LISTENING_DINNER_PARTY');
+  if (!container || !data) return;
+
+  const statements = data.trueFalseStatements || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.summary)}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Overview
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.5rem;">
+        ${data.summary}
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+        ${statements.map(s => `
+          <div class="study-card" id="s24-tf-card-${s.id}" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="font-size:0.92rem; font-weight:700; color:var(--text-main); line-height:1.45; margin-bottom:0.75rem;">
+                ${s.id}. “${s.statement}”
+              </div>
+              <div id="s24-tf-fb-${s.id}" style="display:none; font-size:0.82rem; padding:0.5rem 0.75rem; border-radius:4px; margin-bottom:0.75rem;">
+              </div>
+            </div>
+
+            <div style="display:flex; gap:0.5rem;">
+              <button type="button" class="btn btn-secondary" onclick="checkSession24TF(${s.id}, true, ${s.isTrue}, '${escapeJs(s.correction)}')" style="flex:1; font-weight:700; font-size:0.82rem; padding:0.35rem 0;">
+                ✓ TRUE
+              </button>
+              <button type="button" class="btn btn-secondary" onclick="checkSession24TF(${s.id}, false, ${s.isTrue}, '${escapeJs(s.correction)}')" style="flex:1; font-weight:700; font-size:0.82rem; padding:0.35rem 0;">
+                ✗ FALSE
+              </button>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+window.checkSession24TF = function(id, userChoice, isTrue, correction) {
+  const card = document.getElementById(`s24-tf-card-${id}`);
+  const fb = document.getElementById(`s24-tf-fb-${id}`);
+
+  if (fb) {
+    fb.style.display = 'block';
+    if (userChoice === isTrue) {
+      fb.style.background = 'rgba(16,185,129,0.1)';
+      fb.style.color = 'var(--emerald)';
+      fb.innerHTML = `<strong>✓ Correct!</strong> ${correction}`;
+      if (card) card.style.borderColor = 'var(--emerald)';
+    } else {
+      fb.style.background = 'rgba(239,68,68,0.1)';
+      fb.style.color = '#ef4444';
+      fb.innerHTML = `<strong>✗ Incorrect.</strong> ${correction}`;
+      if (card) card.style.borderColor = '#ef4444';
+    }
+  }
+};
+
+function renderSession24VocabMatching() {
+  const container = document.getElementById('session24VocabMatchingWrap');
+  const data = getSession24Data('SESSION_24_VOCAB_MATCHING');
+  if (!container || !data) return;
+
+  const items = data.items || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--amber); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--amber); color:#000; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Choose the correct definition for each cultural idiom and expression.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen
+        </button>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+        ${items.map(it => `
+          <div class="study-card" id="s24-match-card-${it.id}" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <h5 style="font-size:1.1rem; font-weight:800; color:var(--bc-blue); margin:0;">
+                  ${it.id}. ${it.phrase}
+                </h5>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(it.phrase)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+              </div>
+
+              <div style="display:flex; flex-direction:column; gap:0.4rem; margin-bottom:0.75rem;">
+                ${Object.entries(it.options).map(([optKey, optText]) => `
+                  <button type="button" class="btn" id="s24-opt-${it.id}-${optKey}" onclick="checkSession24Match(${it.id}, '${optKey}', '${it.correct}')" style="text-align:left; font-size:0.82rem; padding:0.45rem 0.65rem; background:var(--bg-subtle); border:1px solid var(--border-light); border-radius:4px; color:var(--text-body);">
+                    <strong>${optKey.toUpperCase()}.</strong> ${optText}
+                  </button>
+                `).join('')}
+              </div>
+            </div>
+
+            <div id="s24-match-fb-${it.id}" style="display:none; font-size:0.8rem; font-weight:700; padding:0.4rem 0.6rem; border-radius:4px;">
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+window.checkSession24Match = function(id, selected, correct) {
+  const fb = document.getElementById(`s24-match-fb-${id}`);
+  const card = document.getElementById(`s24-match-card-${id}`);
+  const btn = document.getElementById(`s24-opt-${id}-${selected}`);
+
+  if (fb) {
+    fb.style.display = 'block';
+    if (selected === correct) {
+      fb.style.background = 'rgba(16,185,129,0.1)';
+      fb.style.color = 'var(--emerald)';
+      fb.textContent = '✓ Correct Definition (Slide 1 Key)';
+      if (card) card.style.borderColor = 'var(--emerald)';
+      if (btn) {
+        btn.style.background = 'var(--emerald)';
+        btn.style.color = '#fff';
+      }
+    } else {
+      fb.style.background = 'rgba(239,68,68,0.1)';
+      fb.style.color = '#ef4444';
+      fb.textContent = '✗ Try the other option.';
+      if (btn) btn.style.borderColor = '#ef4444';
+    }
+  }
+};
+
+function renderSession24PastModals() {
+  const container = document.getElementById('session24PastModalsWrap');
+  const data = getSession24Data('SESSION_24_PAST_MODALS_LAB');
+  if (!container || !data) return;
+
+  const exercises = data.exercises || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--purple); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--purple); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Master past modals of advice and regret: would, should, and could have plus past participle.')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen to Rule
+        </button>
+      </div>
+
+      <!-- Grammar Timeline & Formula Matrix -->
+      <div style="background:rgba(124,58,237,0.05); border:1px solid rgba(124,58,237,0.2); border-radius:var(--radius-sm); padding:1.25rem; margin-bottom:1.5rem;">
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;">
+          <div>
+            <strong style="color:var(--purple); font-size:0.95rem; display:block; margin-bottom:0.35rem;">
+              📐 Positive &amp; Negative Formulas:
+            </strong>
+            <div style="font-size:0.85rem; color:var(--text-body); line-height:1.5;">
+              • <strong>Positive:</strong> would / should / could + <code>have</code> + <code>V3 (past participle)</code><br>
+              • <strong>Negative:</strong> wouldn't / shouldn't / couldn't + <code>have</code> + <code>V3</code>
+            </div>
+          </div>
+          <div>
+            <strong style="color:var(--purple); font-size:0.95rem; display:block; margin-bottom:0.35rem;">
+              🎯 Adverbs of Certainty (Slide 5):
+            </strong>
+            <p style="font-size:0.85rem; color:var(--text-body); margin:0; line-height:1.45;">
+              ${data.adverbsExplanation} (e.g. <em>probably</em>, <em>definitely</em>, <em>possibly</em>, <em>perhaps</em>).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dialogue Gap-Fill Cards -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1rem;">
+        ${exercises.map(ex => `
+          <div class="study-card" id="s24-modal-card-${ex.id}" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <span class="teacher-badge" style="font-size:0.72rem; margin-bottom:0.4rem; display:inline-block;">Speaker: ${ex.speaker}</span>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin:0 0 0.5rem;">
+                Context: ${ex.context}
+              </p>
+              <div style="font-size:0.95rem; font-weight:700; color:var(--text-main); line-height:1.45; margin-bottom:0.75rem;">
+                “${ex.gap}”
+              </div>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:center; pt:0.5rem; border-top:1px dashed var(--border-light);">
+              <span style="font-size:0.82rem; color:var(--emerald); font-weight:700;">Key: ${ex.answer}</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(ex.audioText)}')" style="width:26px; height:26px; font-size:0.75rem;" title="Listen to Native Delivery">🔊</button>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession24Scenarios() {
+  const container = document.getElementById('session24ScenariosWrap');
+  const data = getSession24Data('SESSION_24_SCENARIOS_STUDIO');
+  if (!container || !data) return;
+
+  const scenarios = data.scenarios || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--emerald); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; padding-bottom:0.75rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--emerald); color:#fff; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.25rem; font-weight:800; color:var(--text-main); margin:0.35rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('${escapeJs(data.description)}')" style="font-size:0.8rem; padding:0.35rem 0.8rem;">
+          🔊 Listen
+        </button>
+      </div>
+
+      <p style="font-size:0.92rem; color:var(--text-body); line-height:1.5; margin-bottom:1.5rem;">
+        ${data.description}
+      </p>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:1.25rem;">
+        ${scenarios.map(sc => `
+          <div class="study-card" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1.25rem; display:flex; flex-direction:column; justify-content:space-between; border-left:4px solid var(--emerald);">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                <span class="teacher-badge" style="font-size:0.72rem;">Dilemma #${sc.id}</span>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(sc.text)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+              </div>
+              <h5 style="font-size:1.05rem; font-weight:800; color:var(--text-main); margin:0 0 0.5rem;">
+                ${sc.title}
+              </h5>
+              <p style="font-size:0.88rem; color:var(--text-body); line-height:1.5; margin:0 0 1rem;">
+                ${sc.text}
+              </p>
+            </div>
+
+            <div style="background:var(--bg-subtle); border-left:3px solid var(--emerald); padding:0.65rem 0.85rem; border-radius:4px; font-size:0.84rem; color:var(--text-main); line-height:1.45;">
+              <strong style="color:var(--emerald); display:block; font-size:0.75rem; text-transform:uppercase; margin-bottom:0.2rem;">Expert Cultural Advice:</strong>
+              ${sc.advice}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession24Vocab() {
+  const container = document.getElementById('session24VocabWrap');
+  const vocab = getSession24Data('VOCAB_SESSION_24');
+  if (!container || !vocab) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${vocab.map(item => `
+        <div class="study-card" style="background:var(--bg-surface); border:1px solid var(--border-light); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="chip-citation" style="font-size:0.75rem;">📍 ${item.citation || 'Cultural Inclusion'}</span>
+              <div style="display:flex; gap:0.25rem;">
+                ${getCambridgeBadgeHTML(item.cambridgeLevel)}
+                ${getTypeBadgeHTML(item.pos)}
+              </div>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:0.35rem;">
+              <h4 style="font-size:1.18rem; font-weight:800; color:var(--text-main); margin:0;">
+                ${item.word}
+              </h4>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.word)}')" style="width:26px; height:26px; font-size:0.75rem;" title="Listen in British English">🔊</button>
+            </div>
+
+            <div style="font-size:0.82rem; font-family:monospace; color:var(--bc-blue); margin-bottom:0.5rem;">
+              ${item.pronunciation} • ${item.pos}
+            </div>
+
+            <!-- Arabic Translation Badge (arWord) -->
+            <div class="arabic-translation-box" style="margin-bottom:0.6rem; font-size:0.86rem; padding:0.4rem 0.6rem;" dir="rtl">
+              ${item.arWord || item.arMeaning}
+            </div>
+
+            <p style="font-size:0.86rem; color:var(--text-body); line-height:1.45; margin:0 0 0.5rem;">
+              <strong>Definition:</strong> ${item.definition}
+            </p>
+
+            <div style="font-size:0.82rem; color:var(--purple); margin-bottom:0.5rem;">
+              💡 <em>${item.b1Explain}</em>
+            </div>
+
+            ${item.opposite ? `
+              <div style="font-size:0.8rem; background:var(--bg-subtle); padding:0.3rem 0.5rem; border-radius:4px; margin-bottom:0.5rem;">
+                <span style="color:var(--text-muted); font-weight:600;">Opposite:</span> <strong>${item.opposite}</strong>
+              </div>
+            ` : ''}
+          </div>
+
+          <div style="background:var(--bg-subtle); border-left:3px solid var(--emerald); padding:0.5rem 0.75rem; border-radius:4px; font-size:0.82rem; display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
+            <span style="font-style:italic; color:var(--text-main);">"${item.example}"</span>
+            <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.example)}')" style="width:24px; height:24px; font-size:0.7rem;" title="Listen to Example">🔊</button>
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession24Feedback() {
+  const container = document.getElementById('session24FeedbackWrap');
+  const items = getSession24Data('SESSION_24_TEACHER_FEEDBACK');
+  if (!container || !items) return;
+
+  container.innerHTML = `
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1rem;">
+      ${items.map(item => `
+        <div class="study-card" style="border-left:4px solid var(--emerald); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+          <div>
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.4rem;">
+              <span class="teacher-badge" style="font-size:0.72rem;">Student Utterance</span>
+              <button class="audio-circle-btn" onclick="speakUK('${escapeJs(item.audio || item.correction)}')" style="width:26px; height:26px; font-size:0.75rem;">🔊</button>
+            </div>
+            <div style="font-size:0.92rem; font-weight:700; color:#ef4444; margin-bottom:0.5rem; text-decoration:line-through;">
+              “${item.original}”
+            </div>
+            <div style="background:var(--bg-subtle); border-radius:4px; padding:0.6rem 0.75rem; margin-bottom:0.5rem;">
+              <strong style="color:var(--emerald); font-size:0.85rem; display:block; margin-bottom:0.15rem;">Teacher Whiteboard Correction:</strong>
+              <span style="font-size:0.88rem; font-weight:700; color:var(--text-main);">${item.correction}</span>
+            </div>
+          </div>
+          <p style="font-size:0.82rem; color:var(--text-body); margin:0; line-height:1.4;">
+            ${item.rule}
+          </p>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function renderSession24Incidental() {
+  const container = document.getElementById('session24IncidentalWrap');
+  const data = getSession24Data('SESSION_24_INCIDENTAL_LEXIS');
+  if (!container || !data) return;
+
+  const items = data.items || [];
+
+  container.innerHTML = `
+    <div class="study-card" style="border-top:4px solid var(--amber); margin-bottom:1.5rem;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1rem; padding-bottom:0.6rem; border-bottom:1px solid var(--border-light);">
+        <div>
+          <span class="teacher-badge" style="background:var(--amber); color:#000; border:none;">${data.badge}</span>
+          <h4 style="font-size:1.15rem; font-weight:800; color:var(--text-main); margin:0.25rem 0 0;">
+            ${data.title}
+          </h4>
+        </div>
+        <button class="btn btn-primary" onclick="speakUK('Review high frequency colloquial idioms from the whiteboard.')" style="font-size:0.75rem; padding:0.3rem 0.65rem;">
+          🔊 Listen
+        </button>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;">
+        ${items.map(it => `
+          <div style="background:var(--bg-surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:0.85rem; display:flex; flex-direction:column; justify-content:space-between;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
+                <strong style="color:var(--bc-blue); font-size:1rem;">${it.term}</strong>
+                <button class="audio-circle-btn" onclick="speakUK('${escapeJs(it.term)}')" style="width:24px; height:24px; font-size:0.7rem;">🔊</button>
+              </div>
+              <div style="font-size:0.85rem; color:var(--text-body); margin-bottom:0.4rem; line-height:1.4;">
+                ${it.meaning}
+              </div>
+            </div>
+            <div style="font-size:0.82rem; color:var(--emerald); font-weight:700; direction:rtl;">
+              ${it.ar}
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderSession24Gallery() {
+  const container = document.getElementById('session24GalleryWrap');
+  const items = getSession24Data('SESSION_24_WHITEBOARD_GALLERY');
+  if (!container || !items) return;
+
+  container.innerHTML = items.map((board, idx) => `
+    <div class="study-card" style="border:1px solid var(--border-light); background:var(--bg-surface); padding:1rem; display:flex; flex-direction:column; justify-content:space-between;">
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+          <h5 style="font-size:1rem; font-weight:800; color:var(--text-main); margin:0;">
+            ${board.title}
+          </h5>
+        </div>
+
+        <div style="border-radius:var(--radius-sm); overflow:hidden; margin-bottom:0.85rem; border:1px solid var(--border-light); cursor:pointer;" onclick="openLightbox('${board.img}', '${escapeJs(board.title)}')">
+          <img src="${board.img}" alt="${board.title}" style="width:100%; height:200px; object-fit:cover; display:block; transition:transform 0.25s;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        </div>
+
+        <p style="font-size:0.85rem; color:var(--text-body); margin:0; line-height:1.45;">
+          ${board.desc}
+        </p>
+      </div>
+    </div>
+  `).join('');
+}
+
+
 /* --------------------------------------------------------------------------
    16. VIEW SWITCHING & SEPARATION (SESSIONS vs STORIES vs TOPICS)
    -------------------------------------------------------------------------- */
@@ -10482,11 +11578,15 @@ function showStoriesView(storyId = 'bad_blood') {
   const sec20Materials = document.getElementById('session20Materials');
   const sec21Materials = document.getElementById('session21Materials');
   const sec22Materials = document.getElementById('session22Materials');
+  const sec23Materials = document.getElementById('session23Materials');
+  const sec24Materials = document.getElementById('session24Materials');
   if (sec18Materials) sec18Materials.style.display = 'none';
   if (sec19Materials) sec19Materials.style.display = 'none';
   if (sec20Materials) sec20Materials.style.display = 'none';
   if (sec21Materials) sec21Materials.style.display = 'none';
   if (sec22Materials) sec22Materials.style.display = 'none';
+  if (sec23Materials) sec23Materials.style.display = 'none';
+  if (sec24Materials) sec24Materials.style.display = 'none';
   if (spareTopicsSec) spareTopicsSec.style.display = 'none';
 
   if (storiesSec) {
@@ -10536,11 +11636,15 @@ function showSpareTopicsView(topicId = 'reading_and_books') {
   const sec20Materials_sp = document.getElementById('session20Materials');
   const sec21Materials_sp = document.getElementById('session21Materials');
   const sec22Materials_sp = document.getElementById('session22Materials');
+  const sec23Materials_sp = document.getElementById('session23Materials');
+  const sec24Materials_sp = document.getElementById('session24Materials');
   if (sec18Materials_sp) sec18Materials_sp.style.display = 'none';
   if (sec19Materials_sp) sec19Materials_sp.style.display = 'none';
   if (sec20Materials_sp) sec20Materials_sp.style.display = 'none';
   if (sec21Materials_sp) sec21Materials_sp.style.display = 'none';
   if (sec22Materials_sp) sec22Materials_sp.style.display = 'none';
+  if (sec23Materials_sp) sec23Materials_sp.style.display = 'none';
+  if (sec24Materials_sp) sec24Materials_sp.style.display = 'none';
   if (storiesSec) storiesSec.style.display = 'none';
 
   if (spareTopicsSec) {
@@ -10760,6 +11864,12 @@ function showActiveSessionMaterials() {
   } else if (currentSessionId === '22') {
     const sec22Materials = document.getElementById('session22Materials');
     if (sec22Materials) { sec22Materials.style.display = 'block'; targetEl = sec22Materials; }
+  } else if (currentSessionId === '23') {
+    const sec23Materials = document.getElementById('session23Materials');
+    if (sec23Materials) { sec23Materials.style.display = 'block'; targetEl = sec23Materials; }
+  } else if (currentSessionId === '24') {
+    const sec24Materials = document.getElementById('session24Materials');
+    if (sec24Materials) { sec24Materials.style.display = 'block'; targetEl = sec24Materials; }
   }
 
   if (targetEl) {
