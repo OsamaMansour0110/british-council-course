@@ -1,0 +1,468 @@
+{
+  "id": 8,
+  "title": "Challenge Yourself",
+  "summary": "We talked about activities and hobbies that people start, stop and start again. We learnt phrasal verbs and idioms like take up, set up, drop out and be on the backburner. We also practised word stress and linking in these phrases.",
+  "source": "ARS_B1_08_I096CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "be on the backburner",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/bi ɒn ðə ˈbækbɜːnə/",
+      "def": "To be stopped for now, with a plan to come back to it later.",
+      "example": "My Italian lessons are on the backburner until my exams finish.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مؤجَّل مؤقتاً", "d": "متوقف الآن مع نية العودة إليه لاحقاً"},
+        "zh": {"w": "暂时搁置", "d": "现在先停下，打算以后再继续"},
+        "de": {"w": "auf Eis liegen", "d": "vorerst gestoppt sein, mit dem Plan, später weiterzumachen"},
+        "es": {"w": "estar aparcado", "d": "estar detenido por ahora, con la idea de retomarlo después"},
+        "fr": {"w": "être mis de côté", "d": "être arrêté pour l'instant, avec l'idée de le reprendre plus tard"}
+      }
+    },
+    {
+      "word": "set up",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌset ˈʌp/",
+      "def": "To start a business, group or organisation.",
+      "example": "Jordan set up a theatre group with some friends from university.",
+      "opposite": "close down",
+      "tr": {
+        "ar": {"w": "يؤسِّس / يُنشئ", "d": "أن تبدأ عملاً تجارياً أو مجموعة أو منظمة"},
+        "zh": {"w": "创立 / 成立", "d": "开办一个公司、团体或组织"},
+        "de": {"w": "gründen", "d": "eine Firma, Gruppe oder Organisation ins Leben rufen"},
+        "es": {"w": "montar / fundar", "d": "empezar un negocio, un grupo o una organización"},
+        "fr": {"w": "créer / fonder", "d": "lancer une entreprise, un groupe ou une organisation"}
+      }
+    },
+    {
+      "word": "on and off",
+      "pos": "adverb",
+      "level": "B2",
+      "ipa": "/ˌɒn ən ˈɒf/",
+      "def": "Sometimes, but not regularly, with breaks in between.",
+      "example": "Before that I did fitness on and off for about five years.",
+      "opposite": "regularly",
+      "tr": {
+        "ar": {"w": "بشكل متقطِّع", "d": "أحياناً وليس بانتظام، مع فترات توقف بينها"},
+        "zh": {"w": "断断续续", "d": "有时做，有时停，不太规律"},
+        "de": {"w": "mit Unterbrechungen", "d": "manchmal, aber nicht regelmäßig, mit Pausen dazwischen"},
+        "es": {"w": "de forma intermitente", "d": "a veces, pero no con regularidad, con pausas"},
+        "fr": {"w": "par intermittence", "d": "parfois, mais pas régulièrement, avec des pauses"}
+      }
+    },
+    {
+      "word": "be fond of",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/bi ˈfɒnd əv/",
+      "def": "To like something or someone very much.",
+      "example": "Martina is really fond of swing dancing.",
+      "opposite": "dislike",
+      "tr": {
+        "ar": {"w": "مُولَع بـ", "d": "أن تحب شيئاً أو شخصاً كثيراً"},
+        "zh": {"w": "喜爱", "d": "非常喜欢某事或某人"},
+        "de": {"w": "gern haben / mögen", "d": "etwas oder jemanden sehr mögen"},
+        "es": {"w": "ser aficionado a", "d": "gustarte mucho algo o alguien"},
+        "fr": {"w": "beaucoup aimer", "d": "apprécier énormément quelque chose ou quelqu'un"}
+      }
+    },
+    {
+      "word": "take up",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌteɪk ˈʌp/",
+      "def": "To start doing a new hobby or activity.",
+      "example": "I took up running three years ago and I still love it.",
+      "opposite": "give up",
+      "tr": {
+        "ar": {"w": "يبدأ ممارسة (هواية)", "d": "أن تبدأ هواية أو نشاطاً جديداً"},
+        "zh": {"w": "开始从事（爱好）", "d": "开始一项新的爱好或活动"},
+        "de": {"w": "anfangen mit", "d": "mit einem neuen Hobby oder einer Aktivität beginnen"},
+        "es": {"w": "empezar a practicar", "d": "comenzar un pasatiempo o una actividad nueva"},
+        "fr": {"w": "se mettre à", "d": "commencer un nouveau loisir ou une nouvelle activité"}
+      }
+    },
+    {
+      "word": "drop out",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌdrɒp ˈaʊt/",
+      "def": "To stop doing an activity or course before the end.",
+      "example": "My friend got me into the gym, but he dropped out after two months.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ينسحب / يترك", "d": "أن تتوقف عن نشاط أو دورة قبل نهايتها"},
+        "zh": {"w": "退出 / 中途放弃", "d": "在结束前停止某项活动或课程"},
+        "de": {"w": "aussteigen / abbrechen", "d": "eine Aktivität oder einen Kurs vor dem Ende aufhören"},
+        "es": {"w": "abandonar / dejarlo", "d": "dejar una actividad o un curso antes de terminarlo"},
+        "fr": {"w": "abandonner / laisser tomber", "d": "arrêter une activité ou une formation avant la fin"}
+      }
+    },
+    {
+      "word": "be into",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/bi ˈɪntuː/",
+      "def": "To be very interested in an activity and enjoy doing it.",
+      "example": "She was really into dancing when she was at university.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مهتم جداً بـ", "d": "أن تهتم كثيراً بنشاط وتستمتع بممارسته"},
+        "zh": {"w": "热衷于 / 迷上", "d": "对某项活动很感兴趣并喜欢做"},
+        "de": {"w": "begeistert sein von", "d": "sich sehr für eine Aktivität interessieren und sie gern machen"},
+        "es": {"w": "estar muy metido en", "d": "estar muy interesado en una actividad y disfrutarla"},
+        "fr": {"w": "être passionné de", "d": "s'intéresser beaucoup à une activité et aimer la faire"}
+      }
+    },
+    {
+      "word": "get someone into",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌɡet ˌsʌmwʌn ˈɪntuː/",
+      "def": "To make someone interested in an activity so they start doing it.",
+      "example": "My sister got me into hiking last summer.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُحبِّب شخصاً في", "d": "أن تجعل شخصاً يهتم بنشاط فيبدأ ممارسته"},
+        "zh": {"w": "让某人迷上", "d": "让某人对某活动产生兴趣并开始去做"},
+        "de": {"w": "jemanden für etwas begeistern", "d": "jemanden für eine Aktivität interessieren, sodass er damit anfängt"},
+        "es": {"w": "aficionar a alguien a", "d": "hacer que alguien se interese por una actividad y la empiece"},
+        "fr": {"w": "initier quelqu'un à", "d": "donner envie à quelqu'un de commencer une activité"}
+      }
+    },
+    {
+      "word": "challenge yourself",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˈtʃælɪndʒ jɔːˌself/",
+      "def": "To try something difficult to see what you can really do.",
+      "example": "This year I want to challenge myself and learn to play the guitar.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتحدّى نفسه", "d": "أن تجرّب شيئاً صعباً لترى ما تستطيع فعله حقاً"},
+        "zh": {"w": "挑战自己", "d": "尝试困难的事，看看自己真正能做到什么"},
+        "de": {"w": "sich herausfordern", "d": "etwas Schwieriges ausprobieren, um zu sehen, was man wirklich kann"},
+        "es": {"w": "retarse a uno mismo", "d": "intentar algo difícil para ver de qué eres capaz"},
+        "fr": {"w": "se lancer un défi", "d": "essayer quelque chose de difficile pour voir ce dont on est capable"}
+      }
+    },
+    {
+      "word": "motivate",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈməʊtɪveɪt/",
+      "def": "To make someone want to do something and work hard at it.",
+      "example": "What motivates people to start a new activity?",
+      "opposite": "discourage",
+      "tr": {
+        "ar": {"w": "يُحفِّز", "d": "أن تجعل شخصاً يرغب في فعل شيء ويجتهد فيه"},
+        "zh": {"w": "激励", "d": "让某人想做某事并努力去做"},
+        "de": {"w": "motivieren", "d": "jemanden dazu bringen, etwas tun zu wollen und sich anzustrengen"},
+        "es": {"w": "motivar", "d": "hacer que alguien quiera hacer algo y se esfuerce"},
+        "fr": {"w": "motiver", "d": "donner envie à quelqu'un de faire quelque chose et de s'y investir"}
+      }
+    },
+    {
+      "word": "consistent",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/kənˈsɪstənt/",
+      "def": "Doing something in the same way, regularly, over a long time.",
+      "example": "If you want to get fit, you have to be consistent and train every week.",
+      "opposite": "inconsistent",
+      "tr": {
+        "ar": {"w": "مُواظِب / منتظم", "d": "يفعل الشيء بالطريقة نفسها وبانتظام لفترة طويلة"},
+        "zh": {"w": "坚持不懈的", "d": "长期有规律地用同样方式做某事"},
+        "de": {"w": "beständig / konsequent", "d": "etwas regelmäßig und über lange Zeit gleich tun"},
+        "es": {"w": "constante", "d": "que hace algo de forma regular durante mucho tiempo"},
+        "fr": {"w": "régulier / constant", "d": "qui fait quelque chose régulièrement et sur une longue durée"}
+      }
+    },
+    {
+      "word": "compete",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/kəmˈpiːt/",
+      "def": "To try to win against other people in a game or activity.",
+      "example": "Jordan stopped because he didn't have anyone to compete against.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتنافس", "d": "أن تحاول الفوز على الآخرين في لعبة أو نشاط"},
+        "zh": {"w": "竞争 / 比赛", "d": "在游戏或活动中努力赢过别人"},
+        "de": {"w": "sich messen / konkurrieren", "d": "versuchen, in einem Spiel oder einer Aktivität gegen andere zu gewinnen"},
+        "es": {"w": "competir", "d": "intentar ganar a otras personas en un juego o una actividad"},
+        "fr": {"w": "être en compétition", "d": "essayer de gagner contre d'autres dans un jeu ou une activité"}
+      }
+    },
+    {
+      "word": "competitive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/kəmˈpetətɪv/",
+      "def": "Wanting very much to win or be better than other people.",
+      "example": "Derek's friend dropped out because the dance group was too competitive.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تنافسي", "d": "يرغب بشدة في الفوز أو في أن يكون أفضل من الآخرين"},
+        "zh": {"w": "好胜的 / 竞争激烈的", "d": "非常想赢或想比别人强"},
+        "de": {"w": "ehrgeizig / leistungsorientiert", "d": "unbedingt gewinnen oder besser als andere sein wollen"},
+        "es": {"w": "competitivo", "d": "que quiere mucho ganar o ser mejor que los demás"},
+        "fr": {"w": "compétitif", "d": "qui veut absolument gagner ou être meilleur que les autres"}
+      }
+    },
+    {
+      "word": "pick up",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌpɪk ˈʌp/",
+      "def": "To learn something easily, without much study.",
+      "example": "Jordan can pick up languages quite well, so Italian was easy for him.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتعلّم بسهولة", "d": "أن تتعلم شيئاً بسهولة دون دراسة كثيرة"},
+        "zh": {"w": "（轻松）学会", "d": "不用怎么学就轻松掌握某事"},
+        "de": {"w": "aufschnappen / schnell lernen", "d": "etwas leicht lernen, ohne viel zu üben"},
+        "es": {"w": "aprender con facilidad", "d": "aprender algo fácilmente, sin estudiar mucho"},
+        "fr": {"w": "apprendre facilement", "d": "apprendre quelque chose sans beaucoup d'efforts"}
+      }
+    },
+    {
+      "word": "fitness",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈfɪtnəs/",
+      "def": "Exercise you do to keep your body strong and healthy.",
+      "example": "Chris does fitness because it helps him stay fresh physically and mentally.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "اللياقة البدنية", "d": "تمارين تقوم بها ليبقى جسمك قوياً وبصحة جيدة"},
+        "zh": {"w": "健身", "d": "为保持身体强壮健康而做的锻炼"},
+        "de": {"w": "Fitness / Fitnesstraining", "d": "Training, um den Körper stark und gesund zu halten"},
+        "es": {"w": "ejercicio físico / fitness", "d": "ejercicio para mantener el cuerpo fuerte y sano"},
+        "fr": {"w": "remise en forme / fitness", "d": "exercices pour garder un corps fort et en bonne santé"}
+      }
+    },
+    {
+      "word": "enthusiastically",
+      "pos": "adverb",
+      "level": "B2",
+      "ipa": "/ɪnˌθjuːziˈæstɪkli/",
+      "def": "With a lot of energy, interest and excitement.",
+      "example": "He talked enthusiastically about his new theatre group.",
+      "opposite": "half-heartedly",
+      "tr": {
+        "ar": {"w": "بحماس", "d": "بكثير من الطاقة والاهتمام والحماس"},
+        "zh": {"w": "热情地", "d": "充满活力、兴趣和激情地"},
+        "de": {"w": "begeistert", "d": "mit viel Energie, Interesse und Freude"},
+        "es": {"w": "con entusiasmo", "d": "con mucha energía, interés y emoción"},
+        "fr": {"w": "avec enthousiasme", "d": "avec beaucoup d'énergie, d'intérêt et d'envie"}
+      }
+    },
+    {
+      "word": "social life",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈsəʊʃl laɪf/",
+      "def": "The time you spend meeting and having fun with friends.",
+      "example": "Derek started dancing because he had free time and little social life.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الحياة الاجتماعية", "d": "الوقت الذي تقضيه في لقاء الأصدقاء والاستمتاع معهم"},
+        "zh": {"w": "社交生活", "d": "和朋友见面、一起玩的时间"},
+        "de": {"w": "soziales Leben", "d": "die Zeit, die man mit Freunden verbringt und Spaß hat"},
+        "es": {"w": "vida social", "d": "el tiempo que pasas con amigos divirtiéndote"},
+        "fr": {"w": "vie sociale", "d": "le temps passé à voir des amis et à s'amuser"}
+      }
+    },
+    {
+      "word": "skill",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/skɪl/",
+      "def": "An ability to do something well because you have practised it.",
+      "example": "Martina had to learn a lot of new skills, and in the end it was too much.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مهارة", "d": "قدرة على فعل شيء جيداً لأنك تدربت عليه"},
+        "zh": {"w": "技能", "d": "因为练习过而能把某事做好的能力"},
+        "de": {"w": "Fähigkeit / Fertigkeit", "d": "die Fähigkeit, etwas gut zu machen, weil man es geübt hat"},
+        "es": {"w": "habilidad", "d": "capacidad de hacer algo bien porque lo has practicado"},
+        "fr": {"w": "compétence", "d": "capacité à bien faire quelque chose grâce à la pratique"}
+      }
+    },
+    {
+      "word": "hike",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/haɪk/",
+      "def": "To go for a long walk in the countryside or mountains.",
+      "example": "Next year I want to hike up a mountain with my friends.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يقوم برحلة مشي", "d": "أن تمشي مسافة طويلة في الريف أو الجبال"},
+        "zh": {"w": "徒步旅行", "d": "在乡村或山里长距离步行"},
+        "de": {"w": "wandern", "d": "eine lange Strecke auf dem Land oder in den Bergen gehen"},
+        "es": {"w": "hacer senderismo", "d": "caminar mucho por el campo o la montaña"},
+        "fr": {"w": "faire de la randonnée", "d": "marcher longtemps à la campagne ou en montagne"}
+      }
+    },
+    {
+      "word": "novel",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈnɒvl/",
+      "def": "A long story in a book about people and events that are not real.",
+      "example": "One day I'd like to challenge myself and write a novel.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "رواية", "d": "قصة طويلة في كتاب عن أشخاص وأحداث خيالية"},
+        "zh": {"w": "小说", "d": "书中关于虚构人物和事件的长篇故事"},
+        "de": {"w": "Roman", "d": "eine lange, erfundene Geschichte in einem Buch"},
+        "es": {"w": "novela", "d": "historia larga en un libro sobre personas y hechos inventados"},
+        "fr": {"w": "roman", "d": "longue histoire inventée racontée dans un livre"}
+      }
+    },
+    {
+      "word": "occasionally",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/əˈkeɪʒnəli/",
+      "def": "Sometimes, but not often.",
+      "example": "I still go dancing occasionally, maybe once a month.",
+      "opposite": "often",
+      "tr": {
+        "ar": {"w": "أحياناً / من حين لآخر", "d": "في بعض الأوقات، لكن ليس كثيراً"},
+        "zh": {"w": "偶尔", "d": "有时，但不经常"},
+        "de": {"w": "gelegentlich", "d": "manchmal, aber nicht oft"},
+        "es": {"w": "de vez en cuando", "d": "a veces, pero no a menudo"},
+        "fr": {"w": "de temps en temps", "d": "parfois, mais pas souvent"}
+      }
+    },
+    {
+      "word": "temporarily",
+      "pos": "adverb",
+      "level": "B2",
+      "ipa": "/ˈtemprərəli/",
+      "def": "For a short time only, not forever.",
+      "example": "I've stopped going to the gym temporarily because of my new job.",
+      "opposite": "permanently",
+      "tr": {
+        "ar": {"w": "مؤقتاً", "d": "لفترة قصيرة فقط، وليس للأبد"},
+        "zh": {"w": "暂时", "d": "只在短时间内，不是永远"},
+        "de": {"w": "vorübergehend", "d": "nur für kurze Zeit, nicht für immer"},
+        "es": {"w": "temporalmente", "d": "solo durante poco tiempo, no para siempre"},
+        "fr": {"w": "temporairement", "d": "seulement pour peu de temps, pas pour toujours"}
+      }
+    },
+    {
+      "word": "get involved in",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ɡet ɪnˈvɒlvd ɪn/",
+      "def": "To take part in an activity or group.",
+      "example": "Chris got involved in a local theatre group last year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يشارك في / ينخرط في", "d": "أن تشارك في نشاط أو مجموعة"},
+        "zh": {"w": "参与", "d": "参加某项活动或某个团体"},
+        "de": {"w": "mitmachen bei / sich beteiligen an", "d": "an einer Aktivität oder Gruppe teilnehmen"},
+        "es": {"w": "participar en / involucrarse en", "d": "tomar parte en una actividad o un grupo"},
+        "fr": {"w": "s'impliquer dans / participer à", "d": "prendre part à une activité ou à un groupe"}
+      }
+    },
+    {
+      "word": "encourage",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪnˈkʌrɪdʒ/",
+      "def": "To give someone support so they feel they can do something.",
+      "example": "My friends encouraged me to take up the guitar again.",
+      "opposite": "discourage",
+      "tr": {
+        "ar": {"w": "يُشجِّع", "d": "أن تدعم شخصاً ليشعر أنه قادر على فعل شيء"},
+        "zh": {"w": "鼓励", "d": "支持某人，让他觉得自己能做到"},
+        "de": {"w": "ermutigen", "d": "jemanden unterstützen, damit er sich etwas zutraut"},
+        "es": {"w": "animar", "d": "apoyar a alguien para que sienta que puede hacer algo"},
+        "fr": {"w": "encourager", "d": "soutenir quelqu'un pour qu'il se sente capable de faire quelque chose"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Phrasal verbs for starting and stopping activities",
+      "explain": "We use phrasal verbs like take up, set up and drop out to talk about starting and stopping hobbies. When the object is a pronoun (it, them), it goes between the verb and the particle: take it up, not take up it.",
+      "explain_ar": "نستخدم أفعالاً مركّبة مثل take up وset up وdrop out للحديث عن بدء الهوايات والتوقف عنها. إذا كان المفعول به ضميراً مثل it أو them فإنه يأتي بين الفعل والحرف: نقول take it up ولا نقول take up it.",
+      "form": [
+        "take up + noun / take + noun + up = start a hobby",
+        "take it up (a pronoun always goes in the middle)",
+        "take it up again = start again after a break",
+        "set up + a group / business = start an organisation",
+        "drop out (of + noun) = stop before the end"
+      ],
+      "examples": [
+        {"en": "I took up swing dancing about three years ago.", "note": "Started a new hobby."},
+        {"en": "I stopped in 2010 and took it up again in 2015.", "note": "Started again after a break. The pronoun 'it' goes in the middle."},
+        {"en": "I actually set up a theatre group.", "note": "Started a new group."},
+        {"en": "The person who got me into it dropped out long ago.", "note": "That person stopped doing the activity."},
+        {"en": "I started when I was young. → I took it up when I was young.", "note": "Teacher's correction: the phrasal verb sounds more natural."}
+      ],
+      "mistakes": [
+        {"wrong": "I took up it three years ago.", "right": "I took it up three years ago.", "why": "A pronoun goes between the verb and 'up'."},
+        {"wrong": "He dropped from the course.", "right": "He dropped out of the course.", "why": "We need 'out of' before the activity or course."},
+        {"wrong": "I set a theatre group.", "right": "I set up a theatre group.", "why": "Without 'up', 'set' does not mean 'start a group'."}
+      ],
+      "quiz": [
+        {"q": "I ___ about three years ago, and I still love it.", "options": ["took up it", "took it up", "took it on"], "answer": 1, "why": "With a pronoun, the pronoun goes in the middle: took it up."},
+        {"q": "My brother ___ a football club for kids in our area.", "options": ["set up", "set on", "dropped out"], "answer": 0, "why": "'Set up' means start a group or organisation."},
+        {"q": "She joined the course but ___ after two weeks.", "options": ["took up", "set up", "dropped out"], "answer": 2, "why": "'Drop out' means stop before the end."},
+        {"q": "I stopped painting in 2010 and ___ again in 2015.", "options": ["dropped it out", "took it up", "took up it"], "answer": 1, "why": "'Take it up again' means start again after a break."},
+        {"q": "My friend ___ me ___ hiking last year.", "options": ["took / up", "got / on", "got / into"], "answer": 2, "why": "'Get someone into something' means make them interested in it."}
+      ]
+    },
+    {
+      "title": "Talking about likes: be fond of / be into + noun or -ing",
+      "explain": "To say we like an activity a lot, we use 'be fond of' or 'be into'. After these prepositions we use a noun or a verb + -ing, never 'to + verb'.",
+      "explain_ar": "للتعبير عن حبّنا الكبير لنشاط ما نستخدم be fond of أو be into. وبعد حرف الجر نستخدم اسماً أو فعلاً مضافاً إليه ing، ولا نستخدم to مع الفعل أبداً.",
+      "form": [
+        "be fond of + noun / verb-ing",
+        "be into + noun / verb-ing",
+        "get someone into + noun / verb-ing"
+      ],
+      "examples": [
+        {"en": "I'm really fond of swing dancing.", "note": "fond of + -ing"},
+        {"en": "She was into dancing when she was younger.", "note": "into + -ing"},
+        {"en": "I'm not really into running, but I'm fond of hiking.", "note": "Both phrases in one sentence."},
+        {"en": "My sister got me into cooking.", "note": "My sister made me interested in cooking."}
+      ],
+      "mistakes": [
+        {"wrong": "I'm fond to dance.", "right": "I'm fond of dancing.", "why": "After 'of' we use a verb + -ing."},
+        {"wrong": "I'm fond with photography.", "right": "I'm fond of photography.", "why": "The preposition is always 'of'."},
+        {"wrong": "He is into play the guitar.", "right": "He is into playing the guitar.", "why": "After 'into' we use a verb + -ing."}
+      ],
+      "quiz": [
+        {"q": "I'm really fond ___ swing dancing.", "options": ["with", "of", "on"], "answer": 1, "why": "We say 'fond of'."},
+        {"q": "She's into ___ photos of nature.", "options": ["taking", "take", "to take"], "answer": 0, "why": "After the preposition 'into' we use -ing."},
+        {"q": "My dad got me ___ fishing when I was ten.", "options": ["on", "of", "into"], "answer": 2, "why": "'Get someone into something' = make them interested."},
+        {"q": "Are you ___ learning languages?", "options": ["fond", "into", "in"], "answer": 1, "why": "'Be into' + -ing. 'Fond' needs 'of'."},
+        {"q": "He's very fond of ___.", "options": ["to cook", "cook", "cooking"], "answer": 2, "why": "After 'of' we use a noun or -ing."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "I took it up about three years ago.", "use": "Saying when you started an activity"},
+    {"en": "I actually set up a theatre group.", "use": "Saying you started a group or organisation"},
+    {"en": "My friend got me into it.", "use": "Saying who made you start"},
+    {"en": "I'm really fond of swing dancing.", "use": "Talking about an activity enthusiastically"},
+    {"en": "I'm really into it at the moment.", "use": "Talking about an activity enthusiastically"},
+    {"en": "I've done fitness on and off for years.", "use": "Doing an activity less regularly, with breaks"},
+    {"en": "Both of them are on the backburner now.", "use": "Stopping for now, with a plan to come back"},
+    {"en": "I put it on the backburner for five years.", "use": "Saying you stopped for a time"},
+    {"en": "I stopped in 2010 and took it up again in 2015.", "use": "Saying you started again after a break"},
+    {"en": "He dropped out long ago.", "use": "Saying someone stopped completely"},
+    {"en": "I haven't stopped this activity.", "use": "Saying you still do it"},
+    {"en": "What motivates people to start a new activity?", "use": "Asking about reasons for starting"},
+    {"en": "Why did you (not) stop?", "use": "Asking about reasons for stopping"}
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "id": 1,
+  "title": "Describing Things",
+  "summary": "We learned how to describe tools and everyday objects when we don't know their name. We practised phrases like 'It's used for...' and 'It's a thing that...', the stress in compound nouns, and phrases for checking that people understand us.",
+  "source": "ARB_B1_04_I021CGL_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "tool",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/tuːl/",
+      "def": "A thing you hold in your hand to make or repair things.",
+      "example": "Do you own any tools for fixing things at home?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أداة", "d": "شيء تمسكه بيدك لتصنع الأشياء أو تصلحها"},
+        "zh": {"w": "工具", "d": "拿在手里用来制作或修理东西的物品"},
+        "de": {"w": "Werkzeug", "d": "etwas, das man in der Hand hält, um Dinge zu bauen oder zu reparieren"},
+        "es": {"w": "herramienta", "d": "objeto que usas con la mano para hacer o arreglar cosas"},
+        "fr": {"w": "outil", "d": "objet qu'on tient à la main pour fabriquer ou réparer des choses"}
+      }
+    },
+    {
+      "word": "DIY",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌdiː aɪ ˈwaɪ/",
+      "def": "Making, repairing or decorating things in your home without paying an expert.",
+      "example": "My dad loves DIY, so he built our garden table himself.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الأعمال اليدوية المنزلية", "d": "أن تصنع أو تصلح أو تزيّن أشياء في بيتك بنفسك دون أن تدفع لمختص"},
+        "zh": {"w": "自己动手（DIY）", "d": "不请专业人员，自己在家制作、修理或装饰东西"},
+        "de": {"w": "Heimwerken", "d": "Dinge im eigenen Zuhause selbst bauen, reparieren oder verschönern, ohne einen Fachmann zu bezahlen"},
+        "es": {"w": "bricolaje", "d": "hacer, arreglar o decorar cosas en casa tú mismo, sin pagar a un profesional"},
+        "fr": {"w": "bricolage", "d": "fabriquer, réparer ou décorer des choses chez soi sans payer un professionnel"}
+      }
+    },
+    {
+      "word": "craft",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/krɑːft/",
+      "def": "An activity where you make nice things by hand with skill.",
+      "example": "Jewellery making is a craft that needs a lot of patience.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حِرفة يدوية", "d": "نشاط تصنع فيه أشياء جميلة بيديك وبمهارة"},
+        "zh": {"w": "手工艺", "d": "用手灵巧地制作漂亮东西的活动"},
+        "de": {"w": "Handwerk / Basteln", "d": "eine Tätigkeit, bei der man mit Geschick schöne Dinge von Hand macht"},
+        "es": {"w": "manualidad / artesanía", "d": "actividad en la que haces cosas bonitas a mano y con habilidad"},
+        "fr": {"w": "artisanat / travail manuel", "d": "activité où l'on fabrique de jolies choses à la main avec habileté"}
+      }
+    },
+    {
+      "word": "renovate",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈrenəveɪt/",
+      "def": "To repair and paint an old building or room so it looks new.",
+      "example": "They renovated their old kitchen themselves to save money.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُجدِّد / يُرمِّم", "d": "أن تصلح وتدهن مبنى أو غرفة قديمة لتبدو جديدة"},
+        "zh": {"w": "翻新", "d": "修理并粉刷旧房子或房间，让它看起来像新的"},
+        "de": {"w": "renovieren", "d": "ein altes Gebäude oder Zimmer reparieren und streichen, damit es wieder neu aussieht"},
+        "es": {"w": "reformar / renovar", "d": "arreglar y pintar un edificio o una habitación vieja para que parezca nueva"},
+        "fr": {"w": "rénover", "d": "réparer et repeindre un vieux bâtiment ou une pièce pour qu'il ait l'air neuf"}
+      }
+    },
+    {
+      "word": "bargain",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈbɑːɡɪn/",
+      "def": "To talk with a seller to try to get a lower price.",
+      "example": "In the old market, you can bargain over the price of a new drill.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُساوِم / يُفاصِل", "d": "أن تتحدث مع البائع لتحاول الحصول على سعر أقل"},
+        "zh": {"w": "讨价还价", "d": "和卖家商量，想把价格压低"},
+        "de": {"w": "feilschen / handeln", "d": "mit einem Verkäufer sprechen, um einen niedrigeren Preis zu bekommen"},
+        "es": {"w": "regatear", "d": "hablar con el vendedor para intentar pagar menos"},
+        "fr": {"w": "marchander", "d": "discuter avec un vendeur pour obtenir un prix plus bas"}
+      }
+    },
+    {
+      "word": "made of",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˈmeɪd əv/",
+      "def": "Used to say what material something is, when you can still see the material.",
+      "example": "This hammer is made of steel and wood.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مصنوع من", "d": "تُستخدم لذكر مادة الشيء عندما تبقى المادة ظاهرة"},
+        "zh": {"w": "由……制成", "d": "说明东西用什么材料做的，材料还能看出来"},
+        "de": {"w": "aus … (gemacht)", "d": "sagt, aus welchem Material etwas ist, wenn man das Material noch sieht"},
+        "es": {"w": "hecho de", "d": "indica el material de algo cuando todavía se puede ver"},
+        "fr": {"w": "en / fait de", "d": "indique la matière d'un objet quand on la voit encore"}
+      }
+    },
+    {
+      "word": "made from",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˈmeɪd frəm/",
+      "def": "Used when the material has changed into something different.",
+      "example": "Paper is made from wood.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مصنوع من (بعد التحويل)", "d": "تُستخدم عندما تتحول المادة الأصلية إلى شيء مختلف"},
+        "zh": {"w": "由……制成（原料已改变）", "d": "原材料已经变成了另一种东西时用"},
+        "de": {"w": "hergestellt aus", "d": "wenn das Material sich in etwas ganz anderes verwandelt hat"},
+        "es": {"w": "hecho a partir de", "d": "se usa cuando el material se ha transformado en algo distinto"},
+        "fr": {"w": "fabriqué à partir de", "d": "quand la matière s'est transformée en quelque chose de différent"}
+      }
+    },
+    {
+      "word": "handle",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhændl/",
+      "def": "The part of a tool or object that you hold in your hand.",
+      "example": "It's got a little rubber handle, so it's safe to hold.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مقبض", "d": "الجزء من الأداة الذي تمسكه بيدك"},
+        "zh": {"w": "把手 / 手柄", "d": "工具或物品上用手握住的部分"},
+        "de": {"w": "Griff", "d": "der Teil eines Werkzeugs, den man in der Hand hält"},
+        "es": {"w": "mango", "d": "la parte de una herramienta que sujetas con la mano"},
+        "fr": {"w": "manche / poignée", "d": "la partie d'un outil qu'on tient dans la main"}
+      }
+    },
+    {
+      "word": "handsaw",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈhændsɔː/",
+      "def": "A tool with sharp teeth that you push and pull to cut wood.",
+      "example": "He used a handsaw to cut the wood for the garden fence.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "منشار يدوي", "d": "أداة لها أسنان حادة تدفعها وتسحبها لقطع الخشب"},
+        "zh": {"w": "手锯", "d": "有锋利锯齿、来回推拉锯木头的工具"},
+        "de": {"w": "Handsäge", "d": "ein Werkzeug mit scharfen Zähnen, das man hin und her bewegt, um Holz zu schneiden"},
+        "es": {"w": "serrucho", "d": "herramienta con dientes afilados que mueves adelante y atrás para cortar madera"},
+        "fr": {"w": "scie à main / égoïne", "d": "outil à dents pointues qu'on pousse et tire pour couper du bois"}
+      }
+    },
+    {
+      "word": "screwdriver",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈskruːdraɪvə/",
+      "def": "A tool for turning the small metal pins that hold things together.",
+      "example": "I need a screwdriver to fix the door of the kitchen cupboard.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مِفَكّ براغي", "d": "أداة لتدوير المسامير الصغيرة التي تثبّت الأشياء معاً"},
+        "zh": {"w": "螺丝刀", "d": "用来拧紧或拧松螺丝的工具"},
+        "de": {"w": "Schraubenzieher", "d": "ein Werkzeug zum Drehen der kleinen Metallstifte, die Dinge zusammenhalten"},
+        "es": {"w": "destornillador", "d": "herramienta para girar los tornillos que unen las cosas"},
+        "fr": {"w": "tournevis", "d": "outil pour tourner les petites pièces de métal qui tiennent les choses ensemble"}
+      }
+    },
+    {
+      "word": "screw",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/skruː/",
+      "def": "A small metal pin that you turn to fix things together.",
+      "example": "You need four screws to put this shelf on the wall.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "برغي", "d": "قطعة معدنية صغيرة تديرها لتثبيت الأشياء معاً"},
+        "zh": {"w": "螺丝", "d": "拧进去把东西固定在一起的小金属钉"},
+        "de": {"w": "Schraube", "d": "ein kleiner Metallstift, den man dreht, um Dinge zu befestigen"},
+        "es": {"w": "tornillo", "d": "pieza pequeña de metal que giras para unir cosas"},
+        "fr": {"w": "vis", "d": "petite pièce de métal qu'on tourne pour fixer des choses ensemble"}
+      }
+    },
+    {
+      "word": "bracket",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈbrækɪt/",
+      "def": "A metal piece fixed to a wall to hold up a shelf.",
+      "example": "Have you got everything you need: the shelves, brackets and screws?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حامل رفّ / كتيفة", "d": "قطعة معدنية تُثبَّت في الحائط لتحمل الرف"},
+        "zh": {"w": "托架", "d": "固定在墙上、用来托住架子的金属件"},
+        "de": {"w": "Regalträger / Winkel", "d": "ein Metallteil an der Wand, das ein Regalbrett trägt"},
+        "es": {"w": "escuadra / soporte", "d": "pieza de metal fijada a la pared para sostener una estantería"},
+        "fr": {"w": "équerre / support", "d": "pièce de métal fixée au mur pour tenir une étagère"}
+      }
+    },
+    {
+      "word": "measuring tape",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈmeʒərɪŋ teɪp/",
+      "def": "A long, thin strip with numbers on it, for finding the length of things.",
+      "example": "Check the wall with a measuring tape before you buy the cupboard.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "شريط قياس / متر", "d": "شريط طويل ورفيع عليه أرقام لمعرفة طول الأشياء"},
+        "zh": {"w": "卷尺", "d": "上面有刻度的长条，用来量东西的长度"},
+        "de": {"w": "Maßband", "d": "ein langer, dünner Streifen mit Zahlen, um Längen zu messen"},
+        "es": {"w": "cinta métrica", "d": "tira larga y fina con números para medir la longitud de las cosas"},
+        "fr": {"w": "mètre ruban", "d": "longue bande fine avec des chiffres pour mesurer la longueur des choses"}
+      }
+    },
+    {
+      "word": "drill",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/drɪl/",
+      "def": "A tool that turns very fast to make holes in walls or wood.",
+      "example": "He used an electric drill to make two holes for the picture.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مِثقاب / دريل", "d": "أداة تدور بسرعة كبيرة لعمل ثقوب في الجدران أو الخشب"},
+        "zh": {"w": "电钻", "d": "高速旋转、在墙或木头上打孔的工具"},
+        "de": {"w": "Bohrmaschine", "d": "ein Werkzeug, das sich sehr schnell dreht und Löcher in Wände oder Holz macht"},
+        "es": {"w": "taladro", "d": "herramienta que gira muy rápido para hacer agujeros en paredes o madera"},
+        "fr": {"w": "perceuse", "d": "outil qui tourne très vite pour faire des trous dans les murs ou le bois"}
+      }
+    },
+    {
+      "word": "spirit level",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈspɪrɪt ˌlevl/",
+      "def": "A tool with a small bubble inside that shows if something is straight.",
+      "example": "Put the spirit level on the shelf to see if it's straight.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ميزان الماء (ميزان تسوية)", "d": "أداة بداخلها فقاعة صغيرة تُظهر إن كان الشيء مستوياً"},
+        "zh": {"w": "水平仪", "d": "里面有小气泡、用来看东西平不平的工具"},
+        "de": {"w": "Wasserwaage", "d": "ein Werkzeug mit einer kleinen Blase, das zeigt, ob etwas gerade ist"},
+        "es": {"w": "nivel de burbuja", "d": "herramienta con una burbuja que muestra si algo está recto"},
+        "fr": {"w": "niveau à bulle", "d": "outil avec une petite bulle qui montre si quelque chose est droit"}
+      }
+    },
+    {
+      "word": "soldering iron",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈsəʊldərɪŋ ˌaɪən/",
+      "def": "An electric tool that gets very hot and joins small pieces of metal.",
+      "example": "He fixed the broken headphone wire with a soldering iron.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كاوية لِحام", "d": "أداة كهربائية تسخن جداً وتلصق قطع المعدن الصغيرة ببعضها"},
+        "zh": {"w": "电烙铁", "d": "会变得很烫、用来焊接小金属件的电动工具"},
+        "de": {"w": "Lötkolben", "d": "ein elektrisches Werkzeug, das sehr heiß wird und kleine Metallteile verbindet"},
+        "es": {"w": "soldador", "d": "herramienta eléctrica que se calienta mucho y une piezas pequeñas de metal"},
+        "fr": {"w": "fer à souder", "d": "outil électrique très chaud qui assemble de petits morceaux de métal"}
+      }
+    },
+    {
+      "word": "nail gun",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈneɪl ɡʌn/",
+      "def": "A machine that fires small metal pins into wood very quickly.",
+      "example": "With a nail gun, you don't need a hammer.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مسدس مسامير", "d": "آلة تُطلق مسامير معدنية صغيرة في الخشب بسرعة كبيرة"},
+        "zh": {"w": "射钉枪", "d": "把小钉子快速打进木头的机器"},
+        "de": {"w": "Nagelpistole", "d": "eine Maschine, die kleine Metallstifte sehr schnell ins Holz schießt"},
+        "es": {"w": "pistola de clavos", "d": "máquina que dispara clavos en la madera muy rápido"},
+        "fr": {"w": "cloueuse", "d": "machine qui enfonce très vite de petites pointes en métal dans le bois"}
+      }
+    },
+    {
+      "word": "safety catch",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈseɪfti kætʃ/",
+      "def": "A small part on a tool or gun that stops it working by accident.",
+      "example": "It's got a safety catch, so you don't have to worry about shooting nails through the air.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قفل الأمان", "d": "جزء صغير في الأداة أو المسدس يمنعها من العمل بالخطأ"},
+        "zh": {"w": "保险栓", "d": "工具或枪上防止意外启动的小部件"},
+        "de": {"w": "Sicherung", "d": "ein kleines Teil an einem Werkzeug oder einer Waffe, das ein versehentliches Auslösen verhindert"},
+        "es": {"w": "seguro", "d": "pieza pequeña que impide que una herramienta o un arma funcione sin querer"},
+        "fr": {"w": "cran de sûreté", "d": "petite pièce qui empêche un outil ou une arme de se déclencher par accident"}
+      }
+    },
+    {
+      "word": "pliers",
+      "pos": "plural noun",
+      "level": "B2",
+      "ipa": "/ˈplaɪəz/",
+      "def": "A tool with two handles for holding, bending or cutting wire.",
+      "example": "Hold the nut with a pair of pliers while I turn it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كمّاشة / زرّادية", "d": "أداة لها ذراعان لمسك الأسلاك أو ثنيها أو قطعها"},
+        "zh": {"w": "钳子", "d": "有两个把手、用来夹住、弯曲或剪断金属丝的工具"},
+        "de": {"w": "Zange", "d": "ein Werkzeug mit zwei Griffen zum Halten, Biegen oder Schneiden von Draht"},
+        "es": {"w": "alicates", "d": "herramienta con dos mangos para sujetar, doblar o cortar alambre"},
+        "fr": {"w": "pince", "d": "outil à deux poignées pour tenir, plier ou couper du fil de fer"}
+      }
+    },
+    {
+      "word": "wire cutters",
+      "pos": "plural noun",
+      "level": "C1",
+      "ipa": "/ˈwaɪə ˌkʌtəz/",
+      "def": "A tool like pliers with sharp edges for cutting thin metal cables.",
+      "example": "Use the wire cutters to cut the speaker cable.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قطّاعة أسلاك", "d": "أداة تشبه الكمّاشة لها حواف حادة لقطع الأسلاك المعدنية الرفيعة"},
+        "zh": {"w": "剪线钳", "d": "像钳子、有锋利刀口、用来剪细金属线的工具"},
+        "de": {"w": "Seitenschneider", "d": "ein zangenähnliches Werkzeug mit scharfen Kanten zum Schneiden dünner Kabel"},
+        "es": {"w": "cortaalambres", "d": "herramienta parecida a unos alicates con filo para cortar cables finos"},
+        "fr": {"w": "pince coupante", "d": "outil comme une pince, avec des bords tranchants pour couper des fils fins"}
+      }
+    },
+    {
+      "word": "hacksaw",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈhæksɔː/",
+      "def": "A tool with small teeth for cutting metal or plastic.",
+      "example": "He cut the old water pipe with a hacksaw.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "منشار حديد", "d": "أداة لها أسنان صغيرة لقطع المعدن أو البلاستيك"},
+        "zh": {"w": "钢锯", "d": "有细齿、用来锯金属或塑料的工具"},
+        "de": {"w": "Metallsäge / Bügelsäge", "d": "ein Werkzeug mit kleinen Zähnen zum Schneiden von Metall oder Kunststoff"},
+        "es": {"w": "sierra para metales", "d": "herramienta con dientes pequeños para cortar metal o plástico"},
+        "fr": {"w": "scie à métaux", "d": "outil à petites dents pour couper le métal ou le plastique"}
+      }
+    },
+    {
+      "word": "chisel",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈtʃɪzl/",
+      "def": "A tool with a sharp flat end for cutting shapes in wood or stone.",
+      "example": "The carpenter used a chisel to cut a small hole in the door.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إزميل", "d": "أداة لها طرف مسطح حاد لنحت الأشكال في الخشب أو الحجر"},
+        "zh": {"w": "凿子", "d": "一头扁而锋利、用来在木头或石头上凿形状的工具"},
+        "de": {"w": "Meißel / Stemmeisen", "d": "ein Werkzeug mit scharfem, flachem Ende, um Formen in Holz oder Stein zu schneiden"},
+        "es": {"w": "cincel / formón", "d": "herramienta con punta plana y afilada para tallar madera o piedra"},
+        "fr": {"w": "ciseau / burin", "d": "outil au bout plat et tranchant pour tailler le bois ou la pierre"}
+      }
+    },
+    {
+      "word": "wrench",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/rentʃ/",
+      "def": "A metal tool for holding and turning nuts, bolts or pipes.",
+      "example": "He fixed the pipe under the sink with a wrench.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مفتاح ربط", "d": "أداة معدنية لمسك الصواميل والمسامير والأنابيب وتدويرها"},
+        "zh": {"w": "扳手", "d": "用来夹住并转动螺母、螺栓或管子的金属工具"},
+        "de": {"w": "Schraubenschlüssel", "d": "ein Metallwerkzeug zum Festhalten und Drehen von Muttern, Schrauben oder Rohren"},
+        "es": {"w": "llave inglesa", "d": "herramienta de metal para sujetar y girar tuercas, pernos o tubos"},
+        "fr": {"w": "clé à molette", "d": "outil en métal pour tenir et tourner des écrous, des boulons ou des tuyaux"}
+      }
+    },
+    {
+      "word": "sledgehammer",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈsledʒhæmə/",
+      "def": "A very big, heavy tool with a long handle for breaking walls.",
+      "example": "The builders used a sledgehammer to knock down the old wall.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مطرقة ثقيلة / مِرزبّة", "d": "أداة كبيرة وثقيلة جداً لها يد طويلة لهدم الجدران"},
+        "zh": {"w": "大锤", "d": "长柄、很重的大工具，用来砸墙"},
+        "de": {"w": "Vorschlaghammer", "d": "ein sehr großes, schweres Werkzeug mit langem Stiel, um Wände einzuschlagen"},
+        "es": {"w": "mazo / almádena", "d": "herramienta muy grande y pesada con mango largo para romper paredes"},
+        "fr": {"w": "masse", "d": "outil très gros et lourd à long manche pour casser les murs"}
+      }
+    },
+    {
+      "word": "answering machine",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈɑːnsərɪŋ məˌʃiːn/",
+      "def": "A small device that takes and records phone messages when you are out.",
+      "example": "Please leave a message on my answering machine.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جهاز الرد الآلي", "d": "جهاز صغير يستقبل رسائل الهاتف ويسجّلها عندما تكون خارج البيت"},
+        "zh": {"w": "电话答录机", "d": "你不在时接电话并录下留言的小设备"},
+        "de": {"w": "Anrufbeantworter", "d": "ein kleines Gerät, das Nachrichten am Telefon aufnimmt, wenn man nicht da ist"},
+        "es": {"w": "contestador automático", "d": "aparato pequeño que graba los mensajes de teléfono cuando no estás"},
+        "fr": {"w": "répondeur", "d": "petit appareil qui enregistre les messages téléphoniques quand on est absent"}
+      }
+    },
+    {
+      "word": "laptop computer",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈlæptɒp kəmˌpjuːtə/",
+      "def": "A small, light PC that you can carry with you.",
+      "example": "She put her laptop computer in her bag and went to the library.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حاسوب محمول", "d": "حاسوب صغير وخفيف يمكنك حمله معك"},
+        "zh": {"w": "笔记本电脑", "d": "又小又轻、可以随身带的电脑"},
+        "de": {"w": "Laptop", "d": "ein kleiner, leichter Computer, den man mitnehmen kann"},
+        "es": {"w": "ordenador portátil", "d": "ordenador pequeño y ligero que puedes llevar contigo"},
+        "fr": {"w": "ordinateur portable", "d": "petit ordinateur léger qu'on peut emporter partout"}
+      }
+    },
+    {
+      "word": "digital camera",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˌdɪdʒɪtl ˈkæmərə/",
+      "def": "A device that takes photos and saves them as computer files.",
+      "example": "He took photos of the city with his new digital camera.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كاميرا رقمية", "d": "جهاز يلتقط الصور ويحفظها كملفات على الحاسوب"},
+        "zh": {"w": "数码相机", "d": "拍照并把照片存成电脑文件的设备"},
+        "de": {"w": "Digitalkamera", "d": "ein Gerät, das Fotos macht und als Computerdateien speichert"},
+        "es": {"w": "cámara digital", "d": "aparato que hace fotos y las guarda como archivos de ordenador"},
+        "fr": {"w": "appareil photo numérique", "d": "appareil qui prend des photos et les garde comme fichiers informatiques"}
+      }
+    },
+    {
+      "word": "vacuum cleaner",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈvækjuːm ˌkliːnə/",
+      "def": "An electric machine that sucks up dust from floors and carpets.",
+      "example": "He used the vacuum cleaner after he finished the woodwork.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مكنسة كهربائية", "d": "آلة كهربائية تشفط الغبار من الأرض والسجاد"},
+        "zh": {"w": "吸尘器", "d": "把地板和地毯上的灰尘吸走的电动机器"},
+        "de": {"w": "Staubsauger", "d": "eine elektrische Maschine, die Staub von Böden und Teppichen saugt"},
+        "es": {"w": "aspiradora", "d": "máquina eléctrica que aspira el polvo del suelo y las alfombras"},
+        "fr": {"w": "aspirateur", "d": "machine électrique qui aspire la poussière des sols et des tapis"}
+      }
+    },
+    {
+      "word": "text message",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈtekst ˌmesɪdʒ/",
+      "def": "A short written note you send from one phone to another.",
+      "example": "Send me a text message when you arrive.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "رسالة نصية", "d": "ملاحظة قصيرة مكتوبة ترسلها من هاتف إلى هاتف آخر"},
+        "zh": {"w": "短信", "d": "从一部手机发到另一部手机的简短文字"},
+        "de": {"w": "SMS / Textnachricht", "d": "eine kurze geschriebene Nachricht von einem Handy an ein anderes"},
+        "es": {"w": "mensaje de texto", "d": "nota corta escrita que envías de un teléfono a otro"},
+        "fr": {"w": "SMS / texto", "d": "court message écrit envoyé d'un téléphone à un autre"}
+      }
+    },
+    {
+      "word": "mobile phone",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˌməʊbaɪl ˈfəʊn/",
+      "def": "A small device for calls and the internet that you carry everywhere.",
+      "example": "Please turn off your mobile phone during the test.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "هاتف محمول / جوّال", "d": "جهاز صغير للمكالمات والإنترنت تحمله معك في كل مكان"},
+        "zh": {"w": "手机", "d": "随身带着、用来打电话和上网的小设备"},
+        "de": {"w": "Handy", "d": "ein kleines Gerät für Anrufe und Internet, das man überall dabeihat"},
+        "es": {"w": "teléfono móvil", "d": "aparato pequeño para llamar y usar internet que llevas a todas partes"},
+        "fr": {"w": "téléphone portable", "d": "petit appareil pour appeler et aller sur internet, qu'on emporte partout"}
+      }
+    },
+    {
+      "word": "department store",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/dɪˈpɑːtmənt stɔː/",
+      "def": "A large shop that sells many different kinds of things.",
+      "example": "You can buy tools in the basement of the department store.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "متجر متعدد الأقسام", "d": "محل كبير يبيع أنواعاً كثيرة ومختلفة من البضائع"},
+        "zh": {"w": "百货商店", "d": "卖很多不同种类商品的大商店"},
+        "de": {"w": "Kaufhaus", "d": "ein großes Geschäft, das viele verschiedene Dinge verkauft"},
+        "es": {"w": "grandes almacenes", "d": "tienda grande que vende muchos tipos de productos"},
+        "fr": {"w": "grand magasin", "d": "grand magasin qui vend beaucoup de sortes de produits"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Describing objects: It's got / It's used for / It's made of",
+      "explain": "We use these phrases to describe a thing when we don't know or forget its name. After 'used for' and 'a machine for' we use the -ing form of the verb.",
+      "explain_ar": "نستخدم هذه العبارات لوصف شيء عندما لا نعرف اسمه أو ننساه. بعد used for و a machine for نستخدم الفعل بصيغة ‎-ing. ونستخدم made of عندما تبقى المادة ظاهرة، و made from عندما تتحول المادة إلى شيء آخر.",
+      "form": [
+        "It's got a + noun (It's got a rubber handle.)",
+        "It's used for + verb-ing (It's used for cutting wood.)",
+        "It's made of + material you can still see (It's made of plastic.)",
+        "It's made from + material that has changed (Paper is made from wood.)",
+        "It's a machine for + verb-ing (It's a machine for washing clothes.)",
+        "It's a bit like a + noun (It's a bit like a glue gun.)"
+      ],
+      "examples": [
+        {"en": "It's used for cutting electrical wires.", "note": "used for + -ing tells us the purpose."},
+        {"en": "It's got a little bubble in the middle.", "note": "It's got = it has. We use it for parts of the object."},
+        {"en": "This table is made of wood.", "note": "You can still see the wood."},
+        {"en": "Glass is made from sand.", "note": "The sand has changed completely."},
+        {"en": "It's a machine for shooting nails into wood.", "note": "a machine for + -ing"}
+      ],
+      "mistakes": [
+        {"wrong": "It's used for cut wood.", "right": "It's used for cutting wood.", "why": "After 'for' we use the -ing form."},
+        {"wrong": "It's made by plastic.", "right": "It's made of plastic.", "why": "For materials we say 'made of' or 'made from', not 'made by'."},
+        {"wrong": "It's got the rubber handle.", "right": "It's got a rubber handle.", "why": "Use 'a' when you mention a part for the first time."},
+        {"wrong": "Paper is made of wood.", "right": "Paper is made from wood.", "why": "The wood has changed, so we use 'made from'."}
+      ],
+      "quiz": [
+        {"q": "It's used for ___ holes in walls.", "options": ["making", "make", "to making"], "answer": 0, "why": "used for + -ing."},
+        {"q": "This ring is made ___ gold.", "options": ["of", "by", "with"], "answer": 0, "why": "You can still see the gold, so 'made of'."},
+        {"q": "Cheese is made ___ milk.", "options": ["from", "of", "by"], "answer": 0, "why": "The milk has changed into something new, so 'made from'."},
+        {"q": "It's ___ a safety catch, so it's not dangerous.", "options": ["got", "used", "made"], "answer": 0, "why": "It's got = it has (a part of the object)."},
+        {"q": "A dishwasher is a machine for ___ dishes.", "options": ["washing", "wash", "washed"], "answer": 0, "why": "a machine for + -ing."},
+        {"q": "It's a bit ___ a glue gun, but it melts metal.", "options": ["like", "as", "same"], "answer": 0, "why": "'a bit like' = a little similar to."}
+      ]
+    },
+    {
+      "title": "Defining relative clauses: who, which/that, where",
+      "explain": "We use a relative clause to explain which person, thing or place we mean. Use 'who' for people, 'which' or 'that' for things, and 'where' for places.",
+      "explain_ar": "نستخدم جملة الوصل لتوضيح أي شخص أو شيء أو مكان نقصده. نستخدم who للأشخاص، و which أو that للأشياء، و where للأماكن. لا نكرر الضمير (he / it / there) بعد أداة الوصل.",
+      "form": [
+        "a person who + verb (It's a person who delivers mail.)",
+        "a thing which/that + verb (It's a thing that cuts paper.)",
+        "a thing (that) + subject + verb (It's a thing we use for cutting paper.)",
+        "a place where + subject + verb (It's a place where people live.)"
+      ],
+      "examples": [
+        {"en": "It's a guy who fixes your computer.", "note": "who = for people"},
+        {"en": "It's something that we use for communicating quickly.", "note": "that = for things"},
+        {"en": "This is the workshop where we keep our tools.", "note": "where = for places"},
+        {"en": "I have a friend who owns a workshop which is full of old tools.", "note": "Two relative clauses in one sentence."}
+      ],
+      "mistakes": [
+        {"wrong": "It's a person which fixes computers.", "right": "It's a person who fixes computers.", "why": "Use 'who' for people."},
+        {"wrong": "It's a thing that it cuts wood.", "right": "It's a thing that cuts wood.", "why": "Don't repeat 'it' after 'that'."},
+        {"wrong": "It's a place where people live there.", "right": "It's a place where people live.", "why": "'Where' already means 'there'."},
+        {"wrong": "It's a place which you buy tools.", "right": "It's a place where you buy tools.", "why": "Use 'where' for places when a subject and verb follow."}
+      ],
+      "quiz": [
+        {"q": "A carpenter is a person ___ makes things from wood.", "options": ["who", "which", "where"], "answer": 0, "why": "who = people."},
+        {"q": "A garage is a place ___ you keep your car.", "options": ["where", "who", "which"], "answer": 0, "why": "where = places."},
+        {"q": "A spirit level is a thing ___ shows if a shelf is straight.", "options": ["that", "who", "where"], "answer": 0, "why": "that/which = things."},
+        {"q": "Choose the correct sentence.", "options": ["It's a tool which cuts metal.", "It's a tool which it cuts metal.", "It's a tool who cuts metal."], "answer": 0, "why": "Use 'which' for things and don't repeat 'it'."},
+        {"q": "A postman is someone ___ delivers mail.", "options": ["who", "where", "what"], "answer": 0, "why": "who = people."}
+      ]
+    },
+    {
+      "title": "Stress in compound nouns",
+      "explain": "When two nouns go together (noun + noun), we usually stress the first word. When it is adjective + noun, we usually stress the second word.",
+      "explain_ar": "عندما يجتمع اسمان معاً (اسم + اسم) نضغط عادة على الكلمة الأولى. أما في (صفة + اسم) فنضغط عادة على الكلمة الثانية.",
+      "form": [
+        "noun + noun: stress the FIRST word (TEXT message, ANSWERING machine)",
+        "adjective + noun: stress the SECOND word (main BRANCH, digital CAMERA)"
+      ],
+      "examples": [
+        {"en": "TEXT message, VACUUM cleaner, LAPTOP computer", "note": "noun + noun"},
+        {"en": "main BRANCH, mobile PHONE, digital CAMERA", "note": "adjective + noun"},
+        {"en": "It's something that we use for COMMUNICATING QUICKLY.", "note": "Small words like 'that', 'we', 'for' are weak."}
+      ],
+      "mistakes": [
+        {"wrong": "vacuum CLEANER", "right": "VACUUM cleaner", "why": "noun + noun: stress the first word."},
+        {"wrong": "DIGITAL camera", "right": "digital CAMERA", "why": "adjective + noun: stress the second word."}
+      ],
+      "quiz": [
+        {"q": "Which is correct for 'answering machine'?", "options": ["ANSWERING machine", "answering MACHINE", "both words the same"], "answer": 0, "why": "noun + noun: first word."},
+        {"q": "Which is correct for 'digital camera'?", "options": ["digital CAMERA", "DIGITAL camera", "both words the same"], "answer": 0, "why": "adjective + noun: second word."},
+        {"q": "Which is correct for 'text message'?", "options": ["TEXT message", "text MESSAGE", "both words the same"], "answer": 0, "why": "noun + noun: first word."},
+        {"q": "Which is correct for 'mobile phone'?", "options": ["mobile PHONE", "MOBILE phone", "both words the same"], "answer": 0, "why": "'Mobile' is an adjective here, so stress the second word."},
+        {"q": "Which is correct for 'vacuum cleaner'?", "options": ["VACUUM cleaner", "vacuum CLEANER", "both words the same"], "answer": 0, "why": "noun + noun: first word."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "It's a thing that you use for...", "use": "Describing an object when you don't know its name"},
+    {"en": "It's got a...", "use": "Describing a part of an object"},
+    {"en": "It's a bit like a...", "use": "Comparing an object to something similar"},
+    {"en": "It's a person who...", "use": "Describing a person or a job"},
+    {"en": "It's a place where...", "use": "Describing a place"},
+    {"en": "So you mean...?", "use": "Clarifying what someone said"},
+    {"en": "Are you saying (that)...?", "use": "Clarifying what someone said"},
+    {"en": "What you're saying is...", "use": "Clarifying what someone said"},
+    {"en": "Can I just check (that)...?", "use": "Clarifying a detail"},
+    {"en": "Do you follow me?", "use": "Checking that the listener understands"},
+    {"en": "Do you know what I mean?", "use": "Checking that the listener understands (informal)"},
+    {"en": "Does that make sense?", "use": "Checking that the listener understands"}
+  ]
+}

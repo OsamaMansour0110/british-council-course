@@ -1,0 +1,2021 @@
+{
+  "bad_blood": [
+    {
+      "word": "instinct",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈɪnstɪŋkt/",
+      "def": "A natural feeling that makes you act without thinking first.",
+      "example": "Instinct made David step in front of Emma to protect her.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "غريزة",
+          "d": "شعور طبيعي يدفعك إلى التصرف دون تفكير مسبق"
+        },
+        "zh": {
+          "w": "本能",
+          "d": "让你不加思考就行动的自然感觉"
+        },
+        "de": {
+          "w": "Instinkt",
+          "d": "ein natürliches Gefühl, das dich handeln lässt, ohne vorher nachzudenken"
+        },
+        "es": {
+          "w": "instinto",
+          "d": "un sentimiento natural que te hace actuar sin pensar antes"
+        },
+        "fr": {
+          "w": "instinct",
+          "d": "un sentiment naturel qui te fait agir sans réfléchir"
+        }
+      }
+    },
+    {
+      "word": "bare your teeth",
+      "pos": "phrase",
+      "level": "C2",
+      "ipa": "/ˌbeə jɔː ˈtiːθ/",
+      "def": "To pull your lips back angrily to show you might bite, like an animal.",
+      "example": "His eyes opened wider and his teeth were bared.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يكشّر عن أنيابه",
+          "d": "أن تُظهر أسنانك بغضب كما يفعل حيوان خطير"
+        },
+        "zh": {
+          "w": "龇牙",
+          "d": "像危险的动物一样生气地露出牙齿"
+        },
+        "de": {
+          "w": "die Zähne fletschen",
+          "d": "wütend die Zähne zeigen, wie ein gefährliches Tier"
+        },
+        "es": {
+          "w": "enseñar los dientes",
+          "d": "mostrar los dientes con rabia, como un animal peligroso"
+        },
+        "fr": {
+          "w": "montrer les dents",
+          "d": "montrer ses dents avec colère, comme un animal dangereux"
+        }
+      }
+    },
+    {
+      "word": "atmosphere",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈætməsfɪə/",
+      "def": "The feeling or mood in a place.",
+      "example": "The atmosphere in the room had certainly turned ugly.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "جوّ / أجواء",
+          "d": "الشعور أو المزاج العام في مكان ما"
+        },
+        "zh": {
+          "w": "气氛",
+          "d": "一个地方的感觉或情绪"
+        },
+        "de": {
+          "w": "Stimmung",
+          "d": "das Gefühl oder die Laune an einem Ort"
+        },
+        "es": {
+          "w": "ambiente",
+          "d": "el sentimiento o el ánimo que hay en un lugar"
+        },
+        "fr": {
+          "w": "atmosphère / ambiance",
+          "d": "le sentiment ou l'humeur dans un lieu"
+        }
+      }
+    },
+    {
+      "word": "disgusting",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/dɪsˈɡʌstɪŋ/",
+      "def": "Very unpleasant, so that you do not want to be near it.",
+      "example": "How could he feel good by drinking the blood of either of these disgusting creatures?",
+      "opposite": "lovely",
+      "tr": {
+        "ar": {
+          "w": "مقزِّز",
+          "d": "كريه جداً لدرجة أنك لا تريد الاقتراب منه"
+        },
+        "zh": {
+          "w": "令人恶心的",
+          "d": "非常讨厌，让你不想靠近"
+        },
+        "de": {
+          "w": "ekelhaft",
+          "d": "sehr unangenehm, sodass man nicht in der Nähe sein will"
+        },
+        "es": {
+          "w": "asqueroso",
+          "d": "muy desagradable, no quieres estar cerca"
+        },
+        "fr": {
+          "w": "dégoûtant",
+          "d": "très désagréable, on ne veut pas s'en approcher"
+        }
+      }
+    },
+    {
+      "word": "century",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈsentʃəri/",
+      "def": "A period of 100 years.",
+      "example": "He had been killing for many centuries.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "قرن",
+          "d": "فترة مئة سنة"
+        },
+        "zh": {
+          "w": "世纪",
+          "d": "一百年的时间"
+        },
+        "de": {
+          "w": "Jahrhundert",
+          "d": "ein Zeitraum von 100 Jahren"
+        },
+        "es": {
+          "w": "siglo",
+          "d": "un periodo de 100 años"
+        },
+        "fr": {
+          "w": "siècle",
+          "d": "une période de 100 ans"
+        }
+      }
+    },
+    {
+      "word": "break-up",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈbreɪk ʌp/",
+      "def": "The end of a romantic relationship.",
+      "example": "All the pain of his last break-up disappeared.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "انفصال",
+          "d": "نهاية علاقة عاطفية"
+        },
+        "zh": {
+          "w": "分手",
+          "d": "恋爱关系的结束"
+        },
+        "de": {
+          "w": "Trennung",
+          "d": "das Ende einer Liebesbeziehung"
+        },
+        "es": {
+          "w": "ruptura",
+          "d": "el final de una relación de pareja"
+        },
+        "fr": {
+          "w": "rupture",
+          "d": "la fin d'une relation amoureuse"
+        }
+      }
+    },
+    {
+      "word": "vampire",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈvæmpaɪə/",
+      "def": "A creature in stories that drinks people's blood and lives for ever.",
+      "example": "The vampire was always pleased when people lived in flats.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مصّاص دماء",
+          "d": "مخلوق في القصص يشرب دماء البشر ويعيش إلى الأبد"
+        },
+        "zh": {
+          "w": "吸血鬼",
+          "d": "故事中喝人血、永远活着的生物"
+        },
+        "de": {
+          "w": "Vampir",
+          "d": "ein Wesen aus Geschichten, das das Blut von Menschen trinkt und ewig lebt"
+        },
+        "es": {
+          "w": "vampiro",
+          "d": "un ser de las historias que bebe sangre humana y vive para siempre"
+        },
+        "fr": {
+          "w": "vampire",
+          "d": "une créature des histoires qui boit le sang des gens et vit éternellement"
+        }
+      }
+    },
+    {
+      "word": "hiss",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/hɪs/",
+      "def": "To say something in a quiet, angry voice, like the sound of a snake.",
+      "example": "\"Which one?\" the man hissed.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يفحّ / يهمس بغضب",
+          "d": "أن تقول شيئاً بصوت منخفض غاضب يشبه صوت الأفعى"
+        },
+        "zh": {
+          "w": "嘶嘶地说",
+          "d": "用低沉、生气、像蛇一样的声音说话"
+        },
+        "de": {
+          "w": "zischen",
+          "d": "etwas leise und wütend sagen, wie eine Schlange"
+        },
+        "es": {
+          "w": "sisear",
+          "d": "decir algo en voz baja y enfadada, como una serpiente"
+        },
+        "fr": {
+          "w": "siffler",
+          "d": "dire quelque chose à voix basse et en colère, comme un serpent"
+        }
+      }
+    },
+    {
+      "word": "victim",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈvɪktɪm/",
+      "def": "A person who is hurt, attacked or killed by someone.",
+      "example": "How many times had he stood on a corner like this? How many victims had he watched?",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "ضحية",
+          "d": "شخص يتعرض للأذى أو الهجوم أو القتل"
+        },
+        "zh": {
+          "w": "受害者",
+          "d": "被别人伤害、攻击或杀害的人"
+        },
+        "de": {
+          "w": "Opfer",
+          "d": "eine Person, die verletzt, angegriffen oder getötet wird"
+        },
+        "es": {
+          "w": "víctima",
+          "d": "una persona a la que alguien hace daño, ataca o mata"
+        },
+        "fr": {
+          "w": "victime",
+          "d": "une personne blessée, attaquée ou tuée par quelqu'un"
+        }
+      }
+    },
+    {
+      "word": "depressing",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/dɪˈpresɪŋ/",
+      "def": "Making you feel sad and without hope.",
+      "example": "He had been killing for many centuries. Listening to them was depressing.",
+      "opposite": "cheerful",
+      "tr": {
+        "ar": {
+          "w": "محبِط / كئيب",
+          "d": "يجعلك تشعر بالحزن وفقدان الأمل"
+        },
+        "zh": {
+          "w": "令人沮丧的",
+          "d": "让人感到难过、没有希望"
+        },
+        "de": {
+          "w": "deprimierend",
+          "d": "macht dich traurig und hoffnungslos"
+        },
+        "es": {
+          "w": "deprimente",
+          "d": "que te hace sentir triste y sin esperanza"
+        },
+        "fr": {
+          "w": "déprimant",
+          "d": "qui rend triste et sans espoir"
+        }
+      }
+    },
+    {
+      "word": "shadow",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈʃædəʊ/",
+      "def": "A dark area where light cannot reach.",
+      "example": "A tall man watched them from the shadows.",
+      "opposite": "light",
+      "tr": {
+        "ar": {
+          "w": "ظِلّ / عتمة",
+          "d": "مكان مظلم لا يصل إليه الضوء"
+        },
+        "zh": {
+          "w": "阴影 / 暗处",
+          "d": "光照不到的黑暗地方"
+        },
+        "de": {
+          "w": "Schatten",
+          "d": "ein dunkler Bereich, wohin kein Licht kommt"
+        },
+        "es": {
+          "w": "sombra",
+          "d": "una zona oscura donde no llega la luz"
+        },
+        "fr": {
+          "w": "ombre",
+          "d": "un endroit sombre où la lumière n'arrive pas"
+        }
+      }
+    },
+    {
+      "word": "approach",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/əˈprəʊtʃ/",
+      "def": "To come nearer to someone or something.",
+      "example": "The vampire approached David.",
+      "opposite": "move away",
+      "tr": {
+        "ar": {
+          "w": "يقترب من",
+          "d": "أن تتحرك لتصبح أقرب إلى شخص أو شيء"
+        },
+        "zh": {
+          "w": "走近 / 靠近",
+          "d": "向某人或某物移动，离得更近"
+        },
+        "de": {
+          "w": "sich nähern",
+          "d": "näher zu jemandem oder etwas kommen"
+        },
+        "es": {
+          "w": "acercarse",
+          "d": "moverse para estar más cerca de alguien o algo"
+        },
+        "fr": {
+          "w": "s'approcher de",
+          "d": "venir plus près de quelqu'un ou de quelque chose"
+        }
+      }
+    },
+    {
+      "word": "embarrassed",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪmˈbærəst/",
+      "def": "Feeling silly and uncomfortable because of what other people might think.",
+      "example": "David was a little embarrassed to be having this argument in front of a stranger.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "محرَج",
+          "d": "تشعر بالخجل وعدم الارتياح بسبب ما قد يظنه الآخرون"
+        },
+        "zh": {
+          "w": "尴尬的",
+          "d": "因为在意别人的看法而觉得难为情、不自在"
+        },
+        "de": {
+          "w": "verlegen",
+          "d": "man fühlt sich dumm und unwohl wegen der Meinung anderer"
+        },
+        "es": {
+          "w": "avergonzado",
+          "d": "sentirse tonto e incómodo por lo que pueden pensar los demás"
+        },
+        "fr": {
+          "w": "gêné",
+          "d": "se sentir bête et mal à l'aise devant les autres"
+        }
+      }
+    },
+    {
+      "word": "nightmare",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈnaɪtmeə/",
+      "def": "A very frightening dream, or a terrible experience.",
+      "example": "Their dream was about to become a nightmare, the listening vampire thought.",
+      "opposite": "dream",
+      "tr": {
+        "ar": {
+          "w": "كابوس",
+          "d": "حلم مخيف جداً أو تجربة فظيعة"
+        },
+        "zh": {
+          "w": "噩梦",
+          "d": "非常可怕的梦，或很糟糕的经历"
+        },
+        "de": {
+          "w": "Albtraum",
+          "d": "ein sehr schlimmer Traum oder ein schreckliches Erlebnis"
+        },
+        "es": {
+          "w": "pesadilla",
+          "d": "un sueño que da mucho miedo, o una experiencia terrible"
+        },
+        "fr": {
+          "w": "cauchemar",
+          "d": "un rêve qui fait très peur, ou une expérience terrible"
+        }
+      }
+    },
+    {
+      "word": "terrified",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈterɪfaɪd/",
+      "def": "Very, very frightened.",
+      "example": "The couple screamed and then held each other in terrified silence.",
+      "opposite": "calm",
+      "tr": {
+        "ar": {
+          "w": "مرعوب",
+          "d": "خائف جداً جداً"
+        },
+        "zh": {
+          "w": "极度害怕的",
+          "d": "非常非常害怕"
+        },
+        "de": {
+          "w": "völlig verängstigt",
+          "d": "sehr, sehr große Angst haben"
+        },
+        "es": {
+          "w": "aterrorizado",
+          "d": "con muchísimo miedo"
+        },
+        "fr": {
+          "w": "terrifié",
+          "d": "qui a très, très peur"
+        }
+      }
+    },
+    {
+      "word": "pale",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/peɪl/",
+      "def": "Having skin with less colour than usual, almost white.",
+      "example": "His face was pale with a sharp, pointed nose and thin, pale lips.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "شاحب",
+          "d": "لون البشرة أفتح من المعتاد، قريب من الأبيض"
+        },
+        "zh": {
+          "w": "苍白的",
+          "d": "皮肤颜色比平常浅，几乎是白色"
+        },
+        "de": {
+          "w": "blass",
+          "d": "die Haut hat weniger Farbe als sonst, fast weiß"
+        },
+        "es": {
+          "w": "pálido",
+          "d": "con la piel con menos color de lo normal, casi blanca"
+        },
+        "fr": {
+          "w": "pâle",
+          "d": "avec une peau moins colorée que d'habitude, presque blanche"
+        }
+      }
+    },
+    {
+      "word": "selfish",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈselfɪʃ/",
+      "def": "Thinking only about yourself and not about other people.",
+      "example": "The vampire was not pleased that the fear and love were now silly, selfish arguments.",
+      "opposite": "unselfish",
+      "tr": {
+        "ar": {
+          "w": "أناني",
+          "d": "يفكر في نفسه فقط ولا يهتم بالآخرين"
+        },
+        "zh": {
+          "w": "自私的",
+          "d": "只想着自己，不考虑别人"
+        },
+        "de": {
+          "w": "egoistisch",
+          "d": "nur an sich selbst denken, nicht an andere"
+        },
+        "es": {
+          "w": "egoísta",
+          "d": "que solo piensa en sí mismo y no en los demás"
+        },
+        "fr": {
+          "w": "égoïste",
+          "d": "qui pense seulement à soi et pas aux autres"
+        }
+      }
+    },
+    {
+      "word": "gratefully",
+      "pos": "adverb",
+      "level": "B2",
+      "ipa": "/ˈɡreɪtfəli/",
+      "def": "In a way that shows you are thankful.",
+      "example": "Emma gratefully held onto his back.",
+      "opposite": "ungratefully",
+      "tr": {
+        "ar": {
+          "w": "بامتنان",
+          "d": "بطريقة تُظهر أنك شاكر"
+        },
+        "zh": {
+          "w": "感激地",
+          "d": "表现出感谢的样子"
+        },
+        "de": {
+          "w": "dankbar",
+          "d": "so, dass man zeigt, dass man Danke sagen möchte"
+        },
+        "es": {
+          "w": "con gratitud",
+          "d": "de una manera que muestra que das las gracias"
+        },
+        "fr": {
+          "w": "avec reconnaissance",
+          "d": "d'une manière qui montre qu'on remercie"
+        }
+      }
+    },
+    {
+      "word": "invitation",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˌɪnvɪˈteɪʃn/",
+      "def": "A request to come somewhere; here, being allowed to come into a home.",
+      "example": "It was a kind of invitation, and that was all he needed to enter a home.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "دعوة",
+          "d": "طلب المجيء إلى مكان ما؛ وهنا: السماح بدخول البيت"
+        },
+        "zh": {
+          "w": "邀请",
+          "d": "请别人来某处；这里指被允许进入家门"
+        },
+        "de": {
+          "w": "Einladung",
+          "d": "die Bitte, irgendwohin zu kommen; hier: die Erlaubnis, ins Haus zu kommen"
+        },
+        "es": {
+          "w": "invitación",
+          "d": "pedir a alguien que venga; aquí, el permiso para entrar en una casa"
+        },
+        "fr": {
+          "w": "invitation",
+          "d": "demander à quelqu'un de venir; ici, la permission d'entrer dans une maison"
+        }
+      }
+    },
+    {
+      "word": "doubt",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/daʊt/",
+      "def": "A feeling of not being sure about something.",
+      "example": "All his doubts and fears about love had gone.",
+      "opposite": "certainty",
+      "tr": {
+        "ar": {
+          "w": "شكّ",
+          "d": "شعور بعدم التأكد من شيء ما"
+        },
+        "zh": {
+          "w": "怀疑 / 疑虑",
+          "d": "对某事不确定的感觉"
+        },
+        "de": {
+          "w": "Zweifel",
+          "d": "das Gefühl, sich bei etwas nicht sicher zu sein"
+        },
+        "es": {
+          "w": "duda",
+          "d": "la sensación de no estar seguro de algo"
+        },
+        "fr": {
+          "w": "doute",
+          "d": "le sentiment de ne pas être sûr de quelque chose"
+        }
+      }
+    },
+    {
+      "word": "pointed",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈpɔɪntɪd/",
+      "def": "Thin at the end, with a sharp tip.",
+      "example": "His face was pale with a sharp, pointed nose and thin, pale lips.",
+      "opposite": "round",
+      "tr": {
+        "ar": {
+          "w": "مدبَّب",
+          "d": "رفيع عند الطرف وله رأس حاد"
+        },
+        "zh": {
+          "w": "尖的",
+          "d": "末端很细，有尖头"
+        },
+        "de": {
+          "w": "spitz",
+          "d": "am Ende dünn, mit einer scharfen Spitze"
+        },
+        "es": {
+          "w": "puntiagudo",
+          "d": "delgado al final, con una punta afilada"
+        },
+        "fr": {
+          "w": "pointu",
+          "d": "fin au bout, avec une pointe"
+        }
+      }
+    },
+    {
+      "word": "couple",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈkʌpl/",
+      "def": "Two people who are in a romantic relationship.",
+      "example": "The young couple were happy: the food was delicious and the music was perfect.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "زوجان / حبيبان",
+          "d": "شخصان بينهما علاقة حب"
+        },
+        "zh": {
+          "w": "情侣 / 夫妻",
+          "d": "有恋爱关系的两个人"
+        },
+        "de": {
+          "w": "Paar",
+          "d": "zwei Menschen in einer Liebesbeziehung"
+        },
+        "es": {
+          "w": "pareja",
+          "d": "dos personas que tienen una relación amorosa"
+        },
+        "fr": {
+          "w": "couple",
+          "d": "deux personnes qui ont une relation amoureuse"
+        }
+      }
+    },
+    {
+      "word": "delicious",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/dɪˈlɪʃəs/",
+      "def": "Tasting very good.",
+      "example": "The food was delicious, the light from the candles was soft and the music was perfect.",
+      "opposite": "disgusting",
+      "tr": {
+        "ar": {
+          "w": "لذيذ",
+          "d": "طعمه جيد جداً"
+        },
+        "zh": {
+          "w": "美味的",
+          "d": "味道非常好"
+        },
+        "de": {
+          "w": "lecker",
+          "d": "schmeckt sehr gut"
+        },
+        "es": {
+          "w": "delicioso",
+          "d": "que sabe muy bien"
+        },
+        "fr": {
+          "w": "délicieux",
+          "d": "qui a très bon goût"
+        }
+      }
+    },
+    {
+      "word": "nervous",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈnɜːvəs/",
+      "def": "Worried and a little afraid about something that will happen.",
+      "example": "Back at their table, David suddenly felt nervous.",
+      "opposite": "calm",
+      "tr": {
+        "ar": {
+          "w": "متوتّر",
+          "d": "قلق وخائف قليلاً من شيء سيحدث"
+        },
+        "zh": {
+          "w": "紧张的",
+          "d": "对将要发生的事担心、有点害怕"
+        },
+        "de": {
+          "w": "nervös",
+          "d": "besorgt und ein bisschen ängstlich wegen etwas, das bald passiert"
+        },
+        "es": {
+          "w": "nervioso",
+          "d": "preocupado y con un poco de miedo por algo que va a pasar"
+        },
+        "fr": {
+          "w": "nerveux",
+          "d": "inquiet et un peu effrayé par ce qui va arriver"
+        }
+      }
+    },
+    {
+      "word": "confused",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/kənˈfjuːzd/",
+      "def": "Not able to understand something or think clearly.",
+      "example": "For a moment, David was confused. Then he realised what the other man meant.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مرتبك / حائر",
+          "d": "غير قادر على فهم شيء أو التفكير بوضوح"
+        },
+        "zh": {
+          "w": "困惑的",
+          "d": "无法理解或无法清楚地思考"
+        },
+        "de": {
+          "w": "verwirrt",
+          "d": "etwas nicht verstehen oder nicht klar denken können"
+        },
+        "es": {
+          "w": "confundido",
+          "d": "que no puede entender algo o pensar con claridad"
+        },
+        "fr": {
+          "w": "perplexe / confus",
+          "d": "qui ne comprend pas ou ne pense pas clairement"
+        }
+      }
+    },
+    {
+      "word": "protect",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/prəˈtekt/",
+      "def": "To keep someone safe from danger.",
+      "example": "\"Of course, my love. I'm here to protect you.\"",
+      "opposite": "attack",
+      "tr": {
+        "ar": {
+          "w": "يحمي",
+          "d": "أن تحافظ على سلامة شخص من الخطر"
+        },
+        "zh": {
+          "w": "保护",
+          "d": "使某人远离危险"
+        },
+        "de": {
+          "w": "beschützen",
+          "d": "jemanden vor Gefahr sicher halten"
+        },
+        "es": {
+          "w": "proteger",
+          "d": "mantener a alguien a salvo del peligro"
+        },
+        "fr": {
+          "w": "protéger",
+          "d": "garder quelqu'un à l'abri du danger"
+        }
+      }
+    },
+    {
+      "word": "brave",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/breɪv/",
+      "def": "Not afraid to do something difficult or dangerous.",
+      "example": "Her smile made him feel brave.",
+      "opposite": "cowardly",
+      "tr": {
+        "ar": {
+          "w": "شجاع",
+          "d": "لا يخاف من فعل شيء صعب أو خطير"
+        },
+        "zh": {
+          "w": "勇敢的",
+          "d": "不怕做困难或危险的事"
+        },
+        "de": {
+          "w": "mutig",
+          "d": "keine Angst haben, etwas Schweres oder Gefährliches zu tun"
+        },
+        "es": {
+          "w": "valiente",
+          "d": "que no tiene miedo de hacer algo difícil o peligroso"
+        },
+        "fr": {
+          "w": "courageux",
+          "d": "qui n'a pas peur de faire quelque chose de difficile ou dangereux"
+        }
+      }
+    },
+    {
+      "word": "horrible",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/ˈhɒrəbl/",
+      "def": "Very bad or unkind.",
+      "example": "\"Let's see how strong your love is!\" \"What a horrible man!\"",
+      "opposite": "lovely",
+      "tr": {
+        "ar": {
+          "w": "فظيع / بغيض",
+          "d": "سيئ جداً أو قاسٍ"
+        },
+        "zh": {
+          "w": "可怕的 / 讨厌的",
+          "d": "非常坏或不友好"
+        },
+        "de": {
+          "w": "schrecklich / gemein",
+          "d": "sehr schlecht oder unfreundlich"
+        },
+        "es": {
+          "w": "horrible",
+          "d": "muy malo o cruel"
+        },
+        "fr": {
+          "w": "horrible",
+          "d": "très mauvais ou méchant"
+        }
+      }
+    },
+    {
+      "word": "promise",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/ˈprɒmɪs/",
+      "def": "To say that you will certainly do or not do something.",
+      "example": "\"Fine! Fine! We won't stop you, I promise!\" David cried.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يَعِد",
+          "d": "أن تقول إنك ستفعل شيئاً أو لن تفعله بالتأكيد"
+        },
+        "zh": {
+          "w": "承诺 / 保证",
+          "d": "说你一定会做或不做某事"
+        },
+        "de": {
+          "w": "versprechen",
+          "d": "sagen, dass man etwas sicher tun oder nicht tun wird"
+        },
+        "es": {
+          "w": "prometer",
+          "d": "decir que seguro harás o no harás algo"
+        },
+        "fr": {
+          "w": "promettre",
+          "d": "dire qu'on va sûrement faire ou ne pas faire quelque chose"
+        }
+      }
+    },
+    {
+      "word": "accent",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈæksənt/",
+      "def": "The way a person says words, which shows where they come from.",
+      "example": "He spoke with a strong and strange accent.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "لَكْنة / لهجة",
+          "d": "طريقة نطق الكلمات التي تُظهر من أين أتى الشخص"
+        },
+        "zh": {
+          "w": "口音",
+          "d": "一个人说话的发音方式，能看出他来自哪里"
+        },
+        "de": {
+          "w": "Akzent",
+          "d": "die Art, wie jemand Wörter ausspricht; sie zeigt, woher er kommt"
+        },
+        "es": {
+          "w": "acento",
+          "d": "la forma de pronunciar que muestra de dónde es una persona"
+        },
+        "fr": {
+          "w": "accent",
+          "d": "la façon de prononcer les mots, qui montre d'où vient une personne"
+        }
+      }
+    },
+    {
+      "word": "ring",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/rɪŋ/",
+      "def": "A round piece of jewellery that you wear on your finger.",
+      "example": "He reached for the ring in a box in his pocket. It was time to ask her!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "خاتم",
+          "d": "قطعة مجوهرات دائرية تلبسها في إصبعك"
+        },
+        "zh": {
+          "w": "戒指",
+          "d": "戴在手指上的圆形首饰"
+        },
+        "de": {
+          "w": "Ring",
+          "d": "ein runder Schmuck, den man am Finger trägt"
+        },
+        "es": {
+          "w": "anillo",
+          "d": "una joya redonda que llevas en el dedo"
+        },
+        "fr": {
+          "w": "bague",
+          "d": "un bijou rond qu'on porte au doigt"
+        }
+      }
+    },
+    {
+      "word": "wallet",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈwɒlɪt/",
+      "def": "A small flat case for carrying money and cards.",
+      "example": "\"There's my wallet! On the table, there! Take it!\" said David.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "محفظة",
+          "d": "حافظة صغيرة مسطحة لحمل النقود والبطاقات"
+        },
+        "zh": {
+          "w": "钱包",
+          "d": "装钱和卡的小扁包"
+        },
+        "de": {
+          "w": "Geldbörse / Portemonnaie",
+          "d": "eine kleine flache Tasche für Geld und Karten"
+        },
+        "es": {
+          "w": "cartera",
+          "d": "un estuche pequeño y plano para llevar dinero y tarjetas"
+        },
+        "fr": {
+          "w": "portefeuille",
+          "d": "un petit étui plat pour l'argent et les cartes"
+        }
+      }
+    },
+    {
+      "word": "search someone's eyes",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˌsɜːtʃ ˌsʌmwʌnz ˈaɪz/",
+      "def": "To look carefully at someone's face to understand how they feel.",
+      "example": "David searched her eyes. Could she guess what was coming?",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يتفرّس في عينيه",
+          "d": "أن تنظر بعناية إلى وجه شخص لتفهم ما يشعر به"
+        },
+        "zh": {
+          "w": "凝视某人的眼睛",
+          "d": "仔细看某人的脸，想知道他的感受"
+        },
+        "de": {
+          "w": "jemandem forschend in die Augen sehen",
+          "d": "genau in jemandes Gesicht schauen, um seine Gefühle zu verstehen"
+        },
+        "es": {
+          "w": "escrutar la mirada de alguien",
+          "d": "mirar con atención la cara de alguien para entender lo que siente"
+        },
+        "fr": {
+          "w": "sonder le regard de quelqu'un",
+          "d": "regarder attentivement le visage de quelqu'un pour comprendre ses sentiments"
+        }
+      }
+    }
+  ],
+  "first_star": [
+    {
+      "word": "particle accelerator",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈpɑːtɪkl əkˈseləreɪtə/",
+      "def": "A huge machine that scientists use to make tiny bits of matter move very fast.",
+      "example": "He pressed the second button and switched on the large particle accelerator that lay under the towns and fields of Switzerland.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مُسرِّع جسيمات",
+          "d": "آلة ضخمة يستخدمها العلماء لجعل أجزاء صغيرة جداً من المادة تتحرك بسرعة هائلة"
+        },
+        "zh": {
+          "w": "粒子加速器",
+          "d": "科学家用来让极小的物质粒子高速运动的巨大机器"
+        },
+        "de": {
+          "w": "Teilchenbeschleuniger",
+          "d": "eine riesige Maschine, mit der Wissenschaftler winzige Teilchen sehr schnell machen"
+        },
+        "es": {
+          "w": "acelerador de partículas",
+          "d": "una enorme máquina con la que los científicos hacen moverse muy rápido partes diminutas de materia"
+        },
+        "fr": {
+          "w": "accélérateur de particules",
+          "d": "une énorme machine qui fait aller très vite de minuscules morceaux de matière"
+        }
+      }
+    },
+    {
+      "word": "prosecution",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˌprɒsɪˈkjuːʃn/",
+      "def": "The lawyers in a court who try to show that someone is guilty.",
+      "example": "\"Well, if you didn't steal the stars, Dr Streyer,\" said the lawyer for the prosecution, \"what did you do?\"",
+      "opposite": "defence",
+      "tr": {
+        "ar": {
+          "w": "الادّعاء العام",
+          "d": "المحامون في المحكمة الذين يحاولون إثبات أن شخصاً مذنب"
+        },
+        "zh": {
+          "w": "控方",
+          "d": "在法庭上设法证明某人有罪的律师"
+        },
+        "de": {
+          "w": "Anklage / Staatsanwaltschaft",
+          "d": "die Juristen im Gericht, die zeigen wollen, dass jemand schuldig ist"
+        },
+        "es": {
+          "w": "la acusación / la fiscalía",
+          "d": "los abogados que en un juicio intentan demostrar que alguien es culpable"
+        },
+        "fr": {
+          "w": "l'accusation / le ministère public",
+          "d": "les avocats qui, au tribunal, essaient de prouver qu'une personne est coupable"
+        }
+      }
+    },
+    {
+      "word": "photon",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈfəʊtɒn/",
+      "def": "A very, very small piece of light.",
+      "example": "When the machine started, there were suddenly no photons in the test room.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "فوتون",
+          "d": "جزء صغير جداً جداً من الضوء"
+        },
+        "zh": {
+          "w": "光子",
+          "d": "光的极小单位"
+        },
+        "de": {
+          "w": "Photon",
+          "d": "ein winzig kleines Teilchen des Lichts"
+        },
+        "es": {
+          "w": "fotón",
+          "d": "una parte diminuta de la luz"
+        },
+        "fr": {
+          "w": "photon",
+          "d": "une toute petite particule de lumière"
+        }
+      }
+    },
+    {
+      "word": "charge someone with",
+      "pos": "verb phrase",
+      "level": "C1",
+      "ipa": "/ˈtʃɑːdʒ ˌsʌmwʌn wɪð/",
+      "def": "To say officially that someone has done a crime.",
+      "example": "When they made him go to the International Criminal Court, they charged him with stealing the stars.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يوجّه إليه تهمة",
+          "d": "أن تقول رسمياً إن شخصاً ارتكب جريمة"
+        },
+        "zh": {
+          "w": "指控",
+          "d": "正式宣布某人犯了罪"
+        },
+        "de": {
+          "w": "jemanden anklagen wegen",
+          "d": "offiziell sagen, dass jemand ein Verbrechen begangen hat"
+        },
+        "es": {
+          "w": "acusar a alguien de",
+          "d": "decir oficialmente que alguien ha cometido un delito"
+        },
+        "fr": {
+          "w": "inculper de",
+          "d": "dire officiellement que quelqu'un a commis un crime"
+        }
+      }
+    },
+    {
+      "word": "edge",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/edʒ/",
+      "def": "The outside part of something, furthest from the middle.",
+      "example": "No tourists came to these high mountains to see the edges of our galaxy.",
+      "opposite": "centre",
+      "tr": {
+        "ar": {
+          "w": "حافّة / طرَف",
+          "d": "الجزء الخارجي من الشيء، وهو الأبعد عن الوسط"
+        },
+        "zh": {
+          "w": "边缘",
+          "d": "东西最外面、离中心最远的部分"
+        },
+        "de": {
+          "w": "Rand",
+          "d": "der äußere Teil von etwas, am weitesten von der Mitte entfernt"
+        },
+        "es": {
+          "w": "borde",
+          "d": "la parte de fuera de algo, la más lejos del centro"
+        },
+        "fr": {
+          "w": "bord / limite",
+          "d": "la partie extérieure d'une chose, la plus loin du centre"
+        }
+      }
+    },
+    {
+      "word": "twinkle",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/ˈtwɪŋkl/",
+      "def": "To shine with a small light that gets brighter and weaker again and again.",
+      "example": "There was Alpha Centauri twinkling back at him from the night sky.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يتلألأ",
+          "d": "أن يلمع بضوء صغير يقوى ويضعف مرة بعد مرة"
+        },
+        "zh": {
+          "w": "闪烁",
+          "d": "发出一闪一闪的小光"
+        },
+        "de": {
+          "w": "funkeln",
+          "d": "mit einem kleinen Licht leuchten, das immer wieder heller und schwächer wird"
+        },
+        "es": {
+          "w": "titilar / centellear",
+          "d": "brillar con una luz pequeña que sube y baja una y otra vez"
+        },
+        "fr": {
+          "w": "scintiller",
+          "d": "briller d'une petite lumière qui devient plus forte puis plus faible"
+        }
+      }
+    },
+    {
+      "word": "galaxy",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈɡæləksi/",
+      "def": "A very large group of millions of stars in space.",
+      "example": "It was continuing out towards the edge of our galaxy and further, to the stars.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مجرّة",
+          "d": "مجموعة كبيرة جداً من ملايين النجوم في الفضاء"
+        },
+        "zh": {
+          "w": "星系",
+          "d": "太空中由数百万颗恒星组成的巨大群体"
+        },
+        "de": {
+          "w": "Galaxie",
+          "d": "eine sehr große Gruppe aus Millionen von Sternen im Weltall"
+        },
+        "es": {
+          "w": "galaxia",
+          "d": "un grupo muy grande de millones de estrellas en el espacio"
+        },
+        "fr": {
+          "w": "galaxie",
+          "d": "un très grand groupe de millions d'étoiles dans l'espace"
+        }
+      }
+    },
+    {
+      "word": "telescope",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈtelɪskəʊp/",
+      "def": "A long tube you look through to see stars and planets more closely.",
+      "example": "They sent Tomas to work at the Extremely Large Telescope in Paranal in Chile.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تلسكوب / مِقراب",
+          "d": "أنبوب طويل تنظر من خلاله لترى النجوم والكواكب عن قرب"
+        },
+        "zh": {
+          "w": "望远镜",
+          "d": "用来观看远处星星和行星的长筒仪器"
+        },
+        "de": {
+          "w": "Teleskop / Fernrohr",
+          "d": "ein langes Rohr, durch das man Sterne und Planeten näher sieht"
+        },
+        "es": {
+          "w": "telescopio",
+          "d": "un tubo largo para ver las estrellas y los planetas más de cerca"
+        },
+        "fr": {
+          "w": "télescope",
+          "d": "un long tube pour voir les étoiles et les planètes de plus près"
+        }
+      }
+    },
+    {
+      "word": "guilty",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈɡɪlti/",
+      "def": "Having done a crime or something wrong.",
+      "example": "Instead, he changed his mind and said, \"I'm guilty.\"",
+      "opposite": "innocent",
+      "tr": {
+        "ar": {
+          "w": "مذنب",
+          "d": "ارتكب جريمة أو فعل شيئاً خاطئاً"
+        },
+        "zh": {
+          "w": "有罪的",
+          "d": "犯了罪或做了错事"
+        },
+        "de": {
+          "w": "schuldig",
+          "d": "ein Verbrechen oder etwas Falsches getan haben"
+        },
+        "es": {
+          "w": "culpable",
+          "d": "que ha cometido un delito o ha hecho algo malo"
+        },
+        "fr": {
+          "w": "coupable",
+          "d": "qui a commis un crime ou fait quelque chose de mal"
+        }
+      }
+    },
+    {
+      "word": "laboratory",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ləˈbɒrətri/",
+      "def": "A room or building where scientists do tests.",
+      "example": "For just a moment it was as if there was no light in our laboratory.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مختبر",
+          "d": "غرفة أو مبنى يجري فيه العلماء التجارب"
+        },
+        "zh": {
+          "w": "实验室",
+          "d": "科学家做实验的房间或楼"
+        },
+        "de": {
+          "w": "Labor",
+          "d": "ein Raum oder Gebäude, wo Wissenschaftler Tests machen"
+        },
+        "es": {
+          "w": "laboratorio",
+          "d": "una sala o edificio donde los científicos hacen pruebas"
+        },
+        "fr": {
+          "w": "laboratoire",
+          "d": "une salle ou un bâtiment où les scientifiques font des tests"
+        }
+      }
+    },
+    {
+      "word": "punishment",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈpʌnɪʃmənt/",
+      "def": "Something bad that is done to a person because they did wrong.",
+      "example": "There was no point sending Tomas to prison. Instead, they designed a punishment especially for him.",
+      "opposite": "reward",
+      "tr": {
+        "ar": {
+          "w": "عقوبة",
+          "d": "شيء سيئ يُفرض على شخص لأنه أخطأ"
+        },
+        "zh": {
+          "w": "惩罚",
+          "d": "因为某人做错事而对他施加的不好的事"
+        },
+        "de": {
+          "w": "Strafe",
+          "d": "etwas Unangenehmes, das jemand bekommt, weil er etwas falsch gemacht hat"
+        },
+        "es": {
+          "w": "castigo",
+          "d": "algo malo que se hace a alguien porque hizo algo mal"
+        },
+        "fr": {
+          "w": "punition",
+          "d": "quelque chose de désagréable qu'on impose à quelqu'un qui a mal agi"
+        }
+      }
+    },
+    {
+      "word": "enormous",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪˈnɔːməs/",
+      "def": "Very, very big.",
+      "example": "With the enormous telescope, he looked at the same place in the empty sky every night.",
+      "opposite": "tiny",
+      "tr": {
+        "ar": {
+          "w": "ضخم / هائل",
+          "d": "كبير جداً جداً"
+        },
+        "zh": {
+          "w": "巨大的",
+          "d": "非常非常大"
+        },
+        "de": {
+          "w": "riesig",
+          "d": "sehr, sehr groß"
+        },
+        "es": {
+          "w": "enorme",
+          "d": "muy, muy grande"
+        },
+        "fr": {
+          "w": "énorme",
+          "d": "très, très grand"
+        }
+      }
+    },
+    {
+      "word": "universe",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈjuːnɪvɜːs/",
+      "def": "All of space and everything in it, including all the stars.",
+      "example": "In a few minutes, they might start to discover something amazing: how the universe began.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الكون",
+          "d": "الفضاء كله وكل ما فيه، ومنه جميع النجوم"
+        },
+        "zh": {
+          "w": "宇宙",
+          "d": "整个太空和其中的一切，包括所有星星"
+        },
+        "de": {
+          "w": "Universum / Weltall",
+          "d": "der ganze Weltraum und alles darin, auch alle Sterne"
+        },
+        "es": {
+          "w": "universo",
+          "d": "todo el espacio y todo lo que hay en él, también las estrellas"
+        },
+        "fr": {
+          "w": "univers",
+          "d": "tout l'espace et tout ce qu'il contient, avec toutes les étoiles"
+        }
+      }
+    },
+    {
+      "word": "laws of physics",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌlɔːz əv ˈfɪzɪks/",
+      "def": "The basic rules that explain how everything in nature works.",
+      "example": "Tomas was almost happy to know that the laws of physics remained the same.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "قوانين الفيزياء",
+          "d": "القواعد الأساسية التي تشرح كيف يعمل كل شيء في الطبيعة"
+        },
+        "zh": {
+          "w": "物理定律",
+          "d": "解释自然界一切如何运作的基本规则"
+        },
+        "de": {
+          "w": "Naturgesetze",
+          "d": "die Grundregeln, die erklären, wie alles in der Natur funktioniert"
+        },
+        "es": {
+          "w": "leyes de la física",
+          "d": "las reglas básicas que explican cómo funciona todo en la naturaleza"
+        },
+        "fr": {
+          "w": "lois de la physique",
+          "d": "les règles de base qui expliquent comment tout fonctionne dans la nature"
+        }
+      }
+    },
+    {
+      "word": "disappear",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌdɪsəˈpɪə/",
+      "def": "To go away so that people cannot see it any more.",
+      "example": "When Tomas started the machine, all the stars disappeared from the night sky.",
+      "opposite": "appear",
+      "tr": {
+        "ar": {
+          "w": "يختفي",
+          "d": "أن يذهب الشيء فلا يعود الناس يرونه"
+        },
+        "zh": {
+          "w": "消失",
+          "d": "离开或不见，人们再也看不到"
+        },
+        "de": {
+          "w": "verschwinden",
+          "d": "weggehen, sodass man es nicht mehr sehen kann"
+        },
+        "es": {
+          "w": "desaparecer",
+          "d": "irse, de modo que ya no se puede ver"
+        },
+        "fr": {
+          "w": "disparaître",
+          "d": "partir, de sorte qu'on ne peut plus le voir"
+        }
+      }
+    },
+    {
+      "word": "complicated",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈkɒmplɪkeɪtɪd/",
+      "def": "Having many parts, so it is difficult to understand.",
+      "example": "He pressed the first button and the complicated computers and machines came to life.",
+      "opposite": "simple",
+      "tr": {
+        "ar": {
+          "w": "معقّد",
+          "d": "فيه أجزاء كثيرة ولذلك يصعب فهمه"
+        },
+        "zh": {
+          "w": "复杂的",
+          "d": "有很多部分，很难理解"
+        },
+        "de": {
+          "w": "kompliziert",
+          "d": "hat viele Teile und ist darum schwer zu verstehen"
+        },
+        "es": {
+          "w": "complicado",
+          "d": "que tiene muchas partes y es difícil de entender"
+        },
+        "fr": {
+          "w": "compliqué",
+          "d": "qui a beaucoup de parties et qui est difficile à comprendre"
+        }
+      }
+    },
+    {
+      "word": "blame",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/bleɪm/",
+      "def": "To say that someone caused something bad.",
+      "example": "Now the world could blame someone for what it had lost.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يلوم",
+          "d": "أن تقول إن شخصاً تسبّب في شيء سيئ"
+        },
+        "zh": {
+          "w": "责怪",
+          "d": "说某人造成了坏事"
+        },
+        "de": {
+          "w": "die Schuld geben",
+          "d": "sagen, dass jemand etwas Schlechtes verursacht hat"
+        },
+        "es": {
+          "w": "culpar",
+          "d": "decir que alguien causó algo malo"
+        },
+        "fr": {
+          "w": "reprocher / accuser",
+          "d": "dire que quelqu'un est la cause de quelque chose de mal"
+        }
+      }
+    },
+    {
+      "word": "prove",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/pruːv/",
+      "def": "To show that something is true.",
+      "example": "He had an idea, but it would take years to prove it.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُثبت",
+          "d": "أن تُظهر أن شيئاً ما صحيح"
+        },
+        "zh": {
+          "w": "证明",
+          "d": "表明某事是真的"
+        },
+        "de": {
+          "w": "beweisen",
+          "d": "zeigen, dass etwas wahr ist"
+        },
+        "es": {
+          "w": "demostrar",
+          "d": "mostrar que algo es verdad"
+        },
+        "fr": {
+          "w": "prouver",
+          "d": "montrer que quelque chose est vrai"
+        }
+      }
+    },
+    {
+      "word": "frightened",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈfraɪtnd/",
+      "def": "Afraid; feeling fear.",
+      "example": "He was excited and frightened but he tried to seem calm.",
+      "opposite": "calm",
+      "tr": {
+        "ar": {
+          "w": "خائف",
+          "d": "يشعر بالخوف"
+        },
+        "zh": {
+          "w": "害怕的",
+          "d": "感到恐惧"
+        },
+        "de": {
+          "w": "verängstigt",
+          "d": "Angst haben"
+        },
+        "es": {
+          "w": "asustado",
+          "d": "que tiene miedo"
+        },
+        "fr": {
+          "w": "effrayé",
+          "d": "qui a peur"
+        }
+      }
+    },
+    {
+      "word": "confused",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/kənˈfjuːzd/",
+      "def": "Not able to understand something or think clearly.",
+      "example": "Everyone else in the building was outside, frightened and confused.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مرتبك / حائر",
+          "d": "غير قادر على فهم شيء أو التفكير بوضوح"
+        },
+        "zh": {
+          "w": "困惑的",
+          "d": "无法理解或无法清楚地思考"
+        },
+        "de": {
+          "w": "verwirrt",
+          "d": "etwas nicht verstehen oder nicht klar denken können"
+        },
+        "es": {
+          "w": "confundido",
+          "d": "que no puede entender algo o pensar con claridad"
+        },
+        "fr": {
+          "w": "perplexe / confus",
+          "d": "qui ne comprend pas ou ne pense pas clairement"
+        }
+      }
+    },
+    {
+      "word": "experiment",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ɪkˈsperɪmənt/",
+      "def": "A scientific test to find out something new.",
+      "example": "He sat at the main computer and started reading the information and numbers from his experiment.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تجربة علمية",
+          "d": "اختبار علمي لاكتشاف شيء جديد"
+        },
+        "zh": {
+          "w": "实验",
+          "d": "为了发现新事物而做的科学测试"
+        },
+        "de": {
+          "w": "Experiment / Versuch",
+          "d": "ein wissenschaftlicher Test, um etwas Neues herauszufinden"
+        },
+        "es": {
+          "w": "experimento",
+          "d": "una prueba científica para descubrir algo nuevo"
+        },
+        "fr": {
+          "w": "expérience",
+          "d": "un test scientifique pour découvrir quelque chose de nouveau"
+        }
+      }
+    },
+    {
+      "word": "shock",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ʃɒk/",
+      "def": "A sudden strong feeling when something bad happens that you did not expect.",
+      "example": "Tomas shouted in shock, but the lights were already on again.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "صدمة",
+          "d": "شعور قوي مفاجئ عندما يحدث شيء سيئ لم تتوقعه"
+        },
+        "zh": {
+          "w": "震惊",
+          "d": "意外的坏事发生时突然产生的强烈感觉"
+        },
+        "de": {
+          "w": "Schock",
+          "d": "ein plötzliches starkes Gefühl, wenn etwas Schlimmes unerwartet passiert"
+        },
+        "es": {
+          "w": "susto / conmoción",
+          "d": "un sentimiento fuerte y repentino cuando pasa algo malo que no esperabas"
+        },
+        "fr": {
+          "w": "choc",
+          "d": "un sentiment fort et soudain quand quelque chose de mal arrive sans prévenir"
+        }
+      }
+    },
+    {
+      "word": "scream",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/skriːm/",
+      "def": "To shout in a loud, high voice because you are afraid.",
+      "example": "People were shouting and screaming.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يصرخ",
+          "d": "أن تصيح بصوت عالٍ وحادّ لأنك خائف"
+        },
+        "zh": {
+          "w": "尖叫",
+          "d": "因为害怕而大声高叫"
+        },
+        "de": {
+          "w": "schreien",
+          "d": "laut und hoch rufen, weil man Angst hat"
+        },
+        "es": {
+          "w": "gritar",
+          "d": "dar voces fuertes y agudas por miedo"
+        },
+        "fr": {
+          "w": "hurler",
+          "d": "crier d'une voix forte et aiguë parce qu'on a peur"
+        }
+      }
+    },
+    {
+      "word": "speed",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/spiːd/",
+      "def": "How fast something moves.",
+      "example": "Light still travelled at the same speed as it had always travelled.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "سرعة",
+          "d": "مقدار سرعة حركة الشيء"
+        },
+        "zh": {
+          "w": "速度",
+          "d": "东西移动的快慢"
+        },
+        "de": {
+          "w": "Geschwindigkeit",
+          "d": "wie schnell sich etwas bewegt"
+        },
+        "es": {
+          "w": "velocidad",
+          "d": "lo rápido que se mueve algo"
+        },
+        "fr": {
+          "w": "vitesse",
+          "d": "à quelle rapidité quelque chose se déplace"
+        }
+      }
+    },
+    {
+      "word": "wave",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/weɪv/",
+      "def": "Energy, like light or sound, that moves from one place to another.",
+      "example": "He imagined it like a wave that had passed the sun.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "موجة",
+          "d": "طاقة، مثل الضوء أو الصوت، تنتقل من مكان إلى آخر"
+        },
+        "zh": {
+          "w": "波",
+          "d": "像光或声音那样从一处传到另一处的能量"
+        },
+        "de": {
+          "w": "Welle",
+          "d": "Energie wie Licht oder Schall, die sich von einem Ort zum anderen bewegt"
+        },
+        "es": {
+          "w": "onda",
+          "d": "energía, como la luz o el sonido, que viaja de un lugar a otro"
+        },
+        "fr": {
+          "w": "onde",
+          "d": "de l'énergie, comme la lumière ou le son, qui voyage d'un endroit à un autre"
+        }
+      }
+    },
+    {
+      "word": "lonely",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈləʊnli/",
+      "def": "Alone, with no one near, and often sad because of this.",
+      "example": "All that passed through the night sky was the lonely moon and a few planets.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "وحيد",
+          "d": "منفرد بلا أحد قريب، وغالباً حزين لذلك"
+        },
+        "zh": {
+          "w": "孤独的 / 孤单的",
+          "d": "独自一个，身边没有别人，常常因此难过"
+        },
+        "de": {
+          "w": "einsam",
+          "d": "allein, ohne jemanden in der Nähe, oft traurig deswegen"
+        },
+        "es": {
+          "w": "solitario / solo",
+          "d": "sin nadie cerca, y a menudo triste por eso"
+        },
+        "fr": {
+          "w": "solitaire / seul",
+          "d": "sans personne près de soi, et souvent triste à cause de ça"
+        }
+      }
+    },
+    {
+      "word": "punish",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈpʌnɪʃ/",
+      "def": "To make someone suffer because they did something wrong.",
+      "example": "Tomas thought it was fair that they punished him.",
+      "opposite": "reward",
+      "tr": {
+        "ar": {
+          "w": "يعاقب",
+          "d": "أن تجعل شخصاً يتحمل شيئاً سيئاً لأنه أخطأ"
+        },
+        "zh": {
+          "w": "惩罚",
+          "d": "因为某人做错事而让他受苦"
+        },
+        "de": {
+          "w": "bestrafen",
+          "d": "jemanden leiden lassen, weil er etwas falsch gemacht hat"
+        },
+        "es": {
+          "w": "castigar",
+          "d": "hacer sufrir a alguien porque hizo algo mal"
+        },
+        "fr": {
+          "w": "punir",
+          "d": "faire souffrir quelqu'un parce qu'il a fait quelque chose de mal"
+        }
+      }
+    },
+    {
+      "word": "pause",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/pɔːz/",
+      "def": "A short time when you stop talking or doing something.",
+      "example": "After a long pause, Tomas spoke.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "وقفة / توقّف قصير",
+          "d": "وقت قصير تتوقف فيه عن الكلام أو العمل"
+        },
+        "zh": {
+          "w": "停顿",
+          "d": "停止说话或做事的短暂时间"
+        },
+        "de": {
+          "w": "Pause",
+          "d": "eine kurze Zeit, in der man aufhört zu sprechen oder etwas zu tun"
+        },
+        "es": {
+          "w": "pausa",
+          "d": "un momento corto en que dejas de hablar o de hacer algo"
+        },
+        "fr": {
+          "w": "pause / silence",
+          "d": "un court moment où l'on arrête de parler ou de faire quelque chose"
+        }
+      }
+    },
+    {
+      "word": "fair",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/feə/",
+      "def": "Right and reasonable; how people should be treated.",
+      "example": "Tomas thought it was fair that they punished him.",
+      "opposite": "unfair",
+      "tr": {
+        "ar": {
+          "w": "عادل / منصف",
+          "d": "صحيح ومقبول، كما ينبغي أن يُعامَل الناس"
+        },
+        "zh": {
+          "w": "公平的",
+          "d": "正确合理，是人们应得的对待"
+        },
+        "de": {
+          "w": "gerecht / fair",
+          "d": "richtig und angemessen, so wie man Menschen behandeln sollte"
+        },
+        "es": {
+          "w": "justo",
+          "d": "correcto y razonable, como se debe tratar a la gente"
+        },
+        "fr": {
+          "w": "juste",
+          "d": "correct et raisonnable, comme on doit traiter les gens"
+        }
+      }
+    },
+    {
+      "word": "blind",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/blaɪnd/",
+      "def": "Not able to see.",
+      "example": "For a second, he felt as if he was blind, because everything went completely black.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "أعمى",
+          "d": "غير قادر على الرؤية"
+        },
+        "zh": {
+          "w": "瞎的 / 失明的",
+          "d": "看不见"
+        },
+        "de": {
+          "w": "blind",
+          "d": "nicht sehen können"
+        },
+        "es": {
+          "w": "ciego",
+          "d": "que no puede ver"
+        },
+        "fr": {
+          "w": "aveugle",
+          "d": "qui ne peut pas voir"
+        }
+      }
+    },
+    {
+      "word": "star",
+      "pos": "noun",
+      "level": "A1",
+      "ipa": "/stɑː/",
+      "def": "A small bright light that you see in the sky at night.",
+      "example": "Although the moon rose again, there were no stars in the sky at all.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "نجم",
+          "d": "ضوء صغير لامع تراه في السماء ليلاً"
+        },
+        "zh": {
+          "w": "星星",
+          "d": "夜晚在天空中看到的小亮光"
+        },
+        "de": {
+          "w": "Stern",
+          "d": "ein kleines helles Licht, das man nachts am Himmel sieht"
+        },
+        "es": {
+          "w": "estrella",
+          "d": "una pequeña luz brillante que ves en el cielo de noche"
+        },
+        "fr": {
+          "w": "étoile",
+          "d": "une petite lumière brillante qu'on voit dans le ciel la nuit"
+        }
+      }
+    },
+    {
+      "word": "wish",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/wɪʃ/",
+      "def": "A hope that something good will happen, often said silently.",
+      "example": "He felt tears in his eyes and he made a wish.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "أمنية",
+          "d": "رجاء أن يحدث شيء جميل، وغالباً تقوله في سرّك"
+        },
+        "zh": {
+          "w": "愿望",
+          "d": "希望好事发生，常常在心里默默说出"
+        },
+        "de": {
+          "w": "Wunsch",
+          "d": "die Hoffnung, dass etwas Gutes passiert, oft still gesagt"
+        },
+        "es": {
+          "w": "deseo",
+          "d": "la esperanza de que pase algo bueno, a menudo dicha en silencio"
+        },
+        "fr": {
+          "w": "vœu / souhait",
+          "d": "l'espoir que quelque chose de bien arrive, souvent dit en silence"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "id": 12,
+  "title": "Character Analysis",
+  "summary": "We read a job advert for an assistant manager in a small ski hotel and found words that describe a person's character. We learned their opposites and talked about our own character. Then we chose the best candidate for the job.",
+  "source": "ARB_B1_03_I053CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "outgoing",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌaʊtˈɡəʊɪŋ/",
+      "def": "Friendly and happy to meet and talk to new people.",
+      "example": "You will be dealing with the public, so you need to be outgoing.",
+      "opposite": "shy",
+      "tr": {
+        "ar": {"w": "اجتماعي / منفتح", "d": "ودود ويحب مقابلة أشخاص جدد والتحدث إليهم"},
+        "zh": {"w": "外向的", "d": "友好，喜欢认识新朋友并和他们聊天"},
+        "de": {"w": "aufgeschlossen / kontaktfreudig", "d": "freundlich und gern bereit, neue Leute kennenzulernen und mit ihnen zu sprechen"},
+        "es": {"w": "extrovertido / sociable", "d": "simpático y contento de conocer y hablar con gente nueva"},
+        "fr": {"w": "extraverti / ouvert", "d": "aimable et content de rencontrer de nouvelles personnes et de leur parler"}
+      }
+    },
+    {
+      "word": "sociable",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈsəʊʃəbəl/",
+      "def": "Enjoying being with other people and making friends easily.",
+      "example": "Are you sociable? Do you enjoy going to parties and meeting new people?",
+      "opposite": "unsociable",
+      "tr": {
+        "ar": {"w": "ودود / اجتماعي", "d": "يستمتع بصحبة الآخرين ويكوّن صداقات بسهولة"},
+        "zh": {"w": "好交际的", "d": "喜欢和别人在一起，容易交朋友"},
+        "de": {"w": "gesellig", "d": "gern mit anderen Menschen zusammen und findet leicht Freunde"},
+        "es": {"w": "sociable", "d": "que disfruta estando con otras personas y hace amigos fácilmente"},
+        "fr": {"w": "sociable", "d": "qui aime être avec les autres et se fait facilement des amis"}
+      }
+    },
+    {
+      "word": "sympathetic",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌsɪmpəˈθetɪk/",
+      "def": "Kind and able to understand other people's problems and feelings.",
+      "example": "When I have a problem, I talk to my sister. She's a very sympathetic listener.",
+      "opposite": "uncaring",
+      "tr": {
+        "ar": {"w": "متعاطف / متفهّم", "d": "لطيف وقادر على فهم مشاكل الآخرين ومشاعرهم"},
+        "zh": {"w": "有同情心的 / 体谅人的", "d": "善良，能理解别人的问题和感受"},
+        "de": {"w": "mitfühlend / verständnisvoll", "d": "freundlich und fähig, die Probleme und Gefühle anderer zu verstehen"},
+        "es": {"w": "comprensivo", "d": "amable y capaz de entender los problemas y sentimientos de los demás"},
+        "fr": {"w": "compatissant / compréhensif", "d": "gentil et capable de comprendre les problèmes et les sentiments des autres"}
+      }
+    },
+    {
+      "word": "punctual",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈpʌŋktʃuəl/",
+      "def": "Always arriving or doing things at the right time; never late.",
+      "example": "Are you always punctual? How do you feel if people keep you waiting?",
+      "opposite": "late",
+      "tr": {
+        "ar": {"w": "دقيق في مواعيده", "d": "يصل أو يفعل الأشياء في الوقت المحدد دائماً ولا يتأخر أبداً"},
+        "zh": {"w": "守时的", "d": "总是按时到达或做事，从不迟到"},
+        "de": {"w": "pünktlich", "d": "kommt immer zur richtigen Zeit, ist nie zu spät"},
+        "es": {"w": "puntual", "d": "que siempre llega o hace las cosas a tiempo; nunca llega tarde"},
+        "fr": {"w": "ponctuel", "d": "qui arrive ou fait les choses toujours à l'heure ; jamais en retard"}
+      }
+    },
+    {
+      "word": "punctuality",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌpʌŋktʃuˈæləti/",
+      "def": "The habit of always being on time.",
+      "example": "Punctuality is very important when you work at a hotel reception.",
+      "opposite": "tardiness",
+      "tr": {
+        "ar": {"w": "الالتزام بالمواعيد", "d": "عادة الحضور في الوقت المحدد دائماً"},
+        "zh": {"w": "守时", "d": "总是准时的习惯"},
+        "de": {"w": "Pünktlichkeit", "d": "die Gewohnheit, immer pünktlich zu sein"},
+        "es": {"w": "puntualidad", "d": "la costumbre de llegar siempre a tiempo"},
+        "fr": {"w": "ponctualité", "d": "l'habitude d'être toujours à l'heure"}
+      }
+    },
+    {
+      "word": "tardiness",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈtɑːdinəs/",
+      "def": "Being late, or doing things later than you should.",
+      "example": "The manager was not happy about his tardiness; he was late three times this week.",
+      "opposite": "punctuality",
+      "tr": {
+        "ar": {"w": "التأخُّر", "d": "التأخّر عن الموعد أو فعل الأشياء بعد وقتها"},
+        "zh": {"w": "迟到 / 拖延", "d": "迟到，或比应该的时间晚做事"},
+        "de": {"w": "Unpünktlichkeit / Verspätung", "d": "zu spät kommen oder Dinge später tun, als man sollte"},
+        "es": {"w": "impuntualidad / tardanza", "d": "llegar tarde o hacer las cosas más tarde de lo debido"},
+        "fr": {"w": "retard / manque de ponctualité", "d": "le fait d'être en retard ou de faire les choses trop tard"}
+      }
+    },
+    {
+      "word": "unpunctual",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ʌnˈpʌŋktʃuəl/",
+      "def": "Often late; not arriving at the time you agreed.",
+      "example": "An unpunctual receptionist would be a big problem for a busy hotel.",
+      "opposite": "punctual",
+      "tr": {
+        "ar": {"w": "غير ملتزم بالمواعيد", "d": "يتأخّر كثيراً ولا يصل في الوقت المتّفق عليه"},
+        "zh": {"w": "不守时的", "d": "常常迟到，不按约定时间到"},
+        "de": {"w": "unpünktlich", "d": "oft zu spät; kommt nicht zur vereinbarten Zeit"},
+        "es": {"w": "impuntual", "d": "que llega tarde a menudo; no llega a la hora acordada"},
+        "fr": {"w": "peu ponctuel", "d": "souvent en retard ; n'arrive pas à l'heure prévue"}
+      }
+    },
+    {
+      "word": "efficient",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪˈfɪʃənt/",
+      "def": "Doing a job quickly and well, without wasting time.",
+      "example": "We are looking for someone who is punctual and efficient.",
+      "opposite": "inefficient",
+      "tr": {
+        "ar": {"w": "كفء / فعّال", "d": "يؤدّي العمل بسرعة وبشكل جيد دون إضاعة الوقت"},
+        "zh": {"w": "高效的 / 能干的", "d": "做事又快又好，不浪费时间"},
+        "de": {"w": "effizient / tüchtig", "d": "erledigt eine Arbeit schnell und gut, ohne Zeit zu verschwenden"},
+        "es": {"w": "eficiente", "d": "que hace su trabajo rápido y bien, sin perder tiempo"},
+        "fr": {"w": "efficace", "d": "qui fait son travail vite et bien, sans perdre de temps"}
+      }
+    },
+    {
+      "word": "work well under pressure",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌwɜːk ˌwel ˌʌndə ˈpreʃə/",
+      "def": "To stay calm and do a good job when you are very busy or stressed.",
+      "example": "The job gets stressful at times, so you must work well under pressure.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعمل جيداً تحت الضغط", "d": "أن تبقى هادئاً وتؤدّي عملك جيداً عندما تكون مشغولاً جداً أو متوتراً"},
+        "zh": {"w": "能在压力下工作", "d": "在很忙或很紧张的时候仍能保持冷静、把工作做好"},
+        "de": {"w": "belastbar sein", "d": "ruhig bleiben und gute Arbeit leisten, wenn man sehr beschäftigt oder gestresst ist"},
+        "es": {"w": "trabajar bien bajo presión", "d": "mantener la calma y trabajar bien cuando estás muy ocupado o estresado"},
+        "fr": {"w": "bien travailler sous pression", "d": "rester calme et bien travailler quand on est très occupé ou stressé"}
+      }
+    },
+    {
+      "word": "easy-going",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌiːziˈɡəʊɪŋ/",
+      "def": "Relaxed and calm; not easily worried or made angry.",
+      "example": "My brother is very easy-going. Nothing makes him angry.",
+      "opposite": "bad-tempered",
+      "tr": {
+        "ar": {"w": "هادئ الطباع / سهل المعشر", "d": "مرتاح وهادئ، لا يقلق أو يغضب بسهولة"},
+        "zh": {"w": "随和的", "d": "轻松平和，不容易担心或生气"},
+        "de": {"w": "locker / unkompliziert", "d": "entspannt und ruhig; macht sich nicht schnell Sorgen und wird nicht schnell wütend"},
+        "es": {"w": "tranquilo / de trato fácil", "d": "relajado y calmado; no se preocupa ni se enfada fácilmente"},
+        "fr": {"w": "facile à vivre / décontracté", "d": "détendu et calme ; ne s'inquiète pas et ne se fâche pas facilement"}
+      }
+    },
+    {
+      "word": "calm",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/kɑːm/",
+      "def": "Not angry, nervous or excited, even when things are difficult.",
+      "example": "She stayed calm when the angry guest started shouting at reception.",
+      "opposite": "nervous",
+      "tr": {
+        "ar": {"w": "هادئ", "d": "غير غاضب أو متوتر أو منفعل حتى في المواقف الصعبة"},
+        "zh": {"w": "冷静的 / 平静的", "d": "即使事情很难，也不生气、不紧张、不激动"},
+        "de": {"w": "ruhig / gelassen", "d": "nicht wütend, nervös oder aufgeregt, auch wenn es schwierig ist"},
+        "es": {"w": "tranquilo / calmado", "d": "que no está enfadado, nervioso ni alterado, aunque las cosas sean difíciles"},
+        "fr": {"w": "calme", "d": "pas fâché, nerveux ou agité, même quand c'est difficile"}
+      }
+    },
+    {
+      "word": "mature",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/məˈtʃʊə/",
+      "def": "Behaving in a sensible way, like an adult.",
+      "example": "He is only twenty, but he is very mature for his age.",
+      "opposite": "childish",
+      "tr": {
+        "ar": {"w": "ناضج", "d": "يتصرّف بعقلانية مثل الشخص البالغ"},
+        "zh": {"w": "成熟的", "d": "做事明智，像个成年人"},
+        "de": {"w": "reif / erwachsen", "d": "verhält sich vernünftig, wie ein Erwachsener"},
+        "es": {"w": "maduro", "d": "que se comporta con sensatez, como un adulto"},
+        "fr": {"w": "mûr", "d": "qui se comporte de façon raisonnable, comme un adulte"}
+      }
+    },
+    {
+      "word": "responsible",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/rɪˈspɒnsəbəl/",
+      "def": "Someone you can trust to do the right thing and to do their job well.",
+      "example": "When the manager is away, you will be in charge, so you need to be responsible.",
+      "opposite": "irresponsible",
+      "tr": {
+        "ar": {"w": "مسؤول / يُعتمَد عليه", "d": "شخص يمكنك أن تثق بأنه سيتصرّف بشكل صحيح ويؤدّي عمله جيداً"},
+        "zh": {"w": "有责任心的", "d": "可以信任、会做正确的事并把工作做好的人"},
+        "de": {"w": "verantwortungsbewusst", "d": "jemand, dem man vertrauen kann, dass er das Richtige tut und gut arbeitet"},
+        "es": {"w": "responsable", "d": "alguien en quien puedes confiar para hacer lo correcto y hacer bien su trabajo"},
+        "fr": {"w": "responsable", "d": "quelqu'un à qui on peut faire confiance pour bien agir et bien travailler"}
+      }
+    },
+    {
+      "word": "decisive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/dɪˈsaɪsɪv/",
+      "def": "Able to make important choices quickly and without fear.",
+      "example": "An acting manager has to be decisive when there is a problem.",
+      "opposite": "hesitant",
+      "tr": {
+        "ar": {"w": "حاسم", "d": "قادر على اتخاذ القرارات المهمة بسرعة ودون خوف"},
+        "zh": {"w": "果断的", "d": "能迅速、不害怕地做出重要决定"},
+        "de": {"w": "entschlossen", "d": "kann wichtige Entscheidungen schnell und ohne Angst treffen"},
+        "es": {"w": "decidido", "d": "capaz de tomar decisiones importantes rápido y sin miedo"},
+        "fr": {"w": "décidé / résolu", "d": "capable de prendre des décisions importantes vite et sans peur"}
+      }
+    },
+    {
+      "word": "reserved",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/rɪˈzɜːvd/",
+      "def": "Quiet and not quick to show your feelings or talk about yourself.",
+      "example": "He is quite reserved with new people, but he is very funny with friends.",
+      "opposite": "outgoing",
+      "tr": {
+        "ar": {"w": "متحفّظ", "d": "هادئ ولا يُظهر مشاعره أو يتحدث عن نفسه بسرعة"},
+        "zh": {"w": "矜持的 / 内敛的", "d": "安静，不轻易表露感情或谈论自己"},
+        "de": {"w": "zurückhaltend", "d": "ruhig und zeigt seine Gefühle nicht schnell, spricht wenig über sich"},
+        "es": {"w": "reservado", "d": "callado; no muestra pronto sus sentimientos ni habla de sí mismo"},
+        "fr": {"w": "réservé", "d": "calme ; ne montre pas vite ses sentiments et parle peu de soi"}
+      }
+    },
+    {
+      "word": "keen",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/kiːn/",
+      "def": "Very interested and wanting to do something very much.",
+      "example": "Peter is very keen to learn and wants to open his own hotel one day.",
+      "opposite": "unwilling",
+      "tr": {
+        "ar": {"w": "متحمّس / شغوف", "d": "مهتمّ جداً ويرغب كثيراً في فعل شيء"},
+        "zh": {"w": "热衷的 / 渴望的", "d": "非常感兴趣，很想做某事"},
+        "de": {"w": "begeistert / eifrig", "d": "sehr interessiert und möchte etwas unbedingt tun"},
+        "es": {"w": "entusiasta / con muchas ganas", "d": "muy interesado y con muchas ganas de hacer algo"},
+        "fr": {"w": "enthousiaste / désireux", "d": "très intéressé et qui a très envie de faire quelque chose"}
+      }
+    },
+    {
+      "word": "bad-tempered",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌbædˈtempəd/",
+      "def": "Often angry or annoyed, even about small things.",
+      "example": "He gets bad-tempered when he is tired and hungry.",
+      "opposite": "easy-going",
+      "tr": {
+        "ar": {"w": "سريع الغضب / عصبي", "d": "يغضب أو ينزعج كثيراً حتى من الأشياء الصغيرة"},
+        "zh": {"w": "脾气坏的", "d": "经常生气或烦躁，即使是为了小事"},
+        "de": {"w": "schlecht gelaunt / reizbar", "d": "oft wütend oder genervt, auch wegen Kleinigkeiten"},
+        "es": {"w": "malhumorado / de mal genio", "d": "que se enfada o se molesta a menudo, incluso por cosas pequeñas"},
+        "fr": {"w": "de mauvaise humeur / colérique", "d": "souvent fâché ou agacé, même pour de petites choses"}
+      }
+    },
+    {
+      "word": "whiny",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈwaɪni/",
+      "def": "Always complaining in an annoying voice.",
+      "example": "Nobody wants to work with someone who is whiny all the time.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كثير التذمّر / نَكِد", "d": "يشتكي دائماً بصوت مزعج"},
+        "zh": {"w": "爱发牢骚的", "d": "总是用让人烦的声音抱怨"},
+        "de": {"w": "weinerlich / nörgelig", "d": "beschwert sich ständig mit einer nervigen Stimme"},
+        "es": {"w": "quejica", "d": "que siempre se queja con una voz molesta"},
+        "fr": {"w": "pleurnichard / râleur", "d": "qui se plaint tout le temps d'une voix agaçante"}
+      }
+    },
+    {
+      "word": "hard-working",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌhɑːdˈwɜːkɪŋ/",
+      "def": "Putting a lot of effort into your work.",
+      "example": "She is hard-working and never leaves a job unfinished.",
+      "opposite": "lazy",
+      "tr": {
+        "ar": {"w": "مجتهد / دؤوب", "d": "يبذل جهداً كبيراً في عمله"},
+        "zh": {"w": "勤奋的", "d": "在工作上付出很多努力"},
+        "de": {"w": "fleißig", "d": "steckt viel Mühe in seine Arbeit"},
+        "es": {"w": "trabajador", "d": "que pone mucho esfuerzo en su trabajo"},
+        "fr": {"w": "travailleur", "d": "qui fait beaucoup d'efforts dans son travail"}
+      }
+    },
+    {
+      "word": "patient",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈpeɪʃənt/",
+      "def": "Able to wait or deal with problems without getting angry.",
+      "example": "You need to be patient with guests who ask the same question many times.",
+      "opposite": "impatient",
+      "tr": {
+        "ar": {"w": "صبور", "d": "قادر على الانتظار أو التعامل مع المشاكل دون أن يغضب"},
+        "zh": {"w": "有耐心的", "d": "能等待或处理问题而不生气"},
+        "de": {"w": "geduldig", "d": "kann warten oder mit Problemen umgehen, ohne wütend zu werden"},
+        "es": {"w": "paciente", "d": "capaz de esperar o tratar problemas sin enfadarse"},
+        "fr": {"w": "patient", "d": "capable d'attendre ou de gérer les problèmes sans se fâcher"}
+      }
+    },
+    {
+      "word": "reliable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/rɪˈlaɪəbəl/",
+      "def": "Someone you can trust to do what they promise.",
+      "example": "Hassan is very reliable; he has never missed a day of work.",
+      "opposite": "unreliable",
+      "tr": {
+        "ar": {"w": "موثوق / يُعتمَد عليه", "d": "شخص يمكنك الوثوق بأنه سيفعل ما يعد به"},
+        "zh": {"w": "可靠的", "d": "你可以相信他会做到他答应的事"},
+        "de": {"w": "zuverlässig", "d": "jemand, dem man vertrauen kann, dass er tut, was er verspricht"},
+        "es": {"w": "fiable / de confianza", "d": "alguien en quien puedes confiar para hacer lo que promete"},
+        "fr": {"w": "fiable", "d": "quelqu'un sur qui on peut compter pour faire ce qu'il promet"}
+      }
+    },
+    {
+      "word": "creative",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/kriˈeɪtɪv/",
+      "def": "Good at thinking of new and interesting ideas.",
+      "example": "She is very creative and always has new ideas for the hotel's events.",
+      "opposite": "unimaginative",
+      "tr": {
+        "ar": {"w": "مُبدع", "d": "بارع في التفكير في أفكار جديدة ومثيرة للاهتمام"},
+        "zh": {"w": "有创造力的", "d": "善于想出新的、有趣的点子"},
+        "de": {"w": "kreativ", "d": "hat oft neue und interessante Ideen"},
+        "es": {"w": "creativo", "d": "que tiene facilidad para pensar ideas nuevas e interesantes"},
+        "fr": {"w": "créatif", "d": "doué pour trouver des idées nouvelles et intéressantes"}
+      }
+    },
+    {
+      "word": "polite",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/pəˈlaɪt/",
+      "def": "Speaking and acting in a kind way that shows respect for others.",
+      "example": "Always be polite to guests, even when they are rude to you.",
+      "opposite": "rude",
+      "tr": {
+        "ar": {"w": "مهذَّب / مؤدَّب", "d": "يتكلّم ويتصرّف بلطف واحترام للآخرين"},
+        "zh": {"w": "有礼貌的", "d": "说话做事友善，尊重别人"},
+        "de": {"w": "höflich", "d": "spricht und handelt freundlich und mit Respekt vor anderen"},
+        "es": {"w": "educado", "d": "que habla y actúa con amabilidad y respeto hacia los demás"},
+        "fr": {"w": "poli", "d": "qui parle et agit gentiment, avec respect pour les autres"}
+      }
+    },
+    {
+      "word": "self-confident",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌselfˈkɒnfɪdənt/",
+      "def": "Sure that you can do things well.",
+      "example": "She is self-confident and speaks clearly in meetings.",
+      "opposite": "insecure",
+      "tr": {
+        "ar": {"w": "واثق من نفسه", "d": "متأكّد من أنه يستطيع فعل الأشياء جيداً"},
+        "zh": {"w": "自信的", "d": "确信自己能把事情做好"},
+        "de": {"w": "selbstbewusst", "d": "sicher, dass man Dinge gut kann"},
+        "es": {"w": "seguro de sí mismo", "d": "que está seguro de poder hacer bien las cosas"},
+        "fr": {"w": "sûr de soi", "d": "certain de pouvoir bien faire les choses"}
+      }
+    },
+    {
+      "word": "sensitive",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈsensətɪv/",
+      "def": "Easily upset by what other people say or do.",
+      "example": "Be careful what you say to her; she is very sensitive.",
+      "opposite": "thick-skinned",
+      "tr": {
+        "ar": {"w": "حسّاس", "d": "يتأثّر وينزعج بسهولة مما يقوله الآخرون أو يفعلونه"},
+        "zh": {"w": "敏感的", "d": "很容易因别人的话或行为而难过"},
+        "de": {"w": "empfindlich / sensibel", "d": "wird leicht verletzt durch das, was andere sagen oder tun"},
+        "es": {"w": "sensible", "d": "que se molesta o se pone triste fácilmente por lo que dicen o hacen los demás"},
+        "fr": {"w": "sensible", "d": "facilement blessé par ce que les autres disent ou font"}
+      }
+    },
+    {
+      "word": "sensible",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈsensəbəl/",
+      "def": "Making good, practical decisions; not doing silly things.",
+      "example": "It was sensible to check the weather before going skiing.",
+      "opposite": "silly",
+      "tr": {
+        "ar": {"w": "عاقل / حكيم", "d": "يتخذ قرارات جيدة وعملية ولا يفعل أشياء سخيفة"},
+        "zh": {"w": "明智的 / 理智的", "d": "做出好的、实际的决定，不做傻事"},
+        "de": {"w": "vernünftig", "d": "trifft gute, praktische Entscheidungen; macht keine Dummheiten"},
+        "es": {"w": "sensato", "d": "que toma decisiones buenas y prácticas; no hace tonterías"},
+        "fr": {"w": "raisonnable / sensé", "d": "qui prend de bonnes décisions pratiques ; ne fait pas de bêtises"}
+      }
+    },
+    {
+      "word": "stubborn",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈstʌbən/",
+      "def": "Not willing to change your opinion or what you want to do.",
+      "example": "He is too stubborn to say that he made a mistake.",
+      "opposite": "flexible",
+      "tr": {
+        "ar": {"w": "عنيد", "d": "لا يقبل تغيير رأيه أو ما يريد فعله"},
+        "zh": {"w": "固执的", "d": "不愿意改变自己的看法或想做的事"},
+        "de": {"w": "stur", "d": "will seine Meinung oder seine Pläne nicht ändern"},
+        "es": {"w": "terco / testarudo", "d": "que no quiere cambiar de opinión ni lo que quiere hacer"},
+        "fr": {"w": "têtu", "d": "qui ne veut pas changer d'avis ni ce qu'il a décidé de faire"}
+      }
+    },
+    {
+      "word": "talkative",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈtɔːkətɪv/",
+      "def": "Liking to talk a lot.",
+      "example": "The taxi driver was very talkative and told us about the whole town.",
+      "opposite": "quiet",
+      "tr": {
+        "ar": {"w": "كثير الكلام / ثرثار", "d": "يحب الكلام كثيراً"},
+        "zh": {"w": "健谈的 / 话多的", "d": "喜欢说很多话"},
+        "de": {"w": "gesprächig", "d": "redet gern und viel"},
+        "es": {"w": "hablador", "d": "que le gusta hablar mucho"},
+        "fr": {"w": "bavard", "d": "qui aime beaucoup parler"}
+      }
+    }
+  ],
+  "grammar": [],
+  "phrases": [
+    {"en": "We are looking for someone who is punctual and efficient.", "use": "Job advert: describing the right person"},
+    {"en": "You need to be outgoing and sociable.", "use": "Job advert: saying what character is needed"},
+    {"en": "It is important that you can work well under pressure.", "use": "Job advert: saying what is important"},
+    {"en": "Previous experience of reception work is required.", "use": "Job advert: saying what is necessary"},
+    {"en": "Other languages would be an advantage.", "use": "Job advert: saying what is useful but not necessary"},
+    {"en": "She's someone who makes friends easily.", "use": "Describing character with 'someone who'"},
+    {"en": "He's very keen, but he's quite quiet and serious.", "use": "Giving positive and negative points"},
+    {"en": "I think she would be the best person for the job because...", "use": "Choosing a candidate and giving a reason"},
+    {"en": "He isn't suitable because he can't drive.", "use": "Explaining why someone is not right for a job"},
+    {"en": "It depends on the problem.", "use": "Giving a careful answer"},
+    {"en": "How do you feel if people keep you waiting?", "use": "Asking about someone's character"}
+  ]
+}

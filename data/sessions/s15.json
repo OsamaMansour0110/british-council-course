@@ -1,0 +1,555 @@
+{
+  "id": 15,
+  "title": "Avoiding 'Dead Air'",
+  "summary": "We practised starting and ending conversations with people we don't know well, in formal and informal situations. We made correct questions for small talk and practised the stress and weak forms in them. We also learned phrases for giving suggestions and advice about our hometown.",
+  "source": "ARB_B1_07_I029CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "dead air",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˌded ˈeə/",
+      "def": "A silence in a conversation when nobody knows what to say.",
+      "example": "Ask an easy question about their job to avoid dead air.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صمت محرج", "d": "صمت في أثناء الحديث عندما لا يعرف أحد ماذا يقول"},
+        "zh": {"w": "冷场", "d": "谈话中没人知道该说什么时的沉默"},
+        "de": {"w": "peinliche Stille", "d": "eine Stille im Gespräch, wenn niemand weiß, was er sagen soll"},
+        "es": {"w": "silencio incómodo", "d": "un silencio en una conversación cuando nadie sabe qué decir"},
+        "fr": {"w": "blanc / silence gênant", "d": "un silence dans une conversation quand personne ne sait quoi dire"}
+      }
+    },
+    {
+      "word": "initiate",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ɪˈnɪʃieɪt/",
+      "def": "To start something, for example a conversation.",
+      "example": "'Hi! My name's Jon. What's yours?' is an easy way to initiate a conversation.",
+      "opposite": "close",
+      "tr": {
+        "ar": {"w": "يبدأ / يبادر بـ", "d": "أن تبدأ شيئاً، مثل محادثة"},
+        "zh": {"w": "发起 / 开始", "d": "开始做某事，比如开始一段谈话"},
+        "de": {"w": "beginnen / anfangen", "d": "etwas starten, zum Beispiel ein Gespräch"},
+        "es": {"w": "iniciar", "d": "empezar algo, por ejemplo una conversación"},
+        "fr": {"w": "engager / commencer", "d": "commencer quelque chose, par exemple une conversation"}
+      }
+    },
+    {
+      "word": "small talk",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˈsmɔːl tɔːk/",
+      "def": "Friendly talk about easy subjects, like the weather or your weekend.",
+      "example": "Before the meeting started, we made small talk about the weather.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "دردشة خفيفة", "d": "حديث ودّي عن مواضيع سهلة مثل الطقس أو عطلة نهاية الأسبوع"},
+        "zh": {"w": "闲聊 / 寒暄", "d": "谈论天气、周末等轻松话题的友好交谈"},
+        "de": {"w": "Smalltalk", "d": "freundliches Gespräch über einfache Themen wie das Wetter oder das Wochenende"},
+        "es": {"w": "charla trivial", "d": "conversación amable sobre temas fáciles, como el tiempo o el fin de semana"},
+        "fr": {"w": "papotage / bavardage", "d": "une discussion amicale sur des sujets faciles, comme la météo ou le week-end"}
+      }
+    },
+    {
+      "word": "icebreaker",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈaɪsbreɪkə/",
+      "def": "A question or game that helps people who don't know each other relax.",
+      "example": "'How was your flight?' is a good icebreaker at a business meeting.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كاسر للجليد", "d": "سؤال أو لعبة تساعد الأشخاص الذين لا يعرف بعضهم بعضاً على الاسترخاء"},
+        "zh": {"w": "破冰话题 / 破冰游戏", "d": "帮助互不认识的人放松的问题或游戏"},
+        "de": {"w": "Eisbrecher", "d": "eine Frage oder ein Spiel, das Fremden hilft, sich zu entspannen"},
+        "es": {"w": "rompehielos", "d": "una pregunta o un juego que ayuda a relajarse a personas que no se conocen"},
+        "fr": {"w": "brise-glace", "d": "une question ou un jeu qui aide des inconnus à se détendre"}
+      }
+    },
+    {
+      "word": "whereabouts",
+      "pos": "adverb",
+      "level": "C1",
+      "ipa": "/ˌweərəˈbaʊts/",
+      "def": "In what area or place; a less exact way of asking 'where'.",
+      "example": "Whereabouts do you work?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أين تقريباً", "d": "في أيّ منطقة أو مكان؛ طريقة أقل دقة لسؤال أين"},
+        "zh": {"w": "在哪一带", "d": "在什么地区或地方；比 where 更随意的问法"},
+        "de": {"w": "wo ungefähr", "d": "in welcher Gegend; eine ungenauere Art, nach dem Ort zu fragen"},
+        "es": {"w": "por dónde", "d": "en qué zona o lugar; una forma menos exacta de preguntar dónde"},
+        "fr": {"w": "où à peu près / dans quel coin", "d": "dans quelle zone ; une façon moins précise de demander où"}
+      }
+    },
+    {
+      "word": "unscramble",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ʌnˈskræmbəl/",
+      "def": "To put mixed-up words or letters back in the right order.",
+      "example": "Unscramble the words to make questions: 'you / with / things / how / are'.",
+      "opposite": "mix up",
+      "tr": {
+        "ar": {"w": "يُعيد ترتيب", "d": "أن تضع الكلمات أو الحروف المخلوطة بترتيبها الصحيح"},
+        "zh": {"w": "把（打乱的词）排好", "d": "把打乱的单词或字母恢复正确的顺序"},
+        "de": {"w": "ordnen / entwirren", "d": "durcheinandergebrachte Wörter oder Buchstaben in die richtige Reihenfolge bringen"},
+        "es": {"w": "ordenar", "d": "poner en el orden correcto palabras o letras mezcladas"},
+        "fr": {"w": "remettre dans l'ordre", "d": "remettre des mots ou des lettres mélangés dans le bon ordre"}
+      }
+    },
+    {
+      "word": "bother",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈbɒðə/",
+      "def": "To annoy someone or take their time when they are busy.",
+      "example": "Excuse me. Sorry to bother you, but have you got a minute?",
+      "opposite": "leave alone",
+      "tr": {
+        "ar": {"w": "يُزعج", "d": "أن تضايق شخصاً أو تأخذ من وقته وهو مشغول"},
+        "zh": {"w": "打扰", "d": "在别人忙的时候烦扰他或占用他的时间"},
+        "de": {"w": "stören", "d": "jemanden ärgern oder seine Zeit beanspruchen, wenn er beschäftigt ist"},
+        "es": {"w": "molestar", "d": "fastidiar a alguien o quitarle tiempo cuando está ocupado"},
+        "fr": {"w": "déranger", "d": "gêner quelqu'un ou lui prendre du temps quand il est occupé"}
+      }
+    },
+    {
+      "word": "signal",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈsɪɡnəl/",
+      "def": "To show what you want or mean with words or actions.",
+      "example": "How does the first speaker signal that the conversation is finished?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُشير إلى / يُلمّح", "d": "أن تُظهر ما تريده أو تقصده بالكلام أو الأفعال"},
+        "zh": {"w": "示意 / 表明", "d": "用话语或动作表示你想要什么或是什么意思"},
+        "de": {"w": "signalisieren / zeigen", "d": "mit Worten oder Handlungen zeigen, was man will oder meint"},
+        "es": {"w": "indicar / dar a entender", "d": "mostrar con palabras o gestos lo que quieres o quieres decir"},
+        "fr": {"w": "signaler / faire comprendre", "d": "montrer par des mots ou des gestes ce qu'on veut ou ce qu'on veut dire"}
+      }
+    },
+    {
+      "word": "co-worker",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈkəʊˌwɜːkə/",
+      "def": "A person who works in the same company as you.",
+      "example": "A new co-worker has started at your company and wants advice about the town.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "زميل عمل", "d": "شخص يعمل معك في نفس الشركة"},
+        "zh": {"w": "同事", "d": "和你在同一家公司工作的人"},
+        "de": {"w": "Arbeitskollege", "d": "eine Person, die in derselben Firma arbeitet wie man selbst"},
+        "es": {"w": "compañero de trabajo", "d": "una persona que trabaja en la misma empresa que tú"},
+        "fr": {"w": "collègue", "d": "une personne qui travaille dans la même entreprise que toi"}
+      }
+    },
+    {
+      "word": "colleague",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkɒliːɡ/",
+      "def": "A person you work with.",
+      "example": "Listen to two colleagues talking at work.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "زميل", "d": "شخص تعمل معه"},
+        "zh": {"w": "同事", "d": "和你一起工作的人"},
+        "de": {"w": "Kollege", "d": "eine Person, mit der man arbeitet"},
+        "es": {"w": "colega", "d": "una persona con la que trabajas"},
+        "fr": {"w": "collègue", "d": "une personne avec qui on travaille"}
+      }
+    },
+    {
+      "word": "hometown",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhəʊmtaʊn/",
+      "def": "The town or city where you were born or grew up.",
+      "example": "Make sentences giving advice about places to visit in your hometown.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مسقط الرأس", "d": "البلدة أو المدينة التي وُلدت أو نشأت فيها"},
+        "zh": {"w": "家乡", "d": "你出生或长大的城镇"},
+        "de": {"w": "Heimatstadt", "d": "die Stadt, in der man geboren oder aufgewachsen ist"},
+        "es": {"w": "ciudad natal", "d": "la ciudad o el pueblo donde naciste o creciste"},
+        "fr": {"w": "ville natale", "d": "la ville où on est né ou où on a grandi"}
+      }
+    },
+    {
+      "word": "recommendation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌrekəmenˈdeɪʃən/",
+      "def": "An idea you give someone about a good thing to do, see or try.",
+      "example": "Do you have any recommendations for a good restaurant near here?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "توصية / اقتراح", "d": "فكرة تقدّمها لشخص عن شيء جيد يفعله أو يراه أو يجرّبه"},
+        "zh": {"w": "推荐 / 建议", "d": "告诉别人值得做、看或尝试的好东西"},
+        "de": {"w": "Empfehlung", "d": "ein Tipp, was man Gutes tun, sehen oder probieren kann"},
+        "es": {"w": "recomendación", "d": "una idea que das a alguien sobre algo bueno que hacer, ver o probar"},
+        "fr": {"w": "recommandation", "d": "une idée qu'on donne à quelqu'un sur une bonne chose à faire, voir ou essayer"}
+      }
+    },
+    {
+      "word": "suggestion",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/səˈdʒestʃən/",
+      "def": "An idea or plan that you offer to someone.",
+      "example": "Use the phrases to make suggestions to a partner.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "اقتراح", "d": "فكرة أو خطة تعرضها على شخص"},
+        "zh": {"w": "建议", "d": "你向别人提出的想法或计划"},
+        "de": {"w": "Vorschlag", "d": "eine Idee oder ein Plan, den man jemandem anbietet"},
+        "es": {"w": "sugerencia", "d": "una idea o un plan que le propones a alguien"},
+        "fr": {"w": "suggestion", "d": "une idée ou un projet qu'on propose à quelqu'un"}
+      }
+    },
+    {
+      "word": "formal",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈfɔːməl/",
+      "def": "Serious and polite, used in business or official situations.",
+      "example": "'How do you do?' is very formal, but 'What's up?' is informal.",
+      "opposite": "informal",
+      "tr": {
+        "ar": {"w": "رسمي", "d": "جادّ ومهذّب، يُستخدم في العمل أو المواقف الرسمية"},
+        "zh": {"w": "正式的", "d": "严肃礼貌，用于商务或正式场合"},
+        "de": {"w": "formell / förmlich", "d": "ernst und höflich, für geschäftliche oder offizielle Situationen"},
+        "es": {"w": "formal", "d": "serio y educado, para el trabajo o situaciones oficiales"},
+        "fr": {"w": "formel / soutenu", "d": "sérieux et poli, pour le travail ou les situations officielles"}
+      }
+    },
+    {
+      "word": "occupation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌɒkjəˈpeɪʃən/",
+      "def": "A person's job.",
+      "example": "Write down the name, occupation and interests of two people you spoke to.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مهنة / وظيفة", "d": "عمل الشخص"},
+        "zh": {"w": "职业", "d": "一个人的工作"},
+        "de": {"w": "Beruf", "d": "die Arbeit einer Person"},
+        "es": {"w": "profesión / ocupación", "d": "el trabajo de una persona"},
+        "fr": {"w": "profession", "d": "le métier d'une personne"}
+      }
+    },
+    {
+      "word": "interrupt",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "def": "To stop someone while they are talking or doing something.",
+      "example": "Say 'Excuse me' before you interrupt people who are busy.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يقاطع", "d": "أن توقف شخصاً وهو يتكلّم أو يفعل شيئاً"},
+        "zh": {"w": "打断", "d": "在别人说话或做事时让他停下"},
+        "de": {"w": "unterbrechen", "d": "jemanden stoppen, während er spricht oder etwas tut"},
+        "es": {"w": "interrumpir", "d": "hacer que alguien pare mientras habla o hace algo"},
+        "fr": {"w": "interrompre", "d": "arrêter quelqu'un pendant qu'il parle ou fait quelque chose"}
+      }
+    },
+    {
+      "word": "wrap up",
+      "pos": "phrasal verb",
+      "level": "C1",
+      "ipa": "/ˌræp ˈʌp/",
+      "def": "To finish a conversation, meeting or event.",
+      "example": "Well, I need to wrap up now. It's been nice talking to you.",
+      "opposite": "start",
+      "tr": {
+        "ar": {"w": "يختم / يُنهي", "d": "أن تُنهي محادثة أو اجتماعاً أو مناسبة"},
+        "zh": {"w": "结束 / 收尾", "d": "结束一段谈话、会议或活动"},
+        "de": {"w": "abschließen / beenden", "d": "ein Gespräch, ein Treffen oder eine Veranstaltung beenden"},
+        "es": {"w": "terminar / cerrar", "d": "acabar una conversación, una reunión o un evento"},
+        "fr": {"w": "conclure / terminer", "d": "finir une conversation, une réunion ou un événement"}
+      }
+    },
+    {
+      "word": "lunch break",
+      "pos": "noun phrase",
+      "level": "A2",
+      "ipa": "/ˈlʌntʃ breɪk/",
+      "def": "The time in the working day when you stop to eat.",
+      "example": "Well, my lunch break is almost over, so I have to go.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "استراحة الغداء", "d": "الوقت في يوم العمل الذي تتوقّف فيه لتأكل"},
+        "zh": {"w": "午休", "d": "工作日中停下来吃饭的时间"},
+        "de": {"w": "Mittagspause", "d": "die Zeit am Arbeitstag, in der man zum Essen pausiert"},
+        "es": {"w": "hora de comer / pausa del almuerzo", "d": "el tiempo del día de trabajo en que paras para comer"},
+        "fr": {"w": "pause déjeuner", "d": "le moment de la journée de travail où on s'arrête pour manger"}
+      }
+    },
+    {
+      "word": "awkward",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈɔːkwəd/",
+      "def": "Uncomfortable and a little embarrassing.",
+      "example": "There was an awkward silence because nobody knew what to say.",
+      "opposite": "comfortable",
+      "tr": {
+        "ar": {"w": "مُحرِج", "d": "غير مريح ومُخجل قليلاً"},
+        "zh": {"w": "尴尬的", "d": "让人不舒服、有点难为情"},
+        "de": {"w": "peinlich / unangenehm", "d": "unbequem und ein bisschen peinlich"},
+        "es": {"w": "incómodo", "d": "que no es cómodo y da un poco de vergüenza"},
+        "fr": {"w": "gênant", "d": "pas confortable et un peu embarrassant"}
+      }
+    },
+    {
+      "word": "eye contact",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˈaɪ ˌkɒntækt/",
+      "def": "Looking into the eyes of the person you are talking to.",
+      "example": "Smile and make eye contact when you meet someone new.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التواصل البصري", "d": "النظر في عينَي الشخص الذي تتحدّث إليه"},
+        "zh": {"w": "眼神交流", "d": "看着和你说话的人的眼睛"},
+        "de": {"w": "Blickkontakt", "d": "der Person, mit der man spricht, in die Augen sehen"},
+        "es": {"w": "contacto visual", "d": "mirar a los ojos a la persona con la que hablas"},
+        "fr": {"w": "contact visuel", "d": "regarder dans les yeux la personne à qui on parle"}
+      }
+    },
+    {
+      "word": "body language",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˈbɒdi ˌlæŋɡwɪdʒ/",
+      "def": "The way you move and stand, which shows how you feel.",
+      "example": "Her body language showed that she was relaxed and happy to talk.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لغة الجسد", "d": "طريقة حركتك ووقوفك التي تُظهر ما تشعر به"},
+        "zh": {"w": "肢体语言", "d": "你动作和站姿表现出的感受"},
+        "de": {"w": "Körpersprache", "d": "wie man sich bewegt und steht, was zeigt, wie man sich fühlt"},
+        "es": {"w": "lenguaje corporal", "d": "la forma en que te mueves y te colocas, que muestra cómo te sientes"},
+        "fr": {"w": "langage corporel", "d": "la façon de bouger et de se tenir, qui montre ce qu'on ressent"}
+      }
+    },
+    {
+      "word": "tone of voice",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌtəʊn əv ˈvɔɪs/",
+      "def": "The way your voice sounds, which shows your feelings.",
+      "example": "A friendly tone of voice helps people feel comfortable with you.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نبرة الصوت", "d": "الطريقة التي يبدو بها صوتك، وتُظهر مشاعرك"},
+        "zh": {"w": "语气 / 语调", "d": "你说话的声音给人的感觉，能表现你的情绪"},
+        "de": {"w": "Tonfall", "d": "wie die Stimme klingt, was die Gefühle zeigt"},
+        "es": {"w": "tono de voz", "d": "cómo suena tu voz, que muestra tus sentimientos"},
+        "fr": {"w": "ton de la voix", "d": "la façon dont la voix sonne, qui montre ce qu'on ressent"}
+      }
+    },
+    {
+      "word": "firm handshake",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌfɜːm ˈhændʃeɪk/",
+      "def": "Holding someone's hand strongly when you greet them.",
+      "example": "In a business meeting, a firm handshake makes a good first impression.",
+      "opposite": "weak handshake",
+      "tr": {
+        "ar": {"w": "مصافحة قوية", "d": "أن تمسك يد شخص بقوة عندما تحيّيه"},
+        "zh": {"w": "有力的握手", "d": "打招呼时紧紧地握住对方的手"},
+        "de": {"w": "fester Händedruck", "d": "jemandem zur Begrüßung kräftig die Hand geben"},
+        "es": {"w": "apretón de manos firme", "d": "dar la mano con fuerza al saludar a alguien"},
+        "fr": {"w": "poignée de main ferme", "d": "serrer fort la main de quelqu'un pour le saluer"}
+      }
+    },
+    {
+      "word": "social gathering",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌsəʊʃəl ˈɡæðərɪŋ/",
+      "def": "A party or meeting where people come together to relax and talk.",
+      "example": "At a social gathering like a party, you can ask about hobbies and free time.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تجمّع اجتماعي", "d": "حفلة أو لقاء يجتمع فيه الناس للاسترخاء والحديث"},
+        "zh": {"w": "社交聚会", "d": "人们聚在一起放松聊天的派对或聚会"},
+        "de": {"w": "geselliges Treffen", "d": "eine Feier oder ein Treffen, bei dem Leute zusammenkommen, um sich zu entspannen und zu reden"},
+        "es": {"w": "reunión social", "d": "una fiesta o un encuentro donde la gente se junta para relajarse y hablar"},
+        "fr": {"w": "rencontre / soirée entre amis", "d": "une fête ou une réunion où les gens se retrouvent pour se détendre et parler"}
+      }
+    },
+    {
+      "word": "dilemma",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/dɪˈlemə/",
+      "def": "A difficult choice between two things.",
+      "example": "Here's a dilemma: a dream job with average pay or a boring job with amazing pay?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "معضلة", "d": "اختيار صعب بين شيئين"},
+        "zh": {"w": "两难的处境", "d": "在两件事之间很难做出的选择"},
+        "de": {"w": "Dilemma", "d": "eine schwierige Wahl zwischen zwei Dingen"},
+        "es": {"w": "dilema", "d": "una elección difícil entre dos cosas"},
+        "fr": {"w": "dilemme", "d": "un choix difficile entre deux choses"}
+      }
+    },
+    {
+      "word": "would rather",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/wʊd ˈrɑːðə/",
+      "def": "Used to say what you prefer to do.",
+      "example": "Would you rather live in a mansion or travel around the world?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُفضِّل أن", "d": "تُستخدم لتقول ما تفضّل أن تفعله"},
+        "zh": {"w": "宁愿 / 更愿意", "d": "用来说你更喜欢做什么"},
+        "de": {"w": "lieber (würde)", "d": "damit sagt man, was man lieber tun möchte"},
+        "es": {"w": "preferir", "d": "se usa para decir lo que prefieres hacer"},
+        "fr": {"w": "préférer / aimer mieux", "d": "s'utilise pour dire ce qu'on préfère faire"}
+      }
+    },
+    {
+      "word": "get used to",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌɡet ˈjuːst tə/",
+      "def": "To become comfortable with something new or strange over time.",
+      "example": "Working four days a week feels strange at first, but you will get used to it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعتاد على", "d": "أن تصبح مرتاحاً مع شيء جديد أو غريب مع مرور الوقت"},
+        "zh": {"w": "习惯于", "d": "随着时间慢慢适应新的或陌生的事"},
+        "de": {"w": "sich gewöhnen an", "d": "sich mit der Zeit an etwas Neues oder Fremdes gewöhnen"},
+        "es": {"w": "acostumbrarse a", "d": "sentirte cómodo poco a poco con algo nuevo o extraño"},
+        "fr": {"w": "s'habituer à", "d": "se sentir peu à peu à l'aise avec quelque chose de nouveau ou d'étrange"}
+      }
+    },
+    {
+      "word": "mansion",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈmænʃən/",
+      "def": "A very large, expensive house.",
+      "example": "I'd rather travel around the world than live in a mansion.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قصر / منزل فخم", "d": "بيت كبير جداً وغالي الثمن"},
+        "zh": {"w": "豪宅", "d": "又大又贵的房子"},
+        "de": {"w": "Villa / Herrenhaus", "d": "ein sehr großes, teures Haus"},
+        "es": {"w": "mansión", "d": "una casa muy grande y cara"},
+        "fr": {"w": "manoir / grande demeure", "d": "une maison très grande et chère"}
+      }
+    },
+    {
+      "word": "average",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈævərɪdʒ/",
+      "def": "Normal or usual; not very high and not very low.",
+      "example": "Would you rather have a dream job with average pay or a boring job with amazing pay?",
+      "opposite": "amazing",
+      "tr": {
+        "ar": {"w": "متوسط / عادي", "d": "طبيعي أو معتاد؛ ليس مرتفعاً جداً ولا منخفضاً جداً"},
+        "zh": {"w": "一般的 / 平均的", "d": "正常的，不太高也不太低"},
+        "de": {"w": "durchschnittlich", "d": "normal; nicht sehr hoch und nicht sehr niedrig"},
+        "es": {"w": "normal / medio", "d": "normal; ni muy alto ni muy bajo"},
+        "fr": {"w": "moyen", "d": "normal ; ni très haut ni très bas"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Question word order",
+      "explain": "In most questions, the auxiliary verb (do, does, are, is, have) comes before the subject. Question words like where, what and how come first. With 'have got', 'have' goes before the subject.",
+      "explain_ar": "في معظم الأسئلة يأتي الفعل المساعد (do, does, are, is, have) قبل الفاعل. وأدوات الاستفهام مثل where وwhat وhow تأتي في بداية السؤال. ومع have got نضع have قبل الفاعل.",
+      "form": [
+        "(Question word) + auxiliary + subject + main verb: Where do you come from?",
+        "(Question word) + be + subject: How was your flight? / Is this your first visit?",
+        "Have + subject + got + ...: Have you got any brothers or sisters?",
+        "Do + subject + have + ...: Do you have any hobbies?"
+      ],
+      "examples": [
+        {"en": "How are things with you?", "note": "Informal question to someone you know."},
+        {"en": "What do you do in your free time?", "note": "First 'do' is the auxiliary, second 'do' is the main verb."},
+        {"en": "Whereabouts do you work?", "note": "'Whereabouts' asks about the area, not the exact place."},
+        {"en": "Is this your first visit to Singapore?", "note": "With 'be', just put it before the subject."},
+        {"en": "Do you like doing or watching sports?", "note": "like + -ing."}
+      ],
+      "mistakes": [
+        {"wrong": "Where you come from?", "right": "Where do you come from?", "why": "Present simple questions need 'do' or 'does'."},
+        {"wrong": "How your job is going?", "right": "How is your job going?", "why": "Put 'is' before the subject."},
+        {"wrong": "You have got any sisters?", "right": "Have you got any sisters?", "why": "'Have' goes before the subject with 'have got'."},
+        {"wrong": "What you do in your free time?", "right": "What do you do in your free time?", "why": "You need the auxiliary 'do' after the question word."}
+      ],
+      "quiz": [
+        {"q": "Unscramble: come / where / you / do / from / ?", "options": ["Where you do come from?", "Where do you come from?", "Where come you from?"], "answer": 1, "why": "Question word + do + subject + verb."},
+        {"q": "How ___ your flight?", "options": ["was", "did", "were"], "answer": 0, "why": "'flight' is singular, past of be: was."},
+        {"q": "___ you got any brothers or sisters?", "options": ["Do", "Have", "Are"], "answer": 1, "why": "With 'have got', the question starts with 'Have'."},
+        {"q": "Which question is correct?", "options": ["How is going your job?", "How your job is going?", "How is your job going?"], "answer": 2, "why": "Question word + is + subject + -ing."},
+        {"q": "What ___ you do in your free time?", "options": ["are", "do", "does"], "answer": 1, "why": "Present simple with 'you': do."},
+        {"q": "___ do you work? (asking about the general area)", "options": ["Whereabouts", "Whatever", "Whenever"], "answer": 0, "why": "'Whereabouts' asks where, in a less exact way."}
+      ]
+    },
+    {
+      "title": "Making suggestions and giving advice",
+      "explain": "We use different phrases to suggest things to do. Be careful with the verb form after each phrase: some take the base verb and some take the -ing form.",
+      "explain_ar": "نستخدم عبارات مختلفة لاقتراح أشياء للقيام بها. انتبه إلى شكل الفعل بعد كل عبارة: بعضها يأتي بعده الفعل المجرّد، وبعضها يأتي بعده الفعل بصيغة ing.",
+      "form": [
+        "You should / You could / Why don't you + base verb: You should go to the zoo.",
+        "How about / Try / Have you tried + verb-ing: Try watching horse racing.",
+        "One thing I recommend is + noun / verb-ing",
+        "If I were you, I would / wouldn't + base verb",
+        "... is really good / amazing."
+      ],
+      "examples": [
+        {"en": "You should definitely visit the old market.", "note": "'definitely' makes the advice stronger."},
+        {"en": "Why don't you go to the zoo at the weekend?", "note": "Why don't you + base verb."},
+        {"en": "How about going to the beach on Saturday?", "note": "How about + -ing."},
+        {"en": "Have you tried eating at the fish restaurant by the river?", "note": "Have you tried + -ing."},
+        {"en": "If I were you, I wouldn't drive in the city centre.", "note": "Advice not to do something."}
+      ],
+      "mistakes": [
+        {"wrong": "How about go to the zoo?", "right": "How about going to the zoo?", "why": "After 'How about' use the -ing form."},
+        {"wrong": "You should to visit the museum.", "right": "You should visit the museum.", "why": "No 'to' after 'should'."},
+        {"wrong": "Why you don't try the market?", "right": "Why don't you try the market?", "why": "Word order: Why don't you + base verb."},
+        {"wrong": "Have you tried to eat koshari? (meaning 'as an idea')", "right": "Have you tried eating koshari?", "why": "For suggestions, use 'Have you tried + -ing'."}
+      ],
+      "quiz": [
+        {"q": "How about ___ horse racing on Sunday?", "options": ["watch", "watching", "to watch"], "answer": 1, "why": "How about + -ing."},
+        {"q": "You ___ go to the zoo. It's great for families.", "options": ["should", "should to", "shoulding"], "answer": 0, "why": "should + base verb."},
+        {"q": "Why ___ visit the old castle?", "options": ["you don't", "don't you", "not you"], "answer": 1, "why": "Why don't you + base verb."},
+        {"q": "Try ___ the local food at the night market.", "options": ["eating", "eat", "to eating"], "answer": 0, "why": "For suggestions we use Try + -ing."},
+        {"q": "If I were you, I ___ take a taxi from the airport.", "options": ["will", "would", "am"], "answer": 1, "why": "If I were you + would + base verb."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "How do you do?", "use": "Starting a conversation (formal, first meeting)"},
+    {"en": "How are things with you?", "use": "Starting a conversation (informal)"},
+    {"en": "Hi! My name's Jon. What's yours?", "use": "Introducing yourself (informal)"},
+    {"en": "How's it going? / What's up?", "use": "Starting a conversation (very informal)"},
+    {"en": "Excuse me. Sorry to bother you ...", "use": "Starting a conversation politely with someone busy"},
+    {"en": "Have you got a minute?", "use": "Asking if someone has time to talk"},
+    {"en": "How was your flight?", "use": "Small talk with a visitor"},
+    {"en": "Well. Lovely to meet you.", "use": "Ending a conversation (formal)"},
+    {"en": "It's been nice talking to you. Bye.", "use": "Ending a conversation politely"},
+    {"en": "I'm sorry, I've got to go now.", "use": "Ending a conversation"},
+    {"en": "Well, my lunch break is almost over.", "use": "Giving a reason to end a conversation"},
+    {"en": "Bye for now. / See you again.", "use": "Ending a conversation (informal)"},
+    {"en": "You should definitely ...", "use": "Giving a strong recommendation"},
+    {"en": "One thing I recommend is ...", "use": "Giving a recommendation"},
+    {"en": "Would you rather ... or ...?", "use": "Asking someone to choose"}
+  ]
+}

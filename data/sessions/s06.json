@@ -1,0 +1,574 @@
+{
+  "id": 6,
+  "title": "Giving Compliments",
+  "summary": "We practised giving compliments and answering them politely. We learned the structure have/get something done for things other people do for us. We also practised the vowel sounds in positive adjectives.",
+  "source": "ARS_B1_08_I050CEA_HO_v1.1.pdf",
+  "vocab": [
+    {
+      "word": "compliment",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkɒmplɪmənt/",
+      "def": "Something nice you say about a person, their clothes or their skills.",
+      "example": "She gave me a lovely compliment about my new haircut.",
+      "opposite": "insult",
+      "tr": {
+        "ar": {"w": "مجاملة / إطراء", "d": "كلام لطيف تقوله عن شخص أو عن ملابسه أو مهاراته"},
+        "zh": {"w": "赞美 / 称赞", "d": "对别人、他们的衣着或能力说的好话"},
+        "de": {"w": "Kompliment", "d": "etwas Nettes, das man über eine Person, ihre Kleidung oder ihre Fähigkeiten sagt"},
+        "es": {"w": "cumplido", "d": "algo agradable que dices sobre una persona, su ropa o sus habilidades"},
+        "fr": {"w": "compliment", "d": "quelque chose de gentil qu'on dit sur une personne, ses vêtements ou ses talents"}
+      }
+    },
+    {
+      "word": "pay someone a compliment",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/peɪ ˈsʌmwʌn ə ˈkɒmplɪmənt/",
+      "def": "To say something nice about another person.",
+      "example": "My teacher paid me a compliment on my pronunciation today.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُثني على شخص / يُجامله", "d": "أن تقول كلاماً لطيفاً عن شخص آخر"},
+        "zh": {"w": "称赞某人", "d": "说别人的好话"},
+        "de": {"w": "jemandem ein Kompliment machen", "d": "etwas Nettes über eine andere Person sagen"},
+        "es": {"w": "hacerle un cumplido a alguien", "d": "decir algo agradable sobre otra persona"},
+        "fr": {"w": "faire un compliment à quelqu'un", "d": "dire quelque chose de gentil sur une autre personne"}
+      }
+    },
+    {
+      "word": "return the compliment",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/rɪˈtɜːn ðə ˈkɒmplɪmənt/",
+      "def": "To say something nice back to a person who said something nice to you.",
+      "example": "\"You look great!\" \"Thank you, so do you!\" she said, returning the compliment.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يردّ المجاملة", "d": "أن تقول كلاماً لطيفاً لشخص قال لك كلاماً لطيفاً"},
+        "zh": {"w": "回赞 / 回敬称赞", "d": "对夸过你的人也说好话"},
+        "de": {"w": "das Kompliment zurückgeben", "d": "jemandem, der etwas Nettes gesagt hat, auch etwas Nettes sagen"},
+        "es": {"w": "devolver el cumplido", "d": "decirle algo agradable a quien te dijo algo agradable"},
+        "fr": {"w": "retourner le compliment", "d": "dire à son tour quelque chose de gentil à la personne qui vous a complimenté"}
+      }
+    },
+    {
+      "word": "stunning",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈstʌnɪŋ/",
+      "def": "Extremely beautiful or attractive.",
+      "example": "Your hair looks stunning! Did you have it done at the salon?",
+      "opposite": "ugly",
+      "tr": {
+        "ar": {"w": "مُذهل / فاتن", "d": "جميل أو جذاب جداً"},
+        "zh": {"w": "惊艳的 / 极美的", "d": "非常漂亮或吸引人"},
+        "de": {"w": "atemberaubend", "d": "extrem schön oder attraktiv"},
+        "es": {"w": "impresionante / deslumbrante", "d": "muy bonito o atractivo"},
+        "fr": {"w": "superbe / éblouissant", "d": "extrêmement beau ou séduisant"}
+      }
+    },
+    {
+      "word": "suit",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/suːt/",
+      "def": "To look good on someone (about clothes, colours or hairstyles).",
+      "example": "Blue really suits you!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يليق بـ / يناسب", "d": "أن يبدو جميلاً على شخص (عن الملابس أو الألوان أو تسريحة الشعر)"},
+        "zh": {"w": "适合 / 相配", "d": "（衣服、颜色、发型）穿在某人身上好看"},
+        "de": {"w": "(gut) stehen", "d": "an jemandem gut aussehen (Kleidung, Farben, Frisuren)"},
+        "es": {"w": "quedar bien", "d": "verse bien en alguien (ropa, colores o peinados)"},
+        "fr": {"w": "aller bien à", "d": "être joli sur quelqu'un (vêtements, couleurs, coiffures)"}
+      }
+    },
+    {
+      "word": "stylish",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈstaɪlɪʃ/",
+      "def": "Fashionable and attractive.",
+      "example": "Did you get your hair cut? It looks really stylish!",
+      "opposite": "unfashionable",
+      "tr": {
+        "ar": {"w": "أنيق", "d": "عصري وجذاب"},
+        "zh": {"w": "时髦的 / 有型的", "d": "时尚又好看"},
+        "de": {"w": "stilvoll / schick", "d": "modisch und attraktiv"},
+        "es": {"w": "elegante / con estilo", "d": "de moda y atractivo"},
+        "fr": {"w": "élégant / stylé", "d": "à la mode et joli"}
+      }
+    },
+    {
+      "word": "designer",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/dɪˈzaɪnə/",
+      "def": "Made by a famous and usually expensive fashion company.",
+      "example": "I love your earrings. Are they designer?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "من ماركة عالمية", "d": "مصنوع من قبل شركة أزياء مشهورة وغالية عادةً"},
+        "zh": {"w": "名牌的 / 设计师品牌的", "d": "由有名且通常很贵的时装公司制作的"},
+        "de": {"w": "Designer-", "d": "von einer bekannten, meist teuren Modefirma gemacht"},
+        "es": {"w": "de diseño / de marca", "d": "hecho por una marca de moda famosa y normalmente cara"},
+        "fr": {"w": "de créateur / de marque", "d": "fait par une marque de mode célèbre et souvent chère"}
+      }
+    },
+    {
+      "word": "sense of style",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌsens əv ˈstaɪl/",
+      "def": "A natural ability to choose clothes and things that look good.",
+      "example": "You've got a great sense of style – everything you wear looks good.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ذوق في الأناقة", "d": "قدرة طبيعية على اختيار ملابس وأشياء تبدو جميلة"},
+        "zh": {"w": "时尚品味 / 时尚感", "d": "天生会挑选好看的衣服和东西"},
+        "de": {"w": "Stilgefühl", "d": "ein natürliches Talent, Kleidung und Dinge zu wählen, die gut aussehen"},
+        "es": {"w": "sentido del estilo", "d": "habilidad natural para elegir ropa y cosas que quedan bien"},
+        "fr": {"w": "sens du style", "d": "un talent naturel pour choisir des vêtements et des objets qui sont beaux"}
+      }
+    },
+    {
+      "word": "sense of humour",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˌsens əv ˈhjuːmə/",
+      "def": "The ability to find things funny and to make people laugh.",
+      "example": "You have a great sense of humour – you always make us laugh.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حسّ الفكاهة / روح الدعابة", "d": "القدرة على رؤية الأشياء المضحكة وإضحاك الناس"},
+        "zh": {"w": "幽默感", "d": "能发现有趣的事并让别人笑的能力"},
+        "de": {"w": "Sinn für Humor", "d": "die Fähigkeit, Dinge lustig zu finden und andere zum Lachen zu bringen"},
+        "es": {"w": "sentido del humor", "d": "capacidad de ver lo gracioso de las cosas y hacer reír a los demás"},
+        "fr": {"w": "sens de l'humour", "d": "la capacité de trouver les choses drôles et de faire rire les autres"}
+      }
+    },
+    {
+      "word": "taste",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/teɪst/",
+      "def": "The ability to choose things that are nice or good quality.",
+      "example": "You have great taste in music.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ذوق", "d": "القدرة على اختيار أشياء جميلة أو ذات جودة عالية"},
+        "zh": {"w": "品味", "d": "挑选好看或高质量东西的能力"},
+        "de": {"w": "Geschmack", "d": "die Fähigkeit, schöne oder hochwertige Dinge auszuwählen"},
+        "es": {"w": "gusto", "d": "capacidad de elegir cosas bonitas o de buena calidad"},
+        "fr": {"w": "goût", "d": "la capacité de choisir des choses belles ou de qualité"}
+      }
+    },
+    {
+      "word": "contagious",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/kənˈteɪdʒəs/",
+      "def": "Quickly passing to other people, like a smile or a laugh.",
+      "example": "You have a contagious laugh – when you laugh, everyone laughs.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُعدٍ", "d": "ينتقل بسرعة إلى الآخرين، مثل الابتسامة أو الضحكة"},
+        "zh": {"w": "有感染力的", "d": "像笑容或笑声一样很快传给别人"},
+        "de": {"w": "ansteckend", "d": "geht schnell auf andere über, wie ein Lächeln oder Lachen"},
+        "es": {"w": "contagioso", "d": "que pasa rápido a los demás, como una sonrisa o una risa"},
+        "fr": {"w": "contagieux", "d": "qui se transmet vite aux autres, comme un sourire ou un rire"}
+      }
+    },
+    {
+      "word": "a breath of fresh air",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ə ˌbreθ əv ˌfreʃ ˈeə/",
+      "def": "A new and different person or thing that makes everything feel better.",
+      "example": "Our new manager is a breath of fresh air – everyone is happier now.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نسمة منعشة", "d": "شخص أو شيء جديد ومختلف يجعل كل شيء أفضل"},
+        "zh": {"w": "一股清新的空气 / 令人耳目一新", "d": "让一切都变得更好的新鲜、不同的人或事"},
+        "de": {"w": "ein frischer Wind", "d": "eine neue, andere Person oder Sache, die alles besser macht"},
+        "es": {"w": "un soplo de aire fresco", "d": "una persona o cosa nueva y diferente que mejora el ambiente"},
+        "fr": {"w": "une bouffée d'air frais", "d": "une personne ou une chose nouvelle qui rend tout plus agréable"}
+      }
+    },
+    {
+      "word": "light up the room",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌlaɪt ʌp ðə ˈruːm/",
+      "def": "To make everyone in a place feel happy just by being there.",
+      "example": "When she smiles, she lights up the room.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُضفي البهجة على المكان", "d": "أن تُسعد كل من في المكان بمجرد وجودك"},
+        "zh": {"w": "让满屋生辉", "d": "只要在场就能让大家开心"},
+        "de": {"w": "den Raum zum Strahlen bringen", "d": "alle Menschen an einem Ort froh machen, nur weil man da ist"},
+        "es": {"w": "iluminar la sala", "d": "alegrar a todos solo con estar presente"},
+        "fr": {"w": "illuminer la pièce", "d": "rendre tout le monde heureux simplement par sa présence"}
+      }
+    },
+    {
+      "word": "outfit",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈaʊtfɪt/",
+      "def": "A set of clothes that you wear together.",
+      "example": "On a scale of 1 to 10, that outfit is a 10!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طقم ملابس / زيّ", "d": "مجموعة ملابس تلبسها معاً"},
+        "zh": {"w": "一套衣服 / 装扮", "d": "一起穿的一整套衣服"},
+        "de": {"w": "Outfit", "d": "Kleidungsstücke, die man zusammen trägt"},
+        "es": {"w": "conjunto / look", "d": "ropa que llevas puesta junta"},
+        "fr": {"w": "tenue", "d": "un ensemble de vêtements qu'on porte ensemble"}
+      }
+    },
+    {
+      "word": "appearance",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/əˈpɪərəns/",
+      "def": "The way someone or something looks.",
+      "example": "Many compliments are about appearance, but you can also praise someone's skills.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "المظهر", "d": "الشكل الذي يبدو عليه شخص أو شيء"},
+        "zh": {"w": "外表 / 外貌", "d": "人或物看起来的样子"},
+        "de": {"w": "Aussehen", "d": "wie jemand oder etwas aussieht"},
+        "es": {"w": "apariencia / aspecto", "d": "cómo se ve alguien o algo"},
+        "fr": {"w": "apparence", "d": "l'aspect d'une personne ou d'une chose"}
+      }
+    },
+    {
+      "word": "appreciate",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/əˈpriːʃieɪt/",
+      "def": "To feel thankful for something someone does or says.",
+      "example": "Thank you, I truly appreciate it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُقدّر / يمتنّ لـ", "d": "أن تشعر بالشكر لما يفعله أو يقوله شخص"},
+        "zh": {"w": "感激 / 感谢", "d": "对别人做的事或说的话心存感谢"},
+        "de": {"w": "zu schätzen wissen", "d": "dankbar sein für etwas, das jemand tut oder sagt"},
+        "es": {"w": "agradecer / apreciar", "d": "sentir gratitud por lo que alguien hace o dice"},
+        "fr": {"w": "apprécier / être reconnaissant", "d": "être reconnaissant pour ce que quelqu'un fait ou dit"}
+      }
+    },
+    {
+      "word": "make someone's day",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌmeɪk ˈsʌmwʌnz ˈdeɪ/",
+      "def": "To make a person feel very happy for the rest of the day.",
+      "example": "Thanks so much for saying that – you made my day!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُسعد يوم شخص", "d": "أن تجعل شخصاً سعيداً جداً بقية يومه"},
+        "zh": {"w": "让某人一整天都开心", "d": "让某人整天都很高兴"},
+        "de": {"w": "jemandem den Tag versüßen", "d": "jemanden für den Rest des Tages sehr glücklich machen"},
+        "es": {"w": "alegrarle el día a alguien", "d": "hacer muy feliz a alguien durante el resto del día"},
+        "fr": {"w": "faire la journée de quelqu'un / ensoleiller la journée", "d": "rendre quelqu'un très heureux pour le reste de la journée"}
+      }
+    },
+    {
+      "word": "boost someone's confidence",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌbuːst ˈsʌmwʌnz ˈkɒnfɪdəns/",
+      "def": "To make a person feel more sure of their own abilities.",
+      "example": "Your kind words really boosted my confidence.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعزّز ثقة شخص بنفسه", "d": "أن تجعل شخصاً أكثر ثقة بقدراته"},
+        "zh": {"w": "增强某人的信心", "d": "让某人对自己的能力更有把握"},
+        "de": {"w": "jemandes Selbstvertrauen stärken", "d": "jemandem helfen, mehr an die eigenen Fähigkeiten zu glauben"},
+        "es": {"w": "aumentar la confianza de alguien", "d": "hacer que alguien se sienta más seguro de sus capacidades"},
+        "fr": {"w": "donner confiance à quelqu'un", "d": "rendre quelqu'un plus sûr de ses capacités"}
+      }
+    },
+    {
+      "word": "over the moon",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌəʊvə ðə ˈmuːn/",
+      "def": "Extremely happy.",
+      "example": "I'm over the moon that you like the cake I made!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "في غاية السعادة / يطير من الفرح", "d": "سعيد جداً"},
+        "zh": {"w": "欣喜若狂", "d": "非常非常高兴"},
+        "de": {"w": "überglücklich", "d": "extrem glücklich"},
+        "es": {"w": "en el séptimo cielo / feliz", "d": "muy, muy contento"},
+        "fr": {"w": "aux anges", "d": "extrêmement heureux"}
+      }
+    },
+    {
+      "word": "delighted",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/dɪˈlaɪtɪd/",
+      "def": "Very pleased and happy.",
+      "example": "I'm delighted to hear that you liked my presentation.",
+      "opposite": "disappointed",
+      "tr": {
+        "ar": {"w": "مسرور جداً", "d": "سعيد وراضٍ جداً"},
+        "zh": {"w": "非常高兴的", "d": "很满意、很开心"},
+        "de": {"w": "hocherfreut", "d": "sehr froh und zufrieden"},
+        "es": {"w": "encantado", "d": "muy contento y satisfecho"},
+        "fr": {"w": "ravi", "d": "très content et heureux"}
+      }
+    },
+    {
+      "word": "bargain",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbɑːɡɪn/",
+      "def": "Something you buy for a much lower price than usual.",
+      "example": "I got this jacket on sale – it was a real bargain!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صفقة رابحة / لُقطة", "d": "شيء تشتريه بسعر أقل بكثير من المعتاد"},
+        "zh": {"w": "便宜货 / 划算的买卖", "d": "用比平时低很多的价格买到的东西"},
+        "de": {"w": "Schnäppchen", "d": "etwas, das man viel billiger als normal kauft"},
+        "es": {"w": "ganga", "d": "algo que compras mucho más barato de lo normal"},
+        "fr": {"w": "bonne affaire", "d": "quelque chose qu'on achète beaucoup moins cher que d'habitude"}
+      }
+    },
+    {
+      "word": "on sale",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ɒn ˈseɪl/",
+      "def": "Sold for a lower price than usual for a short time.",
+      "example": "I got it on sale at Selfridges.",
+      "opposite": "full price",
+      "tr": {
+        "ar": {"w": "بسعر مخفَّض / في التنزيلات", "d": "يُباع بسعر أقل من المعتاد لفترة قصيرة"},
+        "zh": {"w": "打折 / 特价", "d": "短时间内以比平时低的价格出售"},
+        "de": {"w": "im Angebot / reduziert", "d": "für kurze Zeit billiger als normal verkauft"},
+        "es": {"w": "rebajado / de oferta", "d": "que se vende más barato durante poco tiempo"},
+        "fr": {"w": "en solde / en promotion", "d": "vendu moins cher que d'habitude pendant peu de temps"}
+      }
+    },
+    {
+      "word": "salon",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈsælɒn/",
+      "def": "A shop where people go to have their hair or nails done.",
+      "example": "I had my hair done at the salon this afternoon.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صالون تجميل", "d": "محل يذهب إليه الناس لتصفيف الشعر أو العناية بالأظافر"},
+        "zh": {"w": "美发店 / 美容院", "d": "人们去做头发或做指甲的店"},
+        "de": {"w": "Friseursalon / Kosmetiksalon", "d": "ein Geschäft, in dem man sich die Haare oder Nägel machen lässt"},
+        "es": {"w": "peluquería / salón de belleza", "d": "tienda donde te arreglan el pelo o las uñas"},
+        "fr": {"w": "salon de coiffure / de beauté", "d": "un magasin où l'on se fait coiffer ou faire les ongles"}
+      }
+    },
+    {
+      "word": "hairdresser",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈheədresə/",
+      "def": "A person whose job is to cut and style people's hair.",
+      "example": "Helen didn't do her own hair – a hairdresser did it for her.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مصفّف شعر / كوافير", "d": "شخص عمله قصّ الشعر وتصفيفه"},
+        "zh": {"w": "美发师 / 理发师", "d": "工作是给人剪头发、做发型的人"},
+        "de": {"w": "Friseur / Friseurin", "d": "eine Person, die beruflich Haare schneidet und frisiert"},
+        "es": {"w": "peluquero / peluquera", "d": "persona que corta y peina el pelo como trabajo"},
+        "fr": {"w": "coiffeur / coiffeuse", "d": "une personne dont le métier est de couper et coiffer les cheveux"}
+      }
+    },
+    {
+      "word": "make-up",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈmeɪk ʌp/",
+      "def": "Coloured products that people put on their face to look nice.",
+      "example": "Helen put her make-up on before her friend's birthday party.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مكياج / مستحضرات تجميل", "d": "منتجات ملوّنة يضعها الناس على وجوههم ليبدوا أجمل"},
+        "zh": {"w": "化妆品 / 妆", "d": "人们涂在脸上让自己更好看的彩色产品"},
+        "de": {"w": "Make-up / Schminke", "d": "farbige Produkte, die man ins Gesicht aufträgt, um schön auszusehen"},
+        "es": {"w": "maquillaje", "d": "productos de color que se ponen en la cara para verse bien"},
+        "fr": {"w": "maquillage", "d": "produits colorés qu'on met sur le visage pour être plus beau"}
+      }
+    },
+    {
+      "word": "eye shadow",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈaɪ ʃædəʊ/",
+      "def": "Colour that people put on the skin above their eyes.",
+      "example": "I love your eye shadow – is it new?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ظلّ العيون", "d": "لون يوضع على الجلد فوق العينين"},
+        "zh": {"w": "眼影", "d": "涂在眼睛上方皮肤上的颜色"},
+        "de": {"w": "Lidschatten", "d": "Farbe, die man auf die Haut über den Augen aufträgt"},
+        "es": {"w": "sombra de ojos", "d": "color que se pone en la piel encima de los ojos"},
+        "fr": {"w": "fard à paupières", "d": "couleur qu'on met sur la peau au-dessus des yeux"}
+      }
+    },
+    {
+      "word": "put on weight",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌpʊt ɒn ˈweɪt/",
+      "def": "To become heavier (also: gain weight).",
+      "example": "Never ask someone \"Did you put on weight?\" – it is not a compliment!",
+      "opposite": "lose weight",
+      "tr": {
+        "ar": {"w": "يزداد وزنه / يسمن", "d": "أن يصبح أثقل وزناً"},
+        "zh": {"w": "发胖 / 长胖", "d": "体重增加"},
+        "de": {"w": "zunehmen", "d": "schwerer werden"},
+        "es": {"w": "engordar / subir de peso", "d": "pesar más que antes"},
+        "fr": {"w": "prendre du poids / grossir", "d": "devenir plus lourd"}
+      }
+    },
+    {
+      "word": "dry-cleaning",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌdraɪ ˈkliːnɪŋ/",
+      "def": "Cleaning clothes with special chemicals instead of water, or clothes cleaned this way.",
+      "example": "Where is the best place to get your dry-cleaning done?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التنظيف الجاف", "d": "تنظيف الملابس بمواد كيميائية خاصة بدلاً من الماء"},
+        "zh": {"w": "干洗", "d": "用特殊化学品而不是水洗衣服"},
+        "de": {"w": "chemische Reinigung", "d": "Kleidung mit speziellen Mitteln statt mit Wasser reinigen"},
+        "es": {"w": "limpieza en seco / tintorería", "d": "limpiar ropa con productos especiales en vez de agua"},
+        "fr": {"w": "nettoyage à sec / pressing", "d": "nettoyer des vêtements avec des produits spéciaux au lieu de l'eau"}
+      }
+    },
+    {
+      "word": "spare key",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌspeə ˈkiː/",
+      "def": "An extra key that you keep in case you lose the first one.",
+      "example": "I need to get a spare key made for my flat.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مفتاح احتياطي", "d": "مفتاح إضافي تحتفظ به في حال أضعت الأول"},
+        "zh": {"w": "备用钥匙", "d": "以防丢失而多配的一把钥匙"},
+        "de": {"w": "Ersatzschlüssel", "d": "ein zusätzlicher Schlüssel, falls man den ersten verliert"},
+        "es": {"w": "llave de repuesto", "d": "una llave extra por si pierdes la primera"},
+        "fr": {"w": "double de clé / clé de secours", "d": "une clé en plus, au cas où on perd la première"}
+      }
+    },
+    {
+      "word": "unusual",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ʌnˈjuːʒuəl/",
+      "def": "Different from what is normal; not common.",
+      "example": "\"That's an unusual bracelet\" is not a clear compliment – it can sound negative.",
+      "opposite": "ordinary",
+      "tr": {
+        "ar": {"w": "غير مألوف / غريب", "d": "مختلف عن الطبيعي، غير شائع"},
+        "zh": {"w": "不寻常的 / 特别的", "d": "和平常不一样，不常见"},
+        "de": {"w": "ungewöhnlich", "d": "anders als normal, nicht häufig"},
+        "es": {"w": "poco común / raro", "d": "diferente de lo normal, no habitual"},
+        "fr": {"w": "inhabituel / original", "d": "différent de la normale, pas courant"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "have / get something done",
+      "explain": "We use have/get + object + past participle when another person does a job for us, usually because we pay them. 'Get' is more informal than 'have'. Compare: 'I cut my hair' (I did it myself) and 'I had my hair cut' (a hairdresser did it).",
+      "explain_ar": "نستخدم have/get + المفعول به + التصريف الثالث للفعل عندما يقوم شخص آخر بعمل لنا، وغالباً ندفع له مقابل ذلك. كلمة get أقل رسمية من have. قارن: 'I cut my hair' تعني أنني قصصت شعري بنفسي، أما 'I had my hair cut' فتعني أن الحلاق قصّه لي.",
+      "form": [
+        "have + object + past participle: I had my hair done.",
+        "get + object + past participle (more informal): I got my hair done.",
+        "Change the tense of have/get: I'm having my eyes tested tomorrow. / I need to get a spare key made.",
+        "Question: Did you have/get your hair cut? Where do you get your shoes repaired?"
+      ],
+      "examples": [
+        {"en": "Helen had her hair done before her friend's birthday party.", "note": "A hairdresser did Helen's hair, not Helen."},
+        {"en": "Helen put her make-up on before the party.", "note": "Helen did it herself, so we do not use have/get done."},
+        {"en": "Did you get your hair cut? It looks really stylish!", "note": "A common way to start a compliment."},
+        {"en": "Where is the best place to get your eyes tested?", "note": "An optician tests your eyes for you."},
+        {"en": "I need to have a passport photo taken.", "note": "A photographer takes the photo."}
+      ],
+      "mistakes": [
+        {"wrong": "I cut my hair at the salon yesterday.", "right": "I had my hair cut at the salon yesterday.", "why": "'I cut my hair' means you did it yourself. Use have/get + object + past participle when someone else does it."},
+        {"wrong": "I had cut my hair.", "right": "I had my hair cut.", "why": "The object (my hair) goes between have and the past participle."},
+        {"wrong": "I got my shoes repair.", "right": "I got my shoes repaired.", "why": "Use the past participle (repaired), not the base form."},
+        {"wrong": "Did you do your nails done?", "right": "Did you have/get your nails done?", "why": "The verb is have or get, not do."}
+      ],
+      "quiz": [
+        {"q": "Your hair looks great! Did you ___ it done at the salon?", "options": ["get", "do", "make"], "answer": 0, "why": "get + object + past participle: get it done."},
+        {"q": "I'm going to have my car ___ tomorrow.", "options": ["repaired", "repair", "repairing"], "answer": 0, "why": "After have + object we use the past participle."},
+        {"q": "Which sentence means a hairdresser did it?", "options": ["She had her hair cut.", "She cut her hair.", "She was cutting her hair."], "answer": 0, "why": "have + object + past participle = someone else did it for her."},
+        {"q": "Where do you usually get ___?", "options": ["your eyes tested", "tested your eyes", "your eyes test"], "answer": 0, "why": "Order: get + object + past participle."},
+        {"q": "I need to ___ a spare key made.", "options": ["get", "make", "do"], "answer": 0, "why": "get + object (a spare key) + past participle (made)."},
+        {"q": "Helen ___ her make-up on herself before the party.", "options": ["put", "had put", "got put"], "answer": 0, "why": "She did it herself, so we use the normal verb, not have/get done."}
+      ]
+    },
+    {
+      "title": "Compliment patterns: What (a/an) + adjective + noun!",
+      "explain": "To give a strong compliment we can say 'What + a/an + adjective + singular noun!' With plural or uncountable nouns we drop a/an. We can also use 'You look + adjective', 'That ... really suits you' and 'You've got + adjective + noun'.",
+      "explain_ar": "لإعطاء مجاملة قوية نقول: What + a/an + صفة + اسم مفرد! ومع الأسماء الجمع أو غير المعدودة نحذف a/an. ويمكننا أيضاً استخدام You look + صفة، و That ... really suits you، و You've got + صفة + اسم.",
+      "form": [
+        "What + a/an + adjective + singular noun! (What a beautiful dress!)",
+        "What + adjective + plural / uncountable noun! (What fantastic glasses!)",
+        "You look + adjective! (You look lovely!)",
+        "That colour/coat really suits you. / That ... looks amazing on you.",
+        "You've got + adjective + noun. (You've got pretty eyes.)"
+      ],
+      "examples": [
+        {"en": "What an amazing hat you're wearing!", "note": "'an' because 'amazing' starts with a vowel sound."},
+        {"en": "What fantastic glasses you're wearing!", "note": "'glasses' is plural, so no 'a'."},
+        {"en": "That colour looks great on you.", "note": "look + adjective + on you."},
+        {"en": "You've got a great sense of style.", "note": "You've got + adjective + noun."},
+        {"en": "You look younger with short hair.", "note": "Teacher's correction: not 'You look small'."}
+      ],
+      "mistakes": [
+        {"wrong": "What beautiful top!", "right": "What a beautiful top!", "why": "'top' is a singular noun, so we need 'a'."},
+        {"wrong": "What a fantastic glasses!", "right": "What fantastic glasses!", "why": "'glasses' is plural, so no 'a'."},
+        {"wrong": "What a amazing hat!", "right": "What an amazing hat!", "why": "Use 'an' before a vowel sound."},
+        {"wrong": "You look small.", "right": "You look young / younger.", "why": "'Small' is about size. For age, use 'young'."},
+        {"wrong": "All of people say that to me.", "right": "Everyone says that to me.", "why": "Use 'everyone' + singular verb (says)."},
+        {"wrong": "It's a good thing or a bad thing?", "right": "Is it a good thing or a bad thing?", "why": "In questions, put the verb before the subject."}
+      ],
+      "quiz": [
+        {"q": "What ___ lovely dress!", "options": ["a", "an", "–"], "answer": 0, "why": "'dress' is a singular noun and 'lovely' starts with a consonant sound."},
+        {"q": "What ___ unusual bracelet!", "options": ["an", "a", "–"], "answer": 0, "why": "'unusual' starts with a vowel sound, so use 'an'."},
+        {"q": "What ___ beautiful earrings!", "options": ["–", "a", "an"], "answer": 0, "why": "'earrings' is plural, so no article."},
+        {"q": "That coat really ___ you.", "options": ["suits", "suit", "is suit"], "answer": 0, "why": "'That coat' is singular, so 'suits'."},
+        {"q": "Which one is a compliment?", "options": ["You've got a great sense of style.", "You look tired today.", "Did you put on weight?"], "answer": 0, "why": "The other two are negative and should be avoided."},
+        {"q": "Which sentence is correct?", "options": ["Everyone says that to me.", "All of people say that to me.", "All people says that to me."], "answer": 0, "why": "everyone + singular verb."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "I love your eye shadow.", "use": "Giving a compliment"},
+    {"en": "Blue really suits you!", "use": "Giving a compliment"},
+    {"en": "Your hair looks amazing!", "use": "Giving a compliment"},
+    {"en": "What a beautiful dress!", "use": "Giving a compliment"},
+    {"en": "That jacket looks amazing on you.", "use": "Giving a compliment"},
+    {"en": "You have great taste in music.", "use": "Complimenting someone's taste"},
+    {"en": "You have a contagious smile.", "use": "Complimenting someone's personality"},
+    {"en": "On a scale of 1 to 10, that outfit is a 10!", "use": "Giving a fun compliment"},
+    {"en": "Did you do something with your hair? It looks great.", "use": "Noticing a change and giving a compliment"},
+    {"en": "Thanks, it's a new one I'm trying out.", "use": "Responding to a compliment"},
+    {"en": "I had it done at the salon this afternoon. Do you like it?", "use": "Responding to a compliment"},
+    {"en": "I got it on sale – it was a real bargain!", "use": "Responding to a compliment"},
+    {"en": "That's so sweet / kind of you.", "use": "Thanking someone for a compliment"},
+    {"en": "You made my day!", "use": "Thanking someone for a compliment"},
+    {"en": "Thank you. You also look great!", "use": "Returning the compliment"}
+  ]
+}

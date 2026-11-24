@@ -1,0 +1,497 @@
+{
+  "id": 3,
+  "title": "The Decision Process",
+  "summary": "We talked about big decisions in our lives and whether we regret them. We practised the third conditional and 'I wish + past perfect' to talk about the past, time linkers for telling our life story, and weak forms like 'would've'.",
+  "source": "ARS_B1_05_I028CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "decision",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/dɪˈsɪʒn/",
+      "def": "A choice that you make after thinking about it.",
+      "example": "What is the biggest decision you've made so far in your life?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قرار", "d": "اختيار تقوم به بعد أن تفكّر فيه"},
+        "zh": {"w": "决定", "d": "经过考虑后做出的选择"},
+        "de": {"w": "Entscheidung", "d": "eine Wahl, die man nach dem Nachdenken trifft"},
+        "es": {"w": "decisión", "d": "elección que haces después de pensarlo"},
+        "fr": {"w": "décision", "d": "choix qu'on fait après avoir réfléchi"}
+      }
+    },
+    {
+      "word": "regret",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/rɪˈɡret/",
+      "def": "To feel sorry or sad about something you did or didn't do.",
+      "example": "Do you regret leaving school so early?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يندم", "d": "أن تشعر بالأسف أو الحزن على شيء فعلته أو لم تفعله"},
+        "zh": {"w": "后悔", "d": "对做过或没做的事感到难过"},
+        "de": {"w": "bereuen", "d": "traurig sein über etwas, das man getan oder nicht getan hat"},
+        "es": {"w": "arrepentirse de", "d": "sentir pena por algo que hiciste o no hiciste"},
+        "fr": {"w": "regretter", "d": "être triste à cause de quelque chose qu'on a fait ou pas fait"}
+      }
+    },
+    {
+      "word": "consider",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/kənˈsɪdə/",
+      "def": "To think carefully about something before you decide.",
+      "example": "Before you move abroad, there's a lot to consider.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يفكّر في / يأخذ في الاعتبار", "d": "أن تفكّر بعناية في شيء قبل أن تقرّر"},
+        "zh": {"w": "考虑", "d": "做决定之前仔细想一想"},
+        "de": {"w": "bedenken / überlegen", "d": "gründlich über etwas nachdenken, bevor man entscheidet"},
+        "es": {"w": "considerar / pensar en", "d": "pensar con cuidado en algo antes de decidir"},
+        "fr": {"w": "réfléchir à / envisager", "d": "penser sérieusement à quelque chose avant de décider"}
+      }
+    },
+    {
+      "word": "recognise",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈrekəɡnaɪz/",
+      "def": "To know someone or something because you have seen them before.",
+      "example": "I didn't recognise my old school friend because he had a beard.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتعرّف على", "d": "أن تعرف شخصاً أو شيئاً لأنك رأيته من قبل"},
+        "zh": {"w": "认出", "d": "因为以前见过，所以知道是谁或是什么"},
+        "de": {"w": "wiedererkennen", "d": "wissen, wer oder was jemand ist, weil man ihn schon einmal gesehen hat"},
+        "es": {"w": "reconocer", "d": "saber quién o qué es algo porque ya lo has visto antes"},
+        "fr": {"w": "reconnaître", "d": "savoir qui ou ce que c'est parce qu'on l'a déjà vu"}
+      }
+    },
+    {
+      "word": "realise",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈriːəlaɪz/",
+      "def": "To suddenly understand or notice something that is true.",
+      "example": "I didn't realise that this decision was so important.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُدرك", "d": "أن تفهم أو تلاحظ فجأة أمراً صحيحاً"},
+        "zh": {"w": "意识到", "d": "突然明白或注意到某个事实"},
+        "de": {"w": "merken / begreifen", "d": "plötzlich verstehen oder bemerken, dass etwas wahr ist"},
+        "es": {"w": "darse cuenta de", "d": "entender o notar de repente que algo es verdad"},
+        "fr": {"w": "se rendre compte", "d": "comprendre ou remarquer soudain que quelque chose est vrai"}
+      }
+    },
+    {
+      "word": "study abroad",
+      "pos": "verb phrase",
+      "level": "B1",
+      "ipa": "/ˈstʌdi əˈbrɔːd/",
+      "def": "To go to school or university in another country.",
+      "example": "Studying abroad helped Omar become more independent.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يدرس في الخارج", "d": "أن تذهب إلى مدرسة أو جامعة في بلد آخر"},
+        "zh": {"w": "出国留学", "d": "去另一个国家上学或上大学"},
+        "de": {"w": "im Ausland studieren", "d": "in einem anderen Land zur Schule oder Universität gehen"},
+        "es": {"w": "estudiar en el extranjero", "d": "ir a la escuela o la universidad en otro país"},
+        "fr": {"w": "étudier à l'étranger", "d": "aller à l'école ou à l'université dans un autre pays"}
+      }
+    },
+    {
+      "word": "take advantage of",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/teɪk ədˈvɑːntɪdʒ əv/",
+      "def": "To use a good chance or situation while you can.",
+      "example": "I'd take advantage of every chance I had to talk with people from other countries.",
+      "opposite": "miss",
+      "tr": {
+        "ar": {"w": "يغتنم / يستغلّ", "d": "أن تستفيد من فرصة أو موقف جيد ما دام ذلك ممكناً"},
+        "zh": {"w": "利用 / 抓住（机会）", "d": "趁着能用的时候利用好机会"},
+        "de": {"w": "nutzen", "d": "eine gute Gelegenheit nutzen, solange man kann"},
+        "es": {"w": "aprovechar", "d": "usar una buena oportunidad mientras puedes"},
+        "fr": {"w": "profiter de", "d": "utiliser une bonne occasion tant qu'on le peut"}
+      }
+    },
+    {
+      "word": "quit",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/kwɪt/",
+      "def": "To leave your job or stop doing something because you want to.",
+      "example": "My friend yelled at his boss and quit.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يستقيل / يترك", "d": "أن تترك عملك أو تتوقف عن شيء لأنك تريد ذلك"},
+        "zh": {"w": "辞职 / 放弃", "d": "自己决定离开工作或不再做某事"},
+        "de": {"w": "kündigen / aufhören", "d": "seine Arbeit verlassen oder mit etwas aufhören, weil man es will"},
+        "es": {"w": "dejar / renunciar", "d": "dejar tu trabajo o algo que haces porque quieres"},
+        "fr": {"w": "démissionner / arrêter", "d": "quitter son travail ou arrêter quelque chose parce qu'on le veut"}
+      }
+    },
+    {
+      "word": "yell",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/jel/",
+      "def": "To shout very loudly, often because you are angry.",
+      "example": "He yelled at his boss in front of everyone.",
+      "opposite": "whisper",
+      "tr": {
+        "ar": {"w": "يصرخ", "d": "أن ترفع صوتك جداً، غالباً لأنك غاضب"},
+        "zh": {"w": "大喊 / 吼叫", "d": "很大声地喊，常常是因为生气"},
+        "de": {"w": "anschreien / brüllen", "d": "sehr laut rufen, oft weil man wütend ist"},
+        "es": {"w": "gritar", "d": "hablar muy fuerte, a menudo porque estás enfadado"},
+        "fr": {"w": "crier / hurler", "d": "parler très fort, souvent parce qu'on est en colère"}
+      }
+    },
+    {
+      "word": "hometown",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhəʊmtaʊn/",
+      "def": "The place where you were born or grew up.",
+      "example": "If I hadn't left my hometown, I wouldn't have learned English so well.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مسقط الرأس", "d": "المكان الذي وُلدت أو نشأت فيه"},
+        "zh": {"w": "家乡", "d": "你出生或长大的地方"},
+        "de": {"w": "Heimatstadt", "d": "der Ort, an dem man geboren oder aufgewachsen ist"},
+        "es": {"w": "ciudad natal", "d": "lugar donde naciste o creciste"},
+        "fr": {"w": "ville natale", "d": "l'endroit où l'on est né ou a grandi"}
+      }
+    },
+    {
+      "word": "leave school",
+      "pos": "verb phrase",
+      "level": "B1",
+      "ipa": "/ˌliːv ˈskuːl/",
+      "def": "To stop your education and stop going to classes.",
+      "example": "I wish I hadn't left school so early.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يترك المدرسة", "d": "أن تُنهي تعليمك وتتوقف عن حضور الدروس"},
+        "zh": {"w": "离开学校 / 辍学", "d": "结束学业，不再去上课"},
+        "de": {"w": "die Schule verlassen", "d": "mit der Ausbildung aufhören und nicht mehr zum Unterricht gehen"},
+        "es": {"w": "dejar el colegio", "d": "terminar los estudios y dejar de ir a clase"},
+        "fr": {"w": "quitter l'école", "d": "arrêter ses études et ne plus aller en cours"}
+      }
+    },
+    {
+      "word": "graduate",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈɡrædʒueɪt/",
+      "def": "To finish your university studies and get a degree.",
+      "example": "When I graduated, I started working in a bank.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتخرّج", "d": "أن تُنهي دراستك الجامعية وتحصل على شهادة"},
+        "zh": {"w": "毕业", "d": "完成大学学业并拿到学位"},
+        "de": {"w": "den Abschluss machen", "d": "das Studium beenden und einen Abschluss bekommen"},
+        "es": {"w": "graduarse", "d": "terminar los estudios universitarios y obtener un título"},
+        "fr": {"w": "obtenir son diplôme", "d": "finir ses études à l'université et avoir un diplôme"}
+      }
+    },
+    {
+      "word": "deduction",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/dɪˈdʌkʃn/",
+      "def": "An answer you find by thinking about the facts you have.",
+      "example": "'He must have missed the bus' is a deduction, because he is late.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "استنتاج", "d": "جواب تصل إليه بالتفكير في الحقائق التي لديك"},
+        "zh": {"w": "推断", "d": "根据已知事实想出来的结论"},
+        "de": {"w": "Schlussfolgerung", "d": "eine Antwort, die man durch Nachdenken über die Fakten findet"},
+        "es": {"w": "deducción", "d": "respuesta a la que llegas pensando en los datos que tienes"},
+        "fr": {"w": "déduction", "d": "réponse qu'on trouve en réfléchissant aux faits qu'on a"}
+      }
+    },
+    {
+      "word": "seed",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/siːd/",
+      "def": "A small part of a plant that a new plant grows from.",
+      "example": "A big decision is like a seed: it grows and changes your whole life.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بذرة", "d": "جزء صغير من النبات ينمو منه نبات جديد"},
+        "zh": {"w": "种子", "d": "能长出新植物的植物小部分"},
+        "de": {"w": "Samen", "d": "ein kleiner Teil einer Pflanze, aus dem eine neue Pflanze wächst"},
+        "es": {"w": "semilla", "d": "parte pequeña de una planta de la que crece una planta nueva"},
+        "fr": {"w": "graine", "d": "petite partie d'une plante d'où pousse une nouvelle plante"}
+      }
+    },
+    {
+      "word": "root",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ruːt/",
+      "def": "The part of a plant that grows under the ground.",
+      "example": "The tree has deep roots, so the wind can't knock it down.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جَذر", "d": "جزء النبات الذي ينمو تحت الأرض"},
+        "zh": {"w": "根", "d": "植物长在地下的部分"},
+        "de": {"w": "Wurzel", "d": "der Teil einer Pflanze, der unter der Erde wächst"},
+        "es": {"w": "raíz", "d": "parte de la planta que crece bajo la tierra"},
+        "fr": {"w": "racine", "d": "partie d'une plante qui pousse sous la terre"}
+      }
+    },
+    {
+      "word": "leaf",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/liːf/",
+      "def": "One of the flat green parts that grow on a tree. Plural: leaves.",
+      "example": "In autumn, the leaves fall from the trees.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ورقة شجر", "d": "أحد الأجزاء الخضراء المسطّحة التي تنمو على الشجرة، وجمعها leaves"},
+        "zh": {"w": "叶子", "d": "树上长的扁平绿色部分，复数是 leaves"},
+        "de": {"w": "Blatt", "d": "einer der flachen grünen Teile an einem Baum; Plural: leaves"},
+        "es": {"w": "hoja", "d": "una de las partes verdes y planas que crecen en un árbol; plural: leaves"},
+        "fr": {"w": "feuille", "d": "une des parties vertes et plates qui poussent sur un arbre ; pluriel : leaves"}
+      }
+    },
+    {
+      "word": "muscular",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈmʌskjələ/",
+      "def": "With a strong body and big arms and legs, from exercise.",
+      "example": "He goes to the gym every day, so he's very muscular.",
+      "opposite": "thin",
+      "tr": {
+        "ar": {"w": "مفتول العضلات", "d": "له جسم قوي وذراعان وساقان كبيرة بسبب التمارين"},
+        "zh": {"w": "肌肉发达的", "d": "因为锻炼，身体强壮，胳膊和腿很粗壮"},
+        "de": {"w": "muskulös", "d": "mit einem starken Körper durch viel Sport"},
+        "es": {"w": "musculoso", "d": "con un cuerpo fuerte y brazos y piernas grandes por el ejercicio"},
+        "fr": {"w": "musclé", "d": "avec un corps fort et de gros bras grâce au sport"}
+      }
+    },
+    {
+      "word": "amusement park",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/əˈmjuːzmənt pɑːk/",
+      "def": "A large place with rides and games where people go for fun.",
+      "example": "We spent the whole day at the amusement park.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مدينة ملاهٍ", "d": "مكان كبير فيه ألعاب وأجهزة ترفيه يذهب إليه الناس للمتعة"},
+        "zh": {"w": "游乐园", "d": "有各种游乐设施和游戏、供人玩乐的大地方"},
+        "de": {"w": "Vergnügungspark", "d": "ein großer Ort mit Fahrgeschäften und Spielen, wo man Spaß hat"},
+        "es": {"w": "parque de atracciones", "d": "lugar grande con atracciones y juegos para divertirse"},
+        "fr": {"w": "parc d'attractions", "d": "grand endroit avec des manèges et des jeux pour s'amuser"}
+      }
+    },
+    {
+      "word": "theme park",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈθiːm pɑːk/",
+      "def": "A very big place for fun with rides and shows, built around one idea.",
+      "example": "Disneyland is the most famous theme park in the world.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مدينة ملاهٍ ذات طابع خاص", "d": "مكان كبير جداً للترفيه فيه ألعاب وعروض مبنية حول فكرة واحدة"},
+        "zh": {"w": "主题公园", "d": "围绕一个主题建造、有游乐设施和表演的大型娱乐场所"},
+        "de": {"w": "Freizeitpark / Themenpark", "d": "ein sehr großer Vergnügungsort mit Fahrgeschäften und Shows zu einem Thema"},
+        "es": {"w": "parque temático", "d": "lugar muy grande de diversión, con atracciones y espectáculos sobre un tema"},
+        "fr": {"w": "parc à thème", "d": "très grand lieu de loisirs avec manèges et spectacles autour d'une idée"}
+      }
+    },
+    {
+      "word": "funfair",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈfʌnfeə/",
+      "def": "An outdoor event with rides, games and food that stays for a short time.",
+      "example": "Every summer a funfair comes to the park in our town.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مدينة ملاهٍ متنقّلة", "d": "حدث في الهواء الطلق فيه ألعاب وأجهزة ترفيه وطعام لفترة قصيرة"},
+        "zh": {"w": "流动游乐场", "d": "在户外短期举办、有游乐设施、游戏和吃的活动"},
+        "de": {"w": "Jahrmarkt / Kirmes", "d": "ein Fest im Freien mit Fahrgeschäften, Spielen und Essen für kurze Zeit"},
+        "es": {"w": "feria", "d": "evento al aire libre con atracciones, juegos y comida durante poco tiempo"},
+        "fr": {"w": "fête foraine", "d": "événement en plein air avec manèges, jeux et nourriture pour peu de temps"}
+      }
+    },
+    {
+      "word": "ride",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/raɪd/",
+      "def": "A big machine at a fair or park that you sit in for fun.",
+      "example": "Our ticket let us go on all the rides.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لعبة ملاهٍ", "d": "آلة كبيرة في الملاهي تركبها للتسلية"},
+        "zh": {"w": "游乐设施", "d": "游乐场里供人坐着玩的大机器"},
+        "de": {"w": "Fahrgeschäft", "d": "eine große Maschine auf dem Jahrmarkt, in der man zum Spaß fährt"},
+        "es": {"w": "atracción", "d": "máquina grande de una feria o parque en la que te subes para divertirte"},
+        "fr": {"w": "attraction / manège", "d": "grande machine dans une fête ou un parc où l'on monte pour s'amuser"}
+      }
+    },
+    {
+      "word": "roller coaster",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈrəʊlə ˌkəʊstə/",
+      "def": "A fast ride on a track that goes up and down very steeply.",
+      "example": "The roller coaster was scary at first, but then it was great fun.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قطار الملاهي (الأفعوانية)", "d": "لعبة سريعة على سكة تصعد وتهبط بشدة"},
+        "zh": {"w": "过山车", "d": "在轨道上快速冲上冲下的游乐设施"},
+        "de": {"w": "Achterbahn", "d": "eine schnelle Bahn, die steil hoch und runter fährt"},
+        "es": {"w": "montaña rusa", "d": "atracción rápida que sube y baja mucho por una vía"},
+        "fr": {"w": "montagnes russes", "d": "attraction rapide sur des rails qui montent et descendent fortement"}
+      }
+    },
+    {
+      "word": "big wheel",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌbɪɡ ˈwiːl/",
+      "def": "A very tall round ride that turns slowly and takes you high up.",
+      "example": "We went on the big wheel at sunset and saw the whole city.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "العجلة الدوّارة", "d": "لعبة دائرية عالية جداً تدور ببطء وترفعك إلى الأعلى"},
+        "zh": {"w": "摩天轮", "d": "很高的圆形游乐设施，慢慢转动把人带到高处"},
+        "de": {"w": "Riesenrad", "d": "ein sehr hohes, rundes Fahrgeschäft, das sich langsam dreht"},
+        "es": {"w": "noria", "d": "atracción redonda y muy alta que gira despacio y te sube muy arriba"},
+        "fr": {"w": "grande roue", "d": "attraction ronde très haute qui tourne lentement et monte très haut"}
+      }
+    },
+    {
+      "word": "merry-go-round",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈmeri ɡəʊ ˌraʊnd/",
+      "def": "A turning ride for children with model horses and music.",
+      "example": "The children laughed as they went round on the merry-go-round.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "دوّامة الخيول", "d": "لعبة دوّارة للأطفال فيها خيول صغيرة وموسيقى"},
+        "zh": {"w": "旋转木马", "d": "有木马和音乐、给孩子玩的转圈游乐设施"},
+        "de": {"w": "Karussell", "d": "ein Fahrgeschäft für Kinder mit Pferdefiguren und Musik, das sich dreht"},
+        "es": {"w": "tiovivo / carrusel", "d": "atracción que gira, para niños, con caballitos y música"},
+        "fr": {"w": "carrousel / manège", "d": "attraction qui tourne pour les enfants, avec des chevaux de bois et de la musique"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Third conditional",
+      "explain": "We use the third conditional to imagine a different past. The situation is finished and we can't change it. We often use it to talk about regrets. Use 'might have' when you are not sure about the result.",
+      "explain_ar": "نستخدم الحالة الشرطية الثالثة لتخيّل ماضٍ مختلف عمّا حدث. الموقف انتهى ولا يمكن تغييره، ونستخدمها كثيراً للتعبير عن الندم. نستخدم might have عندما لا نكون متأكدين من النتيجة.",
+      "form": [
+        "If + had + past participle, would have + past participle",
+        "If + had + past participle, might have + past participle (= maybe)",
+        "would have + past participle + if + had + past participle"
+      ],
+      "examples": [
+        {"en": "I wouldn't have made the same decision if I had known.", "note": "John regrets his decision."},
+        {"en": "If I hadn't left the UK, I might have married Claire.", "note": "Wilson left the UK. Maybe he would have married Claire."},
+        {"en": "I still would've done the same thing.", "note": "Alice doesn't regret her decision."},
+        {"en": "If I had studied harder, I would have passed the exam.", "note": "I didn't study hard, so I failed."}
+      ],
+      "mistakes": [
+        {"wrong": "If I would have known, I would have helped.", "right": "If I had known, I would have helped.", "why": "No 'would' in the if-part."},
+        {"wrong": "If I had left earlier, I would caught the bus.", "right": "If I had left earlier, I would have caught the bus.", "why": "The result needs 'would have' + past participle."},
+        {"wrong": "If I hadn't leave my hometown...", "right": "If I hadn't left my hometown...", "why": "After 'had' use the past participle."},
+        {"wrong": "I would have went on holiday.", "right": "I would have gone on holiday.", "why": "Use the past participle (gone), not the past simple (went)."}
+      ],
+      "quiz": [
+        {"q": "If she ___ earlier, she wouldn't have missed the bus.", "options": ["had left", "left", "would leave"], "answer": 0, "why": "if + had + past participle."},
+        {"q": "If I had known about the party, I ___ .", "options": ["would have come", "would come", "had come"], "answer": 0, "why": "Result: would have + past participle."},
+        {"q": "If I hadn't moved to Cairo, I ___ met my wife.", "options": ["might not have", "might not", "hadn't"], "answer": 0, "why": "might not have + past participle = maybe not."},
+        {"q": "'I still would've done the same thing.' Does the speaker regret it?", "options": ["No", "Yes", "We can't know"], "answer": 0, "why": "'Still' shows she is happy with her choice."},
+        {"q": "I wouldn't have got sick if I ___ the tap water.", "options": ["hadn't drunk", "didn't drink", "wouldn't drink"], "answer": 0, "why": "if + had(n't) + past participle."},
+        {"q": "Choose the correct sentence.", "options": ["If he had asked me, I would have helped.", "If he would have asked me, I would have helped.", "If he asked me, I would have help."], "answer": 0, "why": "had + past participle in the if-part, would have + past participle in the result."}
+      ]
+    },
+    {
+      "title": "Talking about regrets: I wish / If only / should have / regret + -ing",
+      "explain": "We use these forms to say we are sorry about the past. 'I wish' and 'If only' + past perfect talk about past things we can't change. 'If only' is stronger.",
+      "explain_ar": "نستخدم هذه التراكيب لنقول إننا نادمون على شيء في الماضي. I wish و If only مع الماضي التام تتحدث عن أشياء في الماضي لا يمكن تغييرها، و If only أقوى في التعبير. ونستخدم should have للوم أنفسنا، و regret مع ‎-ing للندم المباشر.",
+      "form": [
+        "I wish + past perfect (I wish I hadn't left school so early.)",
+        "If only + past perfect (If only I had listened!)",
+        "should have + past participle (I should have called her.)",
+        "regret + verb-ing (I regret leaving my job.)",
+        "I wish + past simple = present regret (I wish I had more time.)"
+      ],
+      "examples": [
+        {"en": "I wish I hadn't left school so early.", "note": "Grace left school early and now she is sorry."},
+        {"en": "If only I had listened to my teacher!", "note": "A strong regret."},
+        {"en": "I should have booked the hotel earlier.", "note": "I didn't book early, and that was a mistake."},
+        {"en": "I regret leaving my old company.", "note": "regret + -ing"}
+      ],
+      "mistakes": [
+        {"wrong": "I wish I didn't leave school.", "right": "I wish I hadn't left school.", "why": "For the past, use wish + past perfect."},
+        {"wrong": "I regret to leave my job last year.", "right": "I regret leaving my job last year.", "why": "For past actions, use regret + -ing."},
+        {"wrong": "I should have call her.", "right": "I should have called her.", "why": "should have + past participle."},
+        {"wrong": "Why are you regret it?", "right": "Why do you regret it?", "why": "'Regret' is a normal verb, so the question needs 'do'."}
+      ],
+      "quiz": [
+        {"q": "I wish I ___ so much money last weekend.", "options": ["hadn't spent", "didn't spend", "don't spend"], "answer": 0, "why": "Past regret: wish + past perfect."},
+        {"q": "If only I ___ to your advice!", "options": ["had listened", "listen", "would listen"], "answer": 0, "why": "If only + past perfect."},
+        {"q": "I'm so tired. I should ___ to bed earlier.", "options": ["have gone", "went", "have go"], "answer": 0, "why": "should have + past participle."},
+        {"q": "She regrets ___ the job in London.", "options": ["not taking", "not to take", "didn't take"], "answer": 0, "why": "regret + -ing."},
+        {"q": "I wish I ___ more free time now.", "options": ["had", "had had", "have"], "answer": 0, "why": "Present regret: wish + past simple."}
+      ]
+    },
+    {
+      "title": "Weak forms and contractions in past conditionals",
+      "explain": "In fast speech, 'have' in 'would have' is weak and sounds like /əv/, so 'would have' sounds like 'would've' /ˈwʊdəv/. 'Had not' becomes 'hadn't' and 'would not' becomes 'wouldn't'.",
+      "explain_ar": "في الكلام السريع تُنطق have في would have ضعيفة مثل /əv/، فتُصبح would have مثل would've. وتُختصر had not إلى hadn't و would not إلى wouldn't.",
+      "form": [
+        "would have → would've /ˈwʊdəv/",
+        "wouldn't have → /ˈwʊdnt əv/",
+        "had not → hadn't",
+        "I had → I'd"
+      ],
+      "examples": [
+        {"en": "I still would've done the same thing.", "note": "would've = would have"},
+        {"en": "I wouldn't have made the same decision.", "note": "'have' sounds like /əv/."},
+        {"en": "If I hadn't left the UK...", "note": "hadn't = had not"},
+        {"en": "If I'd known, I would've helped.", "note": "Here I'd = I had (not I would)."}
+      ],
+      "mistakes": [
+        {"wrong": "I would of done the same.", "right": "I would have (would've) done the same.", "why": "It sounds like 'of', but we write 'have' or 've."},
+        {"wrong": "If I would known...", "right": "If I'd known...", "why": "In the if-part, I'd = I had."}
+      ],
+      "quiz": [
+        {"q": "'would've' is short for...", "options": ["would have", "would of", "would give"], "answer": 0, "why": "'ve = have."},
+        {"q": "In 'If I'd known', 'I'd' means...", "options": ["I had", "I would", "I did"], "answer": 0, "why": "After 'if' + past participle, 'd = had."},
+        {"q": "How do we usually say 'have' in 'should have gone'?", "options": ["weak, like /əv/", "strong, like /hæv/", "we don't say it"], "answer": 0, "why": "'Have' is a weak form in fast speech."},
+        {"q": "Which is written correctly?", "options": ["I wouldn't have known.", "I wouldn't of known.", "I wouldn't known."], "answer": 0, "why": "Write 'have', not 'of'."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "When I finished school, ...", "use": "Time linker: telling your life story (the oldest event)"},
+    {"en": "Then, when I was 19, ...", "use": "Time linker: telling your life story"},
+    {"en": "Since leaving university, ...", "use": "Time linker: from a past time until now"},
+    {"en": "By the age of thirty, ...", "use": "Time linker: at or before a certain age"},
+    {"en": "In the last couple of months, ...", "use": "Time linker: very recent events"},
+    {"en": "I've got two children now.", "use": "Talking about your life now"},
+    {"en": "It was a big decision.", "use": "Talking about decisions"},
+    {"en": "There's a lot to consider.", "use": "Saying a decision is not easy"},
+    {"en": "Do you regret it?", "use": "Asking about someone's decision"},
+    {"en": "I wouldn't have made the same decision if I had known.", "use": "Saying you regret a decision"},
+    {"en": "I still would've done the same thing.", "use": "Saying you don't regret a decision"},
+    {"en": "I wish I hadn't left school so early.", "use": "Expressing regret"},
+    {"en": "Would you have done the same thing?", "use": "Asking a partner after their story"}
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "id": 25,
+  "title": "Men Are from Mars, Women Are from Venus",
+  "summary": "We discussed whether men and women are really different, and talked about stereotypes, gender roles and peer pressure. We practised agreeing and disagreeing politely, and we used tentative language (tend to, it seems that, it could be argued) to avoid over-generalisations.",
+  "source": "ARB_B1_09_I052CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "stereotyping",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈsteriətaɪpɪŋ/",
+      "def": "Thinking that all people in a group are the same, often unfairly.",
+      "example": "Amy thinks there is still a lot of stereotyping about what boys and girls should like.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التنميط", "d": "الاعتقاد بأن جميع أفراد مجموعة ما متشابهون، وغالباً بشكل غير عادل"},
+        "zh": {"w": "刻板化 / 成见", "d": "认为一个群体里的人都一样，常常不公平"},
+        "de": {"w": "Stereotypisierung", "d": "die Vorstellung, dass alle Menschen einer Gruppe gleich sind, oft unfair"},
+        "es": {"w": "estereotipación", "d": "pensar que todas las personas de un grupo son iguales, a menudo de forma injusta"},
+        "fr": {"w": "stéréotypage", "d": "penser que toutes les personnes d'un groupe sont pareilles, souvent injustement"}
+      }
+    },
+    {
+      "word": "stereotypical",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌsteriəˈtɪpɪkl/",
+      "def": "Matching a fixed and too simple idea of what a type of person is like.",
+      "example": "In the film, the father is a stereotypical man who never cooks or cleans.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نمطي", "d": "يطابق فكرة ثابتة ومبسّطة جداً عن نوع معيّن من الناس"},
+        "zh": {"w": "刻板的 / 模式化的", "d": "符合对某类人的固定而过于简单的看法"},
+        "de": {"w": "stereotyp / klischeehaft", "d": "passend zu einem festen, zu einfachen Bild von einer Art Mensch"},
+        "es": {"w": "estereotipado", "d": "que corresponde a una idea fija y demasiado simple de un tipo de persona"},
+        "fr": {"w": "stéréotypé", "d": "qui correspond à une idée figée et trop simple d'un type de personne"}
+      }
+    },
+    {
+      "word": "gender roles",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈdʒendə rəʊlz/",
+      "def": "The jobs and behaviour that a society expects from men or from women.",
+      "example": "Bart's sister believes children shouldn't be forced into gender roles.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أدوار الجنسين", "d": "الأعمال والسلوكيات التي يتوقعها المجتمع من الرجال أو من النساء"},
+        "zh": {"w": "性别角色", "d": "社会期望男人或女人做的事情和行为方式"},
+        "de": {"w": "Geschlechterrollen", "d": "Aufgaben und Verhalten, die eine Gesellschaft von Männern oder Frauen erwartet"},
+        "es": {"w": "roles de género", "d": "las tareas y el comportamiento que la sociedad espera de los hombres o de las mujeres"},
+        "fr": {"w": "rôles de genre", "d": "les tâches et comportements que la société attend des hommes ou des femmes"}
+      }
+    },
+    {
+      "word": "learned behaviour",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌlɜːnd bɪˈheɪvjə/",
+      "def": "Behaviour you get from experience and from people around you, not from birth.",
+      "example": "Amy says that boys act like 'typical boys' because of learned behaviour, not nature.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سلوك مكتسب", "d": "سلوك تكتسبه من التجربة ومن الناس حولك، وليس منذ الولادة"},
+        "zh": {"w": "习得行为", "d": "通过经历和周围的人学到的行为，不是天生的"},
+        "de": {"w": "erlerntes Verhalten", "d": "Verhalten, das man durch Erfahrung und sein Umfeld lernt, nicht angeboren"},
+        "es": {"w": "comportamiento aprendido", "d": "conducta que se adquiere por la experiencia y el entorno, no desde el nacimiento"},
+        "fr": {"w": "comportement acquis", "d": "comportement appris par l'expérience et l'entourage, pas inné"}
+      }
+    },
+    {
+      "word": "girly girl",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌɡɜːli ˈɡɜːl/",
+      "def": "A girl or woman who chooses to act in a very traditional female way.",
+      "example": "My sister is a real girly girl; she loves pink dresses and make-up.",
+      "opposite": "tomboy",
+      "tr": {
+        "ar": {"w": "فتاة أنثوية جداً", "d": "فتاة أو امرأة تختار أن تتصرف بطريقة أنثوية تقليدية جداً"},
+        "zh": {"w": "很女孩子气的女孩", "d": "选择以非常传统的女性方式行事的女孩或女人"},
+        "de": {"w": "typisches Mädchen", "d": "ein Mädchen oder eine Frau, die sich sehr traditionell weiblich verhält"},
+        "es": {"w": "chica muy femenina", "d": "chica o mujer que elige comportarse de forma muy tradicionalmente femenina"},
+        "fr": {"w": "fille très girly", "d": "fille ou femme qui choisit d'agir de façon très traditionnellement féminine"}
+      }
+    },
+    {
+      "word": "typical boy",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌtɪpɪkl ˈbɔɪ/",
+      "def": "A boy who behaves in the way people usually expect boys to behave.",
+      "example": "Bart says his nephew is a typical boy: noisy, full of energy and always wanting to fight.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صبي نموذجي", "d": "صبي يتصرف بالطريقة التي يتوقعها الناس عادةً من الصبيان"},
+        "zh": {"w": "典型的男孩", "d": "行为方式符合人们对男孩通常期望的男孩"},
+        "de": {"w": "typischer Junge", "d": "ein Junge, der sich so verhält, wie man es von Jungen erwartet"},
+        "es": {"w": "niño típico", "d": "niño que se comporta como la gente suele esperar de los niños"},
+        "fr": {"w": "garçon typique", "d": "garçon qui se comporte comme on l'attend habituellement des garçons"}
+      }
+    },
+    {
+      "word": "feminist",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfemənɪst/",
+      "def": "A person who believes women should have the same rights as men.",
+      "example": "As a feminist, she thinks girls and boys should get the same chances at school.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نسوي / نسوية", "d": "شخص يؤمن بأن للمرأة نفس حقوق الرجل"},
+        "zh": {"w": "女权主义者", "d": "认为女性应该和男性拥有同样权利的人"},
+        "de": {"w": "Feminist / Feministin", "d": "jemand, der glaubt, dass Frauen die gleichen Rechte wie Männer haben sollten"},
+        "es": {"w": "feminista", "d": "persona que cree que las mujeres deben tener los mismos derechos que los hombres"},
+        "fr": {"w": "féministe", "d": "personne qui pense que les femmes doivent avoir les mêmes droits que les hommes"}
+      }
+    },
+    {
+      "word": "conform",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/kənˈfɔːm/",
+      "def": "To follow the usual rules or behave in the same way as most people.",
+      "example": "Many teenagers conform because they don't want to look different from their friends.",
+      "opposite": "rebel",
+      "tr": {
+        "ar": {"w": "يمتثل / يتماشى", "d": "أن تتبع القواعد المعتادة أو تتصرف مثل معظم الناس"},
+        "zh": {"w": "顺从 / 随大流", "d": "遵守常规，或者和大多数人一样行事"},
+        "de": {"w": "sich anpassen", "d": "die üblichen Regeln befolgen oder sich wie die meisten verhalten"},
+        "es": {"w": "adaptarse / conformarse", "d": "seguir las normas habituales o comportarse como la mayoría"},
+        "fr": {"w": "se conformer", "d": "suivre les règles habituelles ou agir comme la plupart des gens"}
+      }
+    },
+    {
+      "word": "fit in",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌfɪt ˈɪn/",
+      "def": "To feel that you belong to a group and are accepted by it.",
+      "example": "Kids often choose the same toys as their friends because they want to fit in.",
+      "opposite": "stand out",
+      "tr": {
+        "ar": {"w": "يندمج / ينسجم", "d": "أن تشعر بأنك تنتمي إلى مجموعة وأنها تقبلك"},
+        "zh": {"w": "融入 / 合群", "d": "感到自己属于一个群体并被接受"},
+        "de": {"w": "dazugehören", "d": "das Gefühl haben, zu einer Gruppe zu gehören und akzeptiert zu sein"},
+        "es": {"w": "encajar", "d": "sentir que perteneces a un grupo y que te acepta"},
+        "fr": {"w": "s'intégrer", "d": "sentir qu'on fait partie d'un groupe et qu'on y est accepté"}
+      }
+    },
+    {
+      "word": "peer pressure",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈpɪə ˌpreʃə/",
+      "def": "The strong feeling that you must do what people your age or in your group do.",
+      "example": "Because of peer pressure, he stopped playing with dolls when he started school.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ضغط الأقران", "d": "الشعور القوي بأنه يجب أن تفعل ما يفعله من هم في سنّك أو مجموعتك"},
+        "zh": {"w": "同伴压力", "d": "觉得必须和同龄人或同伴做一样事情的强烈感受"},
+        "de": {"w": "Gruppenzwang", "d": "das starke Gefühl, tun zu müssen, was Gleichaltrige oder die Gruppe tun"},
+        "es": {"w": "presión de grupo", "d": "la fuerte sensación de tener que hacer lo que hacen los de tu edad o tu grupo"},
+        "fr": {"w": "pression des pairs", "d": "le sentiment fort de devoir faire comme les gens de son âge ou de son groupe"}
+      }
+    },
+    {
+      "word": "tentative",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈtentətɪv/",
+      "def": "Careful and not too sure, so you don't sound like you know everything.",
+      "example": "Use tentative language like 'tend to' when you don't have strong evidence.",
+      "opposite": "definite",
+      "tr": {
+        "ar": {"w": "حذِر / غير قاطع", "d": "متأنٍّ وغير متأكد تماماً، حتى لا تبدو كأنك تعرف كل شيء"},
+        "zh": {"w": "试探性的 / 不确定的", "d": "谨慎、不太肯定，免得听起来什么都知道"},
+        "de": {"w": "vorsichtig / zurückhaltend", "d": "vorsichtig und nicht zu sicher, damit man nicht allwissend klingt"},
+        "es": {"w": "prudente / tentativo", "d": "cuidadoso y no muy seguro, para no parecer que lo sabes todo"},
+        "fr": {"w": "prudent / nuancé", "d": "prudent et pas trop sûr, pour ne pas avoir l'air de tout savoir"}
+      }
+    },
+    {
+      "word": "over-generalisation",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌəʊvə ˌdʒenrəlaɪˈzeɪʃn/",
+      "def": "Saying something is true for everyone in a group when it is not.",
+      "example": "'All women are better at languages than men' is an over-generalisation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تعميم مفرط", "d": "القول إن شيئاً ما صحيح لكل أفراد مجموعة وهو ليس كذلك"},
+        "zh": {"w": "过度概括", "d": "说某事对一个群体所有人都成立，但事实并非如此"},
+        "de": {"w": "Pauschalisierung", "d": "sagen, dass etwas für alle in einer Gruppe gilt, obwohl es nicht stimmt"},
+        "es": {"w": "generalización excesiva", "d": "decir que algo es cierto para todos los de un grupo cuando no lo es"},
+        "fr": {"w": "généralisation abusive", "d": "dire qu'une chose est vraie pour tout un groupe alors que ce n'est pas le cas"}
+      }
+    },
+    {
+      "word": "evidence",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈevɪdəns/",
+      "def": "Facts or information that show something is true.",
+      "example": "Don't make statements about men and women without any evidence.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "دليل", "d": "حقائق أو معلومات تُثبت أن شيئاً ما صحيح"},
+        "zh": {"w": "证据", "d": "证明某事是真的事实或信息"},
+        "de": {"w": "Beweis / Belege", "d": "Fakten oder Informationen, die zeigen, dass etwas wahr ist"},
+        "es": {"w": "pruebas", "d": "hechos o información que demuestran que algo es verdad"},
+        "fr": {"w": "preuve", "d": "faits ou informations qui montrent que quelque chose est vrai"}
+      }
+    },
+    {
+      "word": "spatial awareness",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌspeɪʃl əˈweənəs/",
+      "def": "Understanding where things are and how much space is around you.",
+      "example": "Some people say men have better spatial awareness, so they park more easily.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الإدراك المكاني", "d": "فهم أماكن الأشياء ومقدار المساحة من حولك"},
+        "zh": {"w": "空间意识", "d": "了解物体的位置以及周围有多少空间"},
+        "de": {"w": "räumliches Vorstellungsvermögen", "d": "verstehen, wo Dinge sind und wie viel Platz um einen herum ist"},
+        "es": {"w": "percepción espacial", "d": "entender dónde están las cosas y cuánto espacio hay alrededor"},
+        "fr": {"w": "perception spatiale", "d": "comprendre où sont les choses et l'espace qu'il y a autour de soi"}
+      }
+    },
+    {
+      "word": "multitasking",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌmʌltiˈtɑːskɪŋ/",
+      "def": "Doing more than one thing at the same time.",
+      "example": "You could argue that men and women are equally good at multitasking.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تعدد المهام", "d": "القيام بأكثر من عمل في الوقت نفسه"},
+        "zh": {"w": "多任务处理", "d": "同时做不止一件事"},
+        "de": {"w": "Multitasking", "d": "mehrere Dinge gleichzeitig tun"},
+        "es": {"w": "multitarea", "d": "hacer más de una cosa al mismo tiempo"},
+        "fr": {"w": "multitâche", "d": "faire plusieurs choses en même temps"}
+      }
+    },
+    {
+      "word": "domestic helper",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/dəˌmestɪk ˈhelpə/",
+      "def": "A person who is paid to clean, cook and look after a family's home.",
+      "example": "It seems that more domestic helpers are women than men.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عاملة منزلية", "d": "شخص يتقاضى أجراً للتنظيف والطبخ والعناية ببيت أسرة"},
+        "zh": {"w": "家政工 / 家庭佣工", "d": "受雇为家庭打扫、做饭和照看家务的人"},
+        "de": {"w": "Haushaltshilfe", "d": "eine Person, die für Putzen, Kochen und Haushalt einer Familie bezahlt wird"},
+        "es": {"w": "empleada doméstica", "d": "persona a la que pagan por limpiar, cocinar y cuidar la casa de una familia"},
+        "fr": {"w": "aide ménagère", "d": "personne payée pour faire le ménage, la cuisine et s'occuper de la maison"}
+      }
+    },
+    {
+      "word": "tend to",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈtend tə/",
+      "def": "To usually do something, or to be usually true.",
+      "example": "Parents tend to choose toys based on their child's gender.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يميل إلى", "d": "أن تفعل شيئاً عادةً، أو أن يكون الأمر صحيحاً في الغالب"},
+        "zh": {"w": "往往 / 倾向于", "d": "通常做某事，或者通常是这样"},
+        "de": {"w": "dazu neigen", "d": "etwas meistens tun oder meistens zutreffen"},
+        "es": {"w": "tender a / soler", "d": "hacer algo normalmente, o ser normalmente así"},
+        "fr": {"w": "avoir tendance à", "d": "faire quelque chose d'habitude, ou être généralement vrai"}
+      }
+    },
+    {
+      "word": "discipline",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ˈdɪsəplɪn/",
+      "def": "To punish a child or teach them to follow rules and behave well.",
+      "example": "In the past, some teachers hit boys to discipline them.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يؤدِّب", "d": "أن تعاقب طفلاً أو تعلّمه اتباع القواعد والتصرف بشكل جيد"},
+        "zh": {"w": "管教", "d": "惩罚孩子或教他们守规矩、表现好"},
+        "de": {"w": "disziplinieren / bestrafen", "d": "ein Kind bestrafen oder ihm beibringen, Regeln zu befolgen"},
+        "es": {"w": "disciplinar / castigar", "d": "castigar a un niño o enseñarle a seguir las normas"},
+        "fr": {"w": "discipliner / punir", "d": "punir un enfant ou lui apprendre à suivre les règles"}
+      }
+    },
+    {
+      "word": "cherish",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ˈtʃerɪʃ/",
+      "def": "To love someone very much and take good care of them.",
+      "example": "In our culture, women are cherished by their families.",
+      "opposite": "neglect",
+      "tr": {
+        "ar": {"w": "يعتزّ بـ / يرعى بحب", "d": "أن تحب شخصاً كثيراً وتعتني به جيداً"},
+        "zh": {"w": "珍爱", "d": "非常爱某人并好好照顾他们"},
+        "de": {"w": "hegen / wertschätzen", "d": "jemanden sehr lieben und gut für ihn sorgen"},
+        "es": {"w": "apreciar / querer mucho", "d": "querer mucho a alguien y cuidarlo bien"},
+        "fr": {"w": "chérir", "d": "aimer beaucoup quelqu'un et bien prendre soin de lui"}
+      }
+    },
+    {
+      "word": "treasure",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ˈtreʒə/",
+      "def": "To think that someone or something is very special and important to you.",
+      "example": "Women are valued and treasured by us; we say 'valued by', not 'valued to'.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعتزّ / يثمِّن", "d": "أن ترى شخصاً أو شيئاً مميزاً ومهماً جداً بالنسبة لك"},
+        "zh": {"w": "珍视", "d": "认为某人或某物对自己非常特别、非常重要"},
+        "de": {"w": "sehr schätzen", "d": "jemanden oder etwas für sehr besonders und wichtig halten"},
+        "es": {"w": "atesorar / valorar", "d": "considerar a alguien o algo muy especial e importante para ti"},
+        "fr": {"w": "tenir beaucoup à", "d": "trouver quelqu'un ou quelque chose très spécial et important pour soi"}
+      }
+    },
+    {
+      "word": "tomboy",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈtɒmbɔɪ/",
+      "def": "A girl who likes games, clothes and activities that people think are for boys.",
+      "example": "As a child, she was a tomboy who played football and climbed trees.",
+      "opposite": "girly girl",
+      "tr": {
+        "ar": {"w": "فتاة صبيانية", "d": "فتاة تحب الألعاب والملابس والأنشطة التي يراها الناس للصبيان"},
+        "zh": {"w": "假小子", "d": "喜欢人们认为属于男孩的游戏、衣服和活动的女孩"},
+        "de": {"w": "Wildfang", "d": "ein Mädchen, das Spiele, Kleidung und Aktivitäten mag, die als typisch für Jungen gelten"},
+        "es": {"w": "chicazo", "d": "chica a la que le gustan juegos, ropa y actividades que se consideran de chicos"},
+        "fr": {"w": "garçon manqué", "d": "fille qui aime les jeux, vêtements et activités qu'on pense être pour les garçons"}
+      }
+    },
+    {
+      "word": "taciturn",
+      "pos": "adjective",
+      "level": "C2",
+      "ipa": "/ˈtæsɪtɜːn/",
+      "def": "Saying very little and not liking to talk much.",
+      "example": "People often say men are taciturn and don't talk about their feelings.",
+      "opposite": "talkative",
+      "tr": {
+        "ar": {"w": "قليل الكلام", "d": "يتكلم قليلاً جداً ولا يحب الحديث كثيراً"},
+        "zh": {"w": "沉默寡言的", "d": "话很少，不太喜欢说话"},
+        "de": {"w": "wortkarg / schweigsam", "d": "sagt sehr wenig und redet nicht gern"},
+        "es": {"w": "taciturno / callado", "d": "que habla muy poco y no le gusta hablar mucho"},
+        "fr": {"w": "taciturne", "d": "qui parle très peu et n'aime pas beaucoup parler"}
+      }
+    },
+    {
+      "word": "loquacious",
+      "pos": "adjective",
+      "level": "C2",
+      "ipa": "/ləˈkweɪʃəs/",
+      "def": "Talking a lot; liking to talk.",
+      "example": "My aunt is so loquacious that nobody else can say a word at dinner.",
+      "opposite": "taciturn",
+      "tr": {
+        "ar": {"w": "كثير الكلام / ثرثار", "d": "يتكلم كثيراً ويحب الحديث"},
+        "zh": {"w": "话多的 / 健谈的", "d": "说很多话，喜欢说话"},
+        "de": {"w": "redselig / gesprächig", "d": "redet viel und gern"},
+        "es": {"w": "locuaz / hablador", "d": "que habla mucho y le gusta hablar"},
+        "fr": {"w": "bavard / loquace", "d": "qui parle beaucoup et aime parler"}
+      }
+    },
+    {
+      "word": "belligerent",
+      "pos": "adjective",
+      "level": "C2",
+      "ipa": "/bəˈlɪdʒərənt/",
+      "def": "Angry and ready to fight or argue.",
+      "example": "He became belligerent when someone disagreed with him.",
+      "opposite": "peaceful",
+      "tr": {
+        "ar": {"w": "عدواني / مشاكس", "d": "غاضب ومستعد للشجار أو الجدال"},
+        "zh": {"w": "好斗的", "d": "生气并随时准备打架或争吵"},
+        "de": {"w": "streitlustig / aggressiv", "d": "wütend und bereit zu kämpfen oder zu streiten"},
+        "es": {"w": "agresivo / beligerante", "d": "enfadado y dispuesto a pelear o discutir"},
+        "fr": {"w": "agressif / belliqueux", "d": "en colère et prêt à se battre ou à se disputer"}
+      }
+    },
+    {
+      "word": "mansplaining",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈmænspleɪnɪŋ/",
+      "def": "When a man explains something to a woman as if she knows nothing about it.",
+      "example": "She is an engineer, so his long explanation about cars was pure mansplaining.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الشرح الذكوري المتعالي", "d": "حين يشرح رجل شيئاً لامرأة كأنها لا تعرف عنه شيئاً"},
+        "zh": {"w": "男式说教", "d": "男人向女人解释事情，好像她什么都不懂"},
+        "de": {"w": "Mansplaining", "d": "wenn ein Mann einer Frau etwas erklärt, als wüsste sie nichts darüber"},
+        "es": {"w": "mansplaining / machoexplicación", "d": "cuando un hombre le explica algo a una mujer como si ella no supiera nada"},
+        "fr": {"w": "mecsplication", "d": "quand un homme explique quelque chose à une femme comme si elle n'y connaissait rien"}
+      }
+    },
+    {
+      "word": "gaslighting",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈɡæslaɪtɪŋ/",
+      "def": "Making someone doubt their own memory or feelings so you can control them.",
+      "example": "Telling her that the argument never happened was a clear case of gaslighting.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التلاعب النفسي", "d": "جعل شخص يشكّ في ذاكرته أو مشاعره من أجل السيطرة عليه"},
+        "zh": {"w": "煤气灯操纵 / 精神操控", "d": "让人怀疑自己的记忆或感受，从而控制对方"},
+        "de": {"w": "Gaslighting", "d": "jemanden an seinem Gedächtnis oder Gefühl zweifeln lassen, um ihn zu kontrollieren"},
+        "es": {"w": "luz de gas", "d": "hacer que alguien dude de su memoria o sus sentimientos para controlarlo"},
+        "fr": {"w": "détournement cognitif", "d": "faire douter quelqu'un de sa mémoire ou de ses sentiments pour le contrôler"}
+      }
+    },
+    {
+      "word": "nitpicking",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈnɪtpɪkɪŋ/",
+      "def": "Complaining about very small, unimportant mistakes or details.",
+      "example": "Stop nitpicking about how I fold the towels; the job is done.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تصيُّد الأخطاء", "d": "التذمّر من أخطاء أو تفاصيل صغيرة جداً وغير مهمة"},
+        "zh": {"w": "吹毛求疵", "d": "抱怨非常小、不重要的错误或细节"},
+        "de": {"w": "Erbsenzählerei / Pedanterie", "d": "sich über sehr kleine, unwichtige Fehler oder Details beschweren"},
+        "es": {"w": "quisquillosidad", "d": "quejarse de errores o detalles muy pequeños y sin importancia"},
+        "fr": {"w": "pinaillage", "d": "se plaindre de toutes petites erreurs ou de détails sans importance"}
+      }
+    },
+    {
+      "word": "resourceful",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/rɪˈzɔːsfl/",
+      "def": "Good at finding quick and clever ways to solve problems.",
+      "example": "My mother is very resourceful; she can fix almost anything at home.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "واسع الحيلة", "d": "بارع في إيجاد طرق سريعة وذكية لحل المشكلات"},
+        "zh": {"w": "足智多谋的 / 机智的", "d": "善于找到快速又聪明的方法解决问题"},
+        "de": {"w": "einfallsreich", "d": "gut darin, schnelle und clevere Lösungen für Probleme zu finden"},
+        "es": {"w": "ingenioso / habilidoso", "d": "bueno para encontrar formas rápidas e inteligentes de resolver problemas"},
+        "fr": {"w": "débrouillard / ingénieux", "d": "doué pour trouver des solutions rapides et astucieuses aux problèmes"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Tentative language (avoiding over-generalisations)",
+      "explain": "When we have no strong evidence, we don't say 'All women...' or 'Men always...'. We use softer, tentative language to show that something is often true, but not always. This makes our opinion sound fair and polite.",
+      "explain_ar": "عندما لا يكون لدينا دليل قوي، لا نقول «كل النساء...» أو «الرجال دائماً...». بل نستخدم لغة أكثر حذراً وليونة لنُظهر أن الأمر صحيح في كثير من الأحيان وليس دائماً، فيبدو رأينا منصفاً ومهذباً.",
+      "form": [
+        "subject + tend to + base verb (Women tend to live longer.)",
+        "It seems that / It appears that + clause",
+        "It could be argued that / You could argue that + clause",
+        "Generally speaking, + clause",
+        "subject + be + more likely to + base verb",
+        "frequency adverbs: usually, often, generally (before the main verb)"
+      ],
+      "examples": [
+        {"en": "Women tend to be better at learning languages than men.", "note": "Softer than 'All women are better at languages'."},
+        {"en": "Generally speaking, women are expected to spend more on beauty products than men.", "note": "'Generally speaking' shows this is true in general, not for everyone."},
+        {"en": "It could be argued that it is more acceptable for women to cry in public than men.", "note": "Passive 'could be argued': we present the idea without saying it is a fact."},
+        {"en": "It appears that women have better memories than men.", "note": "'It appears that' = 'it seems that'."},
+        {"en": "A primary school teacher is more likely to be a woman.", "note": "'more likely to' talks about probability, not certainty."}
+      ],
+      "mistakes": [
+        {"wrong": "All men are bad at cooking.", "right": "Men tend to cook less often than women.", "why": "Avoid over-generalisations with 'all', 'always', 'never' when you have no evidence."},
+        {"wrong": "Women tend being better at languages.", "right": "Women tend to be better at languages.", "why": "'Tend' is followed by 'to' + base verb."},
+        {"wrong": "It could argued that boys are noisier.", "right": "It could be argued that boys are noisier.", "why": "It is passive: could + be + past participle."},
+        {"wrong": "A nurse is more likely be a woman.", "right": "A nurse is more likely to be a woman.", "why": "We say 'likely to' + base verb."},
+        {"wrong": "It seems women that live longer.", "right": "It seems that women live longer.", "why": "'That' comes straight after 'It seems', before the clause."}
+      ],
+      "quiz": [
+        {"q": "Parents ___ choose toys based on their child's gender.", "options": ["tend to", "tend", "are tending"], "answer": 0, "why": "We use 'tend to' + base verb for general habits."},
+        {"q": "Which sentence is tentative?", "options": ["All girls get better grades than boys.", "Girls always get better grades than boys.", "Girls often get better grades than boys."], "answer": 2, "why": "'Often' softens the statement; 'all' and 'always' are over-generalisations."},
+        {"q": "It could be ___ that men and women are equally good at multitasking.", "options": ["argue", "argued", "arguing"], "answer": 1, "why": "Passive form: could be + past participle (argued)."},
+        {"q": "A primary school teacher is more ___ to be a woman.", "options": ["likely", "like", "probably"], "answer": 0, "why": "The phrase is 'more likely to + base verb'."},
+        {"q": "___ speaking, women are expected to spend more on beauty products.", "options": ["General", "Generally", "Generality"], "answer": 1, "why": "The fixed phrase is 'Generally speaking'."},
+        {"q": "It ___ that more domestic helpers are women.", "options": ["seems", "is seeming", "seem"], "answer": 0, "why": "'It seems that' + clause; 'it' needs 'seems' with -s."}
+      ]
+    },
+    {
+      "title": "Giving a contrasting opinion: although, even though, on the other hand",
+      "explain": "We use these words to show two ideas that are different or surprising together. 'Although' and 'even though' join two clauses in one sentence. 'On the other hand' starts a new sentence with the opposite idea.",
+      "explain_ar": "نستخدم هذه الكلمات لربط فكرتين متعارضتين أو مفاجئتين. «although» و«even though» (مع أنّ / رغم أنّ) تربطان جملتين في جملة واحدة، أما «on the other hand» (من ناحية أخرى) فتبدأ بها جملة جديدة تحمل الفكرة المعاكسة.",
+      "form": [
+        "Although / Even though + clause, + main clause",
+        "Main clause + although / even though + clause",
+        "Sentence. On the other hand, + sentence.",
+        "I see your point, but + clause / People say that, but + clause"
+      ],
+      "examples": [
+        {"en": "Although many people think boys are noisier, my daughter is much louder than my son.", "note": "The second idea is surprising after the first."},
+        {"en": "Even though she is a girl, she loves football and video games.", "note": "'Even though' is a little stronger than 'although'."},
+        {"en": "Boys often like cars. On the other hand, many girls enjoy them too.", "note": "'On the other hand' starts a new sentence, followed by a comma."},
+        {"en": "I see your point, but that's not always the case.", "note": "A polite way to disagree."}
+      ],
+      "mistakes": [
+        {"wrong": "Although he is a boy, but he likes dolls.", "right": "Although he is a boy, he likes dolls.", "why": "Don't use 'but' together with 'although' in the same sentence."},
+        {"wrong": "Even though the stereotypes, girls can be engineers.", "right": "Even though there are stereotypes, girls can be engineers.", "why": "'Even though' needs a full clause with a subject and a verb."},
+        {"wrong": "Men are strong, on the other hand women are strong too.", "right": "Men are strong. On the other hand, women are strong too.", "why": "'On the other hand' usually starts a new sentence and is followed by a comma."},
+        {"wrong": "Even although she is tired, she works hard.", "right": "Even though she is tired, she works hard.", "why": "We say 'even though', not 'even although'."}
+      ],
+      "quiz": [
+        {"q": "___ women usually live longer, men often work in more dangerous jobs.", "options": ["Although", "On the other hand", "But"], "answer": 0, "why": "'Although' joins two clauses in one sentence."},
+        {"q": "Choose the correct sentence.", "options": ["Although he's shy, but he talks a lot at home.", "Although he's shy, he talks a lot at home.", "Although shy, but he talks a lot at home."], "answer": 1, "why": "No 'but' after an 'although' clause."},
+        {"q": "Girls often get better grades. ___, boys sometimes do better in maths tests.", "options": ["Even though", "Although", "On the other hand"], "answer": 2, "why": "'On the other hand' starts a new sentence with a contrasting idea."},
+        {"q": "___ she grew up with four brothers, she is a real girly girl.", "options": ["Even though", "Despite", "However"], "answer": 0, "why": "'Even though' + clause (she grew up...)."},
+        {"q": "I see your point, ___ that isn't always like that.", "options": ["although", "but", "on the other hand"], "answer": 1, "why": "The fixed phrase is 'I see your point, but...'."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "But what about ...?", "use": "Disagreeing: bringing in a different example"},
+    {"en": "That's not always the case.", "use": "Disagreeing politely"},
+    {"en": "It isn't always like that.", "use": "Disagreeing politely"},
+    {"en": "It could also be said that ...", "use": "Giving a contrasting opinion"},
+    {"en": "People say that, but ...", "use": "Disagreeing with a common belief"},
+    {"en": "I see your point, but ...", "use": "Disagreeing politely after accepting the other view"},
+    {"en": "Well, I know what you're saying, but ...", "use": "Disagreeing softly"},
+    {"en": "But don't you think ...?", "use": "Disagreeing with a question"},
+    {"en": "On the other hand, ...", "use": "Giving a contrasting opinion"},
+    {"en": "Yes, I've noticed that as well.", "use": "Agreeing from your own experience"},
+    {"en": "Absolutely.", "use": "Agreeing strongly"},
+    {"en": "I'd agree with that.", "use": "Agreeing"},
+    {"en": "I couldn't agree more.", "use": "Agreeing completely"},
+    {"en": "Women are valued by / cherished by / treasured by us.", "use": "Teacher's correction: 'valued by', not 'valued to'"},
+    {"en": "They hit boys to discipline them.", "use": "Teacher's correction: 'discipline them', not 'make them act correct'"}
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "id": 16,
+  "title": "Avoiding Awkward Silences",
+  "summary": "We practised starting, continuing and ending conversations with people we don't know well, at parties and conferences. We used tag questions with falling intonation to get people talking, asked questions with the right auxiliary verbs, and learned phrases for changing the topic and closing a conversation politely.",
+  "source": "ARS_B1_01_I029CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "awkward silence",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈɔːkwəd ˈsaɪləns/",
+      "def": "A pause in a conversation when nobody knows what to say.",
+      "example": "There was an awkward silence, so I asked her about her holiday.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صمت محرج", "d": "توقف في الحديث عندما لا يعرف أحد ماذا يقول"},
+        "zh": {"w": "尴尬的沉默", "d": "谈话中没人知道该说什么时的停顿"},
+        "de": {"w": "peinliche Stille", "d": "eine Pause im Gespräch, wenn niemand weiß, was er sagen soll"},
+        "es": {"w": "silencio incómodo", "d": "una pausa en la conversación cuando nadie sabe qué decir"},
+        "fr": {"w": "silence gênant", "d": "une pause dans la conversation quand personne ne sait quoi dire"}
+      }
+    },
+    {
+      "word": "small talk",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈsmɔːl tɔːk/",
+      "def": "Polite, friendly conversation about easy topics like the weather.",
+      "example": "At conferences, a little small talk helps you meet new people.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حديث عابر / دردشة", "d": "حديث مهذب وودّي عن مواضيع سهلة مثل الطقس"},
+        "zh": {"w": "闲聊 / 寒暄", "d": "关于天气等轻松话题的礼貌、友好的交谈"},
+        "de": {"w": "Smalltalk", "d": "höfliches, freundliches Gespräch über einfache Themen wie das Wetter"},
+        "es": {"w": "charla trivial", "d": "conversación educada y amable sobre temas fáciles, como el tiempo"},
+        "fr": {"w": "bavardage / papotage", "d": "conversation polie et amicale sur des sujets faciles, comme la météo"}
+      }
+    },
+    {
+      "word": "break the ice",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌbreɪk ði ˈaɪs/",
+      "def": "To say or do something that helps people relax when they first meet.",
+      "example": "He told a funny story about the food to break the ice.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يكسر الجليد", "d": "أن تقول أو تفعل شيئاً يساعد الناس على الشعور بالراحة عند أول لقاء"},
+        "zh": {"w": "打破僵局 / 破冰", "d": "说些话或做些事，让初次见面的人放松下来"},
+        "de": {"w": "das Eis brechen", "d": "etwas sagen oder tun, damit sich Menschen beim ersten Treffen entspannen"},
+        "es": {"w": "romper el hielo", "d": "decir o hacer algo para que la gente se relaje al conocerse"},
+        "fr": {"w": "briser la glace", "d": "dire ou faire quelque chose pour mettre les gens à l'aise lors d'une première rencontre"}
+      }
+    },
+    {
+      "word": "make conversation",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌmeɪk ˌkɒnvəˈseɪʃn/",
+      "def": "To talk to someone to be polite, especially someone you don't know well.",
+      "example": "It isn't always easy to make conversation with people you don't know.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يفتح حديثاً / يتبادل أطراف الحديث", "d": "أن تتحدث مع شخص لا تعرفه جيداً من باب اللطف"},
+        "zh": {"w": "找话题聊天 / 攀谈", "d": "出于礼貌和不太熟的人说话"},
+        "de": {"w": "Konversation machen", "d": "aus Höflichkeit mit jemandem reden, den man nicht gut kennt"},
+        "es": {"w": "dar conversación", "d": "hablar con alguien por cortesía, sobre todo con alguien que no conoces bien"},
+        "fr": {"w": "faire la conversation", "d": "parler à quelqu'un par politesse, surtout à quelqu'un qu'on connaît peu"}
+      }
+    },
+    {
+      "word": "keep the conversation going",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌkiːp ðə ˌkɒnvəˈseɪʃn ˈɡəʊɪŋ/",
+      "def": "To continue talking, for example by asking more questions.",
+      "example": "Ask open questions to keep the conversation going.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يحافظ على استمرار الحديث", "d": "أن تواصل الكلام، مثلاً بطرح مزيد من الأسئلة"},
+        "zh": {"w": "让谈话继续下去", "d": "继续交谈，比如多问几个问题"},
+        "de": {"w": "das Gespräch am Laufen halten", "d": "weiterreden, zum Beispiel indem man mehr Fragen stellt"},
+        "es": {"w": "mantener la conversación", "d": "seguir hablando, por ejemplo haciendo más preguntas"},
+        "fr": {"w": "entretenir la conversation", "d": "continuer à parler, par exemple en posant d'autres questions"}
+      }
+    },
+    {
+      "word": "change the subject",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌtʃeɪndʒ ðə ˈsʌbdʒɪkt/",
+      "def": "To start talking about a different topic.",
+      "example": "When Nick started complaining about work, Julia changed the subject.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يغيّر الموضوع", "d": "أن تبدأ الحديث عن موضوع آخر"},
+        "zh": {"w": "换个话题", "d": "开始谈论别的事情"},
+        "de": {"w": "das Thema wechseln", "d": "anfangen, über etwas anderes zu sprechen"},
+        "es": {"w": "cambiar de tema", "d": "empezar a hablar de otra cosa"},
+        "fr": {"w": "changer de sujet", "d": "commencer à parler d'autre chose"}
+      }
+    },
+    {
+      "word": "mingle",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈmɪŋɡl/",
+      "def": "To move around at a party and talk to many different people.",
+      "example": "At the summer party, we mingled and met students from other classes.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يختلط بالآخرين", "d": "أن تتنقل في حفلة وتتحدث مع أشخاص كثيرين"},
+        "zh": {"w": "（在聚会上）四处交谈", "d": "在聚会上走动，和很多不同的人交谈"},
+        "de": {"w": "sich unter die Leute mischen", "d": "auf einer Party herumgehen und mit vielen Leuten sprechen"},
+        "es": {"w": "mezclarse con la gente", "d": "moverse por una fiesta y hablar con muchas personas"},
+        "fr": {"w": "se mêler aux invités", "d": "circuler dans une fête et parler à beaucoup de gens"}
+      }
+    },
+    {
+      "word": "put off",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌpʊt ˈɒf/",
+      "def": "To make you not want to do something or not like someone.",
+      "example": "His constant complaining put her off talking to him again.",
+      "opposite": "attract",
+      "tr": {
+        "ar": {"w": "يُنفّر", "d": "أن يجعلك لا ترغب في فعل شيء أو لا تحب شخصاً"},
+        "zh": {"w": "使反感 / 使失去兴趣", "d": "让你不想做某事或不喜欢某人"},
+        "de": {"w": "abschrecken", "d": "dazu führen, dass man etwas nicht tun will oder jemanden nicht mag"},
+        "es": {"w": "desanimar / echar para atrás", "d": "hacer que no quieras hacer algo o que alguien no te guste"},
+        "fr": {"w": "rebuter / décourager", "d": "donner envie de ne pas faire quelque chose ou de ne pas aimer quelqu'un"}
+      }
+    },
+    {
+      "word": "tag question",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtæɡ ˌkwestʃən/",
+      "def": "A short phrase like 'isn't it?' added to the end of a sentence.",
+      "example": "'It's a great party, isn't it?' ends with a tag question.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سؤال ذيلي", "d": "عبارة قصيرة مثل isn't it تُضاف في آخر الجملة"},
+        "zh": {"w": "反意疑问句", "d": "加在句末的简短问句，比如 isn't it?"},
+        "de": {"w": "Frageanhängsel", "d": "eine kurze Frage wie 'isn't it?' am Ende eines Satzes"},
+        "es": {"w": "pregunta coletilla", "d": "una frase corta como 'isn't it?' al final de una oración"},
+        "fr": {"w": "question-tag", "d": "une courte question comme 'isn't it?' ajoutée à la fin d'une phrase"}
+      }
+    },
+    {
+      "word": "intonation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌɪntəˈneɪʃn/",
+      "def": "The way your voice goes up and down when you speak.",
+      "example": "In tag questions, the intonation usually goes down at the end.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التنغيم", "d": "ارتفاع الصوت وانخفاضه أثناء الكلام"},
+        "zh": {"w": "语调", "d": "说话时声音的升降"},
+        "de": {"w": "Intonation / Satzmelodie", "d": "wie die Stimme beim Sprechen steigt und fällt"},
+        "es": {"w": "entonación", "d": "la forma en que la voz sube y baja al hablar"},
+        "fr": {"w": "intonation", "d": "la façon dont la voix monte et descend quand on parle"}
+      }
+    },
+    {
+      "word": "auxiliary verb",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ɔːɡˈzɪliəri ˈvɜːb/",
+      "def": "A helping word like 'be', 'do' or 'have', used to make questions and tenses.",
+      "example": "In 'Have you lived here long?', 'have' is the auxiliary verb.",
+      "opposite": "main verb",
+      "tr": {
+        "ar": {"w": "فعل مساعد", "d": "كلمة مساعدة مثل be أو do أو have تُستخدم لتكوين الأسئلة والأزمنة"},
+        "zh": {"w": "助动词", "d": "be、do、have 等帮助构成疑问句和时态的词"},
+        "de": {"w": "Hilfsverb", "d": "ein Hilfswort wie 'be', 'do' oder 'have' für Fragen und Zeitformen"},
+        "es": {"w": "verbo auxiliar", "d": "palabra como 'be', 'do' o 'have' que ayuda a formar preguntas y tiempos"},
+        "fr": {"w": "auxiliaire", "d": "un mot comme 'be', 'do' ou 'have' qui sert à former les questions et les temps"}
+      }
+    },
+    {
+      "word": "have something in common",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/hæv ˈsʌmθɪŋ ɪn ˈkɒmən/",
+      "def": "To share the same interests, ideas or experiences as another person.",
+      "example": "We soon found we had a lot in common: we both love Rome.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يشترك معه في شيء", "d": "أن تكون لديك نفس الاهتمامات أو الأفكار أو التجارب مثل شخص آخر"},
+        "zh": {"w": "有共同之处", "d": "和别人有相同的兴趣、想法或经历"},
+        "de": {"w": "etwas gemeinsam haben", "d": "die gleichen Interessen, Ideen oder Erfahrungen wie jemand anderes haben"},
+        "es": {"w": "tener algo en común", "d": "compartir intereses, ideas o experiencias con otra persona"},
+        "fr": {"w": "avoir quelque chose en commun", "d": "partager les mêmes intérêts, idées ou expériences qu'une autre personne"}
+      }
+    },
+    {
+      "word": "mutual friend",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌmjuːtʃuəl ˈfrend/",
+      "def": "A person who both you and another person know and like.",
+      "example": "Maria and Chris have a mutual friend: Anna.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صديق مشترك", "d": "شخص تعرفه أنت وشخص آخر وتحبانه"},
+        "zh": {"w": "共同的朋友", "d": "你和另一个人都认识并喜欢的人"},
+        "de": {"w": "gemeinsamer Freund", "d": "eine Person, die du und jemand anderes kennen und mögen"},
+        "es": {"w": "amigo en común", "d": "una persona que tú y otra persona conocéis y apreciáis"},
+        "fr": {"w": "ami commun", "d": "une personne que toi et quelqu'un d'autre connaissez et appréciez"}
+      }
+    },
+    {
+      "word": "reception",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/rɪˈsepʃn/",
+      "def": "A formal party to welcome guests, for example after a wedding.",
+      "example": "Maria met Chris at Anna's wedding reception.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حفل استقبال", "d": "حفلة رسمية للترحيب بالضيوف، مثلاً بعد الزفاف"},
+        "zh": {"w": "招待会 / 婚宴", "d": "欢迎客人的正式聚会，比如婚礼之后的宴会"},
+        "de": {"w": "Empfang", "d": "eine offizielle Feier, um Gäste zu begrüßen, z. B. nach einer Hochzeit"},
+        "es": {"w": "recepción / banquete", "d": "una fiesta formal para recibir a los invitados, por ejemplo después de una boda"},
+        "fr": {"w": "réception", "d": "une fête officielle pour accueillir les invités, par exemple après un mariage"}
+      }
+    },
+    {
+      "word": "conference",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkɒnfərəns/",
+      "def": "A large meeting where people from the same type of job listen to talks.",
+      "example": "I met Jane in the coffee break at a marketing conference.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مؤتمر", "d": "اجتماع كبير يلتقي فيه أشخاص من المجال نفسه ويستمعون إلى محاضرات"},
+        "zh": {"w": "会议 / 大会", "d": "同行聚在一起听报告的大型会议"},
+        "de": {"w": "Konferenz / Tagung", "d": "ein großes Treffen, bei dem Leute aus einem Berufsfeld Vorträge hören"},
+        "es": {"w": "congreso / conferencia", "d": "una gran reunión de personas del mismo sector para escuchar charlas"},
+        "fr": {"w": "conférence / congrès", "d": "une grande réunion de professionnels qui écoutent des présentations"}
+      }
+    },
+    {
+      "word": "sales advisor",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈseɪlz ədˌvaɪzə/",
+      "def": "A person whose job is to help customers choose and buy products.",
+      "example": "Dave works as a sales advisor for a big company.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مستشار مبيعات", "d": "شخص عمله مساعدة الزبائن على اختيار المنتجات وشرائها"},
+        "zh": {"w": "销售顾问", "d": "帮助顾客挑选和购买产品的人"},
+        "de": {"w": "Verkaufsberater", "d": "eine Person, die Kunden beim Auswählen und Kaufen von Produkten hilft"},
+        "es": {"w": "asesor de ventas", "d": "persona que ayuda a los clientes a elegir y comprar productos"},
+        "fr": {"w": "conseiller de vente", "d": "personne dont le travail est d'aider les clients à choisir et à acheter"}
+      }
+    },
+    {
+      "word": "public relations (PR)",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌpʌblɪk rɪˈleɪʃnz/",
+      "def": "The job of giving people a good opinion of a company.",
+      "example": "Jane works in PR, so she often talks to journalists.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "العلاقات العامة", "d": "العمل على تكوين صورة جيدة عن شركة لدى الناس"},
+        "zh": {"w": "公共关系 / 公关", "d": "让公众对公司有好印象的工作"},
+        "de": {"w": "Öffentlichkeitsarbeit / PR", "d": "die Arbeit, dafür zu sorgen, dass Menschen eine gute Meinung von einer Firma haben"},
+        "es": {"w": "relaciones públicas", "d": "el trabajo de dar a la gente una buena imagen de una empresa"},
+        "fr": {"w": "relations publiques", "d": "le travail qui consiste à donner une bonne image d'une entreprise"}
+      }
+    },
+    {
+      "word": "accounts department",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/əˈkaʊnts dɪˌpɑːtmənt/",
+      "def": "The part of a company that deals with money, payments and bills.",
+      "example": "Nick has just started working in the accounts department.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قسم الحسابات", "d": "جزء الشركة المسؤول عن المال والمدفوعات والفواتير"},
+        "zh": {"w": "财务部 / 会计部", "d": "公司里负责钱、付款和账单的部门"},
+        "de": {"w": "Buchhaltung", "d": "die Abteilung einer Firma, die sich um Geld, Zahlungen und Rechnungen kümmert"},
+        "es": {"w": "departamento de contabilidad", "d": "la parte de una empresa que se ocupa del dinero, los pagos y las facturas"},
+        "fr": {"w": "service comptabilité", "d": "le service d'une entreprise qui s'occupe de l'argent, des paiements et des factures"}
+      }
+    },
+    {
+      "word": "for a living",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/fər ə ˈlɪvɪŋ/",
+      "def": "As your job, to earn money.",
+      "example": "What do you do for a living?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لكسب العيش / كمهنة", "d": "كعمل تكسب منه المال"},
+        "zh": {"w": "以……为生 / 做什么工作", "d": "作为工作来挣钱"},
+        "de": {"w": "beruflich", "d": "als Beruf, um Geld zu verdienen"},
+        "es": {"w": "para ganarse la vida", "d": "como trabajo, para ganar dinero"},
+        "fr": {"w": "dans la vie / comme métier", "d": "comme travail, pour gagner de l'argent"}
+      }
+    },
+    {
+      "word": "compliment",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkɒmplɪmənt/",
+      "def": "Something nice you say about a person, for example about their name or clothes.",
+      "example": "Jon paid Blanca a compliment: 'It's a nice name anyway.'",
+      "opposite": "insult",
+      "tr": {
+        "ar": {"w": "إطراء / مجاملة", "d": "كلام لطيف تقوله عن شخص، مثلاً عن اسمه أو ملابسه"},
+        "zh": {"w": "称赞 / 恭维", "d": "对别人说的好话，比如夸名字或衣服"},
+        "de": {"w": "Kompliment", "d": "etwas Nettes, das man über jemanden sagt, z. B. über den Namen oder die Kleidung"},
+        "es": {"w": "cumplido", "d": "algo bonito que dices de una persona, por ejemplo de su nombre o su ropa"},
+        "fr": {"w": "compliment", "d": "quelque chose de gentil qu'on dit à quelqu'un, par exemple sur son nom ou ses vêtements"}
+      }
+    },
+    {
+      "word": "by the way",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌbaɪ ðə ˈweɪ/",
+      "def": "Used to add a new idea or start a new topic.",
+      "example": "My name's Jon, by the way.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بالمناسبة", "d": "تُستخدم لإضافة فكرة جديدة أو بدء موضوع جديد"},
+        "zh": {"w": "顺便说一下", "d": "用来补充新想法或开始新话题"},
+        "de": {"w": "übrigens", "d": "damit fügt man eine neue Idee hinzu oder beginnt ein neues Thema"},
+        "es": {"w": "por cierto", "d": "se usa para añadir una idea o empezar un tema nuevo"},
+        "fr": {"w": "au fait / d'ailleurs", "d": "sert à ajouter une idée ou à changer de sujet"}
+      }
+    },
+    {
+      "word": "anyway",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/ˈeniweɪ/",
+      "def": "Used to change the topic or go back to the main point.",
+      "example": "Anyway, what do you do, Dave?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "على أي حال", "d": "تُستخدم لتغيير الموضوع أو للعودة إلى النقطة الأساسية"},
+        "zh": {"w": "不管怎样 / 好了", "d": "用来转换话题或回到正题"},
+        "de": {"w": "jedenfalls / wie auch immer", "d": "damit wechselt man das Thema oder kommt zum Hauptpunkt zurück"},
+        "es": {"w": "en fin / bueno", "d": "se usa para cambiar de tema o volver al tema principal"},
+        "fr": {"w": "bref / enfin", "d": "sert à changer de sujet ou à revenir à l'essentiel"}
+      }
+    },
+    {
+      "word": "I'd better be getting on",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/aɪd ˈbetə bi ˈɡetɪŋ ˈɒn/",
+      "def": "A polite way to say you must leave and end a conversation.",
+      "example": "Well, nice to meet you, Nick. I'd better be getting on.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يجب أن أذهب الآن", "d": "طريقة مهذبة لتقول إنك يجب أن تغادر وتنهي الحديث"},
+        "zh": {"w": "我得走了", "d": "礼貌地表示你得离开、结束谈话"},
+        "de": {"w": "Ich muss dann mal weiter", "d": "eine höfliche Art zu sagen, dass man gehen und das Gespräch beenden muss"},
+        "es": {"w": "Me tengo que ir ya", "d": "una forma educada de decir que debes irte y terminar la conversación"},
+        "fr": {"w": "Je vais devoir y aller", "d": "une façon polie de dire qu'on doit partir et finir la conversation"}
+      }
+    },
+    {
+      "word": "role-play",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈrəʊl pleɪ/",
+      "def": "To act as a different person in a situation, to practise speaking.",
+      "example": "We role-played a coffee break at a conference.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يؤدي دوراً تمثيلياً", "d": "أن تمثّل دور شخص آخر في موقف ما لتتدرّب على الكلام"},
+        "zh": {"w": "角色扮演", "d": "在某个情景中扮演别人，用来练习口语"},
+        "de": {"w": "ein Rollenspiel machen", "d": "in einer Situation eine andere Person spielen, um das Sprechen zu üben"},
+        "es": {"w": "hacer un juego de rol", "d": "actuar como otra persona en una situación para practicar"},
+        "fr": {"w": "faire un jeu de rôle", "d": "jouer le rôle de quelqu'un dans une situation pour s'entraîner à parler"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Question tags",
+      "explain": "We add a short question (a tag) to the end of a sentence to check something we think is true, or to get someone talking. A positive sentence takes a negative tag, and a negative sentence takes a positive tag. When we are checking, the intonation goes down at the end.",
+      "explain_ar": "نضيف سؤالاً قصيراً في آخر الجملة للتأكد من معلومة نظن أنها صحيحة أو لتشجيع الشخص على الكلام. الجملة المثبتة يأتي بعدها سؤال منفي، والجملة المنفية يأتي بعدها سؤال مثبت. نستخدم في السؤال الفعل المساعد نفسه الموجود في الجملة ثم الضمير. وعندما نتأكد من معلومة ينخفض الصوت في نهاية السؤال.",
+      "form": [
+        "Positive sentence + negative tag: You're a friend of Anna's, aren't you?",
+        "Negative sentence + positive tag: You aren't from around here, are you?",
+        "Tag = the auxiliary verb from the sentence (be / have / do / did / can ...) + pronoun: We have met before, haven't we?",
+        "No auxiliary in the sentence? Use do / does / did: He always throws great parties, doesn't he?",
+        "Intonation: down at the end when you expect 'yes' (checking); up when it is a real question"
+      ],
+      "examples": [
+        {"en": "It's a great party, isn't it?", "note": "Falling intonation: Jon expects Blanca to agree."},
+        {"en": "You were in the marketing presentation this morning, weren't you?", "note": "Past of 'be' (were) → weren't you."},
+        {"en": "We met at the conference last year, didn't we?", "note": "Past simple with no auxiliary → didn't."},
+        {"en": "It's been a busy day, hasn't it?", "note": "It's been = it has been → hasn't it."},
+        {"en": "I don't think I know you, do I?", "note": "Negative sentence → positive tag."},
+        {"en": "You haven't been with the company long, have you?", "note": "Negative present perfect → have you."}
+      ],
+      "mistakes": [
+        {"wrong": "You are from Spain, no?", "right": "You are from Spain, aren't you?", "why": "English uses auxiliary + pronoun, not 'no?' or 'right?'."},
+        {"wrong": "This cake's delicious, isn't this?", "right": "This cake's delicious, isn't it?", "why": "The tag uses a pronoun (it), not 'this' or the noun."},
+        {"wrong": "He always throws great parties, isn't he?", "right": "He always throws great parties, doesn't he?", "why": "Present simple has no auxiliary, so use does/doesn't."},
+        {"wrong": "You aren't from around here, aren't you?", "right": "You aren't from around here, are you?", "why": "A negative sentence needs a positive tag."}
+      ],
+      "quiz": [
+        {"q": "This cake's delicious, ___?", "options": ["isn't it", "doesn't it", "is it"], "answer": 0, "why": "'s = is. Positive sentence → negative tag with 'is'."},
+        {"q": "We met at the conference last year, ___?", "options": ["weren't we", "didn't we", "haven't we"], "answer": 1, "why": "Past simple 'met' has no auxiliary, so use 'did'."},
+        {"q": "You went to university with Ally, ___?", "options": ["wasn't you", "don't you", "didn't you"], "answer": 2, "why": "Past simple 'went' → didn't you."},
+        {"q": "You aren't from around here, ___?", "options": ["are you", "aren't you", "do you"], "answer": 0, "why": "Negative sentence → positive tag with 'are'."},
+        {"q": "He always throws great parties, ___?", "options": ["isn't he", "doesn't he", "does he"], "answer": 1, "why": "Present simple 'throws' → doesn't he."},
+        {"q": "It's been a lovely week, ___?", "options": ["isn't it", "wasn't it", "hasn't it"], "answer": 2, "why": "It's been = it has been → hasn't it."}
+      ]
+    },
+    {
+      "title": "Questions with auxiliary verbs",
+      "explain": "To make a question, we usually put an auxiliary verb (do, be or have) before the subject. Use do/does/did with the present and past simple, be with -ing forms and with 'be' sentences, and have with the present perfect.",
+      "explain_ar": "لتكوين سؤال نضع عادة فعلاً مساعداً (do أو be أو have) قبل الفاعل. نستخدم do/does مع المضارع البسيط وdid مع الماضي البسيط، ونستخدم be مع صيغة ‎-ing ومع جمل الفعل be، ونستخدم have مع المضارع التام.",
+      "form": [
+        "(Question word) + do / does / did + subject + base verb: What do you do for a living?",
+        "(Question word) + am / is / are / was / were + subject: Is this your first visit to Amsterdam?",
+        "Have / Has + subject + past participle: Have you lived around here for long?"
+      ],
+      "examples": [
+        {"en": "Are you enjoying the party?", "note": "Present continuous → are + -ing."},
+        {"en": "Have you lived around here for long?", "note": "Present perfect → have + past participle."},
+        {"en": "What do you do for a living?", "note": "A polite way to ask about someone's job."},
+        {"en": "How was your flight?", "note": "Past of 'be' → was."},
+        {"en": "Where did you go on holiday last year?", "note": "Past simple → did + base verb (go, not went)."}
+      ],
+      "mistakes": [
+        {"wrong": "What you do?", "right": "What do you do?", "why": "Don't forget the auxiliary 'do' before the subject."},
+        {"wrong": "Where did you went on holiday?", "right": "Where did you go on holiday?", "why": "After 'did', use the base verb."},
+        {"wrong": "How did your flight?", "right": "How was your flight?", "why": "There is no other verb, so use 'be' (was)."}
+      ],
+      "quiz": [
+        {"q": "___ you enjoying the party?", "options": ["Do", "Are", "Have"], "answer": 1, "why": "'enjoying' is an -ing form, so use 'be' (are)."},
+        {"q": "___ you lived around here for long?", "options": ["Have", "Did", "Are"], "answer": 0, "why": "'lived' + 'for long' → present perfect with 'have'."},
+        {"q": "What ___ you do for a living?", "options": ["are", "does", "do"], "answer": 2, "why": "Present simple with 'you' → do."},
+        {"q": "___ this your first visit to Amsterdam?", "options": ["Does", "Is", "Are"], "answer": 1, "why": "'this' is singular and there is no other verb → is."},
+        {"q": "How ___ your flight?", "options": ["did", "was", "were"], "answer": 1, "why": "'your flight' is singular, past, and there is no other verb → was."},
+        {"q": "Where ___ you go on holiday last year?", "options": ["did", "were", "have"], "answer": 0, "why": "Past simple ('last year') with the base verb 'go' → did."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Excuse me, could you pass me one of those?", "use": "Starting a conversation: asking for something near you"},
+    {"en": "Hi, I'm Dave. Do you mind if I join you?", "use": "Starting a conversation: joining someone politely"},
+    {"en": "Hello, you work in the café, don't you?", "use": "Starting a conversation with a tag question"},
+    {"en": "Hi, I think we met at Martin's party.", "use": "Starting a conversation: remembering where you met"},
+    {"en": "It's a great party, isn't it?", "use": "Starting a conversation: a comment the other person can agree with"},
+    {"en": "What about you?", "use": "Keeping the conversation going: returning the question"},
+    {"en": "My name's Jon, by the way.", "use": "Changing topic / adding new information"},
+    {"en": "Anyway, what do you do?", "use": "Changing topic"},
+    {"en": "Let me give you my card.", "use": "Closing a conversation (business)"},
+    {"en": "It was very nice meeting you.", "use": "Closing a conversation"},
+    {"en": "Okay, enjoy the rest of the conference.", "use": "Closing a conversation at a conference"},
+    {"en": "If you'll excuse me, I have to get that.", "use": "Leaving to answer a phone call"},
+    {"en": "Hopefully we'll get the chance to talk again later.", "use": "Closing a conversation in a friendly way"},
+    {"en": "Look, it's time I was going. My friend's waiting for me.", "use": "Giving a reason to leave"},
+    {"en": "Well, nice to meet you. I'd better be getting on. Good luck with the job.", "use": "Ending a conversation politely"}
+  ]
+}

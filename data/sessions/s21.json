@@ -1,0 +1,522 @@
+{
+  "id": 21,
+  "title": "The Value of Sport",
+  "summary": "We listened to a radio interview with Anthony, who does triathlons, and Sue, who does weightlifting. We learned multi-word verbs for sport and health, like take up, switch off and burn off. Then we asked each other questions and discussed opinions about sport.",
+  "source": "ARB_B1_08_I095CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "triathlon",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/traɪˈæθlən/",
+      "def": "A race in which people swim, then cycle, then run.",
+      "example": "Anthony did his first triathlon when he was 55.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سباق ثلاثي (ترياثلون)", "d": "سباق يسبح فيه الناس ثم يركبون الدراجة ثم يركضون"},
+        "zh": {"w": "铁人三项", "d": "先游泳、再骑车、最后跑步的比赛"},
+        "de": {"w": "Triathlon", "d": "ein Rennen, bei dem man schwimmt, Rad fährt und dann läuft"},
+        "es": {"w": "triatlón", "d": "carrera en la que se nada, luego se va en bici y después se corre"},
+        "fr": {"w": "triathlon", "d": "course où l'on nage, puis fait du vélo, puis court"}
+      }
+    },
+    {
+      "word": "weightlifting",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈweɪtlɪftɪŋ/",
+      "def": "The sport of lifting heavy weights.",
+      "example": "Sue started weightlifting at university when she was 19.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "رفع الأثقال", "d": "رياضة رفع الأوزان الثقيلة"},
+        "zh": {"w": "举重", "d": "举起重物的运动"},
+        "de": {"w": "Gewichtheben", "d": "Sport, bei dem man schwere Gewichte hebt"},
+        "es": {"w": "halterofilia / levantamiento de pesas", "d": "deporte de levantar pesos pesados"},
+        "fr": {"w": "haltérophilie", "d": "sport qui consiste à soulever des poids lourds"}
+      }
+    },
+    {
+      "word": "come down",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌkʌm ˈdaʊn/",
+      "def": "To come to a place, especially a local club or event.",
+      "example": "Anthony's friend suggested he come down to the running club.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يأتي / يحضر", "d": "أن تأتي إلى مكان، خاصة نادياً أو فعالية قريبة"},
+        "zh": {"w": "过来 / 来（某地）", "d": "来到某个地方，特别是附近的俱乐部或活动"},
+        "de": {"w": "vorbeikommen", "d": "an einen Ort kommen, besonders zu einem Verein in der Nähe"},
+        "es": {"w": "pasarse / venir", "d": "ir a un lugar, sobre todo a un club o evento cercano"},
+        "fr": {"w": "passer / venir", "d": "venir dans un lieu, surtout un club ou un événement local"}
+      }
+    },
+    {
+      "word": "switch off",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌswɪtʃ ˈɒf/",
+      "def": "To stop thinking about work or problems and relax.",
+      "example": "Weightlifting helps Sue switch off from the stress of her job.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يصفّي ذهنه / يسترخي", "d": "أن تتوقف عن التفكير في العمل أو المشاكل وترتاح"},
+        "zh": {"w": "放松 / 不再想（工作）", "d": "不再想工作或烦恼，放松下来"},
+        "de": {"w": "abschalten", "d": "aufhören, an Arbeit oder Probleme zu denken, und sich entspannen"},
+        "es": {"w": "desconectar", "d": "dejar de pensar en el trabajo o los problemas y relajarse"},
+        "fr": {"w": "décrocher / se déconnecter", "d": "arrêter de penser au travail ou aux soucis et se détendre"}
+      }
+    },
+    {
+      "word": "take up",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌteɪk ˈʌp/",
+      "def": "To start doing a new sport or hobby.",
+      "example": "Anthony took up triathlons in his mid-50s.",
+      "opposite": "give up",
+      "tr": {
+        "ar": {"w": "يبدأ ممارسة", "d": "أن تبدأ رياضة أو هواية جديدة"},
+        "zh": {"w": "开始从事（爱好）", "d": "开始一项新的运动或爱好"},
+        "de": {"w": "anfangen mit", "d": "mit einem neuen Sport oder Hobby beginnen"},
+        "es": {"w": "empezar a practicar", "d": "comenzar un deporte o hobby nuevo"},
+        "fr": {"w": "se mettre à", "d": "commencer un nouveau sport ou loisir"}
+      }
+    },
+    {
+      "word": "hard on",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/ˈhɑːd ɒn/",
+      "def": "Causing damage or pain to a part of the body.",
+      "example": "Running on roads can be hard on the knees and ankles.",
+      "opposite": "easy on",
+      "tr": {
+        "ar": {"w": "مُرهِق لـ / مُضرّ بـ", "d": "يسبب ضرراً أو ألماً لجزء من الجسم"},
+        "zh": {"w": "对……有损伤", "d": "对身体某部位造成伤害或疼痛"},
+        "de": {"w": "belastend für", "d": "schädlich oder schmerzhaft für einen Körperteil"},
+        "es": {"w": "duro para / malo para", "d": "que daña o causa dolor a una parte del cuerpo"},
+        "fr": {"w": "mauvais pour / dur pour", "d": "qui abîme ou fait mal à une partie du corps"}
+      }
+    },
+    {
+      "word": "hooked on",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/ˈhʊkt ɒn/",
+      "def": "Liking an activity so much that you want to do it all the time.",
+      "example": "After a few weeks, Sue was hooked on weightlifting.",
+      "opposite": "bored with",
+      "tr": {
+        "ar": {"w": "مولع بـ / متعلّق بـ", "d": "تحب نشاطاً لدرجة أنك تريد ممارسته طوال الوقت"},
+        "zh": {"w": "迷上", "d": "非常喜欢某项活动，总想去做"},
+        "de": {"w": "süchtig nach / begeistert von", "d": "eine Aktivität so mögen, dass man sie ständig machen will"},
+        "es": {"w": "enganchado a", "d": "que te gusta tanto una actividad que quieres hacerla siempre"},
+        "fr": {"w": "accro à", "d": "aimer tellement une activité qu'on veut la faire tout le temps"}
+      }
+    },
+    {
+      "word": "burn off",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌbɜːn ˈɒf/",
+      "def": "To use up energy or calories by exercising.",
+      "example": "A long bike ride can burn off a lot of calories.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يحرق (سعرات)", "d": "أن تستهلك الطاقة أو السعرات الحرارية بممارسة الرياضة"},
+        "zh": {"w": "燃烧（卡路里）", "d": "通过运动消耗能量或卡路里"},
+        "de": {"w": "verbrennen", "d": "durch Sport Energie oder Kalorien verbrauchen"},
+        "es": {"w": "quemar", "d": "gastar energía o calorías haciendo ejercicio"},
+        "fr": {"w": "brûler", "d": "dépenser de l'énergie ou des calories en faisant du sport"}
+      }
+    },
+    {
+      "word": "keep the weight off",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌkiːp ðə ˈweɪt ɒf/",
+      "def": "To not put weight back on after you have lost it.",
+      "example": "Weightlifting helps Sue keep the weight off.",
+      "opposite": "put weight on",
+      "tr": {
+        "ar": {"w": "يمنع عودة الوزن", "d": "ألّا يزيد وزنك مرة أخرى بعد أن فقدته"},
+        "zh": {"w": "保持不反弹", "d": "减肥后不让体重再涨回来"},
+        "de": {"w": "das Gewicht halten", "d": "nach dem Abnehmen nicht wieder zunehmen"},
+        "es": {"w": "no recuperar el peso", "d": "no volver a engordar después de adelgazar"},
+        "fr": {"w": "ne pas reprendre de poids", "d": "ne pas regrossir après avoir maigri"}
+      }
+    },
+    {
+      "word": "build up",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌbɪld ˈʌp/",
+      "def": "To make something bigger or stronger, little by little.",
+      "example": "Weightlifting can build up muscle and stamina.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يبني / يقوّي تدريجياً", "d": "أن تجعل شيئاً أكبر أو أقوى شيئاً فشيئاً"},
+        "zh": {"w": "增强 / 逐渐建立", "d": "一点一点地让某物变大或变强"},
+        "de": {"w": "aufbauen", "d": "etwas nach und nach größer oder stärker machen"},
+        "es": {"w": "desarrollar / fortalecer", "d": "hacer algo más grande o fuerte poco a poco"},
+        "fr": {"w": "développer / renforcer", "d": "rendre quelque chose plus grand ou plus fort peu à peu"}
+      }
+    },
+    {
+      "word": "stamina",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈstæmɪnə/",
+      "def": "The energy to keep doing something hard for a long time.",
+      "example": "You need a lot of stamina to finish a triathlon.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قدرة على التحمّل", "d": "الطاقة لمواصلة شيء صعب لوقت طويل"},
+        "zh": {"w": "耐力 / 体力", "d": "长时间坚持做困难事情的精力"},
+        "de": {"w": "Ausdauer", "d": "die Kraft, etwas Schweres lange durchzuhalten"},
+        "es": {"w": "resistencia / aguante", "d": "energía para seguir haciendo algo difícil mucho tiempo"},
+        "fr": {"w": "endurance / résistance", "d": "l'énergie pour continuer un effort difficile longtemps"}
+      }
+    },
+    {
+      "word": "endurance",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ɪnˈdjʊərəns/",
+      "def": "The ability to keep going when something is long, hard or painful.",
+      "example": "Long-distance races test your endurance.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تحمّل / جَلَد", "d": "القدرة على الاستمرار عندما يكون الشيء طويلاً أو صعباً أو مؤلماً"},
+        "zh": {"w": "耐力 / 忍耐力", "d": "在漫长、艰难或痛苦时仍能坚持的能力"},
+        "de": {"w": "Durchhaltevermögen", "d": "die Fähigkeit weiterzumachen, wenn etwas lang, schwer oder schmerzhaft ist"},
+        "es": {"w": "resistencia", "d": "capacidad de seguir cuando algo es largo, duro o doloroso"},
+        "fr": {"w": "endurance", "d": "capacité à continuer quand c'est long, dur ou douloureux"}
+      }
+    },
+    {
+      "word": "downside",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈdaʊnsaɪd/",
+      "def": "A bad part of something that is mostly good.",
+      "example": "Are there any downsides to doing triathlons?",
+      "opposite": "upside",
+      "tr": {
+        "ar": {"w": "عيب / جانب سلبي", "d": "جزء سيئ في شيء جيد في معظمه"},
+        "zh": {"w": "缺点 / 不利之处", "d": "一件总体不错的事情中不好的部分"},
+        "de": {"w": "Nachteil / Kehrseite", "d": "ein schlechter Punkt bei etwas, das meist gut ist"},
+        "es": {"w": "desventaja / inconveniente", "d": "parte mala de algo que en general es bueno"},
+        "fr": {"w": "inconvénient", "d": "point négatif d'une chose plutôt bonne"}
+      }
+    },
+    {
+      "word": "benefit",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbenɪfɪt/",
+      "def": "A good or useful result that something gives you.",
+      "example": "What are the benefits of the sport for Anthony?",
+      "opposite": "disadvantage",
+      "tr": {
+        "ar": {"w": "فائدة", "d": "نتيجة جيدة أو مفيدة يعطيك إياها شيء ما"},
+        "zh": {"w": "好处 / 益处", "d": "某事带给你的好的或有用的结果"},
+        "de": {"w": "Vorteil / Nutzen", "d": "ein gutes oder nützliches Ergebnis von etwas"},
+        "es": {"w": "beneficio / ventaja", "d": "resultado bueno o útil que algo te da"},
+        "fr": {"w": "avantage / bienfait", "d": "résultat bon ou utile qu'une chose apporte"}
+      }
+    },
+    {
+      "word": "in good shape",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ɪn ˌɡʊd ˈʃeɪp/",
+      "def": "Healthy and fit.",
+      "example": "Training three times a week keeps Anthony in good shape.",
+      "opposite": "out of shape",
+      "tr": {
+        "ar": {"w": "بلياقة جيدة", "d": "بصحة جيدة ولياقة بدنية"},
+        "zh": {"w": "身体状态好", "d": "健康，身材好"},
+        "de": {"w": "gut in Form / fit", "d": "gesund und fit"},
+        "es": {"w": "en forma", "d": "sano y en buena condición física"},
+        "fr": {"w": "en forme", "d": "en bonne santé et en bonne condition physique"}
+      }
+    },
+    {
+      "word": "energetic",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌenəˈdʒetɪk/",
+      "def": "Full of energy and very active.",
+      "example": "Morning exercise makes me feel energetic all day.",
+      "opposite": "tired",
+      "tr": {
+        "ar": {"w": "نشيط / مفعم بالحيوية", "d": "مليء بالطاقة وكثير الحركة"},
+        "zh": {"w": "精力充沛的", "d": "充满活力，非常活跃"},
+        "de": {"w": "energiegeladen", "d": "voller Energie und sehr aktiv"},
+        "es": {"w": "enérgico / lleno de energía", "d": "con mucha energía y muy activo"},
+        "fr": {"w": "énergique / dynamique", "d": "plein d'énergie et très actif"}
+      }
+    },
+    {
+      "word": "sprint distance",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˈsprɪnt ˌdɪstəns/",
+      "def": "The shortest type of triathlon race, for beginners.",
+      "example": "A sprint distance triathlon is a good first race for beginners.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "المسافة القصيرة (سبرنت)", "d": "أقصر نوع من سباقات الترياثلون، للمبتدئين"},
+        "zh": {"w": "短距离赛", "d": "最短的一种铁人三项比赛，适合初学者"},
+        "de": {"w": "Sprintdistanz", "d": "die kürzeste Triathlon-Strecke, für Anfänger"},
+        "es": {"w": "distancia sprint", "d": "el tipo de triatlón más corto, para principiantes"},
+        "fr": {"w": "distance sprint", "d": "le format de triathlon le plus court, pour débutants"}
+      }
+    },
+    {
+      "word": "Olympic distance",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/əˈlɪmpɪk ˌdɪstəns/",
+      "def": "A triathlon with a 1.5 km swim, 40 km bike ride and 10 km run.",
+      "example": "An Olympic distance triathlon is twice as long as a sprint.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "المسافة الأولمبية", "d": "ترياثلون فيه سباحة 1.5 كم ودراجة 40 كم وجري 10 كم"},
+        "zh": {"w": "奥运距离（标准距离）", "d": "游泳1.5公里、骑车40公里、跑步10公里的铁人三项"},
+        "de": {"w": "olympische Distanz", "d": "Triathlon mit 1,5 km Schwimmen, 40 km Rad und 10 km Laufen"},
+        "es": {"w": "distancia olímpica", "d": "triatlón de 1,5 km nadando, 40 km en bici y 10 km corriendo"},
+        "fr": {"w": "distance olympique", "d": "triathlon de 1,5 km de nage, 40 km de vélo et 10 km de course"}
+      }
+    },
+    {
+      "word": "get started",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌɡet ˈstɑːtɪd/",
+      "def": "To begin doing something for the first time.",
+      "example": "How did you get started in weightlifting?",
+      "opposite": "stop",
+      "tr": {
+        "ar": {"w": "يبدأ", "d": "أن تبدأ فعل شيء لأول مرة"},
+        "zh": {"w": "开始 / 入门", "d": "第一次开始做某事"},
+        "de": {"w": "anfangen / einsteigen", "d": "zum ersten Mal mit etwas beginnen"},
+        "es": {"w": "empezar / iniciarse", "d": "comenzar a hacer algo por primera vez"},
+        "fr": {"w": "commencer / débuter", "d": "commencer à faire quelque chose pour la première fois"}
+      }
+    },
+    {
+      "word": "recommend",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌrekəˈmend/",
+      "def": "To tell someone that something is good and they should try it.",
+      "example": "Would you recommend weightlifting to other girls?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يوصي بـ / ينصح بـ", "d": "أن تقول لشخص إن شيئاً جيد ويجب أن يجربه"},
+        "zh": {"w": "推荐", "d": "告诉别人某样东西很好，值得一试"},
+        "de": {"w": "empfehlen", "d": "jemandem sagen, dass etwas gut ist und er es probieren sollte"},
+        "es": {"w": "recomendar", "d": "decir a alguien que algo es bueno y que debería probarlo"},
+        "fr": {"w": "recommander", "d": "dire à quelqu'un qu'une chose est bonne et qu'il devrait essayer"}
+      }
+    },
+    {
+      "word": "injury",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈɪndʒəri/",
+      "def": "Damage to your body, for example from an accident or sport.",
+      "example": "What's the best way to build up your strength after an injury?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إصابة", "d": "ضرر يلحق بالجسم، مثلاً بسبب حادث أو رياضة"},
+        "zh": {"w": "受伤 / 伤", "d": "身体受到的伤害，比如因事故或运动"},
+        "de": {"w": "Verletzung", "d": "Schaden am Körper, z. B. durch einen Unfall oder Sport"},
+        "es": {"w": "lesión", "d": "daño en el cuerpo, por ejemplo por un accidente o deporte"},
+        "fr": {"w": "blessure", "d": "dommage au corps, par exemple à cause d'un accident ou du sport"}
+      }
+    },
+    {
+      "word": "climbing",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈklaɪmɪŋ/",
+      "def": "The sport of going up rocks, walls or mountains.",
+      "example": "Climbing is great for building strength in your arms.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التسلّق", "d": "رياضة الصعود على الصخور أو الجدران أو الجبال"},
+        "zh": {"w": "攀岩 / 登山", "d": "向上爬岩石、墙或山的运动"},
+        "de": {"w": "Klettern", "d": "Sport, bei dem man Felsen, Wände oder Berge hinaufsteigt"},
+        "es": {"w": "escalada", "d": "deporte de subir rocas, paredes o montañas"},
+        "fr": {"w": "escalade", "d": "sport qui consiste à grimper des rochers, des murs ou des montagnes"}
+      }
+    },
+    {
+      "word": "cycling",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈsaɪklɪŋ/",
+      "def": "The sport or activity of riding a bike.",
+      "example": "Cycling is easier on your knees than running.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ركوب الدراجات", "d": "رياضة أو نشاط قيادة الدراجة"},
+        "zh": {"w": "骑自行车", "d": "骑自行车的运动或活动"},
+        "de": {"w": "Radfahren", "d": "Sport oder Aktivität des Fahrradfahrens"},
+        "es": {"w": "ciclismo", "d": "deporte o actividad de montar en bici"},
+        "fr": {"w": "vélo / cyclisme", "d": "sport ou activité qui consiste à faire du vélo"}
+      }
+    },
+    {
+      "word": "bowling",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbəʊlɪŋ/",
+      "def": "A game where you roll a heavy ball to knock down pins.",
+      "example": "Bowling is fun, but it doesn't burn off many calories.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "البولينغ", "d": "لعبة تدحرج فيها كرة ثقيلة لإسقاط القوارير"},
+        "zh": {"w": "保龄球", "d": "滚动重球去击倒球瓶的游戏"},
+        "de": {"w": "Bowling / Kegeln", "d": "Spiel, bei dem man eine schwere Kugel rollt, um Pins umzuwerfen"},
+        "es": {"w": "bolos", "d": "juego en el que lanzas una bola pesada para derribar bolos"},
+        "fr": {"w": "bowling", "d": "jeu où l'on fait rouler une boule lourde pour renverser des quilles"}
+      }
+    },
+    {
+      "word": "muscle",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈmʌsl/",
+      "def": "One of the parts inside your body that help you move and make you strong.",
+      "example": "Lifting weights builds up muscle in your arms and legs.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عضلة", "d": "جزء داخل الجسم يساعدك على الحركة ويجعلك قوياً"},
+        "zh": {"w": "肌肉", "d": "身体里帮助你活动、让你有力量的部分"},
+        "de": {"w": "Muskel", "d": "ein Teil im Körper, der Bewegung und Kraft ermöglicht"},
+        "es": {"w": "músculo", "d": "parte del cuerpo que te ayuda a moverte y te da fuerza"},
+        "fr": {"w": "muscle", "d": "partie du corps qui permet de bouger et rend fort"}
+      }
+    },
+    {
+      "word": "ankle",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈæŋkl/",
+      "def": "The joint between your foot and your leg.",
+      "example": "Running can be hard on your knees and ankles.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كاحل", "d": "المفصل بين القدم والساق"},
+        "zh": {"w": "脚踝", "d": "脚和腿之间的关节"},
+        "de": {"w": "Knöchel / Sprunggelenk", "d": "das Gelenk zwischen Fuß und Bein"},
+        "es": {"w": "tobillo", "d": "articulación entre el pie y la pierna"},
+        "fr": {"w": "cheville", "d": "articulation entre le pied et la jambe"}
+      }
+    },
+    {
+      "word": "calorie",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkæləri/",
+      "def": "A unit for measuring the energy in food.",
+      "example": "Which activities do you do that burn off calories?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سُعرة حرارية", "d": "وحدة لقياس الطاقة الموجودة في الطعام"},
+        "zh": {"w": "卡路里 / 热量", "d": "衡量食物中能量的单位"},
+        "de": {"w": "Kalorie", "d": "Einheit, mit der man die Energie im Essen misst"},
+        "es": {"w": "caloría", "d": "unidad para medir la energía de los alimentos"},
+        "fr": {"w": "calorie", "d": "unité qui mesure l'énergie des aliments"}
+      }
+    },
+    {
+      "word": "cardio",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈkɑːdiəʊ/",
+      "def": "Exercise like running or swimming that makes your heart beat faster.",
+      "example": "Sue does cardio as well as weights so she doesn't get slow.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تمارين الكارديو (القلب)", "d": "تمارين مثل الجري أو السباحة تجعل قلبك ينبض أسرع"},
+        "zh": {"w": "有氧运动", "d": "像跑步、游泳这样让心跳加快的运动"},
+        "de": {"w": "Ausdauertraining / Cardio", "d": "Sport wie Laufen oder Schwimmen, bei dem das Herz schneller schlägt"},
+        "es": {"w": "cardio / ejercicio aeróbico", "d": "ejercicio como correr o nadar que acelera el corazón"},
+        "fr": {"w": "cardio", "d": "exercice comme la course ou la nage qui fait battre le cœur plus vite"}
+      }
+    },
+    {
+      "word": "training schedule",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˈtreɪnɪŋ ˌʃedjuːl/",
+      "def": "A plan showing when and how you will exercise.",
+      "example": "Anthony follows a weekly training schedule before every race.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جدول التدريب", "d": "خطة توضح متى وكيف ستتمرن"},
+        "zh": {"w": "训练计划", "d": "说明何时、如何锻炼的安排"},
+        "de": {"w": "Trainingsplan", "d": "ein Plan, wann und wie man trainiert"},
+        "es": {"w": "plan de entrenamiento", "d": "plan que indica cuándo y cómo vas a entrenar"},
+        "fr": {"w": "programme d'entraînement", "d": "plan qui montre quand et comment on s'entraîne"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Multi-word verbs for sport and health",
+      "explain": "A multi-word verb is a verb plus a small word like up, off, on or down. Together they have a new meaning, so learn them as one unit. Some phrases use an adjective + preposition, like hard on and hooked on.",
+      "explain_ar": "الفعل المركّب (multi-word verb) هو فعل مع كلمة صغيرة مثل up أو off أو on أو down، ويصبح لهما معاً معنى جديد، لذلك احفظهما كوحدة واحدة. وبعض العبارات تتكوّن من صفة + حرف جر مثل hard on و hooked on.",
+      "form": [
+        "verb + particle: take up, switch off, burn off, build up, come down",
+        "verb + particle + object: take up running / burn off calories / build up muscle",
+        "verb + object + particle: keep the weight off",
+        "switch off from + noun: switch off from work",
+        "be + adjective + on: be hard on the knees / be hooked on a sport"
+      ],
+      "examples": [
+        {"en": "Anthony took up triathlons in his mid-50s.", "note": "take up = start a new sport or hobby"},
+        {"en": "Weightlifting helps Sue switch off from the stress of her job.", "note": "switch off = stop thinking about work and relax"},
+        {"en": "After a few weeks Sue was hooked on weightlifting.", "note": "hooked on = loving something and wanting to do it all the time"},
+        {"en": "Running can be hard on the knees and ankles.", "note": "hard on = bad for a part of the body"},
+        {"en": "Weightlifting burns off calories and helps to keep the weight off.", "note": "burn off = use up; keep the weight off = not get heavier again"},
+        {"en": "Anthony's friend suggested he come down to the running club.", "note": "come down = come to a place"}
+      ],
+      "mistakes": [
+        {"wrong": "Sue was hooked in weightlifting.", "right": "Sue was hooked on weightlifting.", "why": "We always say hooked on."},
+        {"wrong": "Running is hard for the knees.", "right": "Running is hard on the knees.", "why": "The phrase is hard on + part of the body."},
+        {"wrong": "I took on tennis last year.", "right": "I took up tennis last year.", "why": "Take up = start a hobby. Take on = accept a job or responsibility."},
+        {"wrong": "Swimming helps me switch off of work.", "right": "Swimming helps me switch off from work.", "why": "Use from after switch off."},
+        {"wrong": "It make you feel happy and you switch off stress.", "right": "It makes you feel happy and helps you switch off.", "why": "He/she/it needs -s in the present simple."}
+      ],
+      "quiz": [
+        {"q": "What was the last new hobby you took ___?", "options": ["up", "off", "down"], "answer": 0, "why": "Take up = start a new hobby."},
+        {"q": "Which activities help you switch ___ from work?", "options": ["on", "off", "up"], "answer": 1, "why": "Switch off = stop thinking about work and relax."},
+        {"q": "A one-hour swim can burn ___ 500 calories.", "options": ["up", "down", "off"], "answer": 2, "why": "Burn off = use up energy or calories."},
+        {"q": "What makes people get hooked ___ sports?", "options": ["on", "in", "at"], "answer": 0, "why": "We say hooked on something."},
+        {"q": "Weightlifting can build ___ muscle.", "options": ["off", "up", "down"], "answer": 1, "why": "Build up = make bigger or stronger little by little."},
+        {"q": "Should people do sports that are hard ___ the knees?", "options": ["for", "with", "on"], "answer": 2, "why": "Hard on + part of the body = bad for it."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "How long have you been doing triathlons?", "use": "Asking how long someone has done a sport"},
+    {"en": "How did you get started?", "use": "Asking how someone began a sport or hobby"},
+    {"en": "How did your first race go?", "use": "Asking about someone's first experience"},
+    {"en": "How do you think it helps you in your life?", "use": "Asking about the benefits"},
+    {"en": "Would you recommend it to other people?", "use": "Asking for a recommendation"},
+    {"en": "Are there any downsides?", "use": "Asking about the disadvantages"},
+    {"en": "It keeps me in good shape.", "use": "Talking about a benefit of sport"},
+    {"en": "It can be hard on your knees and ankles.", "use": "Talking about a disadvantage of sport"},
+    {"en": "I agree with that, because...", "use": "Agreeing with a statement and giving a reason"},
+    {"en": "I'm not sure I agree. For example, my friend...", "use": "Disagreeing politely with a personal story"},
+    {"en": "In my opinion, the best sport for switching off is...", "use": "Giving your opinion"}
+  ]
+}

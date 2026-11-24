@@ -1,0 +1,4226 @@
+{
+  "reading_and_books": [
+    {
+      "word": "novelist",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈnɒvəlɪst/",
+      "def": "A person who writes long books of stories.",
+      "example": "Agatha Christie is a very famous novelist. She wrote many books.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "روائي",
+          "d": "شخص يكتب كتباً قصصية طويلة"
+        },
+        "zh": {
+          "w": "小说家",
+          "d": "写长篇故事书的人"
+        },
+        "de": {
+          "w": "Romanautor / Romanautorin",
+          "d": "eine Person, die lange Geschichten als Bücher schreibt"
+        },
+        "es": {
+          "w": "novelista",
+          "d": "una persona que escribe libros con historias largas"
+        },
+        "fr": {
+          "w": "romancier / romancière",
+          "d": "une personne qui écrit de longues histoires dans des livres"
+        }
+      }
+    },
+    {
+      "word": "literary fiction",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌlɪtərəri ˈfɪkʃn/",
+      "def": "Serious, well-written stories that people study and discuss as art.",
+      "example": "We read a lot of literary fiction in our English class at school.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الأدب الروائي الرفيع",
+          "d": "قصص جادة ومكتوبة بإتقان يدرسها الناس ويناقشونها كفنّ"
+        },
+        "zh": {
+          "w": "纯文学小说",
+          "d": "写得好、被当作艺术来研究讨论的严肃故事"
+        },
+        "de": {
+          "w": "anspruchsvolle Literatur",
+          "d": "ernste, gut geschriebene Geschichten, die man als Kunst liest und bespricht"
+        },
+        "es": {
+          "w": "ficción literaria",
+          "d": "historias serias y bien escritas que se estudian y comentan como arte"
+        },
+        "fr": {
+          "w": "littérature (de fiction)",
+          "d": "des histoires sérieuses et bien écrites qu'on étudie comme de l'art"
+        }
+      }
+    },
+    {
+      "word": "contemporary",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/kənˈtemprəri/",
+      "def": "Of the present time; modern.",
+      "example": "I like reading contemporary novels. They talk about life today.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "معاصر",
+          "d": "ينتمي إلى الوقت الحاضر؛ حديث"
+        },
+        "zh": {
+          "w": "当代的",
+          "d": "属于现在的；现代的"
+        },
+        "de": {
+          "w": "zeitgenössisch",
+          "d": "aus der heutigen Zeit; modern"
+        },
+        "es": {
+          "w": "contemporáneo",
+          "d": "de la época actual; moderno"
+        },
+        "fr": {
+          "w": "contemporain",
+          "d": "de notre époque; moderne"
+        }
+      }
+    },
+    {
+      "word": "comprehension",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌkɒmprɪˈhenʃn/",
+      "def": "The ability to understand what you read or hear.",
+      "example": "Reading every day helps improve your comprehension of English.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الاستيعاب / الفهم",
+          "d": "القدرة على فهم ما تقرؤه أو تسمعه"
+        },
+        "zh": {
+          "w": "理解",
+          "d": "理解你读到或听到的内容的能力"
+        },
+        "de": {
+          "w": "Verständnis",
+          "d": "die Fähigkeit, zu verstehen, was man liest oder hört"
+        },
+        "es": {
+          "w": "comprensión",
+          "d": "la capacidad de entender lo que lees u oyes"
+        },
+        "fr": {
+          "w": "compréhension",
+          "d": "la capacité de comprendre ce qu'on lit ou entend"
+        }
+      }
+    },
+    {
+      "word": "biography",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/baɪˈɒɡrəfi/",
+      "def": "A book about the true story of a real person's life.",
+      "example": "I like reading biographies of famous people. Their stories are interesting.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "سيرة حياة",
+          "d": "كتاب يروي القصة الحقيقية لحياة شخص حقيقي"
+        },
+        "zh": {
+          "w": "传记",
+          "d": "讲述真实人物一生真实故事的书"
+        },
+        "de": {
+          "w": "Biografie",
+          "d": "ein Buch über das wahre Leben eines echten Menschen"
+        },
+        "es": {
+          "w": "biografía",
+          "d": "un libro sobre la vida real de una persona real"
+        },
+        "fr": {
+          "w": "biographie",
+          "d": "un livre qui raconte la vraie vie d'une personne réelle"
+        }
+      }
+    },
+    {
+      "word": "satisfying",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈsætɪsfaɪɪŋ/",
+      "def": "Making you feel happy because you got what you wanted or finished something.",
+      "example": "Finishing a good book is very satisfying. I always feel happy afterwards.",
+      "opposite": "disappointing",
+      "tr": {
+        "ar": {
+          "w": "مُرضٍ",
+          "d": "يجعلك سعيداً لأنك حصلت على ما تريد أو أنهيت شيئاً"
+        },
+        "zh": {
+          "w": "令人满足的",
+          "d": "因为得到想要的或完成了某事而让人高兴"
+        },
+        "de": {
+          "w": "befriedigend",
+          "d": "macht froh, weil man etwas erreicht oder beendet hat"
+        },
+        "es": {
+          "w": "satisfactorio",
+          "d": "que te hace feliz porque conseguiste lo que querías o terminaste algo"
+        },
+        "fr": {
+          "w": "satisfaisant",
+          "d": "qui rend content parce qu'on a obtenu ce qu'on voulait ou fini quelque chose"
+        }
+      }
+    },
+    {
+      "word": "genre",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈʒɒnrə/",
+      "def": "A type of book, film or music, such as crime or romance.",
+      "example": "There are many genres of books, like mystery, fantasy and romance.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "نوع أدبي",
+          "d": "نوع من الكتب أو الأفلام أو الموسيقى، مثل الجريمة أو الرومانسية"
+        },
+        "zh": {
+          "w": "体裁 / 类型",
+          "d": "书、电影或音乐的类型，比如犯罪或爱情"
+        },
+        "de": {
+          "w": "Genre / Gattung",
+          "d": "eine Art von Buch, Film oder Musik, z. B. Krimi oder Liebesroman"
+        },
+        "es": {
+          "w": "género",
+          "d": "un tipo de libro, película o música, como el policiaco o el romántico"
+        },
+        "fr": {
+          "w": "genre",
+          "d": "un type de livre, de film ou de musique, comme le policier ou le roman d'amour"
+        }
+      }
+    },
+    {
+      "word": "fiction",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈfɪkʃn/",
+      "def": "Stories about people and events that are not real.",
+      "example": "Harry Potter is fiction. The story is not real, but it is great fun.",
+      "opposite": "non-fiction",
+      "tr": {
+        "ar": {
+          "w": "الأدب الخيالي",
+          "d": "قصص عن أشخاص وأحداث غير حقيقية"
+        },
+        "zh": {
+          "w": "虚构作品 / 小说",
+          "d": "关于不真实的人和事的故事"
+        },
+        "de": {
+          "w": "Belletristik / Fiktion",
+          "d": "Geschichten über Menschen und Ereignisse, die nicht echt sind"
+        },
+        "es": {
+          "w": "ficción",
+          "d": "historias sobre personas y hechos que no son reales"
+        },
+        "fr": {
+          "w": "fiction",
+          "d": "des histoires sur des personnes et des événements qui ne sont pas réels"
+        }
+      }
+    },
+    {
+      "word": "non-fiction",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌnɒnˈfɪkʃn/",
+      "def": "Books about real facts, people and events.",
+      "example": "I read a non-fiction book about space. I learned a lot from it.",
+      "opposite": "fiction",
+      "tr": {
+        "ar": {
+          "w": "الكتب الواقعية (غير الخيالية)",
+          "d": "كتب عن حقائق وأشخاص وأحداث حقيقية"
+        },
+        "zh": {
+          "w": "非虚构作品",
+          "d": "关于真实事实、人物和事件的书"
+        },
+        "de": {
+          "w": "Sachbücher / Sachliteratur",
+          "d": "Bücher über echte Fakten, Menschen und Ereignisse"
+        },
+        "es": {
+          "w": "no ficción",
+          "d": "libros sobre hechos, personas y sucesos reales"
+        },
+        "fr": {
+          "w": "documentaires / non-fiction",
+          "d": "des livres sur des faits, des gens et des événements réels"
+        }
+      }
+    },
+    {
+      "word": "mystery novel",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈmɪstri ˌnɒvl/",
+      "def": "A book in which a crime or secret is explained only at the end.",
+      "example": "I read a great mystery novel last week. I didn't know the answer until the end!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "رواية غموض / رواية بوليسية",
+          "d": "كتاب لا تُكشف فيه الجريمة أو السر إلا في النهاية"
+        },
+        "zh": {
+          "w": "推理小说",
+          "d": "犯罪或秘密到最后才揭开的书"
+        },
+        "de": {
+          "w": "Kriminalroman / Krimi",
+          "d": "ein Buch, in dem ein Verbrechen oder Geheimnis erst am Ende erklärt wird"
+        },
+        "es": {
+          "w": "novela de misterio",
+          "d": "un libro en el que un crimen o un secreto se explica solo al final"
+        },
+        "fr": {
+          "w": "roman policier",
+          "d": "un livre où un crime ou un secret n'est expliqué qu'à la fin"
+        }
+      }
+    },
+    {
+      "word": "line of work",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌlaɪn əv ˈwɜːk/",
+      "def": "The kind of job that someone does.",
+      "example": "\"What is your line of work?\" \"I'm a teacher.\"",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مجال العمل",
+          "d": "نوع الوظيفة التي يقوم بها شخص"
+        },
+        "zh": {
+          "w": "职业 / 行业",
+          "d": "某人从事的工作类型"
+        },
+        "de": {
+          "w": "Beruf / Branche",
+          "d": "die Art von Job, die jemand macht"
+        },
+        "es": {
+          "w": "profesión / oficio",
+          "d": "el tipo de empleo que tiene alguien"
+        },
+        "fr": {
+          "w": "métier / domaine",
+          "d": "le type d'emploi que fait quelqu'un"
+        }
+      }
+    },
+    {
+      "word": "occasionally",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/əˈkeɪʒnəli/",
+      "def": "Sometimes, but not often.",
+      "example": "I occasionally read books in French, maybe once a month.",
+      "opposite": "often",
+      "tr": {
+        "ar": {
+          "w": "أحياناً / من حين لآخر",
+          "d": "في بعض الأوقات، ولكن ليس كثيراً"
+        },
+        "zh": {
+          "w": "偶尔",
+          "d": "有时，但不经常"
+        },
+        "de": {
+          "w": "gelegentlich / ab und zu",
+          "d": "manchmal, aber nicht oft"
+        },
+        "es": {
+          "w": "de vez en cuando",
+          "d": "a veces, pero no a menudo"
+        },
+        "fr": {
+          "w": "de temps en temps",
+          "d": "parfois, mais pas souvent"
+        }
+      }
+    },
+    {
+      "word": "self-help book",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌself ˈhelp bʊk/",
+      "def": "Writing that gives you advice on improving your own life.",
+      "example": "My sister reads a lot of self-help books to feel more confident.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "كتاب تطوير الذات",
+          "d": "كتاب يقدم لك نصائح لتحسين حياتك"
+        },
+        "zh": {
+          "w": "自助书 / 励志书",
+          "d": "教你如何改善自己生活的书"
+        },
+        "de": {
+          "w": "Ratgeber",
+          "d": "ein Buch mit Tipps, wie man sein eigenes Leben verbessert"
+        },
+        "es": {
+          "w": "libro de autoayuda",
+          "d": "un libro que da consejos para mejorar tu propia vida"
+        },
+        "fr": {
+          "w": "livre de développement personnel",
+          "d": "un livre qui donne des conseils pour améliorer sa propre vie"
+        }
+      }
+    },
+    {
+      "word": "the Wild West",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ðə ˌwaɪld ˈwest/",
+      "def": "Part of America in the 1800s, known for cowboys and very few laws.",
+      "example": "Many books and films are about the Wild West.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الغرب الأمريكي المتوحّش",
+          "d": "جزء من أمريكا في القرن التاسع عشر، مشهور برعاة البقر وقلة القوانين"
+        },
+        "zh": {
+          "w": "美国西部拓荒时代",
+          "d": "十九世纪美国的一部分，以牛仔和缺少法律著称"
+        },
+        "de": {
+          "w": "der Wilde Westen",
+          "d": "ein Teil Amerikas im 19. Jahrhundert, bekannt für Cowboys und wenige Gesetze"
+        },
+        "es": {
+          "w": "el Lejano Oeste",
+          "d": "una parte de Estados Unidos en el siglo XIX, famosa por los vaqueros y las pocas leyes"
+        },
+        "fr": {
+          "w": "le Far West",
+          "d": "une partie de l'Amérique au XIXe siècle, connue pour ses cow-boys et ses rares lois"
+        }
+      }
+    },
+    {
+      "word": "graded reader",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌɡreɪdɪd ˈriːdə/",
+      "def": "An easy book written for language learners at a certain level.",
+      "example": "I started with easy graded readers, like Oxford Bookworms level 1.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "كتاب قراءة متدرّج",
+          "d": "كتاب سهل مكتوب لمتعلمي اللغة حسب مستواهم"
+        },
+        "zh": {
+          "w": "分级读物",
+          "d": "按水平为语言学习者编写的简单读物"
+        },
+        "de": {
+          "w": "Lektüre nach Niveaustufen",
+          "d": "ein einfaches Buch für Sprachlerner auf einem bestimmten Niveau"
+        },
+        "es": {
+          "w": "lectura graduada",
+          "d": "un libro fácil escrito para estudiantes de idiomas de cierto nivel"
+        },
+        "fr": {
+          "w": "lecture graduée",
+          "d": "un livre facile écrit pour les apprenants d'un certain niveau"
+        }
+      }
+    },
+    {
+      "word": "fairly",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/ˈfeəli/",
+      "def": "Quite, but not very.",
+      "example": "This book is fairly easy. I can read it without a dictionary.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "إلى حدٍّ ما",
+          "d": "نوعاً ما، ولكن ليس كثيراً"
+        },
+        "zh": {
+          "w": "相当 / 还算",
+          "d": "比较，但不是非常"
+        },
+        "de": {
+          "w": "ziemlich",
+          "d": "recht, aber nicht sehr"
+        },
+        "es": {
+          "w": "bastante",
+          "d": "más o menos, pero no mucho"
+        },
+        "fr": {
+          "w": "assez",
+          "d": "plutôt, mais pas très"
+        }
+      }
+    },
+    {
+      "word": "target language",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌtɑːɡɪt ˈlæŋɡwɪdʒ/",
+      "def": "The foreign tongue that you are studying, for example English.",
+      "example": "English is my target language. I study it every day.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "اللغة المستهدفة",
+          "d": "اللغة الأجنبية التي تتعلمها"
+        },
+        "zh": {
+          "w": "目标语言",
+          "d": "你正在学的外语"
+        },
+        "de": {
+          "w": "Zielsprache",
+          "d": "die Fremdsprache, die man lernt"
+        },
+        "es": {
+          "w": "lengua meta",
+          "d": "el idioma extranjero que estás aprendiendo"
+        },
+        "fr": {
+          "w": "langue cible",
+          "d": "la langue étrangère qu'on apprend"
+        }
+      }
+    },
+    {
+      "word": "complicated",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈkɒmplɪkeɪtɪd/",
+      "def": "Having many parts, so it is difficult to understand.",
+      "example": "This book is very complicated. I need a dictionary for every page.",
+      "opposite": "simple",
+      "tr": {
+        "ar": {
+          "w": "معقّد",
+          "d": "فيه أجزاء كثيرة ولذلك يصعب فهمه"
+        },
+        "zh": {
+          "w": "复杂的",
+          "d": "有很多部分，很难理解"
+        },
+        "de": {
+          "w": "kompliziert",
+          "d": "hat viele Teile und ist darum schwer zu verstehen"
+        },
+        "es": {
+          "w": "complicado",
+          "d": "que tiene muchas partes y es difícil de entender"
+        },
+        "fr": {
+          "w": "compliqué",
+          "d": "qui a beaucoup de parties et qui est difficile à comprendre"
+        }
+      }
+    },
+    {
+      "word": "realistic",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌriːəˈlɪstɪk/",
+      "def": "Showing life as it truly is.",
+      "example": "I prefer realistic stories. I don't like books with magic.",
+      "opposite": "unrealistic",
+      "tr": {
+        "ar": {
+          "w": "واقعي",
+          "d": "يُظهر الحياة كما هي فعلاً"
+        },
+        "zh": {
+          "w": "现实的 / 写实的",
+          "d": "按照真实的样子表现生活"
+        },
+        "de": {
+          "w": "realistisch",
+          "d": "zeigt das Leben, wie es wirklich ist"
+        },
+        "es": {
+          "w": "realista",
+          "d": "que muestra la vida tal como es"
+        },
+        "fr": {
+          "w": "réaliste",
+          "d": "qui montre la vie comme elle est vraiment"
+        }
+      }
+    },
+    {
+      "word": "fantasy",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfæntəsi/",
+      "def": "Stories with magic, strange creatures and imaginary worlds.",
+      "example": "Harry Potter is a famous fantasy book. It has magic and wizards.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الفانتازيا / الخيال",
+          "d": "قصص فيها سحر ومخلوقات غريبة وعوالم من الخيال"
+        },
+        "zh": {
+          "w": "奇幻",
+          "d": "有魔法、奇怪生物和想象世界的故事"
+        },
+        "de": {
+          "w": "Fantasy",
+          "d": "Geschichten mit Magie, seltsamen Wesen und erfundenen Welten"
+        },
+        "es": {
+          "w": "fantasía",
+          "d": "historias con magia, criaturas extrañas y mundos imaginarios"
+        },
+        "fr": {
+          "w": "fantasy / fantastique",
+          "d": "des histoires avec de la magie, des créatures étranges et des mondes imaginaires"
+        }
+      }
+    },
+    {
+      "word": "in particular",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ɪn pəˈtɪkjələ/",
+      "def": "Especially; more than the others.",
+      "example": "I like many kinds of books, but mystery novels in particular.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "خصوصاً / بالأخصّ",
+          "d": "بشكل خاص؛ أكثر من غيره"
+        },
+        "zh": {
+          "w": "尤其 / 特别",
+          "d": "特别是；比其他的更"
+        },
+        "de": {
+          "w": "besonders / vor allem",
+          "d": "ganz besonders; mehr als die anderen"
+        },
+        "es": {
+          "w": "en particular",
+          "d": "especialmente; más que los demás"
+        },
+        "fr": {
+          "w": "en particulier",
+          "d": "surtout; plus que les autres"
+        }
+      }
+    },
+    {
+      "word": "in case",
+      "pos": "conjunction",
+      "level": "B1",
+      "ipa": "/ɪn ˈkeɪs/",
+      "def": "Because something might happen.",
+      "example": "Take a book on the train in case you get bored.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تحسّباً لـ / في حال",
+          "d": "لأن شيئاً ما قد يحدث"
+        },
+        "zh": {
+          "w": "以防",
+          "d": "因为某事可能会发生"
+        },
+        "de": {
+          "w": "falls / für den Fall, dass",
+          "d": "weil etwas passieren könnte"
+        },
+        "es": {
+          "w": "por si (acaso)",
+          "d": "porque algo podría pasar"
+        },
+        "fr": {
+          "w": "au cas où",
+          "d": "parce que quelque chose pourrait arriver"
+        }
+      }
+    },
+    {
+      "word": "method",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈmeθəd/",
+      "def": "A planned way of doing something.",
+      "example": "Reading is a good method for learning new words in English.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "طريقة / أسلوب",
+          "d": "طريقة مخطَّطة للقيام بشيء ما"
+        },
+        "zh": {
+          "w": "方法",
+          "d": "有计划的做事方式"
+        },
+        "de": {
+          "w": "Methode",
+          "d": "eine geplante Art, etwas zu tun"
+        },
+        "es": {
+          "w": "método",
+          "d": "una forma planificada de hacer algo"
+        },
+        "fr": {
+          "w": "méthode",
+          "d": "une façon organisée de faire quelque chose"
+        }
+      }
+    },
+    {
+      "word": "material",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/məˈtɪəriəl/",
+      "def": "Things you read, watch or listen to in order to learn.",
+      "example": "Choose easy reading material when you start learning a new language.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مادة تعليمية",
+          "d": "ما تقرؤه أو تشاهده أو تسمعه لكي تتعلم"
+        },
+        "zh": {
+          "w": "材料 / 读物",
+          "d": "为了学习而读、看或听的东西"
+        },
+        "de": {
+          "w": "Material / Lesestoff",
+          "d": "Dinge, die man liest, sieht oder hört, um zu lernen"
+        },
+        "es": {
+          "w": "material",
+          "d": "cosas que lees, ves o escuchas para aprender"
+        },
+        "fr": {
+          "w": "supports / documents",
+          "d": "ce qu'on lit, regarde ou écoute pour apprendre"
+        }
+      }
+    },
+    {
+      "word": "field",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/fiːld/",
+      "def": "An area of work or study.",
+      "example": "Medicine is a very difficult field of study.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مجال / حقل",
+          "d": "ميدان من ميادين العمل أو الدراسة"
+        },
+        "zh": {
+          "w": "领域",
+          "d": "工作或学习的某个方面"
+        },
+        "de": {
+          "w": "Gebiet / Bereich",
+          "d": "ein Bereich der Arbeit oder des Studiums"
+        },
+        "es": {
+          "w": "campo / ámbito",
+          "d": "un área de trabajo o de estudio"
+        },
+        "fr": {
+          "w": "domaine",
+          "d": "un secteur de travail ou d'études"
+        }
+      }
+    },
+    {
+      "word": "novel",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈnɒvl/",
+      "def": "A long book that tells a story about people who are not real.",
+      "example": "I read two novels last month. They were both very exciting.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "رواية",
+          "d": "كتاب طويل يحكي قصة عن أشخاص غير حقيقيين"
+        },
+        "zh": {
+          "w": "小说",
+          "d": "讲虚构人物故事的长篇书"
+        },
+        "de": {
+          "w": "Roman",
+          "d": "ein langes Buch mit einer Geschichte über erfundene Menschen"
+        },
+        "es": {
+          "w": "novela",
+          "d": "un libro largo que cuenta una historia de personas que no son reales"
+        },
+        "fr": {
+          "w": "roman",
+          "d": "un long livre qui raconte l'histoire de personnes imaginaires"
+        }
+      }
+    },
+    {
+      "word": "author",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈɔːθə/",
+      "def": "A person who writes books.",
+      "example": "Who is the author of this book? I want to read more of her work.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مؤلِّف",
+          "d": "شخص يكتب الكتب"
+        },
+        "zh": {
+          "w": "作者",
+          "d": "写书的人"
+        },
+        "de": {
+          "w": "Autor / Autorin",
+          "d": "eine Person, die Bücher schreibt"
+        },
+        "es": {
+          "w": "autor / autora",
+          "d": "una persona que escribe libros"
+        },
+        "fr": {
+          "w": "auteur",
+          "d": "une personne qui écrit des livres"
+        }
+      }
+    },
+    {
+      "word": "improve",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪmˈpruːv/",
+      "def": "To make something better, or to become better.",
+      "example": "I want to improve my English, so I read every day.",
+      "opposite": "get worse",
+      "tr": {
+        "ar": {
+          "w": "يُحسِّن / يتحسّن",
+          "d": "أن تجعل شيئاً أفضل أو أن تصبح أفضل"
+        },
+        "zh": {
+          "w": "提高 / 改善",
+          "d": "使某事变得更好，或自己变得更好"
+        },
+        "de": {
+          "w": "verbessern",
+          "d": "etwas besser machen oder besser werden"
+        },
+        "es": {
+          "w": "mejorar",
+          "d": "hacer algo mejor o hacerse mejor"
+        },
+        "fr": {
+          "w": "améliorer",
+          "d": "rendre quelque chose meilleur, ou devenir meilleur"
+        }
+      }
+    },
+    {
+      "word": "prefer",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/prɪˈfɜː/",
+      "def": "To like one thing more than another.",
+      "example": "I prefer reading at night before I go to sleep.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُفضِّل",
+          "d": "أن تحب شيئاً أكثر من شيء آخر"
+        },
+        "zh": {
+          "w": "更喜欢",
+          "d": "喜欢一样东西多于另一样"
+        },
+        "de": {
+          "w": "lieber mögen / bevorzugen",
+          "d": "eine Sache mehr mögen als eine andere"
+        },
+        "es": {
+          "w": "preferir",
+          "d": "gustarte más una cosa que otra"
+        },
+        "fr": {
+          "w": "préférer",
+          "d": "aimer une chose plus qu'une autre"
+        }
+      }
+    },
+    {
+      "word": "knowledge",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈnɒlɪdʒ/",
+      "def": "What you understand and have learned about something.",
+      "example": "Books give you a lot of knowledge about the world.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "معرفة",
+          "d": "ما تفهمه وما تعلمته عن شيء ما"
+        },
+        "zh": {
+          "w": "知识",
+          "d": "你对某事的了解和学到的东西"
+        },
+        "de": {
+          "w": "Wissen",
+          "d": "was man über etwas versteht und gelernt hat"
+        },
+        "es": {
+          "w": "conocimiento",
+          "d": "lo que entiendes y has aprendido sobre algo"
+        },
+        "fr": {
+          "w": "connaissances",
+          "d": "ce qu'on comprend et ce qu'on a appris sur quelque chose"
+        }
+      }
+    },
+    {
+      "word": "recommendation",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌrekəmenˈdeɪʃn/",
+      "def": "An idea from someone about what is good to read, see or do.",
+      "example": "Do you have any recommendations for good English books?",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "توصية / اقتراح",
+          "d": "فكرة يقترحها شخص عمّا يستحق القراءة أو المشاهدة أو الفعل"
+        },
+        "zh": {
+          "w": "推荐",
+          "d": "别人告诉你什么值得读、看或做"
+        },
+        "de": {
+          "w": "Empfehlung",
+          "d": "ein Tipp, was gut zu lesen, zu sehen oder zu tun ist"
+        },
+        "es": {
+          "w": "recomendación",
+          "d": "una idea de alguien sobre qué es bueno leer, ver o hacer"
+        },
+        "fr": {
+          "w": "recommandation / conseil",
+          "d": "une idée de quelqu'un sur ce qu'il est bon de lire, voir ou faire"
+        }
+      }
+    },
+    {
+      "word": "chapter book",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtʃæptə bʊk/",
+      "def": "A simple story for children, divided into short parts.",
+      "example": "Children's chapter books are great for learners. They are short and easy.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "كتاب أطفال مقسَّم إلى فصول",
+          "d": "قصة بسيطة للأطفال مقسَّمة إلى أجزاء قصيرة"
+        },
+        "zh": {
+          "w": "章节书（儿童读物）",
+          "d": "分成短小章节的简单儿童故事书"
+        },
+        "de": {
+          "w": "Kinderbuch mit Kapiteln",
+          "d": "eine einfache Geschichte für Kinder, in kurze Teile geteilt"
+        },
+        "es": {
+          "w": "libro por capítulos",
+          "d": "una historia sencilla para niños, dividida en partes cortas"
+        },
+        "fr": {
+          "w": "livre à chapitres",
+          "d": "une histoire simple pour enfants, divisée en courtes parties"
+        }
+      }
+    },
+    {
+      "word": "boring",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/ˈbɔːrɪŋ/",
+      "def": "Not interesting.",
+      "example": "This book is very boring. I want to read something else.",
+      "opposite": "interesting",
+      "tr": {
+        "ar": {
+          "w": "مُمِلّ",
+          "d": "غير مثير للاهتمام"
+        },
+        "zh": {
+          "w": "无聊的",
+          "d": "没意思"
+        },
+        "de": {
+          "w": "langweilig",
+          "d": "nicht interessant"
+        },
+        "es": {
+          "w": "aburrido",
+          "d": "que no es interesante"
+        },
+        "fr": {
+          "w": "ennuyeux",
+          "d": "qui n'est pas intéressant"
+        }
+      }
+    },
+    {
+      "word": "level",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈlevl/",
+      "def": "How good you are at something, or how difficult something is.",
+      "example": "This book is good for my level. It is not too hard.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مستوى",
+          "d": "مدى إتقانك لشيء ما أو مدى صعوبته"
+        },
+        "zh": {
+          "w": "水平 / 级别",
+          "d": "你做某事的程度，或某物的难度"
+        },
+        "de": {
+          "w": "Niveau / Stufe",
+          "d": "wie gut man etwas kann oder wie schwer etwas ist"
+        },
+        "es": {
+          "w": "nivel",
+          "d": "lo bien que haces algo o lo difícil que es algo"
+        },
+        "fr": {
+          "w": "niveau",
+          "d": "à quel point on est bon, ou à quel point c'est difficile"
+        }
+      }
+    },
+    {
+      "word": "category",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkætəɡəri/",
+      "def": "A group of things of the same type.",
+      "example": "Fiction and non-fiction are the two main categories of books.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "فئة / تصنيف",
+          "d": "مجموعة من الأشياء من النوع نفسه"
+        },
+        "zh": {
+          "w": "类别",
+          "d": "同一类型的一组东西"
+        },
+        "de": {
+          "w": "Kategorie",
+          "d": "eine Gruppe von Dingen der gleichen Art"
+        },
+        "es": {
+          "w": "categoría",
+          "d": "un grupo de cosas del mismo tipo"
+        },
+        "fr": {
+          "w": "catégorie",
+          "d": "un groupe de choses du même type"
+        }
+      }
+    },
+    {
+      "word": "western",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈwestən/",
+      "def": "A book or film about cowboys in the old days of America.",
+      "example": "My dad loves westerns with cowboys and horses.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "قصة أو فيلم رعاة البقر",
+          "d": "كتاب أو فيلم عن رعاة البقر في أمريكا قديماً"
+        },
+        "zh": {
+          "w": "西部片 / 西部小说",
+          "d": "讲美国过去牛仔故事的书或电影"
+        },
+        "de": {
+          "w": "Western",
+          "d": "ein Buch oder Film über Cowboys im alten Amerika"
+        },
+        "es": {
+          "w": "western / película del Oeste",
+          "d": "un libro o película sobre vaqueros en la América de antes"
+        },
+        "fr": {
+          "w": "western",
+          "d": "un livre ou un film sur les cow-boys de l'Amérique d'autrefois"
+        }
+      }
+    },
+    {
+      "word": "advanced",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ədˈvɑːnst/",
+      "def": "At a high, difficult level; not for beginners.",
+      "example": "This novel is too advanced for me. I need an easier one.",
+      "opposite": "basic",
+      "tr": {
+        "ar": {
+          "w": "متقدّم",
+          "d": "في مستوى عالٍ وصعب؛ ليس للمبتدئين"
+        },
+        "zh": {
+          "w": "高级的",
+          "d": "高难度的；不适合初学者"
+        },
+        "de": {
+          "w": "fortgeschritten",
+          "d": "auf einem hohen, schweren Niveau; nicht für Anfänger"
+        },
+        "es": {
+          "w": "avanzado",
+          "d": "de nivel alto y difícil; no para principiantes"
+        },
+        "fr": {
+          "w": "avancé",
+          "d": "d'un niveau élevé et difficile; pas pour les débutants"
+        }
+      }
+    },
+    {
+      "word": "secret",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈsiːkrət/",
+      "def": "Something that you do not tell other people.",
+      "example": "Don't tell anyone how the book ends! It's a secret.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "سرّ",
+          "d": "شيء لا تخبر به الآخرين"
+        },
+        "zh": {
+          "w": "秘密",
+          "d": "不告诉别人的事"
+        },
+        "de": {
+          "w": "Geheimnis",
+          "d": "etwas, das man anderen nicht erzählt"
+        },
+        "es": {
+          "w": "secreto",
+          "d": "algo que no les cuentas a otras personas"
+        },
+        "fr": {
+          "w": "secret",
+          "d": "quelque chose qu'on ne dit pas aux autres"
+        }
+      }
+    },
+    {
+      "word": "beginner",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/bɪˈɡɪnə/",
+      "def": "A person who is just starting to learn something.",
+      "example": "I am a beginner in French, so I read very easy books.",
+      "opposite": "expert",
+      "tr": {
+        "ar": {
+          "w": "مبتدئ",
+          "d": "شخص بدأ للتو في تعلم شيء ما"
+        },
+        "zh": {
+          "w": "初学者",
+          "d": "刚开始学某样东西的人"
+        },
+        "de": {
+          "w": "Anfänger / Anfängerin",
+          "d": "jemand, der gerade anfängt, etwas zu lernen"
+        },
+        "es": {
+          "w": "principiante",
+          "d": "una persona que acaba de empezar a aprender algo"
+        },
+        "fr": {
+          "w": "débutant / débutante",
+          "d": "une personne qui commence à apprendre quelque chose"
+        }
+      }
+    },
+    {
+      "word": "favourite",
+      "pos": "adjective",
+      "level": "A1",
+      "ipa": "/ˈfeɪvərɪt/",
+      "def": "Liked more than all the others.",
+      "example": "My favourite book is Harry Potter. I've read it three times!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "المفضَّل",
+          "d": "محبوب أكثر من كل الآخرين"
+        },
+        "zh": {
+          "w": "最喜欢的",
+          "d": "比其他所有的都更喜欢"
+        },
+        "de": {
+          "w": "Lieblings-",
+          "d": "mehr gemocht als alle anderen"
+        },
+        "es": {
+          "w": "favorito",
+          "d": "que te gusta más que todos los demás"
+        },
+        "fr": {
+          "w": "préféré",
+          "d": "qu'on aime plus que tous les autres"
+        }
+      }
+    }
+  ],
+  "seasons_and_weather": [
+    {
+      "word": "universally known",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˌjuːnɪˌvɜːsəli ˈnəʊn/",
+      "def": "Understood by people everywhere in the world.",
+      "example": "The four seasons are universally known, but not every country has all four.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "معروف عالمياً",
+          "d": "يفهمه الناس في كل مكان في العالم"
+        },
+        "zh": {
+          "w": "众所周知的",
+          "d": "世界各地的人都了解"
+        },
+        "de": {
+          "w": "allgemein bekannt",
+          "d": "überall auf der Welt verstanden"
+        },
+        "es": {
+          "w": "universalmente conocido",
+          "d": "lo entiende la gente de todo el mundo"
+        },
+        "fr": {
+          "w": "universellement connu",
+          "d": "compris par les gens partout dans le monde"
+        }
+      }
+    },
+    {
+      "word": "distinct",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/dɪˈstɪŋkt/",
+      "def": "Clearly different from other things.",
+      "example": "Each season in this country has its own distinct weather.",
+      "opposite": "similar",
+      "tr": {
+        "ar": {
+          "w": "متميّز / مختلف بوضوح",
+          "d": "مختلف بوضوح عن الأشياء الأخرى"
+        },
+        "zh": {
+          "w": "截然不同的",
+          "d": "和其他东西明显不同"
+        },
+        "de": {
+          "w": "deutlich verschieden",
+          "d": "klar anders als andere Dinge"
+        },
+        "es": {
+          "w": "distinto / diferenciado",
+          "d": "claramente diferente de otras cosas"
+        },
+        "fr": {
+          "w": "distinct",
+          "d": "clairement différent des autres choses"
+        }
+      }
+    },
+    {
+      "word": "miserable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈmɪzrəbl/",
+      "def": "Very unpleasant and making you feel unhappy, like cold, wet weather.",
+      "example": "It was a miserable rainy day, so we stayed at home and watched TV.",
+      "opposite": "lovely",
+      "tr": {
+        "ar": {
+          "w": "كئيب / سيئ جداً",
+          "d": "مزعج جداً ويجعلك تشعر بالتعاسة، مثل الطقس البارد الممطر"
+        },
+        "zh": {
+          "w": "阴沉的 / 令人难受的",
+          "d": "非常让人不舒服、不开心，比如又冷又湿的天气"
+        },
+        "de": {
+          "w": "scheußlich / trüb",
+          "d": "sehr unangenehm und macht unglücklich, wie kaltes, nasses Wetter"
+        },
+        "es": {
+          "w": "horrible / deprimente",
+          "d": "muy desagradable y te pone triste, como el tiempo frío y lluvioso"
+        },
+        "fr": {
+          "w": "maussade / affreux",
+          "d": "très désagréable et qui rend malheureux, comme un temps froid et humide"
+        }
+      }
+    },
+    {
+      "word": "landscape",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈlændskeɪp/",
+      "def": "Everything you can see when you look across a large area of countryside.",
+      "example": "In winter the whole landscape turns white with snow.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "منظر طبيعي",
+          "d": "كل ما تراه عندما تنظر إلى مساحة واسعة من الريف"
+        },
+        "zh": {
+          "w": "风景 / 景色",
+          "d": "看向一大片乡村时看到的一切"
+        },
+        "de": {
+          "w": "Landschaft",
+          "d": "alles, was man sieht, wenn man über ein großes Stück Land schaut"
+        },
+        "es": {
+          "w": "paisaje",
+          "d": "todo lo que ves al mirar una gran zona de campo"
+        },
+        "fr": {
+          "w": "paysage",
+          "d": "tout ce qu'on voit quand on regarde une grande étendue de campagne"
+        }
+      }
+    },
+    {
+      "word": "daylight saving time",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌdeɪlaɪt ˈseɪvɪŋ taɪm/",
+      "def": "The months when clocks are moved one hour forward to get brighter evenings.",
+      "example": "Many countries start daylight saving time in March.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "التوقيت الصيفي",
+          "d": "الأشهر التي تُقدَّم فيها الساعة ساعة واحدة لتكون الأمسيات أكثر إضاءة"
+        },
+        "zh": {
+          "w": "夏令时",
+          "d": "把时钟拨快一小时、让傍晚更亮的那几个月"
+        },
+        "de": {
+          "w": "Sommerzeit",
+          "d": "die Monate, in denen man die Uhr eine Stunde vorstellt, damit es abends länger hell ist"
+        },
+        "es": {
+          "w": "horario de verano",
+          "d": "los meses en que se adelanta el reloj una hora para tener tardes con más luz"
+        },
+        "fr": {
+          "w": "heure d'été",
+          "d": "les mois où l'on avance les montres d'une heure pour avoir des soirées plus claires"
+        }
+      }
+    },
+    {
+      "word": "handle",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈhændl/",
+      "def": "To deal with something difficult, such as very cold weather.",
+      "example": "I can handle cold mornings, but I always drink hot tea to stay warm.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يتحمّل / يتعامل مع",
+          "d": "أن تتعامل مع شيء صعب، مثل الطقس البارد جداً"
+        },
+        "zh": {
+          "w": "应付 / 承受",
+          "d": "应对困难的事情，比如很冷的天气"
+        },
+        "de": {
+          "w": "aushalten / klarkommen mit",
+          "d": "mit etwas Schwierigem klarkommen, z. B. mit sehr kaltem Wetter"
+        },
+        "es": {
+          "w": "aguantar / soportar",
+          "d": "hacer frente a algo difícil, como el tiempo muy frío"
+        },
+        "fr": {
+          "w": "supporter",
+          "d": "faire face à quelque chose de difficile, comme un temps très froid"
+        }
+      }
+    },
+    {
+      "word": "bloom",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/bluːm/",
+      "def": "To open and show flowers, usually in spring.",
+      "example": "The roses bloom in our small garden every May.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُزهِر / يتفتّح",
+          "d": "أن تتفتح الأزهار وتظهر، عادةً في الربيع"
+        },
+        "zh": {
+          "w": "开花",
+          "d": "开出花朵，通常在春天"
+        },
+        "de": {
+          "w": "blühen",
+          "d": "Blüten öffnen und zeigen, meistens im Frühling"
+        },
+        "es": {
+          "w": "florecer",
+          "d": "abrir y mostrar flores, normalmente en primavera"
+        },
+        "fr": {
+          "w": "fleurir",
+          "d": "ouvrir ses fleurs, souvent au printemps"
+        }
+      }
+    },
+    {
+      "word": "uncomfortable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ʌnˈkʌmftəbl/",
+      "def": "Not feeling nice or relaxed in your body, for example because it is too hot.",
+      "example": "Very hot, wet weather makes me feel uncomfortable.",
+      "opposite": "comfortable",
+      "tr": {
+        "ar": {
+          "w": "غير مرتاح",
+          "d": "لا تشعر بالراحة أو الاسترخاء في جسمك، مثلاً لأن الجو حار جداً"
+        },
+        "zh": {
+          "w": "不舒服的",
+          "d": "身体感觉不好、不放松，比如因为太热"
+        },
+        "de": {
+          "w": "unwohl / unbequem",
+          "d": "sich im Körper nicht gut oder entspannt fühlen, z. B. weil es zu heiß ist"
+        },
+        "es": {
+          "w": "incómodo",
+          "d": "no sentirse bien ni relajado, por ejemplo porque hace demasiado calor"
+        },
+        "fr": {
+          "w": "mal à l'aise / inconfortable",
+          "d": "ne pas se sentir bien ou détendu, par exemple parce qu'il fait trop chaud"
+        }
+      }
+    },
+    {
+      "word": "mild",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/maɪld/",
+      "def": "Not too cold and not too hot; pleasant.",
+      "example": "Alexandria has a mild winter compared to cities in northern Europe.",
+      "opposite": "harsh",
+      "tr": {
+        "ar": {
+          "w": "معتدل",
+          "d": "ليس بارداً جداً ولا حاراً جداً؛ لطيف"
+        },
+        "zh": {
+          "w": "温和的",
+          "d": "不太冷也不太热；舒适"
+        },
+        "de": {
+          "w": "mild",
+          "d": "nicht zu kalt und nicht zu heiß; angenehm"
+        },
+        "es": {
+          "w": "suave / templado",
+          "d": "ni demasiado frío ni demasiado caliente; agradable"
+        },
+        "fr": {
+          "w": "doux",
+          "d": "ni trop froid ni trop chaud; agréable"
+        }
+      }
+    },
+    {
+      "word": "crunch",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/krʌntʃ/",
+      "def": "To make a loud breaking sound when you step on or bite something.",
+      "example": "We heard the dry leaves crunching under our shoes in autumn.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُطقطق / يُقرقِش",
+          "d": "أن يُصدر صوت تكسّر عالياً عندما تدوس عليه أو تعضّه"
+        },
+        "zh": {
+          "w": "嘎吱作响",
+          "d": "踩或咬东西时发出响亮的碎裂声"
+        },
+        "de": {
+          "w": "knirschen / rascheln",
+          "d": "ein lautes, brechendes Geräusch machen, wenn man darauf tritt oder hineinbeißt"
+        },
+        "es": {
+          "w": "crujir",
+          "d": "hacer un ruido fuerte al pisarlo o morderlo"
+        },
+        "fr": {
+          "w": "craquer / crisser",
+          "d": "faire un bruit sec quand on marche dessus ou qu'on le mord"
+        }
+      }
+    },
+    {
+      "word": "experience",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "def": "To have something happen to you, or to feel it yourself.",
+      "example": "I experienced snow for the first time when I visited Turkey last year.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يختبر / يعيش (تجربة)",
+          "d": "أن يحدث لك شيء أو أن تشعر به بنفسك"
+        },
+        "zh": {
+          "w": "经历 / 体验",
+          "d": "某事发生在你身上，或你亲身感受到"
+        },
+        "de": {
+          "w": "erleben",
+          "d": "etwas passiert einem, oder man fühlt es selbst"
+        },
+        "es": {
+          "w": "experimentar / vivir",
+          "d": "que algo te pase o sentirlo tú mismo"
+        },
+        "fr": {
+          "w": "vivre / connaître",
+          "d": "quand quelque chose t'arrive, ou que tu le ressens toi-même"
+        }
+      }
+    },
+    {
+      "word": "plenty of",
+      "pos": "determiner",
+      "level": "B1",
+      "ipa": "/ˈplenti əv/",
+      "def": "A lot of; more than enough.",
+      "example": "You should drink plenty of water on hot summer days.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الكثير من",
+          "d": "كمية كبيرة؛ أكثر من الكافي"
+        },
+        "zh": {
+          "w": "大量的 / 充足的",
+          "d": "很多；足够多"
+        },
+        "de": {
+          "w": "viel / reichlich",
+          "d": "eine große Menge; mehr als genug"
+        },
+        "es": {
+          "w": "mucho / de sobra",
+          "d": "mucha cantidad; más que suficiente"
+        },
+        "fr": {
+          "w": "beaucoup de",
+          "d": "une grande quantité; plus qu'assez"
+        }
+      }
+    },
+    {
+      "word": "region",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈriːdʒən/",
+      "def": "A large area of a country or of the world.",
+      "example": "In some regions it snows every winter, but in others it never does.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "منطقة / إقليم",
+          "d": "جزء كبير من بلد أو من العالم"
+        },
+        "zh": {
+          "w": "地区",
+          "d": "一个国家或世界的一大片地方"
+        },
+        "de": {
+          "w": "Region / Gebiet",
+          "d": "ein großer Teil eines Landes oder der Welt"
+        },
+        "es": {
+          "w": "región",
+          "d": "una zona grande de un país o del mundo"
+        },
+        "fr": {
+          "w": "région",
+          "d": "une grande partie d'un pays ou du monde"
+        }
+      }
+    },
+    {
+      "word": "recommend",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌrekəˈmend/",
+      "def": "To tell someone that something is good and they should try it.",
+      "example": "I recommend a light jacket in spring because it can be windy.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يوصي بـ / ينصح بـ",
+          "d": "أن تخبر شخصاً بأن شيئاً جيد وعليه أن يجربه"
+        },
+        "zh": {
+          "w": "推荐",
+          "d": "告诉别人某样东西很好，值得一试"
+        },
+        "de": {
+          "w": "empfehlen",
+          "d": "jemandem sagen, dass etwas gut ist und er es probieren sollte"
+        },
+        "es": {
+          "w": "recomendar",
+          "d": "decirle a alguien que algo es bueno y que debería probarlo"
+        },
+        "fr": {
+          "w": "recommander / conseiller",
+          "d": "dire à quelqu'un qu'une chose est bonne et qu'il devrait l'essayer"
+        }
+      }
+    },
+    {
+      "word": "autumn",
+      "pos": "noun",
+      "level": "A1",
+      "ipa": "/ˈɔːtəm/",
+      "def": "The season between summer and winter, when leaves fall from trees.",
+      "example": "The weather becomes pleasantly cool in autumn.",
+      "opposite": "spring",
+      "tr": {
+        "ar": {
+          "w": "الخريف",
+          "d": "الفصل بين الصيف والشتاء، حين تسقط أوراق الشجر"
+        },
+        "zh": {
+          "w": "秋天",
+          "d": "夏天和冬天之间的季节，树叶会掉落"
+        },
+        "de": {
+          "w": "Herbst",
+          "d": "die Jahreszeit zwischen Sommer und Winter, wenn die Blätter fallen"
+        },
+        "es": {
+          "w": "otoño",
+          "d": "la estación entre el verano y el invierno, cuando caen las hojas"
+        },
+        "fr": {
+          "w": "automne",
+          "d": "la saison entre l'été et l'hiver, quand les feuilles tombent"
+        }
+      }
+    },
+    {
+      "word": "temperature",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈtemprətʃə/",
+      "def": "How hot or cold something or somewhere is.",
+      "example": "The temperature drops quickly when the sun goes down.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "درجة الحرارة",
+          "d": "مدى سخونة أو برودة شيء أو مكان"
+        },
+        "zh": {
+          "w": "温度 / 气温",
+          "d": "某物或某地有多热或多冷"
+        },
+        "de": {
+          "w": "Temperatur",
+          "d": "wie warm oder kalt etwas oder ein Ort ist"
+        },
+        "es": {
+          "w": "temperatura",
+          "d": "lo caliente o frío que está algo o un lugar"
+        },
+        "fr": {
+          "w": "température",
+          "d": "à quel point quelque chose ou un endroit est chaud ou froid"
+        }
+      }
+    },
+    {
+      "word": "degrees Celsius",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/dɪˌɡriːz ˈselsiəs/",
+      "def": "A unit for measuring how hot or cold it is; water freezes at 0.",
+      "example": "In summer it is often 35 degrees Celsius in Cairo.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "درجات مئوية",
+          "d": "وحدة لقياس السخونة أو البرودة؛ يتجمد الماء عند الصفر"
+        },
+        "zh": {
+          "w": "摄氏度",
+          "d": "测量冷热的单位；水在零度结冰"
+        },
+        "de": {
+          "w": "Grad Celsius",
+          "d": "eine Einheit, um Wärme oder Kälte zu messen; Wasser gefriert bei 0"
+        },
+        "es": {
+          "w": "grados centígrados",
+          "d": "una unidad para medir el calor o el frío; el agua se congela a 0"
+        },
+        "fr": {
+          "w": "degrés Celsius",
+          "d": "une unité pour mesurer le chaud ou le froid; l'eau gèle à 0"
+        }
+      }
+    },
+    {
+      "word": "skiing",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈskiːɪŋ/",
+      "def": "The sport of moving over snow on two long, narrow boards.",
+      "example": "My friends go skiing in the mountains every January.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "التزلّج على الثلج",
+          "d": "رياضة التحرك فوق الثلج على لوحين طويلين ضيقين"
+        },
+        "zh": {
+          "w": "滑雪",
+          "d": "踩着两块又长又窄的板在雪上滑行的运动"
+        },
+        "de": {
+          "w": "Skifahren",
+          "d": "der Sport, bei dem man auf zwei langen, schmalen Brettern über Schnee fährt"
+        },
+        "es": {
+          "w": "esquí",
+          "d": "el deporte de deslizarse por la nieve sobre dos tablas largas y estrechas"
+        },
+        "fr": {
+          "w": "ski",
+          "d": "le sport qui consiste à glisser sur la neige avec deux longues planches étroites"
+        }
+      }
+    },
+    {
+      "word": "snowboarding",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈsnəʊbɔːdɪŋ/",
+      "def": "The winter sport of sliding down mountains while standing on one wide board.",
+      "example": "Snowboarding is more exciting than skiing, I think.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "التزلّج بلوح واحد (سنوبورد)",
+          "d": "رياضة شتوية تنزلق فيها على الجبال واقفاً على لوح عريض واحد"
+        },
+        "zh": {
+          "w": "单板滑雪",
+          "d": "站在一块宽板上从山上滑下的冬季运动"
+        },
+        "de": {
+          "w": "Snowboarden",
+          "d": "ein Wintersport, bei dem man auf einem breiten Brett den Berg hinunterfährt"
+        },
+        "es": {
+          "w": "snowboard",
+          "d": "un deporte de invierno en el que bajas montañas de pie sobre una tabla ancha"
+        },
+        "fr": {
+          "w": "snowboard",
+          "d": "un sport d'hiver où l'on descend les montagnes debout sur une large planche"
+        }
+      }
+    },
+    {
+      "word": "vacation",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/veɪˈkeɪʃn/",
+      "def": "(American English) A time when you do not work or go to school; a holiday.",
+      "example": "Our family went to the beach for a one-week vacation.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "إجازة / عطلة",
+          "d": "(إنجليزية أمريكية) وقت لا تعمل فيه ولا تذهب إلى المدرسة؛ عطلة"
+        },
+        "zh": {
+          "w": "假期",
+          "d": "（美式英语）不上班也不上学的时间；度假"
+        },
+        "de": {
+          "w": "Urlaub / Ferien",
+          "d": "(amerikanisch) eine Zeit ohne Arbeit oder Schule"
+        },
+        "es": {
+          "w": "vacaciones",
+          "d": "(inglés americano) un tiempo sin trabajo ni escuela"
+        },
+        "fr": {
+          "w": "vacances",
+          "d": "(anglais américain) une période sans travail ni école"
+        }
+      }
+    },
+    {
+      "word": "summer break",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌsʌmə ˈbreɪk/",
+      "def": "The long school holiday in the warm months of the year.",
+      "example": "Many students travel during their summer break.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "العطلة الصيفية",
+          "d": "إجازة المدرسة الطويلة في أشهر السنة الدافئة"
+        },
+        "zh": {
+          "w": "暑假",
+          "d": "一年中天气暖和的月份里学校的长假"
+        },
+        "de": {
+          "w": "Sommerferien",
+          "d": "die langen Schulferien in den warmen Monaten"
+        },
+        "es": {
+          "w": "vacaciones de verano",
+          "d": "las vacaciones largas de la escuela en los meses de calor"
+        },
+        "fr": {
+          "w": "vacances d'été",
+          "d": "les longues vacances scolaires pendant les mois chauds"
+        }
+      }
+    },
+    {
+      "word": "exist",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪɡˈzɪst/",
+      "def": "To be real, or to be found somewhere.",
+      "example": "In some countries, autumn and spring do not really exist.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يوجد",
+          "d": "أن يكون حقيقياً أو موجوداً في مكان ما"
+        },
+        "zh": {
+          "w": "存在",
+          "d": "是真实的，或在某处能找到"
+        },
+        "de": {
+          "w": "existieren / es gibt",
+          "d": "wirklich sein oder irgendwo vorkommen"
+        },
+        "es": {
+          "w": "existir",
+          "d": "ser real o encontrarse en algún lugar"
+        },
+        "fr": {
+          "w": "exister",
+          "d": "être réel, ou se trouver quelque part"
+        }
+      }
+    },
+    {
+      "word": "difference",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈdɪfrəns/",
+      "def": "A way in which two things are not the same.",
+      "example": "There are big differences between summer and winter in Canada.",
+      "opposite": "similarity",
+      "tr": {
+        "ar": {
+          "w": "فرق / اختلاف",
+          "d": "ناحية لا يكون فيها شيئان متشابهين"
+        },
+        "zh": {
+          "w": "差别 / 不同",
+          "d": "两样东西不一样的地方"
+        },
+        "de": {
+          "w": "Unterschied",
+          "d": "etwas, worin zwei Dinge nicht gleich sind"
+        },
+        "es": {
+          "w": "diferencia",
+          "d": "algo en lo que dos cosas no son iguales"
+        },
+        "fr": {
+          "w": "différence",
+          "d": "ce qui n'est pas pareil entre deux choses"
+        }
+      }
+    },
+    {
+      "word": "last",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/lɑːst/",
+      "def": "To continue for a period of time.",
+      "example": "In Russia, winter lasts for about five months.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يدوم / يستمر",
+          "d": "أن يستمر لفترة من الزمن"
+        },
+        "zh": {
+          "w": "持续",
+          "d": "持续一段时间"
+        },
+        "de": {
+          "w": "dauern",
+          "d": "eine bestimmte Zeit lang weitergehen"
+        },
+        "es": {
+          "w": "durar",
+          "d": "continuar durante un tiempo"
+        },
+        "fr": {
+          "w": "durer",
+          "d": "continuer pendant un certain temps"
+        }
+      }
+    },
+    {
+      "word": "depending on",
+      "pos": "preposition",
+      "level": "B1",
+      "ipa": "/dɪˈpendɪŋ ɒn/",
+      "def": "Changing because of something else.",
+      "example": "We choose our clothes depending on the weather.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "حسب / اعتماداً على",
+          "d": "يتغيّر بسبب شيء آخر"
+        },
+        "zh": {
+          "w": "根据 / 取决于",
+          "d": "因为别的事情而改变"
+        },
+        "de": {
+          "w": "je nach",
+          "d": "ändert sich wegen etwas anderem"
+        },
+        "es": {
+          "w": "según / dependiendo de",
+          "d": "que cambia por otra cosa"
+        },
+        "fr": {
+          "w": "selon / en fonction de",
+          "d": "qui change à cause d'autre chose"
+        }
+      }
+    },
+    {
+      "word": "in my opinion",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ɪn ˈmaɪ əˈpɪnjən/",
+      "def": "Used to say what you personally think.",
+      "example": "In my opinion, autumn is the most beautiful season.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "في رأيي",
+          "d": "تُستخدم لتقول ما تفكر فيه أنت شخصياً"
+        },
+        "zh": {
+          "w": "在我看来",
+          "d": "用来说出你个人的想法"
+        },
+        "de": {
+          "w": "meiner Meinung nach",
+          "d": "damit sagt man, was man selbst denkt"
+        },
+        "es": {
+          "w": "en mi opinión",
+          "d": "se usa para decir lo que tú piensas"
+        },
+        "fr": {
+          "w": "à mon avis",
+          "d": "sert à dire ce qu'on pense soi-même"
+        }
+      }
+    },
+    {
+      "word": "season",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈsiːzn/",
+      "def": "One of the four parts of the year: spring, summer, autumn and winter.",
+      "example": "There are four seasons in many northern countries.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "فصل (من فصول السنة)",
+          "d": "واحد من أجزاء السنة الأربعة: الربيع والصيف والخريف والشتاء"
+        },
+        "zh": {
+          "w": "季节",
+          "d": "一年四个部分之一：春、夏、秋、冬"
+        },
+        "de": {
+          "w": "Jahreszeit",
+          "d": "einer der vier Teile des Jahres: Frühling, Sommer, Herbst und Winter"
+        },
+        "es": {
+          "w": "estación",
+          "d": "una de las cuatro partes del año: primavera, verano, otoño e invierno"
+        },
+        "fr": {
+          "w": "saison",
+          "d": "une des quatre parties de l'année : printemps, été, automne et hiver"
+        }
+      }
+    },
+    {
+      "word": "spring",
+      "pos": "noun",
+      "level": "A1",
+      "ipa": "/sprɪŋ/",
+      "def": "The season after winter, when plants start to grow.",
+      "example": "Birds sing happily when spring arrives.",
+      "opposite": "autumn",
+      "tr": {
+        "ar": {
+          "w": "الربيع",
+          "d": "الفصل الذي يأتي بعد الشتاء، حين تبدأ النباتات في النمو"
+        },
+        "zh": {
+          "w": "春天",
+          "d": "冬天之后、植物开始生长的季节"
+        },
+        "de": {
+          "w": "Frühling",
+          "d": "die Jahreszeit nach dem Winter, wenn die Pflanzen wachsen"
+        },
+        "es": {
+          "w": "primavera",
+          "d": "la estación después del invierno, cuando las plantas empiezan a crecer"
+        },
+        "fr": {
+          "w": "printemps",
+          "d": "la saison après l'hiver, quand les plantes commencent à pousser"
+        }
+      }
+    },
+    {
+      "word": "summer",
+      "pos": "noun",
+      "level": "A1",
+      "ipa": "/ˈsʌmə/",
+      "def": "The hottest season of the year, between spring and autumn.",
+      "example": "Children love to eat ice cream and swim in the summer.",
+      "opposite": "winter",
+      "tr": {
+        "ar": {
+          "w": "الصيف",
+          "d": "أحرّ فصول السنة، بين الربيع والخريف"
+        },
+        "zh": {
+          "w": "夏天",
+          "d": "一年中最热的季节，在春天和秋天之间"
+        },
+        "de": {
+          "w": "Sommer",
+          "d": "die heißeste Jahreszeit, zwischen Frühling und Herbst"
+        },
+        "es": {
+          "w": "verano",
+          "d": "la estación más calurosa del año, entre la primavera y el otoño"
+        },
+        "fr": {
+          "w": "été",
+          "d": "la saison la plus chaude, entre le printemps et l'automne"
+        }
+      }
+    },
+    {
+      "word": "fall",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/fɔːl/",
+      "def": "(American English) Autumn, the season between summer and winter.",
+      "example": "The leaves turn red and orange in the fall.",
+      "opposite": "spring",
+      "tr": {
+        "ar": {
+          "w": "الخريف (بالأمريكية)",
+          "d": "(إنجليزية أمريكية) الخريف، الفصل بين الصيف والشتاء"
+        },
+        "zh": {
+          "w": "秋天（美式）",
+          "d": "（美式英语）秋天，夏天和冬天之间的季节"
+        },
+        "de": {
+          "w": "Herbst (amerikanisch)",
+          "d": "(amerikanisch) Herbst, die Jahreszeit zwischen Sommer und Winter"
+        },
+        "es": {
+          "w": "otoño (EE. UU.)",
+          "d": "(inglés americano) otoño, la estación entre el verano y el invierno"
+        },
+        "fr": {
+          "w": "automne (américain)",
+          "d": "(anglais américain) l'automne, la saison entre l'été et l'hiver"
+        }
+      }
+    },
+    {
+      "word": "winter",
+      "pos": "noun",
+      "level": "A1",
+      "ipa": "/ˈwɪntə/",
+      "def": "The coldest season of the year, between autumn and spring.",
+      "example": "We wear thick coats and warm hats in the winter.",
+      "opposite": "summer",
+      "tr": {
+        "ar": {
+          "w": "الشتاء",
+          "d": "أبرد فصول السنة، بين الخريف والربيع"
+        },
+        "zh": {
+          "w": "冬天",
+          "d": "一年中最冷的季节，在秋天和春天之间"
+        },
+        "de": {
+          "w": "Winter",
+          "d": "die kälteste Jahreszeit, zwischen Herbst und Frühling"
+        },
+        "es": {
+          "w": "invierno",
+          "d": "la estación más fría del año, entre el otoño y la primavera"
+        },
+        "fr": {
+          "w": "hiver",
+          "d": "la saison la plus froide, entre l'automne et le printemps"
+        }
+      }
+    },
+    {
+      "word": "leaf",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/liːf/",
+      "def": "A flat green part that grows on a tree or plant.",
+      "example": "The green leaves turn yellow and orange before they fall.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "ورقة شجر",
+          "d": "جزء أخضر مسطّح ينمو على الشجرة أو النبات"
+        },
+        "zh": {
+          "w": "树叶",
+          "d": "长在树或植物上的扁平绿色部分"
+        },
+        "de": {
+          "w": "Blatt",
+          "d": "ein flacher grüner Teil, der an einem Baum oder einer Pflanze wächst"
+        },
+        "es": {
+          "w": "hoja",
+          "d": "una parte plana y verde que crece en un árbol o una planta"
+        },
+        "fr": {
+          "w": "feuille",
+          "d": "une partie plate et verte qui pousse sur un arbre ou une plante"
+        }
+      }
+    },
+    {
+      "word": "heat",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/hiːt/",
+      "def": "Hot weather, or the quality of being hot.",
+      "example": "Turn on the air conditioner to escape the afternoon heat.",
+      "opposite": "cold",
+      "tr": {
+        "ar": {
+          "w": "الحرّ / الحرارة",
+          "d": "طقس حار، أو كون الشيء ساخناً"
+        },
+        "zh": {
+          "w": "炎热",
+          "d": "炎热的天气，或热的状态"
+        },
+        "de": {
+          "w": "Hitze",
+          "d": "heißes Wetter oder das Heißsein"
+        },
+        "es": {
+          "w": "calor",
+          "d": "tiempo caluroso, o el hecho de estar caliente"
+        },
+        "fr": {
+          "w": "chaleur",
+          "d": "un temps chaud, ou le fait d'être chaud"
+        }
+      }
+    },
+    {
+      "word": "activity",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ækˈtɪvəti/",
+      "def": "Something you do for fun or exercise.",
+      "example": "Swimming and camping are popular summer activities.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "نشاط",
+          "d": "شيء تقوم به للمتعة أو الرياضة"
+        },
+        "zh": {
+          "w": "活动",
+          "d": "为了娱乐或锻炼而做的事"
+        },
+        "de": {
+          "w": "Aktivität",
+          "d": "etwas, das man zum Spaß oder als Sport macht"
+        },
+        "es": {
+          "w": "actividad",
+          "d": "algo que haces para divertirte o hacer ejercicio"
+        },
+        "fr": {
+          "w": "activité",
+          "d": "quelque chose qu'on fait pour s'amuser ou faire du sport"
+        }
+      }
+    }
+  ],
+  "sports_and_athletics": [
+    {
+      "word": "obsessed",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/əbˈsest/",
+      "def": "Thinking about something all the time, more than is normal.",
+      "example": "My brother is obsessed with football. He watches every match.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مهووس",
+          "d": "يفكر في شيء طوال الوقت، أكثر من الطبيعي"
+        },
+        "zh": {
+          "w": "着迷的",
+          "d": "一直想着某事，超过正常程度"
+        },
+        "de": {
+          "w": "besessen",
+          "d": "die ganze Zeit an etwas denken, mehr als normal"
+        },
+        "es": {
+          "w": "obsesionado",
+          "d": "que piensa en algo todo el tiempo, más de lo normal"
+        },
+        "fr": {
+          "w": "obsédé",
+          "d": "qui pense à quelque chose tout le temps, plus que la normale"
+        }
+      }
+    },
+    {
+      "word": "addictive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/əˈdɪktɪv/",
+      "def": "So enjoyable that it is very hard to stop doing it.",
+      "example": "Skateboarding is really addictive. Once you start, you can't stop.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يسبّب الإدمان",
+          "d": "ممتع لدرجة أنه يصعب جداً التوقف عنه"
+        },
+        "zh": {
+          "w": "让人上瘾的",
+          "d": "太有趣了，很难停下来"
+        },
+        "de": {
+          "w": "süchtig machend",
+          "d": "so schön, dass es sehr schwer ist, damit aufzuhören"
+        },
+        "es": {
+          "w": "adictivo",
+          "d": "tan divertido que cuesta mucho dejar de hacerlo"
+        },
+        "fr": {
+          "w": "addictif",
+          "d": "si agréable qu'il est très difficile d'arrêter"
+        }
+      }
+    },
+    {
+      "word": "playoffs",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈpleɪɒfs/",
+      "def": "The last games in a competition that decide the winner.",
+      "example": "Our school team reached the playoffs this year.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الأدوار الإقصائية",
+          "d": "المباريات الأخيرة في مسابقة، وهي التي تحدد الفائز"
+        },
+        "zh": {
+          "w": "季后赛",
+          "d": "比赛中决定冠军的最后几场"
+        },
+        "de": {
+          "w": "Play-offs / Endrunde",
+          "d": "die letzten Spiele eines Wettbewerbs, die den Sieger bestimmen"
+        },
+        "es": {
+          "w": "eliminatorias / playoffs",
+          "d": "los últimos partidos de una competición, que deciden el ganador"
+        },
+        "fr": {
+          "w": "phase finale / play-offs",
+          "d": "les derniers matchs d'une compétition, qui décident du gagnant"
+        }
+      }
+    },
+    {
+      "word": "frustrating",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/frʌˈstreɪtɪŋ/",
+      "def": "Making you feel annoyed because you cannot do what you want.",
+      "example": "It's frustrating when you train hard and still lose the match.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "محبِط",
+          "d": "يجعلك منزعجاً لأنك لا تستطيع فعل ما تريد"
+        },
+        "zh": {
+          "w": "令人沮丧的",
+          "d": "因为做不到想做的事而让你烦恼"
+        },
+        "de": {
+          "w": "frustrierend",
+          "d": "macht einen ärgerlich, weil man nicht tun kann, was man will"
+        },
+        "es": {
+          "w": "frustrante",
+          "d": "que te molesta porque no puedes hacer lo que quieres"
+        },
+        "fr": {
+          "w": "frustrant",
+          "d": "qui énerve parce qu'on ne peut pas faire ce qu'on veut"
+        }
+      }
+    },
+    {
+      "word": "tournament",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtʊənəmənt/",
+      "def": "A competition with many games, where winners keep playing until one is left.",
+      "example": "He played in two tennis tournaments last summer.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "بطولة / دورة رياضية",
+          "d": "مسابقة فيها مباريات كثيرة، يستمر فيها الفائزون حتى يبقى واحد"
+        },
+        "zh": {
+          "w": "锦标赛",
+          "d": "有很多场比赛的竞赛，胜者一直比到只剩一个"
+        },
+        "de": {
+          "w": "Turnier",
+          "d": "ein Wettbewerb mit vielen Spielen; die Gewinner spielen weiter, bis einer übrig ist"
+        },
+        "es": {
+          "w": "torneo",
+          "d": "una competición con muchos partidos; los ganadores siguen jugando hasta que queda uno"
+        },
+        "fr": {
+          "w": "tournoi",
+          "d": "une compétition avec beaucoup de matchs; les gagnants continuent jusqu'à ce qu'il en reste un"
+        }
+      }
+    },
+    {
+      "word": "motivation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌməʊtɪˈveɪʃn/",
+      "def": "The feeling that makes you want to work hard at something.",
+      "example": "Good music gives me the motivation to run faster.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "حافز / دافع",
+          "d": "الشعور الذي يجعلك تريد أن تعمل بجد في شيء ما"
+        },
+        "zh": {
+          "w": "动力",
+          "d": "让你想努力做某事的感觉"
+        },
+        "de": {
+          "w": "Motivation",
+          "d": "das Gefühl, das einen hart für etwas arbeiten lässt"
+        },
+        "es": {
+          "w": "motivación",
+          "d": "el sentimiento que te hace querer esforzarte en algo"
+        },
+        "fr": {
+          "w": "motivation",
+          "d": "le sentiment qui donne envie de travailler dur pour quelque chose"
+        }
+      }
+    },
+    {
+      "word": "athletic",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/æθˈletɪk/",
+      "def": "Strong, healthy and good at sports.",
+      "example": "Ali is very athletic. He can run fast and swim for hours.",
+      "opposite": "unfit",
+      "tr": {
+        "ar": {
+          "w": "رياضيّ البنية",
+          "d": "قوي وصحيح الجسم وماهر في الرياضة"
+        },
+        "zh": {
+          "w": "擅长运动的 / 健壮的",
+          "d": "强壮、健康、擅长运动"
+        },
+        "de": {
+          "w": "sportlich",
+          "d": "stark, gesund und gut im Sport"
+        },
+        "es": {
+          "w": "atlético",
+          "d": "fuerte, sano y bueno en los deportes"
+        },
+        "fr": {
+          "w": "sportif / athlétique",
+          "d": "fort, en bonne santé et bon en sport"
+        }
+      }
+    },
+    {
+      "word": "advantage",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ədˈvɑːntɪdʒ/",
+      "def": "Something that helps you do better than other people.",
+      "example": "Being tall is a big advantage in basketball.",
+      "opposite": "disadvantage",
+      "tr": {
+        "ar": {
+          "w": "ميزة / أفضلية",
+          "d": "شيء يساعدك على التفوق على الآخرين"
+        },
+        "zh": {
+          "w": "优势",
+          "d": "帮助你比别人做得更好的东西"
+        },
+        "de": {
+          "w": "Vorteil",
+          "d": "etwas, das einem hilft, besser als andere zu sein"
+        },
+        "es": {
+          "w": "ventaja",
+          "d": "algo que te ayuda a hacerlo mejor que los demás"
+        },
+        "fr": {
+          "w": "avantage",
+          "d": "quelque chose qui aide à faire mieux que les autres"
+        }
+      }
+    },
+    {
+      "word": "extreme sports",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ɪkˌstriːm ˈspɔːts/",
+      "def": "Exciting activities that are fast and dangerous, like skydiving.",
+      "example": "Skydiving is one of the most famous extreme sports.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الرياضات الخطرة",
+          "d": "أنشطة مثيرة وسريعة وخطيرة، مثل القفز بالمظلة"
+        },
+        "zh": {
+          "w": "极限运动",
+          "d": "刺激、快速又危险的活动，比如跳伞"
+        },
+        "de": {
+          "w": "Extremsport",
+          "d": "aufregende, schnelle und gefährliche Aktivitäten wie Fallschirmspringen"
+        },
+        "es": {
+          "w": "deportes extremos",
+          "d": "actividades emocionantes, rápidas y peligrosas, como el paracaidismo"
+        },
+        "fr": {
+          "w": "sports extrêmes",
+          "d": "des activités excitantes, rapides et dangereuses, comme le parachutisme"
+        }
+      }
+    },
+    {
+      "word": "championship",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtʃæmpiənʃɪp/",
+      "def": "A big competition to find the best player or team.",
+      "example": "Our team won the championship last week.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "بطولة",
+          "d": "مسابقة كبيرة لاختيار أفضل لاعب أو فريق"
+        },
+        "zh": {
+          "w": "锦标赛 / 冠军赛",
+          "d": "选出最佳选手或队伍的大型比赛"
+        },
+        "de": {
+          "w": "Meisterschaft",
+          "d": "ein großer Wettbewerb, um den besten Spieler oder das beste Team zu finden"
+        },
+        "es": {
+          "w": "campeonato",
+          "d": "una gran competición para encontrar al mejor jugador o equipo"
+        },
+        "fr": {
+          "w": "championnat",
+          "d": "une grande compétition pour trouver le meilleur joueur ou la meilleure équipe"
+        }
+      }
+    },
+    {
+      "word": "mess up",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌmes ˈʌp/",
+      "def": "To make a mistake or do something badly.",
+      "example": "I messed up my last shot and we lost the game.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُخفق / يُفسد",
+          "d": "أن ترتكب خطأً أو تفعل شيئاً بشكل سيئ"
+        },
+        "zh": {
+          "w": "搞砸",
+          "d": "犯错或把事情做坏"
+        },
+        "de": {
+          "w": "vermasseln",
+          "d": "einen Fehler machen oder etwas schlecht machen"
+        },
+        "es": {
+          "w": "meter la pata / fastidiar",
+          "d": "cometer un error o hacer algo mal"
+        },
+        "fr": {
+          "w": "rater / se planter",
+          "d": "faire une erreur ou mal faire quelque chose"
+        }
+      }
+    },
+    {
+      "word": "golf course",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈɡɒlf kɔːs/",
+      "def": "A large area of grass where you hit a small ball into holes.",
+      "example": "My father goes to the golf course early every Sunday.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "ملعب غولف",
+          "d": "مساحة كبيرة من العشب تضرب فيها كرة صغيرة نحو حفر"
+        },
+        "zh": {
+          "w": "高尔夫球场",
+          "d": "一大片草地，人们把小球打进洞里"
+        },
+        "de": {
+          "w": "Golfplatz",
+          "d": "eine große Rasenfläche, auf der man einen kleinen Ball in Löcher schlägt"
+        },
+        "es": {
+          "w": "campo de golf",
+          "d": "una gran zona de césped donde golpeas una pelota pequeña hacia unos hoyos"
+        },
+        "fr": {
+          "w": "terrain de golf",
+          "d": "un grand terrain d'herbe où l'on frappe une petite balle vers des trous"
+        }
+      }
+    },
+    {
+      "word": "major",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈmeɪdʒə/",
+      "def": "Very big or important.",
+      "example": "Football is a major sport all around the world.",
+      "opposite": "minor",
+      "tr": {
+        "ar": {
+          "w": "رئيسي / كبير",
+          "d": "كبير أو مهم جداً"
+        },
+        "zh": {
+          "w": "主要的 / 重大的",
+          "d": "很大或很重要"
+        },
+        "de": {
+          "w": "bedeutend / wichtig",
+          "d": "sehr groß oder wichtig"
+        },
+        "es": {
+          "w": "importante / principal",
+          "d": "muy grande o importante"
+        },
+        "fr": {
+          "w": "majeur / important",
+          "d": "très grand ou important"
+        }
+      }
+    },
+    {
+      "word": "quit",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/kwɪt/",
+      "def": "To stop doing something, like a sport or a job.",
+      "example": "He quit basketball because he hurt his knee.",
+      "opposite": "start",
+      "tr": {
+        "ar": {
+          "w": "يترك / يتوقف عن",
+          "d": "أن تتوقف عن فعل شيء، مثل رياضة أو وظيفة"
+        },
+        "zh": {
+          "w": "放弃 / 退出",
+          "d": "停止做某事，比如一项运动或工作"
+        },
+        "de": {
+          "w": "aufhören (mit)",
+          "d": "mit etwas Schluss machen, z. B. mit einem Sport oder Job"
+        },
+        "es": {
+          "w": "dejar",
+          "d": "parar de hacer algo, como un deporte o un trabajo"
+        },
+        "fr": {
+          "w": "arrêter / abandonner",
+          "d": "ne plus faire quelque chose, comme un sport ou un travail"
+        }
+      }
+    },
+    {
+      "word": "score",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/skɔː/",
+      "def": "To get a goal or point in a game.",
+      "example": "Mo Salah scored two amazing goals in the match.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يسجّل (هدفاً)",
+          "d": "أن تحصل على هدف أو نقطة في مباراة"
+        },
+        "zh": {
+          "w": "得分 / 进球",
+          "d": "在比赛中进球或得分"
+        },
+        "de": {
+          "w": "ein Tor schießen / punkten",
+          "d": "ein Tor oder einen Punkt in einem Spiel machen"
+        },
+        "es": {
+          "w": "marcar",
+          "d": "conseguir un gol o un punto en un partido"
+        },
+        "fr": {
+          "w": "marquer",
+          "d": "obtenir un but ou un point dans un match"
+        }
+      }
+    },
+    {
+      "word": "celebrate",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/ˈselɪbreɪt/",
+      "def": "To do something fun because something good has happened.",
+      "example": "We celebrated at a pizza restaurant after we won the game.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يحتفل",
+          "d": "أن تفعل شيئاً ممتعاً لأن شيئاً جيداً قد حدث"
+        },
+        "zh": {
+          "w": "庆祝",
+          "d": "因为发生了好事而做些开心的事"
+        },
+        "de": {
+          "w": "feiern",
+          "d": "etwas Schönes machen, weil etwas Gutes passiert ist"
+        },
+        "es": {
+          "w": "celebrar",
+          "d": "hacer algo divertido porque ha pasado algo bueno"
+        },
+        "fr": {
+          "w": "fêter / célébrer",
+          "d": "faire quelque chose d'amusant parce qu'il s'est passé quelque chose de bien"
+        }
+      }
+    },
+    {
+      "word": "focused",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈfəʊkəst/",
+      "def": "Giving all your attention to one thing.",
+      "example": "You need to stay focused for the whole match.",
+      "opposite": "distracted",
+      "tr": {
+        "ar": {
+          "w": "مركِّز",
+          "d": "يعطي كل انتباهه لشيء واحد"
+        },
+        "zh": {
+          "w": "专注的",
+          "d": "把全部注意力放在一件事上"
+        },
+        "de": {
+          "w": "konzentriert",
+          "d": "die ganze Aufmerksamkeit auf eine Sache richten"
+        },
+        "es": {
+          "w": "concentrado",
+          "d": "que pone toda su atención en una cosa"
+        },
+        "fr": {
+          "w": "concentré",
+          "d": "qui donne toute son attention à une seule chose"
+        }
+      }
+    },
+    {
+      "word": "proud",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/praʊd/",
+      "def": "Pleased about something good that you or someone close to you did.",
+      "example": "My mother was very proud of me when our team won.",
+      "opposite": "ashamed",
+      "tr": {
+        "ar": {
+          "w": "فخور",
+          "d": "سعيد بشيء جيد فعلته أنت أو شخص قريب منك"
+        },
+        "zh": {
+          "w": "自豪的",
+          "d": "为自己或亲近的人做的好事感到高兴"
+        },
+        "de": {
+          "w": "stolz",
+          "d": "froh über etwas Gutes, das man selbst oder ein naher Mensch getan hat"
+        },
+        "es": {
+          "w": "orgulloso",
+          "d": "contento por algo bueno que hiciste tú o alguien cercano"
+        },
+        "fr": {
+          "w": "fier",
+          "d": "content de quelque chose de bien qu'on a fait, ou qu'un proche a fait"
+        }
+      }
+    },
+    {
+      "word": "dozens of",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˈdʌznz əv/",
+      "def": "Very many. Literally, several groups of twelve.",
+      "example": "There were dozens of people waiting outside the stadium.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "عشرات",
+          "d": "عدد كبير جداً؛ وحرفياً: عدة مجموعات من اثني عشر"
+        },
+        "zh": {
+          "w": "几十个 / 许多",
+          "d": "很多；字面意思是好几个十二"
+        },
+        "de": {
+          "w": "Dutzende",
+          "d": "sehr viele; wörtlich: mehrere Gruppen von zwölf"
+        },
+        "es": {
+          "w": "decenas de / docenas de",
+          "d": "muchísimos; literalmente, varios grupos de doce"
+        },
+        "fr": {
+          "w": "des dizaines de",
+          "d": "beaucoup; au sens propre, plusieurs groupes de douze"
+        }
+      }
+    },
+    {
+      "word": "trick",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/trɪk/",
+      "def": "A clever, difficult movement that shows your skill.",
+      "example": "He showed us some cool tricks on his skateboard.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "حركة مهارية",
+          "d": "حركة ذكية وصعبة تُظهر مهارتك"
+        },
+        "zh": {
+          "w": "花样 / 特技",
+          "d": "展示技巧的巧妙而难的动作"
+        },
+        "de": {
+          "w": "Trick / Kunststück",
+          "d": "eine geschickte, schwierige Bewegung, die zeigt, was man kann"
+        },
+        "es": {
+          "w": "truco / acrobacia",
+          "d": "un movimiento difícil e ingenioso que muestra tu habilidad"
+        },
+        "fr": {
+          "w": "figure",
+          "d": "un mouvement habile et difficile qui montre son talent"
+        }
+      }
+    },
+    {
+      "word": "a ton of",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ə ˈtʌn əv/",
+      "def": "(informal) A very large amount or number of.",
+      "example": "I have a ton of homework, so I can't play football today.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الكثير جداً من",
+          "d": "(عامية) كمية أو عدد كبير جداً"
+        },
+        "zh": {
+          "w": "大量的",
+          "d": "（口语）非常多"
+        },
+        "de": {
+          "w": "jede Menge",
+          "d": "(umgangssprachlich) eine sehr große Menge oder Zahl"
+        },
+        "es": {
+          "w": "un montón de",
+          "d": "(informal) una cantidad o un número muy grande"
+        },
+        "fr": {
+          "w": "des tonnes de",
+          "d": "(familier) une très grande quantité ou un très grand nombre"
+        }
+      }
+    },
+    {
+      "word": "T-ball",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈtiː bɔːl/",
+      "def": "A simple kind of baseball for young children; nobody throws to the hitter.",
+      "example": "My five-year-old cousin loves playing T-ball with his friends.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تي بول (بيسبول مبسّط للأطفال)",
+          "d": "نوع بسيط من البيسبول للأطفال الصغار، لا يرمي فيه أحد الكرة للضارب"
+        },
+        "zh": {
+          "w": "T球（儿童简易棒球）",
+          "d": "适合小孩的简单棒球，没有人投球给击球手"
+        },
+        "de": {
+          "w": "T-Ball (Baseball für Kinder)",
+          "d": "eine einfache Art Baseball für kleine Kinder; niemand wirft dem Schläger zu"
+        },
+        "es": {
+          "w": "T-ball (béisbol infantil)",
+          "d": "un béisbol sencillo para niños pequeños; nadie le lanza la pelota al bateador"
+        },
+        "fr": {
+          "w": "T-ball (baseball pour enfants)",
+          "d": "un baseball simple pour jeunes enfants; personne ne lance la balle au frappeur"
+        }
+      }
+    },
+    {
+      "word": "popular",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/ˈpɒpjələ/",
+      "def": "Liked by many people.",
+      "example": "Football is the most popular sport in Egypt.",
+      "opposite": "unpopular",
+      "tr": {
+        "ar": {
+          "w": "شائع / محبوب",
+          "d": "يحبه كثير من الناس"
+        },
+        "zh": {
+          "w": "受欢迎的",
+          "d": "很多人喜欢"
+        },
+        "de": {
+          "w": "beliebt",
+          "d": "von vielen Menschen gemocht"
+        },
+        "es": {
+          "w": "popular",
+          "d": "que gusta a mucha gente"
+        },
+        "fr": {
+          "w": "populaire",
+          "d": "aimé par beaucoup de gens"
+        }
+      }
+    },
+    {
+      "word": "prefer",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/prɪˈfɜː/",
+      "def": "To like one thing more than another.",
+      "example": "I prefer swimming to running because it's easier on my knees.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُفضِّل",
+          "d": "أن تحب شيئاً أكثر من شيء آخر"
+        },
+        "zh": {
+          "w": "更喜欢",
+          "d": "喜欢一样东西多于另一样"
+        },
+        "de": {
+          "w": "lieber mögen / bevorzugen",
+          "d": "eine Sache mehr mögen als eine andere"
+        },
+        "es": {
+          "w": "preferir",
+          "d": "gustarte más una cosa que otra"
+        },
+        "fr": {
+          "w": "préférer",
+          "d": "aimer une chose plus qu'une autre"
+        }
+      }
+    },
+    {
+      "word": "childhood",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtʃaɪldhʊd/",
+      "def": "The time of your life when you are young, before you grow up.",
+      "example": "I played a lot of football in my childhood.",
+      "opposite": "adulthood",
+      "tr": {
+        "ar": {
+          "w": "الطفولة",
+          "d": "فترة حياتك وأنت صغير قبل أن تكبر"
+        },
+        "zh": {
+          "w": "童年",
+          "d": "你小时候、长大以前的时期"
+        },
+        "de": {
+          "w": "Kindheit",
+          "d": "die Zeit im Leben, in der man jung ist, bevor man erwachsen wird"
+        },
+        "es": {
+          "w": "infancia",
+          "d": "la época de tu vida en que eres pequeño, antes de crecer"
+        },
+        "fr": {
+          "w": "enfance",
+          "d": "la période de la vie où l'on est petit, avant de grandir"
+        }
+      }
+    },
+    {
+      "word": "serious",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈsɪəriəs/",
+      "def": "Working hard at something and thinking it is important.",
+      "example": "He is very serious about tennis. He trains every day.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "جادّ",
+          "d": "يعمل بجد في شيء ويعتبره مهماً"
+        },
+        "zh": {
+          "w": "认真的",
+          "d": "努力做某事并认为它很重要"
+        },
+        "de": {
+          "w": "ernsthaft",
+          "d": "hart an etwas arbeiten und es wichtig finden"
+        },
+        "es": {
+          "w": "serio",
+          "d": "que se esfuerza en algo y lo considera importante"
+        },
+        "fr": {
+          "w": "sérieux",
+          "d": "qui travaille dur et pense que c'est important"
+        }
+      }
+    },
+    {
+      "word": "opinion",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/əˈpɪnjən/",
+      "def": "What you think about something.",
+      "example": "In my opinion, football is more exciting than tennis.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "رأي",
+          "d": "ما تفكّر فيه بشأن شيء ما"
+        },
+        "zh": {
+          "w": "看法 / 意见",
+          "d": "你对某事的想法"
+        },
+        "de": {
+          "w": "Meinung",
+          "d": "was man über etwas denkt"
+        },
+        "es": {
+          "w": "opinión",
+          "d": "lo que piensas sobre algo"
+        },
+        "fr": {
+          "w": "avis / opinion",
+          "d": "ce qu'on pense de quelque chose"
+        }
+      }
+    },
+    {
+      "word": "correctly",
+      "pos": "adverb",
+      "level": "A2",
+      "ipa": "/kəˈrektli/",
+      "def": "In the right way, with no mistakes.",
+      "example": "You need to kick the ball correctly to score a goal.",
+      "opposite": "wrongly",
+      "tr": {
+        "ar": {
+          "w": "بشكل صحيح",
+          "d": "بالطريقة السليمة، دون أخطاء"
+        },
+        "zh": {
+          "w": "正确地",
+          "d": "用对的方法，没有错误"
+        },
+        "de": {
+          "w": "richtig",
+          "d": "auf die richtige Weise, ohne Fehler"
+        },
+        "es": {
+          "w": "correctamente",
+          "d": "de la manera adecuada, sin errores"
+        },
+        "fr": {
+          "w": "correctement",
+          "d": "de la bonne façon, sans erreur"
+        }
+      }
+    },
+    {
+      "word": "fan",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/fæn/",
+      "def": "A person who loves and supports a team, sport or player.",
+      "example": "I am a big fan of Real Madrid. I never miss a game.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مشجِّع",
+          "d": "شخص يحب فريقاً أو رياضة أو لاعباً ويدعمه"
+        },
+        "zh": {
+          "w": "球迷 / 粉丝",
+          "d": "喜爱并支持某个队、运动或选手的人"
+        },
+        "de": {
+          "w": "Fan",
+          "d": "eine Person, die ein Team, einen Sport oder einen Spieler liebt und unterstützt"
+        },
+        "es": {
+          "w": "aficionado / hincha",
+          "d": "una persona que quiere y apoya a un equipo, un deporte o un jugador"
+        },
+        "fr": {
+          "w": "supporter / fan",
+          "d": "une personne qui aime et soutient une équipe, un sport ou un joueur"
+        }
+      }
+    },
+    {
+      "word": "nowadays",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/ˈnaʊədeɪz/",
+      "def": "Now, compared with the past.",
+      "example": "Nowadays, most people watch sports on their phones.",
+      "opposite": "in the past",
+      "tr": {
+        "ar": {
+          "w": "هذه الأيام / حالياً",
+          "d": "الآن، مقارنةً بالماضي"
+        },
+        "zh": {
+          "w": "如今",
+          "d": "现在，和过去相比"
+        },
+        "de": {
+          "w": "heutzutage",
+          "d": "jetzt, im Vergleich zu früher"
+        },
+        "es": {
+          "w": "hoy en día",
+          "d": "ahora, comparado con el pasado"
+        },
+        "fr": {
+          "w": "de nos jours",
+          "d": "maintenant, par rapport au passé"
+        }
+      }
+    },
+    {
+      "word": "adult",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈædʌlt/",
+      "def": "A person who is fully grown, not a child.",
+      "example": "Many adults start a new sport to stay healthy.",
+      "opposite": "child",
+      "tr": {
+        "ar": {
+          "w": "شخص بالغ",
+          "d": "شخص اكتمل نموّه وليس طفلاً"
+        },
+        "zh": {
+          "w": "成年人",
+          "d": "已经长大、不是孩子的人"
+        },
+        "de": {
+          "w": "Erwachsener / Erwachsene",
+          "d": "ein Mensch, der fertig gewachsen ist, kein Kind"
+        },
+        "es": {
+          "w": "adulto",
+          "d": "una persona que ya ha crecido, no un niño"
+        },
+        "fr": {
+          "w": "adulte",
+          "d": "une personne qui a fini de grandir, pas un enfant"
+        }
+      }
+    },
+    {
+      "word": "skateboarding",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈskeɪtbɔːdɪŋ/",
+      "def": "The sport of riding on a short board with four wheels.",
+      "example": "He goes skateboarding in the park every weekend.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "التزلّج على لوح بعجلات",
+          "d": "رياضة الركوب على لوح قصير بأربع عجلات"
+        },
+        "zh": {
+          "w": "滑板运动",
+          "d": "站在带四个轮子的短板上滑行的运动"
+        },
+        "de": {
+          "w": "Skateboarden",
+          "d": "ein Sport, bei dem man auf einem kurzen Brett mit vier Rollen fährt"
+        },
+        "es": {
+          "w": "skateboarding / monopatín",
+          "d": "el deporte de ir sobre una tabla corta con cuatro ruedas"
+        },
+        "fr": {
+          "w": "skateboard",
+          "d": "le sport qui consiste à rouler sur une petite planche à quatre roues"
+        }
+      }
+    },
+    {
+      "word": "snowboarding",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈsnəʊbɔːdɪŋ/",
+      "def": "The winter sport of sliding down mountains while standing on one wide board.",
+      "example": "We went snowboarding in the mountains last winter.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "التزلّج بلوح واحد (سنوبورد)",
+          "d": "رياضة شتوية تنزلق فيها على الجبال واقفاً على لوح عريض واحد"
+        },
+        "zh": {
+          "w": "单板滑雪",
+          "d": "站在一块宽板上从山上滑下的冬季运动"
+        },
+        "de": {
+          "w": "Snowboarden",
+          "d": "ein Wintersport, bei dem man auf einem breiten Brett den Berg hinunterfährt"
+        },
+        "es": {
+          "w": "snowboard",
+          "d": "un deporte de invierno en el que bajas montañas de pie sobre una tabla ancha"
+        },
+        "fr": {
+          "w": "snowboard",
+          "d": "un sport d'hiver où l'on descend les montagnes debout sur une large planche"
+        }
+      }
+    }
+  ],
+  "travel_and_exploration": [
+    {
+      "word": "swollen",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈswəʊlən/",
+      "def": "Bigger than normal because of an injury or an insect bite.",
+      "example": "My arm was red and swollen after the insect bites.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "متورّم",
+          "d": "أكبر من الطبيعي بسبب إصابة أو لدغة حشرة"
+        },
+        "zh": {
+          "w": "肿的",
+          "d": "因为受伤或被虫咬而比平常大"
+        },
+        "de": {
+          "w": "geschwollen",
+          "d": "größer als normal wegen einer Verletzung oder eines Insektenstichs"
+        },
+        "es": {
+          "w": "hinchado",
+          "d": "más grande de lo normal por una herida o una picadura"
+        },
+        "fr": {
+          "w": "enflé / gonflé",
+          "d": "plus gros que la normale à cause d'une blessure ou d'une piqûre"
+        }
+      }
+    },
+    {
+      "word": "sore",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/sɔː/",
+      "def": "A painful red place on your skin.",
+      "example": "He had sores on his feet because his shoes were too small.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "قُرحة / تقرّح",
+          "d": "مكان أحمر مؤلم على جلدك"
+        },
+        "zh": {
+          "w": "疮 / 溃疡",
+          "d": "皮肤上红肿疼痛的地方"
+        },
+        "de": {
+          "w": "wunde Stelle",
+          "d": "eine schmerzhafte rote Stelle auf der Haut"
+        },
+        "es": {
+          "w": "llaga",
+          "d": "una zona roja y dolorosa en la piel"
+        },
+        "fr": {
+          "w": "plaie / irritation",
+          "d": "un endroit rouge et douloureux sur la peau"
+        }
+      }
+    },
+    {
+      "word": "bedbug",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈbedbʌɡ/",
+      "def": "A tiny insect that hides in mattresses and bites sleeping people.",
+      "example": "We found bedbugs in the hostel, so we changed rooms.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "بقّ الفراش",
+          "d": "حشرة صغيرة جداً تختبئ في المراتب وتلدغ النائمين"
+        },
+        "zh": {
+          "w": "臭虫",
+          "d": "藏在床垫里、叮咬睡觉的人的小虫子"
+        },
+        "de": {
+          "w": "Bettwanze",
+          "d": "ein winziges Insekt, das sich in Matratzen versteckt und Schlafende beißt"
+        },
+        "es": {
+          "w": "chinche",
+          "d": "un insecto diminuto que se esconde en los colchones y pica a la gente que duerme"
+        },
+        "fr": {
+          "w": "punaise de lit",
+          "d": "un minuscule insecte qui se cache dans les matelas et pique les gens qui dorment"
+        }
+      }
+    },
+    {
+      "word": "incredible",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪnˈkredəbl/",
+      "def": "Extremely good or surprising; hard to believe.",
+      "example": "The view from the top of the mountain was incredible.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مذهل / لا يُصدَّق",
+          "d": "جيد جداً أو مدهش؛ يصعب تصديقه"
+        },
+        "zh": {
+          "w": "难以置信的 / 极好的",
+          "d": "极好或令人惊讶；难以相信"
+        },
+        "de": {
+          "w": "unglaublich",
+          "d": "extrem gut oder überraschend; schwer zu glauben"
+        },
+        "es": {
+          "w": "increíble",
+          "d": "muy bueno o sorprendente; difícil de creer"
+        },
+        "fr": {
+          "w": "incroyable",
+          "d": "extrêmement bon ou surprenant; difficile à croire"
+        }
+      }
+    },
+    {
+      "word": "sensitive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈsensətɪv/",
+      "def": "Easily hurt or made red, for example by the sun or insects.",
+      "example": "My skin is very sensitive, so insect bites always become swollen.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "حسّاس",
+          "d": "يتأذى أو يحمرّ بسهولة، مثلاً من الشمس أو الحشرات"
+        },
+        "zh": {
+          "w": "敏感的",
+          "d": "很容易受伤或发红，比如被太阳晒或被虫咬"
+        },
+        "de": {
+          "w": "empfindlich",
+          "d": "wird leicht verletzt oder rot, z. B. durch Sonne oder Insekten"
+        },
+        "es": {
+          "w": "sensible",
+          "d": "que se daña o se pone rojo fácilmente, por ejemplo con el sol o los insectos"
+        },
+        "fr": {
+          "w": "sensible",
+          "d": "qui s'abîme ou rougit facilement, par exemple au soleil ou à cause des insectes"
+        }
+      }
+    },
+    {
+      "word": "aspect",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈæspekt/",
+      "def": "One part or side of a situation or thing.",
+      "example": "The best aspect of backpacking is meeting new people.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "جانب",
+          "d": "جزء أو ناحية من موقف أو شيء"
+        },
+        "zh": {
+          "w": "方面",
+          "d": "情况或事物的一个部分或一面"
+        },
+        "de": {
+          "w": "Aspekt / Seite",
+          "d": "ein Teil oder eine Seite einer Situation oder Sache"
+        },
+        "es": {
+          "w": "aspecto",
+          "d": "una parte o un lado de una situación o cosa"
+        },
+        "fr": {
+          "w": "aspect",
+          "d": "une partie ou un côté d'une situation ou d'une chose"
+        }
+      }
+    },
+    {
+      "word": "ruin",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈruːɪn/",
+      "def": "To spoil something completely, so it is no longer good.",
+      "example": "The dirty hotel room ruined our holiday.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُفسد / يدمّر",
+          "d": "أن تُتلف شيئاً تماماً فلا يعود جيداً"
+        },
+        "zh": {
+          "w": "毁掉",
+          "d": "把某事完全弄糟，使它不再美好"
+        },
+        "de": {
+          "w": "ruinieren / verderben",
+          "d": "etwas völlig kaputt machen, sodass es nicht mehr gut ist"
+        },
+        "es": {
+          "w": "arruinar / estropear",
+          "d": "dañar algo por completo, de modo que ya no es bueno"
+        },
+        "fr": {
+          "w": "gâcher / ruiner",
+          "d": "abîmer complètement quelque chose, qui n'est plus bien"
+        }
+      }
+    },
+    {
+      "word": "backpacking",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbækpækɪŋ/",
+      "def": "Travelling cheaply with all your things in a bag on your back.",
+      "example": "I went backpacking in Europe last summer. It was cheap and fun!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "السفر بحقيبة الظهر",
+          "d": "السفر بتكلفة قليلة وكل أغراضك في حقيبة على ظهرك"
+        },
+        "zh": {
+          "w": "背包旅行",
+          "d": "背着装有全部东西的包便宜地旅行"
+        },
+        "de": {
+          "w": "Rucksackreisen",
+          "d": "billig reisen, mit allen Sachen in einer Tasche auf dem Rücken"
+        },
+        "es": {
+          "w": "viajar de mochilero",
+          "d": "viajar barato con todas tus cosas en una bolsa a la espalda"
+        },
+        "fr": {
+          "w": "voyage sac à dos",
+          "d": "voyager pas cher avec toutes ses affaires dans un sac sur le dos"
+        }
+      }
+    },
+    {
+      "word": "hostel",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈhɒstl/",
+      "def": "A cheap place to stay where travellers often share a bedroom.",
+      "example": "We stayed in hostels because they are much cheaper than hotels.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "نُزُل (بيت شباب)",
+          "d": "مكان رخيص للإقامة يتشارك فيه المسافرون غالباً غرفة النوم"
+        },
+        "zh": {
+          "w": "青年旅舍",
+          "d": "便宜的住处，旅客常常合住一个房间"
+        },
+        "de": {
+          "w": "Hostel / Jugendherberge",
+          "d": "eine billige Unterkunft, in der Reisende oft ein Zimmer teilen"
+        },
+        "es": {
+          "w": "albergue / hostal",
+          "d": "un sitio barato para dormir donde los viajeros suelen compartir habitación"
+        },
+        "fr": {
+          "w": "auberge de jeunesse",
+          "d": "un logement pas cher où les voyageurs partagent souvent une chambre"
+        }
+      }
+    },
+    {
+      "word": "region",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈriːdʒən/",
+      "def": "A large area of a country or of the world.",
+      "example": "This region is famous for its beautiful beaches.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "منطقة / إقليم",
+          "d": "جزء كبير من بلد أو من العالم"
+        },
+        "zh": {
+          "w": "地区",
+          "d": "一个国家或世界的一大片地方"
+        },
+        "de": {
+          "w": "Region / Gebiet",
+          "d": "ein großer Teil eines Landes oder der Welt"
+        },
+        "es": {
+          "w": "región",
+          "d": "una zona grande de un país o del mundo"
+        },
+        "fr": {
+          "w": "région",
+          "d": "une grande partie d'un pays ou du monde"
+        }
+      }
+    },
+    {
+      "word": "recommend",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌrekəˈmend/",
+      "def": "To tell someone that something is good and they should try it.",
+      "example": "Can you recommend a good restaurant near the hotel?",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يوصي بـ / ينصح بـ",
+          "d": "أن تخبر شخصاً بأن شيئاً جيد وعليه أن يجربه"
+        },
+        "zh": {
+          "w": "推荐",
+          "d": "告诉别人某样东西很好，值得一试"
+        },
+        "de": {
+          "w": "empfehlen",
+          "d": "jemandem sagen, dass etwas gut ist und er es probieren sollte"
+        },
+        "es": {
+          "w": "recomendar",
+          "d": "decirle a alguien que algo es bueno y que debería probarlo"
+        },
+        "fr": {
+          "w": "recommander / conseiller",
+          "d": "dire à quelqu'un qu'une chose est bonne et qu'il devrait l'essayer"
+        }
+      }
+    },
+    {
+      "word": "disappointed",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+      "def": "Sad because something was not as good as you hoped.",
+      "example": "I was very disappointed because the museum was closed.",
+      "opposite": "pleased",
+      "tr": {
+        "ar": {
+          "w": "خائب الأمل",
+          "d": "حزين لأن شيئاً لم يكن جيداً كما كنت تأمل"
+        },
+        "zh": {
+          "w": "失望的",
+          "d": "因为某事不如期望的好而难过"
+        },
+        "de": {
+          "w": "enttäuscht",
+          "d": "traurig, weil etwas nicht so gut war wie erhofft"
+        },
+        "es": {
+          "w": "decepcionado",
+          "d": "triste porque algo no fue tan bueno como esperabas"
+        },
+        "fr": {
+          "w": "déçu",
+          "d": "triste parce que quelque chose n'était pas aussi bien qu'on l'espérait"
+        }
+      }
+    },
+    {
+      "word": "countryside",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈkʌntrisaɪd/",
+      "def": "Land outside towns and cities, with fields, farms and trees.",
+      "example": "The countryside is very quiet and green. I love it there.",
+      "opposite": "city",
+      "tr": {
+        "ar": {
+          "w": "الريف",
+          "d": "الأرض خارج البلدات والمدن، فيها حقول ومزارع وأشجار"
+        },
+        "zh": {
+          "w": "乡村",
+          "d": "城镇以外有田地、农场和树木的地方"
+        },
+        "de": {
+          "w": "Land / ländliche Gegend",
+          "d": "das Gebiet außerhalb der Städte, mit Feldern, Bauernhöfen und Bäumen"
+        },
+        "es": {
+          "w": "campo",
+          "d": "la zona fuera de las ciudades, con prados, granjas y árboles"
+        },
+        "fr": {
+          "w": "campagne",
+          "d": "la terre hors des villes, avec des champs, des fermes et des arbres"
+        }
+      }
+    },
+    {
+      "word": "delay",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/dɪˈleɪ/",
+      "def": "A time when you have to wait because something is late.",
+      "example": "There were long delays at the airport because of the snow.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تأخير",
+          "d": "وقت تضطر فيه للانتظار لأن شيئاً ما متأخر"
+        },
+        "zh": {
+          "w": "延误",
+          "d": "因为某事晚了而必须等待的时间"
+        },
+        "de": {
+          "w": "Verspätung",
+          "d": "eine Zeit, in der man warten muss, weil etwas zu spät ist"
+        },
+        "es": {
+          "w": "retraso",
+          "d": "un tiempo en que tienes que esperar porque algo llega tarde"
+        },
+        "fr": {
+          "w": "retard",
+          "d": "un moment où il faut attendre parce que quelque chose n'est pas à l'heure"
+        }
+      }
+    },
+    {
+      "word": "cancel",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/ˈkænsl/",
+      "def": "To decide that something planned will not happen.",
+      "example": "Our flight was cancelled, so we had to wait until the next day.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُلغي",
+          "d": "أن تقرر أن شيئاً مخططاً له لن يحدث"
+        },
+        "zh": {
+          "w": "取消",
+          "d": "决定计划好的事不再进行"
+        },
+        "de": {
+          "w": "absagen / streichen",
+          "d": "entscheiden, dass etwas Geplantes nicht stattfindet"
+        },
+        "es": {
+          "w": "cancelar",
+          "d": "decidir que algo planeado no va a ocurrir"
+        },
+        "fr": {
+          "w": "annuler",
+          "d": "décider que quelque chose de prévu n'aura pas lieu"
+        }
+      }
+    },
+    {
+      "word": "review",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/rɪˈvjuː/",
+      "def": "An opinion that someone writes about a hotel, restaurant, book, etc.",
+      "example": "I read the reviews online before I booked the hotel.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تقييم / مراجعة",
+          "d": "رأي يكتبه شخص عن فندق أو مطعم أو كتاب وغيرها"
+        },
+        "zh": {
+          "w": "评价 / 评论",
+          "d": "别人写的对酒店、餐馆、书等的看法"
+        },
+        "de": {
+          "w": "Bewertung",
+          "d": "eine Meinung, die jemand über ein Hotel, ein Restaurant usw. schreibt"
+        },
+        "es": {
+          "w": "reseña / opinión",
+          "d": "una opinión que alguien escribe sobre un hotel, un restaurante, etc."
+        },
+        "fr": {
+          "w": "avis / critique",
+          "d": "un avis que quelqu'un écrit sur un hôtel, un restaurant, etc."
+        }
+      }
+    },
+    {
+      "word": "rent",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/rent/",
+      "def": "To pay money to use something, like a car or room, for a time.",
+      "example": "We want to rent a car to drive around the island.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يستأجر",
+          "d": "أن تدفع مالاً لتستخدم شيئاً، مثل سيارة أو غرفة، لفترة"
+        },
+        "zh": {
+          "w": "租",
+          "d": "付钱在一段时间内使用某物，比如车或房间"
+        },
+        "de": {
+          "w": "mieten",
+          "d": "Geld bezahlen, um etwas wie ein Auto oder Zimmer eine Zeit lang zu nutzen"
+        },
+        "es": {
+          "w": "alquilar",
+          "d": "pagar dinero para usar algo, como un coche o una habitación, un tiempo"
+        },
+        "fr": {
+          "w": "louer",
+          "d": "payer pour utiliser quelque chose, comme une voiture ou une chambre, pendant un temps"
+        }
+      }
+    },
+    {
+      "word": "bite",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/baɪt/",
+      "def": "To hurt someone with teeth, or (for insects) to make a small hole in skin.",
+      "example": "I was bitten by mosquitoes all night. My legs are very itchy!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يلدغ / يعضّ",
+          "d": "أن تؤذي شخصاً بالأسنان، أو (للحشرات) أن تُحدث ثقباً صغيراً في الجلد"
+        },
+        "zh": {
+          "w": "咬 / 叮",
+          "d": "用牙齿伤人，或（虫子）在皮肤上咬个小口"
+        },
+        "de": {
+          "w": "beißen / stechen",
+          "d": "jemanden mit den Zähnen verletzen oder (Insekten) ein kleines Loch in die Haut machen"
+        },
+        "es": {
+          "w": "morder / picar",
+          "d": "hacer daño con los dientes o (los insectos) hacer un pequeño agujero en la piel"
+        },
+        "fr": {
+          "w": "mordre / piquer",
+          "d": "blesser avec les dents, ou (pour les insectes) faire un petit trou dans la peau"
+        }
+      }
+    },
+    {
+      "word": "low-quality",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌləʊ ˈkwɒləti/",
+      "def": "Badly made, or not good enough.",
+      "example": "The towels in that hotel were low-quality and very old.",
+      "opposite": "high-quality",
+      "tr": {
+        "ar": {
+          "w": "رديء الجودة",
+          "d": "مصنوع بشكل سيئ أو غير جيد بما يكفي"
+        },
+        "zh": {
+          "w": "质量差的",
+          "d": "做得不好或不够好"
+        },
+        "de": {
+          "w": "minderwertig",
+          "d": "schlecht gemacht oder nicht gut genug"
+        },
+        "es": {
+          "w": "de mala calidad",
+          "d": "mal hecho o no lo bastante bueno"
+        },
+        "fr": {
+          "w": "de mauvaise qualité",
+          "d": "mal fait ou pas assez bon"
+        }
+      }
+    },
+    {
+      "word": "lifestyle",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈlaɪfstaɪl/",
+      "def": "The way a person spends their days, works and eats.",
+      "example": "Travelling for a year changed my lifestyle completely.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "نمط الحياة",
+          "d": "الطريقة التي يقضي بها الشخص أيامه ويعمل ويأكل"
+        },
+        "zh": {
+          "w": "生活方式",
+          "d": "一个人度日、工作和饮食的方式"
+        },
+        "de": {
+          "w": "Lebensstil",
+          "d": "wie jemand seine Tage verbringt, arbeitet und isst"
+        },
+        "es": {
+          "w": "estilo de vida",
+          "d": "la forma en que alguien pasa sus días, trabaja y come"
+        },
+        "fr": {
+          "w": "mode de vie",
+          "d": "la façon dont on passe ses journées, travaille et mange"
+        }
+      }
+    },
+    {
+      "word": "plenty",
+      "pos": "pronoun",
+      "level": "B1",
+      "ipa": "/ˈplenti/",
+      "def": "A lot; as much as you need, or more.",
+      "example": "Don't worry, we have plenty of time. The bus comes in 30 minutes.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "كثير / وفرة",
+          "d": "كمية كبيرة؛ بقدر ما تحتاج أو أكثر"
+        },
+        "zh": {
+          "w": "充足 / 很多",
+          "d": "很多；足够或更多"
+        },
+        "de": {
+          "w": "reichlich / genug",
+          "d": "viel; so viel, wie man braucht, oder mehr"
+        },
+        "es": {
+          "w": "de sobra / mucho",
+          "d": "mucho; todo lo que necesitas o más"
+        },
+        "fr": {
+          "w": "largement / beaucoup",
+          "d": "beaucoup; autant qu'il faut, ou plus"
+        }
+      }
+    },
+    {
+      "word": "prefer",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/prɪˈfɜː/",
+      "def": "To like one thing more than another.",
+      "example": "I prefer hostels to hotels because I like meeting other travellers.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يُفضِّل",
+          "d": "أن تحب شيئاً أكثر من شيء آخر"
+        },
+        "zh": {
+          "w": "更喜欢",
+          "d": "喜欢一样东西多于另一样"
+        },
+        "de": {
+          "w": "lieber mögen / bevorzugen",
+          "d": "eine Sache mehr mögen als eine andere"
+        },
+        "es": {
+          "w": "preferir",
+          "d": "gustarte más una cosa que otra"
+        },
+        "fr": {
+          "w": "préférer",
+          "d": "aimer une chose plus qu'une autre"
+        }
+      }
+    },
+    {
+      "word": "recently",
+      "pos": "adverb",
+      "level": "A2",
+      "ipa": "/ˈriːsntli/",
+      "def": "Not long ago.",
+      "example": "I recently visited Paris. It was amazing!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مؤخراً",
+          "d": "منذ وقت غير طويل"
+        },
+        "zh": {
+          "w": "最近",
+          "d": "不久以前"
+        },
+        "de": {
+          "w": "kürzlich / vor Kurzem",
+          "d": "vor nicht langer Zeit"
+        },
+        "es": {
+          "w": "recientemente",
+          "d": "hace poco tiempo"
+        },
+        "fr": {
+          "w": "récemment",
+          "d": "il n'y a pas longtemps"
+        }
+      }
+    },
+    {
+      "word": "definitely",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/ˈdefɪnətli/",
+      "def": "Certainly; with no doubt.",
+      "example": "This is definitely the best hotel we have ever stayed in.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "بالتأكيد",
+          "d": "بكل يقين؛ دون أي شك"
+        },
+        "zh": {
+          "w": "肯定 / 一定",
+          "d": "当然；毫无疑问"
+        },
+        "de": {
+          "w": "auf jeden Fall",
+          "d": "sicher; ohne Zweifel"
+        },
+        "es": {
+          "w": "sin duda",
+          "d": "seguro; sin ninguna duda"
+        },
+        "fr": {
+          "w": "sans aucun doute",
+          "d": "certainement; c'est sûr"
+        }
+      }
+    },
+    {
+      "word": "experience",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "def": "Something that happens to you and that you remember.",
+      "example": "Travelling alone was a great experience. I learned a lot about myself.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تجربة",
+          "d": "شيء يحدث لك وتتذكره"
+        },
+        "zh": {
+          "w": "经历",
+          "d": "发生在你身上并让你记住的事"
+        },
+        "de": {
+          "w": "Erlebnis",
+          "d": "etwas, das einem passiert und an das man sich erinnert"
+        },
+        "es": {
+          "w": "experiencia",
+          "d": "algo que te pasa y que recuerdas"
+        },
+        "fr": {
+          "w": "expérience",
+          "d": "quelque chose qui t'arrive et dont tu te souviens"
+        }
+      }
+    },
+    {
+      "word": "opinion",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/əˈpɪnjən/",
+      "def": "What you think about something.",
+      "example": "In my opinion, spring is the best time to travel.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "رأي",
+          "d": "ما تفكّر فيه بشأن شيء ما"
+        },
+        "zh": {
+          "w": "看法 / 意见",
+          "d": "你对某事的想法"
+        },
+        "de": {
+          "w": "Meinung",
+          "d": "was man über etwas denkt"
+        },
+        "es": {
+          "w": "opinión",
+          "d": "lo que piensas sobre algo"
+        },
+        "fr": {
+          "w": "avis / opinion",
+          "d": "ce qu'on pense de quelque chose"
+        }
+      }
+    },
+    {
+      "word": "terrible",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/ˈterəbl/",
+      "def": "Very bad.",
+      "example": "The hostel was terrible. The room was dirty and the bed was broken.",
+      "opposite": "wonderful",
+      "tr": {
+        "ar": {
+          "w": "فظيع / سيئ جداً",
+          "d": "سيئ للغاية"
+        },
+        "zh": {
+          "w": "糟糕的",
+          "d": "非常差"
+        },
+        "de": {
+          "w": "schrecklich",
+          "d": "sehr schlecht"
+        },
+        "es": {
+          "w": "horrible / terrible",
+          "d": "muy malo"
+        },
+        "fr": {
+          "w": "affreux / horrible",
+          "d": "très mauvais"
+        }
+      }
+    },
+    {
+      "word": "camping",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈkæmpɪŋ/",
+      "def": "Staying outside for the night in a tent.",
+      "example": "We went camping in the mountains last weekend.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "التخييم",
+          "d": "قضاء الليل في الخارج داخل خيمة"
+        },
+        "zh": {
+          "w": "露营",
+          "d": "在户外帐篷里过夜"
+        },
+        "de": {
+          "w": "Camping / Zelten",
+          "d": "draußen in einem Zelt übernachten"
+        },
+        "es": {
+          "w": "acampada",
+          "d": "pasar la noche al aire libre en una tienda de campaña"
+        },
+        "fr": {
+          "w": "camping",
+          "d": "passer la nuit dehors sous une tente"
+        }
+      }
+    },
+    {
+      "word": "road trip",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈrəʊd trɪp/",
+      "def": "A long journey by car, stopping to visit different places.",
+      "example": "We took a road trip along the coast and stopped in five towns.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "رحلة بالسيارة",
+          "d": "رحلة طويلة بالسيارة مع التوقف لزيارة أماكن مختلفة"
+        },
+        "zh": {
+          "w": "自驾游",
+          "d": "开车长途旅行，途中停下来参观不同的地方"
+        },
+        "de": {
+          "w": "Roadtrip / Autoreise",
+          "d": "eine lange Reise mit dem Auto, bei der man verschiedene Orte besucht"
+        },
+        "es": {
+          "w": "viaje por carretera",
+          "d": "un viaje largo en coche, parando a visitar distintos lugares"
+        },
+        "fr": {
+          "w": "road trip / voyage en voiture",
+          "d": "un long voyage en voiture en s'arrêtant dans différents endroits"
+        }
+      }
+    }
+  ]
+}

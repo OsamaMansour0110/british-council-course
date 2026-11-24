@@ -1,0 +1,503 @@
+{
+  "id": 22,
+  "title": "Conversation Topics",
+  "summary": "We talked about which topics are OK and which are taboo when you meet someone for the first time. We listened to Zhang and Dewi and learned the 'Three A's' (Answer, Add, Ask) to make a conversation two-way. We also learned extreme adjectives like freezing, furious and hilarious.",
+  "source": "ARB_B1_10_I122CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "common ground",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌkɒmən ˈɡraʊnd/",
+      "def": "Interests or experiences that two people share.",
+      "example": "We found common ground quickly: we both love football.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أرضية مشتركة", "d": "اهتمامات أو تجارب يشترك فيها شخصان"},
+        "zh": {"w": "共同点", "d": "两个人共有的兴趣或经历"},
+        "de": {"w": "Gemeinsamkeiten", "d": "Interessen oder Erfahrungen, die zwei Menschen teilen"},
+        "es": {"w": "puntos en común", "d": "intereses o experiencias que comparten dos personas"},
+        "fr": {"w": "points communs / terrain d'entente", "d": "intérêts ou expériences que deux personnes partagent"}
+      }
+    },
+    {
+      "word": "strategy",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈstrætədʒi/",
+      "def": "A careful plan or way of doing something.",
+      "example": "'Answer, Add, Ask' is a good strategy for keeping a conversation going.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "استراتيجية / خطة", "d": "خطة أو طريقة مدروسة لفعل شيء ما"},
+        "zh": {"w": "策略", "d": "做某事的周密计划或方法"},
+        "de": {"w": "Strategie", "d": "ein durchdachter Plan oder eine Methode"},
+        "es": {"w": "estrategia", "d": "plan o forma cuidadosa de hacer algo"},
+        "fr": {"w": "stratégie", "d": "plan ou méthode réfléchie pour faire quelque chose"}
+      }
+    },
+    {
+      "word": "interactive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌɪntərˈæktɪv/",
+      "def": "Where everyone takes part, talks and listens.",
+      "example": "A good conversation is interactive – both people ask and answer.",
+      "opposite": "one-sided",
+      "tr": {
+        "ar": {"w": "تفاعلي", "d": "يشارك فيه الجميع ويتكلمون ويستمعون"},
+        "zh": {"w": "互动的", "d": "每个人都参与、说话并倾听"},
+        "de": {"w": "interaktiv", "d": "alle machen mit, sprechen und hören zu"},
+        "es": {"w": "interactivo", "d": "en el que todos participan, hablan y escuchan"},
+        "fr": {"w": "interactif", "d": "où tout le monde participe, parle et écoute"}
+      }
+    },
+    {
+      "word": "offended",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/əˈfendɪd/",
+      "def": "Upset because someone said or did something rude.",
+      "example": "She was offended when he asked how much money she earned.",
+      "opposite": "pleased",
+      "tr": {
+        "ar": {"w": "مُستاء / متضايق", "d": "منزعج لأن شخصاً قال أو فعل شيئاً وقحاً"},
+        "zh": {"w": "被冒犯的 / 不高兴的", "d": "因别人说了或做了无礼的事而不高兴"},
+        "de": {"w": "beleidigt / gekränkt", "d": "verärgert, weil jemand etwas Unhöfliches gesagt oder getan hat"},
+        "es": {"w": "ofendido", "d": "molesto porque alguien dijo o hizo algo grosero"},
+        "fr": {"w": "vexé / offensé", "d": "contrarié parce que quelqu'un a dit ou fait quelque chose d'impoli"}
+      }
+    },
+    {
+      "word": "taboo topic",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/təˈbuː ˌtɒpɪk/",
+      "def": "A subject that it is not acceptable to talk about.",
+      "example": "In the UK, salary is a taboo topic when you first meet someone.",
+      "opposite": "safe topic",
+      "tr": {
+        "ar": {"w": "موضوع محظور", "d": "موضوع لا يُقبل الحديث عنه"},
+        "zh": {"w": "禁忌话题", "d": "不适合谈论的话题"},
+        "de": {"w": "Tabuthema", "d": "ein Thema, über das man nicht sprechen sollte"},
+        "es": {"w": "tema tabú", "d": "tema del que no es aceptable hablar"},
+        "fr": {"w": "sujet tabou", "d": "sujet dont il n'est pas acceptable de parler"}
+      }
+    },
+    {
+      "word": "safe topic",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˌseɪf ˈtɒpɪk/",
+      "def": "A subject that is fine to talk about with anyone, like the weather.",
+      "example": "When you meet someone new, start with safe topics like food or travel.",
+      "opposite": "taboo topic",
+      "tr": {
+        "ar": {"w": "موضوع آمن", "d": "موضوع يمكن الحديث فيه مع أي شخص، مثل الطقس"},
+        "zh": {"w": "安全话题", "d": "和任何人都可以聊的话题，比如天气"},
+        "de": {"w": "unverfängliches Thema", "d": "ein Thema, über das man mit jedem sprechen kann, z. B. das Wetter"},
+        "es": {"w": "tema seguro", "d": "tema del que se puede hablar con cualquiera, como el tiempo"},
+        "fr": {"w": "sujet sans risque", "d": "sujet dont on peut parler avec tout le monde, comme la météo"}
+      }
+    },
+    {
+      "word": "sensitive topic",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌsensətɪv ˈtɒpɪk/",
+      "def": "A subject you must talk about carefully because it can upset people.",
+      "example": "Religion is a sensitive topic, so be careful what you say.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "موضوع حسّاس", "d": "موضوع يجب الحديث عنه بحذر لأنه قد يزعج الناس"},
+        "zh": {"w": "敏感话题", "d": "需要小心谈论的话题，因为可能让人不高兴"},
+        "de": {"w": "heikles Thema", "d": "ein Thema, über das man vorsichtig sprechen muss, weil es Leute verletzen kann"},
+        "es": {"w": "tema delicado", "d": "tema del que hay que hablar con cuidado porque puede molestar"},
+        "fr": {"w": "sujet sensible / délicat", "d": "sujet à aborder avec prudence car il peut blesser"}
+      }
+    },
+    {
+      "word": "controversial",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌkɒntrəˈvɜːʃl/",
+      "def": "Causing a lot of disagreement because people have strong, different opinions.",
+      "example": "Immigration can be a controversial topic at a dinner party.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مثير للجدل", "d": "يسبب خلافاً كبيراً لأن للناس آراء قوية ومختلفة"},
+        "zh": {"w": "有争议的", "d": "因为人们观点强烈且不同而引起很多分歧"},
+        "de": {"w": "umstritten / kontrovers", "d": "führt zu viel Streit, weil Menschen starke, verschiedene Meinungen haben"},
+        "es": {"w": "polémico / controvertido", "d": "que causa mucho desacuerdo porque la gente tiene opiniones fuertes y distintas"},
+        "fr": {"w": "controversé", "d": "qui crée beaucoup de désaccord car les avis sont forts et différents"}
+      }
+    },
+    {
+      "word": "offensive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/əˈfensɪv/",
+      "def": "Rude in a way that makes people upset or angry.",
+      "example": "Jokes about someone's religion or nationality can be very offensive.",
+      "opposite": "polite",
+      "tr": {
+        "ar": {"w": "مُسيء / جارح", "d": "وقح بطريقة تجعل الناس منزعجين أو غاضبين"},
+        "zh": {"w": "冒犯的 / 无礼的", "d": "粗鲁得让人不高兴或生气"},
+        "de": {"w": "beleidigend", "d": "so unhöflich, dass Menschen verletzt oder wütend werden"},
+        "es": {"w": "ofensivo", "d": "grosero de una forma que molesta o enfada a la gente"},
+        "fr": {"w": "offensant / blessant", "d": "impoli au point de blesser ou fâcher les gens"}
+      }
+    },
+    {
+      "word": "trivial",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈtrɪviəl/",
+      "def": "Small and not important.",
+      "example": "Don't worry about such a trivial problem.",
+      "opposite": "important",
+      "tr": {
+        "ar": {"w": "تافه / بسيط", "d": "صغير وغير مهم"},
+        "zh": {"w": "琐碎的 / 不重要的", "d": "很小，不重要"},
+        "de": {"w": "unwichtig / belanglos", "d": "klein und nicht wichtig"},
+        "es": {"w": "trivial / sin importancia", "d": "pequeño y nada importante"},
+        "fr": {"w": "insignifiant / banal", "d": "petit et sans importance"}
+      }
+    },
+    {
+      "word": "vent",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/vent/",
+      "def": "To tell someone about your anger or problems so you feel better.",
+      "example": "When she's frustrated at work, she needs to vent to a friend.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُفضفض / يُنفّس عن غضبه", "d": "أن تحكي لشخص عن غضبك أو مشاكلك لتشعر بتحسّن"},
+        "zh": {"w": "发泄 / 倾诉", "d": "把怒气或烦恼告诉别人，让自己感觉好一些"},
+        "de": {"w": "Dampf ablassen", "d": "jemandem von Ärger oder Problemen erzählen, damit es einem besser geht"},
+        "es": {"w": "desahogarse", "d": "contar a alguien tu enfado o problemas para sentirte mejor"},
+        "fr": {"w": "vider son sac / se défouler", "d": "parler de sa colère ou de ses soucis à quelqu'un pour aller mieux"}
+      }
+    },
+    {
+      "word": "make small talk",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌmeɪk ˈsmɔːl tɔːk/",
+      "def": "To chat in a friendly way about easy, unimportant things.",
+      "example": "It's useful to make small talk before starting a serious conversation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتجاذب أطراف الحديث", "d": "أن تدردش بطريقة ودية عن أمور سهلة وغير مهمة"},
+        "zh": {"w": "闲聊 / 寒暄", "d": "友好地聊一些轻松、不重要的事"},
+        "de": {"w": "Smalltalk machen", "d": "freundlich über einfache, unwichtige Dinge plaudern"},
+        "es": {"w": "charlar de cosas triviales", "d": "hablar de forma amable sobre cosas sencillas y sin importancia"},
+        "fr": {"w": "faire la conversation", "d": "bavarder gentiment de choses simples et peu importantes"}
+      }
+    },
+    {
+      "word": "stereotype",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈsteriətaɪp/",
+      "def": "A fixed, often unfair idea about what a group of people are like.",
+      "example": "Not all British people drink tea all day – that's just a stereotype.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صورة نمطية", "d": "فكرة ثابتة وغالباً غير عادلة عن شكل مجموعة من الناس"},
+        "zh": {"w": "刻板印象", "d": "对一群人固定的、常常不公平的看法"},
+        "de": {"w": "Klischee / Stereotyp", "d": "eine feste, oft unfaire Vorstellung davon, wie eine Gruppe ist"},
+        "es": {"w": "estereotipo", "d": "idea fija y a menudo injusta sobre cómo es un grupo de personas"},
+        "fr": {"w": "stéréotype / cliché", "d": "idée toute faite, souvent injuste, sur un groupe de personnes"}
+      }
+    },
+    {
+      "word": "get to know",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌɡet tə ˈnəʊ/",
+      "def": "To learn more about someone by spending time with them.",
+      "example": "Let's chat for a while till we get to know each other.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتعرّف على", "d": "أن تعرف أكثر عن شخص بقضاء الوقت معه"},
+        "zh": {"w": "逐渐了解 / 认识", "d": "通过相处更多地了解某人"},
+        "de": {"w": "kennenlernen", "d": "durch gemeinsame Zeit mehr über jemanden erfahren"},
+        "es": {"w": "llegar a conocer", "d": "saber más de alguien pasando tiempo con él"},
+        "fr": {"w": "apprendre à connaître", "d": "en savoir plus sur quelqu'un en passant du temps avec lui"}
+      }
+    },
+    {
+      "word": "participate",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/pɑːˈtɪsɪpeɪt/",
+      "def": "To take part in an activity or conversation.",
+      "example": "Zhang needs to participate more, not just answer questions.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يشارك", "d": "أن تأخذ دوراً في نشاط أو محادثة"},
+        "zh": {"w": "参与", "d": "参加某项活动或对话"},
+        "de": {"w": "teilnehmen / sich beteiligen", "d": "bei einer Aktivität oder einem Gespräch mitmachen"},
+        "es": {"w": "participar", "d": "tomar parte en una actividad o conversación"},
+        "fr": {"w": "participer", "d": "prendre part à une activité ou une conversation"}
+      }
+    },
+    {
+      "word": "surroundings",
+      "pos": "noun (plural)",
+      "level": "B2",
+      "ipa": "/səˈraʊndɪŋz/",
+      "def": "The place and things around you.",
+      "example": "Talking about your surroundings, like the music or the room, is easy.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "المحيط / ما حولك", "d": "المكان والأشياء من حولك"},
+        "zh": {"w": "周围环境", "d": "你周围的地方和事物"},
+        "de": {"w": "Umgebung", "d": "der Ort und die Dinge um einen herum"},
+        "es": {"w": "entorno / alrededores", "d": "el lugar y las cosas que te rodean"},
+        "fr": {"w": "environnement / cadre", "d": "le lieu et les choses autour de soi"}
+      }
+    },
+    {
+      "word": "cross-cultural",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌkrɒs ˈkʌltʃərəl/",
+      "def": "Between people from different countries and cultures.",
+      "example": "Cross-cultural communication is easier when you know the safe topics.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بين الثقافات", "d": "بين أشخاص من بلدان وثقافات مختلفة"},
+        "zh": {"w": "跨文化的", "d": "在来自不同国家和文化的人之间"},
+        "de": {"w": "interkulturell", "d": "zwischen Menschen aus verschiedenen Ländern und Kulturen"},
+        "es": {"w": "intercultural", "d": "entre personas de distintos países y culturas"},
+        "fr": {"w": "interculturel", "d": "entre des personnes de pays et de cultures différents"}
+      }
+    },
+    {
+      "word": "role play",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈrəʊl pleɪ/",
+      "def": "An activity where you act out a situation to practise for real life.",
+      "example": "In the first role play, Zhang practised talking to Julie.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لعب الأدوار", "d": "نشاط تمثّل فيه موقفاً لتتدرّب على الحياة الحقيقية"},
+        "zh": {"w": "角色扮演", "d": "模拟一个情景来为真实生活做练习的活动"},
+        "de": {"w": "Rollenspiel", "d": "eine Übung, bei der man eine Situation spielt, um für das echte Leben zu üben"},
+        "es": {"w": "juego de rol / simulación", "d": "actividad en la que representas una situación para practicar"},
+        "fr": {"w": "jeu de rôle", "d": "activité où l'on joue une situation pour s'entraîner à la vraie vie"}
+      }
+    },
+    {
+      "word": "two-way conversation",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌtuː weɪ ˌkɒnvəˈseɪʃn/",
+      "def": "A conversation where both people talk, ask questions and listen.",
+      "example": "Answer, add and ask – then you have a real two-way conversation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حوار متبادل", "d": "محادثة يتكلم فيها الطرفان ويسألان ويستمعان"},
+        "zh": {"w": "双向对话", "d": "双方都说话、提问和倾听的对话"},
+        "de": {"w": "echtes Gespräch / Dialog", "d": "ein Gespräch, in dem beide sprechen, fragen und zuhören"},
+        "es": {"w": "conversación de ida y vuelta", "d": "conversación en la que los dos hablan, preguntan y escuchan"},
+        "fr": {"w": "vrai dialogue", "d": "conversation où les deux personnes parlent, posent des questions et écoutent"}
+      }
+    },
+    {
+      "word": "freezing",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈfriːzɪŋ/",
+      "def": "Very, very cold.",
+      "example": "Take your coat – it's absolutely freezing outside!",
+      "opposite": "boiling",
+      "tr": {
+        "ar": {"w": "قارس البرودة", "d": "بارد جداً جداً"},
+        "zh": {"w": "冰冷的 / 冻死了", "d": "非常非常冷"},
+        "de": {"w": "eiskalt", "d": "sehr, sehr kalt"},
+        "es": {"w": "helado / congelado", "d": "muchísimo frío"},
+        "fr": {"w": "glacial / gelé", "d": "très, très froid"}
+      }
+    },
+    {
+      "word": "boiling",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈbɔɪlɪŋ/",
+      "def": "Very, very hot.",
+      "example": "Open the window – it's boiling in here!",
+      "opposite": "freezing",
+      "tr": {
+        "ar": {"w": "حارّ جداً", "d": "ساخن جداً جداً"},
+        "zh": {"w": "热死了 / 酷热的", "d": "非常非常热"},
+        "de": {"w": "brütend heiß", "d": "sehr, sehr heiß"},
+        "es": {"w": "hirviendo / asfixiante", "d": "muchísimo calor"},
+        "fr": {"w": "bouillant / étouffant", "d": "très, très chaud"}
+      }
+    },
+    {
+      "word": "furious",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈfjʊəriəs/",
+      "def": "Very, very angry.",
+      "example": "He was furious when they cancelled his flight.",
+      "opposite": "calm",
+      "tr": {
+        "ar": {"w": "غاضب جداً / ثائر", "d": "غاضب جداً جداً"},
+        "zh": {"w": "大怒的 / 暴怒的", "d": "非常非常生气"},
+        "de": {"w": "wütend / außer sich", "d": "sehr, sehr verärgert"},
+        "es": {"w": "furioso", "d": "muy, muy enfadado"},
+        "fr": {"w": "furieux", "d": "très, très en colère"}
+      }
+    },
+    {
+      "word": "exhausted",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪɡˈzɔːstɪd/",
+      "def": "Very, very tired.",
+      "example": "After a twelve-hour flight, I was completely exhausted.",
+      "opposite": "full of energy",
+      "tr": {
+        "ar": {"w": "مُنهَك", "d": "متعب جداً جداً"},
+        "zh": {"w": "精疲力竭的", "d": "非常非常累"},
+        "de": {"w": "erschöpft", "d": "sehr, sehr müde"},
+        "es": {"w": "agotado", "d": "muy, muy cansado"},
+        "fr": {"w": "épuisé", "d": "très, très fatigué"}
+      }
+    },
+    {
+      "word": "filthy",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈfɪlθi/",
+      "def": "Very, very dirty.",
+      "example": "Your shoes are filthy! Take them off before you come in.",
+      "opposite": "spotless",
+      "tr": {
+        "ar": {"w": "قذر جداً", "d": "متّسخ جداً جداً"},
+        "zh": {"w": "脏透了的", "d": "非常非常脏"},
+        "de": {"w": "dreckig / schmutzig", "d": "sehr, sehr schmutzig"},
+        "es": {"w": "mugriento / sucísimo", "d": "muy, muy sucio"},
+        "fr": {"w": "crasseux / dégoûtant", "d": "très, très sale"}
+      }
+    },
+    {
+      "word": "hilarious",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/hɪˈleəriəs/",
+      "def": "Very, very funny.",
+      "example": "His story about his first day in London was hilarious.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مضحك جداً", "d": "مضحك جداً جداً"},
+        "zh": {"w": "极其好笑的", "d": "非常非常好笑"},
+        "de": {"w": "urkomisch", "d": "sehr, sehr lustig"},
+        "es": {"w": "divertidísimo / para morirse de risa", "d": "muy, muy gracioso"},
+        "fr": {"w": "hilarant / tordant", "d": "très, très drôle"}
+      }
+    },
+    {
+      "word": "tiny",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈtaɪni/",
+      "def": "Very, very small.",
+      "example": "Their flat in Tokyo was tiny, but very clean.",
+      "opposite": "enormous",
+      "tr": {
+        "ar": {"w": "صغير جداً / ضئيل", "d": "صغير جداً جداً"},
+        "zh": {"w": "极小的", "d": "非常非常小"},
+        "de": {"w": "winzig", "d": "sehr, sehr klein"},
+        "es": {"w": "diminuto / minúsculo", "d": "muy, muy pequeño"},
+        "fr": {"w": "minuscule", "d": "très, très petit"}
+      }
+    },
+    {
+      "word": "enormous",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪˈnɔːməs/",
+      "def": "Very, very big.",
+      "example": "The party was in an enormous hall with hundreds of people.",
+      "opposite": "tiny",
+      "tr": {
+        "ar": {"w": "ضخم / هائل", "d": "كبير جداً جداً"},
+        "zh": {"w": "巨大的", "d": "非常非常大"},
+        "de": {"w": "riesig", "d": "sehr, sehr groß"},
+        "es": {"w": "enorme", "d": "muy, muy grande"},
+        "fr": {"w": "énorme", "d": "très, très grand"}
+      }
+    },
+    {
+      "word": "terrifying",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈterɪfaɪɪŋ/",
+      "def": "Very, very scary.",
+      "example": "Driving in the snow at night was terrifying.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُرعب", "d": "مخيف جداً جداً"},
+        "zh": {"w": "非常可怕的", "d": "非常非常吓人"},
+        "de": {"w": "furchtbar beängstigend", "d": "sehr, sehr gruselig"},
+        "es": {"w": "aterrador", "d": "muy, muy espantoso"},
+        "fr": {"w": "terrifiant", "d": "très, très effrayant"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Extreme adjectives",
+      "explain": "Extreme adjectives already mean 'very + adjective': freezing means very cold. So we don't use 'very' with them. Use 'absolutely' or 'really', or use the extreme adjective alone.",
+      "explain_ar": "الصفات القصوى (extreme adjectives) تحمل بالفعل معنى «جداً + صفة»؛ فكلمة freezing تعني «بارد جداً». لذلك لا نستخدم very معها، بل نستخدم absolutely أو really، أو نستخدم الصفة وحدها.",
+      "form": [
+        "very / really + normal adjective: very cold, really tired",
+        "absolutely / really + extreme adjective: absolutely freezing, really exhausted",
+        "cold → freezing, hot → boiling, angry → furious, tired → exhausted, dirty → filthy",
+        "funny → hilarious, small → tiny, big → enormous / huge, scary → terrifying, good → wonderful / fantastic"
+      ],
+      "examples": [
+        {"en": "It's not just cold outside – it's absolutely freezing!", "note": "absolutely + extreme adjective"},
+        {"en": "She was furious when the meeting was cancelled.", "note": "furious = very angry"},
+        {"en": "After the flight I felt completely exhausted.", "note": "completely also works with extreme adjectives"},
+        {"en": "That comedian was hilarious.", "note": "Not: very hilarious"},
+        {"en": "Their flat is very small. / Their flat is tiny.", "note": "very + normal adjective, or the extreme adjective alone"}
+      ],
+      "mistakes": [
+        {"wrong": "This is very very funny.", "right": "This is hilarious. / This is absolutely hilarious.", "why": "Use an extreme adjective instead of 'very very'."},
+        {"wrong": "I'm very exhausted.", "right": "I'm absolutely exhausted.", "why": "Don't use 'very' with extreme adjectives."},
+        {"wrong": "It's absolutely cold today.", "right": "It's very cold today. / It's absolutely freezing today.", "why": "'Absolutely' goes with extreme adjectives, not normal ones."}
+      ],
+      "quiz": [
+        {"q": "Open the window! It's ___ in here.", "options": ["boiling", "very boiling", "absolutely hot"], "answer": 0, "why": "Boiling = very hot. Don't add 'very', and 'absolutely' doesn't go with 'hot'."},
+        {"q": "His joke was absolutely ___.", "options": ["funny", "hilarious", "very funny"], "answer": 1, "why": "Absolutely + extreme adjective."},
+        {"q": "What is the extreme adjective for 'dirty'?", "options": ["filthy", "tiny", "furious"], "answer": 0, "why": "Filthy = very dirty."},
+        {"q": "After running 10 km, I was ___.", "options": ["very exhausted", "absolutely tired", "exhausted"], "answer": 2, "why": "Exhausted already means very tired."},
+        {"q": "The flat is ___ – just one small room.", "options": ["enormous", "tiny", "boiling"], "answer": 1, "why": "Tiny = very small."},
+        {"q": "Which sentence is correct?", "options": ["She was very furious.", "She was absolutely furious.", "She was absolutely angry."], "answer": 1, "why": "Use absolutely with extreme adjectives like furious."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Answer: I'm from China.", "use": "Three A's – step 1: answer the question"},
+    {"en": "Add: Actually, I'm from the capital, Beijing.", "use": "Three A's – step 2: add an extra detail"},
+    {"en": "Ask: Have you ever been to China?", "use": "Three A's – step 3: ask a question back"},
+    {"en": "How about you?", "use": "Returning a question to keep the conversation two-way"},
+    {"en": "Lovely day today, isn't it?", "use": "Starting small talk about the weather"},
+    {"en": "This is a beautiful hall, don't you think?", "use": "Talking about your surroundings"},
+    {"en": "How was your flight?", "use": "Safe question for a visitor"},
+    {"en": "How long have you been here?", "use": "Asking about time in a place (not 'How much')"},
+    {"en": "Is this your first time here?", "use": "Safe opener at an event"},
+    {"en": "Are you into sport at all?", "use": "Looking for common ground"},
+    {"en": "I'd avoid asking people about their salary.", "use": "Giving advice about taboo topics"},
+    {"en": "In my country, it's OK to talk about... but it's better not to ask about...", "use": "Advice for visitors about conversation topics"}
+  ]
+}

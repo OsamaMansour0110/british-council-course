@@ -1,0 +1,533 @@
+{
+  "id": 13,
+  "title": "Storytelling",
+  "summary": "We read three funny short stories and chose the best title for each one. We studied the three narrative tenses: past simple, past continuous and past perfect. Then we told our own stories and retold a partner's story to someone else.",
+  "source": "ARB_B1_01_I059CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "magician",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/məˈdʒɪʃən/",
+      "def": "A person who does magic tricks to entertain people.",
+      "example": "A magician was working on a cruise ship as part of a daily show.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ساحر / لاعب خفّة", "d": "شخص يقدّم حيلاً سحرية لتسلية الناس"},
+        "zh": {"w": "魔术师", "d": "表演魔术来娱乐观众的人"},
+        "de": {"w": "Zauberer", "d": "eine Person, die Zaubertricks vorführt, um Leute zu unterhalten"},
+        "es": {"w": "mago", "d": "una persona que hace trucos de magia para entretener a la gente"},
+        "fr": {"w": "magicien", "d": "une personne qui fait des tours de magie pour amuser les gens"}
+      }
+    },
+    {
+      "word": "trick",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/trɪk/",
+      "def": "Something clever that a magician does that seems impossible.",
+      "example": "OK, I have to admit it. That's a great trick.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "خدعة / حيلة", "d": "شيء ذكي يفعله الساحر ويبدو مستحيلاً"},
+        "zh": {"w": "戏法 / 把戏", "d": "魔术师做的、看起来不可能的巧妙表演"},
+        "de": {"w": "Trick / Kunststück", "d": "etwas Geschicktes, das ein Zauberer macht und das unmöglich scheint"},
+        "es": {"w": "truco", "d": "algo ingenioso que hace un mago y que parece imposible"},
+        "fr": {"w": "tour / truc", "d": "quelque chose d'astucieux que fait un magicien et qui semble impossible"}
+      }
+    },
+    {
+      "word": "cruise ship",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˈkruːz ʃɪp/",
+      "def": "A big passenger boat that takes people on holiday at sea.",
+      "example": "Every evening the magician performed for the passengers on the cruise ship.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سفينة سياحية", "d": "مركب ركّاب كبير يأخذ الناس في رحلات سياحية في البحر"},
+        "zh": {"w": "游轮", "d": "载人在海上度假的大客船"},
+        "de": {"w": "Kreuzfahrtschiff", "d": "ein großes Passagierschiff, mit dem Leute auf dem Meer Urlaub machen"},
+        "es": {"w": "crucero", "d": "un barco grande de pasajeros que lleva a la gente de vacaciones por el mar"},
+        "fr": {"w": "bateau de croisière", "d": "un grand navire de passagers qui emmène les gens en vacances en mer"}
+      }
+    },
+    {
+      "word": "squawk",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/skwɔːk/",
+      "def": "To make a loud, rough noise, like a parrot.",
+      "example": "The parrot squawked, 'It's all a trick, all a trick!'",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يصيح بصوت حادّ", "d": "أن يُصدر صوتاً عالياً وخشناً مثل الببغاء"},
+        "zh": {"w": "（鸟）尖叫 / 呱呱叫", "d": "像鹦鹉一样发出又大又刺耳的叫声"},
+        "de": {"w": "kreischen", "d": "einen lauten, rauen Laut machen, wie ein Papagei"},
+        "es": {"w": "graznar / chillar", "d": "hacer un ruido fuerte y áspero, como un loro"},
+        "fr": {"w": "criailler / pousser des cris", "d": "faire un bruit fort et rauque, comme un perroquet"}
+      }
+    },
+    {
+      "word": "iceberg",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈaɪsbɜːɡ/",
+      "def": "A very large piece of frozen water floating in the sea.",
+      "example": "One night, in the middle of the show, the ship hit an iceberg.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جبل جليدي", "d": "قطعة ضخمة جداً من الماء المتجمّد تطفو في البحر"},
+        "zh": {"w": "冰山", "d": "漂浮在海里的巨大冰块"},
+        "de": {"w": "Eisberg", "d": "ein sehr großes Stück gefrorenes Wasser, das im Meer schwimmt"},
+        "es": {"w": "iceberg", "d": "un trozo enorme de agua helada que flota en el mar"},
+        "fr": {"w": "iceberg", "d": "un énorme morceau d'eau gelée qui flotte dans la mer"}
+      }
+    },
+    {
+      "word": "sink",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/sɪŋk/",
+      "def": "To go down under the water.",
+      "example": "The ship hit an iceberg and sank completely in a few minutes.",
+      "opposite": "float",
+      "tr": {
+        "ar": {"w": "يغرق", "d": "أن ينزل تحت سطح الماء"},
+        "zh": {"w": "沉没", "d": "往下沉到水里"},
+        "de": {"w": "sinken / untergehen", "d": "unter die Wasseroberfläche gehen"},
+        "es": {"w": "hundirse", "d": "irse hacia abajo, debajo del agua"},
+        "fr": {"w": "couler", "d": "descendre sous l'eau"}
+      }
+    },
+    {
+      "word": "manage to",
+      "pos": "verb phrase",
+      "level": "B1",
+      "ipa": "/ˈmænɪdʒ tə/",
+      "def": "To succeed in doing something difficult.",
+      "example": "The magician managed to pull himself out of the water onto a life raft.",
+      "opposite": "fail to",
+      "tr": {
+        "ar": {"w": "يتمكّن من", "d": "أن تنجح في فعل شيء صعب"},
+        "zh": {"w": "设法做到", "d": "成功做成一件困难的事"},
+        "de": {"w": "es schaffen, etwas zu tun", "d": "etwas Schwieriges erfolgreich tun"},
+        "es": {"w": "conseguir / lograr", "d": "tener éxito al hacer algo difícil"},
+        "fr": {"w": "réussir à / parvenir à", "d": "arriver à faire quelque chose de difficile"}
+      }
+    },
+    {
+      "word": "life raft",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˈlaɪf rɑːft/",
+      "def": "A small rubber boat for saving people when their ship goes down.",
+      "example": "He was amazed to see the parrot sitting on the life raft.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قارب نجاة / طوف نجاة", "d": "قارب مطاطي صغير لإنقاذ الناس عندما تغرق سفينتهم"},
+        "zh": {"w": "救生筏", "d": "船沉时用来救人的小橡皮艇"},
+        "de": {"w": "Rettungsfloß / Rettungsinsel", "d": "ein kleines Gummiboot, um Menschen zu retten, wenn ihr Schiff sinkt"},
+        "es": {"w": "balsa salvavidas", "d": "un pequeño bote de goma para salvar a la gente cuando su barco se hunde"},
+        "fr": {"w": "radeau de sauvetage", "d": "un petit bateau en caoutchouc pour sauver les gens quand leur navire coule"}
+      }
+    },
+    {
+      "word": "croak",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/krəʊk/",
+      "def": "To speak with a low, rough voice, as if your throat is dry.",
+      "example": "After a few seconds, the parrot croaked, 'So tell me, where's the ship?'",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتكلّم بصوت أجشّ", "d": "أن تتكلّم بصوت منخفض وخشن كأن حلقك جاف"},
+        "zh": {"w": "用沙哑的声音说", "d": "用低沉、沙哑的声音说话，好像喉咙很干"},
+        "de": {"w": "krächzen", "d": "mit tiefer, rauer Stimme sprechen, als ob der Hals trocken wäre"},
+        "es": {"w": "decir con voz ronca", "d": "hablar con una voz baja y áspera, como si tuvieras la garganta seca"},
+        "fr": {"w": "dire d'une voix rauque", "d": "parler d'une voix basse et rauque, comme si on avait la gorge sèche"}
+      }
+    },
+    {
+      "word": "admit",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ədˈmɪt/",
+      "def": "To agree that something is true, often when you don't want to.",
+      "example": "'OK, I have to admit it. That's a great trick,' said the parrot.",
+      "opposite": "deny",
+      "tr": {
+        "ar": {"w": "يعترف بـ", "d": "أن تقرّ بأن شيئاً صحيح، غالباً وأنت لا ترغب في ذلك"},
+        "zh": {"w": "承认", "d": "同意某事是真的，常常是不情愿的"},
+        "de": {"w": "zugeben", "d": "sagen, dass etwas wahr ist, oft obwohl man es nicht will"},
+        "es": {"w": "admitir / reconocer", "d": "aceptar que algo es verdad, a menudo sin querer hacerlo"},
+        "fr": {"w": "admettre / avouer", "d": "reconnaître que quelque chose est vrai, souvent à contrecœur"}
+      }
+    },
+    {
+      "word": "disappearing act",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˌdɪsəˈpɪərɪŋ ækt/",
+      "def": "A magic trick in which a person or thing suddenly cannot be seen.",
+      "example": "The parrot thought the sinking ship was the magician's best disappearing act.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "فقرة الإخفاء", "d": "خدعة سحرية يختفي فيها شخص أو شيء فجأة عن الأنظار"},
+        "zh": {"w": "消失魔术", "d": "让人或东西突然看不见的魔术"},
+        "de": {"w": "Verschwindetrick", "d": "ein Zaubertrick, bei dem eine Person oder Sache plötzlich nicht mehr zu sehen ist"},
+        "es": {"w": "número de desaparición", "d": "un truco de magia en el que una persona o cosa deja de verse de repente"},
+        "fr": {"w": "numéro de disparition", "d": "un tour de magie où une personne ou une chose disparaît soudain"}
+      }
+    },
+    {
+      "word": "fishing boat",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˈfɪʃɪŋ bəʊt/",
+      "def": "A small ship that people use to catch fish at sea.",
+      "example": "A fishing boat was working off the coast of Japan when a cow fell from the sky.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مركب صيد", "d": "سفينة صغيرة يستخدمها الناس لصيد السمك في البحر"},
+        "zh": {"w": "渔船", "d": "人们在海上捕鱼用的小船"},
+        "de": {"w": "Fischerboot", "d": "ein kleines Schiff, mit dem man auf dem Meer Fische fängt"},
+        "es": {"w": "barco de pesca", "d": "un barco pequeño que se usa para pescar en el mar"},
+        "fr": {"w": "bateau de pêche", "d": "un petit navire utilisé pour attraper des poissons en mer"}
+      }
+    },
+    {
+      "word": "off the coast",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌɒf ðə ˈkəʊst/",
+      "def": "In the sea, not far from the land.",
+      "example": "The boat was working off the coast of Japan.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قبالة الساحل", "d": "في البحر، غير بعيد عن اليابسة"},
+        "zh": {"w": "在……近海", "d": "在海上，离陆地不远"},
+        "de": {"w": "vor der Küste", "d": "auf dem Meer, nicht weit vom Land"},
+        "es": {"w": "frente a la costa", "d": "en el mar, no lejos de la tierra"},
+        "fr": {"w": "au large de", "d": "en mer, pas loin de la terre"}
+      }
+    },
+    {
+      "word": "criminal damage",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˌkrɪmɪnəl ˈdæmɪdʒ/",
+      "def": "The crime of breaking someone else's things on purpose.",
+      "example": "Nobody believed the fishermen, and they went to prison for criminal damage.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إتلاف متعمَّد للممتلكات", "d": "جريمة كسر أو تخريب أشياء شخص آخر عن قصد"},
+        "zh": {"w": "蓄意毁坏财物罪", "d": "故意破坏别人东西的罪行"},
+        "de": {"w": "Sachbeschädigung", "d": "die Straftat, absichtlich Sachen von anderen kaputt zu machen"},
+        "es": {"w": "daños (delito de daños)", "d": "el delito de romper a propósito las cosas de otra persona"},
+        "fr": {"w": "dégradation volontaire", "d": "le délit qui consiste à casser exprès les affaires de quelqu'un"}
+      }
+    },
+    {
+      "word": "come forward",
+      "pos": "phrasal verb",
+      "level": "C1",
+      "ipa": "/ˌkʌm ˈfɔːwəd/",
+      "def": "To offer to tell the police or other people what you know.",
+      "example": "A few weeks later, a man came forward and told the whole story.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتقدّم بالشهادة / بالمعلومات", "d": "أن تعرض على الشرطة أو غيرها أن تخبرهم بما تعرفه"},
+        "zh": {"w": "站出来（提供情况）", "d": "主动把你知道的情况告诉警察或别人"},
+        "de": {"w": "sich melden", "d": "von sich aus der Polizei oder anderen sagen, was man weiß"},
+        "es": {"w": "presentarse (a declarar)", "d": "ofrecerse a contar a la policía o a otros lo que sabes"},
+        "fr": {"w": "se manifester", "d": "venir de soi-même dire à la police ou aux autres ce qu'on sait"}
+      }
+    },
+    {
+      "word": "transport",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/trænˈspɔːt/",
+      "def": "To take people, animals or things from one place to another in a vehicle.",
+      "example": "He worked for a company that transported animals by plane.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ينقل", "d": "أن تنقل أشخاصاً أو حيوانات أو أشياء من مكان إلى آخر بوسيلة نقل"},
+        "zh": {"w": "运送 / 运输", "d": "用交通工具把人、动物或东西从一个地方运到另一个地方"},
+        "de": {"w": "transportieren", "d": "Menschen, Tiere oder Dinge mit einem Fahrzeug an einen anderen Ort bringen"},
+        "es": {"w": "transportar", "d": "llevar personas, animales o cosas de un lugar a otro en un vehículo"},
+        "fr": {"w": "transporter", "d": "emmener des personnes, des animaux ou des choses d'un endroit à un autre en véhicule"}
+      }
+    },
+    {
+      "word": "panic",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈpænɪk/",
+      "def": "To suddenly feel so afraid that you cannot think clearly.",
+      "example": "During the flight, the cow panicked, so they threw it out of the plane.",
+      "opposite": "stay calm",
+      "tr": {
+        "ar": {"w": "يُصاب بالذعر", "d": "أن تشعر فجأة بخوف شديد يمنعك من التفكير بوضوح"},
+        "zh": {"w": "惊慌 / 恐慌", "d": "突然非常害怕，以至于无法清楚地思考"},
+        "de": {"w": "in Panik geraten", "d": "plötzlich so viel Angst haben, dass man nicht klar denken kann"},
+        "es": {"w": "entrar en pánico", "d": "sentir de repente tanto miedo que no puedes pensar con claridad"},
+        "fr": {"w": "paniquer", "d": "avoir soudain si peur qu'on ne peut plus réfléchir"}
+      }
+    },
+    {
+      "word": "aircraft",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈeəkrɑːft/",
+      "def": "A plane, helicopter or any other machine that flies.",
+      "example": "To save the aircraft and themselves, they threw the cow out of the plane.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طائرة", "d": "طائرة أو مروحية أو أي آلة تطير"},
+        "zh": {"w": "飞机 / 飞行器", "d": "飞机、直升机或其他会飞的机器"},
+        "de": {"w": "Flugzeug / Luftfahrzeug", "d": "ein Flugzeug, ein Hubschrauber oder eine andere Maschine, die fliegt"},
+        "es": {"w": "avión / aeronave", "d": "un avión, un helicóptero u otra máquina que vuela"},
+        "fr": {"w": "avion / appareil", "d": "un avion, un hélicoptère ou toute autre machine qui vole"}
+      }
+    },
+    {
+      "word": "give someone a lift",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌɡɪv ˌsʌmwʌn ə ˈlɪft/",
+      "def": "To take someone somewhere in your car.",
+      "example": "A man stopped to give a lonely-looking man a lift.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُوصِل شخصاً بسيارته", "d": "أن تأخذ شخصاً إلى مكان ما في سيارتك"},
+        "zh": {"w": "让某人搭便车", "d": "开车顺路带某人去某个地方"},
+        "de": {"w": "jemanden mitnehmen", "d": "jemanden mit dem Auto irgendwohin bringen"},
+        "es": {"w": "llevar a alguien en coche", "d": "llevar a alguien a algún sitio en tu coche"},
+        "fr": {"w": "déposer quelqu'un / emmener en voiture", "d": "emmener quelqu'un quelque part dans sa voiture"}
+      }
+    },
+    {
+      "word": "sure enough",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˌʃɔːr ɪˈnʌf/",
+      "def": "As someone said or expected; used when that thing really happens.",
+      "example": "'She'll follow us,' the man said, and sure enough, the sheep ran behind the car.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "وبالفعل / كما هو متوقَّع", "d": "كما قال أحدهم أو توقّع؛ نستخدمها عندما يحدث الشيء فعلاً"},
+        "zh": {"w": "果然", "d": "正如某人所说或预料的，事情真的发生了"},
+        "de": {"w": "tatsächlich / wie erwartet", "d": "so wie jemand gesagt oder erwartet hat; wenn es wirklich passiert"},
+        "es": {"w": "efectivamente / tal como se esperaba", "d": "como alguien dijo o esperaba; se usa cuando eso de verdad pasa"},
+        "fr": {"w": "effectivement / comme prévu", "d": "comme quelqu'un l'avait dit ou prévu ; quand ça arrive vraiment"}
+      }
+    },
+    {
+      "word": "trot",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/trɒt/",
+      "def": "To run slowly with short, quick steps, like a horse or a sheep.",
+      "example": "The driver could see the sheep trotting behind the car.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يخبّ / يهرول", "d": "أن يجري ببطء بخطوات قصيرة وسريعة مثل الحصان أو الخروف"},
+        "zh": {"w": "小跑", "d": "像马或羊一样用短而快的步子慢跑"},
+        "de": {"w": "traben", "d": "langsam mit kurzen, schnellen Schritten laufen, wie ein Pferd oder Schaf"},
+        "es": {"w": "trotar", "d": "correr despacio con pasos cortos y rápidos, como un caballo o una oveja"},
+        "fr": {"w": "trotter", "d": "courir lentement à petits pas rapides, comme un cheval ou un mouton"}
+      }
+    },
+    {
+      "word": "exhausted",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪɡˈzɔːstɪd/",
+      "def": "Very, very tired.",
+      "example": "After ten miles, the driver thought the sheep was exhausted.",
+      "opposite": "full of energy",
+      "tr": {
+        "ar": {"w": "مُنهَك", "d": "متعب جداً جداً"},
+        "zh": {"w": "精疲力竭的", "d": "非常非常累"},
+        "de": {"w": "erschöpft", "d": "sehr, sehr müde"},
+        "es": {"w": "agotado", "d": "muy, muy cansado"},
+        "fr": {"w": "épuisé", "d": "très, très fatigué"}
+      }
+    },
+    {
+      "word": "tongue hanging out",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˌtʌŋ ˈhæŋɪŋ aʊt/",
+      "def": "When the soft pink part you taste with comes out of an animal's mouth.",
+      "example": "The sheep looks very tired and her tongue is hanging out of her mouth.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لسانه متدلٍّ", "d": "عندما يخرج لسان الحيوان من فمه، عادةً من التعب أو الحرّ"},
+        "zh": {"w": "舌头伸在外面", "d": "动物（通常因为累或热）把舌头伸出嘴外"},
+        "de": {"w": "mit heraushängender Zunge", "d": "wenn die Zunge eines Tieres aus dem Maul hängt, meist vor Müdigkeit oder Hitze"},
+        "es": {"w": "con la lengua fuera", "d": "cuando la lengua de un animal le sale de la boca, normalmente por cansancio o calor"},
+        "fr": {"w": "la langue pendante", "d": "quand la langue d'un animal sort de sa bouche, souvent à cause de la fatigue ou de la chaleur"}
+      }
+    },
+    {
+      "word": "overtake",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˌəʊvəˈteɪk/",
+      "def": "To go past a slower car or person that is in front of you.",
+      "example": "'Oh, she's not tired,' the man explained. 'She just wants to overtake us.'",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتجاوز", "d": "أن تمرّ بسيارة أو شخص أبطأ منك أمامك"},
+        "zh": {"w": "超车 / 超过", "d": "从前面较慢的车或人旁边开过去或走过去"},
+        "de": {"w": "überholen", "d": "an einem langsameren Auto oder einer Person vor einem vorbeifahren"},
+        "es": {"w": "adelantar", "d": "pasar a un coche o una persona más lenta que va delante"},
+        "fr": {"w": "doubler / dépasser", "d": "passer devant une voiture ou une personne plus lente qui est devant soi"}
+      }
+    },
+    {
+      "word": "in the middle of",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ɪn ðə ˈmɪdəl əv/",
+      "def": "While something is happening and before it has finished.",
+      "example": "One night, in the middle of the show, the ship hit an iceberg.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "في منتصف / في أثناء", "d": "بينما يحدث شيء وقبل أن ينتهي"},
+        "zh": {"w": "在……中间 / 正在……时", "d": "在某事正在进行、还没结束的时候"},
+        "de": {"w": "mitten in / mitten während", "d": "während etwas passiert und bevor es zu Ende ist"},
+        "es": {"w": "en medio de", "d": "mientras algo pasa y antes de que termine"},
+        "fr": {"w": "au milieu de / en plein", "d": "pendant que quelque chose se passe, avant la fin"}
+      }
+    },
+    {
+      "word": "behave",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/bɪˈheɪv/",
+      "def": "To act in a certain way, good or bad.",
+      "example": "I took Fred to a training school because he was behaving very badly.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتصرّف", "d": "أن تفعل الأشياء بطريقة معيّنة، جيدة أو سيئة"},
+        "zh": {"w": "表现 / 举止", "d": "以某种方式做事，好或不好"},
+        "de": {"w": "sich benehmen / sich verhalten", "d": "auf eine bestimmte Art handeln, gut oder schlecht"},
+        "es": {"w": "portarse / comportarse", "d": "actuar de una manera, buena o mala"},
+        "fr": {"w": "se comporter / se conduire", "d": "agir d'une certaine façon, bien ou mal"}
+      }
+    },
+    {
+      "word": "Pigs might fly",
+      "pos": "idiom",
+      "level": "C2",
+      "ipa": "/ˌpɪɡz maɪt ˈflaɪ/",
+      "def": "Something you say when you think something will never happen.",
+      "example": "'Do you think he'll arrive on time today?' 'Yes, and pigs might fly!'",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "في المِشمِش / هذا مستحيل", "d": "عبارة تقولها عندما تظن أن شيئاً لن يحدث أبداً"},
+        "zh": {"w": "太阳从西边出来", "d": "当你认为某事绝不会发生时说的话"},
+        "de": {"w": "Wenn Schweine fliegen können", "d": "das sagt man, wenn man glaubt, dass etwas nie passieren wird"},
+        "es": {"w": "Cuando las ranas críen pelo", "d": "se dice cuando crees que algo nunca va a pasar"},
+        "fr": {"w": "Quand les poules auront des dents", "d": "ce qu'on dit quand on pense qu'une chose n'arrivera jamais"}
+      }
+    },
+    {
+      "word": "need for speed",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌniːd fə ˈspiːd/",
+      "def": "A strong wish to go very fast.",
+      "example": "The sheep had a real need for speed; she wanted to go faster than the car!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الشغف بالسرعة", "d": "رغبة قوية في الانطلاق بسرعة كبيرة"},
+        "zh": {"w": "对速度的渴望", "d": "非常想开得或跑得很快"},
+        "de": {"w": "Lust auf Geschwindigkeit", "d": "ein starker Wunsch, sehr schnell zu fahren oder zu laufen"},
+        "es": {"w": "pasión por la velocidad", "d": "unas ganas muy grandes de ir muy rápido"},
+        "fr": {"w": "besoin de vitesse", "d": "une forte envie d'aller très vite"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Past simple and past continuous in stories",
+      "explain": "We use the past simple for completed actions in the past, like the main events of a story. We use the past continuous for an action that was in progress at a time in the past. It often gives the background, and a past simple action interrupts it.",
+      "explain_ar": "نستخدم الماضي البسيط للأفعال المكتملة في الماضي، مثل الأحداث الرئيسية في القصة. ونستخدم الماضي المستمر لفعل كان مستمراً في وقت ما في الماضي؛ وهو غالباً يصف خلفية القصة، ثم يقطعه حدث بالماضي البسيط.",
+      "form": [
+        "Past simple: subject + past form (worked, hit, sank). Negative: didn't + base verb.",
+        "Past continuous: subject + was / were + verb-ing. Negative: wasn't / weren't + verb-ing.",
+        "Background + event: was / were + -ing ... when + past simple."
+      ],
+      "examples": [
+        {"en": "A magician was working on a cruise ship.", "note": "Past continuous: the background of the story."},
+        {"en": "The ship hit an iceberg and sank in a few minutes.", "note": "Past simple: the main events, one after another."},
+        {"en": "A fishing boat was working off the coast of Japan when a cow fell from the sky.", "note": "A long action (was working) is interrupted by a short one (fell)."},
+        {"en": "They were sitting in prison when a man came forward.", "note": "Background + new event."},
+        {"en": "Their boss didn't believe them.", "note": "Past simple negative: didn't + base verb."}
+      ],
+      "mistakes": [
+        {"wrong": "When I was living in London, I was buying a dog.", "right": "When I was living in London, I bought a dog.", "why": "Buying the dog is one completed event, so use the past simple."},
+        {"wrong": "Their boss didn't believed them.", "right": "Their boss didn't believe them.", "why": "After 'didn't', use the base verb."},
+        {"wrong": "They didn't find a dress, so they go to the tailor.", "right": "They didn't find a dress, so they went to the tailor.", "why": "Keep the story in the past: went, not go."},
+        {"wrong": "The magician performed when the ship hit an iceberg.", "right": "The magician was performing when the ship hit an iceberg.", "why": "The action in progress uses the past continuous."}
+      ],
+      "quiz": [
+        {"q": "The parrot ___ comments every evening while the magician was performing.", "options": ["made", "was make", "has made"], "answer": 0, "why": "A completed, repeated action in the past: past simple."},
+        {"q": "They ___ over the sea near Japan at the time.", "options": ["flew", "were flying", "had flown"], "answer": 1, "why": "An action in progress at that time: past continuous."},
+        {"q": "I was walking home when it suddenly ___ to rain.", "options": ["was starting", "started", "starts"], "answer": 1, "why": "The short action that interrupts uses the past simple."},
+        {"q": "Their boss ___ them.", "options": ["didn't believe", "didn't believed", "wasn't believe"], "answer": 0, "why": "Negative past simple: didn't + base verb."},
+        {"q": "When I ___ in London, I bought a dog.", "options": ["was living", "had lived", "am living"], "answer": 0, "why": "The background situation: past continuous (was living)."},
+        {"q": "Which tense do we use for the main events of a story?", "options": ["past continuous", "past simple", "present simple"], "answer": 1, "why": "Completed main events use the past simple."}
+      ]
+    },
+    {
+      "title": "Past perfect",
+      "explain": "We use the past perfect for a completed action that happened before another action or time in the past. It helps the listener understand which thing happened first.",
+      "explain_ar": "نستخدم الماضي التام لفعل اكتمل قبل فعل آخر أو وقت آخر في الماضي. وهو يساعد المستمع على فهم أيّ الحدثين وقع أولاً.",
+      "form": [
+        "had + past participle: had gone, had flown, had thrown",
+        "Negative: hadn't + past participle",
+        "Often used with after, before, when, already, by the time"
+      ],
+      "examples": [
+        {"en": "After they had gone about ten miles, he noticed the sheep looked tired.", "note": "First they drove ten miles, then he noticed."},
+        {"en": "He hadn't noticed that the man had a sheep with him.", "note": "Negative: hadn't + past participle."},
+        {"en": "A few weeks before, they had flown a cow from Russia to South Korea.", "note": "This happened before the man came forward."},
+        {"en": "The magician had listened to the same thing every night for six months.", "note": "Before the night the ship sank."},
+        {"en": "After I had had him for about six months, I took him to a training school.", "note": "had (auxiliary) + had (past participle of have)."}
+      ],
+      "mistakes": [
+        {"wrong": "After I had him for six months, I took him to school.", "right": "After I had had him for six months, I took him to school.", "why": "The past perfect of 'have' is 'had had'."},
+        {"wrong": "When I arrived, the film already started.", "right": "When I arrived, the film had already started.", "why": "The film started first, so use the past perfect."},
+        {"wrong": "I didn't owned a pet before I got Fred.", "right": "I hadn't owned a pet before I got Fred.", "why": "For an earlier past, use hadn't + past participle."},
+        {"wrong": "He had run away before the police had came.", "right": "He had run away before the police came.", "why": "The later action uses the past simple, and the past participle of 'come' is 'come'."}
+      ],
+      "quiz": [
+        {"q": "After I ___ him for about six months, I took him to a training school.", "options": ["had had", "have had", "was having"], "answer": 0, "why": "The earlier action uses the past perfect: had + had."},
+        {"q": "I ___ a pet before I had Fred.", "options": ["didn't own", "hadn't owned", "wasn't owning"], "answer": 1, "why": "Before another past time: hadn't + past participle."},
+        {"q": "When the police arrived, the thief ___.", "options": ["already escaped", "had already escaped", "was already escaping"], "answer": 1, "why": "The escape happened first, so use the past perfect."},
+        {"q": "He ___ that the man had a sheep with him.", "options": ["hadn't noticed", "hasn't noticed", "didn't noticed"], "answer": 0, "why": "Negative past perfect: hadn't + past participle."},
+        {"q": "Which action happened first? 'When I got to the station, the train had left.'", "options": ["I got to the station", "The train left", "Both at the same time"], "answer": 1, "why": "The past perfect (had left) shows the earlier action."},
+        {"q": "Past perfect form:", "options": ["was + verb-ing", "had + past participle", "did + base verb"], "answer": 1, "why": "Past perfect = had + past participle."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "One night, in the middle of the show, ...", "use": "Introducing a sudden event in a story"},
+    {"en": "Suddenly, ...", "use": "Introducing a surprise"},
+    {"en": "After a few seconds, ...", "use": "Moving the story on in time"},
+    {"en": "A few weeks later, ...", "use": "Moving the story on in time"},
+    {"en": "... and sure enough, ...", "use": "Saying that what someone expected really happened"},
+    {"en": "Unfortunately, ...", "use": "Introducing a bad event"},
+    {"en": "... at the time.", "use": "Giving background information"},
+    {"en": "What happened next?", "use": "Asking the storyteller to continue"},
+    {"en": "Who are the main characters?", "use": "Planning a story"},
+    {"en": "How did it end?", "use": "Asking about the end of a story"},
+    {"en": "Sorry, I didn't understand that part. Can you explain it again?", "use": "Asking for clarification while listening"}
+  ]
+}

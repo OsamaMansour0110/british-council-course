@@ -1,0 +1,552 @@
+{
+  "id": 14,
+  "title": "Attending Weddings",
+  "summary": "We talked about weddings we have been to and learned wedding words like ceremony, reception and bride. We listened to stories about unusual weddings and practised showing interest with echo questions and short reactions. We also compared wedding customs around the world.",
+  "source": "ARB_B1_03_I069CGL_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "attend",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/əˈtend/",
+      "def": "To go to an event, for example a wedding, party or meeting.",
+      "example": "Whose wedding celebrations did you last attend?",
+      "opposite": "miss",
+      "tr": {
+        "ar": {"w": "يحضر", "d": "أن تذهب إلى مناسبة مثل حفل زفاف أو حفلة أو اجتماع"},
+        "zh": {"w": "出席 / 参加", "d": "去参加婚礼、聚会或会议等活动"},
+        "de": {"w": "teilnehmen an / besuchen", "d": "zu einer Veranstaltung gehen, z. B. einer Hochzeit, Feier oder Besprechung"},
+        "es": {"w": "asistir a", "d": "ir a un evento, por ejemplo una boda, una fiesta o una reunión"},
+        "fr": {"w": "assister à", "d": "aller à un événement, par exemple un mariage, une fête ou une réunion"}
+      }
+    },
+    {
+      "word": "ceremony",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈserɪməni/",
+      "def": "An important social or religious event where traditional actions are done formally.",
+      "example": "The ceremony was in the morning and the party was in the evening.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مراسم / حفل رسمي", "d": "مناسبة اجتماعية أو دينية مهمة تُؤدّى فيها أفعال تقليدية بشكل رسمي"},
+        "zh": {"w": "仪式 / 典礼", "d": "重要的社会或宗教活动，按传统正式地进行"},
+        "de": {"w": "Zeremonie / Trauung", "d": "ein wichtiges gesellschaftliches oder religiöses Ereignis mit traditionellen, formellen Handlungen"},
+        "es": {"w": "ceremonia", "d": "un evento social o religioso importante en el que se hacen cosas tradicionales de manera formal"},
+        "fr": {"w": "cérémonie", "d": "un événement social ou religieux important où l'on fait des gestes traditionnels de façon formelle"}
+      }
+    },
+    {
+      "word": "hold a ceremony",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌhəʊld ə ˈserɪməni/",
+      "def": "To organise a formal event and make it happen in a place.",
+      "example": "They held the ceremony in a small church near the sea.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُقيم حفلاً / مراسم", "d": "أن تنظّم مناسبة رسمية وتُقيمها في مكان ما"},
+        "zh": {"w": "举行仪式", "d": "组织一个正式的活动并在某处举行"},
+        "de": {"w": "eine Zeremonie abhalten", "d": "eine formelle Veranstaltung organisieren und durchführen"},
+        "es": {"w": "celebrar una ceremonia", "d": "organizar un evento formal y hacerlo en un lugar"},
+        "fr": {"w": "célébrer / organiser une cérémonie", "d": "organiser un événement formel et le faire dans un lieu"}
+      }
+    },
+    {
+      "word": "bride",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/braɪd/",
+      "def": "A woman on her wedding day, or just before or after it.",
+      "example": "Everyone stood up when the bride walked into the room.",
+      "opposite": "groom",
+      "tr": {
+        "ar": {"w": "عروس", "d": "امرأة في يوم زفافها أو قبله أو بعده بقليل"},
+        "zh": {"w": "新娘", "d": "在婚礼当天（或前后）的女子"},
+        "de": {"w": "Braut", "d": "eine Frau an ihrem Hochzeitstag oder kurz davor oder danach"},
+        "es": {"w": "novia", "d": "una mujer el día de su boda, o justo antes o después"},
+        "fr": {"w": "mariée", "d": "une femme le jour de son mariage, ou juste avant ou après"}
+      }
+    },
+    {
+      "word": "groom",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ɡruːm/",
+      "def": "A man on his wedding day, or just before or after it.",
+      "example": "The groom looked nervous while he waited for the bride.",
+      "opposite": "bride",
+      "tr": {
+        "ar": {"w": "عريس", "d": "رجل في يوم زفافه أو قبله أو بعده بقليل"},
+        "zh": {"w": "新郎", "d": "在婚礼当天（或前后）的男子"},
+        "de": {"w": "Bräutigam", "d": "ein Mann an seinem Hochzeitstag oder kurz davor oder danach"},
+        "es": {"w": "novio", "d": "un hombre el día de su boda, o justo antes o después"},
+        "fr": {"w": "marié", "d": "un homme le jour de son mariage, ou juste avant ou après"}
+      }
+    },
+    {
+      "word": "best man",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌbest ˈmæn/",
+      "def": "The groom's close friend who helps him on the wedding day.",
+      "example": "The best man gave a funny speech at the reception.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إشبين العريس", "d": "صديق العريس المقرّب الذي يساعده في يوم الزفاف"},
+        "zh": {"w": "伴郎", "d": "在婚礼当天帮助新郎的好朋友"},
+        "de": {"w": "Trauzeuge", "d": "der enge Freund des Bräutigams, der ihm am Hochzeitstag hilft"},
+        "es": {"w": "padrino (de boda)", "d": "el amigo cercano del novio que le ayuda el día de la boda"},
+        "fr": {"w": "témoin du marié", "d": "l'ami proche du marié qui l'aide le jour du mariage"}
+      }
+    },
+    {
+      "word": "bridesmaid",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈbraɪdzmeɪd/",
+      "def": "A girl or woman who helps the bride on her wedding day.",
+      "example": "Her younger sister was her bridesmaid.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "وصيفة العروس", "d": "فتاة أو امرأة تساعد العروس في يوم زفافها"},
+        "zh": {"w": "伴娘", "d": "在婚礼当天帮助新娘的女孩或女子"},
+        "de": {"w": "Brautjungfer", "d": "ein Mädchen oder eine Frau, die der Braut am Hochzeitstag hilft"},
+        "es": {"w": "dama de honor", "d": "una chica o mujer que ayuda a la novia el día de su boda"},
+        "fr": {"w": "demoiselle d'honneur", "d": "une fille ou une femme qui aide la mariée le jour de son mariage"}
+      }
+    },
+    {
+      "word": "newlyweds",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈnjuːliwedz/",
+      "def": "A man and woman who got married a very short time ago.",
+      "example": "The guests threw rice over the newlyweds as they left the church.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "العروسان / حديثا الزواج", "d": "رجل وامرأة تزوّجا منذ وقت قصير جداً"},
+        "zh": {"w": "新婚夫妇", "d": "刚结婚不久的一对夫妻"},
+        "de": {"w": "Frischvermählte", "d": "ein Paar, das erst vor sehr kurzer Zeit geheiratet hat"},
+        "es": {"w": "recién casados", "d": "una pareja que se casó hace muy poco tiempo"},
+        "fr": {"w": "jeunes mariés", "d": "un couple qui s'est marié il y a très peu de temps"}
+      }
+    },
+    {
+      "word": "propose",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/prəˈpəʊz/",
+      "def": "To ask someone to marry you.",
+      "example": "He proposed to her at a quiet dinner by the river.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يطلب الزواج", "d": "أن تطلب من شخص أن يتزوّجك"},
+        "zh": {"w": "求婚", "d": "请求某人和你结婚"},
+        "de": {"w": "einen Heiratsantrag machen", "d": "jemanden fragen, ob er oder sie einen heiraten will"},
+        "es": {"w": "pedir matrimonio", "d": "pedirle a alguien que se case contigo"},
+        "fr": {"w": "demander en mariage", "d": "demander à quelqu'un de se marier avec soi"}
+      }
+    },
+    {
+      "word": "proposal",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/prəˈpəʊzəl/",
+      "def": "When someone asks another person to marry them.",
+      "example": "She said yes to his proposal straight away.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طلب زواج", "d": "عندما يطلب شخص من آخر أن يتزوّجه"},
+        "zh": {"w": "求婚", "d": "一个人请求另一个人和自己结婚"},
+        "de": {"w": "Heiratsantrag", "d": "wenn jemand eine andere Person fragt, ob sie ihn heiraten will"},
+        "es": {"w": "propuesta de matrimonio", "d": "cuando alguien le pide a otra persona que se case con él o ella"},
+        "fr": {"w": "demande en mariage", "d": "quand quelqu'un demande à une autre personne de l'épouser"}
+      }
+    },
+    {
+      "word": "civil wedding",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌsɪvəl ˈwedɪŋ/",
+      "def": "A marriage that is not religious and is done by a government official.",
+      "example": "They had a civil wedding at the town hall and then a big party.",
+      "opposite": "religious wedding",
+      "tr": {
+        "ar": {"w": "زواج مدني", "d": "زواج غير ديني يُجريه موظف حكومي"},
+        "zh": {"w": "公证婚礼 / 民事婚礼", "d": "不是宗教的、由政府官员主持的婚礼"},
+        "de": {"w": "standesamtliche Trauung", "d": "eine nicht religiöse Hochzeit, die ein Beamter durchführt"},
+        "es": {"w": "boda civil", "d": "una boda no religiosa que hace un funcionario del gobierno"},
+        "fr": {"w": "mariage civil", "d": "un mariage non religieux fait par un représentant de l'État"}
+      }
+    },
+    {
+      "word": "registrar",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˌredʒɪˈstrɑː/",
+      "def": "An official who marries people in a civil wedding and keeps official records.",
+      "example": "At a civil wedding, the registrar asks the couple to sign the marriage papers.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مأذون / موظف السجل المدني", "d": "موظف رسمي يعقد الزواج المدني ويحفظ السجلات الرسمية"},
+        "zh": {"w": "婚姻登记员", "d": "主持民事婚礼并保管官方记录的官员"},
+        "de": {"w": "Standesbeamter", "d": "ein Beamter, der standesamtliche Trauungen durchführt und Urkunden führt"},
+        "es": {"w": "juez / funcionario del registro civil", "d": "un funcionario que casa a la gente en una boda civil y guarda los registros"},
+        "fr": {"w": "officier d'état civil", "d": "un fonctionnaire qui marie les gens civilement et tient les registres officiels"}
+      }
+    },
+    {
+      "word": "minister",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈmɪnɪstə/",
+      "def": "A religious leader in some Christian churches who can marry people.",
+      "example": "The minister asked the bride and groom to say their vows.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قِسّ / رجل دين", "d": "رجل دين في بعض الكنائس المسيحية يستطيع عقد الزواج"},
+        "zh": {"w": "牧师", "d": "某些基督教会里可以主持婚礼的宗教领袖"},
+        "de": {"w": "Pfarrer / Pastor", "d": "ein religiöser Leiter in manchen christlichen Kirchen, der Paare trauen darf"},
+        "es": {"w": "pastor / clérigo", "d": "un líder religioso de algunas iglesias cristianas que puede casar a la gente"},
+        "fr": {"w": "pasteur", "d": "un responsable religieux de certaines Églises chrétiennes qui peut marier les gens"}
+      }
+    },
+    {
+      "word": "aisle",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/aɪl/",
+      "def": "The long path between rows of seats, for example in a church.",
+      "example": "The bride walked down the aisle to the music she had chosen.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مَمَرّ (بين المقاعد)", "d": "الممرّ الطويل بين صفوف المقاعد، مثلاً في الكنيسة"},
+        "zh": {"w": "（座位间的）通道", "d": "成排座位之间的长通道，例如在教堂里"},
+        "de": {"w": "Gang / Mittelgang", "d": "der lange Weg zwischen den Sitzreihen, z. B. in einer Kirche"},
+        "es": {"w": "pasillo", "d": "el camino largo entre filas de asientos, por ejemplo en una iglesia"},
+        "fr": {"w": "allée", "d": "le long passage entre les rangées de sièges, par exemple dans une église"}
+      }
+    },
+    {
+      "word": "altar",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈɔːltə/",
+      "def": "The special table at the front of a church, used in religious ceremonies.",
+      "example": "The groom was waiting for her at the altar.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مذبح الكنيسة", "d": "الطاولة الخاصة في مقدّمة الكنيسة، تُستخدم في المراسم الدينية"},
+        "zh": {"w": "圣坛 / 祭坛", "d": "教堂前面用于宗教仪式的特别的桌子"},
+        "de": {"w": "Altar", "d": "der besondere Tisch vorne in einer Kirche für religiöse Zeremonien"},
+        "es": {"w": "altar", "d": "la mesa especial al frente de una iglesia, que se usa en las ceremonias religiosas"},
+        "fr": {"w": "autel", "d": "la table spéciale à l'avant d'une église, utilisée pour les cérémonies religieuses"}
+      }
+    },
+    {
+      "word": "vow",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/vaʊ/",
+      "def": "A serious promise, like the one a bride and groom make to each other.",
+      "example": "They wrote their own wedding vows and read them to each other.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عهد / قَسَم", "d": "وعد جادّ، مثل الوعد الذي يقطعه العروسان أحدهما للآخر"},
+        "zh": {"w": "誓言", "d": "郑重的承诺，比如新郎新娘互相许下的诺言"},
+        "de": {"w": "Gelübde / Eheversprechen", "d": "ein ernstes Versprechen, wie das, das sich Braut und Bräutigam geben"},
+        "es": {"w": "voto", "d": "una promesa seria, como la que se hacen los novios"},
+        "fr": {"w": "vœu", "d": "une promesse sérieuse, comme celle que se font les mariés"}
+      }
+    },
+    {
+      "word": "veil",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/veɪl/",
+      "def": "A thin piece of cloth that a bride wears over her head or face.",
+      "example": "Her sister helped her with her long white veil before the photos.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طرحة العروس / حجاب الوجه", "d": "قطعة قماش رقيقة تضعها العروس على رأسها أو وجهها"},
+        "zh": {"w": "面纱 / 头纱", "d": "新娘戴在头上或脸上的薄布"},
+        "de": {"w": "Schleier", "d": "ein dünnes Stück Stoff, das eine Braut über Kopf oder Gesicht trägt"},
+        "es": {"w": "velo", "d": "una tela fina que la novia lleva sobre la cabeza o la cara"},
+        "fr": {"w": "voile", "d": "un tissu fin que la mariée porte sur la tête ou le visage"}
+      }
+    },
+    {
+      "word": "bouquet",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/buˈkeɪ/",
+      "def": "A bunch of flowers, like the one a bride carries.",
+      "example": "At the end of the party, the bride threw her bouquet to her friends.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "باقة ورد", "d": "مجموعة من الزهور، مثل التي تحملها العروس"},
+        "zh": {"w": "花束", "d": "一束花，比如新娘手里拿的"},
+        "de": {"w": "Blumenstrauß / Brautstrauß", "d": "ein Strauß Blumen, wie ihn eine Braut trägt"},
+        "es": {"w": "ramo de flores", "d": "un grupo de flores, como el que lleva la novia"},
+        "fr": {"w": "bouquet", "d": "un ensemble de fleurs, comme celui que porte la mariée"}
+      }
+    },
+    {
+      "word": "suit",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/suːt/",
+      "def": "A jacket and trousers or skirt made from the same cloth.",
+      "example": "The groom wore a dark blue suit.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بدلة", "d": "سترة وبنطلون أو تنّورة من نفس القماش"},
+        "zh": {"w": "套装 / 西装", "d": "用同一种布做的上衣和裤子或裙子"},
+        "de": {"w": "Anzug / Kostüm", "d": "eine Jacke und eine Hose oder ein Rock aus demselben Stoff"},
+        "es": {"w": "traje", "d": "una chaqueta y un pantalón o una falda de la misma tela"},
+        "fr": {"w": "costume / tailleur", "d": "une veste et un pantalon ou une jupe du même tissu"}
+      }
+    },
+    {
+      "word": "church hall",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˈtʃɜːtʃ hɔːl/",
+      "def": "A building near a church that people use for parties and meetings.",
+      "example": "Andy booked a small church hall for his wedding party.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قاعة الكنيسة", "d": "مبنى قرب الكنيسة يستخدمه الناس للحفلات والاجتماعات"},
+        "zh": {"w": "教堂礼堂", "d": "教堂旁边供人们开派对和开会用的建筑"},
+        "de": {"w": "Gemeindesaal", "d": "ein Gebäude bei einer Kirche, das man für Feiern und Treffen nutzt"},
+        "es": {"w": "salón parroquial", "d": "un edificio cerca de una iglesia que se usa para fiestas y reuniones"},
+        "fr": {"w": "salle paroissiale", "d": "un bâtiment près d'une église qu'on utilise pour des fêtes et des réunions"}
+      }
+    },
+    {
+      "word": "reception",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/rɪˈsepʃən/",
+      "def": "A formal party after a wedding, with food, drinks and dancing.",
+      "example": "After the ceremony, all the guests went to the reception at a hotel.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حفل الاستقبال", "d": "حفلة رسمية بعد الزفاف فيها طعام وشراب ورقص"},
+        "zh": {"w": "婚宴 / 招待会", "d": "婚礼后的正式聚会，有吃的、喝的和跳舞"},
+        "de": {"w": "Hochzeitsfeier / Empfang", "d": "eine formelle Feier nach der Trauung mit Essen, Getränken und Tanz"},
+        "es": {"w": "banquete / recepción", "d": "una fiesta formal después de la boda, con comida, bebida y baile"},
+        "fr": {"w": "réception", "d": "une fête formelle après le mariage, avec repas, boissons et danse"}
+      }
+    },
+    {
+      "word": "catering",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈkeɪtərɪŋ/",
+      "def": "Preparing and serving food and drinks at a party or event.",
+      "example": "Andy loves cooking, so he did most of the catering for his own wedding.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تقديم الطعام / الضيافة", "d": "تحضير الطعام والشراب وتقديمه في حفلة أو مناسبة"},
+        "zh": {"w": "餐饮服务", "d": "为聚会或活动准备并提供食物和饮料"},
+        "de": {"w": "Verpflegung / Catering", "d": "Essen und Getränke für eine Feier oder Veranstaltung zubereiten und servieren"},
+        "es": {"w": "catering / servicio de comida", "d": "preparar y servir comida y bebida en una fiesta o un evento"},
+        "fr": {"w": "traiteur / restauration", "d": "préparer et servir à manger et à boire pour une fête ou un événement"}
+      }
+    },
+    {
+      "word": "host",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/həʊst/",
+      "def": "To organise a party or event and welcome the guests.",
+      "example": "The bride's parents hosted the reception in their garden.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يستضيف", "d": "أن تنظّم حفلة أو مناسبة وترحّب بالضيوف"},
+        "zh": {"w": "主办 / 招待", "d": "组织聚会或活动并欢迎客人"},
+        "de": {"w": "ausrichten / Gastgeber sein", "d": "eine Feier oder Veranstaltung organisieren und die Gäste empfangen"},
+        "es": {"w": "organizar / ser anfitrión de", "d": "organizar una fiesta o un evento y recibir a los invitados"},
+        "fr": {"w": "accueillir / organiser", "d": "organiser une fête ou un événement et recevoir les invités"}
+      }
+    },
+    {
+      "word": "celebration",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌseləˈbreɪʃən/",
+      "def": "A party or special event for a happy day.",
+      "example": "The wedding celebrations went on late into the night.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "احتفال", "d": "حفلة أو مناسبة خاصة ليوم سعيد"},
+        "zh": {"w": "庆祝活动", "d": "为高兴的日子举办的聚会或特别活动"},
+        "de": {"w": "Feier", "d": "eine Party oder besondere Veranstaltung für einen glücklichen Tag"},
+        "es": {"w": "celebración", "d": "una fiesta o un evento especial para un día feliz"},
+        "fr": {"w": "fête / célébration", "d": "une fête ou un événement spécial pour un jour heureux"}
+      }
+    },
+    {
+      "word": "photoshoot",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfəʊtəʊʃuːt/",
+      "def": "A time when a photographer takes many pictures of the same people in one place.",
+      "example": "After the ceremony, they had a photoshoot in the park.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جلسة تصوير", "d": "وقت يلتقط فيه المصوّر صوراً كثيرة لنفس الأشخاص في مكان واحد"},
+        "zh": {"w": "拍照 / 摄影活动", "d": "摄影师在同一个地方给同样的人拍很多照片"},
+        "de": {"w": "Fotoshooting", "d": "eine Zeit, in der ein Fotograf viele Bilder derselben Personen an einem Ort macht"},
+        "es": {"w": "sesión de fotos", "d": "un momento en que un fotógrafo hace muchas fotos de las mismas personas en un lugar"},
+        "fr": {"w": "séance photo", "d": "un moment où un photographe prend beaucoup de photos des mêmes personnes au même endroit"}
+      }
+    },
+    {
+      "word": "honeymoon",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhʌnimuːn/",
+      "def": "A holiday that two people take just after they get married.",
+      "example": "They went to Zanzibar for their honeymoon.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "شهر العسل", "d": "عطلة يقضيها الزوجان مباشرة بعد زواجهما"},
+        "zh": {"w": "蜜月", "d": "两个人刚结婚后去度的假"},
+        "de": {"w": "Flitterwochen", "d": "eine Reise, die ein Paar direkt nach der Hochzeit macht"},
+        "es": {"w": "luna de miel", "d": "un viaje que hacen dos personas justo después de casarse"},
+        "fr": {"w": "lune de miel / voyage de noces", "d": "des vacances que deux personnes prennent juste après leur mariage"}
+      }
+    },
+    {
+      "word": "symbolise",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈsɪmbəlaɪz/",
+      "def": "To represent an idea; to be a sign of something.",
+      "example": "In Crete, the first dance symbolises the union of two families.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يرمز إلى", "d": "أن يمثّل فكرة؛ أن يكون علامة على شيء"},
+        "zh": {"w": "象征", "d": "代表一种想法；是某事的标志"},
+        "de": {"w": "symbolisieren", "d": "für eine Idee stehen; ein Zeichen für etwas sein"},
+        "es": {"w": "simbolizar", "d": "representar una idea; ser una señal de algo"},
+        "fr": {"w": "symboliser", "d": "représenter une idée ; être le signe de quelque chose"}
+      }
+    },
+    {
+      "word": "prosperity",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/prɒˈsperəti/",
+      "def": "Having money and everything you need for a good life.",
+      "example": "In some countries, guests throw rice to wish the couple prosperity.",
+      "opposite": "poverty",
+      "tr": {
+        "ar": {"w": "رخاء / ازدهار", "d": "امتلاك المال وكل ما تحتاجه لحياة جيدة"},
+        "zh": {"w": "繁荣 / 富裕", "d": "有钱，拥有美好生活所需的一切"},
+        "de": {"w": "Wohlstand", "d": "Geld und alles haben, was man für ein gutes Leben braucht"},
+        "es": {"w": "prosperidad", "d": "tener dinero y todo lo necesario para una buena vida"},
+        "fr": {"w": "prospérité", "d": "avoir de l'argent et tout ce qu'il faut pour une bonne vie"}
+      }
+    },
+    {
+      "word": "commercialised",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/kəˈmɜːʃəlaɪzd/",
+      "def": "Too focused on spending and making money, so it loses its real meaning.",
+      "example": "It felt more real than some of the expensive, commercialised weddings I've been to.",
+      "opposite": "genuine",
+      "tr": {
+        "ar": {"w": "تجاري / مُستغَلّ تجارياً", "d": "يركّز كثيراً على الإنفاق وكسب المال فيفقد معناه الحقيقي"},
+        "zh": {"w": "商业化的", "d": "太注重花钱和赚钱，失去了真正的意义"},
+        "de": {"w": "kommerzialisiert", "d": "zu sehr auf Geldausgeben und Geldverdienen ausgerichtet, sodass der echte Sinn verloren geht"},
+        "es": {"w": "comercializado", "d": "demasiado centrado en gastar y ganar dinero, por eso pierde su verdadero sentido"},
+        "fr": {"w": "commercialisé", "d": "trop centré sur l'argent, au point de perdre son vrai sens"}
+      }
+    },
+    {
+      "word": "genuine",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈdʒenjuɪn/",
+      "def": "Real and sincere, not false.",
+      "example": "Andy's wedding felt like a genuine family occasion.",
+      "opposite": "fake",
+      "tr": {
+        "ar": {"w": "حقيقي / صادق", "d": "حقيقي ونابع من القلب، وليس مزيّفاً"},
+        "zh": {"w": "真正的 / 真诚的", "d": "真实而真诚，不是假的"},
+        "de": {"w": "echt / aufrichtig", "d": "wirklich und ehrlich, nicht falsch"},
+        "es": {"w": "auténtico / sincero", "d": "real y sincero, no falso"},
+        "fr": {"w": "authentique / sincère", "d": "vrai et sincère, pas faux"}
+      }
+    },
+    {
+      "word": "hilarious",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/hɪˈleəriəs/",
+      "def": "Extremely funny.",
+      "example": "The bride never spoke to him again, but it must have been hilarious.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مضحك جداً", "d": "مضحك للغاية"},
+        "zh": {"w": "极其滑稽的 / 爆笑的", "d": "非常非常好笑"},
+        "de": {"w": "urkomisch", "d": "extrem lustig"},
+        "es": {"w": "divertidísimo / para morirse de risa", "d": "muy, muy gracioso"},
+        "fr": {"w": "hilarant", "d": "extrêmement drôle"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Showing interest: echo questions and short reactions",
+      "explain": "When someone tells us a story, we can repeat a key word as a short question to show interest or surprise. We can also use short auxiliary questions like 'Did you?' or 'Was it?'. Say them with a rising voice so you sound interested.",
+      "explain_ar": "عندما يحكي لنا شخص قصة، يمكننا أن نكرّر كلمة مهمة على شكل سؤال قصير لنُظهر الاهتمام أو الدهشة (سؤال الصدى). ويمكننا أيضاً استخدام أسئلة قصيرة بالفعل المساعد مثل Did you? أو Was it?. نقولها بنبرة صاعدة حتى نبدو مهتمّين.",
+      "form": [
+        "Repeat a key word or phrase + ? (rising voice): 'A church hall?'",
+        "Statement word order + ? : 'You did the washing up?'",
+        "Auxiliary + pronoun + ? (same tense as the speaker): 'Did you?' / 'Was it?' / 'Is she?'",
+        "Short reactions: Really? / Oh no! / You're joking!"
+      ],
+      "examples": [
+        {"en": "B: He booked a small church hall. A: A church hall?", "note": "Repeating the surprising words shows interest."},
+        {"en": "A: Really? He worked on his wedding day.", "note": "Surprise at the groom doing the catering."},
+        {"en": "A: I went to a wedding near Bristol. B: Did you? Whose wedding was it?", "note": "'went' is past simple, so the echo uses 'did'."},
+        {"en": "A: It was much cheaper than a normal wedding. B: Was it?", "note": "'was' in the story, 'was' in the question."},
+        {"en": "A: The wrong music started playing. B: Oh no!", "note": "A short reaction encourages the speaker to continue."}
+      ],
+      "mistakes": [
+        {"wrong": "A: I went to my cousin's wedding. B: Do you?", "right": "A: I went to my cousin's wedding. B: Did you?", "why": "Use the same tense as the speaker: went → did."},
+        {"wrong": "A: She's getting married. B: Does she?", "right": "A: She's getting married. B: Is she?", "why": "The speaker used 'is', so the echo question uses 'is'."},
+        {"wrong": "A: They had a civil wedding. B: Had they?", "right": "A: They had a civil wedding. B: Did they?", "why": "'had' here is the main verb in the past simple, so use 'did'."},
+        {"wrong": "Saying 'Really.' with a flat voice.", "right": "Saying 'Really?' with a rising voice.", "why": "A flat voice sounds bored; a rising voice sounds interested."}
+      ],
+      "quiz": [
+        {"q": "A: I went to Andy's wedding last week. B: ___? Was it nice?", "options": ["Do you", "Did you", "Were you"], "answer": 1, "why": "'went' is past simple, so the echo question is 'Did you?'."},
+        {"q": "A: The bride was really nervous. B: ___?", "options": ["Was she", "Did she", "Is she"], "answer": 0, "why": "The speaker used 'was', so we use 'was'."},
+        {"q": "A: My sister is getting married in June. B: ___? That's great!", "options": ["Does she", "Is she", "Has she"], "answer": 1, "why": "Present continuous with 'is' → 'Is she?'."},
+        {"q": "B: He booked a small church hall. A: ___", "options": ["A church hall?", "A church hall.", "Church hall is."], "answer": 0, "why": "Repeat the key words as a question to show interest."},
+        {"q": "How should you say an echo question to sound interested?", "options": ["With a flat voice", "With a rising voice", "Very quietly"], "answer": 1, "why": "Rising intonation shows interest and surprise."},
+        {"q": "A: They did all the washing up themselves. B: ___", "options": ["Really? They did?", "Really. They do.", "Do they?"], "answer": 0, "why": "'did' (past) → 'They did?' shows surprise in the right tense."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "So, what was the last wedding you went to?", "use": "Starting a conversation about weddings"},
+    {"en": "Whose wedding did you last attend?", "use": "Asking about someone's experience"},
+    {"en": "What is your idea of a perfect wedding?", "use": "Asking for an opinion"},
+    {"en": "It was unusual in that ...", "use": "Saying why something was different"},
+    {"en": "All in all, it was much cheaper than a normal wedding.", "use": "Summing up a story"},
+    {"en": "It felt more real and genuine.", "use": "Describing the atmosphere"},
+    {"en": "It must have been hilarious!", "use": "Reacting to a funny story"},
+    {"en": "A church hall? / You did the washing up?", "use": "Echo questions to show interest"},
+    {"en": "Really? / Oh no! / You're joking!", "use": "Short reactions while listening"},
+    {"en": "They held the ceremony in a small church.", "use": "Correct collocation: hold (not do) a ceremony"},
+    {"en": "I don't like attending big parties.", "use": "like + -ing"},
+    {"en": "Which country would you most like to attend a wedding in?", "use": "Discussing wedding customs"}
+  ]
+}

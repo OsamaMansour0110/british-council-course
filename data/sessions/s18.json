@@ -1,0 +1,582 @@
+{
+  "id": 18,
+  "title": "Describing Things and Explaining Their Importance",
+  "summary": "We talked about our valuable and sentimental possessions and listened to three people describing objects that are important to them. We learned to describe what an object is made of, what it looks like, what it has got and what it is used for, and to explain why it matters to us. Then we described a lost object at a Lost Property Office.",
+  "source": "ARB_B1_08_I022CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "sentimental",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌsentɪˈmentl/",
+      "def": "Important to you because of feelings and memories, not money.",
+      "example": "This old ring has a lot of sentimental value for me.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عاطفي / ذو قيمة معنوية", "d": "مهم بالنسبة لك بسبب المشاعر والذكريات لا المال"},
+        "zh": {"w": "有感情价值的", "d": "因为感情和回忆而重要，不是因为钱"},
+        "de": {"w": "sentimental / mit ideellem Wert", "d": "wichtig wegen Gefühlen und Erinnerungen, nicht wegen Geld"},
+        "es": {"w": "sentimental", "d": "importante por los sentimientos y recuerdos, no por el dinero"},
+        "fr": {"w": "sentimental", "d": "important pour des raisons d'émotions et de souvenirs, pas d'argent"}
+      }
+    },
+    {
+      "word": "valuable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈvæljuəbl/",
+      "def": "Worth a lot of money, or very useful and important.",
+      "example": "My laptop is the most valuable thing I own.",
+      "opposite": "worthless",
+      "tr": {
+        "ar": {"w": "قيّم / ثمين", "d": "يساوي مالاً كثيراً أو مفيد ومهم جداً"},
+        "zh": {"w": "贵重的 / 宝贵的", "d": "值很多钱，或者非常有用、重要"},
+        "de": {"w": "wertvoll", "d": "viel Geld wert oder sehr nützlich und wichtig"},
+        "es": {"w": "valioso", "d": "que vale mucho dinero o es muy útil e importante"},
+        "fr": {"w": "précieux / de valeur", "d": "qui vaut beaucoup d'argent ou qui est très utile et important"}
+      }
+    },
+    {
+      "word": "expensive",
+      "pos": "adjective",
+      "level": "A1",
+      "ipa": "/ɪkˈspensɪv/",
+      "def": "Costing a lot of money.",
+      "example": "The most expensive thing I've ever bought is my car.",
+      "opposite": "cheap",
+      "tr": {
+        "ar": {"w": "غالٍ / باهظ الثمن", "d": "يكلّف مالاً كثيراً"},
+        "zh": {"w": "昂贵的", "d": "要花很多钱"},
+        "de": {"w": "teuer", "d": "kostet viel Geld"},
+        "es": {"w": "caro", "d": "que cuesta mucho dinero"},
+        "fr": {"w": "cher", "d": "qui coûte beaucoup d'argent"}
+      }
+    },
+    {
+      "word": "unique",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/juˈniːk/",
+      "def": "Not like anything else; the only one of its kind.",
+      "example": "My grandmother made this bag by hand, so it's unique.",
+      "opposite": "common",
+      "tr": {
+        "ar": {"w": "فريد من نوعه", "d": "لا يشبه أي شيء آخر؛ الوحيد من نوعه"},
+        "zh": {"w": "独一无二的", "d": "和别的都不一样，独此一个"},
+        "de": {"w": "einzigartig", "d": "anders als alles andere; das einzige seiner Art"},
+        "es": {"w": "único", "d": "distinto de todo lo demás; el único de su tipo"},
+        "fr": {"w": "unique", "d": "qui ne ressemble à rien d'autre ; le seul de son genre"}
+      }
+    },
+    {
+      "word": "possession",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/pəˈzeʃn/",
+      "def": "Something that you own.",
+      "example": "My passport is my most important possession when I travel.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُقتنى / ممتلكات", "d": "شيء تملكه"},
+        "zh": {"w": "所有物 / 财物", "d": "你拥有的东西"},
+        "de": {"w": "Besitz / Habseligkeit", "d": "etwas, das dir gehört"},
+        "es": {"w": "pertenencia / posesión", "d": "algo que es tuyo"},
+        "fr": {"w": "bien / possession", "d": "quelque chose qui t'appartient"}
+      }
+    },
+    {
+      "word": "inherit",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ɪnˈherɪt/",
+      "def": "To get money or things from someone after they die.",
+      "example": "She inherited a wooden clock from her grandfather.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يرث", "d": "أن تحصل على مال أو أشياء من شخص بعد وفاته"},
+        "zh": {"w": "继承", "d": "在某人去世后得到他的钱或东西"},
+        "de": {"w": "erben", "d": "Geld oder Dinge von jemandem nach seinem Tod bekommen"},
+        "es": {"w": "heredar", "d": "recibir dinero o cosas de alguien después de su muerte"},
+        "fr": {"w": "hériter", "d": "recevoir de l'argent ou des objets de quelqu'un après sa mort"}
+      }
+    },
+    {
+      "word": "leather",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈleðə/",
+      "def": "Animal skin used to make shoes, bags and jackets.",
+      "example": "The briefcase is made of black leather.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جلد", "d": "جلد الحيوانات يُستخدم لصنع الأحذية والحقائب والسترات"},
+        "zh": {"w": "皮革", "d": "用来做鞋、包和夹克的动物皮"},
+        "de": {"w": "Leder", "d": "Tierhaut, aus der man Schuhe, Taschen und Jacken macht"},
+        "es": {"w": "cuero / piel", "d": "piel de animal que se usa para hacer zapatos, bolsos y chaquetas"},
+        "fr": {"w": "cuir", "d": "peau d'animal utilisée pour faire des chaussures, des sacs et des vestes"}
+      }
+    },
+    {
+      "word": "metal",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈmetl/",
+      "def": "A hard material such as iron, steel or gold.",
+      "example": "These scissors are made of metal and plastic.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "معدن", "d": "مادة صلبة مثل الحديد أو الفولاذ أو الذهب"},
+        "zh": {"w": "金属", "d": "铁、钢、金等坚硬的材料"},
+        "de": {"w": "Metall", "d": "ein hartes Material wie Eisen, Stahl oder Gold"},
+        "es": {"w": "metal", "d": "un material duro como el hierro, el acero o el oro"},
+        "fr": {"w": "métal", "d": "une matière dure comme le fer, l'acier ou l'or"}
+      }
+    },
+    {
+      "word": "plastic",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈplæstɪk/",
+      "def": "A light material made in factories, used for bottles, toys and many other things.",
+      "example": "My pencil case is made of plastic.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بلاستيك", "d": "مادة خفيفة تُصنع في المصانع وتُستخدم في الزجاجات والألعاب وأشياء كثيرة"},
+        "zh": {"w": "塑料", "d": "工厂生产的一种轻材料，用来做瓶子、玩具等"},
+        "de": {"w": "Plastik / Kunststoff", "d": "ein leichtes Material aus der Fabrik für Flaschen, Spielzeug und vieles mehr"},
+        "es": {"w": "plástico", "d": "material ligero fabricado para botellas, juguetes y muchas otras cosas"},
+        "fr": {"w": "plastique", "d": "une matière légère fabriquée en usine pour les bouteilles, les jouets, etc."}
+      }
+    },
+    {
+      "word": "glass",
+      "pos": "noun",
+      "level": "A1",
+      "ipa": "/ɡlɑːs/",
+      "def": "A hard, clear material used for windows and bottles.",
+      "example": "The phone screen is made of glass, so be careful with it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "زجاج", "d": "مادة صلبة شفافة تُستخدم في النوافذ والزجاجات"},
+        "zh": {"w": "玻璃", "d": "用来做窗户和瓶子的透明硬材料"},
+        "de": {"w": "Glas", "d": "ein hartes, durchsichtiges Material für Fenster und Flaschen"},
+        "es": {"w": "vidrio / cristal", "d": "material duro y transparente para ventanas y botellas"},
+        "fr": {"w": "verre", "d": "une matière dure et transparente pour les fenêtres et les bouteilles"}
+      }
+    },
+    {
+      "word": "brass",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/brɑːs/",
+      "def": "A shiny yellow metal, often used for locks and handles.",
+      "example": "The briefcase has got brass locks.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نحاس أصفر", "d": "معدن أصفر لامع يُستخدم غالباً في الأقفال والمقابض"},
+        "zh": {"w": "黄铜", "d": "一种发亮的黄色金属，常用来做锁和把手"},
+        "de": {"w": "Messing", "d": "ein glänzendes gelbes Metall, oft für Schlösser und Griffe"},
+        "es": {"w": "latón", "d": "metal amarillo brillante, usado a menudo en cerraduras y asas"},
+        "fr": {"w": "laiton", "d": "un métal jaune brillant, souvent utilisé pour les serrures et les poignées"}
+      }
+    },
+    {
+      "word": "rectangular",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/rekˈtæŋɡjələ/",
+      "def": "Having four straight sides, with two sides longer than the other two.",
+      "example": "It's rectangular and average-sized.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مستطيل الشكل", "d": "له أربعة أضلاع مستقيمة، اثنان منها أطول من الآخرين"},
+        "zh": {"w": "长方形的", "d": "有四条直边，两条比另外两条长"},
+        "de": {"w": "rechteckig", "d": "mit vier geraden Seiten, zwei davon länger als die anderen"},
+        "es": {"w": "rectangular", "d": "con cuatro lados rectos, dos más largos que los otros dos"},
+        "fr": {"w": "rectangulaire", "d": "qui a quatre côtés droits, deux plus longs que les deux autres"}
+      }
+    },
+    {
+      "word": "triangular",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/traɪˈæŋɡjələ/",
+      "def": "Having three straight sides.",
+      "example": "A slice of pizza is usually triangular.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مثلث الشكل", "d": "له ثلاثة أضلاع مستقيمة"},
+        "zh": {"w": "三角形的", "d": "有三条直边"},
+        "de": {"w": "dreieckig", "d": "mit drei geraden Seiten"},
+        "es": {"w": "triangular", "d": "con tres lados rectos"},
+        "fr": {"w": "triangulaire", "d": "qui a trois côtés droits"}
+      }
+    },
+    {
+      "word": "round",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/raʊnd/",
+      "def": "Shaped like a circle or a ball.",
+      "example": "My grandfather's watch is round and made of metal.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مستدير / دائري", "d": "على شكل دائرة أو كرة"},
+        "zh": {"w": "圆的", "d": "形状像圆圈或球"},
+        "de": {"w": "rund", "d": "in der Form eines Kreises oder Balls"},
+        "es": {"w": "redondo", "d": "con forma de círculo o de pelota"},
+        "fr": {"w": "rond", "d": "en forme de cercle ou de boule"}
+      }
+    },
+    {
+      "word": "tiny",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/ˈtaɪni/",
+      "def": "Very, very small.",
+      "example": "It's got a tiny scratch near the number 12.",
+      "opposite": "huge",
+      "tr": {
+        "ar": {"w": "صغير جداً / ضئيل", "d": "صغير للغاية"},
+        "zh": {"w": "极小的", "d": "非常非常小"},
+        "de": {"w": "winzig", "d": "sehr, sehr klein"},
+        "es": {"w": "diminuto", "d": "muy, muy pequeño"},
+        "fr": {"w": "minuscule", "d": "très, très petit"}
+      }
+    },
+    {
+      "word": "average-sized",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈævərɪdʒ saɪzd/",
+      "def": "Not big and not small; medium.",
+      "example": "It's an average-sized bag, so it fits under the seat.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "متوسط الحجم", "d": "ليس كبيراً ولا صغيراً"},
+        "zh": {"w": "中等大小的", "d": "不大也不小"},
+        "de": {"w": "mittelgroß", "d": "nicht groß und nicht klein"},
+        "es": {"w": "de tamaño mediano", "d": "ni grande ni pequeño"},
+        "fr": {"w": "de taille moyenne", "d": "ni grand ni petit"}
+      }
+    },
+    {
+      "word": "classical",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈklæsɪkl/",
+      "def": "Having a traditional style that does not go out of fashion.",
+      "example": "It's an expensive-looking briefcase, sort of classical.",
+      "opposite": "modern",
+      "tr": {
+        "ar": {"w": "كلاسيكي", "d": "ذو طراز تقليدي لا يخرج من الموضة"},
+        "zh": {"w": "经典的", "d": "传统款式，永远不过时"},
+        "de": {"w": "klassisch", "d": "mit traditionellem Stil, der nie aus der Mode kommt"},
+        "es": {"w": "clásico", "d": "de estilo tradicional que nunca pasa de moda"},
+        "fr": {"w": "classique", "d": "d'un style traditionnel qui ne se démode pas"}
+      }
+    },
+    {
+      "word": "brand new",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌbrænd ˈnjuː/",
+      "def": "Never used before; just bought or made.",
+      "example": "My parents bought me a brand new bike for my birthday.",
+      "opposite": "second-hand",
+      "tr": {
+        "ar": {"w": "جديد تماماً", "d": "لم يُستخدم من قبل؛ اشتُري أو صُنع للتو"},
+        "zh": {"w": "全新的", "d": "从没用过，刚买或刚做好的"},
+        "de": {"w": "brandneu / nagelneu", "d": "noch nie benutzt; gerade gekauft oder gemacht"},
+        "es": {"w": "nuevo / a estrenar", "d": "sin usar; recién comprado o hecho"},
+        "fr": {"w": "tout neuf", "d": "jamais utilisé ; qu'on vient d'acheter ou de fabriquer"}
+      }
+    },
+    {
+      "word": "reliable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/rɪˈlaɪəbl/",
+      "def": "Working well every time, so you can trust it.",
+      "example": "My old car is still very reliable.",
+      "opposite": "unreliable",
+      "tr": {
+        "ar": {"w": "موثوق / يُعتمد عليه", "d": "يعمل جيداً في كل مرة، لذلك يمكنك أن تثق به"},
+        "zh": {"w": "可靠的", "d": "每次都好用，可以信赖"},
+        "de": {"w": "zuverlässig", "d": "funktioniert jedes Mal gut, man kann sich darauf verlassen"},
+        "es": {"w": "fiable", "d": "que funciona bien siempre, así que puedes confiar en él"},
+        "fr": {"w": "fiable", "d": "qui marche bien à chaque fois, on peut lui faire confiance"}
+      }
+    },
+    {
+      "word": "fragile",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈfrædʒaɪl/",
+      "def": "Easy to break or damage.",
+      "example": "Be careful with that box. The glasses inside are fragile.",
+      "opposite": "strong",
+      "tr": {
+        "ar": {"w": "هشّ / قابل للكسر", "d": "سهل الكسر أو التلف"},
+        "zh": {"w": "易碎的", "d": "容易打破或损坏"},
+        "de": {"w": "zerbrechlich", "d": "geht leicht kaputt"},
+        "es": {"w": "frágil", "d": "que se rompe o se daña fácilmente"},
+        "fr": {"w": "fragile", "d": "qui se casse ou s'abîme facilement"}
+      }
+    },
+    {
+      "word": "striped",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/straɪpt/",
+      "def": "Having lines of different colours on it.",
+      "example": "I lost a blue and white striped umbrella.",
+      "opposite": "plain",
+      "tr": {
+        "ar": {"w": "مخطّط", "d": "عليه خطوط بألوان مختلفة"},
+        "zh": {"w": "有条纹的", "d": "上面有不同颜色的线条"},
+        "de": {"w": "gestreift", "d": "mit Streifen in verschiedenen Farben"},
+        "es": {"w": "de rayas", "d": "que tiene líneas de distintos colores"},
+        "fr": {"w": "rayé", "d": "qui a des lignes de différentes couleurs"}
+      }
+    },
+    {
+      "word": "handle",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhændl/",
+      "def": "The part of an object that you hold it by or open it with.",
+      "example": "The bag has got a leather handle.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مقبض", "d": "الجزء من الشيء الذي تمسكه به أو تفتحه به"},
+        "zh": {"w": "把手 / 提手", "d": "物品上用来拿或打开的部分"},
+        "de": {"w": "Griff / Henkel", "d": "der Teil eines Gegenstands, an dem man ihn hält oder öffnet"},
+        "es": {"w": "asa / mango", "d": "la parte de un objeto por donde se coge o se abre"},
+        "fr": {"w": "poignée / anse", "d": "la partie d'un objet par laquelle on le tient ou on l'ouvre"}
+      }
+    },
+    {
+      "word": "lid",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/lɪd/",
+      "def": "The top part of a box or pot that you can take off.",
+      "example": "The jewellery box has got a wooden lid.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "غطاء", "d": "الجزء العلوي من صندوق أو قِدر يمكن رفعه"},
+        "zh": {"w": "盖子", "d": "盒子或锅上面可以拿下来的部分"},
+        "de": {"w": "Deckel", "d": "der obere Teil einer Kiste oder eines Topfes, den man abnehmen kann"},
+        "es": {"w": "tapa", "d": "la parte de arriba de una caja o una olla que se puede quitar"},
+        "fr": {"w": "couvercle", "d": "la partie du dessus d'une boîte ou d'une casserole qu'on peut enlever"}
+      }
+    },
+    {
+      "word": "lock",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/lɒk/",
+      "def": "The part that keeps a door, case or box closed, opened with a key.",
+      "example": "It's made of black leather and it's got brass locks.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قفل", "d": "الجزء الذي يُبقي الباب أو الحقيبة مغلقاً ويُفتح بمفتاح"},
+        "zh": {"w": "锁", "d": "让门、箱子关着的装置，用钥匙打开"},
+        "de": {"w": "Schloss", "d": "das Teil, das eine Tür oder Tasche verschlossen hält; man öffnet es mit einem Schlüssel"},
+        "es": {"w": "cerradura / cierre", "d": "lo que mantiene cerrada una puerta o maleta; se abre con llave"},
+        "fr": {"w": "serrure", "d": "ce qui garde une porte ou une mallette fermée ; on l'ouvre avec une clé"}
+      }
+    },
+    {
+      "word": "battery",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbætəri/",
+      "def": "A small object that gives electricity to things like phones and toys.",
+      "example": "The remote control has got two batteries.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بطارية", "d": "شيء صغير يعطي الكهرباء لأشياء مثل الهواتف والألعاب"},
+        "zh": {"w": "电池", "d": "给手机、玩具等供电的小东西"},
+        "de": {"w": "Batterie / Akku", "d": "ein kleines Teil, das Geräte wie Handys mit Strom versorgt"},
+        "es": {"w": "pila / batería", "d": "objeto pequeño que da electricidad a teléfonos, juguetes, etc."},
+        "fr": {"w": "pile / batterie", "d": "un petit objet qui donne de l'électricité aux téléphones, aux jouets, etc."}
+      }
+    },
+    {
+      "word": "fingerprint",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfɪŋɡəprɪnt/",
+      "def": "The pattern of lines on your finger, used to unlock some phones.",
+      "example": "My phone has got fingerprint technology.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بصمة الإصبع", "d": "نمط الخطوط على إصبعك، ويُستخدم لفتح بعض الهواتف"},
+        "zh": {"w": "指纹", "d": "手指上的纹路，有些手机用它来解锁"},
+        "de": {"w": "Fingerabdruck", "d": "das Linienmuster am Finger, mit dem man manche Handys entsperrt"},
+        "es": {"w": "huella dactilar", "d": "el dibujo de líneas del dedo; algunos móviles lo usan para desbloquearse"},
+        "fr": {"w": "empreinte digitale", "d": "le dessin des lignes du doigt, utilisé pour déverrouiller certains téléphones"}
+      }
+    },
+    {
+      "word": "remind (someone) of",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/rɪˈmaɪnd əv/",
+      "def": "To make you think of a person, place or time from the past.",
+      "example": "This watch reminds me of the summer holidays I spent with my grandfather.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يذكّر بـ", "d": "أن يجعلك تفكر في شخص أو مكان أو وقت من الماضي"},
+        "zh": {"w": "使想起", "d": "让你想起过去的人、地方或时光"},
+        "de": {"w": "erinnern an", "d": "dich an eine Person, einen Ort oder eine Zeit aus der Vergangenheit denken lassen"},
+        "es": {"w": "recordar a", "d": "hacerte pensar en una persona, un lugar o un tiempo del pasado"},
+        "fr": {"w": "rappeler", "d": "faire penser à une personne, un lieu ou une époque du passé"}
+      }
+    },
+    {
+      "word": "anniversary",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌænɪˈvɜːsəri/",
+      "def": "The same date each year as an important past event, like a wedding.",
+      "example": "My wife gave me this briefcase on our tenth anniversary.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ذكرى سنوية", "d": "اليوم نفسه من كل عام لحدث مهم في الماضي، مثل الزواج"},
+        "zh": {"w": "周年纪念日", "d": "每年和过去某个重要事件（如婚礼）同一天的日子"},
+        "de": {"w": "Jahrestag", "d": "jedes Jahr derselbe Tag wie ein wichtiges Ereignis, z. B. eine Hochzeit"},
+        "es": {"w": "aniversario", "d": "la misma fecha cada año de un hecho importante, como una boda"},
+        "fr": {"w": "anniversaire (de mariage)", "d": "la même date chaque année qu'un événement important, comme un mariage"}
+      }
+    },
+    {
+      "word": "can't live without",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌkɑːnt ˈlɪv wɪˌðaʊt/",
+      "def": "Used to say something is very important to you every day.",
+      "example": "I just can't live without my mobile. I'm completely lost without it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لا أستطيع العيش بدونه", "d": "تُقال عن شيء مهم جداً لك كل يوم"},
+        "zh": {"w": "离不开", "d": "用来说某样东西每天对你都非常重要"},
+        "de": {"w": "nicht ohne … leben können", "d": "man sagt das über etwas, das jeden Tag sehr wichtig für einen ist"},
+        "es": {"w": "no poder vivir sin", "d": "se dice de algo muy importante para ti cada día"},
+        "fr": {"w": "ne pas pouvoir vivre sans", "d": "se dit de quelque chose de très important pour toi au quotidien"}
+      }
+    },
+    {
+      "word": "lost property",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌlɒst ˈprɒpəti/",
+      "def": "Things people have left behind, kept in an office until the owner comes.",
+      "example": "I described my bag to the clerk at the Lost Property Office.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "المفقودات", "d": "أشياء تركها أصحابها تُحفظ في مكتب حتى يأتي صاحبها"},
+        "zh": {"w": "失物招领", "d": "人们遗失的物品，放在办公室等失主来领"},
+        "de": {"w": "Fundsachen / Fundbüro", "d": "liegen gelassene Dinge, die in einem Büro aufbewahrt werden, bis der Besitzer kommt"},
+        "es": {"w": "objetos perdidos", "d": "cosas que la gente ha dejado olvidadas, guardadas en una oficina hasta que llega el dueño"},
+        "fr": {"w": "objets trouvés", "d": "des objets oubliés, gardés dans un bureau jusqu'à ce que le propriétaire vienne"}
+      }
+    },
+    {
+      "word": "smart cookie",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌsmɑːt ˈkʊki/",
+      "def": "A very clever person.",
+      "example": "Elena solved the maths problem in two minutes. She's one smart cookie!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "شخص ذكي / لمّاح", "d": "شخص ذكي جداً"},
+        "zh": {"w": "聪明人", "d": "非常聪明的人"},
+        "de": {"w": "kluges Köpfchen", "d": "ein sehr kluger Mensch"},
+        "es": {"w": "persona muy lista", "d": "una persona muy inteligente"},
+        "fr": {"w": "personne futée", "d": "une personne très intelligente"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "have got / has got to describe objects",
+      "explain": "We use have got / has got to say what parts or features an object has. With 'it' we say 'it has got', usually shortened to 'it's got'. Don't use 'a' with plural nouns.",
+      "explain_ar": "نستخدم have got / has got لنقول ما في الشيء من أجزاء أو مزايا. مع it نقول it has got وتُختصر غالباً إلى it's got، ومع I/you/we/they نقول have got. لا نستخدم a قبل الأسماء الجمع.",
+      "form": [
+        "It has got (It's got) + a / an + singular noun: It's got a handle.",
+        "It has got (It's got) + plural noun: It's got brass locks.",
+        "I / you / we / they have got (I've got): I've got an old watch.",
+        "Question: Has it got a lid? → Yes, it has. / No, it hasn't."
+      ],
+      "examples": [
+        {"en": "It's got a really high resolution camera.", "note": "A feature of Jo's phone."},
+        {"en": "It's also got fingerprint technology.", "note": "it's got = it has got."},
+        {"en": "It's made of black leather and it's got brass locks.", "note": "David's briefcase: plural noun, no 'a'."},
+        {"en": "Has it got a handle?", "note": "A yes/no question in the guessing game."},
+        {"en": "It's got buttons.", "note": "Teacher's correction: not 'a buttons'."}
+      ],
+      "mistakes": [
+        {"wrong": "It's got a buttons.", "right": "It's got buttons. / It's got a button.", "why": "No 'a' before a plural noun."},
+        {"wrong": "It have got a lid.", "right": "It has got a lid.", "why": "With 'it', use 'has got'."},
+        {"wrong": "Does it got a handle?", "right": "Has it got a handle?", "why": "Make the question by moving 'has' to the front."}
+      ],
+      "quiz": [
+        {"q": "It ___ a leather handle.", "options": ["have got", "has got", "is got"], "answer": 1, "why": "it → has got."},
+        {"q": "It's got ___.", "options": ["a batteries", "batteries", "an batteries"], "answer": 1, "why": "No 'a' or 'an' with plural nouns."},
+        {"q": "___ it got a lid?", "options": ["Does", "Is", "Has"], "answer": 2, "why": "Questions with 'have got' start with Has/Have."},
+        {"q": "I ___ an old watch from my grandfather.", "options": ["'ve got", "'s got", "has got"], "answer": 0, "why": "I → have got (I've got)."},
+        {"q": "'It's got brass locks.' Here 'It's' means:", "options": ["It is", "It has", "It was"], "answer": 1, "why": "Before 'got', 's means 'has'."}
+      ]
+    },
+    {
+      "title": "Describing an object: made of, adjectives, used for",
+      "explain": "To describe an object, we say what material it is made of, what it looks like and what it is used for. After 'used for' we use the -ing form of the verb.",
+      "explain_ar": "لوصف شيء ما نذكر المادة المصنوع منها باستخدام made of، ثم شكله وحجمه وحالته بالصفات، ثم الغرض منه باستخدام used for. بعد used for نستخدم الفعل بصيغة ‎-ing (مثل used for cutting)، ويمكن أيضاً أن نقول used to + المصدر.",
+      "form": [
+        "It's made of + material: It's made of leather / wood / metal / plastic / glass.",
+        "It's + adjective (shape, size, quality): It's rectangular / tiny / brand new / reliable.",
+        "It's used for + verb-ing: It's used for writing / carrying things / cooking.",
+        "It's used to + base verb: It's used to carry things."
+      ],
+      "examples": [
+        {"en": "It's made of metal and plastic. It's got two connected parts and it's used for cutting something.", "note": "A pair of scissors (from the handout)."},
+        {"en": "It's rectangular, average-sized.", "note": "Shape and size of David's briefcase."},
+        {"en": "Well, it's white and very slim.", "note": "Colour and shape of Jo's phone."},
+        {"en": "It's used for carrying things.", "note": "used for + -ing."}
+      ],
+      "mistakes": [
+        {"wrong": "It's made by plastic.", "right": "It's made of plastic.", "why": "Use 'made of' + material."},
+        {"wrong": "It's used for cut paper.", "right": "It's used for cutting paper.", "why": "After 'for', use the -ing form."},
+        {"wrong": "It's a rectangular.", "right": "It's rectangular. / It's a rectangular box.", "why": "Don't use 'a' before an adjective with no noun."}
+      ],
+      "quiz": [
+        {"q": "It's made ___ glass.", "options": ["of", "by", "with"], "answer": 0, "why": "made of + material."},
+        {"q": "It's used for ___ things.", "options": ["carry", "carrying", "to carry"], "answer": 1, "why": "used for + -ing."},
+        {"q": "A pair of scissors is used for ___.", "options": ["cut", "cuts", "cutting"], "answer": 2, "why": "used for + -ing."},
+        {"q": "Which sentence is correct?", "options": ["It's a rectangular.", "It's rectangular.", "It's rectangular shape."], "answer": 1, "why": "Use the adjective alone, or 'a rectangular shape'."},
+        {"q": "It's made of leather. It's ___ for carrying papers.", "options": ["use", "using", "used"], "answer": 2, "why": "It is used for + -ing (passive form)."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "It's made of black leather.", "use": "Describing the material"},
+    {"en": "It's rectangular, average-sized.", "use": "Describing shape and size"},
+    {"en": "It's got brass locks and a handle.", "use": "Describing parts and features"},
+    {"en": "It's an expensive-looking briefcase, sort of classical.", "use": "Describing style"},
+    {"en": "It's used for carrying things.", "use": "Describing what it is for"},
+    {"en": "I've had it for ages.", "use": "Saying how long you have owned it"},
+    {"en": "It was given to me by my grandfather.", "use": "Saying where it came from"},
+    {"en": "It was a gift from my family.", "use": "Saying where it came from"},
+    {"en": "I just can't live without my mobile.", "use": "Explaining importance"},
+    {"en": "I'm completely lost without it.", "use": "Explaining importance"},
+    {"en": "It's got a lot of sentimental value for me.", "use": "Explaining emotional importance"},
+    {"en": "It reminds me of the summer holidays I used to spend with him.", "use": "Explaining importance through memories"},
+    {"en": "My wife gave it to me on our tenth anniversary.", "use": "Explaining why it is special"},
+    {"en": "Has it got a handle? Is it made of plastic? Is it soft?", "use": "Asking yes/no questions to guess an object"},
+    {"en": "I don't have anything valuable to talk about.", "use": "Teacher's correction (not 'valuable things')"}
+  ]
+}

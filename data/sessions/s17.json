@@ -1,0 +1,612 @@
+{
+  "id": 17,
+  "title": "Job Appraisal Interview",
+  "summary": "We read an appraisal report about Emma and talked about her strengths and weaknesses at work. We used could, may, might and should to give polite recommendations, and practised giving positive and negative feedback on someone's work.",
+  "source": "ARC_B1_01_I016CEU_HO_v1.1.pdf",
+  "vocab": [
+    {
+      "word": "appraisal",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/əˈpreɪzl/",
+      "def": "A meeting where your manager talks with you about how well you do your job.",
+      "example": "In her yearly appraisal, Emma talked about her goals for next year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تقييم الأداء الوظيفي", "d": "اجتماع يناقش فيه مديرك معك مدى جودة أدائك في العمل"},
+        "zh": {"w": "绩效评估", "d": "经理和你谈你的工作表现的会议"},
+        "de": {"w": "Mitarbeitergespräch / Leistungsbeurteilung", "d": "ein Gespräch, in dem dein Chef mit dir über deine Arbeitsleistung spricht"},
+        "es": {"w": "evaluación del desempeño", "d": "una reunión en la que tu jefe habla contigo sobre cómo haces tu trabajo"},
+        "fr": {"w": "entretien d'évaluation", "d": "un entretien où ton responsable parle avec toi de la qualité de ton travail"}
+      }
+    },
+    {
+      "word": "performance",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/pəˈfɔːməns/",
+      "def": "How well or badly someone does their job.",
+      "example": "The appraisal is a good chance to give feedback on my team's performance.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الأداء", "d": "مدى جودة أو سوء قيام الشخص بعمله"},
+        "zh": {"w": "表现 / 业绩", "d": "一个人工作做得好坏的程度"},
+        "de": {"w": "Leistung", "d": "wie gut oder schlecht jemand seine Arbeit macht"},
+        "es": {"w": "rendimiento / desempeño", "d": "lo bien o mal que alguien hace su trabajo"},
+        "fr": {"w": "performance / résultats", "d": "la façon plus ou moins bonne dont quelqu'un fait son travail"}
+      }
+    },
+    {
+      "word": "objective",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/əbˈdʒektɪv/",
+      "def": "A goal that you plan to achieve, especially at work.",
+      "example": "The problem is that my objectives usually change during the year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "هدف", "d": "غاية تخطط لتحقيقها، خاصة في العمل"},
+        "zh": {"w": "目标", "d": "你计划要达到的目标，尤其是在工作中"},
+        "de": {"w": "Ziel", "d": "etwas, das man erreichen will, besonders bei der Arbeit"},
+        "es": {"w": "objetivo", "d": "una meta que planeas alcanzar, sobre todo en el trabajo"},
+        "fr": {"w": "objectif", "d": "un but que l'on veut atteindre, surtout au travail"}
+      }
+    },
+    {
+      "word": "promotion",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/prəˈməʊʃn/",
+      "def": "A move to a higher and more important job in the same company.",
+      "example": "Emma hopes to get a promotion to senior manager.",
+      "opposite": "demotion",
+      "tr": {
+        "ar": {"w": "ترقية", "d": "الانتقال إلى وظيفة أعلى وأهم في الشركة نفسها"},
+        "zh": {"w": "升职", "d": "在同一公司调到更高、更重要的职位"},
+        "de": {"w": "Beförderung", "d": "der Wechsel in eine höhere, wichtigere Stelle in derselben Firma"},
+        "es": {"w": "ascenso", "d": "pasar a un puesto más alto e importante en la misma empresa"},
+        "fr": {"w": "promotion", "d": "le passage à un poste plus élevé et plus important dans la même entreprise"}
+      }
+    },
+    {
+      "word": "strength",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/streŋθ/",
+      "def": "A good quality or skill that someone has.",
+      "example": "Communication is one of Emma's biggest strengths.",
+      "opposite": "weakness",
+      "tr": {
+        "ar": {"w": "نقطة قوة", "d": "صفة أو مهارة جيدة لدى شخص ما"},
+        "zh": {"w": "优点 / 长处", "d": "一个人拥有的好品质或技能"},
+        "de": {"w": "Stärke", "d": "eine gute Eigenschaft oder Fähigkeit, die jemand hat"},
+        "es": {"w": "punto fuerte", "d": "una buena cualidad o habilidad que tiene alguien"},
+        "fr": {"w": "point fort", "d": "une bonne qualité ou compétence que quelqu'un possède"}
+      }
+    },
+    {
+      "word": "weakness",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈwiːknəs/",
+      "def": "Something that someone is not good at and needs to improve.",
+      "example": "Time management is her main weakness.",
+      "opposite": "strength",
+      "tr": {
+        "ar": {"w": "نقطة ضعف", "d": "شيء لا يجيده الشخص ويحتاج إلى تحسينه"},
+        "zh": {"w": "缺点 / 弱点", "d": "一个人不擅长、需要改进的地方"},
+        "de": {"w": "Schwäche", "d": "etwas, das jemand nicht gut kann und verbessern muss"},
+        "es": {"w": "punto débil", "d": "algo que alguien no hace bien y necesita mejorar"},
+        "fr": {"w": "point faible", "d": "quelque chose qu'on ne fait pas bien et qu'on doit améliorer"}
+      }
+    },
+    {
+      "word": "punctual",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈpʌŋktʃuəl/",
+      "def": "Always arriving or doing things at the right time, not late.",
+      "example": "He is very punctual and never misses the start of a meeting.",
+      "opposite": "late",
+      "tr": {
+        "ar": {"w": "منضبط في المواعيد", "d": "يصل أو ينجز الأشياء دائماً في الوقت المحدد دون تأخير"},
+        "zh": {"w": "守时的", "d": "总是准时到达或做事，从不迟到"},
+        "de": {"w": "pünktlich", "d": "immer zur richtigen Zeit da, nie zu spät"},
+        "es": {"w": "puntual", "d": "que siempre llega o hace las cosas a tiempo, sin retraso"},
+        "fr": {"w": "ponctuel", "d": "qui arrive ou fait les choses toujours à l'heure, sans retard"}
+      }
+    },
+    {
+      "word": "meet a deadline",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌmiːt ə ˈdedlaɪn/",
+      "def": "To finish your work by the time or date you were given.",
+      "example": "He always meets his deadlines, so his manager trusts him.",
+      "opposite": "miss a deadline",
+      "tr": {
+        "ar": {"w": "يلتزم بالموعد النهائي", "d": "أن تنهي عملك في الوقت أو التاريخ المحدد لك"},
+        "zh": {"w": "按期完成", "d": "在规定的时间或日期前完成工作"},
+        "de": {"w": "eine Frist einhalten", "d": "die Arbeit bis zum festgelegten Termin fertig machen"},
+        "es": {"w": "cumplir un plazo", "d": "terminar tu trabajo en la fecha u hora fijada"},
+        "fr": {"w": "respecter un délai", "d": "finir son travail à la date ou à l'heure prévue"}
+      }
+    },
+    {
+      "word": "time management",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈtaɪm ˌmænɪdʒmənt/",
+      "def": "Planning and using your hours well so that you finish your work.",
+      "example": "One possibility might be for Emma to go on a time management course.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إدارة الوقت", "d": "تخطيط وقتك واستخدامه جيداً حتى تنهي عملك"},
+        "zh": {"w": "时间管理", "d": "好好安排和利用时间，把工作做完"},
+        "de": {"w": "Zeitmanagement", "d": "die eigene Zeit gut planen und nutzen, um die Arbeit zu schaffen"},
+        "es": {"w": "gestión del tiempo", "d": "planificar y usar bien tu tiempo para terminar el trabajo"},
+        "fr": {"w": "gestion du temps", "d": "bien planifier et utiliser son temps pour finir son travail"}
+      }
+    },
+    {
+      "word": "adapt",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/əˈdæpt/",
+      "def": "To change the way you do things to fit a new situation.",
+      "example": "Emma has adapted well to the changes in the department.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتكيّف / يتأقلم", "d": "أن تغيّر طريقتك في العمل لتناسب وضعاً جديداً"},
+        "zh": {"w": "适应", "d": "改变自己的做法以适应新情况"},
+        "de": {"w": "sich anpassen", "d": "die eigene Art, Dinge zu tun, an eine neue Situation anpassen"},
+        "es": {"w": "adaptarse", "d": "cambiar tu forma de hacer las cosas para una situación nueva"},
+        "fr": {"w": "s'adapter", "d": "changer sa façon de faire face à une nouvelle situation"}
+      }
+    },
+    {
+      "word": "initiative",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ɪˈnɪʃətɪv/",
+      "def": "The ability to decide and act on your own without being told.",
+      "example": "She showed initiative and found a faster way to write the reports.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "روح المبادرة", "d": "القدرة على اتخاذ القرار والتصرف بنفسك دون أن يطلب منك أحد"},
+        "zh": {"w": "主动性", "d": "不用别人吩咐、自己做决定和行动的能力"},
+        "de": {"w": "Eigeninitiative", "d": "die Fähigkeit, selbst zu entscheiden und zu handeln, ohne dass es einem gesagt wird"},
+        "es": {"w": "iniciativa", "d": "la capacidad de decidir y actuar solo, sin que te lo pidan"},
+        "fr": {"w": "esprit d'initiative", "d": "la capacité de décider et d'agir seul, sans qu'on te le demande"}
+      }
+    },
+    {
+      "word": "workload",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈwɜːkləʊd/",
+      "def": "The amount of work that a person has to do.",
+      "example": "She adjusts her workload to meet the needs of the team.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حجم العمل / عبء العمل", "d": "كمية العمل التي يجب على الشخص إنجازها"},
+        "zh": {"w": "工作量", "d": "一个人需要完成的工作数量"},
+        "de": {"w": "Arbeitspensum", "d": "die Menge an Arbeit, die jemand erledigen muss"},
+        "es": {"w": "carga de trabajo", "d": "la cantidad de trabajo que una persona tiene que hacer"},
+        "fr": {"w": "charge de travail", "d": "la quantité de travail qu'une personne doit faire"}
+      }
+    },
+    {
+      "word": "productivity",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌprɒdʌkˈtɪvəti/",
+      "def": "How much useful work a person or team does in a period of time.",
+      "example": "Fewer arguments in the team have improved productivity a lot.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الإنتاجية", "d": "مقدار العمل المفيد الذي ينجزه شخص أو فريق في فترة معينة"},
+        "zh": {"w": "生产率 / 工作效率", "d": "一个人或团队在一段时间内完成的有用工作量"},
+        "de": {"w": "Produktivität", "d": "wie viel nützliche Arbeit eine Person oder ein Team in einer bestimmten Zeit schafft"},
+        "es": {"w": "productividad", "d": "cuánto trabajo útil hace una persona o un equipo en un tiempo"},
+        "fr": {"w": "productivité", "d": "la quantité de travail utile qu'une personne ou une équipe fait en un certain temps"}
+      }
+    },
+    {
+      "word": "procedure",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/prəˈsiːdʒə/",
+      "def": "The usual or official way of doing something, step by step.",
+      "example": "Improving our procedures could save the company a lot of time.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إجراء", "d": "الطريقة المعتادة أو الرسمية لعمل شيء خطوة بخطوة"},
+        "zh": {"w": "程序 / 流程", "d": "做某事的常规或正式步骤"},
+        "de": {"w": "Verfahren / Ablauf", "d": "die übliche oder offizielle Art, etwas Schritt für Schritt zu tun"},
+        "es": {"w": "procedimiento", "d": "la forma habitual u oficial de hacer algo, paso a paso"},
+        "fr": {"w": "procédure", "d": "la façon habituelle ou officielle de faire quelque chose, étape par étape"}
+      }
+    },
+    {
+      "word": "recommendation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌrekəmenˈdeɪʃn/",
+      "def": "A piece of advice about the best thing to do.",
+      "example": "The report gives Emma several recommendations for next year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "توصية", "d": "نصيحة بشأن أفضل شيء يمكن فعله"},
+        "zh": {"w": "建议", "d": "关于最好怎么做的意见"},
+        "de": {"w": "Empfehlung", "d": "ein Rat, was man am besten tun sollte"},
+        "es": {"w": "recomendación", "d": "un consejo sobre lo mejor que se puede hacer"},
+        "fr": {"w": "recommandation", "d": "un conseil sur la meilleure chose à faire"}
+      }
+    },
+    {
+      "word": "cooperate",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/kəʊˈɒpəreɪt/",
+      "def": "To work together with other people to do something.",
+      "example": "Emma could cooperate with other departments on a communication plan.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتعاون", "d": "أن تعمل مع أشخاص آخرين لإنجاز شيء"},
+        "zh": {"w": "合作", "d": "和别人一起做事"},
+        "de": {"w": "zusammenarbeiten", "d": "mit anderen Menschen gemeinsam an etwas arbeiten"},
+        "es": {"w": "cooperar / colaborar", "d": "trabajar junto con otras personas para hacer algo"},
+        "fr": {"w": "coopérer / collaborer", "d": "travailler avec d'autres personnes pour faire quelque chose"}
+      }
+    },
+    {
+      "word": "expectation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌekspekˈteɪʃn/",
+      "def": "What someone thinks or hopes will happen.",
+      "example": "Emma needs to manage her customers' expectations better.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "توقّع", "d": "ما يظن الشخص أو يأمل أنه سيحدث"},
+        "zh": {"w": "期望 / 预期", "d": "某人认为或希望会发生的事"},
+        "de": {"w": "Erwartung", "d": "was jemand denkt oder hofft, dass es passiert"},
+        "es": {"w": "expectativa", "d": "lo que alguien piensa o espera que va a pasar"},
+        "fr": {"w": "attente", "d": "ce que quelqu'un pense ou espère qu'il va se passer"}
+      }
+    },
+    {
+      "word": "alter course",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌɔːltə ˈkɔːs/",
+      "def": "To change your plan or the way you are doing something.",
+      "example": "She is good at altering course when it is required.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يغيّر المسار", "d": "أن تغيّر خطتك أو طريقة عملك"},
+        "zh": {"w": "改变方向 / 调整做法", "d": "改变计划或做事的方式"},
+        "de": {"w": "den Kurs ändern", "d": "seinen Plan oder seine Vorgehensweise ändern"},
+        "es": {"w": "cambiar de rumbo", "d": "cambiar tu plan o tu forma de hacer algo"},
+        "fr": {"w": "changer de cap", "d": "changer son plan ou sa façon de faire"}
+      }
+    },
+    {
+      "word": "allocated time",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈæləkeɪtɪd ˈtaɪm/",
+      "def": "The number of minutes or hours planned for a meeting or task.",
+      "example": "Her meetings often run beyond their allocated time.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الوقت المخصّص", "d": "عدد الدقائق أو الساعات المحددة لاجتماع أو مهمة"},
+        "zh": {"w": "规定时间 / 分配的时间", "d": "给会议或任务安排的分钟数或小时数"},
+        "de": {"w": "vorgesehene Zeit", "d": "die Minuten oder Stunden, die für ein Meeting oder eine Aufgabe eingeplant sind"},
+        "es": {"w": "tiempo asignado", "d": "los minutos u horas previstos para una reunión o tarea"},
+        "fr": {"w": "temps imparti", "d": "les minutes ou les heures prévues pour une réunion ou une tâche"}
+      }
+    },
+    {
+      "word": "run beyond",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌrʌn bɪˈjɒnd/",
+      "def": "To continue for longer than planned.",
+      "example": "The meeting ran beyond its allocated time, so we were late for lunch.",
+      "opposite": "finish on time",
+      "tr": {
+        "ar": {"w": "يتجاوز (الوقت المحدد)", "d": "أن يستمر أطول من المخطط له"},
+        "zh": {"w": "超时 / 超过（规定时间）", "d": "持续时间比计划的长"},
+        "de": {"w": "überziehen", "d": "länger dauern als geplant"},
+        "es": {"w": "pasarse de (tiempo)", "d": "durar más de lo planeado"},
+        "fr": {"w": "dépasser (l'horaire)", "d": "durer plus longtemps que prévu"}
+      }
+    },
+    {
+      "word": "interfere with",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌɪntəˈfɪə wɪð/",
+      "def": "To stop something from happening or working in the normal way.",
+      "example": "Long meetings interfere with the duties of other staff members.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتعارض مع / يعرقل", "d": "أن يمنع شيئاً من أن يحدث أو يعمل بشكل طبيعي"},
+        "zh": {"w": "干扰 / 妨碍", "d": "使某事无法正常进行"},
+        "de": {"w": "stören / beeinträchtigen", "d": "verhindern, dass etwas normal abläuft"},
+        "es": {"w": "interferir en / afectar a", "d": "impedir que algo pase o funcione con normalidad"},
+        "fr": {"w": "gêner / perturber", "d": "empêcher quelque chose de se passer ou de fonctionner normalement"}
+      }
+    },
+    {
+      "word": "build unity",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌbɪld ˈjuːnəti/",
+      "def": "To help a group of people feel close and work well together.",
+      "example": "Her ability to build unity has reduced arguments in the team.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعزّز الوحدة / التماسك", "d": "أن تساعد مجموعة على الشعور بالقرب والعمل معاً بشكل جيد"},
+        "zh": {"w": "增强团结", "d": "帮助一群人感觉亲近、合作良好"},
+        "de": {"w": "Zusammenhalt stärken", "d": "einer Gruppe helfen, sich verbunden zu fühlen und gut zusammenzuarbeiten"},
+        "es": {"w": "fomentar la unidad", "d": "ayudar a un grupo a sentirse unido y trabajar bien juntos"},
+        "fr": {"w": "renforcer la cohésion", "d": "aider un groupe à se sentir uni et à bien travailler ensemble"}
+      }
+    },
+    {
+      "word": "disagreement",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˌdɪsəˈɡriːmənt/",
+      "def": "A situation when people have different opinions and argue.",
+      "example": "There are fewer disagreements between team members now.",
+      "opposite": "agreement",
+      "tr": {
+        "ar": {"w": "خلاف", "d": "موقف يكون فيه للناس آراء مختلفة ويتجادلون"},
+        "zh": {"w": "分歧 / 争执", "d": "人们意见不同并发生争论的情况"},
+        "de": {"w": "Meinungsverschiedenheit", "d": "eine Situation, in der Menschen verschiedener Meinung sind und streiten"},
+        "es": {"w": "desacuerdo", "d": "situación en la que la gente tiene opiniones distintas y discute"},
+        "fr": {"w": "désaccord", "d": "une situation où les gens ont des avis différents et se disputent"}
+      }
+    },
+    {
+      "word": "creativity",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌkriːeɪˈtɪvəti/",
+      "def": "The ability to have new and original ideas.",
+      "example": "Emma might need to work on her creativity.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الإبداع", "d": "القدرة على الإتيان بأفكار جديدة ومبتكرة"},
+        "zh": {"w": "创造力", "d": "想出新的、独特的想法的能力"},
+        "de": {"w": "Kreativität", "d": "die Fähigkeit, neue und eigene Ideen zu haben"},
+        "es": {"w": "creatividad", "d": "la capacidad de tener ideas nuevas y originales"},
+        "fr": {"w": "créativité", "d": "la capacité d'avoir des idées nouvelles et originales"}
+      }
+    },
+    {
+      "word": "readily",
+      "pos": "adverb",
+      "level": "C1",
+      "ipa": "/ˈredɪli/",
+      "def": "Quickly and willingly, without complaining.",
+      "example": "Emma has readily accepted change in the department.",
+      "opposite": "reluctantly",
+      "tr": {
+        "ar": {"w": "عن طيب خاطر / بسهولة", "d": "بسرعة وبرغبة ودون تذمّر"},
+        "zh": {"w": "欣然地 / 乐意地", "d": "很快、很乐意地，不抱怨"},
+        "de": {"w": "bereitwillig", "d": "schnell und gern, ohne sich zu beschweren"},
+        "es": {"w": "de buena gana", "d": "rápido y con ganas, sin quejarse"},
+        "fr": {"w": "volontiers / sans difficulté", "d": "rapidement et de bon cœur, sans se plaindre"}
+      }
+    },
+    {
+      "word": "circumstances",
+      "pos": "noun (plural)",
+      "level": "B2",
+      "ipa": "/ˈsɜːkəmstənsɪz/",
+      "def": "The facts and conditions around you that affect a situation.",
+      "example": "She has adapted to circumstances around her quite well.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الظروف", "d": "الحقائق والأوضاع المحيطة بك التي تؤثر في موقف ما"},
+        "zh": {"w": "情况 / 环境", "d": "影响某种情形的周围事实和条件"},
+        "de": {"w": "Umstände", "d": "die Tatsachen und Bedingungen um dich herum, die eine Situation beeinflussen"},
+        "es": {"w": "circunstancias", "d": "los hechos y condiciones que afectan a una situación"},
+        "fr": {"w": "circonstances", "d": "les faits et conditions autour de toi qui influencent une situation"}
+      }
+    },
+    {
+      "word": "overcome",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˌəʊvəˈkʌm/",
+      "def": "To succeed in dealing with a problem or difficulty.",
+      "example": "Her communication skills helped us overcome several difficulties.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتغلّب على", "d": "أن تنجح في التعامل مع مشكلة أو صعوبة"},
+        "zh": {"w": "克服", "d": "成功解决问题或困难"},
+        "de": {"w": "überwinden", "d": "ein Problem oder eine Schwierigkeit erfolgreich lösen"},
+        "es": {"w": "superar", "d": "conseguir resolver un problema o una dificultad"},
+        "fr": {"w": "surmonter", "d": "réussir à régler un problème ou une difficulté"}
+      }
+    },
+    {
+      "word": "management style",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈmænɪdʒmənt staɪl/",
+      "def": "The way a boss leads and works with their team.",
+      "example": "One positive thing about her management style is her ability to build unity.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أسلوب الإدارة", "d": "الطريقة التي يقود بها المدير فريقه ويعمل معه"},
+        "zh": {"w": "管理风格", "d": "上司带领团队、与团队合作的方式"},
+        "de": {"w": "Führungsstil", "d": "die Art, wie eine Führungskraft ihr Team leitet"},
+        "es": {"w": "estilo de dirección", "d": "la forma en que un jefe dirige y trabaja con su equipo"},
+        "fr": {"w": "style de management", "d": "la façon dont un chef dirige et travaille avec son équipe"}
+      }
+    },
+    {
+      "word": "turn out",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌtɜːn ˈaʊt/",
+      "def": "To be found to be something in the end, often as a surprise.",
+      "example": "The delays turned out to be a problem with how she managed her customers.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتّضح / يتبيّن", "d": "أن يُكتشف في النهاية أن الأمر كذا، وغالباً بشكل مفاجئ"},
+        "zh": {"w": "结果是 / 原来是", "d": "最后发现是某种情况，常常出人意料"},
+        "de": {"w": "sich herausstellen", "d": "sich am Ende als etwas zeigen, oft überraschend"},
+        "es": {"w": "resultar", "d": "descubrirse al final que algo es de cierta manera, a veces por sorpresa"},
+        "fr": {"w": "s'avérer / se révéler", "d": "se montrer finalement être quelque chose, souvent par surprise"}
+      }
+    },
+    {
+      "word": "as instructed",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/əz ɪnˈstrʌktɪd/",
+      "def": "In the way that you were told to do it.",
+      "example": "She has done her work as instructed, but she hasn't tried new ideas.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حسب التعليمات", "d": "بالطريقة التي طُلب منك أن تعمل بها"},
+        "zh": {"w": "按照指示", "d": "按照别人告诉你的方式去做"},
+        "de": {"w": "wie angewiesen", "d": "so, wie man es gesagt bekommen hat"},
+        "es": {"w": "según las instrucciones", "d": "de la forma en que te dijeron que lo hicieras"},
+        "fr": {"w": "selon les consignes", "d": "de la façon dont on t'a dit de le faire"}
+      }
+    },
+    {
+      "word": "feedback",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfiːdbæk/",
+      "def": "Comments about how well or badly someone is doing something.",
+      "example": "We wrote positive and negative feedback on another pair's report.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ملاحظات / تغذية راجعة", "d": "تعليقات عن مدى جودة أو سوء أداء شخص لعمل ما"},
+        "zh": {"w": "反馈", "d": "对某人做得好坏的评价"},
+        "de": {"w": "Feedback / Rückmeldung", "d": "Kommentare dazu, wie gut oder schlecht jemand etwas macht"},
+        "es": {"w": "comentarios / retroalimentación", "d": "opiniones sobre lo bien o mal que alguien hace algo"},
+        "fr": {"w": "retour / commentaires", "d": "des remarques sur la qualité du travail de quelqu'un"}
+      }
+    },
+    {
+      "word": "commendable",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/kəˈmendəbl/",
+      "def": "Very good and deserving praise.",
+      "example": "She has commendable problem-solving skills.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جدير بالثناء", "d": "جيد جداً ويستحق المدح"},
+        "zh": {"w": "值得称赞的", "d": "非常好，值得表扬"},
+        "de": {"w": "lobenswert", "d": "sehr gut und verdient Lob"},
+        "es": {"w": "digno de elogio", "d": "muy bueno y que merece elogios"},
+        "fr": {"w": "louable", "d": "très bon et qui mérite des éloges"}
+      }
+    },
+    {
+      "word": "work on",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˈwɜːk ɒn/",
+      "def": "To spend time improving something.",
+      "example": "He should work on his creativity.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعمل على تحسين", "d": "أن تقضي وقتاً في تحسين شيء ما"},
+        "zh": {"w": "努力改进", "d": "花时间改进某方面"},
+        "de": {"w": "an etwas arbeiten", "d": "Zeit investieren, um etwas zu verbessern"},
+        "es": {"w": "trabajar en / mejorar", "d": "dedicar tiempo a mejorar algo"},
+        "fr": {"w": "travailler sur / améliorer", "d": "passer du temps à améliorer quelque chose"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Modal verbs for recommendations (could, may, might, should)",
+      "explain": "In the appraisal report, the writer uses could, may, might and should to give recommendations, not orders. They talk about the future. 'Should' is stronger; 'could', 'may' and 'might' are softer and more polite. After a modal verb we use the base form of the verb.",
+      "explain_ar": "في تقرير التقييم يستخدم الكاتب could وmay وmight وshould لتقديم توصيات واقتراحات وليس أوامر إلزامية، وهي تتحدث عن المستقبل. should أقوى في النصيحة، أما could وmay وmight فهي ألطف وأكثر تهذيباً. بعد الفعل الناقص نستخدم المصدر بدون to وبدون s.",
+      "form": [
+        "subject + could / may / might / should + base verb: Emma could continue working in this area.",
+        "One possibility might be (for her) + to + verb: One possibility might be for her to attend time management courses.",
+        "A good idea may be + to + verb: A good idea may be to lead a series of seminars.",
+        "should = stronger advice; could / may / might = softer, more polite suggestions"
+      ],
+      "examples": [
+        {"en": "Emma should ensure that her meetings start and end on time.", "note": "A stronger recommendation."},
+        {"en": "Emma could discuss her ways of approaching customers with our customer service managers.", "note": "A possible idea for the future."},
+        {"en": "Emma might need to work on her creativity.", "note": "A soft, polite way to talk about a weakness."},
+        {"en": "Anna has problems sleeping. She could try sleeping pills.", "note": "Giving advice in a situation."},
+        {"en": "Alexander wants to sell his flat. He might try advertising online.", "note": "might + try + -ing = a possible idea."},
+        {"en": "Your friend doesn't know what to buy. You could always go with flowers.", "note": "'could always' = an easy, safe idea."}
+      ],
+      "mistakes": [
+        {"wrong": "She should to attend a course.", "right": "She should attend a course.", "why": "No 'to' after could, may, might or should."},
+        {"wrong": "He might tries advertising online.", "right": "He might try advertising online.", "why": "No -s on the verb after a modal."},
+        {"wrong": "He should work his creativity.", "right": "He should work on his creativity.", "why": "We 'work on' a skill we want to improve."}
+      ],
+      "quiz": [
+        {"q": "Emma should ___ that her meetings start on time.", "options": ["ensure", "to ensure", "ensures"], "answer": 0, "why": "Modal verb + base form, no 'to'."},
+        {"q": "Maria can't give up smoking. She ___ go on a special course.", "options": ["mights", "might to", "might"], "answer": 2, "why": "Modals never take -s or 'to'."},
+        {"q": "Which sentence is a polite recommendation, not an order?", "options": ["Take it to a mechanic now!", "You could take it to a mechanic.", "You must take it to a mechanic."], "answer": 1, "why": "'could' makes a soft, polite suggestion."},
+        {"q": "Kira hasn't got enough money for a flat. She could ___ the bank for a loan.", "options": ["asks", "ask", "asking"], "answer": 1, "why": "could + base verb (ask)."},
+        {"q": "Which modal gives the strongest advice?", "options": ["should", "might", "could"], "answer": 0, "why": "'should' is stronger than 'might' or 'could'."},
+        {"q": "He should work ___ his creativity.", "options": ["at", "on", "for"], "answer": 1, "why": "We say 'work on' something to improve it."}
+      ]
+    },
+    {
+      "title": "Present perfect for something still true now (for / since)",
+      "explain": "If someone started a job in the past and still does it now, use the present perfect (has/have + past participle) with for or since. The past simple means the situation is finished.",
+      "explain_ar": "إذا بدأ شخص عملاً في الماضي وما زال يقوم به الآن نستخدم المضارع التام (has/have + التصريف الثالث للفعل) مع for للمدة أو since لنقطة البداية. أما الماضي البسيط فيعني أن الأمر انتهى.",
+      "form": [
+        "has / have + past participle + for + a period of time: He has worked in this position for 2 years.",
+        "has / have + past participle + since + a starting point: She has worked here since 2023.",
+        "has / have been + -ing (to show a continuing activity): Emma has been working for the company for 3 years."
+      ],
+      "examples": [
+        {"en": "He has worked in this position for 2 years.", "note": "He still works there."},
+        {"en": "He worked in this position for 2 years.", "note": "Finished: he doesn't work there now."},
+        {"en": "Emma has been working for the company for 3 years.", "note": "From the handout: she still works there."}
+      ],
+      "mistakes": [
+        {"wrong": "He worked in this position for 2 years. (He still works there.)", "right": "He has worked in this position for 2 years.", "why": "Still true now → present perfect."},
+        {"wrong": "She have worked here since 2020.", "right": "She has worked here since 2020.", "why": "he / she / it → has."},
+        {"wrong": "I work here for two years.", "right": "I have worked here for two years.", "why": "Use the present perfect with 'for' when it is still true now."}
+      ],
+      "quiz": [
+        {"q": "He ___ in this position for 2 years, and he still loves it.", "options": ["worked", "has worked", "works"], "answer": 1, "why": "He still works there → present perfect."},
+        {"q": "Emma ___ for the company since 2023.", "options": ["has worked", "worked", "work"], "answer": 0, "why": "'since' + still true now → present perfect."},
+        {"q": "My father ___ in a bank for ten years, but now he's retired.", "options": ["has worked", "is working", "worked"], "answer": 2, "why": "It is finished, so use the past simple."},
+        {"q": "We have known each other ___ years.", "options": ["since", "for", "from"], "answer": 1, "why": "'for' + a period of time."},
+        {"q": "She has lived here ___ 2020.", "options": ["for", "since", "during"], "answer": 1, "why": "'since' + a starting point."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Over the next year, Emma could continue working in this area.", "use": "Recommendation for the future (could)"},
+    {"en": "Emma should ensure that her meetings start and end on time.", "use": "Stronger recommendation (should)"},
+    {"en": "One possibility might be for her to attend time management courses.", "use": "Suggesting an option"},
+    {"en": "One of the ways for Emma to advance next year could be to cooperate with other departments.", "use": "Suggesting a way to improve"},
+    {"en": "A good idea for Emma's development next year may be to lead a series of seminars.", "use": "Suggesting a development idea"},
+    {"en": "Emma might need to work on her creativity.", "use": "Talking about a weakness politely"},
+    {"en": "She is good at altering course when it is required.", "use": "Positive feedback"},
+    {"en": "One of her most important skills is her ability to communicate on complex topics.", "use": "Praising a strength"},
+    {"en": "One of the positives about her management style is her ability to build unity.", "use": "Praising a strength"},
+    {"en": "On the other hand, she leads meetings which often run beyond their allocated time.", "use": "Moving from a strength to a weakness"},
+    {"en": "Nevertheless, ...", "use": "Introducing a contrast"},
+    {"en": "She has commendable problem-solving skills.", "use": "Positive feedback (not 'high skills')"},
+    {"en": "He always meets his deadlines.", "use": "Positive feedback on time management"}
+  ]
+}

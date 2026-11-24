@@ -1,0 +1,579 @@
+{
+  "id": 7,
+  "title": "Directions on the Road",
+  "summary": "We practised asking for and giving directions in the street and on the road. We learned how to make question tags and how to say them with rising or falling intonation. We also learned polite indirect questions like 'Can you tell me where the bank is?'",
+  "source": "ARB_B1_04_I044CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "get lost",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˌɡet ˈlɒst/",
+      "def": "To not know where you are or how to find the right way.",
+      "example": "I got lost on my way to the restaurant, so I called Sarah.",
+      "opposite": "find your way",
+      "tr": {
+        "ar": {"w": "يضلّ الطريق / يتوه", "d": "ألا تعرف أين أنت أو كيف تجد الطريق الصحيح"},
+        "zh": {"w": "迷路", "d": "不知道自己在哪儿或找不到正确的路"},
+        "de": {"w": "sich verlaufen / sich verfahren", "d": "nicht wissen, wo man ist oder wie man richtig hinkommt"},
+        "es": {"w": "perderse", "d": "no saber dónde estás ni cómo encontrar el camino"},
+        "fr": {"w": "se perdre", "d": "ne pas savoir où l'on est ni comment trouver le bon chemin"}
+      }
+    },
+    {
+      "word": "sense of direction",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌsens əv daɪˈrekʃn/",
+      "def": "The natural ability to know which way to go.",
+      "example": "I have a terrible sense of direction – I always need a map.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حسّ الاتجاه", "d": "القدرة الطبيعية على معرفة الطريق الذي يجب أن تسلكه"},
+        "zh": {"w": "方向感", "d": "天生知道该往哪边走的能力"},
+        "de": {"w": "Orientierungssinn", "d": "die natürliche Fähigkeit zu wissen, wohin man gehen muss"},
+        "es": {"w": "sentido de la orientación", "d": "capacidad natural de saber por dónde ir"},
+        "fr": {"w": "sens de l'orientation", "d": "la capacité naturelle de savoir par où aller"}
+      }
+    },
+    {
+      "word": "directions",
+      "pos": "noun (plural)",
+      "level": "A2",
+      "ipa": "/daɪˈrekʃnz/",
+      "def": "Information that tells you how to get to a place.",
+      "example": "Alan called Sarah to get directions to the restaurant.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "وصف الطريق / الإرشادات", "d": "معلومات تخبرك كيف تصل إلى مكان ما"},
+        "zh": {"w": "路线指引 / 指路", "d": "告诉你怎么去某个地方的信息"},
+        "de": {"w": "Wegbeschreibung", "d": "Informationen, wie man zu einem Ort kommt"},
+        "es": {"w": "indicaciones", "d": "información que te dice cómo llegar a un lugar"},
+        "fr": {"w": "indications / itinéraire", "d": "des informations qui expliquent comment aller quelque part"}
+      }
+    },
+    {
+      "word": "go past",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌɡəʊ ˈpɑːst/",
+      "def": "To move beyond a place without stopping there.",
+      "example": "Go past The Body Shop and turn right.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يمرّ بجانب / يتجاوز", "d": "أن تتحرك وتتخطى مكاناً دون أن تتوقف عنده"},
+        "zh": {"w": "经过 / 走过", "d": "从某地旁边走过去，不停下"},
+        "de": {"w": "vorbeigehen an / vorbeifahren an", "d": "an einem Ort vorbeigehen, ohne anzuhalten"},
+        "es": {"w": "pasar por delante de", "d": "seguir más allá de un lugar sin pararse"},
+        "fr": {"w": "passer devant / dépasser", "d": "aller plus loin qu'un endroit sans s'arrêter"}
+      }
+    },
+    {
+      "word": "exit",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈeksɪt/",
+      "def": "A way out of a building, station or road.",
+      "example": "Sorry, which exit is it?",
+      "opposite": "entrance",
+      "tr": {
+        "ar": {"w": "مخرج", "d": "طريق للخروج من مبنى أو محطة أو طريق"},
+        "zh": {"w": "出口", "d": "离开建筑、车站或道路的地方"},
+        "de": {"w": "Ausgang / Ausfahrt", "d": "der Weg aus einem Gebäude, Bahnhof oder von einer Straße"},
+        "es": {"w": "salida", "d": "lugar por donde se sale de un edificio, estación o carretera"},
+        "fr": {"w": "sortie", "d": "le chemin pour sortir d'un bâtiment, d'une station ou d'une route"}
+      }
+    },
+    {
+      "word": "cross",
+      "pos": "verb",
+      "level": "A2",
+      "ipa": "/krɒs/",
+      "def": "To go from one side of a road or place to the other.",
+      "example": "Go out of the station and cross to the other side.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعبُر", "d": "أن تنتقل من جانب الطريق إلى الجانب الآخر"},
+        "zh": {"w": "穿过 / 过（马路）", "d": "从路的一边走到另一边"},
+        "de": {"w": "überqueren", "d": "von einer Seite der Straße auf die andere gehen"},
+        "es": {"w": "cruzar", "d": "ir de un lado de la calle al otro"},
+        "fr": {"w": "traverser", "d": "passer d'un côté de la rue à l'autre"}
+      }
+    },
+    {
+      "word": "go straight ahead",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˌɡəʊ ˌstreɪt əˈhed/",
+      "def": "To continue forward without turning (also: go ahead, go on).",
+      "example": "Go straight ahead until you reach the traffic lights.",
+      "opposite": "turn back",
+      "tr": {
+        "ar": {"w": "امشِ مباشرةً إلى الأمام", "d": "أن تستمر إلى الأمام دون أن تنعطف"},
+        "zh": {"w": "一直往前走", "d": "继续向前，不拐弯"},
+        "de": {"w": "geradeaus gehen / fahren", "d": "weiter nach vorne gehen, ohne abzubiegen"},
+        "es": {"w": "seguir todo recto", "d": "continuar hacia delante sin girar"},
+        "fr": {"w": "aller tout droit", "d": "continuer devant soi sans tourner"}
+      }
+    },
+    {
+      "word": "go through",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌɡəʊ ˈθruː/",
+      "def": "To move from one end of something, like a tunnel, to the other end.",
+      "example": "Go through the tunnel and take the first exit.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يمرّ عبر / يعبر من خلال", "d": "أن تتحرك من طرف شيء مثل النفق إلى طرفه الآخر"},
+        "zh": {"w": "穿过 / 通过", "d": "从隧道等的一头走到另一头"},
+        "de": {"w": "durchfahren / durchgehen", "d": "von einem Ende, z. B. eines Tunnels, zum anderen fahren oder gehen"},
+        "es": {"w": "atravesar / pasar por", "d": "ir de un extremo de algo, como un túnel, al otro"},
+        "fr": {"w": "traverser / passer par", "d": "aller d'un bout à l'autre de quelque chose, comme un tunnel"}
+      }
+    },
+    {
+      "word": "go down the street",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˌɡəʊ daʊn ðə ˈstriːt/",
+      "def": "To walk or drive along a road.",
+      "example": "Go down the street and you'll see the café on your left.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "امشِ على طول الشارع", "d": "أن تمشي أو تقود على امتداد الطريق"},
+        "zh": {"w": "沿着这条街走", "d": "沿着马路走或开车"},
+        "de": {"w": "die Straße entlanggehen", "d": "eine Straße entlang gehen oder fahren"},
+        "es": {"w": "seguir por la calle", "d": "caminar o conducir a lo largo de una calle"},
+        "fr": {"w": "descendre / suivre la rue", "d": "marcher ou rouler le long d'une rue"}
+      }
+    },
+    {
+      "word": "take the first left",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˌteɪk ðə ˌfɜːst ˈleft/",
+      "def": "To turn into the first road on your left side.",
+      "example": "Take the first left turning after the bank.",
+      "opposite": "take the first right",
+      "tr": {
+        "ar": {"w": "انعطف عند أول شارع يساراً", "d": "أن تدخل أول شارع على يسارك"},
+        "zh": {"w": "在第一个路口左转", "d": "拐进你左边的第一条路"},
+        "de": {"w": "die erste Straße links nehmen", "d": "in die erste Straße auf der linken Seite abbiegen"},
+        "es": {"w": "tomar la primera a la izquierda", "d": "girar en la primera calle a tu izquierda"},
+        "fr": {"w": "prendre la première à gauche", "d": "tourner dans la première rue sur votre gauche"}
+      }
+    },
+    {
+      "word": "corner",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈkɔːnə/",
+      "def": "The place where two streets meet.",
+      "example": "Can you see The Body Shop on the corner?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ناصية / زاوية الشارع", "d": "المكان الذي يلتقي فيه شارعان"},
+        "zh": {"w": "街角 / 拐角", "d": "两条街相交的地方"},
+        "de": {"w": "Ecke", "d": "die Stelle, an der zwei Straßen zusammenkommen"},
+        "es": {"w": "esquina", "d": "lugar donde se juntan dos calles"},
+        "fr": {"w": "coin (de la rue)", "d": "l'endroit où deux rues se rencontrent"}
+      }
+    },
+    {
+      "word": "opposite",
+      "pos": "preposition",
+      "level": "A2",
+      "ipa": "/ˈɒpəzɪt/",
+      "def": "On the other side of a street or room, facing something.",
+      "example": "The Italian restaurant is opposite the station.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مقابل", "d": "على الجانب الآخر من الشارع أو الغرفة، في مواجهة شيء"},
+        "zh": {"w": "在……对面", "d": "在街道或房间的另一边，面对着某物"},
+        "de": {"w": "gegenüber", "d": "auf der anderen Seite einer Straße oder eines Raumes"},
+        "es": {"w": "enfrente de", "d": "al otro lado de la calle o la sala, mirando hacia algo"},
+        "fr": {"w": "en face de", "d": "de l'autre côté d'une rue ou d'une pièce, face à quelque chose"}
+      }
+    },
+    {
+      "word": "traffic lights",
+      "pos": "noun (plural)",
+      "level": "A2",
+      "ipa": "/ˈtræfɪk laɪts/",
+      "def": "Red, yellow and green lights that tell cars when to stop and go.",
+      "example": "Turn left at the traffic lights.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إشارة المرور", "d": "أضواء حمراء وصفراء وخضراء تخبر السيارات متى تقف ومتى تسير"},
+        "zh": {"w": "红绿灯 / 交通信号灯", "d": "告诉车辆何时停、何时走的红黄绿灯"},
+        "de": {"w": "Ampel", "d": "rote, gelbe und grüne Lichter, die Autos sagen, wann sie halten oder fahren"},
+        "es": {"w": "semáforo", "d": "luces roja, amarilla y verde que indican a los coches cuándo parar y seguir"},
+        "fr": {"w": "feux de circulation / feu", "d": "des lumières rouge, orange et verte qui disent aux voitures quand s'arrêter"}
+      }
+    },
+    {
+      "word": "pay a fine",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌpeɪ ə ˈfaɪn/",
+      "def": "To give money as a punishment for breaking a rule or law.",
+      "example": "He had to pay a fine for driving through a red light.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يدفع غرامة / مخالفة", "d": "أن تدفع مالاً كعقوبة على مخالفة قاعدة أو قانون"},
+        "zh": {"w": "交罚款", "d": "因违反规定或法律而付钱作为惩罚"},
+        "de": {"w": "ein Bußgeld / eine Strafe zahlen", "d": "Geld als Strafe zahlen, weil man eine Regel gebrochen hat"},
+        "es": {"w": "pagar una multa", "d": "pagar dinero como castigo por no cumplir una norma"},
+        "fr": {"w": "payer une amende", "d": "payer de l'argent comme punition pour avoir enfreint une règle"}
+      }
+    },
+    {
+      "word": "roundabout",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈraʊndəbaʊt/",
+      "def": "A circle where several roads meet and cars drive around it.",
+      "example": "Go around the roundabout and take the second exit.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "دوّار", "d": "دائرة تلتقي فيها عدة طرق وتدور السيارات حولها"},
+        "zh": {"w": "环岛 / 环形交叉路口", "d": "几条路相交、车辆绕着行驶的圆形路口"},
+        "de": {"w": "Kreisverkehr", "d": "ein Kreis, an dem sich mehrere Straßen treffen und Autos herumfahren"},
+        "es": {"w": "rotonda / glorieta", "d": "círculo donde se juntan varias calles y los coches lo rodean"},
+        "fr": {"w": "rond-point", "d": "un cercle où plusieurs routes se rejoignent et où les voitures tournent autour"}
+      }
+    },
+    {
+      "word": "intersection",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌɪntəˈsekʃn/",
+      "def": "A place where two or more roads cross each other.",
+      "example": "Turn right at the next intersection.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تقاطع", "d": "مكان يتقاطع فيه طريقان أو أكثر"},
+        "zh": {"w": "十字路口 / 交叉口", "d": "两条或更多道路交叉的地方"},
+        "de": {"w": "Kreuzung", "d": "ein Ort, an dem sich zwei oder mehr Straßen kreuzen"},
+        "es": {"w": "cruce / intersección", "d": "lugar donde se cruzan dos o más calles"},
+        "fr": {"w": "carrefour / intersection", "d": "un endroit où deux routes ou plus se croisent"}
+      }
+    },
+    {
+      "word": "junction",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈdʒʌŋkʃn/",
+      "def": "A place where roads meet or join (common in British English).",
+      "example": "Turn left, then go on to the next junction.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مفترق طرق", "d": "مكان تلتقي فيه الطرق أو تتصل ببعضها"},
+        "zh": {"w": "路口 / 交叉路口", "d": "道路相交或连接的地方"},
+        "de": {"w": "Kreuzung / Einmündung", "d": "eine Stelle, an der Straßen zusammentreffen"},
+        "es": {"w": "cruce / empalme", "d": "lugar donde se juntan o se unen carreteras"},
+        "fr": {"w": "carrefour / embranchement", "d": "un endroit où des routes se rejoignent"}
+      }
+    },
+    {
+      "word": "detour",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈdiːtʊə/",
+      "def": "A longer way you must take because the usual road is closed.",
+      "example": "The main road is closed, so follow the detour signs.",
+      "opposite": "shortcut",
+      "tr": {
+        "ar": {"w": "تحويلة / طريق بديل", "d": "طريق أطول تسلكه لأن الطريق المعتاد مغلق"},
+        "zh": {"w": "绕行路线 / 绕道", "d": "因为常走的路封了而必须走的更远的路"},
+        "de": {"w": "Umleitung", "d": "ein längerer Weg, weil die normale Straße gesperrt ist"},
+        "es": {"w": "desvío", "d": "camino más largo que tomas porque la carretera normal está cortada"},
+        "fr": {"w": "déviation", "d": "un chemin plus long à prendre car la route habituelle est fermée"}
+      }
+    },
+    {
+      "word": "construction work",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kənˈstrʌkʃn wɜːk/",
+      "def": "Building or repair work on a road or building (British also: roadworks).",
+      "example": "There's construction work on the main road, so we need to take a detour.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أعمال إنشاء / أعمال طرق", "d": "أعمال بناء أو تصليح في طريق أو مبنى"},
+        "zh": {"w": "施工", "d": "在道路或建筑上进行的建造或维修工作"},
+        "de": {"w": "Bauarbeiten / Baustelle", "d": "Bau- oder Reparaturarbeiten an einer Straße oder einem Gebäude"},
+        "es": {"w": "obras", "d": "trabajos de construcción o reparación en una carretera o edificio"},
+        "fr": {"w": "travaux", "d": "des travaux de construction ou de réparation sur une route ou un bâtiment"}
+      }
+    },
+    {
+      "word": "pedestrian bridge",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/pəˌdestriən ˈbrɪdʒ/",
+      "def": "A bridge for people who are walking, not for cars.",
+      "example": "Use the pedestrian bridge to cross the busy road.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جسر المشاة", "d": "جسر للأشخاص الذين يمشون وليس للسيارات"},
+        "zh": {"w": "人行天桥", "d": "供行人走而不是给车走的桥"},
+        "de": {"w": "Fußgängerbrücke", "d": "eine Brücke für Menschen zu Fuß, nicht für Autos"},
+        "es": {"w": "puente peatonal / pasarela", "d": "puente para personas que caminan, no para coches"},
+        "fr": {"w": "passerelle (piétonne)", "d": "un pont pour les gens à pied, pas pour les voitures"}
+      }
+    },
+    {
+      "word": "pavement",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈpeɪvmənt/",
+      "def": "The path at the side of a road where people walk (American: sidewalk).",
+      "example": "Please walk on the pavement, not in the road.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "رصيف المشاة", "d": "الممر على جانب الطريق الذي يمشي عليه الناس"},
+        "zh": {"w": "人行道", "d": "路边供人行走的小路"},
+        "de": {"w": "Bürgersteig / Gehweg", "d": "der Weg neben der Straße, auf dem Menschen gehen"},
+        "es": {"w": "acera", "d": "camino al lado de la calle por donde anda la gente"},
+        "fr": {"w": "trottoir", "d": "le chemin au bord de la route où les gens marchent"}
+      }
+    },
+    {
+      "word": "slippery",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈslɪpəri/",
+      "def": "Wet, icy or smooth, so it is easy to slide or fall.",
+      "example": "Drive slowly – the roads are slippery because of the snow.",
+      "opposite": "dry",
+      "tr": {
+        "ar": {"w": "زَلِق", "d": "مبلل أو متجمد أو أملس فيسهل الانزلاق أو السقوط عليه"},
+        "zh": {"w": "滑的", "d": "湿、结冰或光滑，容易滑倒"},
+        "de": {"w": "rutschig / glatt", "d": "nass, vereist oder glatt, sodass man leicht rutscht"},
+        "es": {"w": "resbaladizo", "d": "mojado, con hielo o liso, así que es fácil resbalar"},
+        "fr": {"w": "glissant", "d": "mouillé, gelé ou lisse, donc on peut facilement glisser"}
+      }
+    },
+    {
+      "word": "bumpy",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈbʌmpi/",
+      "def": "Not flat or smooth, with many holes or high parts.",
+      "example": "The road to the village is very bumpy, so drive carefully.",
+      "opposite": "smooth",
+      "tr": {
+        "ar": {"w": "وَعِر / غير مستوٍ", "d": "غير مستوٍ أو أملس، فيه حُفر أو أجزاء مرتفعة كثيرة"},
+        "zh": {"w": "颠簸的 / 坑坑洼洼的", "d": "不平坦，有很多坑或凸起"},
+        "de": {"w": "holprig", "d": "nicht eben, mit vielen Löchern oder Unebenheiten"},
+        "es": {"w": "lleno de baches", "d": "no es plano ni liso, tiene muchos agujeros o desniveles"},
+        "fr": {"w": "cahoteux / bosselé", "d": "pas plat ni lisse, avec beaucoup de trous ou de bosses"}
+      }
+    },
+    {
+      "word": "pull over",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌpʊl ˈəʊvə/",
+      "def": "To drive a car to the side of the road and stop.",
+      "example": "The police officer asked the driver to pull over.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يركن على جانب الطريق", "d": "أن تقود السيارة إلى جانب الطريق وتتوقف"},
+        "zh": {"w": "靠边停车", "d": "把车开到路边停下"},
+        "de": {"w": "rechts ranfahren", "d": "mit dem Auto an den Straßenrand fahren und anhalten"},
+        "es": {"w": "parar a un lado / orillarse", "d": "llevar el coche al lado de la carretera y parar"},
+        "fr": {"w": "se ranger sur le côté", "d": "conduire la voiture au bord de la route et s'arrêter"}
+      }
+    },
+    {
+      "word": "run down",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌrʌn ˈdaʊn/",
+      "def": "To hit a person with a car and hurt them (also: run over).",
+      "example": "Slow down! You nearly ran down that man on the crossing.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يدهس", "d": "أن تصدم شخصاً بالسيارة وتؤذيه"},
+        "zh": {"w": "撞倒 / 碾过", "d": "开车撞到人并使其受伤"},
+        "de": {"w": "überfahren / anfahren", "d": "eine Person mit dem Auto treffen und verletzen"},
+        "es": {"w": "atropellar", "d": "golpear a una persona con un coche y herirla"},
+        "fr": {"w": "renverser", "d": "heurter une personne avec une voiture et la blesser"}
+      }
+    },
+    {
+      "word": "carpooling",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈkɑːpuːlɪŋ/",
+      "def": "Sharing a car with other people who are going to the same place.",
+      "example": "Carpooling can help reduce traffic.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مشاركة السيارة", "d": "أن تتشارك سيارة مع أشخاص آخرين ذاهبين إلى المكان نفسه"},
+        "zh": {"w": "拼车", "d": "和去同一个地方的人共用一辆车"},
+        "de": {"w": "Fahrgemeinschaft", "d": "ein Auto mit anderen teilen, die zum selben Ort fahren"},
+        "es": {"w": "compartir coche", "d": "ir en el mismo coche con otras personas que van al mismo sitio"},
+        "fr": {"w": "covoiturage", "d": "partager une voiture avec d'autres personnes qui vont au même endroit"}
+      }
+    },
+    {
+      "word": "traffic report",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtræfɪk rɪˌpɔːt/",
+      "def": "News on the radio or TV about how busy the roads are.",
+      "example": "How is the traffic today? Let's listen to the traffic report.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نشرة المرور", "d": "أخبار في الراديو أو التلفاز عن ازدحام الطرق"},
+        "zh": {"w": "路况报告 / 交通播报", "d": "广播或电视上关于道路拥堵情况的新闻"},
+        "de": {"w": "Verkehrsbericht / Verkehrsmeldung", "d": "Nachrichten im Radio oder Fernsehen darüber, wie voll die Straßen sind"},
+        "es": {"w": "informe del tráfico", "d": "noticias en la radio o la tele sobre cómo están las carreteras"},
+        "fr": {"w": "info trafic", "d": "des informations à la radio ou à la télé sur la circulation"}
+      }
+    },
+    {
+      "word": "rush hour",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈrʌʃ aʊə/",
+      "def": "The busy time when most people travel to or from work.",
+      "example": "Avoid driving in the city during the rush hour.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ساعة الذروة", "d": "الوقت المزدحم الذي يذهب فيه معظم الناس إلى العمل أو يعودون منه"},
+        "zh": {"w": "高峰时间", "d": "大多数人上下班的拥挤时段"},
+        "de": {"w": "Hauptverkehrszeit / Rushhour", "d": "die volle Zeit, wenn die meisten Menschen zur Arbeit oder nach Hause fahren"},
+        "es": {"w": "hora punta", "d": "hora de mucho tráfico cuando la gente va o vuelve del trabajo"},
+        "fr": {"w": "heure de pointe", "d": "le moment où la plupart des gens vont au travail ou en reviennent"}
+      }
+    },
+    {
+      "word": "blocked",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/blɒkt/",
+      "def": "Closed, so that cars or people cannot get through.",
+      "example": "Traffic is blocked in both directions because of an accident.",
+      "opposite": "clear",
+      "tr": {
+        "ar": {"w": "مسدود / مغلق", "d": "مغلق بحيث لا تستطيع السيارات أو الناس المرور"},
+        "zh": {"w": "堵塞的 / 封闭的", "d": "被堵住，车或人过不去"},
+        "de": {"w": "blockiert / gesperrt", "d": "geschlossen, sodass Autos oder Menschen nicht durchkommen"},
+        "es": {"w": "bloqueado / cortado", "d": "cerrado, así que los coches o la gente no pueden pasar"},
+        "fr": {"w": "bloqué", "d": "fermé, donc les voitures ou les gens ne peuvent pas passer"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Question tags",
+      "explain": "A question tag is a short question at the end of a sentence, like 'aren't you?'. We use it to check information or to ask someone to agree with us. A positive sentence usually has a negative tag, and a negative sentence has a positive tag.",
+      "explain_ar": "سؤال الذيل (question tag) هو سؤال قصير في نهاية الجملة مثل aren't you?. نستخدمه للتأكد من معلومة أو لنطلب من الشخص أن يوافقنا. الجملة المثبتة يأتي بعدها ذيل منفي، والجملة المنفية يأتي بعدها ذيل مثبت.",
+      "form": [
+        "Positive sentence + negative tag: You're still coming, aren't you?",
+        "Negative sentence + positive tag: You haven't ordered yet, have you?",
+        "Use the same auxiliary or modal verb (be, have, can, will...) + pronoun.",
+        "No auxiliary? Use do / does / did: It starts at 6 o'clock, doesn't it?",
+        "Special cases: I'm late, aren't I? / Get me a drink, would you? / Let's go, shall we?"
+      ],
+      "examples": [
+        {"en": "You're still coming, aren't you?", "note": "be (are) → aren't"},
+        {"en": "You haven't ordered food yet, have you?", "note": "negative sentence → positive tag"},
+        {"en": "You can get your own, can't you?", "note": "modal can → can't"},
+        {"en": "It starts at 6 o'clock, doesn't it?", "note": "present simple with no auxiliary → does"},
+        {"en": "You have met Anna, haven't you?", "note": "present perfect → have"},
+        {"en": "It's not far from the station, is it?", "note": "negative sentence → positive tag"}
+      ],
+      "mistakes": [
+        {"wrong": "It starts at 6 o'clock, isn't it?", "right": "It starts at 6 o'clock, doesn't it?", "why": "'starts' is present simple, so the tag uses does."},
+        {"wrong": "Alan's always late, isn't Alan?", "right": "Alan's always late, isn't he?", "why": "Use a pronoun in the tag, not the name."},
+        {"wrong": "You haven't ordered yet, haven't you?", "right": "You haven't ordered yet, have you?", "why": "Negative sentence → positive tag."},
+        {"wrong": "I'm late, amn't I?", "right": "I'm late, aren't I?", "why": "The tag for 'I am' is 'aren't I'."}
+      ],
+      "quiz": [
+        {"q": "It's the Italian restaurant, ___?", "options": ["isn't it", "is it", "doesn't it"], "answer": 0, "why": "Positive sentence with 'is' → negative tag 'isn't it'."},
+        {"q": "Alan's always late, ___?", "options": ["isn't he", "doesn't he", "is he"], "answer": 0, "why": "Alan's = Alan is → isn't he."},
+        {"q": "It's not far from the station, ___?", "options": ["is it", "isn't it", "does it"], "answer": 0, "why": "Negative sentence → positive tag."},
+        {"q": "You have met Anna, ___?", "options": ["haven't you", "don't you", "have you"], "answer": 0, "why": "Present perfect: have → haven't."},
+        {"q": "It starts at 6 o'clock, ___?", "options": ["doesn't it", "isn't it", "does it"], "answer": 0, "why": "Present simple with no auxiliary → doesn't."},
+        {"q": "You can get your own, ___?", "options": ["can't you", "can you", "don't you"], "answer": 0, "why": "Modal 'can' in a positive sentence → can't."}
+      ]
+    },
+    {
+      "title": "Intonation in question tags",
+      "explain": "The voice can go up or down on a question tag. If your voice goes up (rising ↗), you are not sure and you are really asking. If your voice goes down (falling ↘), you are quite sure and only want the other person to agree.",
+      "explain_ar": "يمكن أن يرتفع الصوت أو ينخفض في سؤال الذيل. إذا ارتفع الصوت (↗) فأنت غير متأكد وتسأل سؤالاً حقيقياً. وإذا انخفض الصوت (↘) فأنت متأكد تقريباً وتريد فقط أن يوافقك الشخص الآخر.",
+      "form": [
+        "Rising ↗ = checking, not sure: You haven't ordered yet, have you? ↗",
+        "Falling ↘ = confirming, quite sure: You haven't ordered yet, have you? ↘",
+        "Wh- questions usually fall: Where are you? ↘",
+        "Yes/No questions usually rise: Can you see The Body Shop on the corner? ↗"
+      ],
+      "examples": [
+        {"en": "You're still coming, aren't you? ↘", "note": "The speaker is quite sure you are coming."},
+        {"en": "You haven't ordered food yet, have you? ↗", "note": "The speaker really doesn't know."},
+        {"en": "Sorry, which exit is it? ↘", "note": "Wh- question: falling."},
+        {"en": "Can you see The Body Shop on the corner? ↗", "note": "Yes/No question: rising."}
+      ],
+      "mistakes": [
+        {"wrong": "Using rising intonation when you are already sure.", "right": "Use falling intonation to confirm something you already know.", "why": "Rising sounds like you are unsure and need a real answer."}
+      ],
+      "quiz": [
+        {"q": "You are not sure if your friend is coming. 'You're coming, aren't you?' Your voice should go…", "options": ["up ↗", "down ↘", "flat"], "answer": 0, "why": "Rising intonation = a real question, you are not sure."},
+        {"q": "You know the film starts at 8. 'It starts at 8, doesn't it?' Your voice should go…", "options": ["down ↘", "up ↗", "flat"], "answer": 0, "why": "Falling intonation = you are confirming."},
+        {"q": "'Where are you?' usually has…", "options": ["falling intonation", "rising intonation", "no intonation"], "answer": 0, "why": "Wh- questions usually fall."},
+        {"q": "'How do I get there from here?' usually has…", "options": ["falling intonation", "rising intonation", "no intonation"], "answer": 0, "why": "It is a wh- question (how), so it usually falls."},
+        {"q": "'Can you see The Body Shop on the corner?' usually has…", "options": ["rising intonation", "falling intonation", "no intonation"], "answer": 0, "why": "Yes/No questions usually rise."}
+      ]
+    },
+    {
+      "title": "Indirect questions (Can you tell me where…?)",
+      "explain": "To ask for directions politely, we often start with 'Can you tell me…?' or 'Do you know…?'. After these phrases, the second part is like a normal sentence: subject + verb, with no question word order and no do/does/did.",
+      "explain_ar": "لكي نسأل عن الطريق بأدب نبدأ غالباً بـ Can you tell me…? أو Do you know…?. بعد هذه العبارات يكون الجزء الثاني مثل جملة عادية: فاعل + فعل، بدون ترتيب السؤال وبدون do/does/did، لأن الجملة فيها سؤال واحد فقط.",
+      "form": [
+        "Can you tell me / Could you tell me / Do you know + wh-word + subject + verb?",
+        "Where is the bank? → Can you tell me where the bank is?",
+        "Yes/No questions: Do you know + if / whether + subject + verb?",
+        "How do I get there? → Could you tell me how I get there?"
+      ],
+      "examples": [
+        {"en": "Can you tell me where the bank is?", "note": "Not 'where is the bank'."},
+        {"en": "Do you know which exit it is?", "note": "Direct: Which exit is it?"},
+        {"en": "Could you tell me how I get to the station?", "note": "No 'do' in the second part."},
+        {"en": "Do you know if the restaurant is far from here?", "note": "Yes/No question → if."}
+      ],
+      "mistakes": [
+        {"wrong": "Can you tell me where is the bank?", "right": "Can you tell me where the bank is?", "why": "After 'Can you tell me', use subject + verb (the bank is)."},
+        {"wrong": "Do you know where does Sarah live?", "right": "Do you know where Sarah lives?", "why": "No do/does in the second part."},
+        {"wrong": "Do you know is the café open?", "right": "Do you know if the café is open?", "why": "Use if/whether for yes/no questions."}
+      ],
+      "quiz": [
+        {"q": "Can you tell me where ___?", "options": ["the station is", "is the station", "does the station"], "answer": 0, "why": "Subject + verb after the question word."},
+        {"q": "Do you know what time ___?", "options": ["the film starts", "does the film start", "starts the film"], "answer": 0, "why": "No 'does' in an indirect question."},
+        {"q": "Could you tell me ___ the restaurant is open now?", "options": ["if", "is", "does"], "answer": 0, "why": "Yes/No indirect questions use if/whether."},
+        {"q": "Which question is correct?", "options": ["Do you know how I get to the bank?", "Do you know how do I get to the bank?", "Do you know how get I to the bank?"], "answer": 0, "why": "Subject + verb: how I get."},
+        {"q": "Excuse me, can you tell me which exit ___?", "options": ["it is", "is it", "it does"], "answer": 0, "why": "Normal word order in the second part: it is."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Where are you?", "use": "Asking about someone's location"},
+    {"en": "How do I get there from here?", "use": "Asking for directions"},
+    {"en": "Sorry, which exit is it?", "use": "Checking details"},
+    {"en": "Can you tell me where the bank is?", "use": "Asking for directions politely (indirect question)"},
+    {"en": "Can you see The Body Shop on the corner?", "use": "Checking a landmark"},
+    {"en": "Go out of the station and cross to the other side.", "use": "Giving directions"},
+    {"en": "Go past The Body Shop and turn right.", "use": "Giving directions"},
+    {"en": "Go straight ahead / Go on.", "use": "Giving directions"},
+    {"en": "Take the first left turning.", "use": "Giving directions"},
+    {"en": "Go through the tunnel.", "use": "Giving directions"},
+    {"en": "Go around the roundabout and take the second exit.", "use": "Giving directions"},
+    {"en": "Starbucks is on your right.", "use": "Describing where a place is"},
+    {"en": "You're still coming, aren't you?", "use": "Checking with a question tag"}
+  ]
+}

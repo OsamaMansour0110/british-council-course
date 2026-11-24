@@ -1,0 +1,565 @@
+{
+  "id": 9,
+  "title": "Truth and Lies",
+  "summary": "We talked about lying and telling the truth, and when a white lie is OK. We read people's opinions about lying for their company and learnt words like consequences, reputation and beneficial. We practised the second conditional with 'if' and 'unless', and the short form 'd for 'would'.",
+  "source": "ARB_B1_02_I066CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "lie to someone",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˈlaɪ tə ˌsʌmwʌn/",
+      "def": "To tell a person something that you know is not true.",
+      "example": "If I lied to my boss once, he would never trust me again.",
+      "opposite": "tell someone the truth",
+      "tr": {
+        "ar": {"w": "يكذب على شخص", "d": "أن تقول لشخص شيئاً تعرف أنه غير صحيح"},
+        "zh": {"w": "对某人撒谎", "d": "对某人说你明知不真实的话"},
+        "de": {"w": "jemanden anlügen", "d": "jemandem etwas sagen, von dem man weiß, dass es nicht stimmt"},
+        "es": {"w": "mentir a alguien", "d": "decirle a alguien algo que sabes que no es verdad"},
+        "fr": {"w": "mentir à quelqu'un", "d": "dire à quelqu'un une chose que l'on sait fausse"}
+      }
+    },
+    {
+      "word": "lie about something",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˈlaɪ əbaʊt ˌsʌmθɪŋ/",
+      "def": "To say something untrue on a topic, for example your age.",
+      "example": "Would you lie about your past to impress someone you love?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يكذب بشأن شيء", "d": "أن تقول كلاماً غير صحيح عن موضوع معيّن، مثل عمرك"},
+        "zh": {"w": "就某事撒谎", "d": "在某件事上说假话，比如年龄"},
+        "de": {"w": "über etwas lügen", "d": "über ein Thema die Unwahrheit sagen, zum Beispiel über das Alter"},
+        "es": {"w": "mentir sobre algo", "d": "decir algo falso sobre un tema, por ejemplo tu edad"},
+        "fr": {"w": "mentir sur quelque chose", "d": "dire quelque chose de faux sur un sujet, par exemple son âge"}
+      }
+    },
+    {
+      "word": "white lie",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌwaɪt ˈlaɪ/",
+      "def": "A small untrue thing you say to be kind or avoid problems.",
+      "example": "\"You look great!\" is a very common white lie.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كذبة بيضاء", "d": "كلام صغير غير صحيح تقوله لتكون لطيفاً أو لتتجنب المشاكل"},
+        "zh": {"w": "善意的谎言", "d": "为了友善或避免麻烦而说的小谎"},
+        "de": {"w": "Notlüge", "d": "eine kleine Unwahrheit, um nett zu sein oder Ärger zu vermeiden"},
+        "es": {"w": "mentira piadosa", "d": "pequeña mentira para ser amable o evitar problemas"},
+        "fr": {"w": "pieux mensonge", "d": "petit mensonge dit par gentillesse ou pour éviter des problèmes"}
+      }
+    },
+    {
+      "word": "liar",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈlaɪə/",
+      "def": "A person who says things that are not true.",
+      "example": "How could I be useful to the company if I proved myself to be a liar?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كذّاب", "d": "شخص يقول أشياء غير صحيحة"},
+        "zh": {"w": "说谎者 / 骗子", "d": "说假话的人"},
+        "de": {"w": "Lügner / Lügnerin", "d": "eine Person, die Dinge sagt, die nicht stimmen"},
+        "es": {"w": "mentiroso", "d": "persona que dice cosas que no son verdad"},
+        "fr": {"w": "menteur", "d": "personne qui dit des choses fausses"}
+      }
+    },
+    {
+      "word": "tell the truth",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˌtel ðə ˈtruːθ/",
+      "def": "To say what really happened or what you really think.",
+      "example": "If you broke something expensive in a shop, would you tell the truth?",
+      "opposite": "lie",
+      "tr": {
+        "ar": {"w": "يقول الحقيقة", "d": "أن تقول ما حدث فعلاً أو ما تفكر فيه حقاً"},
+        "zh": {"w": "说实话", "d": "说出真正发生的事或你真实的想法"},
+        "de": {"w": "die Wahrheit sagen", "d": "sagen, was wirklich passiert ist oder was man wirklich denkt"},
+        "es": {"w": "decir la verdad", "d": "contar lo que pasó de verdad o lo que piensas de verdad"},
+        "fr": {"w": "dire la vérité", "d": "dire ce qui s'est vraiment passé ou ce que l'on pense vraiment"}
+      }
+    },
+    {
+      "word": "honest",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈɒnɪst/",
+      "def": "Always telling the truth and not cheating people.",
+      "example": "I usually try to be honest, even when it is difficult.",
+      "opposite": "dishonest",
+      "tr": {
+        "ar": {"w": "صادق / أمين", "d": "يقول الحقيقة دائماً ولا يخدع الناس"},
+        "zh": {"w": "诚实的", "d": "总是说真话，不欺骗别人"},
+        "de": {"w": "ehrlich", "d": "sagt immer die Wahrheit und betrügt niemanden"},
+        "es": {"w": "honesto / sincero", "d": "que siempre dice la verdad y no engaña a nadie"},
+        "fr": {"w": "honnête", "d": "qui dit toujours la vérité et ne trompe personne"}
+      }
+    },
+    {
+      "word": "consequence",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈkɒnsɪkwəns/",
+      "def": "A result of an action, usually a bad one.",
+      "example": "I would lie only if it didn't have any consequences for others.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عاقبة / نتيجة", "d": "نتيجة لفعل ما، وغالباً تكون سيئة"},
+        "zh": {"w": "后果", "d": "某个行为带来的结果，通常是坏的"},
+        "de": {"w": "Folge / Konsequenz", "d": "das Ergebnis einer Handlung, meistens ein schlechtes"},
+        "es": {"w": "consecuencia", "d": "resultado de una acción, normalmente malo"},
+        "fr": {"w": "conséquence", "d": "résultat d'une action, souvent négatif"}
+      }
+    },
+    {
+      "word": "reputation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌrepjuˈteɪʃn/",
+      "def": "What people generally think about a person or company.",
+      "example": "I would consider the company's reputation if I were to lie.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سُمعة", "d": "ما يعتقده الناس عموماً عن شخص أو شركة"},
+        "zh": {"w": "名声 / 声誉", "d": "人们对某人或某公司的普遍看法"},
+        "de": {"w": "Ruf", "d": "was die Leute allgemein über eine Person oder Firma denken"},
+        "es": {"w": "reputación", "d": "lo que la gente piensa en general de una persona o empresa"},
+        "fr": {"w": "réputation", "d": "ce que les gens pensent en général d'une personne ou d'une entreprise"}
+      }
+    },
+    {
+      "word": "beneficial",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌbenɪˈfɪʃl/",
+      "def": "Good or useful for someone or something.",
+      "example": "I wouldn't want to lie too often, even if it was beneficial for our company.",
+      "opposite": "harmful",
+      "tr": {
+        "ar": {"w": "مفيد / نافع", "d": "يعود بالخير أو بالفائدة على شخص أو شيء"},
+        "zh": {"w": "有益的", "d": "对某人或某事有好处或有用"},
+        "de": {"w": "vorteilhaft / nützlich", "d": "gut oder hilfreich für jemanden oder etwas"},
+        "es": {"w": "beneficioso", "d": "bueno o útil para alguien o algo"},
+        "fr": {"w": "bénéfique", "d": "bon ou utile pour quelqu'un ou quelque chose"}
+      }
+    },
+    {
+      "word": "pros and cons",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌprəʊz ən ˈkɒnz/",
+      "def": "The good points and bad points of something.",
+      "example": "If I could see all the pros and cons of the situation, I would make my decision.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الإيجابيات والسلبيات", "d": "النقاط الجيدة والنقاط السيئة في أمر ما"},
+        "zh": {"w": "利弊", "d": "某事的好处和坏处"},
+        "de": {"w": "Vor- und Nachteile", "d": "die guten und schlechten Seiten einer Sache"},
+        "es": {"w": "pros y contras", "d": "los puntos buenos y malos de algo"},
+        "fr": {"w": "le pour et le contre", "d": "les bons et les mauvais côtés de quelque chose"}
+      }
+    },
+    {
+      "word": "harm",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/hɑːm/",
+      "def": "Damage or hurt caused to a person or thing.",
+      "example": "I could lie if it didn't cause any harm.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ضرر / أذى", "d": "أذى أو ضرر يلحق بشخص أو شيء"},
+        "zh": {"w": "伤害 / 损害", "d": "对人或事物造成的损害"},
+        "de": {"w": "Schaden", "d": "Verletzung oder Schaden für eine Person oder Sache"},
+        "es": {"w": "daño", "d": "perjuicio causado a una persona o cosa"},
+        "fr": {"w": "mal / tort", "d": "dommage causé à une personne ou à une chose"}
+      }
+    },
+    {
+      "word": "harmful",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈhɑːmfl/",
+      "def": "Causing damage, for example to your health.",
+      "example": "The new product is popular, but it is also harmful to health.",
+      "opposite": "harmless",
+      "tr": {
+        "ar": {"w": "ضارّ", "d": "يسبب ضرراً، مثلاً للصحة"},
+        "zh": {"w": "有害的", "d": "会造成损害，比如对健康"},
+        "de": {"w": "schädlich", "d": "verursacht Schaden, zum Beispiel für die Gesundheit"},
+        "es": {"w": "perjudicial / dañino", "d": "que causa daño, por ejemplo a la salud"},
+        "fr": {"w": "nocif", "d": "qui cause des dommages, par exemple à la santé"}
+      }
+    },
+    {
+      "word": "catastrophe",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/kəˈtæstrəfi/",
+      "def": "A very bad event that causes big problems for many people.",
+      "example": "I would make sure that my lie wouldn't cause a catastrophe for other people.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كارثة", "d": "حدث سيئ جداً يسبب مشكلات كبيرة لكثير من الناس"},
+        "zh": {"w": "灾难", "d": "给很多人带来大麻烦的非常糟糕的事"},
+        "de": {"w": "Katastrophe", "d": "ein sehr schlimmes Ereignis mit großen Problemen für viele Menschen"},
+        "es": {"w": "catástrofe", "d": "suceso muy malo que causa grandes problemas a mucha gente"},
+        "fr": {"w": "catastrophe", "d": "événement très grave qui cause de gros problèmes à beaucoup de gens"}
+      }
+    },
+    {
+      "word": "affect",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/əˈfekt/",
+      "def": "To change something or someone, often in a bad way.",
+      "example": "I would make sure my lie wouldn't affect our organisation in the future.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يؤثّر في", "d": "أن تُحدث تغييراً في شيء أو شخص، غالباً بشكل سلبي"},
+        "zh": {"w": "影响", "d": "改变某人或某事，常常是不好的方面"},
+        "de": {"w": "beeinflussen / sich auswirken auf", "d": "etwas oder jemanden verändern, oft negativ"},
+        "es": {"w": "afectar", "d": "cambiar algo o a alguien, a menudo para mal"},
+        "fr": {"w": "affecter / avoir un impact sur", "d": "changer quelque chose ou quelqu'un, souvent en mal"}
+      }
+    },
+    {
+      "word": "asset",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈæset/",
+      "def": "A person or thing that is very useful or valuable to a group.",
+      "example": "An honest worker is a real asset to any company.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مَكسَب / ذو قيمة", "d": "شخص أو شيء مفيد جداً أو ذو قيمة كبيرة لجماعة"},
+        "zh": {"w": "宝贵财富 / 人才", "d": "对团体非常有用或有价值的人或物"},
+        "de": {"w": "Gewinn / Bereicherung", "d": "eine Person oder Sache, die für eine Gruppe sehr wertvoll ist"},
+        "es": {"w": "activo / gran valor", "d": "persona o cosa muy útil o valiosa para un grupo"},
+        "fr": {"w": "atout", "d": "personne ou chose très utile ou précieuse pour un groupe"}
+      }
+    },
+    {
+      "word": "guarantee",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌɡærənˈtiː/",
+      "def": "A promise that something will certainly happen.",
+      "example": "There is no guarantee that a person who lies for the company won't lie to it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ضمان", "d": "وعد بأن شيئاً سيحدث بالتأكيد"},
+        "zh": {"w": "保证", "d": "某事一定会发生的承诺"},
+        "de": {"w": "Garantie", "d": "ein Versprechen, dass etwas sicher passiert"},
+        "es": {"w": "garantía", "d": "promesa de que algo pasará seguro"},
+        "fr": {"w": "garantie", "d": "promesse que quelque chose va sûrement arriver"}
+      }
+    },
+    {
+      "word": "depend on",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/dɪˈpend ɒn/",
+      "def": "To be decided by other things, so the answer can change.",
+      "example": "Would I lie? It depends on the situation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتوقّف على / يعتمد على", "d": "أن يتحدّد الأمر حسب أشياء أخرى، فيتغيّر الجواب"},
+        "zh": {"w": "取决于", "d": "由其他情况决定，所以答案会不同"},
+        "de": {"w": "abhängen von", "d": "von anderen Dingen bestimmt werden, sodass die Antwort sich ändern kann"},
+        "es": {"w": "depender de", "d": "estar determinado por otras cosas, así que la respuesta puede cambiar"},
+        "fr": {"w": "dépendre de", "d": "être déterminé par d'autres choses, donc la réponse peut changer"}
+      }
+    },
+    {
+      "word": "save face",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌseɪv ˈfeɪs/",
+      "def": "To avoid looking stupid or losing other people's respect.",
+      "example": "He told a white lie to save face in front of his boss.",
+      "opposite": "lose face",
+      "tr": {
+        "ar": {"w": "يحفظ ماء الوجه", "d": "أن تتجنب الظهور بمظهر سيئ أو فقدان احترام الآخرين"},
+        "zh": {"w": "保全面子", "d": "避免出丑或失去别人的尊重"},
+        "de": {"w": "das Gesicht wahren", "d": "vermeiden, dumm dazustehen oder den Respekt anderer zu verlieren"},
+        "es": {"w": "salvar las apariencias", "d": "evitar quedar mal o perder el respeto de los demás"},
+        "fr": {"w": "sauver la face", "d": "éviter d'avoir l'air ridicule ou de perdre le respect des autres"}
+      }
+    },
+    {
+      "word": "beautify",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ˈbjuːtɪfaɪ/",
+      "def": "To make something look nicer or better than it really is.",
+      "example": "Some people beautify the truth to make their story more interesting.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُجمِّل", "d": "أن تجعل شيئاً يبدو أجمل أو أفضل مما هو عليه"},
+        "zh": {"w": "美化", "d": "让某事看起来比实际更好"},
+        "de": {"w": "beschönigen", "d": "etwas schöner oder besser darstellen, als es wirklich ist"},
+        "es": {"w": "embellecer / adornar", "d": "hacer que algo parezca más bonito o mejor de lo que es"},
+        "fr": {"w": "embellir", "d": "faire paraître quelque chose plus beau ou meilleur qu'en réalité"}
+      }
+    },
+    {
+      "word": "lessen",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ˈlesn/",
+      "def": "To make something smaller or less strong.",
+      "example": "A quick apology can lessen the impact of a mistake.",
+      "opposite": "increase",
+      "tr": {
+        "ar": {"w": "يُخفِّف / يُقلِّل", "d": "أن تجعل شيئاً أصغر أو أقل قوة"},
+        "zh": {"w": "减轻 / 减少", "d": "让某事变小或变弱"},
+        "de": {"w": "verringern / abschwächen", "d": "etwas kleiner oder schwächer machen"},
+        "es": {"w": "reducir / atenuar", "d": "hacer algo más pequeño o menos fuerte"},
+        "fr": {"w": "atténuer / réduire", "d": "rendre quelque chose plus petit ou moins fort"}
+      }
+    },
+    {
+      "word": "tarnish",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/ˈtɑːnɪʃ/",
+      "def": "To make people have a worse opinion of someone or something.",
+      "example": "One lie in the news can tarnish a company's reputation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُشوِّه (السمعة)", "d": "أن تجعل الناس يكوّنون رأياً أسوأ عن شخص أو شيء"},
+        "zh": {"w": "损害（名誉）", "d": "让人们对某人或某事的看法变差"},
+        "de": {"w": "beflecken / schädigen", "d": "dafür sorgen, dass Leute schlechter über jemanden oder etwas denken"},
+        "es": {"w": "manchar / empañar", "d": "hacer que la gente tenga peor opinión de alguien o algo"},
+        "fr": {"w": "ternir", "d": "donner une moins bonne image de quelqu'un ou de quelque chose"}
+      }
+    },
+    {
+      "word": "reputable",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈrepjətəbl/",
+      "def": "Trusted and respected by people because it has always worked well.",
+      "example": "She only buys her phones from reputable shops.",
+      "opposite": "disreputable",
+      "tr": {
+        "ar": {"w": "ذو سمعة طيبة / موثوق", "d": "يثق به الناس ويحترمونه لأنه عمل جيداً دائماً"},
+        "zh": {"w": "声誉好的 / 可信赖的", "d": "因为一直做得好而受人信任和尊重"},
+        "de": {"w": "seriös / angesehen", "d": "vertrauenswürdig und respektiert, weil es immer gut gearbeitet hat"},
+        "es": {"w": "de buena reputación / fiable", "d": "en quien la gente confía y respeta por su buen trabajo"},
+        "fr": {"w": "réputé / sérieux", "d": "en qui on a confiance grâce à un bon travail depuis longtemps"}
+      }
+    },
+    {
+      "word": "beauty is in the eye of the beholder",
+      "pos": "saying",
+      "level": "C1",
+      "ipa": "/ˈbjuːti ɪz ɪn ði ˈaɪ əv ðə bɪˈhəʊldə/",
+      "def": "Different people have different ideas about what is nice to look at.",
+      "example": "I didn't like my friend's painting, but beauty is in the eye of the beholder.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الجمال في عين الناظر", "d": "الناس يختلفون في رأيهم حول ما هو جميل"},
+        "zh": {"w": "美在观者眼中", "d": "每个人对美的看法都不同"},
+        "de": {"w": "Schönheit liegt im Auge des Betrachters", "d": "jeder Mensch findet etwas anderes schön"},
+        "es": {"w": "la belleza está en los ojos de quien mira", "d": "cada persona tiene una idea distinta de lo que es bonito"},
+        "fr": {"w": "la beauté est dans l'œil de celui qui regarde", "d": "chacun a sa propre idée de ce qui est beau"}
+      }
+    },
+    {
+      "word": "witness",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈwɪtnəs/",
+      "def": "A person who sees a crime or accident happen.",
+      "example": "Your friend commits a minor crime and you are the only witness.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "شاهد", "d": "شخص يرى جريمة أو حادثاً وقت حدوثه"},
+        "zh": {"w": "目击者", "d": "亲眼看到犯罪或事故发生的人"},
+        "de": {"w": "Zeuge / Zeugin", "d": "eine Person, die ein Verbrechen oder einen Unfall sieht"},
+        "es": {"w": "testigo", "d": "persona que ve un delito o un accidente"},
+        "fr": {"w": "témoin", "d": "personne qui voit un crime ou un accident se produire"}
+      }
+    },
+    {
+      "word": "admit",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ədˈmɪt/",
+      "def": "To say that you did something wrong, often when you don't want to.",
+      "example": "If you accidentally broke something expensive in a store, would you admit it?",
+      "opposite": "deny",
+      "tr": {
+        "ar": {"w": "يعترف", "d": "أن تقول إنك فعلت شيئاً خاطئاً، غالباً دون رغبة منك"},
+        "zh": {"w": "承认", "d": "说出自己做错了事，常常是不情愿地"},
+        "de": {"w": "zugeben", "d": "sagen, dass man etwas falsch gemacht hat, oft ungern"},
+        "es": {"w": "admitir / reconocer", "d": "decir que has hecho algo mal, a menudo sin querer"},
+        "fr": {"w": "admettre / avouer", "d": "dire qu'on a fait quelque chose de mal, souvent à contrecœur"}
+      }
+    },
+    {
+      "word": "commit a crime",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/kəˌmɪt ə ˈkraɪm/",
+      "def": "To do something that is against the law.",
+      "example": "Would you report a friend who committed a minor crime?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يرتكب جريمة", "d": "أن تفعل شيئاً مخالفاً للقانون"},
+        "zh": {"w": "犯罪", "d": "做违法的事"},
+        "de": {"w": "eine Straftat begehen", "d": "etwas tun, das gegen das Gesetz ist"},
+        "es": {"w": "cometer un delito", "d": "hacer algo que va contra la ley"},
+        "fr": {"w": "commettre un délit", "d": "faire quelque chose qui est contre la loi"}
+      }
+    },
+    {
+      "word": "impress",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪmˈpres/",
+      "def": "To make someone admire you or think you are very good.",
+      "example": "You are in love with someone. Do you lie about your past to impress them?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُبهِر", "d": "أن تجعل شخصاً يُعجَب بك أو يراك رائعاً"},
+        "zh": {"w": "给…留下深刻印象", "d": "让某人欣赏你或觉得你很棒"},
+        "de": {"w": "beeindrucken", "d": "dafür sorgen, dass jemand einen bewundert oder toll findet"},
+        "es": {"w": "impresionar", "d": "hacer que alguien te admire o piense que eres muy bueno"},
+        "fr": {"w": "impressionner", "d": "faire que quelqu'un t'admire ou te trouve très bien"}
+      }
+    },
+    {
+      "word": "acquaintance",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/əˈkweɪntəns/",
+      "def": "A person you know a little, but who is not a close friend.",
+      "example": "An acquaintance you don't really like invites you to a great concert.",
+      "opposite": "close friend",
+      "tr": {
+        "ar": {"w": "أحد المعارف", "d": "شخص تعرفه قليلاً لكنه ليس صديقاً مقرّباً"},
+        "zh": {"w": "熟人", "d": "你认识但不是好朋友的人"},
+        "de": {"w": "Bekannter / Bekannte", "d": "eine Person, die man ein bisschen kennt, aber kein enger Freund ist"},
+        "es": {"w": "conocido", "d": "persona que conoces un poco, pero no es un amigo cercano"},
+        "fr": {"w": "connaissance", "d": "personne que l'on connaît un peu, mais qui n'est pas un ami proche"}
+      }
+    },
+    {
+      "word": "in charge of",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ɪn ˈtʃɑːdʒ əv/",
+      "def": "Having control of something and being responsible for it.",
+      "example": "You are in charge of the advertising campaign for a new product.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مسؤول عن", "d": "لديك السيطرة على شيء وأنت المسؤول عنه"},
+        "zh": {"w": "负责", "d": "掌管某事并对它负责"},
+        "de": {"w": "zuständig für / verantwortlich für", "d": "die Kontrolle über etwas haben und dafür verantwortlich sein"},
+        "es": {"w": "a cargo de / encargado de", "d": "tener el control de algo y ser responsable de ello"},
+        "fr": {"w": "responsable de / chargé de", "d": "avoir le contrôle de quelque chose et en être responsable"}
+      }
+    },
+    {
+      "word": "sold out",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌsəʊld ˈaʊt/",
+      "def": "With no tickets or things left to buy.",
+      "example": "I wanted to go to the concert for months, but all the tickets were sold out.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نفدت (التذاكر)", "d": "لم يبقَ منه تذاكر أو أشياء للشراء"},
+        "zh": {"w": "售罄", "d": "票或商品已经全部卖完"},
+        "de": {"w": "ausverkauft", "d": "keine Tickets oder Waren mehr zu kaufen"},
+        "es": {"w": "agotado", "d": "sin entradas ni productos para comprar"},
+        "fr": {"w": "complet / épuisé", "d": "il ne reste plus de billets ou d'articles à acheter"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Second conditional",
+      "explain": "We use the second conditional to talk about imaginary situations in the present or future and their results. The situation is not real now, or it is not likely.",
+      "explain_ar": "نستخدم الجملة الشرطية الثانية للحديث عن مواقف خيالية في الحاضر أو المستقبل ونتائجها. الموقف غير حقيقي الآن أو غير مرجَّح الحدوث.",
+      "form": [
+        "If + past simple, would / wouldn't + infinitive",
+        "would / wouldn't + infinitive + if + past simple (no comma)",
+        "Put a comma only when the 'if' part comes first",
+        "If I / he / she / it were ... ('were' is better than 'was')",
+        "Question: Would you + infinitive + if + past simple?",
+        "Short form: I would = I'd, you would = you'd, she would = she'd"
+      ],
+      "examples": [
+        {"en": "I would lie only if it didn't have any consequences for others.", "note": "Imaginary situation. The main part comes first, so there is no comma."},
+        {"en": "If I found money on the street, I'd take it to the police.", "note": "The 'if' part comes first, so we use a comma. I'd = I would."},
+        {"en": "Would you be surprised if I told you everybody lies?", "note": "Question form. 'Would you' often sounds like /wʊdʒu/."},
+        {"en": "I would change many laws if I were the president.", "note": "We use 'were' with I."},
+        {"en": "If I had a million dollars, I would buy a house by the beach.", "note": "Not real: I don't have a million dollars."}
+      ],
+      "mistakes": [
+        {"wrong": "If I would find money, I would keep it.", "right": "If I found money, I would keep it.", "why": "No 'would' in the 'if' part. Use the past simple."},
+        {"wrong": "She will only lie if it didn't affect the company.", "right": "She would only lie if it didn't affect the company.", "why": "The second conditional uses 'would', not 'will' (correction from class)."},
+        {"wrong": "If he take the money, I would call the police.", "right": "If he took the money, I would call the police.", "why": "Use the past simple after 'if' (correction from class)."},
+        {"wrong": "I would tell her, if she asked me.", "right": "I would tell her if she asked me.", "why": "No comma when the main part comes first."}
+      ],
+      "quiz": [
+        {"q": "If I ___ a lot of extra money in my bank account, I would tell the bank.", "options": ["found", "find", "would find"], "answer": 0, "why": "Use the past simple in the 'if' part."},
+        {"q": "What ___ you do if your friend's cat ran away?", "options": ["will", "would", "did"], "answer": 1, "why": "The main part of the second conditional uses 'would'."},
+        {"q": "If I ___ you, I would tell her the truth.", "options": ["am", "be", "were"], "answer": 2, "why": "We say 'If I were you' in the second conditional."},
+        {"q": "Which sentence is correct?", "options": ["I'd lie, if it didn't hurt anyone.", "I'd lie if it didn't hurt anyone.", "I'd lie if it doesn't hurt anyone."], "answer": 1, "why": "No comma when the main part is first, and the 'if' part needs the past simple."},
+        {"q": "If he ___ your painting, he wouldn't put it on the wall.", "options": ["hates", "would hate", "hated"], "answer": 2, "why": "Past simple after 'if'."},
+        {"q": "'I'd tell the truth.' What does I'd mean here?", "options": ["I had", "I would", "I did"], "answer": 1, "why": "Before an infinitive (tell), I'd = I would."}
+      ]
+    },
+    {
+      "title": "Unless in conditionals",
+      "explain": "'Unless' means 'if ... not' or 'except if'. We use it in the condition part. The verb after 'unless' is positive, because 'unless' already has the 'not' meaning.",
+      "explain_ar": "كلمة unless تعني «إلا إذا» أو «إذا لم». نستخدمها في جزء الشرط، ويكون الفعل بعدها مُثبَتاً وليس منفياً لأن معنى النفي موجود فيها أصلاً.",
+      "form": [
+        "unless + past simple = if + not + past simple",
+        "would / wouldn't + infinitive + unless + past simple"
+      ],
+      "examples": [
+        {"en": "I wouldn't lie unless I were sure it would benefit the company.", "note": "= I wouldn't lie if I weren't sure it would benefit the company."},
+        {"en": "Unless my survival was in danger, I wouldn't lie for the company.", "note": "I would lie only in this one case."},
+        {"en": "You wouldn't be able to pass the exam unless you studied.", "note": "= if you didn't study"}
+      ],
+      "mistakes": [
+        {"wrong": "I wouldn't lie unless I weren't sure.", "right": "I wouldn't lie unless I were sure.", "why": "'Unless' already means 'if not', so don't add another 'not'."},
+        {"wrong": "Unless I would know the answer, I would ask.", "right": "Unless I knew the answer, I would ask.", "why": "No 'would' after 'unless'. Use the past simple."}
+      ],
+      "quiz": [
+        {"q": "I wouldn't tell him ___ he asked me directly.", "options": ["unless", "if", "when"], "answer": 0, "why": "'Unless' = except if he asked me."},
+        {"q": "'Unless you hurried, you would miss the bus' means:", "options": ["If you hurried, you would miss the bus.", "If you didn't hurry, you would miss the bus.", "You hurried and missed the bus."], "answer": 1, "why": "'Unless' = 'if ... not'."},
+        {"q": "I wouldn't lie unless I ___ in danger.", "options": ["wasn't", "were", "would be"], "answer": 1, "why": "After 'unless' the verb is positive and in the past simple."},
+        {"q": "She wouldn't buy that phone unless it ___ cheaper.", "options": ["would be", "is", "were"], "answer": 2, "why": "Past simple ('were') after 'unless' in the second conditional."},
+        {"q": "Which has the same meaning as 'I wouldn't go if they didn't invite me'?", "options": ["I would go unless they invited me.", "I wouldn't go unless they didn't invite me.", "I wouldn't go unless they invited me."], "answer": 2, "why": "'If they didn't invite me' = 'unless they invited me'."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "It depends on the situation.", "use": "Giving a careful answer, not just yes or no"},
+    {"en": "To be honest, ...", "use": "Giving your real opinion"},
+    {"en": "We don't have similar views on ...", "use": "Saying you don't agree (teacher's correction of 'We are not similar')"},
+    {"en": "Would you be surprised if I told you ...?", "use": "Introducing a surprising idea"},
+    {"en": "If I were you, I'd tell the truth.", "use": "Giving advice"},
+    {"en": "I wouldn't lie unless ...", "use": "Saying the only case when you would do something"},
+    {"en": "I was just about to call you.", "use": "A common white lie"},
+    {"en": "Sorry I'm late, the traffic was terrible.", "use": "A common white lie (an excuse)"},
+    {"en": "I've already left home, give me five minutes.", "use": "A common white lie"},
+    {"en": "This is delicious! / You look great!", "use": "Common white lies (being kind)"},
+    {"en": "All of us think ...", "use": "Reporting what everyone in the group said"},
+    {"en": "Most of us agree ...", "use": "Reporting what nearly everyone said"},
+    {"en": "Some of us would never ...", "use": "Reporting what a few people said"},
+    {"en": "None of us would ...", "use": "Reporting that nobody in the group agreed"}
+  ]
+}

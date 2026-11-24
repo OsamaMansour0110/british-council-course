@@ -1,0 +1,505 @@
+{
+  "id": 4,
+  "title": "Further Explanation and Description",
+  "summary": "We described objects that are important to us and explained why they matter. We learned words about value, like sentimental, priceless and worthless, and words for modern products, like state-of-the-art and user-friendly. We practised pausing to make our descriptions more interesting, and we reviewed the present perfect and present perfect continuous with 'How long?'.",
+  "source": "ARB_B1_04_I022CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "sentimental",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌsentɪˈmentl/",
+      "def": "Important to you because of feelings and memories, not because of money.",
+      "example": "This old watch has a lot of sentimental value because it was my grandfather's.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عاطفي / ذو قيمة معنوية", "d": "مهم لك بسبب المشاعر والذكريات، لا بسبب المال"},
+        "zh": {"w": "有纪念意义的 / 情感上的", "d": "因为感情和回忆而对你重要，而不是因为钱"},
+        "de": {"w": "sentimental / mit Erinnerungswert", "d": "wichtig wegen Gefühlen und Erinnerungen, nicht wegen des Geldes"},
+        "es": {"w": "sentimental", "d": "importante para ti por los sentimientos y recuerdos, no por el dinero"},
+        "fr": {"w": "sentimental", "d": "important pour toi à cause des sentiments et des souvenirs, pas de l'argent"}
+      }
+    },
+    {
+      "word": "valuable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈvæljuəbl/",
+      "def": "Worth a lot of money.",
+      "example": "She keeps her most valuable jewellery in a safe at home.",
+      "opposite": "worthless",
+      "tr": {
+        "ar": {"w": "قيّم / ثمين", "d": "يساوي الكثير من المال"},
+        "zh": {"w": "贵重的 / 值钱的", "d": "值很多钱"},
+        "de": {"w": "wertvoll", "d": "viel Geld wert"},
+        "es": {"w": "valioso", "d": "que vale mucho dinero"},
+        "fr": {"w": "précieux / de valeur", "d": "qui vaut beaucoup d'argent"}
+      }
+    },
+    {
+      "word": "pricey",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈpraɪsi/",
+      "def": "Costing a lot of money; expensive.",
+      "example": "I love the new phone, but it's a bit pricey for me.",
+      "opposite": "cheap",
+      "tr": {
+        "ar": {"w": "غالي الثمن", "d": "يكلّف الكثير من المال"},
+        "zh": {"w": "昂贵的 / 价格高的", "d": "要花很多钱的"},
+        "de": {"w": "teuer / kostspielig", "d": "es kostet viel Geld"},
+        "es": {"w": "caro", "d": "que cuesta mucho dinero"},
+        "fr": {"w": "cher / coûteux", "d": "qui coûte beaucoup d'argent"}
+      }
+    },
+    {
+      "word": "unique",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/juˈniːk/",
+      "def": "Being the only one of its kind; different from everything else.",
+      "example": "My ring is unique because my mother designed it herself.",
+      "opposite": "common",
+      "tr": {
+        "ar": {"w": "فريد من نوعه", "d": "الوحيد من نوعه، ومختلف عن كل شيء آخر"},
+        "zh": {"w": "独一无二的", "d": "同类中唯一的，与其他一切都不同"},
+        "de": {"w": "einzigartig", "d": "das Einzige seiner Art, anders als alles andere"},
+        "es": {"w": "único", "d": "el único de su tipo, diferente de todo lo demás"},
+        "fr": {"w": "unique", "d": "le seul de son genre, différent de tout le reste"}
+      }
+    },
+    {
+      "word": "possession",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/pəˈzeʃn/",
+      "def": "Something that you own.",
+      "example": "My guitar is my most important possession.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُقتنى / مِلكية", "d": "شيء تملكه"},
+        "zh": {"w": "所有物 / 财物", "d": "你拥有的东西"},
+        "de": {"w": "Besitz / Besitztum", "d": "etwas, das dir gehört"},
+        "es": {"w": "posesión / pertenencia", "d": "algo que tienes y es tuyo"},
+        "fr": {"w": "possession / bien", "d": "quelque chose qui t'appartient"}
+      }
+    },
+    {
+      "word": "inherit",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ɪnˈherɪt/",
+      "def": "To receive money or things from someone after they die.",
+      "example": "I inherited this ring from my grandmother.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يَرِث", "d": "أن تحصل على مال أو أشياء من شخص بعد وفاته"},
+        "zh": {"w": "继承", "d": "在某人去世后得到他的钱或东西"},
+        "de": {"w": "erben", "d": "Geld oder Dinge von jemandem nach seinem Tod bekommen"},
+        "es": {"w": "heredar", "d": "recibir dinero o cosas de alguien después de su muerte"},
+        "fr": {"w": "hériter (de)", "d": "recevoir de l'argent ou des objets de quelqu'un après sa mort"}
+      }
+    },
+    {
+      "word": "worthless",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈwɜːθləs/",
+      "def": "Having no value or use.",
+      "example": "The old coins looked special, but in fact they were worthless.",
+      "opposite": "valuable",
+      "tr": {
+        "ar": {"w": "عديم القيمة", "d": "ليس له قيمة ولا فائدة"},
+        "zh": {"w": "毫无价值的", "d": "没有价值也没有用处"},
+        "de": {"w": "wertlos", "d": "ohne Wert und ohne Nutzen"},
+        "es": {"w": "sin valor", "d": "que no tiene valor ni utilidad"},
+        "fr": {"w": "sans valeur", "d": "qui n'a ni valeur ni utilité"}
+      }
+    },
+    {
+      "word": "priceless",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈpraɪsləs/",
+      "def": "So rare or important that nobody can say how much it is worth.",
+      "example": "The museum has a priceless collection of old paintings.",
+      "opposite": "worthless",
+      "tr": {
+        "ar": {"w": "لا يُقدَّر بثمن", "d": "نادر أو مهم جداً بحيث لا يستطيع أحد تحديد قيمته"},
+        "zh": {"w": "无价的", "d": "非常稀有或重要，没人能说出它值多少钱"},
+        "de": {"w": "unbezahlbar / unschätzbar", "d": "so selten oder wichtig, dass niemand seinen Wert nennen kann"},
+        "es": {"w": "de valor incalculable", "d": "tan raro o importante que nadie puede decir cuánto vale"},
+        "fr": {"w": "inestimable", "d": "si rare ou important que personne ne peut dire sa valeur"}
+      }
+    },
+    {
+      "word": "state-of-the-art",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌsteɪt əv ði ˈɑːt/",
+      "def": "Using the newest and best technology available.",
+      "example": "My new phone has a state-of-the-art camera.",
+      "opposite": "outdated",
+      "tr": {
+        "ar": {"w": "الأحدث تقنياً / متطور جداً", "d": "يستخدم أحدث وأفضل تقنية متوفرة"},
+        "zh": {"w": "最先进的", "d": "使用现有最新、最好的技术"},
+        "de": {"w": "hochmodern / auf dem neuesten Stand", "d": "mit der neuesten und besten Technik"},
+        "es": {"w": "de última generación", "d": "que usa la tecnología más nueva y mejor"},
+        "fr": {"w": "dernier cri / de pointe", "d": "qui utilise la technologie la plus récente et la meilleure"}
+      }
+    },
+    {
+      "word": "cutting-edge",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+      "def": "The newest and most advanced, with ideas nobody has used before.",
+      "example": "This company makes cutting-edge medical equipment.",
+      "opposite": "outdated",
+      "tr": {
+        "ar": {"w": "رائد / في طليعة التطور", "d": "الأحدث والأكثر تقدماً، بأفكار لم يستخدمها أحد من قبل"},
+        "zh": {"w": "尖端的 / 前沿的", "d": "最新、最先进的，有前所未有的想法"},
+        "de": {"w": "bahnbrechend / topaktuell", "d": "das Neueste und Fortschrittlichste, mit ganz neuen Ideen"},
+        "es": {"w": "vanguardista / puntero", "d": "lo más nuevo y avanzado, con ideas nunca usadas antes"},
+        "fr": {"w": "de pointe / avant-gardiste", "d": "le plus récent et le plus avancé, avec des idées nouvelles"}
+      }
+    },
+    {
+      "word": "top-of-the-range",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌtɒp əv ðə ˈreɪndʒ/",
+      "def": "The best and most expensive in a group of similar products.",
+      "example": "He bought a top-of-the-range laptop for his design work.",
+      "opposite": "basic",
+      "tr": {
+        "ar": {"w": "من الفئة العليا", "d": "الأفضل والأغلى بين مجموعة من المنتجات المتشابهة"},
+        "zh": {"w": "顶级的 / 高端的", "d": "同类产品中最好、最贵的"},
+        "de": {"w": "Spitzenklasse / Topmodell", "d": "das Beste und Teuerste unter ähnlichen Produkten"},
+        "es": {"w": "de gama alta", "d": "el mejor y más caro de un grupo de productos parecidos"},
+        "fr": {"w": "haut de gamme", "d": "le meilleur et le plus cher parmi des produits similaires"}
+      }
+    },
+    {
+      "word": "user-friendly",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌjuːzə ˈfrendli/",
+      "def": "Easy to use or understand.",
+      "example": "My grandmother likes this tablet because it's very user-friendly.",
+      "opposite": "complicated",
+      "tr": {
+        "ar": {"w": "سهل الاستخدام", "d": "سهل في الاستعمال والفهم"},
+        "zh": {"w": "易于使用的", "d": "容易使用或理解"},
+        "de": {"w": "benutzerfreundlich", "d": "leicht zu benutzen und zu verstehen"},
+        "es": {"w": "fácil de usar", "d": "sencillo de usar o de entender"},
+        "fr": {"w": "facile à utiliser / convivial", "d": "simple à utiliser ou à comprendre"}
+      }
+    },
+    {
+      "word": "stylish",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈstaɪlɪʃ/",
+      "def": "Looking fashionable and attractive; of good style.",
+      "example": "She got a stylish leather bag for her birthday.",
+      "opposite": "unfashionable",
+      "tr": {
+        "ar": {"w": "أنيق", "d": "يبدو عصرياً وجذاباً وذا ذوق جميل"},
+        "zh": {"w": "时髦的 / 有型的", "d": "看起来时尚又好看"},
+        "de": {"w": "stilvoll / schick", "d": "modisch und attraktiv aussehend"},
+        "es": {"w": "elegante / con estilo", "d": "que se ve moderno y atractivo"},
+        "fr": {"w": "élégant / stylé", "d": "qui a l'air à la mode et joli"}
+      }
+    },
+    {
+      "word": "addictive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/əˈdɪktɪv/",
+      "def": "So strong or enjoyable that you can't stop once you start.",
+      "example": "This phone game is so addictive that I play it every night.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُسبِّب للإدمان", "d": "قوي أو ممتع لدرجة أنك لا تستطيع التوقف بعد أن تبدأ"},
+        "zh": {"w": "使人上瘾的", "d": "太强烈或太有趣，一开始就停不下来"},
+        "de": {"w": "süchtig machend", "d": "so stark oder schön, dass man nicht mehr aufhören kann"},
+        "es": {"w": "adictivo", "d": "tan fuerte o divertido que no puedes parar una vez que empiezas"},
+        "fr": {"w": "addictif", "d": "si fort ou agréable qu'on ne peut plus s'arrêter une fois commencé"}
+      }
+    },
+    {
+      "word": "perplexing",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/pəˈpleksɪŋ/",
+      "def": "Very confusing and difficult to understand.",
+      "example": "I bought a new phone, but it's perplexing. I don't know how to use it!",
+      "opposite": "clear",
+      "tr": {
+        "ar": {"w": "مُحيِّر", "d": "مربك جداً وصعب الفهم"},
+        "zh": {"w": "令人困惑的", "d": "非常让人糊涂，很难理解"},
+        "de": {"w": "verwirrend / rätselhaft", "d": "sehr verwirrend und schwer zu verstehen"},
+        "es": {"w": "desconcertante / confuso", "d": "muy confuso y difícil de entender"},
+        "fr": {"w": "déroutant / déconcertant", "d": "très confus et difficile à comprendre"}
+      }
+    },
+    {
+      "word": "intuitive",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ɪnˈtjuːɪtɪv/",
+      "def": "Based on feelings rather than facts.",
+      "example": "She had an intuitive feeling that the old painting was special.",
+      "opposite": "logical",
+      "tr": {
+        "ar": {"w": "حَدْسي", "d": "مبني على الإحساس لا على الحقائق"},
+        "zh": {"w": "凭直觉的", "d": "基于感觉而不是事实"},
+        "de": {"w": "intuitiv", "d": "auf Gefühlen statt auf Fakten basierend"},
+        "es": {"w": "intuitivo", "d": "basado en sensaciones y no en hechos"},
+        "fr": {"w": "intuitif", "d": "basé sur les sentiments plutôt que sur les faits"}
+      }
+    },
+    {
+      "word": "superstitious",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌsuːpəˈstɪʃəs/",
+      "def": "Believing that some objects or actions bring good or bad luck.",
+      "example": "He's superstitious, so he always carries his lucky coin.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مؤمن بالخرافات", "d": "يعتقد أن بعض الأشياء أو الأفعال تجلب الحظ الجيد أو السيئ"},
+        "zh": {"w": "迷信的", "d": "相信某些东西或行为会带来好运或坏运"},
+        "de": {"w": "abergläubisch", "d": "glaubt, dass bestimmte Dinge oder Taten Glück oder Pech bringen"},
+        "es": {"w": "supersticioso", "d": "que cree que algunos objetos o actos traen buena o mala suerte"},
+        "fr": {"w": "superstitieux", "d": "qui croit que certains objets ou gestes portent chance ou malheur"}
+      }
+    },
+    {
+      "word": "reprimand",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/ˈreprɪmɑːnd/",
+      "def": "To tell someone officially and seriously that they did something wrong.",
+      "example": "The manager reprimanded him for losing the company laptop.",
+      "opposite": "praise",
+      "tr": {
+        "ar": {"w": "يُوبِّخ (رسمياً)", "d": "أن تقول لشخص بشكل رسمي وجاد إنه أخطأ"},
+        "zh": {"w": "训斥 / 谴责", "d": "正式而严肃地告诉某人他做错了"},
+        "de": {"w": "tadeln / rügen", "d": "jemandem offiziell und ernst sagen, dass er etwas falsch gemacht hat"},
+        "es": {"w": "reprender / amonestar", "d": "decir a alguien de forma oficial y seria que hizo algo mal"},
+        "fr": {"w": "réprimander", "d": "dire officiellement et sérieusement à quelqu'un qu'il a mal agi"}
+      }
+    },
+    {
+      "word": "rebuke",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/rɪˈbjuːk/",
+      "def": "To speak angrily to someone because they did something wrong.",
+      "example": "Her father rebuked her for breaking his favourite cup.",
+      "opposite": "praise",
+      "tr": {
+        "ar": {"w": "يُعنِّف / يُوبِّخ", "d": "أن تكلّم شخصاً بغضب لأنه أخطأ"},
+        "zh": {"w": "斥责", "d": "因为某人做错事而生气地对他说话"},
+        "de": {"w": "zurechtweisen", "d": "wütend mit jemandem sprechen, weil er etwas falsch gemacht hat"},
+        "es": {"w": "regañar / reprochar", "d": "hablar con enfado a alguien porque hizo algo mal"},
+        "fr": {"w": "réprimander / reprocher", "d": "parler avec colère à quelqu'un parce qu'il a mal agi"}
+      }
+    },
+    {
+      "word": "harshly",
+      "pos": "adverb",
+      "level": "C1",
+      "ipa": "/ˈhɑːʃli/",
+      "def": "In a very unkind, strict or cruel way.",
+      "example": "The teacher spoke harshly to the boy, and he started to cry.",
+      "opposite": "gently",
+      "tr": {
+        "ar": {"w": "بقسوة / بشدة", "d": "بطريقة غير لطيفة وصارمة جداً"},
+        "zh": {"w": "严厉地 / 粗暴地", "d": "以非常不友好、严格或残酷的方式"},
+        "de": {"w": "hart / streng", "d": "auf sehr unfreundliche, strenge oder grausame Weise"},
+        "es": {"w": "duramente / con dureza", "d": "de forma muy poco amable, estricta o cruel"},
+        "fr": {"w": "durement / sévèrement", "d": "de façon très peu gentille, stricte ou cruelle"}
+      }
+    },
+    {
+      "word": "convenient",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/kənˈviːniənt/",
+      "def": "Easy to use and suitable for what you need.",
+      "example": "My phone is convenient because I can pay for everything with it.",
+      "opposite": "inconvenient",
+      "tr": {
+        "ar": {"w": "مُريح / ملائم", "d": "سهل الاستخدام ومناسب لما تحتاجه"},
+        "zh": {"w": "方便的", "d": "容易使用，适合你的需要"},
+        "de": {"w": "praktisch / bequem", "d": "leicht zu benutzen und passend für das, was du brauchst"},
+        "es": {"w": "práctico / conveniente", "d": "fácil de usar y adecuado para lo que necesitas"},
+        "fr": {"w": "pratique / commode", "d": "facile à utiliser et adapté à ce dont tu as besoin"}
+      }
+    },
+    {
+      "word": "high-resolution",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌhaɪ rezəˈluːʃn/",
+      "def": "Showing pictures with a lot of clear detail.",
+      "example": "It's got a high-resolution camera, so my photos look amazing.",
+      "opposite": "low-resolution",
+      "tr": {
+        "ar": {"w": "عالي الدقة", "d": "يعرض صوراً فيها تفاصيل كثيرة وواضحة"},
+        "zh": {"w": "高分辨率的", "d": "显示的图片有很多清晰的细节"},
+        "de": {"w": "hochauflösend", "d": "zeigt Bilder mit vielen klaren Details"},
+        "es": {"w": "de alta resolución", "d": "que muestra imágenes con muchos detalles claros"},
+        "fr": {"w": "haute résolution", "d": "qui montre des images avec beaucoup de détails nets"}
+      }
+    },
+    {
+      "word": "fingerprint",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfɪŋɡəprɪnt/",
+      "def": "The pattern of lines on the end of your finger, used to identify you.",
+      "example": "It's also got fingerprint technology, so only I can open it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بصمة الإصبع", "d": "شكل الخطوط على طرف إصبعك، ويُستخدم لمعرفة هويتك"},
+        "zh": {"w": "指纹", "d": "手指尖上的纹路，用来识别你的身份"},
+        "de": {"w": "Fingerabdruck", "d": "das Linienmuster auf der Fingerspitze, das dich erkennbar macht"},
+        "es": {"w": "huella dactilar", "d": "el dibujo de líneas en la punta del dedo, que sirve para identificarte"},
+        "fr": {"w": "empreinte digitale", "d": "le dessin des lignes au bout du doigt, qui sert à t'identifier"}
+      }
+    },
+    {
+      "word": "built-in",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌbɪlt ˈɪn/",
+      "def": "Included as part of something from the start.",
+      "example": "The phone comes with lots of useful built-in apps.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُدمَج", "d": "موجود كجزء من الشيء منذ البداية"},
+        "zh": {"w": "内置的", "d": "一开始就作为一部分包含在里面"},
+        "de": {"w": "eingebaut / integriert", "d": "von Anfang an ein Teil von etwas"},
+        "es": {"w": "incorporado / integrado", "d": "incluido como parte de algo desde el principio"},
+        "fr": {"w": "intégré", "d": "inclus comme partie de quelque chose dès le départ"}
+      }
+    },
+    {
+      "word": "slim",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/slɪm/",
+      "def": "Thin in an attractive way.",
+      "example": "Well, it's white and very slim, so it fits easily in my pocket.",
+      "opposite": "thick",
+      "tr": {
+        "ar": {"w": "رفيع / نحيف", "d": "رقيق بشكل جميل"},
+        "zh": {"w": "纤薄的 / 苗条的", "d": "薄得好看"},
+        "de": {"w": "schlank / dünn", "d": "auf schöne Weise dünn"},
+        "es": {"w": "delgado / fino", "d": "fino de una forma bonita"},
+        "fr": {"w": "fin / mince", "d": "mince d'une façon élégante"}
+      }
+    },
+    {
+      "word": "remind someone of",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/rɪˈmaɪnd ˌsʌmwʌn əv/",
+      "def": "To make you think of a person, place or time from the past.",
+      "example": "This watch reminds me of the summer holidays I used to spend with my grandfather.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُذكِّر بـ", "d": "أن يجعلك تفكر في شخص أو مكان أو وقت من الماضي"},
+        "zh": {"w": "使想起", "d": "让你想起过去的人、地方或时光"},
+        "de": {"w": "erinnern an", "d": "dich an eine Person, einen Ort oder eine Zeit von früher denken lassen"},
+        "es": {"w": "recordar a", "d": "hacerte pensar en una persona, un lugar o un momento del pasado"},
+        "fr": {"w": "rappeler", "d": "te faire penser à une personne, un lieu ou un moment du passé"}
+      }
+    },
+    {
+      "word": "belong to",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/bɪˈlɒŋ tə/",
+      "def": "To be owned by someone.",
+      "example": "This ring used to belong to my grandmother.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يخُصّ / يعود إلى", "d": "أن يكون ملكاً لشخص ما"},
+        "zh": {"w": "属于", "d": "是某人的东西"},
+        "de": {"w": "gehören", "d": "im Besitz von jemandem sein"},
+        "es": {"w": "pertenecer a", "d": "ser de alguien"},
+        "fr": {"w": "appartenir à", "d": "être à quelqu'un"}
+      }
+    },
+    {
+      "word": "for ages",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/fər ˈeɪdʒɪz/",
+      "def": "For a very long time.",
+      "example": "I've had this bag for ages, but I still love it.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "منذ زمن طويل", "d": "لمدة طويلة جداً"},
+        "zh": {"w": "很久", "d": "很长一段时间"},
+        "de": {"w": "seit Ewigkeiten", "d": "schon sehr lange"},
+        "es": {"w": "desde hace siglos / mucho tiempo", "d": "durante muchísimo tiempo"},
+        "fr": {"w": "depuis une éternité", "d": "depuis très longtemps"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Present perfect simple and continuous (How long? / How much? / How many?)",
+      "explain": "Use the present perfect continuous (have been + -ing) to say how long an activity has continued until now. Use the present perfect simple (have + past participle) for results: how much or how many. State verbs like know, have, own and like usually stay in the simple form, even with 'How long?'.",
+      "explain_ar": "نستخدم المضارع التام المستمر (have been + الفعل مع ing) لنقول منذ متى يستمر نشاط ما حتى الآن. ونستخدم المضارع التام البسيط (have + التصريف الثالث) للنتائج، أي للسؤال عن الكمية أو العدد (How much / How many). أما أفعال الحالة مثل know وhave وown وlike فتبقى عادة في الصيغة البسيطة حتى مع How long.",
+      "form": [
+        "How long + have/has + subject + been + verb-ing? (an activity that continues)",
+        "How much / How many + have/has + subject + past participle? (a result)",
+        "State verbs (know, have, own, like, love, belong): have/has + past participle, even with How long",
+        "for + a period of time (for ages, for three hours) / since + a starting point (since 2019, since I was ten)"
+      ],
+      "examples": [
+        {"en": "How long have you known your wife? I've known her for ages.", "note": "'Know' is a state verb, so we don't say 'have been knowing'."},
+        {"en": "I've had this watch since I was ten.", "note": "'Have' (own) is a state verb: present perfect simple."},
+        {"en": "I've been learning English for two years.", "note": "An activity that started in the past and is still going on."},
+        {"en": "How many photos have you taken with your new phone?", "note": "How many = a result, so present perfect simple."},
+        {"en": "She's been using the same phone for five years.", "note": "How long = the activity continues, so present perfect continuous."}
+      ],
+      "mistakes": [
+        {"wrong": "How long did you know your wife?", "right": "How long have you known your wife?", "why": "You still know her now, so use the present perfect, not the past simple."},
+        {"wrong": "I've been knowing her for ages.", "right": "I've known her for ages.", "why": "'Know' is a state verb. It doesn't usually take -ing."},
+        {"wrong": "I have this watch since 2015.", "right": "I've had this watch since 2015.", "why": "With 'since' and 'for' about time until now, use the present perfect."},
+        {"wrong": "I've been taking 200 photos today.", "right": "I've taken 200 photos today.", "why": "A number (how many) is a result: use the present perfect simple."}
+      ],
+      "quiz": [
+        {"q": "How long ___ your best friend?", "options": ["have you known", "have you been knowing", "did you know"], "answer": 0, "why": "'Know' is a state verb, and the friendship continues now: present perfect simple."},
+        {"q": "I ___ for this bus for forty minutes!", "options": ["have been waiting", "have waited", "wait"], "answer": 0, "why": "How long an activity has continued: present perfect continuous."},
+        {"q": "How many cups of coffee ___ today?", "options": ["have you had", "have you been having", "are you having"], "answer": 0, "why": "How many = a result: present perfect simple."},
+        {"q": "My grandmother has had this ring ___ 1975.", "options": ["since", "for", "from"], "answer": 0, "why": "Use 'since' with a starting point in time."},
+        {"q": "I've owned this car ___ ages.", "options": ["for", "since", "during"], "answer": 0, "why": "Use 'for' with a period of time."},
+        {"q": "She looks tired. She ___ all morning.", "options": ["has been studying", "has studied", "studied"], "answer": 0, "why": "A long activity up to now that explains the present result: present perfect continuous."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Well, it's white and very slim.", "use": "Describing the object (facts)"},
+    {"en": "It's got a high-resolution camera.", "use": "Describing the object (facts)"},
+    {"en": "It's also got fingerprint technology.", "use": "Describing the object (facts)"},
+    {"en": "I've had it for ages.", "use": "Saying how long you have owned something"},
+    {"en": "It was given to me by my grandfather.", "use": "Saying where the object came from"},
+    {"en": "It used to belong to ...", "use": "Saying who owned it before"},
+    {"en": "I need it for ...", "use": "Saying what you use it for"},
+    {"en": "It's really important to me because ...", "use": "Explaining why an object matters (feelings)"},
+    {"en": "One thing I'd hate to live without is my ...", "use": "Introducing an important object (feelings)"},
+    {"en": "I just couldn't live without my mobile.", "use": "Saying an object is very important (feelings)"},
+    {"en": "I'd be completely lost without it.", "use": "Saying an object is very important (feelings)"},
+    {"en": "It's got a lot of sentimental value for me.", "use": "Talking about emotional value"},
+    {"en": "It reminds me of the summer holidays I used to spend with him.", "use": "Connecting an object to a memory"}
+  ]
+}

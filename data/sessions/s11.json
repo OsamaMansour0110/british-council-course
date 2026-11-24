@@ -1,0 +1,515 @@
+{
+  "id": 11,
+  "title": "Study Advice",
+  "summary": "We listened to two teachers talking about a student who has problems with speaking. We learned the second conditional for imaginary situations and used 'If I were you, I would...' to give advice. Then we shared study tips for learners of English.",
+  "source": "ARS_B1_08_I039CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "paraphrase",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈpærəfreɪz/",
+      "def": "To say what someone said or wrote again, using different words.",
+      "example": "If you forget a word, try to paraphrase it by describing what it does.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُعيد الصياغة", "d": "أن تقول ما قيل أو كُتب مرة أخرى بكلمات مختلفة"},
+        "zh": {"w": "改述 / 换个说法", "d": "用不同的词再说一遍别人说过或写过的内容"},
+        "de": {"w": "umschreiben", "d": "etwas Gesagtes oder Geschriebenes mit anderen Worten wiedergeben"},
+        "es": {"w": "parafrasear", "d": "decir lo que alguien dijo o escribió con otras palabras"},
+        "fr": {"w": "reformuler / paraphraser", "d": "redire ce que quelqu'un a dit ou écrit avec d'autres mots"}
+      }
+    },
+    {
+      "word": "lack of confidence",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˌlæk əv ˈkɒnfɪdəns/",
+      "def": "Not believing that you can do things well.",
+      "example": "Maggie thinks the student's real problem is a lack of confidence, not his English.",
+      "opposite": "self-confidence",
+      "tr": {
+        "ar": {"w": "قلة الثقة بالنفس", "d": "ألّا تؤمن بأنك قادر على فعل الأشياء جيداً"},
+        "zh": {"w": "缺乏自信", "d": "不相信自己能把事情做好"},
+        "de": {"w": "mangelndes Selbstvertrauen", "d": "nicht daran glauben, dass man etwas gut kann"},
+        "es": {"w": "falta de confianza", "d": "no creer que puedes hacer las cosas bien"},
+        "fr": {"w": "manque de confiance en soi", "d": "ne pas croire qu'on peut bien faire les choses"}
+      }
+    },
+    {
+      "word": "essential",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪˈsenʃəl/",
+      "def": "Very important and necessary; you cannot do without it.",
+      "example": "Maggie says that making mistakes is an essential part of learning.",
+      "opposite": "unnecessary",
+      "tr": {
+        "ar": {"w": "ضروري / أساسي", "d": "مهم جداً ولا يمكن الاستغناء عنه"},
+        "zh": {"w": "必不可少的", "d": "非常重要，不能没有"},
+        "de": {"w": "wesentlich / unverzichtbar", "d": "sehr wichtig, man kann nicht darauf verzichten"},
+        "es": {"w": "esencial", "d": "muy importante y necesario; no se puede prescindir de ello"},
+        "fr": {"w": "essentiel", "d": "très important et nécessaire ; on ne peut pas s'en passer"}
+      }
+    },
+    {
+      "word": "translate",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/trænzˈleɪt/",
+      "def": "To change words from one language into another language.",
+      "example": "He translates every sentence from his native language, so he speaks very slowly.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُترجم", "d": "أن تنقل الكلمات من لغة إلى لغة أخرى"},
+        "zh": {"w": "翻译", "d": "把一种语言的话变成另一种语言"},
+        "de": {"w": "übersetzen", "d": "Wörter von einer Sprache in eine andere bringen"},
+        "es": {"w": "traducir", "d": "pasar palabras de un idioma a otro"},
+        "fr": {"w": "traduire", "d": "faire passer des mots d'une langue à une autre"}
+      }
+    },
+    {
+      "word": "native language",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˌneɪtɪv ˈlæŋɡwɪdʒ/",
+      "def": "The first language you learned as a child.",
+      "example": "Try to think in English instead of in your native language.",
+      "opposite": "foreign language",
+      "tr": {
+        "ar": {"w": "اللغة الأم", "d": "أول لغة تعلّمتها وأنت طفل"},
+        "zh": {"w": "母语", "d": "你小时候学会的第一种语言"},
+        "de": {"w": "Muttersprache", "d": "die erste Sprache, die man als Kind gelernt hat"},
+        "es": {"w": "lengua materna", "d": "el primer idioma que aprendiste de niño"},
+        "fr": {"w": "langue maternelle", "d": "la première langue qu'on a apprise enfant"}
+      }
+    },
+    {
+      "word": "identify",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/aɪˈdentɪfaɪ/",
+      "def": "To find and say what something is, for example the cause of a problem.",
+      "example": "If I had this problem, I would try to identify the reason first.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُحدِّد / يتعرّف على", "d": "أن تكتشف ما هو الشيء وتسمّيه، مثل سبب مشكلة"},
+        "zh": {"w": "找出 / 确定", "d": "找到并说出某事是什么，例如问题的原因"},
+        "de": {"w": "feststellen / erkennen", "d": "herausfinden und benennen, was etwas ist, z. B. die Ursache eines Problems"},
+        "es": {"w": "identificar", "d": "descubrir y decir qué es algo, por ejemplo la causa de un problema"},
+        "fr": {"w": "identifier", "d": "trouver et dire ce qu'est quelque chose, par exemple la cause d'un problème"}
+      }
+    },
+    {
+      "word": "imaginary",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪˈmædʒɪnəri/",
+      "def": "Not real; it exists only in your mind.",
+      "example": "The second conditional talks about imaginary situations, like having a time machine.",
+      "opposite": "real",
+      "tr": {
+        "ar": {"w": "خيالي", "d": "غير حقيقي، موجود في ذهنك فقط"},
+        "zh": {"w": "想象的 / 虚构的", "d": "不是真的，只存在于你的脑子里"},
+        "de": {"w": "ausgedacht / imaginär", "d": "nicht echt, existiert nur im Kopf"},
+        "es": {"w": "imaginario", "d": "que no es real; solo existe en tu mente"},
+        "fr": {"w": "imaginaire", "d": "qui n'est pas réel ; qui existe seulement dans la tête"}
+      }
+    },
+    {
+      "word": "stressed out",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌstrest ˈaʊt/",
+      "def": "Very worried and tense because you have too much to do.",
+      "example": "I'm stressed out because I have three exams this week.",
+      "opposite": "relaxed",
+      "tr": {
+        "ar": {"w": "متوتّر / مضغوط", "d": "قلق ومشدود الأعصاب جداً لأن لديك الكثير لتفعله"},
+        "zh": {"w": "压力很大的", "d": "因为要做的事太多而非常焦虑紧张"},
+        "de": {"w": "gestresst", "d": "sehr besorgt und angespannt, weil man zu viel zu tun hat"},
+        "es": {"w": "estresado", "d": "muy preocupado y tenso porque tienes demasiado que hacer"},
+        "fr": {"w": "stressé", "d": "très inquiet et tendu parce qu'on a trop de choses à faire"}
+      }
+    },
+    {
+      "word": "fluency",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfluːənsi/",
+      "def": "The ability to speak a language easily, without stopping a lot.",
+      "example": "Speaking English every day with friends will improve your fluency.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الطلاقة", "d": "القدرة على التحدث بلغة بسهولة ومن دون توقف كثير"},
+        "zh": {"w": "流利", "d": "能轻松地说一种语言，不常停顿"},
+        "de": {"w": "Sprachfluss / flüssiges Sprechen", "d": "die Fähigkeit, eine Sprache leicht und ohne viele Pausen zu sprechen"},
+        "es": {"w": "fluidez", "d": "la capacidad de hablar un idioma con facilidad, sin pararse mucho"},
+        "fr": {"w": "aisance / fluidité", "d": "la capacité de parler une langue facilement, sans s'arrêter souvent"}
+      }
+    },
+    {
+      "word": "overcome",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˌəʊvəˈkʌm/",
+      "def": "To deal with a problem or a fear successfully.",
+      "example": "Joining a speaking club helped her overcome her fear of speaking English.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتغلّب على", "d": "أن تتعامل مع مشكلة أو خوف بنجاح"},
+        "zh": {"w": "克服", "d": "成功地解决问题或战胜恐惧"},
+        "de": {"w": "überwinden", "d": "ein Problem oder eine Angst erfolgreich bewältigen"},
+        "es": {"w": "superar", "d": "resolver con éxito un problema o un miedo"},
+        "fr": {"w": "surmonter", "d": "réussir à faire face à un problème ou à une peur"}
+      }
+    },
+    {
+      "word": "promotion",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/prəˈməʊʃən/",
+      "def": "A move to a higher, better job in the same company.",
+      "example": "Are you studying English to get a promotion?",
+      "opposite": "demotion",
+      "tr": {
+        "ar": {"w": "ترقية", "d": "الانتقال إلى وظيفة أعلى وأفضل في نفس الشركة"},
+        "zh": {"w": "升职", "d": "在同一家公司里升到更高更好的职位"},
+        "de": {"w": "Beförderung", "d": "der Aufstieg zu einer höheren, besseren Stelle in derselben Firma"},
+        "es": {"w": "ascenso", "d": "pasar a un puesto más alto y mejor en la misma empresa"},
+        "fr": {"w": "promotion", "d": "le passage à un poste plus élevé dans la même entreprise"}
+      }
+    },
+    {
+      "word": "speaking club",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˈspiːkɪŋ klʌb/",
+      "def": "A group that meets regularly to practise speaking a language.",
+      "example": "Do you go to a speaking club regularly?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نادي المحادثة", "d": "مجموعة تلتقي بانتظام لممارسة التحدث بلغة ما"},
+        "zh": {"w": "口语俱乐部 / 英语角", "d": "定期聚会练习说外语的小组"},
+        "de": {"w": "Konversationsclub", "d": "eine Gruppe, die sich regelmäßig trifft, um das Sprechen zu üben"},
+        "es": {"w": "club de conversación", "d": "un grupo que se reúne con regularidad para practicar un idioma hablando"},
+        "fr": {"w": "club de conversation", "d": "un groupe qui se réunit souvent pour pratiquer l'oral d'une langue"}
+      }
+    },
+    {
+      "word": "excerpt",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈeksɜːpt/",
+      "def": "A short part taken from a longer text, film or recording.",
+      "example": "Listen to the excerpts from the conversation and complete the sentences.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مقتطف / مقطع", "d": "جزء قصير مأخوذ من نص أو فيلم أو تسجيل أطول"},
+        "zh": {"w": "摘录 / 片段", "d": "从较长的文章、电影或录音中取出的一小段"},
+        "de": {"w": "Auszug", "d": "ein kurzer Teil aus einem längeren Text, Film oder einer Aufnahme"},
+        "es": {"w": "fragmento / extracto", "d": "una parte corta de un texto, una película o una grabación más larga"},
+        "fr": {"w": "extrait", "d": "une courte partie d'un texte, d'un film ou d'un enregistrement plus long"}
+      }
+    },
+    {
+      "word": "prediction",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/prɪˈdɪkʃən/",
+      "def": "What you think will happen, before it happens.",
+      "example": "Listen to the two teachers. Were your predictions correct?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "توقُّع / تنبُّؤ", "d": "ما تظن أنه سيحدث قبل أن يحدث"},
+        "zh": {"w": "预测", "d": "在事情发生之前你认为会发生什么"},
+        "de": {"w": "Vorhersage / Vermutung", "d": "was man glaubt, dass passieren wird, bevor es passiert"},
+        "es": {"w": "predicción", "d": "lo que crees que va a pasar, antes de que pase"},
+        "fr": {"w": "prédiction / hypothèse", "d": "ce qu'on pense qu'il va se passer, avant que ça arrive"}
+      }
+    },
+    {
+      "word": "hypothetical",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌhaɪpəˈθetɪkəl/",
+      "def": "About a situation that is imagined, not real.",
+      "example": "'What would you do if you had a time machine?' is a hypothetical question.",
+      "opposite": "real",
+      "tr": {
+        "ar": {"w": "افتراضي", "d": "يتعلّق بموقف متخيَّل وليس حقيقياً"},
+        "zh": {"w": "假设的", "d": "关于想象出来的、不是真实的情况"},
+        "de": {"w": "hypothetisch", "d": "über eine Situation, die man sich nur vorstellt"},
+        "es": {"w": "hipotético", "d": "sobre una situación imaginada, no real"},
+        "fr": {"w": "hypothétique", "d": "à propos d'une situation imaginée, pas réelle"}
+      }
+    },
+    {
+      "word": "complain",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/kəmˈpleɪn/",
+      "def": "To say that you are unhappy or angry about something.",
+      "example": "My colleague complains a lot. What would you do?",
+      "opposite": "praise",
+      "tr": {
+        "ar": {"w": "يشتكي / يتذمّر", "d": "أن تقول إنك غير راضٍ أو غاضب من شيء"},
+        "zh": {"w": "抱怨", "d": "说你对某事不满意或生气"},
+        "de": {"w": "sich beschweren", "d": "sagen, dass man mit etwas unzufrieden oder verärgert ist"},
+        "es": {"w": "quejarse", "d": "decir que no estás contento o que estás enfadado por algo"},
+        "fr": {"w": "se plaindre", "d": "dire qu'on n'est pas content ou qu'on est fâché à cause de quelque chose"}
+      }
+    },
+    {
+      "word": "If I were you",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ɪf ˌaɪ ˈwɜː juː/",
+      "def": "Words we use before we give someone advice.",
+      "example": "If I were you, I would join a sports club.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لو كنتُ مكانك", "d": "عبارة نقولها قبل أن نعطي شخصاً نصيحة"},
+        "zh": {"w": "如果我是你", "d": "给别人建议之前说的话"},
+        "de": {"w": "Wenn ich du wäre", "d": "Worte, die man sagt, bevor man jemandem einen Rat gibt"},
+        "es": {"w": "Yo que tú / Si yo fuera tú", "d": "palabras que decimos antes de dar un consejo"},
+        "fr": {"w": "À ta place / Si j'étais toi", "d": "des mots qu'on dit avant de donner un conseil"}
+      }
+    },
+    {
+      "word": "tip",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/tɪp/",
+      "def": "A small, useful piece of advice.",
+      "example": "In groups, make a list of study tips for people learning English.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نصيحة", "d": "نصيحة صغيرة ومفيدة"},
+        "zh": {"w": "小建议 / 窍门", "d": "一条有用的小建议"},
+        "de": {"w": "Tipp", "d": "ein kleiner, nützlicher Rat"},
+        "es": {"w": "consejo", "d": "un consejo pequeño y útil"},
+        "fr": {"w": "conseil / astuce", "d": "un petit conseil utile"}
+      }
+    },
+    {
+      "word": "confidence",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkɒnfɪdəns/",
+      "def": "The feeling that you can do things well.",
+      "example": "Speaking in small groups first can help you build your confidence.",
+      "opposite": "self-doubt",
+      "tr": {
+        "ar": {"w": "الثقة بالنفس", "d": "الشعور بأنك قادر على فعل الأشياء جيداً"},
+        "zh": {"w": "自信", "d": "觉得自己能把事情做好的感觉"},
+        "de": {"w": "Selbstvertrauen", "d": "das Gefühl, dass man Dinge gut kann"},
+        "es": {"w": "confianza", "d": "la sensación de que puedes hacer las cosas bien"},
+        "fr": {"w": "confiance en soi", "d": "le sentiment qu'on peut bien faire les choses"}
+      }
+    },
+    {
+      "word": "underlying reason",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˌʌndəˌlaɪɪŋ ˈriːzən/",
+      "def": "The real cause of a problem, which is often hidden.",
+      "example": "He makes mistakes, but the underlying reason is that he is afraid to speak.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "السبب الكامن / الحقيقي", "d": "السبب الحقيقي لمشكلة ما، وغالباً يكون غير ظاهر"},
+        "zh": {"w": "根本原因", "d": "问题真正的原因，常常是看不见的"},
+        "de": {"w": "eigentlicher Grund", "d": "die wirkliche Ursache eines Problems, die oft versteckt ist"},
+        "es": {"w": "razón de fondo", "d": "la causa real de un problema, que muchas veces no se ve"},
+        "fr": {"w": "raison profonde", "d": "la vraie cause d'un problème, souvent cachée"}
+      }
+    },
+    {
+      "word": "acquire",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/əˈkwaɪə/",
+      "def": "To slowly learn or get a skill or a language.",
+      "example": "Children acquire their first language by listening, not by studying grammar.",
+      "opposite": "lose",
+      "tr": {
+        "ar": {"w": "يكتسب", "d": "أن تتعلّم أو تحصل على مهارة أو لغة تدريجياً"},
+        "zh": {"w": "习得 / 获得", "d": "慢慢学会或得到一种技能或语言"},
+        "de": {"w": "erwerben / sich aneignen", "d": "eine Fähigkeit oder eine Sprache nach und nach lernen"},
+        "es": {"w": "adquirir", "d": "aprender o conseguir poco a poco una habilidad o un idioma"},
+        "fr": {"w": "acquérir", "d": "apprendre ou obtenir peu à peu une compétence ou une langue"}
+      }
+    },
+    {
+      "word": "have a seat",
+      "pos": "phrase",
+      "level": "A2",
+      "ipa": "/ˌhæv ə ˈsiːt/",
+      "def": "A polite way to ask someone to sit down.",
+      "example": "Come in, John. Have a seat. What's the problem?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تفضّل بالجلوس", "d": "طريقة مهذّبة لتطلب من شخص أن يجلس"},
+        "zh": {"w": "请坐", "d": "礼貌地请别人坐下"},
+        "de": {"w": "Nimm Platz", "d": "eine höfliche Art, jemanden zu bitten, sich zu setzen"},
+        "es": {"w": "Toma asiento / Siéntate", "d": "una forma educada de pedir a alguien que se siente"},
+        "fr": {"w": "Prenez place / Assieds-toi", "d": "une façon polie de demander à quelqu'un de s'asseoir"}
+      }
+    },
+    {
+      "word": "life saver",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈlaɪf ˌseɪvə/",
+      "def": "A person or thing that helps you a lot when you are in difficulty.",
+      "example": "Thanks for the advice, Maggie. You're a life saver!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُنقِذ", "d": "شخص أو شيء يساعدك كثيراً وأنت في موقف صعب"},
+        "zh": {"w": "救星", "d": "在你遇到困难时帮了大忙的人或东西"},
+        "de": {"w": "Retter in der Not", "d": "jemand oder etwas, der/das sehr hilft, wenn man Probleme hat"},
+        "es": {"w": "salvavidas", "d": "una persona o cosa que te ayuda mucho cuando tienes un problema"},
+        "fr": {"w": "sauveur", "d": "une personne ou une chose qui t'aide beaucoup quand tu as un problème"}
+      }
+    },
+    {
+      "word": "put someone on the spot",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌpʊt ˌsʌmwʌn ɒn ðə ˈspɒt/",
+      "def": "To ask someone a difficult question that they must answer immediately.",
+      "example": "Don't put shy students on the spot in front of the whole class.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُحرِج شخصاً بسؤال مفاجئ", "d": "أن تسأل شخصاً سؤالاً صعباً يجب أن يجيب عنه فوراً"},
+        "zh": {"w": "让某人当场难堪", "d": "问别人一个必须马上回答的难题"},
+        "de": {"w": "jemanden in Verlegenheit bringen", "d": "jemandem eine schwierige Frage stellen, die er sofort beantworten muss"},
+        "es": {"w": "poner a alguien en un aprieto", "d": "hacer a alguien una pregunta difícil que debe contestar enseguida"},
+        "fr": {"w": "mettre quelqu'un sur la sellette", "d": "poser à quelqu'un une question difficile à laquelle il doit répondre tout de suite"}
+      }
+    },
+    {
+      "word": "boost someone's confidence",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌbuːst ˌsʌmwʌnz ˈkɒnfɪdəns/",
+      "def": "To help someone feel more sure that they can do something well.",
+      "example": "Telling him that mistakes are normal will boost his confidence.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يعزّز ثقة شخص بنفسه", "d": "أن تساعد شخصاً على الشعور بأنه قادر على فعل شيء جيداً"},
+        "zh": {"w": "增强某人的信心", "d": "帮助别人更相信自己能做好某事"},
+        "de": {"w": "jemandes Selbstvertrauen stärken", "d": "jemandem helfen, sich sicherer zu fühlen, dass er etwas gut kann"},
+        "es": {"w": "aumentar la confianza de alguien", "d": "ayudar a alguien a sentirse más seguro de que puede hacer algo bien"},
+        "fr": {"w": "redonner confiance à quelqu'un", "d": "aider quelqu'un à se sentir plus sûr de pouvoir bien faire quelque chose"}
+      }
+    },
+    {
+      "word": "round of applause",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌraʊnd əv əˈplɔːz/",
+      "def": "When a group of people clap their hands together to show they liked something.",
+      "example": "Let's give Sarah a round of applause for her great presentation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جولة من التصفيق", "d": "عندما يصفّق مجموعة من الناس معاً إعجاباً بشيء"},
+        "zh": {"w": "一阵掌声", "d": "一群人一起拍手，表示喜欢或称赞"},
+        "de": {"w": "eine Runde Applaus", "d": "wenn viele Leute zusammen klatschen, weil ihnen etwas gefallen hat"},
+        "es": {"w": "un aplauso", "d": "cuando un grupo de personas aplaude a la vez para mostrar que algo le gustó"},
+        "fr": {"w": "une salve d'applaudissements", "d": "quand un groupe de personnes applaudit ensemble pour montrer qu'il a aimé quelque chose"}
+      }
+    },
+    {
+      "word": "world-class",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌwɜːld ˈklɑːs/",
+      "def": "Among the best in the world.",
+      "example": "With hard work and practice, the team became world-class.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "على مستوى عالمي", "d": "من بين الأفضل في العالم"},
+        "zh": {"w": "世界一流的", "d": "属于世界上最好的"},
+        "de": {"w": "Weltklasse-", "d": "unter den Besten der Welt"},
+        "es": {"w": "de talla mundial", "d": "entre los mejores del mundo"},
+        "fr": {"w": "de classe mondiale", "d": "parmi les meilleurs du monde"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Second conditional",
+      "explain": "We use the second conditional to talk about imaginary or unlikely situations in the present or future, and their results. The if-clause uses the past simple, but the meaning is not past.",
+      "explain_ar": "نستخدم الجملة الشرطية الثانية للحديث عن مواقف خيالية أو غير مرجّحة في الحاضر أو المستقبل ونتائجها. نضع الفعل بعد if في الماضي البسيط، لكن المعنى ليس في الماضي، ونستخدم would + الفعل المجرّد في الجملة الرئيسية.",
+      "form": [
+        "If + past simple, would + base verb: If I had more time, I would do it myself.",
+        "would + base verb + if + past simple (no comma): I would do it myself if I had more time.",
+        "could / might + base verb can replace would: If you had a good job, you could save some money.",
+        "Question: What would you do if you found a wallet in the street?"
+      ],
+      "examples": [
+        {"en": "If I had this problem, I would try to identify the reason first.", "note": "Maggie imagines she has John's problem."},
+        {"en": "If the weather was nicer, we would have a picnic.", "note": "The weather is not nice now, so we are not having a picnic."},
+        {"en": "What would you do if you had a time machine?", "note": "An imaginary situation."},
+        {"en": "If you had a good job, you could save some money.", "note": "'could' = would be able to."},
+        {"en": "You would make more friends if you joined a sports club.", "note": "When the if-clause comes second, there is no comma."}
+      ],
+      "mistakes": [
+        {"wrong": "If I would have more time, I would help you.", "right": "If I had more time, I would help you.", "why": "Do not use 'would' in the if-clause. Use the past simple."},
+        {"wrong": "If I had a lot of money, I will buy a big house.", "right": "If I had a lot of money, I would buy a big house.", "why": "An imaginary situation needs 'would', not 'will'."},
+        {"wrong": "If you have the ability not to work, you will not work.", "right": "If you had the ability not to work, you would not work.", "why": "This is imaginary, so use the second conditional: had ... would."},
+        {"wrong": "She would go by plane, if it was cheaper.", "right": "She would go by plane if it was cheaper.", "why": "We only use a comma when the if-clause comes first."}
+      ],
+      "quiz": [
+        {"q": "If the weather ___ nicer, we would have a picnic.", "options": ["is", "was", "would be"], "answer": 1, "why": "Second conditional: if + past simple."},
+        {"q": "She ___ by plane if it was cheaper.", "options": ["would go", "will go", "went"], "answer": 0, "why": "The main clause uses would + base verb."},
+        {"q": "What would you do if you ___ a wallet in the street?", "options": ["find", "would find", "found"], "answer": 2, "why": "The if-clause uses the past simple: found."},
+        {"q": "If you had a good job, you ___ save some money.", "options": ["can", "could", "will"], "answer": 1, "why": "'could' is the past of 'can' and means 'would be able to'."},
+        {"q": "She would look much better if she ___ her hairstyle.", "options": ["changed", "changes", "would change"], "answer": 0, "why": "if + past simple: changed."},
+        {"q": "'If I lived to be 120, I would travel more.' This sentence is about...", "options": ["a real past situation", "an imaginary situation", "a real future plan"], "answer": 1, "why": "The second conditional talks about imaginary situations."}
+      ]
+    },
+    {
+      "title": "Giving advice: If I were you, I would...",
+      "explain": "To give advice, we imagine that we are the other person. We say 'If I were you, I would (not) ...'. In this phrase we use 'were', not 'was'.",
+      "explain_ar": "لإعطاء نصيحة نتخيّل أننا مكان الشخص الآخر، فنقول: If I were you, I would… أو I wouldn't… للنصيحة بعدم فعل شيء. في هذه العبارة نستخدم were وليس was.",
+      "form": [
+        "If I were you, I would / I'd + base verb",
+        "If I were you, I wouldn't + base verb",
+        "I would / I'd + base verb + if I were you."
+      ],
+      "examples": [
+        {"en": "If I were you, I would teach him to paraphrase.", "note": "Maggie's advice to John about his student."},
+        {"en": "If I were you, I wouldn't go out with him.", "note": "Advice not to do something."},
+        {"en": "I'd buy the blue suit if I were you.", "note": "The if-clause can come second."},
+        {"en": "A: I don't have any money. B: If I were you, I would borrow some from a friend.", "note": "Giving advice about a problem."}
+      ],
+      "mistakes": [
+        {"wrong": "If I was you, I would call her.", "right": "If I were you, I would call her.", "why": "In the advice phrase we say 'If I were you'."},
+        {"wrong": "If I were you, I will call her.", "right": "If I were you, I would call her.", "why": "Use 'would', not 'will'."},
+        {"wrong": "If I were you, I would to call her.", "right": "If I were you, I would call her.", "why": "No 'to' after 'would'."}
+      ],
+      "quiz": [
+        {"q": "If I ___ you, I would join a sports club.", "options": ["am", "were", "would be"], "answer": 1, "why": "The fixed phrase is 'If I were you'."},
+        {"q": "If I were you, I ___ go out with him.", "options": ["wouldn't", "won't", "don't"], "answer": 0, "why": "Advice not to do something: wouldn't + base verb."},
+        {"q": "I'm bored. — If I were you, I ___ a new hobby.", "options": ["would start", "would to start", "started"], "answer": 0, "why": "would + base verb, with no 'to'."},
+        {"q": "Which sentence gives advice correctly?", "options": ["If I was you, I will rest.", "If I were you, I would rest.", "If I were you, I rest."], "answer": 1, "why": "If I were you + would + base verb."},
+        {"q": "I'm stressed out. — ___ take a short break if I were you.", "options": ["I'll", "I'd", "I'm"], "answer": 1, "why": "I'd = I would."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "If I were you, I would ...", "use": "Giving advice"},
+    {"en": "If I were you, I wouldn't ...", "use": "Advising someone not to do something"},
+    {"en": "I'd ... if I were you.", "use": "Giving advice (if-clause second)"},
+    {"en": "What would you do if ...?", "use": "Asking about an imaginary situation"},
+    {"en": "If I had this problem, I would try to ...", "use": "Imagining you are in someone's situation"},
+    {"en": "Are you studying English to get a promotion?", "use": "Find someone who... question"},
+    {"en": "Have a seat.", "use": "Inviting someone to sit down"},
+    {"en": "You're a life saver!", "use": "Thanking someone who helped you a lot"},
+    {"en": "Let's give her a round of applause.", "use": "Praising someone in front of a group"},
+    {"en": "Making mistakes is an essential part of learning.", "use": "Encouraging a nervous learner"},
+    {"en": "Which advice do you find the most helpful?", "use": "Comparing ideas in a group"}
+  ]
+}

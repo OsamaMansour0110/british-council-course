@@ -1,0 +1,659 @@
+{
+  "id": 2,
+  "title": "Making Travel Arrangements",
+  "summary": "We talked about booking flights and hotels and learned words for accommodation, flights and hotel services. We practised polite indirect questions, like 'Could you tell me what time the flight leaves?', in a role-play at a travel agent's.",
+  "source": "ARS_B1_02_I027CEU_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "travel agent",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈtrævl ˌeɪdʒənt/",
+      "def": "A person whose job is to plan and book trips for people.",
+      "example": "The travel agent booked me a flight and a hotel in London.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "وكيل سفر", "d": "شخص عمله تنظيم الرحلات وحجزها للناس"},
+        "zh": {"w": "旅行社职员 / 旅游代理", "d": "工作是帮人安排和预订旅行的人"},
+        "de": {"w": "Reisebüromitarbeiter", "d": "eine Person, deren Beruf es ist, Reisen für andere zu planen und zu buchen"},
+        "es": {"w": "agente de viajes", "d": "persona cuyo trabajo es organizar y reservar viajes"},
+        "fr": {"w": "agent de voyages", "d": "personne dont le métier est d'organiser et de réserver des voyages"}
+      }
+    },
+    {
+      "word": "direct flight",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/daɪˌrekt ˈflaɪt/",
+      "def": "A plane journey that goes straight to a place without stopping.",
+      "example": "I always book a direct flight if possible.",
+      "opposite": "connecting flight",
+      "tr": {
+        "ar": {"w": "رحلة مباشرة", "d": "رحلة بالطائرة تذهب إلى المكان مباشرة دون توقف"},
+        "zh": {"w": "直飞航班", "d": "中途不停、直接到达目的地的航班"},
+        "de": {"w": "Direktflug", "d": "ein Flug, der ohne Zwischenstopp direkt ans Ziel geht"},
+        "es": {"w": "vuelo directo", "d": "viaje en avión que va directamente sin paradas"},
+        "fr": {"w": "vol direct", "d": "voyage en avion qui va directement à destination sans escale"}
+      }
+    },
+    {
+      "word": "connecting flight",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/kəˌnektɪŋ ˈflaɪt/",
+      "def": "A second plane you take to finish your journey.",
+      "example": "I find waiting a long time for connecting flights tiring.",
+      "opposite": "direct flight",
+      "tr": {
+        "ar": {"w": "رحلة ربط / رحلة متصلة", "d": "طائرة ثانية تركبها لتكمل رحلتك"},
+        "zh": {"w": "转机航班", "d": "为了到达目的地而换乘的第二班飞机"},
+        "de": {"w": "Anschlussflug", "d": "ein zweiter Flug, den man nimmt, um ans Ziel zu kommen"},
+        "es": {"w": "vuelo de conexión", "d": "segundo avión que tomas para terminar tu viaje"},
+        "fr": {"w": "vol de correspondance", "d": "deuxième avion qu'on prend pour finir son voyage"}
+      }
+    },
+    {
+      "word": "long-haul flight",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌlɒŋ hɔːl ˈflaɪt/",
+      "def": "A plane journey of many hours, often between continents.",
+      "example": "On long-haul flights I prefer to travel overnight.",
+      "opposite": "short-haul flight",
+      "tr": {
+        "ar": {"w": "رحلة طويلة المدى", "d": "رحلة طويلة جداً بالطائرة، غالباً بين القارات"},
+        "zh": {"w": "长途航班", "d": "飞行时间很长的航班，常常跨洲"},
+        "de": {"w": "Langstreckenflug", "d": "ein sehr langer Flug, oft zwischen Kontinenten"},
+        "es": {"w": "vuelo de largo recorrido", "d": "viaje en avión muy largo, a menudo entre continentes"},
+        "fr": {"w": "vol long-courrier", "d": "très long voyage en avion, souvent entre continents"}
+      }
+    },
+    {
+      "word": "overnight",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/ˌəʊvəˈnaɪt/",
+      "def": "During the night.",
+      "example": "We travelled overnight and arrived in Dubai in the morning.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ليلاً / خلال الليل", "d": "في أثناء الليل"},
+        "zh": {"w": "在夜间 / 通宵", "d": "在夜里"},
+        "de": {"w": "über Nacht", "d": "während der Nacht"},
+        "es": {"w": "de noche / durante la noche", "d": "durante la noche"},
+        "fr": {"w": "de nuit / pendant la nuit", "d": "pendant la nuit"}
+      }
+    },
+    {
+      "word": "layover",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈleɪəʊvə/",
+      "def": "A short stop between two flights on a long journey.",
+      "example": "We had a four-hour layover in Istanbul.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "توقّف ترانزيت", "d": "توقف قصير بين رحلتين في سفر طويل"},
+        "zh": {"w": "中途停留", "d": "长途旅行中两段航班之间的短暂停留"},
+        "de": {"w": "Zwischenstopp / Aufenthalt", "d": "eine kurze Pause zwischen zwei Flügen auf einer langen Reise"},
+        "es": {"w": "escala", "d": "parada corta entre dos vuelos en un viaje largo"},
+        "fr": {"w": "escale", "d": "court arrêt entre deux vols pendant un long voyage"}
+      }
+    },
+    {
+      "word": "airline",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈeəlaɪn/",
+      "def": "A company that carries passengers by plane.",
+      "example": "There are some airlines I always avoid using.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "شركة طيران", "d": "شركة تنقل الركاب بالطائرات"},
+        "zh": {"w": "航空公司", "d": "用飞机运送乘客的公司"},
+        "de": {"w": "Fluggesellschaft", "d": "eine Firma, die Passagiere mit dem Flugzeug befördert"},
+        "es": {"w": "aerolínea", "d": "empresa que lleva pasajeros en avión"},
+        "fr": {"w": "compagnie aérienne", "d": "entreprise qui transporte des passagers en avion"}
+      }
+    },
+    {
+      "word": "business class",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbɪznəs klɑːs/",
+      "def": "The more expensive seats on a plane, with more space and better food.",
+      "example": "My manager often travels business class.",
+      "opposite": "economy class",
+      "tr": {
+        "ar": {"w": "درجة رجال الأعمال", "d": "المقاعد الأغلى في الطائرة، فيها مساحة أكبر وطعام أفضل"},
+        "zh": {"w": "商务舱", "d": "飞机上更贵的座位，空间更大，饭菜更好"},
+        "de": {"w": "Businessclass", "d": "die teureren Plätze im Flugzeug mit mehr Platz und besserem Essen"},
+        "es": {"w": "clase business", "d": "los asientos más caros del avión, con más espacio y mejor comida"},
+        "fr": {"w": "classe affaires", "d": "les places plus chères dans l'avion, avec plus d'espace et de meilleurs repas"}
+      }
+    },
+    {
+      "word": "aisle seat",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈaɪl siːt/",
+      "def": "A place to sit next to the narrow path through a plane or train.",
+      "example": "I always ask for an aisle seat so I can stretch my legs.",
+      "opposite": "window seat",
+      "tr": {
+        "ar": {"w": "مقعد بجانب الممر", "d": "مقعد بجانب الممر الضيق في الطائرة أو القطار"},
+        "zh": {"w": "靠过道座位", "d": "飞机或火车上挨着过道的座位"},
+        "de": {"w": "Gangplatz", "d": "ein Sitzplatz am schmalen Gang im Flugzeug oder Zug"},
+        "es": {"w": "asiento de pasillo", "d": "asiento junto al pasillo del avión o del tren"},
+        "fr": {"w": "place côté couloir", "d": "siège à côté de l'allée dans un avion ou un train"}
+      }
+    },
+    {
+      "word": "overhead locker",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌəʊvəhed ˈlɒkə/",
+      "def": "A small cupboard above your head on a plane, for bags.",
+      "example": "Please put your bag in the overhead locker.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "خزانة الأمتعة العلوية", "d": "خزانة صغيرة فوق رأسك في الطائرة لوضع الحقائب"},
+        "zh": {"w": "头顶行李舱", "d": "飞机座位上方放包的小柜子"},
+        "de": {"w": "Gepäckfach", "d": "ein kleines Fach über dem Kopf im Flugzeug für Taschen"},
+        "es": {"w": "compartimento superior", "d": "armario pequeño encima de tu asiento en el avión para las bolsas"},
+        "fr": {"w": "coffre à bagages", "d": "petit placard au-dessus de la tête dans l'avion, pour les sacs"}
+      }
+    },
+    {
+      "word": "boarding pass",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈbɔːdɪŋ pɑːs/",
+      "def": "A card or document you must show to get on a plane.",
+      "example": "Have your passport and boarding pass ready.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بطاقة صعود الطائرة", "d": "بطاقة يجب أن تُظهرها لتركب الطائرة"},
+        "zh": {"w": "登机牌", "d": "上飞机时必须出示的卡片"},
+        "de": {"w": "Bordkarte", "d": "eine Karte, die man zeigen muss, um ins Flugzeug zu steigen"},
+        "es": {"w": "tarjeta de embarque", "d": "tarjeta que tienes que enseñar para subir al avión"},
+        "fr": {"w": "carte d'embarquement", "d": "carte qu'il faut montrer pour monter dans l'avion"}
+      }
+    },
+    {
+      "word": "departure gate",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/dɪˈpɑːtʃə ɡeɪt/",
+      "def": "The place in an airport where you wait and then get on your plane.",
+      "example": "Flight BA155 is now boarding at departure gate 22.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بوابة المغادرة", "d": "المكان في المطار الذي تنتظر فيه ثم تركب الطائرة"},
+        "zh": {"w": "登机口", "d": "机场里等候然后上飞机的地方"},
+        "de": {"w": "Flugsteig / Gate", "d": "der Ort im Flughafen, an dem man wartet und dann einsteigt"},
+        "es": {"w": "puerta de embarque", "d": "lugar del aeropuerto donde esperas y subes al avión"},
+        "fr": {"w": "porte d'embarquement", "d": "endroit de l'aéroport où l'on attend avant de monter dans l'avion"}
+      }
+    },
+    {
+      "word": "flight attendant",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈflaɪt əˌtendənt/",
+      "def": "A person whose job is to look after passengers on a plane.",
+      "example": "The flight attendant brought us some water.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مضيف طيران", "d": "شخص عمله الاهتمام بالركاب في الطائرة"},
+        "zh": {"w": "空乘人员", "d": "在飞机上照顾乘客的工作人员"},
+        "de": {"w": "Flugbegleiter", "d": "eine Person, die sich im Flugzeug um die Passagiere kümmert"},
+        "es": {"w": "auxiliar de vuelo", "d": "persona que atiende a los pasajeros en el avión"},
+        "fr": {"w": "hôtesse de l'air / steward", "d": "personne qui s'occupe des passagers dans l'avion"}
+      }
+    },
+    {
+      "word": "hand luggage",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhænd ˌlʌɡɪdʒ/",
+      "def": "Small bags that you can take with you on the plane.",
+      "example": "Liquids in your hand luggage must be under 100 ml.",
+      "opposite": "checked luggage",
+      "tr": {
+        "ar": {"w": "حقيبة اليد / أمتعة المقصورة", "d": "حقائب صغيرة يمكنك أخذها معك داخل الطائرة"},
+        "zh": {"w": "手提行李", "d": "可以随身带上飞机的小包"},
+        "de": {"w": "Handgepäck", "d": "kleine Taschen, die man mit ins Flugzeug nehmen darf"},
+        "es": {"w": "equipaje de mano", "d": "bolsas pequeñas que puedes llevar contigo en el avión"},
+        "fr": {"w": "bagage à main", "d": "petits sacs qu'on peut garder avec soi dans l'avion"}
+      }
+    },
+    {
+      "word": "luggage allowance",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈlʌɡɪdʒ əˌlaʊəns/",
+      "def": "How many kilos of bags an airline lets you take.",
+      "example": "Could you tell me what the luggage allowance is?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الوزن المسموح للأمتعة", "d": "عدد كيلوغرامات الحقائب التي تسمح لك شركة الطيران بأخذها"},
+        "zh": {"w": "行李限额", "d": "航空公司允许你带的行李重量"},
+        "de": {"w": "Freigepäck", "d": "wie viele Kilo Gepäck die Fluggesellschaft erlaubt"},
+        "es": {"w": "franquicia de equipaje", "d": "cuántos kilos de maletas te permite llevar la aerolínea"},
+        "fr": {"w": "franchise bagages", "d": "le nombre de kilos de bagages que la compagnie autorise"}
+      }
+    },
+    {
+      "word": "arrivals board",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/əˈraɪvlz bɔːd/",
+      "def": "A big screen at an airport that shows when planes will land.",
+      "example": "We checked the arrivals board, and the flight was on time.",
+      "opposite": "departures board",
+      "tr": {
+        "ar": {"w": "لوحة الوصول", "d": "شاشة كبيرة في المطار تُظهر مواعيد هبوط الطائرات"},
+        "zh": {"w": "到达航班显示屏", "d": "机场里显示飞机降落时间的大屏幕"},
+        "de": {"w": "Ankunftstafel", "d": "ein großer Bildschirm im Flughafen, der zeigt, wann Flugzeuge landen"},
+        "es": {"w": "panel de llegadas", "d": "pantalla grande del aeropuerto que muestra cuándo aterrizan los aviones"},
+        "fr": {"w": "tableau des arrivées", "d": "grand écran à l'aéroport qui montre quand les avions atterrissent"}
+      }
+    },
+    {
+      "word": "accommodation",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/əˌkɒməˈdeɪʃn/",
+      "def": "A place where you stay, like a hotel or flat.",
+      "example": "I usually go for budget accommodation when I travel.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مكان الإقامة / سكن", "d": "مكان تقيم فيه، مثل فندق أو شقة"},
+        "zh": {"w": "住宿", "d": "住的地方，比如酒店或公寓"},
+        "de": {"w": "Unterkunft", "d": "ein Ort, an dem man wohnt, z. B. ein Hotel oder eine Wohnung"},
+        "es": {"w": "alojamiento", "d": "lugar donde te quedas, como un hotel o un piso"},
+        "fr": {"w": "hébergement / logement", "d": "endroit où l'on séjourne, comme un hôtel ou un appartement"}
+      }
+    },
+    {
+      "word": "budget accommodation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈbʌdʒɪt əˌkɒməˈdeɪʃn/",
+      "def": "Cheap places to stay, like hostels or small hotels.",
+      "example": "As students, we looked for budget accommodation near the centre.",
+      "opposite": "luxury hotel",
+      "tr": {
+        "ar": {"w": "سكن اقتصادي", "d": "أماكن رخيصة للإقامة، مثل النُّزُل أو الفنادق الصغيرة"},
+        "zh": {"w": "经济型住宿", "d": "便宜的住处，比如青年旅舍或小旅馆"},
+        "de": {"w": "günstige Unterkunft", "d": "billige Übernachtungsmöglichkeiten wie Hostels oder kleine Hotels"},
+        "es": {"w": "alojamiento económico", "d": "sitios baratos para dormir, como albergues u hoteles pequeños"},
+        "fr": {"w": "hébergement bon marché", "d": "endroits pas chers où dormir, comme des auberges ou de petits hôtels"}
+      }
+    },
+    {
+      "word": "hostel",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈhɒstl/",
+      "def": "A cheap place to stay where travellers often share bedrooms.",
+      "example": "We stayed in a hostel and met people from all over the world.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نُزُل / بيت شباب", "d": "مكان رخيص للإقامة يتشارك فيه المسافرون غرف النوم غالباً"},
+        "zh": {"w": "青年旅舍", "d": "便宜的住处，旅客常常合住一间房"},
+        "de": {"w": "Hostel / Jugendherberge", "d": "eine billige Unterkunft, in der Reisende oft Zimmer teilen"},
+        "es": {"w": "albergue / hostal", "d": "sitio barato donde los viajeros suelen compartir habitación"},
+        "fr": {"w": "auberge de jeunesse", "d": "logement pas cher où les voyageurs partagent souvent les chambres"}
+      }
+    },
+    {
+      "word": "self-catering",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌself ˈkeɪtərɪŋ/",
+      "def": "With a kitchen, so you cook your own meals.",
+      "example": "We rented a self-catering flat so we could cook our own food.",
+      "opposite": "all-inclusive",
+      "tr": {
+        "ar": {"w": "بمطبخ خاص (تطهو بنفسك)", "d": "فيه مطبخ لتطهو وجباتك بنفسك"},
+        "zh": {"w": "自炊式的", "d": "有厨房，可以自己做饭"},
+        "de": {"w": "mit Selbstverpflegung", "d": "mit Küche, sodass man selbst kocht"},
+        "es": {"w": "con cocina propia", "d": "con cocina, para que prepares tus propias comidas"},
+        "fr": {"w": "en gestion libre / avec cuisine", "d": "avec une cuisine, pour préparer ses repas soi-même"}
+      }
+    },
+    {
+      "word": "full board",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌfʊl ˈbɔːd/",
+      "def": "A hotel stay with breakfast, lunch and dinner included.",
+      "example": "I never choose full board. Breakfast is the only meal I want included.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إقامة كاملة (ثلاث وجبات)", "d": "إقامة في فندق تشمل الفطور والغداء والعشاء"},
+        "zh": {"w": "全膳（含三餐）", "d": "酒店住宿包含早餐、午餐和晚餐"},
+        "de": {"w": "Vollpension", "d": "ein Hotelaufenthalt mit Frühstück, Mittag- und Abendessen"},
+        "es": {"w": "pensión completa", "d": "estancia en hotel con desayuno, comida y cena incluidos"},
+        "fr": {"w": "pension complète", "d": "séjour à l'hôtel avec petit-déjeuner, déjeuner et dîner compris"}
+      }
+    },
+    {
+      "word": "half board",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌhɑːf ˈbɔːd/",
+      "def": "A hotel stay with breakfast and dinner included.",
+      "example": "We chose half board because we wanted to have lunch in town.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نصف إقامة", "d": "إقامة في فندق تشمل الفطور والعشاء"},
+        "zh": {"w": "半膳（含早晚餐）", "d": "酒店住宿包含早餐和晚餐"},
+        "de": {"w": "Halbpension", "d": "ein Hotelaufenthalt mit Frühstück und Abendessen"},
+        "es": {"w": "media pensión", "d": "estancia en hotel con desayuno y cena incluidos"},
+        "fr": {"w": "demi-pension", "d": "séjour à l'hôtel avec petit-déjeuner et dîner compris"}
+      }
+    },
+    {
+      "word": "all-inclusive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌɔːl ɪnˈkluːsɪv/",
+      "def": "One price pays for your room, all meals, drinks and activities.",
+      "example": "An all-inclusive holiday helps you control your budget.",
+      "opposite": "self-catering",
+      "tr": {
+        "ar": {"w": "شامل كلياً", "d": "سعر واحد يغطي الغرفة وكل الوجبات والمشروبات والأنشطة"},
+        "zh": {"w": "全包的", "d": "一个价格包括房间、所有饭菜、饮料和活动"},
+        "de": {"w": "all-inclusive / alles inklusive", "d": "ein Preis für Zimmer, alle Mahlzeiten, Getränke und Aktivitäten"},
+        "es": {"w": "todo incluido", "d": "un solo precio paga la habitación, todas las comidas, bebidas y actividades"},
+        "fr": {"w": "tout compris", "d": "un seul prix pour la chambre, tous les repas, les boissons et les activités"}
+      }
+    },
+    {
+      "word": "en-suite bathroom",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌɒn ˌswiːt ˈbɑːθruːm/",
+      "def": "A private toilet and shower that is part of your bedroom.",
+      "example": "Every double room has an en-suite bathroom.",
+      "opposite": "shared bathroom",
+      "tr": {
+        "ar": {"w": "حمّام داخلي خاص", "d": "حمّام ودُش خاص بك داخل غرفة نومك"},
+        "zh": {"w": "套间浴室", "d": "卧室里自带的私人卫生间和淋浴"},
+        "de": {"w": "eigenes Bad", "d": "eine private Toilette mit Dusche, die zum Schlafzimmer gehört"},
+        "es": {"w": "baño privado", "d": "aseo y ducha privados dentro de tu habitación"},
+        "fr": {"w": "salle de bains privative", "d": "toilettes et douche privées qui font partie de la chambre"}
+      }
+    },
+    {
+      "word": "facility",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/fəˈsɪləti/",
+      "def": "A place, room or piece of equipment for a special use, like a gym.",
+      "example": "In a hotel, facilities like a gym and sauna are important to me.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مرفق", "d": "مكان أو غرفة أو جهاز لاستخدام خاص، مثل صالة الرياضة"},
+        "zh": {"w": "设施", "d": "有专门用途的地方、房间或设备，比如健身房"},
+        "de": {"w": "Einrichtung", "d": "ein Ort, Raum oder Gerät für einen bestimmten Zweck, z. B. ein Fitnessraum"},
+        "es": {"w": "instalación", "d": "lugar, sala o equipo para un uso especial, como un gimnasio"},
+        "fr": {"w": "équipement / installation", "d": "lieu, salle ou équipement pour un usage précis, comme une salle de sport"}
+      }
+    },
+    {
+      "word": "room service",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈruːm ˌsɜːvɪs/",
+      "def": "When hotel staff bring meals and drinks up to you.",
+      "example": "We were tired, so we ordered soup from room service.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "خدمة الغرف", "d": "عندما يُحضر موظفو الفندق الوجبات والمشروبات إليك"},
+        "zh": {"w": "客房送餐服务", "d": "酒店员工把饭菜和饮料送到你房间"},
+        "de": {"w": "Zimmerservice", "d": "wenn das Hotelpersonal Essen und Getränke zu einem bringt"},
+        "es": {"w": "servicio de habitaciones", "d": "cuando el personal del hotel te sube comida y bebida"},
+        "fr": {"w": "service en chambre", "d": "quand le personnel de l'hôtel vous apporte repas et boissons"}
+      }
+    },
+    {
+      "word": "luggage storage",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈlʌɡɪdʒ ˌstɔːrɪdʒ/",
+      "def": "A safe room where you can leave your bags for a short time.",
+      "example": "Our flight was at night, so we left our cases in the hotel's luggage storage.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "غرفة حفظ الأمتعة", "d": "غرفة آمنة تترك فيها حقائبك لوقت قصير"},
+        "zh": {"w": "行李寄存处", "d": "可以暂时存放行李的安全房间"},
+        "de": {"w": "Gepäckaufbewahrung", "d": "ein sicherer Raum, in dem man seine Taschen kurz lassen kann"},
+        "es": {"w": "consigna", "d": "sala segura donde puedes dejar tus maletas un rato"},
+        "fr": {"w": "consigne à bagages", "d": "pièce sûre où l'on peut laisser ses sacs un moment"}
+      }
+    },
+    {
+      "word": "airport shuttle",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈeəpɔːt ˌʃʌtl/",
+      "def": "A bus that takes travellers between their hotel and the terminal.",
+      "example": "The free airport shuttle leaves every thirty minutes.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حافلة المطار", "d": "حافلة تنقل المسافرين بين الفندق وصالة المطار"},
+        "zh": {"w": "机场班车", "d": "在酒店和航站楼之间接送旅客的巴士"},
+        "de": {"w": "Flughafenshuttle", "d": "ein Bus, der Reisende zwischen Hotel und Terminal fährt"},
+        "es": {"w": "lanzadera del aeropuerto", "d": "autobús que lleva a los viajeros entre el hotel y la terminal"},
+        "fr": {"w": "navette aéroport", "d": "bus qui emmène les voyageurs entre leur hôtel et le terminal"}
+      }
+    },
+    {
+      "word": "vacancy",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈveɪkənsi/",
+      "def": "A free room in a hotel that you can book.",
+      "example": "Sorry, we have no vacancies this weekend.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "غرفة شاغرة", "d": "غرفة فارغة في فندق يمكنك حجزها"},
+        "zh": {"w": "空房", "d": "酒店里可以预订的空房间"},
+        "de": {"w": "freies Zimmer", "d": "ein leeres Hotelzimmer, das man buchen kann"},
+        "es": {"w": "habitación libre", "d": "habitación vacía de un hotel que puedes reservar"},
+        "fr": {"w": "chambre libre", "d": "chambre vide dans un hôtel qu'on peut réserver"}
+      }
+    },
+    {
+      "word": "fully booked",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˌfʊli ˈbʊkt/",
+      "def": "With no rooms, seats or tickets left.",
+      "example": "During the festival, all the hotels in the city were fully booked.",
+      "opposite": "available",
+      "tr": {
+        "ar": {"w": "محجوز بالكامل", "d": "لم يبقَ أي غرف أو مقاعد أو تذاكر"},
+        "zh": {"w": "已订满", "d": "没有剩余的房间、座位或票"},
+        "de": {"w": "ausgebucht", "d": "es gibt keine Zimmer, Plätze oder Karten mehr"},
+        "es": {"w": "completo", "d": "sin habitaciones, asientos ni entradas libres"},
+        "fr": {"w": "complet", "d": "il ne reste plus de chambres, de places ou de billets"}
+      }
+    },
+    {
+      "word": "deposit",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/dɪˈpɒzɪt/",
+      "def": "Money you pay first to keep a room or place for you.",
+      "example": "We paid a non-refundable deposit of 200 pounds.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عربون", "d": "مبلغ تدفعه أولاً ليُحجز لك مكان أو غرفة"},
+        "zh": {"w": "订金 / 押金", "d": "先付的钱，用来为你保留房间或位置"},
+        "de": {"w": "Anzahlung", "d": "Geld, das man vorher zahlt, damit ein Zimmer oder Platz reserviert bleibt"},
+        "es": {"w": "depósito / señal", "d": "dinero que pagas primero para que te guarden una habitación o plaza"},
+        "fr": {"w": "acompte / arrhes", "d": "argent qu'on paie d'abord pour réserver une chambre ou une place"}
+      }
+    },
+    {
+      "word": "non-refundable",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌnɒn rɪˈfʌndəbl/",
+      "def": "If you cancel, you cannot get your money back.",
+      "example": "This ticket is cheaper, but it's non-refundable.",
+      "opposite": "refundable",
+      "tr": {
+        "ar": {"w": "غير قابل للاسترداد", "d": "إذا ألغيت فلن تستعيد أموالك"},
+        "zh": {"w": "不可退款的", "d": "如果取消，钱不能退回"},
+        "de": {"w": "nicht erstattungsfähig", "d": "wenn man storniert, bekommt man das Geld nicht zurück"},
+        "es": {"w": "no reembolsable", "d": "si cancelas, no te devuelven el dinero"},
+        "fr": {"w": "non remboursable", "d": "si on annule, on ne récupère pas son argent"}
+      }
+    },
+    {
+      "word": "free cancellation",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌfriː ˌkænsəˈleɪʃn/",
+      "def": "You can change your mind later and get all your money back.",
+      "example": "I chose a room with free cancellation in case my plans changed.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إلغاء مجاني", "d": "يمكنك أن تغيّر رأيك لاحقاً وتستعيد كل أموالك"},
+        "zh": {"w": "免费取消", "d": "之后改变主意也能拿回全部的钱"},
+        "de": {"w": "kostenlose Stornierung", "d": "man kann es sich später anders überlegen und bekommt alles Geld zurück"},
+        "es": {"w": "cancelación gratuita", "d": "puedes cambiar de idea más tarde y recuperar todo tu dinero"},
+        "fr": {"w": "annulation gratuite", "d": "on peut changer d'avis plus tard et récupérer tout son argent"}
+      }
+    },
+    {
+      "word": "wheelchair accessible",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈwiːltʃeər əkˌsesəbl/",
+      "def": "Easy to enter and use for people who cannot walk.",
+      "example": "The hotel entrance and all the floors are wheelchair accessible.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُهيّأ للكراسي المتحركة", "d": "سهل الدخول والاستخدام للأشخاص الذين لا يستطيعون المشي"},
+        "zh": {"w": "无障碍（可供轮椅使用）", "d": "不能走路的人也容易进出和使用"},
+        "de": {"w": "rollstuhlgerecht", "d": "leicht zugänglich und nutzbar für Menschen, die nicht gehen können"},
+        "es": {"w": "accesible en silla de ruedas", "d": "fácil de entrar y usar para personas que no pueden caminar"},
+        "fr": {"w": "accessible en fauteuil roulant", "d": "facile d'accès et d'utilisation pour les personnes qui ne peuvent pas marcher"}
+      }
+    },
+    {
+      "word": "pet-friendly",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌpet ˈfrendli/",
+      "def": "Happy to let guests bring their dogs or cats.",
+      "example": "We looked for a pet-friendly hotel so our dog could come with us.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُرحّب بالحيوانات الأليفة", "d": "يسمح للضيوف بإحضار كلابهم أو قططهم"},
+        "zh": {"w": "允许携带宠物的", "d": "欢迎客人带狗或猫来"},
+        "de": {"w": "haustierfreundlich", "d": "Gäste dürfen ihre Hunde oder Katzen mitbringen"},
+        "es": {"w": "que admite mascotas", "d": "deja que los clientes traigan a sus perros o gatos"},
+        "fr": {"w": "qui accepte les animaux", "d": "qui permet aux clients de venir avec leur chien ou leur chat"}
+      }
+    },
+    {
+      "word": "flexible",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈfleksəbl/",
+      "def": "Able to change your plans easily.",
+      "example": "I wonder if it'd be cheaper on another date. I'm fairly flexible.",
+      "opposite": "fixed",
+      "tr": {
+        "ar": {"w": "مَرِن", "d": "قادر على تغيير خططك بسهولة"},
+        "zh": {"w": "灵活的", "d": "能轻松改变计划"},
+        "de": {"w": "flexibel", "d": "fähig, seine Pläne leicht zu ändern"},
+        "es": {"w": "flexible", "d": "que puede cambiar sus planes con facilidad"},
+        "fr": {"w": "flexible / souple", "d": "capable de changer ses projets facilement"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Indirect questions",
+      "explain": "Indirect questions are more polite than direct questions. We start with a phrase like 'Could you tell me...' and then use normal sentence word order (subject + verb). We don't use do/does/did, and for yes/no questions we add 'if' or 'whether'.",
+      "explain_ar": "الأسئلة غير المباشرة أكثر تهذيباً من الأسئلة المباشرة. نبدأ بعبارة مثل Could you tell me ثم نستخدم ترتيب الجملة العادية (الفاعل + الفعل). لا نستخدم do / does / did، وفي أسئلة نعم/لا نضيف if أو whether. العبارات التي ليست أسئلة مثل I wonder و I'd like to know تنتهي بنقطة لا بعلامة استفهام.",
+      "form": [
+        "Could / Can you tell me + question word + subject + verb?",
+        "Do you know + if/whether + subject + verb?",
+        "I'd like to know / I wonder + if or question word + subject + verb.",
+        "No do/does/did: What time does it leave? → ...what time it leaves"
+      ],
+      "examples": [
+        {"en": "Could you tell me when you'd like to travel?", "note": "Direct: When would you like to travel?"},
+        {"en": "I wonder if it'd be cheaper on another date.", "note": "Yes/no question → 'if'. No question mark."},
+        {"en": "Can you tell me what time the flight leaves?", "note": "'does' disappears and 'leave' becomes 'leaves'."},
+        {"en": "Do you know if that'll give me enough time?", "note": "Direct: Will that give me enough time?"},
+        {"en": "I'd like to know if you can book me a hotel.", "note": "Statement, so a full stop, not a question mark."}
+      ],
+      "mistakes": [
+        {"wrong": "Could you tell me what time does the flight leave?", "right": "Could you tell me what time the flight leaves?", "why": "Don't use 'does' in an indirect question."},
+        {"wrong": "Can you tell me where is the gate?", "right": "Can you tell me where the gate is?", "why": "Use subject + verb order."},
+        {"wrong": "Do you know is breakfast included?", "right": "Do you know if breakfast is included?", "why": "Yes/no questions need 'if' or 'whether'."},
+        {"wrong": "I wonder if the hotel has a pool?", "right": "I wonder if the hotel has a pool.", "why": "'I wonder' is a statement, so use a full stop."}
+      ],
+      "quiz": [
+        {"q": "Could you tell me how much ___?", "options": ["a single room costs", "does a single room cost", "costs a single room"], "answer": 0, "why": "Subject + verb, no 'does'."},
+        {"q": "Do you know ___ breakfast is included?", "options": ["if", "that", "what"], "answer": 0, "why": "Yes/no question → 'if'."},
+        {"q": "Can you tell me what the luggage allowance ___?", "options": ["is", "does", "be"], "answer": 0, "why": "Normal order: the luggage allowance is."},
+        {"q": "Which sentence is correct?", "options": ["I'd like to know if you have anything cheaper.", "I'd like to know have you got anything cheaper?", "I'd like to know if do you have anything cheaper."], "answer": 0, "why": "if + subject + verb, and a full stop after 'I'd like to know'."},
+        {"q": "Direct: 'Where is the station?' Indirect: 'Could you tell me ___?'", "options": ["where the station is", "where is the station", "where does the station is"], "answer": 0, "why": "The verb goes after the subject."},
+        {"q": "Direct: 'Can I order a vegetarian meal?' Indirect: 'Do you know ___?'", "options": ["if I can order a vegetarian meal", "can I order a vegetarian meal", "if can I order a vegetarian meal"], "answer": 0, "why": "if + subject + verb."}
+      ]
+    },
+    {
+      "title": "Present perfect simple and present perfect continuous",
+      "explain": "Both tenses connect the past and the present. The present perfect simple focuses on the result or what is finished. The present perfect continuous focuses on how long an activity has been going on, and it is often still happening.",
+      "explain_ar": "كلا الزمنين يربطان الماضي بالحاضر. المضارع التام البسيط يركّز على النتيجة أو ما انتهى. أما المضارع التام المستمر فيركّز على مدة استمرار النشاط، وغالباً ما زال مستمراً حتى الآن.",
+      "form": [
+        "Present perfect simple: have/has + past participle (I have booked the hotel.)",
+        "Present perfect continuous: have/has + been + verb-ing (I have been waiting for two hours.)",
+        "for + a period of time (for two hours); since + a point in time (since 9 o'clock)"
+      ],
+      "examples": [
+        {"en": "I've booked the flights and the hotel.", "note": "Finished: the result is important."},
+        {"en": "We've been waiting at the gate for two hours.", "note": "Still waiting: the length of time is important."},
+        {"en": "I've visited London three times.", "note": "How many times → simple."},
+        {"en": "She's been studying English since 2020.", "note": "Started in the past and still happening."}
+      ],
+      "mistakes": [
+        {"wrong": "I am waiting here for two hours.", "right": "I have been waiting here for two hours.", "why": "For an activity from the past until now, use the present perfect continuous."},
+        {"wrong": "I've been visiting Paris three times.", "right": "I've visited Paris three times.", "why": "Use the simple form to say how many times."},
+        {"wrong": "I have been knowing him for years.", "right": "I have known him for years.", "why": "'Know' is a state verb, so we don't use the continuous form."}
+      ],
+      "quiz": [
+        {"q": "I ___ my boarding pass. Here it is.", "options": ["have found", "have been finding", "am finding"], "answer": 0, "why": "Finished result → present perfect simple."},
+        {"q": "We ___ for the shuttle for forty minutes!", "options": ["have been waiting", "have waited three times", "wait"], "answer": 0, "why": "Activity continuing until now → continuous."},
+        {"q": "He ___ to Dubai five times this year.", "options": ["has flown", "has been flying", "is flying"], "answer": 0, "why": "Number of times → simple."},
+        {"q": "They have lived in Cairo ___ 2015.", "options": ["since", "for", "from"], "answer": 0, "why": "'since' + a point in time."},
+        {"q": "I've been studying English ___ four years.", "options": ["for", "since", "during"], "answer": 0, "why": "'for' + a period of time."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Could you tell me when you'd like to travel?", "use": "Travel agent asking politely about dates"},
+    {"en": "I wonder if it'd be cheaper on another date.", "use": "Asking about price politely"},
+    {"en": "I'm fairly flexible.", "use": "Saying you can change your dates"},
+    {"en": "Do you know if that'll give me enough time to get the connecting flight?", "use": "Asking about connections politely"},
+    {"en": "Can you tell me what time the flight leaves?", "use": "Asking about times politely"},
+    {"en": "I'd also like to know if you can book me a hotel.", "use": "Making a polite request"},
+    {"en": "Could you tell me if breakfast is included?", "use": "Asking about a hotel"},
+    {"en": "Could you tell me how much a double room is for two nights?", "use": "Asking about price"},
+    {"en": "Certainly. It's 150.", "use": "Answering a customer politely"},
+    {"en": "I always book a direct flight if possible.", "use": "Talking about your travel preferences"},
+    {"en": "The most important thing for me is the location.", "use": "Saying what matters when choosing a hotel"}
+  ]
+}

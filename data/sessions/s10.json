@@ -1,0 +1,551 @@
+{
+  "id": 10,
+  "title": "Planning Events",
+  "summary": "We read about different team-building events and learned words to describe them. We practised polite ways to interrupt someone and to continue after an interruption, and we planned a team-building event for a company in groups.",
+  "source": "ARB_B1_04_I068CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "team-building",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈtiːm ˌbɪldɪŋ/",
+      "def": "Activities that help people who work together become a better group.",
+      "example": "Our company organises a team-building event every year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "بناء روح الفريق", "d": "أنشطة تساعد الزملاء في العمل على أن يصبحوا مجموعة أفضل"},
+        "zh": {"w": "团队建设", "d": "帮助一起工作的人成为更好集体的活动"},
+        "de": {"w": "Teambuilding", "d": "Aktivitäten, die Kollegen helfen, eine bessere Gruppe zu werden"},
+        "es": {"w": "actividades de equipo / team building", "d": "actividades que ayudan a los compañeros de trabajo a formar un mejor grupo"},
+        "fr": {"w": "team building / cohésion d'équipe", "d": "activités qui aident les collègues à former un meilleur groupe"}
+      }
+    },
+    {
+      "word": "participant",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/pɑːˈtɪsɪpənt/",
+      "def": "A person who takes part in an activity or event.",
+      "example": "There will be forty participants at this year's event.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مشارِك", "d": "شخص يأخذ دوراً في نشاط أو حدث"},
+        "zh": {"w": "参与者", "d": "参加某项活动的人"},
+        "de": {"w": "Teilnehmer", "d": "eine Person, die bei einer Aktivität oder Veranstaltung mitmacht"},
+        "es": {"w": "participante", "d": "persona que toma parte en una actividad o un evento"},
+        "fr": {"w": "participant", "d": "personne qui prend part à une activité ou un événement"}
+      }
+    },
+    {
+      "word": "process",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈprəʊses/",
+      "def": "A series of actions that you do to get a result.",
+      "example": "Boat building helps teams think about processes like decision-making.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عملية / إجراءات", "d": "سلسلة من الخطوات تقوم بها للوصول إلى نتيجة"},
+        "zh": {"w": "过程 / 流程", "d": "为了得到结果而做的一系列行动"},
+        "de": {"w": "Prozess / Ablauf", "d": "eine Reihe von Schritten, um ein Ergebnis zu erreichen"},
+        "es": {"w": "proceso", "d": "serie de acciones que haces para conseguir un resultado"},
+        "fr": {"w": "processus", "d": "suite d'actions qu'on fait pour obtenir un résultat"}
+      }
+    },
+    {
+      "word": "conflict resolution",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈkɒnflɪkt ˌrezəˈluːʃn/",
+      "def": "Solving arguments between people in a calm and fair way.",
+      "example": "The boat race teaches conflict resolution and good communication.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حلّ النزاعات", "d": "حلّ الخلافات بين الناس بطريقة هادئة وعادلة"},
+        "zh": {"w": "冲突解决", "d": "冷静、公平地解决人与人之间的争吵"},
+        "de": {"w": "Konfliktlösung", "d": "Streit zwischen Menschen ruhig und fair lösen"},
+        "es": {"w": "resolución de conflictos", "d": "resolver discusiones entre personas de forma tranquila y justa"},
+        "fr": {"w": "résolution des conflits", "d": "régler les disputes entre personnes de façon calme et juste"}
+      }
+    },
+    {
+      "word": "dynamic",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/daɪˈnæmɪk/",
+      "def": "Very active and full of energy.",
+      "example": "In this dynamic and fast-paced adventure, your group will face one challenge after another.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حيوي / ديناميكي", "d": "نشيط جداً ومليء بالطاقة"},
+        "zh": {"w": "充满活力的", "d": "非常活跃、精力充沛"},
+        "de": {"w": "dynamisch", "d": "sehr aktiv und voller Energie"},
+        "es": {"w": "dinámico", "d": "muy activo y lleno de energía"},
+        "fr": {"w": "dynamique", "d": "très actif et plein d'énergie"}
+      }
+    },
+    {
+      "word": "fast-paced",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌfɑːst ˈpeɪst/",
+      "def": "Happening or moving very quickly.",
+      "example": "The nature park challenge is a fast-paced adventure.",
+      "opposite": "slow",
+      "tr": {
+        "ar": {"w": "سريع الإيقاع", "d": "يحدث أو يتحرك بسرعة كبيرة"},
+        "zh": {"w": "快节奏的", "d": "发生或进行得很快"},
+        "de": {"w": "rasant / schnell", "d": "es passiert alles sehr schnell"},
+        "es": {"w": "de ritmo rápido", "d": "que pasa o se mueve muy deprisa"},
+        "fr": {"w": "au rythme rapide", "d": "qui se passe ou avance très vite"}
+      }
+    },
+    {
+      "word": "challenge",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "def": "Something difficult that tests your strength, skill or ability.",
+      "example": "Your group will face one surprise challenge after another.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تحدٍّ", "d": "شيء صعب يختبر قوتك أو مهارتك أو قدرتك"},
+        "zh": {"w": "挑战", "d": "考验你的力量、技能或能力的难事"},
+        "de": {"w": "Herausforderung", "d": "etwas Schwieriges, das Kraft, Können oder Fähigkeiten testet"},
+        "es": {"w": "reto / desafío", "d": "algo difícil que pone a prueba tu fuerza, habilidad o capacidad"},
+        "fr": {"w": "défi", "d": "chose difficile qui teste ta force, ton habileté ou tes capacités"}
+      }
+    },
+    {
+      "word": "approximately",
+      "pos": "adverb",
+      "level": "B1",
+      "ipa": "/əˈprɒksɪmətli/",
+      "def": "More or less; nearly.",
+      "example": "Each team of approximately four people gets a backpack with supplies.",
+      "opposite": "exactly",
+      "tr": {
+        "ar": {"w": "تقريباً", "d": "أكثر أو أقل قليلاً؛ قريباً من الرقم"},
+        "zh": {"w": "大约", "d": "差不多；接近"},
+        "de": {"w": "ungefähr", "d": "mehr oder weniger; fast"},
+        "es": {"w": "aproximadamente", "d": "más o menos; casi"},
+        "fr": {"w": "environ", "d": "plus ou moins ; presque"}
+      }
+    },
+    {
+      "word": "capitalise on",
+      "pos": "phrasal verb",
+      "level": "C1",
+      "ipa": "/ˈkæpɪtəlaɪz ɒn/",
+      "def": "To use something well so that you get an advantage from it.",
+      "example": "The challenge capitalises on local resources like lakes and bike paths.",
+      "opposite": "waste",
+      "tr": {
+        "ar": {"w": "يستغلّ / يستفيد من", "d": "أن تستخدم شيئاً جيداً لتحصل منه على فائدة"},
+        "zh": {"w": "充分利用", "d": "好好利用某样东西，从中得到好处"},
+        "de": {"w": "nutzen / ausnutzen", "d": "etwas gut einsetzen, um einen Vorteil davon zu haben"},
+        "es": {"w": "aprovechar", "d": "usar bien algo para sacar ventaja"},
+        "fr": {"w": "tirer parti de", "d": "bien utiliser quelque chose pour en tirer un avantage"}
+      }
+    },
+    {
+      "word": "sophisticated",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/səˈfɪstɪkeɪtɪd/",
+      "def": "Clever and well designed, not simple.",
+      "example": "We mix sophisticated problem-solving challenges with outdoor activities.",
+      "opposite": "simple",
+      "tr": {
+        "ar": {"w": "متطوّر / مُتقَن", "d": "ذكي ومصمَّم جيداً وليس بسيطاً"},
+        "zh": {"w": "精巧的 / 复杂精密的", "d": "设计巧妙，不简单"},
+        "de": {"w": "ausgeklügelt / anspruchsvoll", "d": "klug und gut durchdacht, nicht einfach"},
+        "es": {"w": "sofisticado", "d": "inteligente y bien diseñado, no sencillo"},
+        "fr": {"w": "sophistiqué / élaboré", "d": "intelligent et bien conçu, pas simple"}
+      }
+    },
+    {
+      "word": "time management",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈtaɪm ˌmænɪdʒmənt/",
+      "def": "The way you plan and organise your hours so you finish your work.",
+      "example": "The activities test your team's skill and time management.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إدارة الوقت", "d": "طريقة تخطيطك وتنظيمك لساعاتك لتُنهي عملك"},
+        "zh": {"w": "时间管理", "d": "计划和安排自己的时间，把工作做完"},
+        "de": {"w": "Zeitmanagement", "d": "wie man seine Stunden plant und einteilt, um fertig zu werden"},
+        "es": {"w": "gestión del tiempo", "d": "cómo planificas y organizas tus horas para terminar tu trabajo"},
+        "fr": {"w": "gestion du temps", "d": "la façon d'organiser ses heures pour finir son travail"}
+      }
+    },
+    {
+      "word": "customised",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈkʌstəmaɪzd/",
+      "def": "Made or planned for one particular person or group.",
+      "example": "Teams complete a customised series of challenges and puzzles.",
+      "opposite": "standard",
+      "tr": {
+        "ar": {"w": "مُخصَّص / حسب الطلب", "d": "مصنوع أو مُخطَّط لشخص أو مجموعة معيّنة"},
+        "zh": {"w": "定制的", "d": "专门为某个人或某个团体制作或安排的"},
+        "de": {"w": "maßgeschneidert / individuell", "d": "für eine bestimmte Person oder Gruppe gemacht oder geplant"},
+        "es": {"w": "personalizado / a medida", "d": "hecho o planeado para una persona o un grupo concreto"},
+        "fr": {"w": "personnalisé / sur mesure", "d": "fait ou prévu pour une personne ou un groupe précis"}
+      }
+    },
+    {
+      "word": "complex",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈkɒmpleks/",
+      "def": "Difficult to understand or solve because it has many parts.",
+      "example": "City solutions gives teams the chance to solve complex problems.",
+      "opposite": "simple",
+      "tr": {
+        "ar": {"w": "معقّد", "d": "صعب الفهم أو الحل لأن فيه أجزاء كثيرة"},
+        "zh": {"w": "复杂的", "d": "因为部分很多而难以理解或解决"},
+        "de": {"w": "komplex / kompliziert", "d": "schwer zu verstehen oder zu lösen, weil es viele Teile hat"},
+        "es": {"w": "complejo / complicado", "d": "difícil de entender o resolver porque tiene muchas partes"},
+        "fr": {"w": "complexe / compliqué", "d": "difficile à comprendre ou à résoudre car il y a beaucoup d'éléments"}
+      }
+    },
+    {
+      "word": "brainstorm",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈbreɪnstɔːm/",
+      "def": "To share lots of ideas quickly in a group.",
+      "example": "Participants brainstorm, design and construct a boat from start to finish.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتبادل الأفكار (عصف ذهني)", "d": "أن تطرح أفكاراً كثيرة بسرعة مع مجموعة"},
+        "zh": {"w": "集思广益 / 头脑风暴", "d": "在小组里快速提出很多想法"},
+        "de": {"w": "brainstormen", "d": "in einer Gruppe schnell viele Ideen sammeln"},
+        "es": {"w": "hacer una lluvia de ideas", "d": "compartir muchas ideas rápidamente en grupo"},
+        "fr": {"w": "faire un remue-méninges", "d": "partager rapidement beaucoup d'idées en groupe"}
+      }
+    },
+    {
+      "word": "construct",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/kənˈstrʌkt/",
+      "def": "To build something by putting parts together.",
+      "example": "Once constructed, the boats compete in a race.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يبني / يُشيّد", "d": "أن تصنع شيئاً بتركيب أجزائه معاً"},
+        "zh": {"w": "建造 / 搭建", "d": "把部件拼在一起做成东西"},
+        "de": {"w": "bauen", "d": "etwas herstellen, indem man Teile zusammensetzt"},
+        "es": {"w": "construir", "d": "hacer algo uniendo sus partes"},
+        "fr": {"w": "construire", "d": "fabriquer quelque chose en assemblant des pièces"}
+      }
+    },
+    {
+      "word": "decision-making",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/dɪˈsɪʒn ˌmeɪkɪŋ/",
+      "def": "Choosing what to do, especially as a group.",
+      "example": "Good decision-making helped our team finish first.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "اتخاذ القرار", "d": "اختيار ما يجب فعله، خاصة ضمن مجموعة"},
+        "zh": {"w": "决策", "d": "决定要做什么，特别是集体决定"},
+        "de": {"w": "Entscheidungsfindung", "d": "wählen, was man tut, besonders in einer Gruppe"},
+        "es": {"w": "toma de decisiones", "d": "elegir qué hacer, sobre todo en grupo"},
+        "fr": {"w": "prise de décision", "d": "choisir quoi faire, surtout en groupe"}
+      }
+    },
+    {
+      "word": "feedback",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈfiːdbæk/",
+      "def": "Comments about how well someone did something and how to improve.",
+      "example": "The teams pay careful attention to feedback.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تغذية راجعة / ملاحظات", "d": "تعليقات عن مستوى أداء شخص وكيف يتحسّن"},
+        "zh": {"w": "反馈", "d": "关于做得怎么样以及如何改进的意见"},
+        "de": {"w": "Rückmeldung / Feedback", "d": "Kommentare dazu, wie gut jemand etwas gemacht hat und was besser geht"},
+        "es": {"w": "comentarios / retroalimentación", "d": "opiniones sobre lo bien que alguien lo hizo y cómo mejorar"},
+        "fr": {"w": "retour / commentaires", "d": "remarques sur ce qu'on a bien fait et comment s'améliorer"}
+      }
+    },
+    {
+      "word": "orienteering",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌɔːriənˈtɪərɪŋ/",
+      "def": "A sport where you find your way across country with a map and compass.",
+      "example": "We mix problem-solving with biking, hiking and orienteering skills.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "رياضة التوجيه", "d": "رياضة تجد فيها طريقك في الطبيعة باستخدام خريطة وبوصلة"},
+        "zh": {"w": "定向越野", "d": "用地图和指南针在野外找路的运动"},
+        "de": {"w": "Orientierungslauf", "d": "ein Sport, bei dem man mit Karte und Kompass den Weg findet"},
+        "es": {"w": "orientación (deporte)", "d": "deporte en el que encuentras el camino con un mapa y una brújula"},
+        "fr": {"w": "course d'orientation", "d": "sport où l'on trouve son chemin avec une carte et une boussole"}
+      }
+    },
+    {
+      "word": "venture",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/ˈventʃə/",
+      "def": "To go somewhere new, even though it may be a little risky.",
+      "example": "Teams venture into a nearby city centre to find the clues.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُغامر بالذهاب", "d": "أن تذهب إلى مكان جديد حتى لو كان فيه شيء من المخاطرة"},
+        "zh": {"w": "冒险前往", "d": "去一个新的地方，即使有点冒险"},
+        "de": {"w": "sich wagen", "d": "an einen neuen Ort gehen, auch wenn es etwas riskant ist"},
+        "es": {"w": "aventurarse", "d": "ir a un sitio nuevo aunque sea un poco arriesgado"},
+        "fr": {"w": "s'aventurer", "d": "aller dans un endroit nouveau, même si c'est un peu risqué"}
+      }
+    },
+    {
+      "word": "beat the clock",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌbiːt ðə ˈklɒk/",
+      "def": "To finish something before the time ends.",
+      "example": "The teams had to solve the puzzles and beat the clock.",
+      "opposite": "run out of time",
+      "tr": {
+        "ar": {"w": "يسابق الزمن", "d": "أن تُنهي شيئاً قبل انتهاء الوقت"},
+        "zh": {"w": "在时限内完成", "d": "在时间结束前把事情做完"},
+        "de": {"w": "es rechtzeitig schaffen", "d": "etwas fertig machen, bevor die Zeit vorbei ist"},
+        "es": {"w": "ganarle al reloj", "d": "terminar algo antes de que se acabe el tiempo"},
+        "fr": {"w": "finir dans les temps", "d": "terminer quelque chose avant la fin du temps prévu"}
+      }
+    },
+    {
+      "word": "clue",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kluː/",
+      "def": "A piece of information that helps you solve a puzzle.",
+      "example": "Each envelope has a clue that tells you where to go next.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "دليل / تلميح", "d": "معلومة تساعدك على حل لغز"},
+        "zh": {"w": "线索", "d": "帮助你解开谜题的信息"},
+        "de": {"w": "Hinweis", "d": "eine Information, die hilft, ein Rätsel zu lösen"},
+        "es": {"w": "pista", "d": "dato que te ayuda a resolver un enigma"},
+        "fr": {"w": "indice", "d": "information qui aide à résoudre une énigme"}
+      }
+    },
+    {
+      "word": "be outfitted with",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/bi ˈaʊtfɪtɪd wɪð/",
+      "def": "To be given all the things you need for an activity.",
+      "example": "Each team is outfitted with a backpack full of supplies.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُجهَّز بـ", "d": "أن تُعطى كل الأشياء التي تحتاجها لنشاط ما"},
+        "zh": {"w": "配备", "d": "得到做某项活动所需的一切东西"},
+        "de": {"w": "ausgestattet sein mit", "d": "alles bekommen, was man für eine Aktivität braucht"},
+        "es": {"w": "estar equipado con", "d": "recibir todo lo que necesitas para una actividad"},
+        "fr": {"w": "être équipé de", "d": "recevoir tout ce dont on a besoin pour une activité"}
+      }
+    },
+    {
+      "word": "freestanding",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌfriːˈstændɪŋ/",
+      "def": "Not leaning on a wall or held up by anything.",
+      "example": "Teams build the tallest freestanding tower they can with plastic cups.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قائم بذاته", "d": "لا يستند إلى جدار ولا يحمله شيء"},
+        "zh": {"w": "独立式的", "d": "不靠墙，也不用东西支撑"},
+        "de": {"w": "freistehend", "d": "nicht an eine Wand gelehnt und von nichts gehalten"},
+        "es": {"w": "independiente / que se sostiene solo", "d": "que no se apoya en una pared ni nada lo sujeta"},
+        "fr": {"w": "autoportant", "d": "qui ne s'appuie pas sur un mur et que rien ne tient"}
+      }
+    },
+    {
+      "word": "structural stability",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌstrʌktʃərəl stəˈbɪləti/",
+      "def": "How well a building or tower stays strong and does not fall down.",
+      "example": "The Tower of Power teaches balance and structural stability.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الثبات الإنشائي", "d": "مدى قدرة المبنى أو البرج على البقاء قوياً دون أن يسقط"},
+        "zh": {"w": "结构稳定性", "d": "建筑或塔保持牢固、不倒塌的程度"},
+        "de": {"w": "Standfestigkeit", "d": "wie gut ein Gebäude oder Turm stabil bleibt und nicht umfällt"},
+        "es": {"w": "estabilidad estructural", "d": "lo bien que un edificio o una torre se mantiene firme sin caerse"},
+        "fr": {"w": "stabilité structurelle", "d": "la capacité d'un bâtiment ou d'une tour à rester solide sans tomber"}
+      }
+    },
+    {
+      "word": "collapse",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/kəˈlæps/",
+      "def": "To suddenly fall down.",
+      "example": "They placed the sticks carefully so the tower wouldn't collapse.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ينهار", "d": "أن يسقط فجأة"},
+        "zh": {"w": "倒塌", "d": "突然倒下"},
+        "de": {"w": "einstürzen", "d": "plötzlich zusammenfallen"},
+        "es": {"w": "derrumbarse", "d": "caerse de repente"},
+        "fr": {"w": "s'effondrer", "d": "tomber d'un coup"}
+      }
+    },
+    {
+      "word": "synchronised",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈsɪŋkrənaɪzd/",
+      "def": "Happening at exactly the same time and speed.",
+      "example": "The plank walk needs clear communication and synchronised movement.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "متزامن", "d": "يحدث في الوقت نفسه وبالسرعة نفسها تماماً"},
+        "zh": {"w": "同步的", "d": "在完全相同的时间、以相同的速度发生"},
+        "de": {"w": "synchron / aufeinander abgestimmt", "d": "genau zur gleichen Zeit und im gleichen Tempo"},
+        "es": {"w": "sincronizado", "d": "que pasa exactamente al mismo tiempo y a la misma velocidad"},
+        "fr": {"w": "synchronisé", "d": "qui se passe exactement au même moment et à la même vitesse"}
+      }
+    },
+    {
+      "word": "tension",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈtenʃn/",
+      "def": "How tightly a rope or wire is pulled.",
+      "example": "The team holds the ropes under precise tension so the plank stays still.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "شدّ (الحبل)", "d": "مقدار قوة شدّ الحبل أو السلك"},
+        "zh": {"w": "拉力 / 张力", "d": "绳子或金属线被拉紧的程度"},
+        "de": {"w": "Spannung", "d": "wie stark ein Seil oder Draht gezogen wird"},
+        "es": {"w": "tensión", "d": "lo fuerte que se tira de una cuerda o un cable"},
+        "fr": {"w": "tension", "d": "la force avec laquelle on tire sur une corde ou un fil"}
+      }
+    },
+    {
+      "word": "disorganised",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/dɪsˈɔːɡənaɪzd/",
+      "def": "Badly planned, with no clear order.",
+      "example": "Last year's event was too disorganised.",
+      "opposite": "organised",
+      "tr": {
+        "ar": {"w": "غير منظَّم / فوضوي", "d": "مُخطَّط له بشكل سيئ وبلا ترتيب واضح"},
+        "zh": {"w": "杂乱无章的", "d": "计划得很差，没有清楚的顺序"},
+        "de": {"w": "chaotisch / schlecht organisiert", "d": "schlecht geplant, ohne klare Ordnung"},
+        "es": {"w": "desorganizado", "d": "mal planeado, sin un orden claro"},
+        "fr": {"w": "mal organisé / désorganisé", "d": "mal préparé, sans ordre clair"}
+      }
+    },
+    {
+      "word": "injury",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈɪndʒəri/",
+      "def": "Damage to your body, for example in an accident.",
+      "example": "Someone had a serious injury while rock climbing last year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إصابة", "d": "ضرر يلحق بجسمك، مثلاً في حادث"},
+        "zh": {"w": "受伤 / 伤", "d": "身体受到的伤害，比如在事故中"},
+        "de": {"w": "Verletzung", "d": "ein Schaden am Körper, zum Beispiel bei einem Unfall"},
+        "es": {"w": "lesión / herida", "d": "daño en el cuerpo, por ejemplo en un accidente"},
+        "fr": {"w": "blessure", "d": "dommage au corps, par exemple lors d'un accident"}
+      }
+    },
+    {
+      "word": "acquaintance",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/əˈkweɪntəns/",
+      "def": "Someone you know a little, but who is not a close friend.",
+      "example": "He isn't really a friend, just an acquaintance from work.",
+      "opposite": "close friend",
+      "tr": {
+        "ar": {"w": "أحد المعارف", "d": "شخص تعرفه قليلاً لكنه ليس صديقاً مقرّباً"},
+        "zh": {"w": "熟人", "d": "认识但不太熟、不是好朋友的人"},
+        "de": {"w": "Bekannte(r)", "d": "jemand, den man ein bisschen kennt, aber kein enger Freund ist"},
+        "es": {"w": "conocido", "d": "persona que conoces un poco pero no es un amigo cercano"},
+        "fr": {"w": "connaissance", "d": "quelqu'un qu'on connaît un peu, mais qui n'est pas un ami proche"}
+      }
+    },
+    {
+      "word": "interrupt",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "def": "To stop someone while they are speaking.",
+      "example": "Sorry to interrupt you, but when is the event?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يقاطع", "d": "أن توقف شخصاً وهو يتكلم"},
+        "zh": {"w": "打断", "d": "在别人说话时让他停下"},
+        "de": {"w": "unterbrechen", "d": "jemanden stoppen, während er spricht"},
+        "es": {"w": "interrumpir", "d": "parar a alguien mientras está hablando"},
+        "fr": {"w": "interrompre", "d": "arrêter quelqu'un pendant qu'il parle"}
+      }
+    },
+    {
+      "word": "agenda",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/əˈdʒendə/",
+      "def": "A list of things that people will talk about at a meeting.",
+      "example": "The next point on our agenda is this year's team-building event.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "جدول الأعمال", "d": "قائمة بالموضوعات التي سيناقشها الناس في اجتماع"},
+        "zh": {"w": "议程", "d": "会议上要讨论的事项清单"},
+        "de": {"w": "Tagesordnung", "d": "eine Liste der Themen, über die man in einer Besprechung spricht"},
+        "es": {"w": "orden del día", "d": "lista de temas de los que se va a hablar en una reunión"},
+        "fr": {"w": "ordre du jour", "d": "liste des sujets dont on va parler pendant une réunion"}
+      }
+    },
+    {
+      "word": "memo",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈmeməʊ/",
+      "def": "A short written note sent to people in the same company.",
+      "example": "Read the memo your boss has sent and underline the important information.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مذكّرة داخلية", "d": "رسالة قصيرة مكتوبة تُرسَل إلى الموظفين في الشركة نفسها"},
+        "zh": {"w": "备忘录 / 内部通知", "d": "发给同一公司员工的简短书面通知"},
+        "de": {"w": "Mitteilung / Memo", "d": "eine kurze schriftliche Nachricht an Kollegen in der Firma"},
+        "es": {"w": "memorándum / nota interna", "d": "nota corta escrita para la gente de la misma empresa"},
+        "fr": {"w": "note de service", "d": "court message écrit envoyé aux personnes de la même entreprise"}
+      }
+    }
+  ],
+  "grammar": [],
+  "phrases": [
+    {"en": "Sorry to interrupt you, but...", "use": "Interrupting politely"},
+    {"en": "Could I interrupt here?", "use": "Interrupting politely"},
+    {"en": "Do you mind if I say something?", "use": "Interrupting politely"},
+    {"en": "Could I just say something?", "use": "Interrupting politely"},
+    {"en": "Sorry, I just wanted to say...", "use": "Interrupting politely"},
+    {"en": "I have a question.", "use": "Interrupting (can sound rude without polite intonation)"},
+    {"en": "Anyway...", "use": "Continuing after an interruption"},
+    {"en": "Anyway, as I was saying...", "use": "Continuing after an interruption"},
+    {"en": "To get back to what I was saying...", "use": "Continuing after an interruption"},
+    {"en": "So, turning to the next point on our agenda...", "use": "Moving to a new topic in a meeting"},
+    {"en": "What we need to do is decide on...", "use": "Saying what the group must decide"},
+    {"en": "I would prefer to talk about...", "use": "Changing the focus of a discussion politely"}
+  ]
+}

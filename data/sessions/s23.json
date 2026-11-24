@@ -1,0 +1,486 @@
+{
+  "id": 23,
+  "title": "Online Addiction",
+  "summary": "We read the story of Leon, who almost lost his job and family because of online gaming. We learned words for addiction like hooked on, obsessed with and caught up in, and looked at seven signs of internet addiction. Then we planned tips and a programme to help people spend less time online.",
+  "source": "ARB_B1_08_I116CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "condition",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kənˈdɪʃn/",
+      "def": "An illness or health problem that a person has for a long time.",
+      "example": "Internet addiction is a newly recognised medical condition.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حالة مرضية", "d": "مرض أو مشكلة صحية يعاني منها الشخص لفترة طويلة"},
+        "zh": {"w": "病症 / 疾病", "d": "一个人长期患有的疾病或健康问题"},
+        "de": {"w": "Erkrankung / Leiden", "d": "eine Krankheit oder ein Gesundheitsproblem, das man lange hat"},
+        "es": {"w": "afección / trastorno", "d": "enfermedad o problema de salud que alguien tiene durante mucho tiempo"},
+        "fr": {"w": "maladie / trouble", "d": "maladie ou problème de santé qu'on a depuis longtemps"}
+      }
+    },
+    {
+      "word": "dependence",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/dɪˈpendəns/",
+      "def": "When you need something so much that it controls your life.",
+      "example": "Ten per cent of young people in Australia suffer from internet dependence.",
+      "opposite": "independence",
+      "tr": {
+        "ar": {"w": "اعتماد / تعلّق مرضي", "d": "عندما تحتاج شيئاً لدرجة أنه يتحكم في حياتك"},
+        "zh": {"w": "依赖", "d": "非常需要某样东西，以至于它控制了你的生活"},
+        "de": {"w": "Abhängigkeit", "d": "wenn man etwas so sehr braucht, dass es das Leben bestimmt"},
+        "es": {"w": "dependencia", "d": "cuando necesitas tanto algo que controla tu vida"},
+        "fr": {"w": "dépendance", "d": "quand on a tellement besoin de quelque chose que cela contrôle sa vie"}
+      }
+    },
+    {
+      "word": "suffer",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈsʌfə/",
+      "def": "To become worse because something bad is affecting it.",
+      "example": "My university work started to suffer because I played games all night.",
+      "opposite": "improve",
+      "tr": {
+        "ar": {"w": "يتضرّر / يتأثر سلباً", "d": "أن يصبح أسوأ لأن شيئاً سيئاً يؤثر فيه"},
+        "zh": {"w": "受影响 / 变差", "d": "因为受到不好的影响而变差"},
+        "de": {"w": "leiden / schlechter werden", "d": "schlechter werden, weil etwas Schlechtes darauf wirkt"},
+        "es": {"w": "resentirse / empeorar", "d": "empeorar porque algo malo le afecta"},
+        "fr": {"w": "en pâtir / se dégrader", "d": "devenir moins bon parce que quelque chose de mauvais l'affecte"}
+      }
+    },
+    {
+      "word": "addicted to",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/əˈdɪktɪd tə/",
+      "def": "Not able to stop doing or using something that is bad for you.",
+      "example": "Leon became addicted to an online strategy game.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مدمن على", "d": "لا يستطيع التوقف عن فعل أو استخدام شيء مضرّ له"},
+        "zh": {"w": "对……上瘾", "d": "无法停止做或使用对自己有害的东西"},
+        "de": {"w": "süchtig nach", "d": "nicht aufhören können, etwas Schädliches zu tun oder zu nutzen"},
+        "es": {"w": "adicto a", "d": "que no puede dejar de hacer o usar algo que le hace daño"},
+        "fr": {"w": "accro à / dépendant de", "d": "incapable d'arrêter de faire ou d'utiliser quelque chose de nocif"}
+      }
+    },
+    {
+      "word": "obsessed with",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/əbˈsest wɪð/",
+      "def": "Thinking about something too much, all the time.",
+      "example": "Even when he wasn't online, he was obsessed with the game.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مهووس بـ", "d": "يفكر في شيء أكثر من اللازم طوال الوقت"},
+        "zh": {"w": "痴迷于 / 着魔", "d": "总是过多地想着某件事"},
+        "de": {"w": "besessen von", "d": "ständig zu viel an etwas denken"},
+        "es": {"w": "obsesionado con", "d": "que piensa demasiado en algo todo el tiempo"},
+        "fr": {"w": "obsédé par", "d": "qui pense trop à quelque chose, tout le temps"}
+      }
+    },
+    {
+      "word": "hooked on",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/ˈhʊkt ɒn/",
+      "def": "Too interested in something, so you can't stop doing it.",
+      "example": "From the moment I started playing, I was hooked.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مدمن على / متعلّق بـ", "d": "مهتم بشيء أكثر من اللازم فلا تستطيع التوقف عنه"},
+        "zh": {"w": "迷上 / 上瘾", "d": "对某事太感兴趣，停不下来"},
+        "de": {"w": "süchtig nach / verfallen", "d": "zu sehr an etwas interessiert, sodass man nicht aufhören kann"},
+        "es": {"w": "enganchado a", "d": "demasiado interesado en algo, y no puedes dejarlo"},
+        "fr": {"w": "accro à", "d": "trop intéressé par quelque chose, on ne peut plus s'arrêter"}
+      }
+    },
+    {
+      "word": "caught up in",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˌkɔːt ˈʌp ɪn/",
+      "def": "Involved in something, often when you don't want to be.",
+      "example": "I can't risk getting caught up in that world again.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "منغمس في / عالق في", "d": "متورط في شيء، غالباً دون أن ترغب في ذلك"},
+        "zh": {"w": "卷入 / 陷入", "d": "被卷进某事，常常是不情愿的"},
+        "de": {"w": "verstrickt in / hineingezogen", "d": "in etwas verwickelt, oft ohne es zu wollen"},
+        "es": {"w": "atrapado en / metido en", "d": "involucrado en algo, a menudo sin quererlo"},
+        "fr": {"w": "pris dans / entraîné dans", "d": "impliqué dans quelque chose, souvent sans le vouloir"}
+      }
+    },
+    {
+      "word": "psychologist",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/saɪˈkɒlədʒɪst/",
+      "def": "A person trained to help people with problems of the mind and behaviour.",
+      "example": "Leon started seeing a psychologist who helps people with online problems.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أخصائي نفسي", "d": "شخص مُدرَّب لمساعدة الناس في مشاكل العقل والسلوك"},
+        "zh": {"w": "心理学家 / 心理医生", "d": "受过训练、帮助人们解决心理和行为问题的人"},
+        "de": {"w": "Psychologe", "d": "eine ausgebildete Person, die bei Problemen mit Psyche und Verhalten hilft"},
+        "es": {"w": "psicólogo", "d": "persona formada para ayudar con problemas de la mente y la conducta"},
+        "fr": {"w": "psychologue", "d": "personne formée pour aider à régler les problèmes psychologiques et de comportement"}
+      }
+    },
+    {
+      "word": "cyber",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈsaɪbə/",
+      "def": "Connected with computers and the internet.",
+      "example": "The psychologist specialises in cyber problems like gaming addiction.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إلكتروني / سيبراني", "d": "مرتبط بالحواسيب والإنترنت"},
+        "zh": {"w": "网络的", "d": "与电脑和互联网有关的"},
+        "de": {"w": "Cyber- / Internet-", "d": "mit Computern und dem Internet verbunden"},
+        "es": {"w": "ciber- / digital", "d": "relacionado con los ordenadores e internet"},
+        "fr": {"w": "cyber- / numérique", "d": "lié aux ordinateurs et à Internet"}
+      }
+    },
+    {
+      "word": "extreme",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ɪkˈstriːm/",
+      "def": "Very serious; much more than normal.",
+      "example": "Leon's story may seem extreme, but online addiction is common.",
+      "opposite": "mild",
+      "tr": {
+        "ar": {"w": "مُتطرّف / شديد", "d": "خطير جداً؛ أكثر بكثير من الطبيعي"},
+        "zh": {"w": "极端的", "d": "非常严重，远超正常程度"},
+        "de": {"w": "extrem", "d": "sehr ernst; viel mehr als normal"},
+        "es": {"w": "extremo", "d": "muy grave; mucho más de lo normal"},
+        "fr": {"w": "extrême", "d": "très grave ; bien plus que la normale"}
+      }
+    },
+    {
+      "word": "withdrawal",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/wɪðˈdrɔːəl/",
+      "def": "Feeling tired, unhappy and not wanting to talk when you can't do your habit.",
+      "example": "Withdrawal is one sign of addiction: you feel tired and have no energy.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أعراض الانسحاب", "d": "الشعور بالتعب والحزن وعدم الرغبة في الكلام عند الابتعاد عن عادتك"},
+        "zh": {"w": "戒断反应", "d": "不能做习惯的事时感到疲惫、不开心、不想说话"},
+        "de": {"w": "Entzug / Entzugserscheinungen", "d": "Müdigkeit, schlechte Laune und keine Lust zu reden, wenn die Gewohnheit fehlt"},
+        "es": {"w": "síndrome de abstinencia", "d": "sentirse cansado, triste y sin ganas de hablar sin tu hábito"},
+        "fr": {"w": "manque / sevrage", "d": "se sentir fatigué, triste et sans envie de parler sans son habitude"}
+      }
+    },
+    {
+      "word": "glued to",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/ˈɡluːd tə/",
+      "def": "Looking at a screen all the time and not able to stop.",
+      "example": "Many teenagers are glued to their phones all evening.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُلتصق بـ / مُسمَّر أمام", "d": "ينظر إلى الشاشة طوال الوقت ولا يستطيع التوقف"},
+        "zh": {"w": "盯着……不放", "d": "一直盯着屏幕，停不下来"},
+        "de": {"w": "klebt an", "d": "ständig auf einen Bildschirm schauen und nicht aufhören können"},
+        "es": {"w": "pegado a", "d": "mirando una pantalla todo el tiempo sin poder parar"},
+        "fr": {"w": "scotché à / collé à", "d": "regarder un écran tout le temps sans pouvoir arrêter"}
+      }
+    },
+    {
+      "word": "screen time",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈskriːn taɪm/",
+      "def": "The time you spend looking at a phone, computer or TV.",
+      "example": "The plan limits screen time to one hour a day.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "وقت الشاشة", "d": "الوقت الذي تقضيه في النظر إلى الهاتف أو الحاسوب أو التلفاز"},
+        "zh": {"w": "屏幕时间", "d": "看手机、电脑或电视的时间"},
+        "de": {"w": "Bildschirmzeit", "d": "die Zeit, die man auf Handy, Computer oder Fernseher schaut"},
+        "es": {"w": "tiempo de pantalla", "d": "tiempo que pasas mirando el móvil, el ordenador o la tele"},
+        "fr": {"w": "temps d'écran", "d": "le temps passé devant un téléphone, un ordinateur ou la télé"}
+      }
+    },
+    {
+      "word": "log on",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌlɒɡ ˈɒn/",
+      "def": "To start using a computer system or website, often with a password.",
+      "example": "At the end of the week, Leon would log on and play for hours.",
+      "opposite": "log off",
+      "tr": {
+        "ar": {"w": "يسجّل الدخول", "d": "أن تبدأ استخدام نظام حاسوب أو موقع، غالباً بكلمة مرور"},
+        "zh": {"w": "登录", "d": "开始使用电脑系统或网站，通常要输入密码"},
+        "de": {"w": "sich einloggen", "d": "ein Computersystem oder eine Website benutzen, oft mit Passwort"},
+        "es": {"w": "conectarse / iniciar sesión", "d": "empezar a usar un sistema o web, a menudo con contraseña"},
+        "fr": {"w": "se connecter", "d": "commencer à utiliser un système ou un site, souvent avec un mot de passe"}
+      }
+    },
+    {
+      "word": "kill time",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌkɪl ˈtaɪm/",
+      "def": "To do something unimportant while you wait or have nothing to do.",
+      "example": "At first he only played to kill a couple of hours on Friday nights.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يقتل الوقت", "d": "أن تفعل شيئاً غير مهم أثناء الانتظار أو عندما لا يكون لديك ما تفعله"},
+        "zh": {"w": "消磨时间", "d": "等待或无事可做时做些不重要的事"},
+        "de": {"w": "die Zeit totschlagen", "d": "etwas Unwichtiges tun, während man wartet oder nichts zu tun hat"},
+        "es": {"w": "matar el tiempo", "d": "hacer algo sin importancia mientras esperas o no tienes nada que hacer"},
+        "fr": {"w": "tuer le temps", "d": "faire quelque chose sans importance en attendant ou par ennui"}
+      }
+    },
+    {
+      "word": "strategy game",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˈstrætədʒi ɡeɪm/",
+      "def": "A game where you must plan carefully to win.",
+      "example": "Leon played an online strategy game with people around the world.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لعبة استراتيجية", "d": "لعبة يجب أن تخطط فيها بعناية لتفوز"},
+        "zh": {"w": "策略游戏", "d": "需要仔细计划才能赢的游戏"},
+        "de": {"w": "Strategiespiel", "d": "ein Spiel, bei dem man gut planen muss, um zu gewinnen"},
+        "es": {"w": "juego de estrategia", "d": "juego en el que hay que planear bien para ganar"},
+        "fr": {"w": "jeu de stratégie", "d": "jeu où il faut bien planifier pour gagner"}
+      }
+    },
+    {
+      "word": "switch off",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌswɪtʃ ˈɒf/",
+      "def": "To make a machine stop working by pressing a button.",
+      "example": "At first he could switch off the computer and go back to normal life.",
+      "opposite": "switch on",
+      "tr": {
+        "ar": {"w": "يُطفئ", "d": "أن توقف جهازاً عن العمل بالضغط على زر"},
+        "zh": {"w": "关掉", "d": "按按钮让机器停止工作"},
+        "de": {"w": "ausschalten", "d": "ein Gerät per Knopfdruck ausmachen"},
+        "es": {"w": "apagar", "d": "hacer que una máquina deje de funcionar pulsando un botón"},
+        "fr": {"w": "éteindre", "d": "arrêter un appareil en appuyant sur un bouton"}
+      }
+    },
+    {
+      "word": "stay up",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌsteɪ ˈʌp/",
+      "def": "To not go to bed until late at night.",
+      "example": "Sometimes he would stay up all night playing.",
+      "opposite": "go to bed early",
+      "tr": {
+        "ar": {"w": "يسهر", "d": "ألّا تذهب إلى السرير حتى وقت متأخر من الليل"},
+        "zh": {"w": "熬夜", "d": "很晚都不睡觉"},
+        "de": {"w": "aufbleiben", "d": "erst spät in der Nacht ins Bett gehen"},
+        "es": {"w": "quedarse despierto / trasnochar", "d": "no irse a la cama hasta muy tarde"},
+        "fr": {"w": "veiller / rester debout", "d": "ne pas se coucher avant tard dans la nuit"}
+      }
+    },
+    {
+      "word": "feel in control",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌfiːl ɪn kənˈtrəʊl/",
+      "def": "To feel that you can decide what happens in your life.",
+      "example": "In the game, all his problems disappeared and he felt in control.",
+      "opposite": "feel helpless",
+      "tr": {
+        "ar": {"w": "يشعر بالسيطرة", "d": "أن تشعر أنك تستطيع أن تقرر ما يحدث في حياتك"},
+        "zh": {"w": "感觉一切在掌控中", "d": "觉得自己能决定生活中发生的事"},
+        "de": {"w": "sich unter Kontrolle fühlen", "d": "das Gefühl haben, selbst über sein Leben zu bestimmen"},
+        "es": {"w": "sentir que tienes el control", "d": "sentir que puedes decidir lo que pasa en tu vida"},
+        "fr": {"w": "se sentir maître de la situation", "d": "sentir qu'on peut décider de ce qui arrive dans sa vie"}
+      }
+    },
+    {
+      "word": "overtime",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈəʊvətaɪm/",
+      "def": "Extra time that you work after your normal working hours.",
+      "example": "He lied to his wife and told her he was doing overtime.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عمل إضافي", "d": "وقت إضافي تعمله بعد ساعات عملك العادية"},
+        "zh": {"w": "加班", "d": "正常工作时间之后额外工作的时间"},
+        "de": {"w": "Überstunden", "d": "zusätzliche Arbeitszeit nach den normalen Arbeitsstunden"},
+        "es": {"w": "horas extra", "d": "tiempo que trabajas además de tu horario normal"},
+        "fr": {"w": "heures supplémentaires", "d": "temps de travail en plus des heures normales"}
+      }
+    },
+    {
+      "word": "concentrate",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈkɒnsntreɪt/",
+      "def": "To give all your attention to what you are doing.",
+      "example": "He was so tired that he couldn't concentrate at work.",
+      "opposite": "get distracted",
+      "tr": {
+        "ar": {"w": "يركّز", "d": "أن تعطي كل انتباهك لما تفعله"},
+        "zh": {"w": "集中注意力", "d": "把全部注意力放在正在做的事情上"},
+        "de": {"w": "sich konzentrieren", "d": "seine ganze Aufmerksamkeit auf das richten, was man tut"},
+        "es": {"w": "concentrarse", "d": "poner toda tu atención en lo que haces"},
+        "fr": {"w": "se concentrer", "d": "porter toute son attention sur ce qu'on fait"}
+      }
+    },
+    {
+      "word": "help out",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌhelp ˈaʊt/",
+      "def": "To do some work for someone, for example at home.",
+      "example": "He wasn't helping out at home with the babies.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يساعد", "d": "أن تقوم ببعض العمل من أجل شخص، مثلاً في البيت"},
+        "zh": {"w": "帮忙", "d": "为别人做些事，比如在家里帮忙"},
+        "de": {"w": "mithelfen / aushelfen", "d": "für jemanden Arbeit übernehmen, z. B. im Haushalt"},
+        "es": {"w": "echar una mano / ayudar", "d": "hacer algún trabajo por alguien, por ejemplo en casa"},
+        "fr": {"w": "donner un coup de main", "d": "faire une partie du travail pour quelqu'un, par exemple à la maison"}
+      }
+    },
+    {
+      "word": "come crashing down",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌkʌm ˈkræʃɪŋ daʊn/",
+      "def": "To suddenly go completely wrong or fail.",
+      "example": "Then one day it all came crashing down when his boss fired him.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ينهار فجأة", "d": "أن يفشل كل شيء فجأة وبشكل كامل"},
+        "zh": {"w": "突然崩塌", "d": "突然彻底出问题或失败"},
+        "de": {"w": "zusammenbrechen", "d": "plötzlich völlig schiefgehen oder scheitern"},
+        "es": {"w": "venirse abajo", "d": "fallar de repente y por completo"},
+        "fr": {"w": "s'effondrer", "d": "échouer soudainement et complètement"}
+      }
+    },
+    {
+      "word": "get fired",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌɡet ˈfaɪəd/",
+      "def": "To lose your job because your boss tells you to leave.",
+      "example": "Leon got fired because he was always tired and his work was poor.",
+      "opposite": "get hired",
+      "tr": {
+        "ar": {"w": "يُفصَل من العمل", "d": "أن تفقد وظيفتك لأن مديرك يطلب منك المغادرة"},
+        "zh": {"w": "被解雇 / 被炒鱿鱼", "d": "老板让你走，你失去了工作"},
+        "de": {"w": "gefeuert werden", "d": "seinen Job verlieren, weil der Chef einen entlässt"},
+        "es": {"w": "ser despedido", "d": "perder tu trabajo porque el jefe te echa"},
+        "fr": {"w": "se faire virer / être licencié", "d": "perdre son emploi parce que le patron vous renvoie"}
+      }
+    },
+    {
+      "word": "break down",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌbreɪk ˈdaʊn/",
+      "def": "To suddenly start crying because you are very upset.",
+      "example": "When he got home, he broke down and told his wife everything.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "ينهار (بالبكاء)", "d": "أن تبدأ بالبكاء فجأة لأنك حزين جداً"},
+        "zh": {"w": "崩溃大哭", "d": "因为非常难过而突然哭起来"},
+        "de": {"w": "zusammenbrechen", "d": "plötzlich anfangen zu weinen, weil man sehr traurig ist"},
+        "es": {"w": "derrumbarse / romper a llorar", "d": "empezar a llorar de repente porque estás muy mal"},
+        "fr": {"w": "craquer / s'effondrer", "d": "se mettre soudain à pleurer parce qu'on est très bouleversé"}
+      }
+    },
+    {
+      "word": "cured",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/kjʊəd/",
+      "def": "Healthy again after an illness or problem.",
+      "example": "It was hard work, but now Leon can say he is cured.",
+      "opposite": "ill",
+      "tr": {
+        "ar": {"w": "مُعافى / شُفي", "d": "صحيح مرة أخرى بعد مرض أو مشكلة"},
+        "zh": {"w": "治愈的 / 康复的", "d": "生病或出问题后又恢复健康"},
+        "de": {"w": "geheilt", "d": "nach einer Krankheit oder einem Problem wieder gesund"},
+        "es": {"w": "curado", "d": "sano otra vez después de una enfermedad o problema"},
+        "fr": {"w": "guéri", "d": "de nouveau en bonne santé après une maladie ou un problème"}
+      }
+    },
+    {
+      "word": "virtual world",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌvɜːtʃuəl ˈwɜːld/",
+      "def": "A world that exists only on a computer or online.",
+      "example": "Leon almost lost his real life to the virtual world.",
+      "opposite": "real world",
+      "tr": {
+        "ar": {"w": "العالم الافتراضي", "d": "عالم موجود فقط على الحاسوب أو الإنترنت"},
+        "zh": {"w": "虚拟世界", "d": "只存在于电脑或网络上的世界"},
+        "de": {"w": "virtuelle Welt", "d": "eine Welt, die nur im Computer oder online existiert"},
+        "es": {"w": "mundo virtual", "d": "mundo que solo existe en el ordenador o en internet"},
+        "fr": {"w": "monde virtuel", "d": "monde qui n'existe que sur ordinateur ou en ligne"}
+      }
+    },
+    {
+      "word": "alarming",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/əˈlɑːmɪŋ/",
+      "def": "Making you feel worried or afraid.",
+      "example": "The number of people with internet addiction is rising, which is alarming.",
+      "opposite": "reassuring",
+      "tr": {
+        "ar": {"w": "مُقلق / مثير للقلق", "d": "يجعلك تشعر بالقلق أو الخوف"},
+        "zh": {"w": "令人担忧的", "d": "让人感到担心或害怕"},
+        "de": {"w": "alarmierend / beunruhigend", "d": "macht einen besorgt oder ängstlich"},
+        "es": {"w": "alarmante", "d": "que te preocupa o te da miedo"},
+        "fr": {"w": "alarmant / inquiétant", "d": "qui rend inquiet ou fait peur"}
+      }
+    },
+    {
+      "word": "digital detox",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˌdɪdʒɪtl ˈdiːtɒks/",
+      "def": "A time when you stop using phones and computers to feel better.",
+      "example": "We designed a seven-day digital detox for teenagers.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التخلّص الرقمي / صيام رقمي", "d": "فترة تتوقف فيها عن استخدام الهاتف والحاسوب لتشعر بتحسّن"},
+        "zh": {"w": "数字排毒", "d": "一段时间不用手机和电脑，让自己感觉更好"},
+        "de": {"w": "digitale Auszeit", "d": "eine Zeit ohne Handy und Computer, damit es einem besser geht"},
+        "es": {"w": "desintoxicación digital", "d": "un tiempo sin móvil ni ordenador para sentirte mejor"},
+        "fr": {"w": "détox numérique", "d": "période sans téléphone ni ordinateur pour se sentir mieux"}
+      }
+    }
+  ],
+  "grammar": [],
+  "phrases": [
+    {"en": "How often do you check social media before doing other things?", "use": "Asking about online habits"},
+    {"en": "Just a couple more minutes!", "use": "What people say when they don't want to stop being online"},
+    {"en": "I'm hooked on... / I'm addicted to... / I'm obsessed with...", "use": "Talking about a habit you can't stop"},
+    {"en": "My work started to suffer.", "use": "Saying a habit is causing problems"},
+    {"en": "He suffers from internet addiction.", "use": "Talking about a condition (suffer from)"},
+    {"en": "What is your reaction to Leon's story?", "use": "Asking for someone's opinion"},
+    {"en": "I was surprised that...", "use": "Reacting to information"},
+    {"en": "One tip is to switch off your phone at night.", "use": "Giving a tip"},
+    {"en": "Try to... / It's a good idea to... / You shouldn't...", "use": "Giving advice to avoid internet addiction"},
+    {"en": "Instead of going online, why not...?", "use": "Suggesting an offline activity"},
+    {"en": "As a reward, they could...", "use": "Suggesting rewards in a plan"}
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "id": 26,
+  "title": "Table Manners",
+  "summary": "We talked about dining experiences and table manners in different countries, like eating a tagine in Morocco. We practised interrupting politely and checking that we understand, for example 'Did you say you ate with your hands?'. We also corrected mistakes with the past simple and question word order.",
+  "source": "ARB_B1_08_I063CGL_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "table manners",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈteɪbl ˌmænəz/",
+      "def": "The polite ways to behave when you eat with other people.",
+      "example": "In some countries, good table manners mean eating only with your right hand.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "آداب المائدة", "d": "الطرق المهذبة للتصرف عند الأكل مع الآخرين"},
+        "zh": {"w": "餐桌礼仪", "d": "和别人一起吃饭时的礼貌行为方式"},
+        "de": {"w": "Tischmanieren", "d": "höfliches Verhalten beim Essen mit anderen"},
+        "es": {"w": "modales en la mesa", "d": "las formas educadas de comportarse al comer con otras personas"},
+        "fr": {"w": "bonnes manières à table", "d": "la façon polie de se comporter quand on mange avec d'autres"}
+      }
+    },
+    {
+      "word": "etiquette",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈetɪket/",
+      "def": "The rules of polite behaviour in a group or situation.",
+      "example": "Would you know the dining etiquette if you were invited to a Japanese home?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "آداب السلوك / الإتيكيت", "d": "قواعد السلوك المهذب في مجموعة أو موقف معيّن"},
+        "zh": {"w": "礼节 / 礼仪", "d": "在某个群体或场合中礼貌行为的规则"},
+        "de": {"w": "Etikette / Benimmregeln", "d": "Regeln für höfliches Verhalten in einer Gruppe oder Situation"},
+        "es": {"w": "etiqueta / protocolo", "d": "las normas de comportamiento educado en un grupo o situación"},
+        "fr": {"w": "étiquette / savoir-vivre", "d": "les règles de politesse dans un groupe ou une situation"}
+      }
+    },
+    {
+      "word": "dining experience",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈdaɪnɪŋ ɪkˌspɪəriəns/",
+      "def": "A time when you ate a meal somewhere, and what it was like.",
+      "example": "I had a really interesting dining experience in Morocco last year.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تجربة تناول الطعام", "d": "مرة تناولت فيها وجبة في مكان ما، وكيف كانت"},
+        "zh": {"w": "用餐经历", "d": "在某处吃饭的一次经历以及感受"},
+        "de": {"w": "Essenserlebnis", "d": "ein Erlebnis, bei dem man irgendwo gegessen hat, und wie es war"},
+        "es": {"w": "experiencia gastronómica", "d": "una ocasión en que comiste en algún sitio y cómo fue"},
+        "fr": {"w": "expérience culinaire", "d": "un moment où l'on a mangé quelque part, et comment c'était"}
+      }
+    },
+    {
+      "word": "have people round",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/hæv ˈpiːpl raʊnd/",
+      "def": "To invite people to your home, for example for dinner.",
+      "example": "When did you last have people round for dinner?",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يستضيف ناساً في بيته", "d": "أن تدعو أشخاصاً إلى بيتك، مثلاً لتناول العشاء"},
+        "zh": {"w": "请人到家里来", "d": "邀请别人到你家，比如吃晚饭"},
+        "de": {"w": "Leute zu sich einladen", "d": "Menschen zu sich nach Hause einladen, zum Beispiel zum Abendessen"},
+        "es": {"w": "invitar gente a casa", "d": "invitar a personas a tu casa, por ejemplo a cenar"},
+        "fr": {"w": "recevoir des gens chez soi", "d": "inviter des gens chez soi, par exemple pour dîner"}
+      }
+    },
+    {
+      "word": "guest",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ɡest/",
+      "def": "A person you invite to your home or to an event.",
+      "example": "As a guest, you should bring a small present for the family.",
+      "opposite": "host",
+      "tr": {
+        "ar": {"w": "ضيف", "d": "شخص تدعوه إلى بيتك أو إلى مناسبة"},
+        "zh": {"w": "客人", "d": "你邀请到家里或活动中的人"},
+        "de": {"w": "Gast", "d": "eine Person, die man nach Hause oder zu einer Feier einlädt"},
+        "es": {"w": "invitado", "d": "persona a la que invitas a tu casa o a un evento"},
+        "fr": {"w": "invité", "d": "personne qu'on invite chez soi ou à un événement"}
+      }
+    },
+    {
+      "word": "host",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/həʊst/",
+      "def": "A person who invites guests and gives them food and drink.",
+      "example": "Our host served the tagine and told us to start eating.",
+      "opposite": "guest",
+      "tr": {
+        "ar": {"w": "مُضيف", "d": "شخص يدعو الضيوف ويقدّم لهم الطعام والشراب"},
+        "zh": {"w": "主人", "d": "邀请客人并招待他们吃喝的人"},
+        "de": {"w": "Gastgeber", "d": "jemand, der Gäste einlädt und ihnen Essen und Trinken gibt"},
+        "es": {"w": "anfitrión", "d": "persona que invita a otros y les ofrece comida y bebida"},
+        "fr": {"w": "hôte", "d": "personne qui reçoit des invités et leur offre à manger et à boire"}
+      }
+    },
+    {
+      "word": "course",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/kɔːs/",
+      "def": "One part of a meal, for example the starter, the main meal or dessert.",
+      "example": "The dinner had three courses: soup, a tagine and fresh fruit.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طبق (من وجبة)", "d": "جزء واحد من الوجبة، مثل المقبلات أو الطبق الرئيسي أو الحلوى"},
+        "zh": {"w": "一道菜", "d": "一顿饭中的一部分，比如前菜、主菜或甜点"},
+        "de": {"w": "Gang", "d": "ein Teil eines Essens, zum Beispiel Vorspeise, Hauptgericht oder Nachtisch"},
+        "es": {"w": "plato (de una comida)", "d": "una parte de la comida, por ejemplo el entrante, el principal o el postre"},
+        "fr": {"w": "plat / service", "d": "une partie du repas, par exemple l'entrée, le plat principal ou le dessert"}
+      }
+    },
+    {
+      "word": "dish",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/dɪʃ/",
+      "def": "Food that is cooked in a special way and served as part of a meal.",
+      "example": "Tagine is the name of the dish and of the pot you eat from.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طبق / أكلة", "d": "طعام يُطبخ بطريقة خاصة ويُقدَّم كجزء من وجبة"},
+        "zh": {"w": "菜肴", "d": "用特别方法做的、作为一餐的一部分端上的食物"},
+        "de": {"w": "Gericht", "d": "auf besondere Art gekochtes Essen, das als Teil einer Mahlzeit serviert wird"},
+        "es": {"w": "plato", "d": "comida preparada de una forma especial y servida en una comida"},
+        "fr": {"w": "plat", "d": "nourriture préparée d'une certaine façon et servie pendant un repas"}
+      }
+    },
+    {
+      "word": "portion",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈpɔːʃn/",
+      "def": "The amount of food for one person.",
+      "example": "We didn't have a separate portion each; we all ate from one big plate.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حصّة", "d": "كمية الطعام المخصصة لشخص واحد"},
+        "zh": {"w": "一份", "d": "一个人吃的食物量"},
+        "de": {"w": "Portion", "d": "die Menge Essen für eine Person"},
+        "es": {"w": "ración / porción", "d": "la cantidad de comida para una persona"},
+        "fr": {"w": "portion / part", "d": "la quantité de nourriture pour une personne"}
+      }
+    },
+    {
+      "word": "cushion",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈkʊʃn/",
+      "def": "A soft bag filled with soft material that you sit on or lean against.",
+      "example": "We didn't sit on chairs; we sat on cushions on the floor.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "وسادة", "d": "كيس ليّن محشو بمادة طرية تجلس عليه أو تستند إليه"},
+        "zh": {"w": "坐垫 / 靠垫", "d": "里面装着软材料、可以坐或靠的软垫"},
+        "de": {"w": "Kissen", "d": "ein weiches Polster, auf dem man sitzt oder an das man sich lehnt"},
+        "es": {"w": "cojín", "d": "bolsa blanda rellena para sentarse o apoyarse"},
+        "fr": {"w": "coussin", "d": "objet mou rempli de matière douce, pour s'asseoir ou s'appuyer"}
+      }
+    },
+    {
+      "word": "circular",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈsɜːkjələ/",
+      "def": "Shaped like a circle; round.",
+      "example": "We all sat on the floor around a big circular table.",
+      "opposite": "square",
+      "tr": {
+        "ar": {"w": "دائري", "d": "على شكل دائرة؛ مستدير"},
+        "zh": {"w": "圆形的", "d": "形状像圆圈的；圆的"},
+        "de": {"w": "rund / kreisförmig", "d": "wie ein Kreis geformt"},
+        "es": {"w": "circular / redondo", "d": "con forma de círculo"},
+        "fr": {"w": "rond / circulaire", "d": "en forme de cercle"}
+      }
+    },
+    {
+      "word": "scoop up",
+      "pos": "phrasal verb",
+      "level": "C1",
+      "ipa": "/ˌskuːp ˈʌp/",
+      "def": "To pick up food with your hand, bread or a spoon in a curved movement.",
+      "example": "You scoop up the meat using the bread and your right hand.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يغرف", "d": "أن تأخذ الطعام بيدك أو بالخبز أو بالملعقة بحركة مقوّسة"},
+        "zh": {"w": "舀起 / 捞起", "d": "用手、面包或勺子以弧形动作把食物拿起来"},
+        "de": {"w": "aufnehmen / schöpfen", "d": "Essen mit der Hand, mit Brot oder einem Löffel aufnehmen"},
+        "es": {"w": "recoger / coger", "d": "tomar comida con la mano, con pan o con una cuchara"},
+        "fr": {"w": "ramasser / prendre", "d": "prendre la nourriture avec la main, du pain ou une cuillère"}
+      }
+    },
+    {
+      "word": "tagine",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/təˈʒiːn/",
+      "def": "A Moroccan meal cooked slowly in a clay pot with a tall lid; also the pot.",
+      "example": "The tagine was full of meat, lemons and olives.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طاجين", "d": "أكلة مغربية تُطهى ببطء في وعاء فخاري له غطاء عالٍ، وهو اسم الوعاء أيضاً"},
+        "zh": {"w": "塔吉锅", "d": "用带高盖子的陶锅慢慢炖的摩洛哥菜，也指这种锅"},
+        "de": {"w": "Tajine", "d": "marokkanisches Gericht, langsam im Tontopf mit hohem Deckel gekocht; auch der Topf"},
+        "es": {"w": "tajín", "d": "plato marroquí cocinado despacio en una olla de barro con tapa alta; también la olla"},
+        "fr": {"w": "tajine", "d": "plat marocain cuit lentement dans un pot en terre à haut couvercle; aussi le pot"}
+      }
+    },
+    {
+      "word": "clay",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kleɪ/",
+      "def": "Heavy, soft earth that becomes hard when you bake it, used to make pots.",
+      "example": "A tagine pot is made of clay.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "طين / صلصال", "d": "تراب ثقيل وليّن يصبح صلباً عند حرقه، وتُصنع منه الأواني"},
+        "zh": {"w": "黏土", "d": "又重又软的土，烧过后变硬，用来做罐子"},
+        "de": {"w": "Ton", "d": "schwere, weiche Erde, die beim Brennen hart wird; man macht Töpfe daraus"},
+        "es": {"w": "arcilla / barro", "d": "tierra pesada y blanda que se endurece al cocerla; sirve para hacer ollas"},
+        "fr": {"w": "argile", "d": "terre lourde et molle qui durcit à la cuisson; on en fait des pots"}
+      }
+    },
+    {
+      "word": "pottery",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈpɒtəri/",
+      "def": "Pots, plates and other things made from baked clay.",
+      "example": "Morocco is famous for its colourful pottery.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "فخّار", "d": "أوانٍ وصحون وأشياء أخرى مصنوعة من الطين المحروق"},
+        "zh": {"w": "陶器", "d": "用烧过的黏土做的罐子、盘子等东西"},
+        "de": {"w": "Töpferwaren / Keramik", "d": "Töpfe, Teller und andere Dinge aus gebranntem Ton"},
+        "es": {"w": "cerámica / alfarería", "d": "ollas, platos y otras cosas hechas de barro cocido"},
+        "fr": {"w": "poterie", "d": "pots, assiettes et autres objets en argile cuite"}
+      }
+    },
+    {
+      "word": "ingredient",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ɪnˈɡriːdiənt/",
+      "def": "One of the foods you use to make a meal.",
+      "example": "Its main ingredient is minced meat.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مكوِّن", "d": "أحد الأطعمة التي تستخدمها لتحضير وجبة"},
+        "zh": {"w": "配料 / 原料", "d": "做一道菜时用的食材之一"},
+        "de": {"w": "Zutat", "d": "eines der Lebensmittel, die man für ein Gericht braucht"},
+        "es": {"w": "ingrediente", "d": "uno de los alimentos que se usan para preparar una comida"},
+        "fr": {"w": "ingrédient", "d": "un des aliments qu'on utilise pour préparer un plat"}
+      }
+    },
+    {
+      "word": "component",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kəmˈpəʊnənt/",
+      "def": "One of the parts that something is made of.",
+      "example": "Bread is an important component of a Moroccan meal.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عنصر / مكوِّن", "d": "أحد الأجزاء التي يتكوّن منها شيء ما"},
+        "zh": {"w": "组成部分", "d": "构成某物的部分之一"},
+        "de": {"w": "Bestandteil", "d": "einer der Teile, aus denen etwas besteht"},
+        "es": {"w": "componente", "d": "una de las partes de las que está hecho algo"},
+        "fr": {"w": "composant / élément", "d": "une des parties qui forment quelque chose"}
+      }
+    },
+    {
+      "word": "minced meat",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌmɪnst ˈmiːt/",
+      "def": "Meat cut into very small pieces, usually by a machine.",
+      "example": "Kofta is made from minced meat, onions and spices.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "لحم مفروم", "d": "لحم مقطّع إلى قطع صغيرة جداً، عادةً بآلة"},
+        "zh": {"w": "肉末 / 绞肉", "d": "通常用机器切成很小块的肉"},
+        "de": {"w": "Hackfleisch", "d": "Fleisch, das meist mit einer Maschine sehr klein geschnitten wird"},
+        "es": {"w": "carne picada", "d": "carne cortada en trozos muy pequeños, normalmente con una máquina"},
+        "fr": {"w": "viande hachée", "d": "viande coupée en très petits morceaux, souvent à la machine"}
+      }
+    },
+    {
+      "word": "spicy",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ˈspaɪsi/",
+      "def": "Having a strong, hot taste from spices such as chilli.",
+      "example": "Was it spicy or sweet?",
+      "opposite": "mild",
+      "tr": {
+        "ar": {"w": "حارّ / متبَّل", "d": "له طعم قوي ولاذع من التوابل مثل الفلفل الحار"},
+        "zh": {"w": "辣的", "d": "因为辣椒等香料而味道浓烈、辣"},
+        "de": {"w": "scharf / würzig", "d": "mit starkem, scharfem Geschmack von Gewürzen wie Chili"},
+        "es": {"w": "picante", "d": "con un sabor fuerte y picante por especias como el chile"},
+        "fr": {"w": "épicé / piquant", "d": "au goût fort et piquant à cause d'épices comme le piment"}
+      }
+    },
+    {
+      "word": "show appreciation",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌʃəʊ əˌpriːʃiˈeɪʃn/",
+      "def": "To show that you are thankful for something, for example a good meal.",
+      "example": "In some countries, you show appreciation by finishing all the food on your plate.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُبدي التقدير / الامتنان", "d": "أن تُظهر أنك شاكر لشيء ما، مثل وجبة طيبة"},
+        "zh": {"w": "表示感谢 / 表达赞赏", "d": "表现出你对某事的感激，比如一顿好饭"},
+        "de": {"w": "Wertschätzung zeigen", "d": "zeigen, dass man für etwas dankbar ist, z. B. für ein gutes Essen"},
+        "es": {"w": "mostrar agradecimiento", "d": "demostrar que agradeces algo, por ejemplo una buena comida"},
+        "fr": {"w": "montrer sa reconnaissance", "d": "montrer qu'on est reconnaissant, par exemple pour un bon repas"}
+      }
+    },
+    {
+      "word": "stranger",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈstreɪndʒə/",
+      "def": "A person you do not know.",
+      "example": "In Marrakech, I was invited out to dinner by a complete stranger.",
+      "opposite": "friend",
+      "tr": {
+        "ar": {"w": "غريب", "d": "شخص لا تعرفه"},
+        "zh": {"w": "陌生人", "d": "你不认识的人"},
+        "de": {"w": "Fremder / Fremde", "d": "eine Person, die man nicht kennt"},
+        "es": {"w": "desconocido", "d": "persona a la que no conoces"},
+        "fr": {"w": "inconnu", "d": "personne qu'on ne connaît pas"}
+      }
+    },
+    {
+      "word": "informal",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ɪnˈfɔːml/",
+      "def": "Relaxed and friendly, without strict rules.",
+      "example": "The dinner felt quite informal; we all ate from the same plate.",
+      "opposite": "formal",
+      "tr": {
+        "ar": {"w": "غير رسمي", "d": "مريح وودّي، بلا قواعد صارمة"},
+        "zh": {"w": "非正式的 / 随意的", "d": "轻松友好，没有严格的规矩"},
+        "de": {"w": "locker / zwanglos", "d": "entspannt und freundlich, ohne strenge Regeln"},
+        "es": {"w": "informal", "d": "relajado y amistoso, sin normas estrictas"},
+        "fr": {"w": "décontracté / informel", "d": "détendu et amical, sans règles strictes"}
+      }
+    },
+    {
+      "word": "interrupt",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "def": "To start speaking while another person is still speaking.",
+      "example": "Don't be afraid to interrupt and ask a question if you don't understand.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يقاطع", "d": "أن تبدأ الكلام بينما شخص آخر ما زال يتكلم"},
+        "zh": {"w": "打断", "d": "在别人还在说话时开始说话"},
+        "de": {"w": "unterbrechen", "d": "anfangen zu sprechen, während jemand anderes noch spricht"},
+        "es": {"w": "interrumpir", "d": "empezar a hablar mientras otra persona todavía está hablando"},
+        "fr": {"w": "interrompre", "d": "commencer à parler pendant que quelqu'un parle encore"}
+      }
+    },
+    {
+      "word": "clarify",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/ˈklærəfaɪ/",
+      "def": "To make something clear, or to ask questions so you understand it.",
+      "example": "When you are listening, clarify anything you are not sure about.",
+      "opposite": "confuse",
+      "tr": {
+        "ar": {"w": "يوضّح / يستوضح", "d": "أن تجعل شيئاً واضحاً، أو تسأل لكي تفهمه"},
+        "zh": {"w": "澄清 / 弄清楚", "d": "把事情说清楚，或者提问以便弄明白"},
+        "de": {"w": "klären / nachfragen", "d": "etwas klar machen oder nachfragen, um es zu verstehen"},
+        "es": {"w": "aclarar", "d": "hacer que algo quede claro, o preguntar para entenderlo"},
+        "fr": {"w": "clarifier / préciser", "d": "rendre quelque chose clair, ou poser des questions pour comprendre"}
+      }
+    },
+    {
+      "word": "catch",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/kætʃ/",
+      "def": "To hear or understand what someone says.",
+      "example": "Sorry, I didn't catch that. Could you say it again?",
+      "opposite": "miss",
+      "tr": {
+        "ar": {"w": "يلتقط (الكلام) / يسمع", "d": "أن تسمع أو تفهم ما يقوله شخص ما"},
+        "zh": {"w": "听清 / 听懂", "d": "听到或听懂别人说的话"},
+        "de": {"w": "verstehen / mitbekommen", "d": "hören oder verstehen, was jemand sagt"},
+        "es": {"w": "entender / captar", "d": "oír o entender lo que alguien dice"},
+        "fr": {"w": "saisir / comprendre", "d": "entendre ou comprendre ce que quelqu'un dit"}
+      }
+    },
+    {
+      "word": "intonation",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌɪntəˈneɪʃn/",
+      "def": "The way your voice goes up and down when you speak.",
+      "example": "Use rising intonation when you check information: 'Did you say you ate with your hands?'",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التنغيم", "d": "طريقة ارتفاع الصوت وانخفاضه أثناء الكلام"},
+        "zh": {"w": "语调", "d": "说话时声音的升高和降低"},
+        "de": {"w": "Intonation / Satzmelodie", "d": "wie die Stimme beim Sprechen steigt und fällt"},
+        "es": {"w": "entonación", "d": "la forma en que la voz sube y baja al hablar"},
+        "fr": {"w": "intonation", "d": "la façon dont la voix monte et descend quand on parle"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Past simple with finished time (not present perfect)",
+      "explain": "When we say when something happened (last week, yesterday, in 2020), we use the past simple, not the present perfect. This is very common when we tell a story about a dining experience.",
+      "explain_ar": "عندما نذكر وقتاً منتهياً حدث فيه الشيء (الأسبوع الماضي، أمس، عام 2020) نستخدم الماضي البسيط وليس المضارع التام. وهذا شائع جداً عندما نحكي قصة عن تجربة تناول طعام.",
+      "form": [
+        "subject + past simple verb + finished time (Last week, I invited my friends to my home.)",
+        "Did + subject + base verb ...? (Did you try sushi?)",
+        "invite + someone + to + a place / an event"
+      ],
+      "examples": [
+        {"en": "Last week, I invited my friends to my home.", "note": "Teacher's correction of 'I have invited last week in my home'."},
+        {"en": "I was in Marrakech and I was invited out to dinner by a stranger.", "note": "Past simple (passive) for a finished story."},
+        {"en": "We took bread and ate using our hands.", "note": "Past simple for actions one after another in a story."},
+        {"en": "I have never been to Morocco.", "note": "Present perfect is fine here because there is no finished time."}
+      ],
+      "mistakes": [
+        {"wrong": "I have invited last week in my home.", "right": "Last week, I invited my friends to my home.", "why": "'Last week' is finished time, so use past simple. Also: invite someone TO a place."},
+        {"wrong": "I have eaten tagine yesterday.", "right": "I ate tagine yesterday.", "why": "No present perfect with 'yesterday'."},
+        {"wrong": "Did you tried sushi?", "right": "Did you try sushi?", "why": "After 'did', use the base verb."},
+        {"wrong": "They invited us in their house.", "right": "They invited us to their house.", "why": "We say 'invite someone to a place'."}
+      ],
+      "quiz": [
+        {"q": "Last Friday, we ___ dinner at a Moroccan restaurant.", "options": ["have had", "had", "have"], "answer": 1, "why": "'Last Friday' is finished time, so we use past simple."},
+        {"q": "Choose the correct sentence.", "options": ["I have invited my friends last week.", "I invited my friends last week.", "I was invite my friends last week."], "answer": 1, "why": "Past simple with 'last week'."},
+        {"q": "They invited us ___ their house for lunch.", "options": ["in", "at", "to"], "answer": 2, "why": "We say 'invite someone to a place'."},
+        {"q": "Did you ___ with your hands?", "options": ["eat", "ate", "eaten"], "answer": 0, "why": "After 'did', we use the base verb."},
+        {"q": "I ___ to Japan, but I'd love to go.", "options": ["didn't go ever", "have never been", "never was"], "answer": 1, "why": "No finished time and talking about life experience: present perfect."}
+      ]
+    },
+    {
+      "title": "Question word order for checking information",
+      "explain": "In questions, the verb 'be' or the helping verb (did, do) comes before the subject. 'It was spicy or sweet?' is wrong; we say 'Was it spicy or sweet?'. We use questions like 'Did you say...?' and 'What do you mean by...?' to check we understand.",
+      "explain_ar": "في الأسئلة يأتي فعل «be» أو الفعل المساعد (did, do) قبل الفاعل. فلا نقول «It was spicy or sweet?» بل «Was it spicy or sweet?». ونستخدم أسئلة مثل «Did you say...?» و«What do you mean by...?» للتأكد من أننا فهمنا الكلام.",
+      "form": [
+        "Was / Were + subject + ...? (Was it spicy or sweet?)",
+        "Did + subject + base verb ...? (Did you eat with your hands?)",
+        "Did you say (that) + clause? (Did you say you tried sushi?)",
+        "What do you mean by + word? (What do you mean by tagine?)",
+        "Rising intonation at the end of yes/no checking questions"
+      ],
+      "examples": [
+        {"en": "Was it spicy or sweet?", "note": "Teacher's correction of 'It was spicy or sweet?'."},
+        {"en": "Sorry, did you say you tried sushi?", "note": "Checking something you heard; the voice goes up at the end."},
+        {"en": "What do you mean by tagine?", "note": "Asking about a word you don't know."},
+        {"en": "Did you say you ate with your hands?", "note": "Stress the important word: HANDS."}
+      ],
+      "mistakes": [
+        {"wrong": "It was spicy or sweet?", "right": "Was it spicy or sweet?", "why": "In questions, 'was' comes before the subject 'it'."},
+        {"wrong": "What you mean by tagine?", "right": "What do you mean by tagine?", "why": "Present simple questions need 'do'."},
+        {"wrong": "Did you said you ate with your hands?", "right": "Did you say you ate with your hands?", "why": "After 'did', use the base verb 'say'."},
+        {"wrong": "Where you had the meal?", "right": "Where did you have the meal?", "why": "Past simple questions need 'did' + base verb."}
+      ],
+      "quiz": [
+        {"q": "Choose the correct question.", "options": ["It was spicy or sweet?", "Was it spicy or sweet?", "Was spicy it or sweet?"], "answer": 1, "why": "Verb 'was' before the subject 'it'."},
+        {"q": "What do you ___ by 'tagine'?", "options": ["mean", "meaning", "means"], "answer": 0, "why": "After 'do you', use the base verb 'mean'."},
+        {"q": "Sorry, did you ___ you sat on the floor?", "options": ["said", "say", "says"], "answer": 1, "why": "After 'did', use the base verb."},
+        {"q": "___ the food very hot?", "options": ["Did", "Was", "Were"], "answer": 1, "why": "'The food' is singular and the main verb is 'be', so 'Was'."},
+        {"q": "Where ___ you eat the tagine?", "options": ["did", "were", "was"], "answer": 0, "why": "Past simple question with a main verb (eat): 'did' + base verb."},
+        {"q": "In 'Did you say you ate with your hands?', your voice usually ___ at the end.", "options": ["goes up", "goes down", "stays flat"], "answer": 0, "why": "Yes/no checking questions usually have rising intonation."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "Oh right, I've never been. How was that?", "use": "Interrupting to show interest and ask for more"},
+    {"en": "Oh right, sounds fun. How was it?", "use": "Interrupting to show interest"},
+    {"en": "Right, okay. So, what did you eat with?", "use": "Interrupting to move the story on"},
+    {"en": "Oh, really!", "use": "Showing surprise and interest"},
+    {"en": "What, a complete stranger?", "use": "Checking understanding when you are surprised"},
+    {"en": "Sorry, I'm not sure I'm following you.", "use": "Checking understanding when you didn't understand"},
+    {"en": "What do you mean by ...?", "use": "Asking about a word or idea you don't know"},
+    {"en": "Did you say you ate with your hands?", "use": "Checking something you heard (rising intonation)"},
+    {"en": "Sorry, I didn't catch that.", "use": "Checking when you didn't hear"},
+    {"en": "Come again, please?", "use": "Informal: asking someone to repeat"},
+    {"en": "Oh, right! I think I understand now.", "use": "Showing you now understand"},
+    {"en": "When did you last have people round for dinner?", "use": "Starting a conversation about dining"}
+  ]
+}

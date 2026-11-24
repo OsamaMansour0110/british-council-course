@@ -1,0 +1,970 @@
+{
+  "id": 20,
+  "title": "Daily Conversation",
+  "summary": "We practised starting and ending everyday conversations. We matched openers with replies that keep the conversation going, learned many ways to say goodbye, and put a host and visitor's leaving conversation in the right order.",
+  "source": "ARB_B1_07_I007CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "greeting",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈɡriːtɪŋ/",
+      "def": "Something you say or do when you meet someone, like 'hello' or a handshake.",
+      "example": "In my country, a handshake is the usual greeting between colleagues.",
+      "opposite": "farewell",
+      "tr": {
+        "ar": {
+          "w": "تحية",
+          "d": "ما تقوله أو تفعله عندما تقابل شخصاً، مثل «مرحباً» أو المصافحة"
+        },
+        "zh": {
+          "w": "问候 / 打招呼",
+          "d": "见到别人时说的话或做的动作，比如“你好”或握手"
+        },
+        "de": {
+          "w": "Begrüßung / Gruß",
+          "d": "was man sagt oder tut, wenn man jemanden trifft, z. B. „Hallo“ oder ein Händedruck"
+        },
+        "es": {
+          "w": "saludo",
+          "d": "lo que dices o haces al encontrarte con alguien, como «hola» o un apretón de manos"
+        },
+        "fr": {
+          "w": "salutation",
+          "d": "ce qu'on dit ou fait en rencontrant quelqu'un, comme « bonjour » ou une poignée de main"
+        }
+      }
+    },
+    {
+      "word": "opener",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈəʊpənə/",
+      "def": "The first thing you say to start a conversation.",
+      "example": "'Nice weather today, isn't it?' is a very common opener in the UK.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "عبارة افتتاحية",
+          "d": "أول ما تقوله لتبدأ محادثة"
+        },
+        "zh": {
+          "w": "开场白",
+          "d": "开始一段对话时说的第一句话"
+        },
+        "de": {
+          "w": "Einstieg / Eröffnungssatz",
+          "d": "das Erste, was man sagt, um ein Gespräch zu beginnen"
+        },
+        "es": {
+          "w": "frase para iniciar",
+          "d": "lo primero que dices para empezar una conversación"
+        },
+        "fr": {
+          "w": "phrase d'ouverture",
+          "d": "la première chose qu'on dit pour commencer une conversation"
+        }
+      }
+    },
+    {
+      "word": "small talk",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈsmɔːl tɔːk/",
+      "def": "Friendly talk about easy, unimportant things, often with people you don't know well.",
+      "example": "We made small talk about the weather while we waited for the lift.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "دردشة خفيفة",
+          "d": "حديث ودّي عن أمور سهلة وغير مهمة، غالباً مع أشخاص لا تعرفهم جيداً"
+        },
+        "zh": {
+          "w": "闲聊 / 寒暄",
+          "d": "和不太熟的人聊一些轻松、不重要的话题"
+        },
+        "de": {
+          "w": "Smalltalk",
+          "d": "freundliches Gespräch über einfache, unwichtige Dinge, oft mit Fremden"
+        },
+        "es": {
+          "w": "charla trivial",
+          "d": "conversación amable sobre cosas sencillas, a menudo con gente que no conoces bien"
+        },
+        "fr": {
+          "w": "papotage / conversation banale",
+          "d": "discussion amicale sur des sujets simples, souvent avec des gens qu'on connaît peu"
+        }
+      }
+    },
+    {
+      "word": "safe topic",
+      "pos": "noun phrase",
+      "level": "B1",
+      "ipa": "/ˌseɪf ˈtɒpɪk/",
+      "def": "A subject that is fine to talk about with anyone, like the weather or sport.",
+      "example": "Food and travel are safe topics when you meet someone new.",
+      "opposite": "taboo topic",
+      "tr": {
+        "ar": {
+          "w": "موضوع آمن",
+          "d": "موضوع يمكن الحديث فيه مع أي شخص، مثل الطقس أو الرياضة"
+        },
+        "zh": {
+          "w": "安全话题",
+          "d": "和任何人都可以聊的话题，比如天气或体育"
+        },
+        "de": {
+          "w": "unverfängliches Thema",
+          "d": "ein Thema, über das man mit jedem sprechen kann, z. B. Wetter oder Sport"
+        },
+        "es": {
+          "w": "tema seguro",
+          "d": "un tema del que se puede hablar con cualquiera, como el tiempo o el deporte"
+        },
+        "fr": {
+          "w": "sujet sans risque",
+          "d": "un sujet dont on peut parler avec tout le monde, comme la météo ou le sport"
+        }
+      }
+    },
+    {
+      "word": "develop",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/dɪˈveləp/",
+      "def": "To make a conversation longer by adding information or asking a question.",
+      "example": "Don't just say 'yes' – add something to develop the conversation.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يطوّر / يوسّع",
+          "d": "أن تجعل المحادثة أطول بإضافة معلومة أو طرح سؤال"
+        },
+        "zh": {
+          "w": "展开 / 发展",
+          "d": "通过补充信息或提问让对话继续下去"
+        },
+        "de": {
+          "w": "weiterführen / entwickeln",
+          "d": "ein Gespräch durch zusätzliche Infos oder Fragen verlängern"
+        },
+        "es": {
+          "w": "desarrollar",
+          "d": "alargar una conversación añadiendo información o haciendo una pregunta"
+        },
+        "fr": {
+          "w": "développer",
+          "d": "faire durer une conversation en ajoutant une information ou en posant une question"
+        }
+      }
+    },
+    {
+      "word": "productive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/prəˈdʌktɪv/",
+      "def": "Getting good, useful results.",
+      "example": "Thank you for coming – it was a very productive meeting.",
+      "opposite": "unproductive",
+      "tr": {
+        "ar": {
+          "w": "مثمر",
+          "d": "يحقق نتائج جيدة ومفيدة"
+        },
+        "zh": {
+          "w": "有成效的",
+          "d": "取得了好的、有用的结果"
+        },
+        "de": {
+          "w": "produktiv / ergiebig",
+          "d": "mit guten, nützlichen Ergebnissen"
+        },
+        "es": {
+          "w": "productivo",
+          "d": "que da resultados buenos y útiles"
+        },
+        "fr": {
+          "w": "productif / fructueux",
+          "d": "qui donne de bons résultats utiles"
+        }
+      }
+    },
+    {
+      "word": "host",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/həʊst/",
+      "def": "A person who invites guests and looks after them.",
+      "example": "The host thanked the visitor for coming to the meeting.",
+      "opposite": "guest",
+      "tr": {
+        "ar": {
+          "w": "مُضيف",
+          "d": "شخص يدعو الضيوف ويهتم بهم"
+        },
+        "zh": {
+          "w": "主人 / 东道主",
+          "d": "邀请客人并照顾他们的人"
+        },
+        "de": {
+          "w": "Gastgeber",
+          "d": "eine Person, die Gäste einlädt und sich um sie kümmert"
+        },
+        "es": {
+          "w": "anfitrión",
+          "d": "persona que invita a otros y los atiende"
+        },
+        "fr": {
+          "w": "hôte",
+          "d": "personne qui invite des gens et s'occupe d'eux"
+        }
+      }
+    },
+    {
+      "word": "visitor",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/ˈvɪzɪtə/",
+      "def": "A person who comes to see a place or person for a short time.",
+      "example": "Our visitor is flying back to Tokyo tomorrow.",
+      "opposite": "host",
+      "tr": {
+        "ar": {
+          "w": "زائر",
+          "d": "شخص يأتي ليرى مكاناً أو شخصاً لفترة قصيرة"
+        },
+        "zh": {
+          "w": "访客 / 来访者",
+          "d": "短时间来看某个地方或某个人的人"
+        },
+        "de": {
+          "w": "Besucher",
+          "d": "jemand, der für kurze Zeit einen Ort oder eine Person besucht"
+        },
+        "es": {
+          "w": "visitante / visita",
+          "d": "persona que va a un lugar o a ver a alguien por poco tiempo"
+        },
+        "fr": {
+          "w": "visiteur",
+          "d": "personne qui vient voir un lieu ou quelqu'un pour peu de temps"
+        }
+      }
+    },
+    {
+      "word": "pleasure",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈpleʒə/",
+      "def": "A feeling of happiness or enjoyment, often used to answer 'thank you'.",
+      "example": "'Thanks for your help.' – 'Not at all. It's been a pleasure.'",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "سرور / متعة",
+          "d": "شعور بالسعادة أو المتعة، يُستخدم غالباً للرد على الشكر"
+        },
+        "zh": {
+          "w": "荣幸 / 乐趣",
+          "d": "快乐或享受的感觉，常用来回应“谢谢”"
+        },
+        "de": {
+          "w": "Vergnügen / Freude",
+          "d": "ein Gefühl von Freude, oft als Antwort auf „danke“"
+        },
+        "es": {
+          "w": "placer / gusto",
+          "d": "sensación de alegría o disfrute, a menudo para responder a «gracias»"
+        },
+        "fr": {
+          "w": "plaisir",
+          "d": "sentiment de joie, souvent utilisé pour répondre à « merci »"
+        }
+      }
+    },
+    {
+      "word": "regards",
+      "pos": "noun (plural)",
+      "level": "B1",
+      "ipa": "/rɪˈɡɑːdz/",
+      "def": "Friendly wishes that you ask someone to pass on to another person.",
+      "example": "Have a good trip, and give my regards to your wife.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تحيات",
+          "d": "تمنيات ودية تطلب من شخص أن ينقلها إلى شخص آخر"
+        },
+        "zh": {
+          "w": "问候 / 致意",
+          "d": "请别人转达给另一个人的友好祝愿"
+        },
+        "de": {
+          "w": "Grüße",
+          "d": "freundliche Wünsche, die jemand an eine andere Person weitergeben soll"
+        },
+        "es": {
+          "w": "saludos / recuerdos",
+          "d": "buenos deseos que pides a alguien que pase a otra persona"
+        },
+        "fr": {
+          "w": "amitiés / salutations",
+          "d": "souhaits amicaux qu'on demande de transmettre à une autre personne"
+        }
+      }
+    },
+    {
+      "word": "keep in touch",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌkiːp ɪn ˈtʌtʃ/",
+      "def": "To continue to call, write or message someone after you stop seeing them.",
+      "example": "It was great to meet you. Keep in touch!",
+      "opposite": "lose touch",
+      "tr": {
+        "ar": {
+          "w": "يبقى على تواصل",
+          "d": "أن تستمر في الاتصال أو الكتابة لشخص بعد أن تتوقف عن رؤيته"
+        },
+        "zh": {
+          "w": "保持联系",
+          "d": "不常见面后仍继续打电话、写信或发消息"
+        },
+        "de": {
+          "w": "in Kontakt bleiben",
+          "d": "weiter anrufen, schreiben oder Nachrichten schicken, auch wenn man sich nicht mehr sieht"
+        },
+        "es": {
+          "w": "mantenerse en contacto",
+          "d": "seguir llamando o escribiendo a alguien aunque ya no lo veas"
+        },
+        "fr": {
+          "w": "rester en contact",
+          "d": "continuer à appeler ou écrire à quelqu'un qu'on ne voit plus"
+        }
+      }
+    },
+    {
+      "word": "see you around",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌsiː juː əˈraʊnd/",
+      "def": "An informal goodbye to someone you will probably meet again by chance.",
+      "example": "We work in the same building, so I'll see you around.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "أراك لاحقاً",
+          "d": "وداع غير رسمي لشخص ستقابله غالباً مرة أخرى بالصدفة"
+        },
+        "zh": {
+          "w": "回头见",
+          "d": "对之后可能偶然再见的人说的随意告别语"
+        },
+        "de": {
+          "w": "man sieht sich",
+          "d": "lockerer Abschied von jemandem, den man wahrscheinlich zufällig wiedersieht"
+        },
+        "es": {
+          "w": "nos vemos",
+          "d": "despedida informal para alguien a quien probablemente verás otra vez por casualidad"
+        },
+        "fr": {
+          "w": "à un de ces jours / on se croise",
+          "d": "au revoir informel à quelqu'un qu'on reverra sûrement par hasard"
+        }
+      }
+    },
+    {
+      "word": "safe journey",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌseɪf ˈdʒɜːni/",
+      "def": "Something you say to wish a person a good trip.",
+      "example": "Thanks for visiting us, and safe journey home!",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "رحلة سعيدة / سفراً آمناً",
+          "d": "عبارة تقولها لتتمنى لشخص رحلة جيدة"
+        },
+        "zh": {
+          "w": "一路平安",
+          "d": "祝别人旅途顺利时说的话"
+        },
+        "de": {
+          "w": "gute Reise",
+          "d": "was man sagt, um jemandem eine gute Reise zu wünschen"
+        },
+        "es": {
+          "w": "buen viaje",
+          "d": "lo que dices para desear a alguien un buen viaje"
+        },
+        "fr": {
+          "w": "bon voyage",
+          "d": "ce qu'on dit pour souhaiter un bon trajet à quelqu'un"
+        }
+      }
+    },
+    {
+      "word": "be off",
+      "pos": "phrasal verb",
+      "level": "B1",
+      "ipa": "/ˌbiː ˈɒf/",
+      "def": "To leave a place, often said just before you go.",
+      "example": "It's getting late, so I'll be off then. Bye!",
+      "opposite": "stay",
+      "tr": {
+        "ar": {
+          "w": "ينصرف / يغادر",
+          "d": "أن تغادر مكاناً، وغالباً تُقال قبل الذهاب مباشرة"
+        },
+        "zh": {
+          "w": "走了 / 离开",
+          "d": "离开某地，常在要走之前说"
+        },
+        "de": {
+          "w": "los gehen / weg sein",
+          "d": "einen Ort verlassen, oft kurz vor dem Gehen gesagt"
+        },
+        "es": {
+          "w": "irse / marcharse",
+          "d": "irse de un sitio, se dice a menudo justo antes de salir"
+        },
+        "fr": {
+          "w": "s'en aller / filer",
+          "d": "quitter un lieu, souvent dit juste avant de partir"
+        }
+      }
+    },
+    {
+      "word": "I'd better be going",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/aɪd ˌbetə bi ˈɡəʊɪŋ/",
+      "def": "A polite way to say that you need to leave now.",
+      "example": "Look at the time! I'd better be going.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "من الأفضل أن أذهب",
+          "d": "طريقة مهذبة لتقول إنك تحتاج أن تغادر الآن"
+        },
+        "zh": {
+          "w": "我该走了",
+          "d": "礼貌地表示你现在需要离开"
+        },
+        "de": {
+          "w": "ich sollte jetzt gehen",
+          "d": "höfliche Art zu sagen, dass man jetzt gehen muss"
+        },
+        "es": {
+          "w": "será mejor que me vaya",
+          "d": "forma educada de decir que tienes que irte ya"
+        },
+        "fr": {
+          "w": "je ferais mieux d'y aller",
+          "d": "façon polie de dire qu'on doit partir maintenant"
+        }
+      }
+    },
+    {
+      "word": "be in touch",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌbi ɪn ˈtʌtʃ/",
+      "def": "To contact someone by phone, email or message.",
+      "example": "I'll be in touch next week about the report.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يتواصل",
+          "d": "أن تتصل بشخص بالهاتف أو البريد الإلكتروني أو الرسائل"
+        },
+        "zh": {
+          "w": "联系",
+          "d": "通过电话、邮件或消息联系某人"
+        },
+        "de": {
+          "w": "sich melden",
+          "d": "jemanden per Telefon, E-Mail oder Nachricht kontaktieren"
+        },
+        "es": {
+          "w": "estar en contacto",
+          "d": "contactar con alguien por teléfono, correo o mensaje"
+        },
+        "fr": {
+          "w": "donner des nouvelles",
+          "d": "contacter quelqu'un par téléphone, e-mail ou message"
+        }
+      }
+    },
+    {
+      "word": "gain experience",
+      "pos": "collocation",
+      "level": "B1",
+      "ipa": "/ˌɡeɪn ɪkˈspɪəriəns/",
+      "def": "To learn skills by doing a job or activity for some time.",
+      "example": "She took a part-time job to gain experience in marketing.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يكتسب خبرة",
+          "d": "أن تتعلم مهارات من خلال ممارسة عمل أو نشاط لفترة"
+        },
+        "zh": {
+          "w": "积累经验",
+          "d": "通过一段时间做某项工作或活动学到技能"
+        },
+        "de": {
+          "w": "Erfahrung sammeln",
+          "d": "durch eine Arbeit oder Tätigkeit mit der Zeit Fähigkeiten lernen"
+        },
+        "es": {
+          "w": "adquirir experiencia",
+          "d": "aprender habilidades haciendo un trabajo o actividad durante un tiempo"
+        },
+        "fr": {
+          "w": "acquérir de l'expérience",
+          "d": "apprendre des compétences en faisant un travail ou une activité un certain temps"
+        }
+      }
+    },
+    {
+      "word": "earn money",
+      "pos": "collocation",
+      "level": "A2",
+      "ipa": "/ˌɜːn ˈmʌni/",
+      "def": "To get money for the work you do.",
+      "example": "Many students work at weekends to earn money.",
+      "opposite": "spend money",
+      "tr": {
+        "ar": {
+          "w": "يكسب المال",
+          "d": "أن تحصل على مال مقابل عملك"
+        },
+        "zh": {
+          "w": "挣钱 / 赚钱",
+          "d": "通过工作得到钱"
+        },
+        "de": {
+          "w": "Geld verdienen",
+          "d": "für seine Arbeit Geld bekommen"
+        },
+        "es": {
+          "w": "ganar dinero",
+          "d": "recibir dinero por tu trabajo"
+        },
+        "fr": {
+          "w": "gagner de l'argent",
+          "d": "recevoir de l'argent pour son travail"
+        }
+      }
+    },
+    {
+      "word": "regret",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/rɪˈɡret/",
+      "def": "To feel sorry about something you did or didn't do.",
+      "example": "Do you regret working in this field?",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "يندم",
+          "d": "أن تشعر بالأسف على شيء فعلته أو لم تفعله"
+        },
+        "zh": {
+          "w": "后悔",
+          "d": "对自己做过或没做的事感到遗憾"
+        },
+        "de": {
+          "w": "bereuen",
+          "d": "traurig sein über etwas, das man getan oder nicht getan hat"
+        },
+        "es": {
+          "w": "arrepentirse / lamentar",
+          "d": "sentir pena por algo que hiciste o no hiciste"
+        },
+        "fr": {
+          "w": "regretter",
+          "d": "être désolé de quelque chose qu'on a fait ou pas fait"
+        }
+      }
+    },
+    {
+      "word": "cuisine",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kwɪˈziːn/",
+      "def": "A style of cooking from a particular country or area.",
+      "example": "What's your favourite cuisine – Chinese, Syrian or Italian?",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "مطبخ (أسلوب طهي)",
+          "d": "طريقة الطبخ الخاصة ببلد أو منطقة معينة"
+        },
+        "zh": {
+          "w": "菜系 / 烹饪风格",
+          "d": "某个国家或地区的做菜风格"
+        },
+        "de": {
+          "w": "Küche (Kochstil)",
+          "d": "die Art zu kochen in einem bestimmten Land oder Gebiet"
+        },
+        "es": {
+          "w": "cocina (gastronomía)",
+          "d": "forma de cocinar de un país o región"
+        },
+        "fr": {
+          "w": "cuisine (gastronomie)",
+          "d": "façon de cuisiner d'un pays ou d'une région"
+        }
+      }
+    },
+    {
+      "word": "obsessed with",
+      "pos": "adjective phrase",
+      "level": "B2",
+      "ipa": "/əbˈsest wɪð/",
+      "def": "Liking something so much that you think about it all the time.",
+      "example": "I'm really obsessed with Korean food at the moment.",
+      "opposite": "not interested in",
+      "tr": {
+        "ar": {
+          "w": "مهووس بـ",
+          "d": "تحب شيئاً لدرجة أنك تفكر فيه طوال الوقت"
+        },
+        "zh": {
+          "w": "痴迷于",
+          "d": "非常喜欢某样东西，总是想着它"
+        },
+        "de": {
+          "w": "besessen von",
+          "d": "etwas so sehr mögen, dass man ständig daran denkt"
+        },
+        "es": {
+          "w": "obsesionado con",
+          "d": "que te gusta tanto algo que piensas en ello todo el tiempo"
+        },
+        "fr": {
+          "w": "obsédé par / fan de",
+          "d": "aimer tellement quelque chose qu'on y pense tout le temps"
+        }
+      }
+    },
+    {
+      "word": "gourmet",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈɡʊəmeɪ/",
+      "def": "(Of food) of very high quality and usually expensive.",
+      "example": "The hotel restaurant serves high-quality gourmet food.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "فاخر (طعام)",
+          "d": "طعام عالي الجودة جداً وغالباً غالي الثمن"
+        },
+        "zh": {
+          "w": "美食级的 / 精致的",
+          "d": "（食物）质量很高，通常很贵"
+        },
+        "de": {
+          "w": "Gourmet-",
+          "d": "(Essen) von sehr hoher Qualität und meist teuer"
+        },
+        "es": {
+          "w": "gourmet",
+          "d": "(comida) de muy alta calidad y normalmente cara"
+        },
+        "fr": {
+          "w": "gastronomique",
+          "d": "(nourriture) de très bonne qualité et souvent chère"
+        }
+      }
+    },
+    {
+      "word": "comfort zone",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈkʌmfət zəʊn/",
+      "def": "A situation you know well, where you feel safe and relaxed.",
+      "example": "Speaking in front of the class is out of my comfort zone.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "منطقة الراحة",
+          "d": "وضع تعرفه جيداً وتشعر فيه بالأمان والراحة"
+        },
+        "zh": {
+          "w": "舒适区",
+          "d": "你熟悉、感到安全和放松的状态"
+        },
+        "de": {
+          "w": "Komfortzone",
+          "d": "eine vertraute Situation, in der man sich sicher und entspannt fühlt"
+        },
+        "es": {
+          "w": "zona de confort",
+          "d": "situación conocida en la que te sientes seguro y tranquilo"
+        },
+        "fr": {
+          "w": "zone de confort",
+          "d": "situation familière où l'on se sent en sécurité et détendu"
+        }
+      }
+    },
+    {
+      "word": "social butterfly",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌsəʊʃl ˈbʌtəflaɪ/",
+      "def": "A person who loves meeting and talking to lots of different people.",
+      "example": "I love parties and talking to everyone – I'm a social butterfly.",
+      "opposite": "loner",
+      "tr": {
+        "ar": {
+          "w": "شخص اجتماعي جداً",
+          "d": "شخص يحب مقابلة الكثير من الناس والتحدث معهم"
+        },
+        "zh": {
+          "w": "社交达人",
+          "d": "非常喜欢结识很多人、和大家聊天的人"
+        },
+        "de": {
+          "w": "geselliger Mensch",
+          "d": "jemand, der es liebt, viele verschiedene Leute zu treffen"
+        },
+        "es": {
+          "w": "persona muy sociable",
+          "d": "alguien a quien le encanta conocer y hablar con mucha gente"
+        },
+        "fr": {
+          "w": "personne très sociable",
+          "d": "quelqu'un qui adore rencontrer et parler avec beaucoup de gens"
+        }
+      }
+    },
+    {
+      "word": "polyglot",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/ˈpɒliɡlɒt/",
+      "def": "A person who can speak many languages.",
+      "example": "I want to speak many languages – I want to be a polyglot.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "متعدد اللغات",
+          "d": "شخص يستطيع التحدث بلغات كثيرة"
+        },
+        "zh": {
+          "w": "通晓多种语言的人",
+          "d": "会说很多种语言的人"
+        },
+        "de": {
+          "w": "Polyglotter / Sprachtalent",
+          "d": "eine Person, die viele Sprachen sprechen kann"
+        },
+        "es": {
+          "w": "políglota",
+          "d": "persona que habla muchos idiomas"
+        },
+        "fr": {
+          "w": "polyglotte",
+          "d": "personne qui parle beaucoup de langues"
+        }
+      }
+    },
+    {
+      "word": "pick up",
+      "pos": "phrasal verb",
+      "level": "B2",
+      "ipa": "/ˌpɪk ˈʌp/",
+      "def": "To start a new hobby or learn a skill easily, without much study.",
+      "example": "I pick up new hobbies all the time.",
+      "opposite": "give up",
+      "tr": {
+        "ar": {
+          "w": "يتعلّم بسهولة / يلتقط",
+          "d": "أن تبدأ هواية جديدة أو تتعلم مهارة بسهولة دون دراسة كثيرة"
+        },
+        "zh": {
+          "w": "学会 / 开始（爱好）",
+          "d": "不怎么学习就轻松开始一个新爱好或学会一项技能"
+        },
+        "de": {
+          "w": "aufschnappen / anfangen",
+          "d": "ein neues Hobby beginnen oder etwas leicht lernen, ohne viel zu üben"
+        },
+        "es": {
+          "w": "aprender / coger",
+          "d": "empezar un hobby nuevo o aprender algo fácilmente, sin estudiar mucho"
+        },
+        "fr": {
+          "w": "apprendre sur le tas / se mettre à",
+          "d": "commencer un nouveau loisir ou apprendre quelque chose facilement"
+        }
+      }
+    },
+    {
+      "word": "weak",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/wiːk/",
+      "def": "(Of a drink) with too much water and not much taste.",
+      "example": "This coffee's a bit weak. Not like the coffee in Italy!",
+      "opposite": "strong",
+      "tr": {
+        "ar": {
+          "w": "خفيف (مشروب)",
+          "d": "مشروب فيه ماء كثير وطعمه قليل"
+        },
+        "zh": {
+          "w": "淡的",
+          "d": "（饮料）水太多，味道不浓"
+        },
+        "de": {
+          "w": "dünn / schwach",
+          "d": "(Getränk) mit zu viel Wasser und wenig Geschmack"
+        },
+        "es": {
+          "w": "flojo / suave",
+          "d": "(bebida) con demasiada agua y poco sabor"
+        },
+        "fr": {
+          "w": "léger / trop clair",
+          "d": "(boisson) avec trop d'eau et peu de goût"
+        }
+      }
+    },
+    {
+      "word": "major",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈmeɪdʒə/",
+      "def": "The main subject you study at university.",
+      "example": "What's your major at university? – Business.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "تخصص جامعي",
+          "d": "المادة الرئيسية التي تدرسها في الجامعة"
+        },
+        "zh": {
+          "w": "专业",
+          "d": "在大学学习的主要科目"
+        },
+        "de": {
+          "w": "Hauptfach / Studienfach",
+          "d": "das wichtigste Fach, das man an der Uni studiert"
+        },
+        "es": {
+          "w": "especialidad / carrera",
+          "d": "la asignatura principal que estudias en la universidad"
+        },
+        "fr": {
+          "w": "spécialité / matière principale",
+          "d": "la matière principale qu'on étudie à l'université"
+        }
+      }
+    },
+    {
+      "word": "metabolism",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/məˈtæbəlɪzəm/",
+      "def": "How fast your body uses food for energy.",
+      "example": "I don't lose weight easily because I have a slow metabolism.",
+      "opposite": "",
+      "tr": {
+        "ar": {
+          "w": "الأيض / التمثيل الغذائي",
+          "d": "مدى سرعة استخدام جسمك للطعام لإنتاج الطاقة"
+        },
+        "zh": {
+          "w": "新陈代谢",
+          "d": "身体把食物变成能量的速度"
+        },
+        "de": {
+          "w": "Stoffwechsel",
+          "d": "wie schnell der Körper Essen in Energie umwandelt"
+        },
+        "es": {
+          "w": "metabolismo",
+          "d": "la rapidez con que tu cuerpo usa la comida para tener energía"
+        },
+        "fr": {
+          "w": "métabolisme",
+          "d": "la vitesse à laquelle le corps transforme la nourriture en énergie"
+        }
+      }
+    }
+  ],
+  "grammar": [],
+  "phrases": [
+    {
+      "en": "Nice to see you again. – Nice to see you too. How are you?",
+      "use": "Greeting someone you know and returning the question"
+    },
+    {
+      "en": "I'm fine, thanks. And you? You're looking well.",
+      "use": "Answering 'How are you?' and developing the conversation"
+    },
+    {
+      "en": "It's been a long time, hasn't it?",
+      "use": "Opener with someone you haven't seen for a while"
+    },
+    {
+      "en": "Nice weather today, isn't it? – Yes, lovely. I hope it stays like this for the weekend.",
+      "use": "Small talk about the weather"
+    },
+    {
+      "en": "That's a nice shirt. – Thanks, my wife bought it for me.",
+      "use": "Giving and accepting a compliment"
+    },
+    {
+      "en": "Is that the time? I guess I should be going.",
+      "use": "Starting a leaving conversation"
+    },
+    {
+      "en": "Oh, so soon? – I'm afraid so, I've got a long day tomorrow.",
+      "use": "Host replies; visitor gives a reason for leaving"
+    },
+    {
+      "en": "Well, thank you very much for coming. I think we had a very useful meeting.",
+      "use": "Final reference to business"
+    },
+    {
+      "en": "Not at all. It's been a pleasure.",
+      "use": "Replying to thanks"
+    },
+    {
+      "en": "Have a good trip, and give my regards to your wife.",
+      "use": "Wishing a good trip and sending regards"
+    },
+    {
+      "en": "Thanks, I'll do that. See you next month. Bye.",
+      "use": "Referring to the next meeting and saying goodbye"
+    },
+    {
+      "en": "I'd better be going. / I'll be off then. / Well, I really must go now.",
+      "use": "Saying you need to leave"
+    },
+    {
+      "en": "Keep in touch! / I'll be in touch! / Speak soon.",
+      "use": "Saying goodbye and promising future contact"
+    },
+    {
+      "en": "Have a good one! / See you! / I'll see you around.",
+      "use": "Informal goodbyes"
+    },
+    {
+      "en": "It's been great meeting you. Come and see me soon.",
+      "use": "Warm goodbye to a new friend"
+    }
+  ]
+}

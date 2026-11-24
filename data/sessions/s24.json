@@ -1,0 +1,535 @@
+{
+  "id": 24,
+  "title": "Cultural Misunderstandings",
+  "summary": "We listened to Nok telling her neighbour Tom about a dinner party where things went wrong because of cultural differences. We learned expressions like put your foot in it and split the bill. We used would have, should have and could have to give advice about things in the past.",
+  "source": "ARB_B1_10_I124CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "put your foot in it",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌpʊt jɔː ˈfʊt ɪn ɪt/",
+      "def": "To say or do something by accident that embarrasses or upsets someone.",
+      "example": "I really put my foot in it when I asked her how old she was.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يرتكب زلّة", "d": "أن تقول أو تفعل شيئاً بالخطأ يُحرج شخصاً أو يزعجه"},
+        "zh": {"w": "说错话 / 失言", "d": "不小心说了或做了让别人尴尬或不高兴的事"},
+        "de": {"w": "ins Fettnäpfchen treten", "d": "aus Versehen etwas sagen oder tun, das jemanden verlegen macht oder verletzt"},
+        "es": {"w": "meter la pata", "d": "decir o hacer algo sin querer que avergüenza o molesta a alguien"},
+        "fr": {"w": "mettre les pieds dans le plat / faire une gaffe", "d": "dire ou faire par erreur quelque chose qui gêne ou blesse quelqu'un"}
+      }
+    },
+    {
+      "word": "realise",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ˈriːəlaɪz/",
+      "def": "To understand or notice something that you didn't know before.",
+      "example": "Nok didn't realise that the food wasn't for sharing.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُدرك", "d": "أن تفهم أو تلاحظ شيئاً لم تكن تعرفه من قبل"},
+        "zh": {"w": "意识到", "d": "明白或注意到以前不知道的事"},
+        "de": {"w": "merken / erkennen", "d": "etwas verstehen oder bemerken, was man vorher nicht wusste"},
+        "es": {"w": "darse cuenta", "d": "entender o notar algo que no sabías antes"},
+        "fr": {"w": "se rendre compte", "d": "comprendre ou remarquer quelque chose qu'on ne savait pas"}
+      }
+    },
+    {
+      "word": "get offended",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌɡet əˈfendɪd/",
+      "def": "To become upset or unhappy because of what someone said or did.",
+      "example": "The woman got offended by Nok's question about her age.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يستاء / يتضايق", "d": "أن تنزعج أو تحزن بسبب ما قاله أو فعله شخص"},
+        "zh": {"w": "生气 / 觉得被冒犯", "d": "因为别人说的话或做的事而不高兴"},
+        "de": {"w": "beleidigt sein / sich gekränkt fühlen", "d": "verärgert oder traurig werden wegen etwas, das jemand gesagt oder getan hat"},
+        "es": {"w": "ofenderse", "d": "molestarse por lo que alguien dijo o hizo"},
+        "fr": {"w": "se vexer", "d": "être contrarié à cause de ce que quelqu'un a dit ou fait"}
+      }
+    },
+    {
+      "word": "inappropriate",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌɪnəˈprəʊpriət/",
+      "def": "Not suitable or polite for the situation.",
+      "example": "Asking someone about their salary can be inappropriate.",
+      "opposite": "appropriate",
+      "tr": {
+        "ar": {"w": "غير لائق / غير مناسب", "d": "غير مناسب أو غير مهذب في هذا الموقف"},
+        "zh": {"w": "不恰当的 / 不合适的", "d": "在这种场合不合适或不礼貌"},
+        "de": {"w": "unangebracht / unpassend", "d": "nicht passend oder nicht höflich in der Situation"},
+        "es": {"w": "inapropiado / fuera de lugar", "d": "no adecuado ni educado para la situación"},
+        "fr": {"w": "inapproprié / déplacé", "d": "pas adapté ou pas poli dans la situation"}
+      }
+    },
+    {
+      "word": "pay someone a compliment",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌpeɪ ˌsʌmwʌn ə ˈkɒmplɪmənt/",
+      "def": "To say something nice about someone.",
+      "example": "It would've been better to pay her a compliment.",
+      "opposite": "insult someone",
+      "tr": {
+        "ar": {"w": "يُجامل شخصاً", "d": "أن تقول شيئاً لطيفاً عن شخص"},
+        "zh": {"w": "称赞某人", "d": "说别人的好话"},
+        "de": {"w": "jemandem ein Kompliment machen", "d": "etwas Nettes über jemanden sagen"},
+        "es": {"w": "hacerle un cumplido a alguien", "d": "decir algo bonito sobre alguien"},
+        "fr": {"w": "faire un compliment à quelqu'un", "d": "dire quelque chose de gentil sur quelqu'un"}
+      }
+    },
+    {
+      "word": "split the bill",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌsplɪt ðə ˈbɪl/",
+      "def": "To share the cost of a meal between everyone.",
+      "example": "In the UK, friends often split the bill at a restaurant.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتقاسم الفاتورة", "d": "أن يتقاسم الجميع ثمن الوجبة"},
+        "zh": {"w": "分摊账单 / AA制", "d": "大家一起分摊饭钱"},
+        "de": {"w": "die Rechnung teilen", "d": "die Kosten für ein Essen unter allen aufteilen"},
+        "es": {"w": "dividir la cuenta", "d": "repartir el precio de la comida entre todos"},
+        "fr": {"w": "partager l'addition", "d": "diviser le prix du repas entre tout le monde"}
+      }
+    },
+    {
+      "word": "go Dutch",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌɡəʊ ˈdʌtʃ/",
+      "def": "When each person pays for their own food or drink.",
+      "example": "Let's go Dutch – I'll pay for mine and you pay for yours.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "كلٌّ يدفع حسابه", "d": "عندما يدفع كل شخص ثمن طعامه أو شرابه"},
+        "zh": {"w": "各付各的 / AA制", "d": "每个人付自己的饭钱或饮料钱"},
+        "de": {"w": "getrennt zahlen", "d": "jeder bezahlt sein eigenes Essen oder Getränk"},
+        "es": {"w": "pagar a medias / cada uno lo suyo", "d": "cuando cada persona paga su propia comida o bebida"},
+        "fr": {"w": "chacun paie sa part", "d": "quand chacun paie ce qu'il a mangé ou bu"}
+      }
+    },
+    {
+      "word": "it's on me",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ɪts ˈɒn miː/",
+      "def": "An informal way of saying you will pay for everyone.",
+      "example": "Put your money away – it's on me tonight.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الحساب عليّ", "d": "طريقة غير رسمية لتقول إنك ستدفع عن الجميع"},
+        "zh": {"w": "我请客", "d": "非正式地说由你来付所有人的钱"},
+        "de": {"w": "das geht auf mich", "d": "lockere Art zu sagen, dass man für alle bezahlt"},
+        "es": {"w": "invito yo", "d": "forma informal de decir que pagas tú por todos"},
+        "fr": {"w": "c'est pour moi", "d": "façon familière de dire qu'on paie pour tout le monde"}
+      }
+    },
+    {
+      "word": "it's my treat",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ɪts maɪ ˈtriːt/",
+      "def": "A friendly way of saying you will pay for someone.",
+      "example": "Let me buy you lunch – it's my treat.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "على حسابي / عزومتي", "d": "طريقة ودية لتقول إنك ستدفع عن شخص"},
+        "zh": {"w": "我请客", "d": "友好地表示由你来替别人付钱"},
+        "de": {"w": "ich lade dich ein", "d": "freundliche Art zu sagen, dass man für jemanden bezahlt"},
+        "es": {"w": "te invito yo", "d": "forma amable de decir que pagas por alguien"},
+        "fr": {"w": "je t'invite", "d": "façon amicale de dire qu'on paie pour quelqu'un"}
+      }
+    },
+    {
+      "word": "fashionably late",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˌfæʃnəbli ˈleɪt/",
+      "def": "Arriving a little late to a party on purpose, because it is normal.",
+      "example": "In some countries it's normal to be fashionably late for a party.",
+      "opposite": "on time",
+      "tr": {
+        "ar": {"w": "متأخر بشكل مقبول اجتماعياً", "d": "أن تصل متأخراً قليلاً إلى حفلة عمداً لأن ذلك أمر عادي"},
+        "zh": {"w": "故意晚到一点", "d": "按习惯故意晚一点到聚会"},
+        "de": {"w": "mit Absicht etwas zu spät", "d": "absichtlich etwas später zu einer Party kommen, weil das üblich ist"},
+        "es": {"w": "llegar un poco tarde a propósito", "d": "llegar algo tarde a una fiesta a propósito, porque es lo normal"},
+        "fr": {"w": "en retard (par convenance)", "d": "arriver un peu en retard exprès à une fête, car c'est l'usage"}
+      }
+    },
+    {
+      "word": "be running late",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/bi ˌrʌnɪŋ ˈleɪt/",
+      "def": "To be going to arrive later than planned.",
+      "example": "I probably would've called him to tell him I was running late.",
+      "opposite": "be early",
+      "tr": {
+        "ar": {"w": "متأخر عن الموعد", "d": "أن تكون ستصل بعد الوقت المخطط له"},
+        "zh": {"w": "要迟到了", "d": "会比计划的时间晚到"},
+        "de": {"w": "sich verspäten", "d": "später ankommen werden als geplant"},
+        "es": {"w": "ir con retraso / llegar tarde", "d": "ir a llegar más tarde de lo previsto"},
+        "fr": {"w": "être en retard", "d": "aller arriver plus tard que prévu"}
+      }
+    },
+    {
+      "word": "punctuality",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˌpʌŋktʃuˈæləti/",
+      "def": "Arriving or doing things at the right time, not late.",
+      "example": "In the UK, punctuality is important for dinner invitations.",
+      "opposite": "lateness",
+      "tr": {
+        "ar": {"w": "الالتزام بالمواعيد", "d": "الوصول أو فعل الأشياء في الوقت الصحيح، دون تأخير"},
+        "zh": {"w": "守时", "d": "准时到达或做事，不迟到"},
+        "de": {"w": "Pünktlichkeit", "d": "zur richtigen Zeit ankommen oder etwas tun, nicht zu spät"},
+        "es": {"w": "puntualidad", "d": "llegar o hacer las cosas a tiempo, sin retraso"},
+        "fr": {"w": "ponctualité", "d": "arriver ou faire les choses à l'heure, sans retard"}
+      }
+    },
+    {
+      "word": "beforehand",
+      "pos": "adverb",
+      "level": "B2",
+      "ipa": "/bɪˈfɔːhænd/",
+      "def": "Before something happens; earlier.",
+      "example": "You should've asked beforehand how the bill was being paid.",
+      "opposite": "afterwards",
+      "tr": {
+        "ar": {"w": "مُسبقاً", "d": "قبل أن يحدث الشيء؛ في وقت سابق"},
+        "zh": {"w": "事先 / 提前", "d": "在某事发生之前；早些时候"},
+        "de": {"w": "vorher / im Voraus", "d": "bevor etwas passiert; früher"},
+        "es": {"w": "de antemano / antes", "d": "antes de que pase algo"},
+        "fr": {"w": "à l'avance / avant", "d": "avant que quelque chose arrive ; plus tôt"}
+      }
+    },
+    {
+      "word": "help yourself",
+      "pos": "phrase",
+      "level": "B1",
+      "ipa": "/ˌhelp jɔːˈself/",
+      "def": "To take food or drink for yourself without waiting to be served.",
+      "example": "Nok helped herself to the food because she thought it was for sharing.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يخدم نفسه / تفضّل", "d": "أن تأخذ طعاماً أو شراباً لنفسك دون انتظار أن يقدّمه أحد"},
+        "zh": {"w": "自己取用 / 请随便吃", "d": "不等别人招待，自己拿吃的喝的"},
+        "de": {"w": "sich bedienen", "d": "sich selbst Essen oder Getränke nehmen, ohne zu warten"},
+        "es": {"w": "servirse", "d": "coger comida o bebida tú mismo sin esperar a que te sirvan"},
+        "fr": {"w": "se servir", "d": "prendre à manger ou à boire soi-même sans attendre d'être servi"}
+      }
+    },
+    {
+      "word": "individual dish",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌɪndɪˌvɪdʒuəl ˈdɪʃ/",
+      "def": "A plate of food ordered by one person, only for them.",
+      "example": "People in the UK usually order individual dishes at restaurants.",
+      "opposite": "shared dish",
+      "tr": {
+        "ar": {"w": "طبق فردي", "d": "طبق طعام يطلبه شخص واحد ويكون له وحده"},
+        "zh": {"w": "单人菜 / 个人的菜", "d": "一个人点的、只给自己吃的菜"},
+        "de": {"w": "eigenes Gericht", "d": "ein Gericht, das eine Person nur für sich bestellt"},
+        "es": {"w": "plato individual", "d": "plato que pide una persona solo para ella"},
+        "fr": {"w": "plat individuel", "d": "plat commandé par une seule personne, pour elle seule"}
+      }
+    },
+    {
+      "word": "table manners",
+      "pos": "noun (plural)",
+      "level": "B1",
+      "ipa": "/ˈteɪbl ˌmænəz/",
+      "def": "The polite way to behave when you are eating with other people.",
+      "example": "Table manners are very different from country to country.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "آداب المائدة", "d": "الطريقة المهذبة للتصرف عند الأكل مع الآخرين"},
+        "zh": {"w": "餐桌礼仪", "d": "和别人一起吃饭时的礼貌举止"},
+        "de": {"w": "Tischmanieren", "d": "wie man sich beim Essen mit anderen höflich verhält"},
+        "es": {"w": "modales en la mesa", "d": "forma educada de comportarse al comer con otros"},
+        "fr": {"w": "bonnes manières à table", "d": "façon polie de se comporter quand on mange avec d'autres"}
+      }
+    },
+    {
+      "word": "etiquette",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈetɪket/",
+      "def": "The rules of polite behaviour in a society or group.",
+      "example": "It's a good idea to learn the dining etiquette before you visit.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "آداب السلوك / الإتيكيت", "d": "قواعد التصرف المهذب في مجتمع أو مجموعة"},
+        "zh": {"w": "礼仪 / 礼节", "d": "一个社会或群体中的礼貌规则"},
+        "de": {"w": "Etikette / Benimmregeln", "d": "die Regeln für höfliches Verhalten in einer Gesellschaft"},
+        "es": {"w": "etiqueta / protocolo", "d": "normas de buena educación en una sociedad o grupo"},
+        "fr": {"w": "étiquette / savoir-vivre", "d": "règles de politesse dans une société ou un groupe"}
+      }
+    },
+    {
+      "word": "misunderstanding",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌmɪsʌndəˈstændɪŋ/",
+      "def": "When someone does not understand something correctly, which causes a problem.",
+      "example": "The problems at the dinner were all cultural misunderstandings.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سوء فهم / سوء تفاهم", "d": "عندما لا يفهم شخص شيئاً بشكل صحيح فيسبب ذلك مشكلة"},
+        "zh": {"w": "误会 / 误解", "d": "没有正确理解某事，从而引起问题"},
+        "de": {"w": "Missverständnis", "d": "wenn jemand etwas falsch versteht und das ein Problem macht"},
+        "es": {"w": "malentendido", "d": "cuando alguien no entiende algo bien y eso causa un problema"},
+        "fr": {"w": "malentendu", "d": "quand quelqu'un comprend mal quelque chose, ce qui crée un problème"}
+      }
+    },
+    {
+      "word": "taboo",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/təˈbuː/",
+      "def": "Not allowed or not acceptable to talk about or do in a culture.",
+      "example": "In the UK, asking someone's age or salary is almost taboo.",
+      "opposite": "acceptable",
+      "tr": {
+        "ar": {"w": "محظور / من المحرّمات", "d": "غير مسموح أو غير مقبول الحديث عنه أو فعله في ثقافة ما"},
+        "zh": {"w": "禁忌的", "d": "在某种文化中不允许或不能接受谈论或去做的"},
+        "de": {"w": "tabu", "d": "in einer Kultur nicht erlaubt oder nicht akzeptiert"},
+        "es": {"w": "tabú", "d": "que no está permitido o no se acepta en una cultura"},
+        "fr": {"w": "tabou", "d": "interdit ou mal vu dans une culture"}
+      }
+    },
+    {
+      "word": "controversial",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌkɒntrəˈvɜːʃl/",
+      "def": "Causing a lot of disagreement because people have strong, different opinions.",
+      "example": "Avoid controversial topics like politics at a dinner party.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مثير للجدل", "d": "يسبب خلافاً كبيراً لأن للناس آراء قوية ومختلفة"},
+        "zh": {"w": "有争议的", "d": "因为人们观点强烈且不同而引起很多分歧"},
+        "de": {"w": "umstritten / kontrovers", "d": "führt zu viel Streit, weil Menschen starke, verschiedene Meinungen haben"},
+        "es": {"w": "polémico / controvertido", "d": "que causa mucho desacuerdo porque la gente tiene opiniones fuertes y distintas"},
+        "fr": {"w": "controversé", "d": "qui crée beaucoup de désaccord car les avis sont forts et différents"}
+      }
+    },
+    {
+      "word": "offensive",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/əˈfensɪv/",
+      "def": "Rude in a way that makes people upset or angry.",
+      "example": "Something normal in one country can be offensive in another.",
+      "opposite": "polite",
+      "tr": {
+        "ar": {"w": "مُسيء / جارح", "d": "وقح بطريقة تجعل الناس منزعجين أو غاضبين"},
+        "zh": {"w": "冒犯的 / 无礼的", "d": "粗鲁得让人不高兴或生气"},
+        "de": {"w": "beleidigend", "d": "so unhöflich, dass Menschen verletzt oder wütend werden"},
+        "es": {"w": "ofensivo", "d": "grosero de una forma que molesta o enfada a la gente"},
+        "fr": {"w": "offensant / blessant", "d": "impoli au point de blesser ou fâcher les gens"}
+      }
+    },
+    {
+      "word": "subtle difference",
+      "pos": "noun phrase",
+      "level": "C1",
+      "ipa": "/ˌsʌtl ˈdɪfrəns/",
+      "def": "A small difference that is not easy to notice.",
+      "example": "There's a subtle difference between being friendly and being too personal.",
+      "opposite": "big difference",
+      "tr": {
+        "ar": {"w": "فرق دقيق", "d": "فرق صغير ليس من السهل ملاحظته"},
+        "zh": {"w": "细微的差别", "d": "不容易注意到的小差别"},
+        "de": {"w": "feiner Unterschied", "d": "ein kleiner Unterschied, den man nicht leicht bemerkt"},
+        "es": {"w": "diferencia sutil", "d": "pequeña diferencia que no es fácil de notar"},
+        "fr": {"w": "nuance / différence subtile", "d": "petite différence difficile à remarquer"}
+      }
+    },
+    {
+      "word": "boundaries",
+      "pos": "noun (plural)",
+      "level": "C1",
+      "ipa": "/ˈbaʊndriz/",
+      "def": "Limits about what is OK for a person, for example personal questions.",
+      "example": "Respect each other's boundaries in conversation.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حدود شخصية", "d": "حدود لما هو مقبول عند شخص ما، مثلاً الأسئلة الشخصية"},
+        "zh": {"w": "界限 / 底线", "d": "一个人能接受的限度，比如私人问题"},
+        "de": {"w": "Grenzen", "d": "was für eine Person in Ordnung ist, z. B. bei persönlichen Fragen"},
+        "es": {"w": "límites", "d": "lo que una persona acepta o no, por ejemplo preguntas personales"},
+        "fr": {"w": "limites", "d": "ce qui est acceptable pour quelqu'un, par exemple les questions personnelles"}
+      }
+    },
+    {
+      "word": "take something as an insult",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/ˌteɪk ˌsʌmθɪŋ əz ən ˈɪnsʌlt/",
+      "def": "To think that someone's words or actions were meant to be rude.",
+      "example": "He shouldn't have taken it as an insult – it was just a different custom.",
+      "opposite": "take something as a compliment",
+      "tr": {
+        "ar": {"w": "يعتبر الأمر إهانة", "d": "أن تظن أن كلام شخص أو فعله كان مقصوداً به الإساءة"},
+        "zh": {"w": "当作侮辱", "d": "认为别人的话或行为是故意无礼"},
+        "de": {"w": "etwas als Beleidigung auffassen", "d": "glauben, dass jemandes Worte oder Taten unhöflich gemeint waren"},
+        "es": {"w": "tomarse algo como un insulto", "d": "pensar que las palabras o actos de alguien eran para ofender"},
+        "fr": {"w": "prendre quelque chose comme une insulte", "d": "croire que les paroles ou gestes de quelqu'un voulaient blesser"}
+      }
+    },
+    {
+      "word": "leave someone hanging",
+      "pos": "idiom",
+      "level": "C1",
+      "ipa": "/ˌliːv ˌsʌmwʌn ˈhæŋɪŋ/",
+      "def": "To not take someone's hand when they offer a handshake.",
+      "example": "I put out my hand, but she didn't take it – she left me hanging.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يترك يد شخص معلّقة", "d": "ألّا تصافح شخصاً عندما يمدّ يده إليك"},
+        "zh": {"w": "让人（伸出的手）落空", "d": "别人伸手要握手时你不去握"},
+        "de": {"w": "jemanden hängen lassen", "d": "die ausgestreckte Hand von jemandem nicht nehmen"},
+        "es": {"w": "dejar a alguien con la mano tendida", "d": "no darle la mano a alguien cuando te la ofrece"},
+        "fr": {"w": "laisser quelqu'un la main tendue", "d": "ne pas serrer la main que quelqu'un vous tend"}
+      }
+    },
+    {
+      "word": "second serving",
+      "pos": "noun phrase",
+      "level": "B2",
+      "ipa": "/ˌsekənd ˈsɜːvɪŋ/",
+      "def": "More food after you have finished your first plate.",
+      "example": "I finished my plate to be polite, so she gave me a second serving!",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "صحن ثانٍ / حصة إضافية", "d": "طعام إضافي بعد أن تنهي صحنك الأول"},
+        "zh": {"w": "第二份 / 再来一份", "d": "吃完第一盘后再盛的食物"},
+        "de": {"w": "Nachschlag", "d": "mehr Essen, nachdem man den ersten Teller aufgegessen hat"},
+        "es": {"w": "segunda ración / repetir", "d": "más comida después de terminar el primer plato"},
+        "fr": {"w": "deuxième portion / resservir", "d": "encore de la nourriture après avoir fini sa première assiette"}
+      }
+    },
+    {
+      "word": "praise",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/preɪz/",
+      "def": "To say that someone or something is very good.",
+      "example": "Instead of criticising her new haircut, you could have praised it.",
+      "opposite": "criticise",
+      "tr": {
+        "ar": {"w": "يمدح / يُثني على", "d": "أن تقول إن شخصاً أو شيئاً جيد جداً"},
+        "zh": {"w": "赞扬 / 表扬", "d": "说某人或某物非常好"},
+        "de": {"w": "loben", "d": "sagen, dass jemand oder etwas sehr gut ist"},
+        "es": {"w": "elogiar / alabar", "d": "decir que alguien o algo es muy bueno"},
+        "fr": {"w": "féliciter / faire l'éloge de", "d": "dire que quelqu'un ou quelque chose est très bien"}
+      }
+    },
+    {
+      "word": "uncomfortable",
+      "pos": "adjective",
+      "level": "B1",
+      "ipa": "/ʌnˈkʌmftəbl/",
+      "def": "Feeling embarrassed or not relaxed in a situation.",
+      "example": "When I opened the gift in front of her, everyone looked uncomfortable.",
+      "opposite": "comfortable",
+      "tr": {
+        "ar": {"w": "غير مرتاح / مُحرَج", "d": "تشعر بالحرج أو بعدم الارتياح في موقف ما"},
+        "zh": {"w": "不自在的 / 尴尬的", "d": "在某种情况下感到尴尬或不放松"},
+        "de": {"w": "unwohl / unangenehm", "d": "sich in einer Situation verlegen oder angespannt fühlen"},
+        "es": {"w": "incómodo", "d": "sentirse avergonzado o poco relajado en una situación"},
+        "fr": {"w": "mal à l'aise", "d": "se sentir gêné ou pas détendu dans une situation"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Past modals: would have, should have, could have",
+      "explain": "We use these modals + have + past participle to talk about the past. They give advice or comments about something that already happened and can't be changed. Should have = it was the right thing, but you didn't do it; could have = another possible choice; would have = what I would do in your place.",
+      "explain_ar": "نستخدم هذه الأفعال المساعدة + have + التصريف الثالث للفعل للحديث عن الماضي، لتقديم نصيحة أو تعليق على شيء حدث ولا يمكن تغييره. should have = كان هذا هو الصواب لكنك لم تفعله، could have = كان هناك خيار آخر ممكن، would have = ما كنتُ سأفعله لو كنت مكانك.",
+      "form": [
+        "should / shouldn't + have + past participle: You shouldn't have asked her about her age.",
+        "could + have + past participle: You could have explained that sharing is common in your country.",
+        "would + have + past participle: I would have called him.",
+        "It would have been better + to + verb: It would have been better to pay her a compliment.",
+        "Question: Couldn't you have + past participle? – Couldn't you have used your credit card?",
+        "Short forms: should've, could've, would've (say: /ʃʊdəv/, /kʊdəv/, /wʊdəv/)"
+      ],
+      "examples": [
+        {"en": "I probably would've called him to tell him I was running late.", "note": "Tom says what he would do in Nok's place."},
+        {"en": "You probably shouldn't have asked her about her age.", "note": "Nok asked, and it was a mistake."},
+        {"en": "It would've been better to pay her a compliment.", "note": "A better choice in the past."},
+        {"en": "Maybe you could've explained that sharing dishes is common where you come from.", "note": "Another possible action she didn't take."},
+        {"en": "Couldn't you have used your credit card?", "note": "Question suggesting a possible solution in the past."}
+      ],
+      "mistakes": [
+        {"wrong": "You could've take off your shoes.", "right": "You could've taken off your shoes.", "why": "After have, use the past participle (taken), not the base form."},
+        {"wrong": "You should of asked first.", "right": "You should have asked first.", "why": "'Should've' sounds like 'should of', but we write have."},
+        {"wrong": "You shouldn't asked her age.", "right": "You shouldn't have asked her age.", "why": "Don't forget have."},
+        {"wrong": "I would called him.", "right": "I would have called him.", "why": "The form is would + have + past participle."}
+      ],
+      "quiz": [
+        {"q": "She was upset. You ___ asked about her salary.", "options": ["shouldn't have", "couldn't have", "wouldn't"], "answer": 0, "why": "Shouldn't have = it was a mistake to do it."},
+        {"q": "You were late. You ___ called to say you were running late.", "options": ["should have", "should", "shouldn't have"], "answer": 0, "why": "Should have + past participle = the right thing you didn't do."},
+        {"q": "You could've ___ off your shoes.", "options": ["take", "took", "taken"], "answer": 2, "why": "Past participle after have: taken."},
+        {"q": "If I were you, I ___ checked how the bill was being paid.", "options": ["would have", "would", "will have"], "answer": 0, "why": "Would have = what I would do in your situation in the past."},
+        {"q": "It would've been better ___ her a compliment.", "options": ["paying", "to pay", "paid"], "answer": 1, "why": "It would have been better + to + verb."},
+        {"q": "You didn't have enough cash. ___ used your credit card?", "options": ["Couldn't you have", "Couldn't you", "Didn't you could"], "answer": 0, "why": "Question form: Couldn't you have + past participle?"}
+      ]
+    },
+    {
+      "title": "Adverbs of certainty with advice",
+      "explain": "Words like probably, definitely, possibly and perhaps (or maybe) show how sure we are about our advice. They make the advice softer or stronger, so it sounds more polite.",
+      "explain_ar": "كلمات مثل probably و definitely و possibly و perhaps (أو maybe) تُظهر مدى تأكّدنا من نصيحتنا. فهي تجعل النصيحة ألطف أو أقوى، فتبدو أكثر تهذيباً.",
+      "form": [
+        "subject + probably / definitely + would / should + have: I probably would've called.",
+        "subject + probably / definitely + shouldn't + have: You probably shouldn't have asked.",
+        "Maybe / Perhaps at the start: Maybe you could've explained.",
+        "softer: perhaps, maybe, possibly – stronger: definitely"
+      ],
+      "examples": [
+        {"en": "You probably shouldn't have asked her about her age.", "note": "probably makes the criticism softer"},
+        {"en": "You definitely should've paid her a compliment.", "note": "definitely makes the advice stronger"},
+        {"en": "Perhaps you could've left a little food on your plate.", "note": "perhaps = soft, polite suggestion"},
+        {"en": "You could possibly have phoned the host.", "note": "possibly = not very sure"}
+      ],
+      "mistakes": [
+        {"wrong": "You shouldn't probably have asked.", "right": "You probably shouldn't have asked.", "why": "Put probably before a negative modal (shouldn't)."},
+        {"wrong": "I would probably called him.", "right": "I would probably have called him.", "why": "Keep have + past participle after the adverb."}
+      ],
+      "quiz": [
+        {"q": "Which word makes advice stronger?", "options": ["perhaps", "definitely", "possibly"], "answer": 1, "why": "Definitely shows you are very sure."},
+        {"q": "Choose the correct order: You ___ asked her age.", "options": ["shouldn't probably have", "probably shouldn't have", "shouldn't have probably"], "answer": 1, "why": "The adverb goes before a negative modal."},
+        {"q": "___ you could have explained the custom to her.", "options": ["Maybe", "Definitely not", "Probably not"], "answer": 0, "why": "Maybe/Perhaps at the start makes a soft suggestion."},
+        {"q": "Why do we use adverbs like probably with advice?", "options": ["To talk about the future", "To show how sure we are and sound softer", "To make a question"], "answer": 1, "why": "They change how strong the advice is."},
+        {"q": "I ___ called him to say I was running late.", "options": ["probably would've", "would've probably", "probably would"], "answer": 0, "why": "In positive sentences, put probably before the modal: I probably would've called."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "I really put my foot in it!", "use": "Admitting you said something embarrassing"},
+    {"en": "I didn't realise that...", "use": "Explaining a mistake you made"},
+    {"en": "You probably shouldn't have...", "use": "Soft criticism about the past"},
+    {"en": "I probably would've...", "use": "Saying what you would have done"},
+    {"en": "It would've been better to...", "use": "Suggesting a better choice in the past"},
+    {"en": "Maybe you could've...", "use": "Suggesting another possible action"},
+    {"en": "Couldn't you have...?", "use": "Asking about a possible solution in the past"},
+    {"en": "Sorry, I'm running late. I'll be there in 20 minutes.", "use": "Telling a host you will be late"},
+    {"en": "Shall we split the bill?", "use": "Suggesting everyone shares the cost"},
+    {"en": "It's on me. / It's my treat.", "use": "Offering to pay for everyone"},
+    {"en": "Where I come from, it's normal to share dishes.", "use": "Explaining a cultural difference"},
+    {"en": "In my country, people usually...", "use": "Describing a custom"},
+    {"en": "What would you do in this situation?", "use": "Asking for advice"}
+  ]
+}

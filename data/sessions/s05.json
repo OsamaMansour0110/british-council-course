@@ -1,0 +1,603 @@
+{
+  "id": 5,
+  "title": "The Awareness Campaign",
+  "summary": "We read a magazine editorial about diet, lifestyle and health problems. We learned phrases for 'too much' and 'too little' and expressions for cause and effect, like 'lead to' and 'be caused by'. Then we held a meeting to agree on two topics for a school health awareness campaign.",
+  "source": "ARS_B1_07_I075CEU_HO_v1.1.pdf",
+  "vocab": [
+    {
+      "word": "sedentary",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈsedntri/",
+      "def": "Involving a lot of sitting down and very little exercise.",
+      "example": "A sedentary lifestyle can lead to heart disease.",
+      "opposite": "active",
+      "tr": {
+        "ar": {"w": "قليل الحركة / خامل", "d": "فيه الكثير من الجلوس وقليل جداً من الرياضة"},
+        "zh": {"w": "久坐的 / 缺乏运动的", "d": "经常坐着，很少运动"},
+        "de": {"w": "bewegungsarm / sitzend", "d": "mit viel Sitzen und sehr wenig Bewegung"},
+        "es": {"w": "sedentario", "d": "con mucho tiempo sentado y muy poco ejercicio"},
+        "fr": {"w": "sédentaire", "d": "où l'on reste beaucoup assis et fait très peu d'exercice"}
+      }
+    },
+    {
+      "word": "deficiency",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/dɪˈfɪʃnsi/",
+      "def": "Not having enough of something your body needs, like a vitamin.",
+      "example": "Vitamin D deficiency is common in people who stay indoors all day.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "نقص", "d": "عدم وجود ما يكفي من شيء يحتاجه جسمك، مثل فيتامين"},
+        "zh": {"w": "缺乏 / 不足", "d": "身体需要的东西（如维生素）不够"},
+        "de": {"w": "Mangel", "d": "zu wenig von etwas, das der Körper braucht, z. B. ein Vitamin"},
+        "es": {"w": "carencia / deficiencia", "d": "no tener bastante de algo que el cuerpo necesita, como una vitamina"},
+        "fr": {"w": "carence", "d": "ne pas avoir assez d'une chose dont le corps a besoin, comme une vitamine"}
+      }
+    },
+    {
+      "word": "additive",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈædətɪv/",
+      "def": "A chemical put into food to change its taste or colour, or keep it fresh.",
+      "example": "Some chemical additives can cause allergies in children.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مادة مُضافة", "d": "مادة كيميائية توضع في الطعام لتغيير طعمه أو لونه أو لحفظه"},
+        "zh": {"w": "添加剂", "d": "加进食物里改变味道、颜色或保鲜的化学物质"},
+        "de": {"w": "Zusatzstoff", "d": "ein chemischer Stoff, der Geschmack oder Farbe ändert oder Essen haltbar macht"},
+        "es": {"w": "aditivo", "d": "producto químico que se pone en la comida para cambiar su sabor o color, o conservarla"},
+        "fr": {"w": "additif", "d": "produit chimique ajouté aux aliments pour changer le goût, la couleur ou les conserver"}
+      }
+    },
+    {
+      "word": "genetically modified",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/dʒəˌnetɪkli ˈmɒdɪfaɪd/",
+      "def": "Changed by scientists who change the genes of a plant or animal.",
+      "example": "Some people refuse to buy genetically modified food.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُعدَّل وراثياً", "d": "غيّره العلماء بتغيير جينات النبات أو الحيوان"},
+        "zh": {"w": "转基因的", "d": "科学家改变了植物或动物的基因"},
+        "de": {"w": "gentechnisch verändert", "d": "von Wissenschaftlern verändert, indem sie die Gene ändern"},
+        "es": {"w": "transgénico", "d": "cambiado por científicos que modifican los genes de una planta o animal"},
+        "fr": {"w": "génétiquement modifié", "d": "changé par des scientifiques qui modifient les gènes d'une plante ou d'un animal"}
+      }
+    },
+    {
+      "word": "deteriorate",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/dɪˈtɪəriəreɪt/",
+      "def": "To become worse.",
+      "example": "Statistics show that our nation's health is deteriorating.",
+      "opposite": "improve",
+      "tr": {
+        "ar": {"w": "يتدهور", "d": "أن يصبح أسوأ"},
+        "zh": {"w": "恶化", "d": "变得更糟"},
+        "de": {"w": "sich verschlechtern", "d": "schlechter werden"},
+        "es": {"w": "deteriorarse / empeorar", "d": "ponerse peor"},
+        "fr": {"w": "se détériorer", "d": "devenir pire"}
+      }
+    },
+    {
+      "word": "hectic",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈhektɪk/",
+      "def": "Very busy and fast, with a lot happening.",
+      "example": "Because of our hectic lifestyles, we often grab fast food.",
+      "opposite": "relaxed",
+      "tr": {
+        "ar": {"w": "مزدحم بالأعمال / مُرهِق", "d": "مشغول وسريع جداً وفيه أشياء كثيرة"},
+        "zh": {"w": "忙乱的 / 繁忙的", "d": "非常忙、节奏快，事情很多"},
+        "de": {"w": "hektisch", "d": "sehr beschäftigt und schnell, mit viel los"},
+        "es": {"w": "ajetreado", "d": "muy ocupado y rápido, con muchas cosas pasando"},
+        "fr": {"w": "trépidant / mouvementé", "d": "très chargé et rapide, avec beaucoup d'activité"}
+      }
+    },
+    {
+      "word": "premature",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˈpremətʃə/",
+      "def": "Happening earlier than normal or expected.",
+      "example": "Too much sun can cause premature ageing of the skin.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مُبكِّر / سابق لأوانه", "d": "يحدث قبل الوقت الطبيعي أو المتوقع"},
+        "zh": {"w": "过早的", "d": "比正常或预期的时间早"},
+        "de": {"w": "vorzeitig / verfrüht", "d": "früher als normal oder erwartet"},
+        "es": {"w": "prematuro", "d": "que pasa antes de lo normal o esperado"},
+        "fr": {"w": "prématuré", "d": "qui arrive plus tôt que la normale ou que prévu"}
+      }
+    },
+    {
+      "word": "preserve",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/prɪˈzɜːv/",
+      "def": "To keep food in good condition for a long time so it doesn't go bad.",
+      "example": "Extra salt is often added to preserve meat.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يحفظ", "d": "أن تُبقي الطعام بحالة جيدة لفترة طويلة كي لا يفسد"},
+        "zh": {"w": "保存 / 防腐", "d": "让食物长时间保持好的状态，不变坏"},
+        "de": {"w": "konservieren / haltbar machen", "d": "Essen lange gut halten, damit es nicht schlecht wird"},
+        "es": {"w": "conservar", "d": "mantener la comida en buen estado mucho tiempo para que no se estropee"},
+        "fr": {"w": "conserver", "d": "garder un aliment en bon état longtemps pour qu'il ne s'abîme pas"}
+      }
+    },
+    {
+      "word": "aggravate",
+      "pos": "verb",
+      "level": "C2",
+      "ipa": "/ˈæɡrəveɪt/",
+      "def": "To make an illness or a bad situation worse.",
+      "example": "High blood pressure can be aggravated further by extra salt.",
+      "opposite": "relieve",
+      "tr": {
+        "ar": {"w": "يُفاقِم", "d": "أن يجعل المرض أو الوضع السيئ أسوأ"},
+        "zh": {"w": "加重 / 使恶化", "d": "让疾病或坏情况变得更糟"},
+        "de": {"w": "verschlimmern", "d": "eine Krankheit oder schlechte Lage schlimmer machen"},
+        "es": {"w": "agravar", "d": "hacer que una enfermedad o mala situación empeore"},
+        "fr": {"w": "aggraver", "d": "rendre une maladie ou une mauvaise situation pire"}
+      }
+    },
+    {
+      "word": "altered beyond recognition",
+      "pos": "phrase",
+      "level": "C1",
+      "ipa": "/ˈɔːltəd bɪˌjɒnd ˌrekəɡˈnɪʃn/",
+      "def": "Changed so much that it looks completely different.",
+      "example": "Our diet has been altered beyond recognition by fast food.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تغيّر كلياً", "d": "تغيّر كثيراً حتى أصبح مختلفاً تماماً"},
+        "zh": {"w": "面目全非", "d": "变化太大，看起来完全不一样了"},
+        "de": {"w": "bis zur Unkenntlichkeit verändert", "d": "so stark verändert, dass es ganz anders aussieht"},
+        "es": {"w": "irreconocible", "d": "tan cambiado que parece completamente diferente"},
+        "fr": {"w": "méconnaissable", "d": "tellement changé qu'il paraît complètement différent"}
+      }
+    },
+    {
+      "word": "turn the tide",
+      "pos": "idiom",
+      "level": "C2",
+      "ipa": "/ˌtɜːn ðə ˈtaɪd/",
+      "def": "To change a bad situation into a better one.",
+      "example": "It's not too late to turn the tide if we start eating better now.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يقلب الموازين / يغيّر المسار", "d": "أن تحوّل وضعاً سيئاً إلى وضع أفضل"},
+        "zh": {"w": "扭转局势", "d": "把坏的情况变成更好的情况"},
+        "de": {"w": "das Blatt wenden", "d": "eine schlechte Lage zum Besseren ändern"},
+        "es": {"w": "cambiar el rumbo", "d": "convertir una mala situación en una mejor"},
+        "fr": {"w": "renverser la tendance", "d": "transformer une mauvaise situation en une meilleure"}
+      }
+    },
+    {
+      "word": "cardiovascular",
+      "pos": "adjective",
+      "level": "C2",
+      "ipa": "/ˌkɑːdiəʊˈvæskjələ/",
+      "def": "Connected with the heart and the tubes that carry blood around the body.",
+      "example": "Regular exercise lowers the risk of cardiovascular disease.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "قلبي وعائي", "d": "متعلق بالقلب والأوعية التي تنقل الدم في الجسم"},
+        "zh": {"w": "心血管的", "d": "与心脏和全身输送血液的血管有关"},
+        "de": {"w": "Herz-Kreislauf-", "d": "mit dem Herzen und den Blutgefäßen im Körper verbunden"},
+        "es": {"w": "cardiovascular", "d": "relacionado con el corazón y los vasos que llevan la sangre"},
+        "fr": {"w": "cardiovasculaire", "d": "lié au cœur et aux vaisseaux qui transportent le sang"}
+      }
+    },
+    {
+      "word": "thrombosis",
+      "pos": "noun",
+      "level": "C2",
+      "ipa": "/θrɒmˈbəʊsɪs/",
+      "def": "A serious illness where a lump of blood stops blood from moving normally.",
+      "example": "Sitting still for many hours can increase the risk of thrombosis.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تجلّط الدم / خُثار", "d": "مرض خطير تمنع فيه كتلة دم حركة الدم الطبيعية"},
+        "zh": {"w": "血栓形成", "d": "一种严重疾病，血块阻止血液正常流动"},
+        "de": {"w": "Thrombose", "d": "eine ernste Krankheit, bei der ein Blutklumpen den Blutfluss blockiert"},
+        "es": {"w": "trombosis", "d": "enfermedad grave en la que un coágulo impide que la sangre circule bien"},
+        "fr": {"w": "thrombose", "d": "maladie grave où un caillot empêche le sang de circuler normalement"}
+      }
+    },
+    {
+      "word": "lack",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/læk/",
+      "def": "When there is not enough of something, or none at all.",
+      "example": "A lack of time can make people feel out of control and anxious.",
+      "opposite": "plenty",
+      "tr": {
+        "ar": {"w": "نقص / قِلّة", "d": "عدم وجود ما يكفي من شيء أو عدم وجوده أصلاً"},
+        "zh": {"w": "缺乏", "d": "某样东西不够，或者完全没有"},
+        "de": {"w": "Mangel", "d": "wenn es nicht genug von etwas gibt oder gar nichts"},
+        "es": {"w": "falta", "d": "cuando no hay bastante de algo, o no hay nada"},
+        "fr": {"w": "manque", "d": "quand il n'y a pas assez de quelque chose, ou rien du tout"}
+      }
+    },
+    {
+      "word": "shortage",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈʃɔːtɪdʒ/",
+      "def": "A situation where there is not enough of something that people need.",
+      "example": "There is a shortage of fresh fruit and vegetables in some school canteens.",
+      "opposite": "surplus",
+      "tr": {
+        "ar": {"w": "نقص / شُحّ", "d": "حالة لا يتوفر فيها ما يكفي من شيء يحتاجه الناس"},
+        "zh": {"w": "短缺", "d": "人们需要的东西不够的情况"},
+        "de": {"w": "Knappheit / Mangel", "d": "wenn es nicht genug von etwas gibt, das Menschen brauchen"},
+        "es": {"w": "escasez", "d": "situación en la que no hay bastante de algo que la gente necesita"},
+        "fr": {"w": "pénurie", "d": "situation où il n'y a pas assez de ce dont les gens ont besoin"}
+      }
+    },
+    {
+      "word": "surplus",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ˈsɜːpləs/",
+      "def": "More of something than you need.",
+      "example": "A surplus of sugar in your diet can cause weight gain.",
+      "opposite": "shortage",
+      "tr": {
+        "ar": {"w": "فائض", "d": "كمية من شيء أكثر مما تحتاج"},
+        "zh": {"w": "过剩 / 剩余", "d": "某样东西比需要的多"},
+        "de": {"w": "Überschuss", "d": "mehr von etwas, als man braucht"},
+        "es": {"w": "excedente / exceso", "d": "más cantidad de algo de la que necesitas"},
+        "fr": {"w": "surplus / excédent", "d": "plus de quelque chose que ce dont on a besoin"}
+      }
+    },
+    {
+      "word": "insufficient",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ˌɪnsəˈfɪʃnt/",
+      "def": "Not enough for what is needed.",
+      "example": "Insufficient sleep can contribute to diabetes and depression.",
+      "opposite": "sufficient",
+      "tr": {
+        "ar": {"w": "غير كافٍ", "d": "أقل مما هو مطلوب"},
+        "zh": {"w": "不足的 / 不够的", "d": "达不到需要的量"},
+        "de": {"w": "unzureichend", "d": "nicht genug für das, was nötig ist"},
+        "es": {"w": "insuficiente", "d": "que no basta para lo que se necesita"},
+        "fr": {"w": "insuffisant", "d": "pas assez pour ce qui est nécessaire"}
+      }
+    },
+    {
+      "word": "excessive",
+      "pos": "adjective",
+      "level": "C1",
+      "ipa": "/ɪkˈsesɪv/",
+      "def": "Much more than is normal, healthy or needed.",
+      "example": "Excessive sun exposure can lead to skin cancer.",
+      "opposite": "moderate",
+      "tr": {
+        "ar": {"w": "مُفرِط", "d": "أكثر بكثير من الطبيعي أو الصحي أو المطلوب"},
+        "zh": {"w": "过度的", "d": "远远超过正常、健康或需要的程度"},
+        "de": {"w": "übermäßig", "d": "viel mehr als normal, gesund oder nötig"},
+        "es": {"w": "excesivo", "d": "mucho más de lo normal, sano o necesario"},
+        "fr": {"w": "excessif", "d": "beaucoup plus que ce qui est normal, sain ou nécessaire"}
+      }
+    },
+    {
+      "word": "tooth decay",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈtuːθ dɪˌkeɪ/",
+      "def": "Damage to your teeth, often caused by eating too much sugar.",
+      "example": "Sweet fizzy drinks can lead to tooth decay in children.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "تسوّس الأسنان", "d": "تلف في الأسنان، غالباً بسبب تناول الكثير من السكر"},
+        "zh": {"w": "蛀牙 / 龋齿", "d": "牙齿受损，常常是因为吃太多糖"},
+        "de": {"w": "Karies", "d": "Schaden an den Zähnen, oft durch zu viel Zucker"},
+        "es": {"w": "caries", "d": "daño en los dientes, a menudo por comer demasiado azúcar"},
+        "fr": {"w": "carie dentaire", "d": "dégât sur les dents, souvent causé par trop de sucre"}
+      }
+    },
+    {
+      "word": "allergy",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈælədʒi/",
+      "def": "A health problem where your body reacts badly to certain foods or things.",
+      "example": "Some children have an allergy to the chemicals in sweets.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حساسية", "d": "مشكلة صحية يتفاعل فيها الجسم بشكل سيئ مع أطعمة أو أشياء معينة"},
+        "zh": {"w": "过敏", "d": "身体对某些食物或东西反应不良的健康问题"},
+        "de": {"w": "Allergie", "d": "ein Gesundheitsproblem, bei dem der Körper schlecht auf bestimmte Dinge reagiert"},
+        "es": {"w": "alergia", "d": "problema de salud en el que el cuerpo reacciona mal a ciertas comidas o cosas"},
+        "fr": {"w": "allergie", "d": "problème de santé où le corps réagit mal à certains aliments ou objets"}
+      }
+    },
+    {
+      "word": "insomnia",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ɪnˈsɒmniə/",
+      "def": "Being unable to sleep well, often for a long time.",
+      "example": "Insomnia can be provoked by too much stress.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أَرَق", "d": "عدم القدرة على النوم جيداً، غالباً لفترة طويلة"},
+        "zh": {"w": "失眠", "d": "睡不好觉，往往持续很长时间"},
+        "de": {"w": "Schlaflosigkeit", "d": "nicht gut schlafen können, oft über lange Zeit"},
+        "es": {"w": "insomnio", "d": "no poder dormir bien, muchas veces durante mucho tiempo"},
+        "fr": {"w": "insomnie", "d": "ne pas arriver à bien dormir, souvent pendant longtemps"}
+      }
+    },
+    {
+      "word": "obesity",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/əʊˈbiːsəti/",
+      "def": "Having so much body fat that it is dangerous for your health.",
+      "example": "Too much sugar increases the risk of obesity in children.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "السِّمنة", "d": "وجود كمية كبيرة من الدهون في الجسم تجعلها خطرة على الصحة"},
+        "zh": {"w": "肥胖", "d": "身体脂肪多到危害健康"},
+        "de": {"w": "Fettleibigkeit", "d": "so viel Körperfett, dass es gefährlich für die Gesundheit ist"},
+        "es": {"w": "obesidad", "d": "tener tanta grasa corporal que es peligroso para la salud"},
+        "fr": {"w": "obésité", "d": "avoir tellement de graisse que c'est dangereux pour la santé"}
+      }
+    },
+    {
+      "word": "awareness campaign",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/əˈweənəs kæmˌpeɪn/",
+      "def": "A plan of activities to teach people about an important problem.",
+      "example": "Our school started an awareness campaign about healthy eating.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حملة توعية", "d": "خطة أنشطة لتعريف الناس بمشكلة مهمة"},
+        "zh": {"w": "宣传活动", "d": "让人们了解某个重要问题的一系列活动"},
+        "de": {"w": "Aufklärungskampagne", "d": "geplante Aktionen, um Menschen über ein wichtiges Problem zu informieren"},
+        "es": {"w": "campaña de concienciación", "d": "plan de actividades para informar a la gente sobre un problema importante"},
+        "fr": {"w": "campagne de sensibilisation", "d": "ensemble d'actions pour informer les gens sur un problème important"}
+      }
+    },
+    {
+      "word": "exposure",
+      "pos": "noun",
+      "level": "C1",
+      "ipa": "/ɪkˈspəʊʒə/",
+      "def": "Being in a place where something harmful, like strong sun, can affect you.",
+      "example": "Excessive sun exposure can cause premature ageing.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "التعرُّض", "d": "أن تكون في مكان يمكن أن يؤثر فيك فيه شيء ضار، مثل الشمس القوية"},
+        "zh": {"w": "暴露 / 照射", "d": "处在可能受到有害东西（如强烈阳光）影响的地方"},
+        "de": {"w": "Aussetzung / Belastung", "d": "an einem Ort sein, wo etwas Schädliches wie starke Sonne wirkt"},
+        "es": {"w": "exposición", "d": "estar donde algo dañino, como el sol fuerte, te puede afectar"},
+        "fr": {"w": "exposition", "d": "être là où quelque chose de nocif, comme un soleil fort, peut t'atteindre"}
+      }
+    },
+    {
+      "word": "nutritional value",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/njuˈtrɪʃənl ˌvæljuː/",
+      "def": "How good a food is for your body and health.",
+      "example": "Convenience foods can be low in nutritional value.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "القيمة الغذائية", "d": "مدى فائدة الطعام لجسمك وصحتك"},
+        "zh": {"w": "营养价值", "d": "食物对身体和健康有多好"},
+        "de": {"w": "Nährwert", "d": "wie gut ein Essen für Körper und Gesundheit ist"},
+        "es": {"w": "valor nutricional", "d": "lo bueno que es un alimento para el cuerpo y la salud"},
+        "fr": {"w": "valeur nutritive", "d": "à quel point un aliment est bon pour le corps et la santé"}
+      }
+    },
+    {
+      "word": "convenience food",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kənˈviːniəns fuːd/",
+      "def": "Food that is quick and easy to prepare, often bought ready to eat.",
+      "example": "Many busy parents rely on convenience food instead of cooking.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أطعمة جاهزة", "d": "طعام سريع وسهل التحضير، يُشترى غالباً جاهزاً للأكل"},
+        "zh": {"w": "方便食品", "d": "做起来又快又简单的食物，常常买来就能吃"},
+        "de": {"w": "Fertiggericht", "d": "schnell und einfach zubereitetes Essen, oft fertig gekauft"},
+        "es": {"w": "comida preparada", "d": "comida rápida y fácil de preparar, a menudo comprada ya hecha"},
+        "fr": {"w": "plats préparés", "d": "nourriture rapide et facile à préparer, souvent achetée toute prête"}
+      }
+    },
+    {
+      "word": "contribute to",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/kənˈtrɪbjuːt tə/",
+      "def": "To be one of the reasons that something happens.",
+      "example": "Not enough sleep can contribute to heart problems.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُسهِم في", "d": "أن يكون أحد أسباب حدوث شيء ما"},
+        "zh": {"w": "促成 / 是…的原因之一", "d": "是某件事发生的原因之一"},
+        "de": {"w": "beitragen zu", "d": "einer der Gründe sein, warum etwas passiert"},
+        "es": {"w": "contribuir a", "d": "ser una de las razones de que algo pase"},
+        "fr": {"w": "contribuer à", "d": "être une des raisons pour lesquelles quelque chose arrive"}
+      }
+    },
+    {
+      "word": "provoke",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/prəˈvəʊk/",
+      "def": "To cause a reaction or problem, often a sudden one.",
+      "example": "Hyperactivity in young children can be provoked by chemical additives.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُثير / يُسبِّب", "d": "أن يسبب رد فعل أو مشكلة، وغالباً بشكل مفاجئ"},
+        "zh": {"w": "引起 / 诱发", "d": "引发某种反应或问题，常常很突然"},
+        "de": {"w": "auslösen / hervorrufen", "d": "eine Reaktion oder ein Problem verursachen, oft plötzlich"},
+        "es": {"w": "provocar", "d": "causar una reacción o un problema, a menudo de repente"},
+        "fr": {"w": "provoquer", "d": "causer une réaction ou un problème, souvent soudain"}
+      }
+    },
+    {
+      "word": "bring on",
+      "pos": "phrasal verb",
+      "level": "C1",
+      "ipa": "/ˌbrɪŋ ˈɒn/",
+      "def": "To make something start, usually an illness or a feeling.",
+      "example": "Not enough physical exercise can bring on anxiety.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُسبِّب / يجلب", "d": "أن يجعل شيئاً يبدأ، وعادةً مرضاً أو شعوراً"},
+        "zh": {"w": "引起 / 导致", "d": "使某事开始，通常是疾病或某种感觉"},
+        "de": {"w": "auslösen / herbeiführen", "d": "etwas beginnen lassen, meist eine Krankheit oder ein Gefühl"},
+        "es": {"w": "provocar / causar", "d": "hacer que empiece algo, normalmente una enfermedad o un sentimiento"},
+        "fr": {"w": "déclencher / provoquer", "d": "faire commencer quelque chose, souvent une maladie ou un sentiment"}
+      }
+    },
+    {
+      "word": "check-up",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈtʃek ʌp/",
+      "def": "A visit to the doctor or dentist to see if you are healthy.",
+      "example": "Many people ignore regular check-ups until they feel ill.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "فحص طبي دوري", "d": "زيارة للطبيب أو طبيب الأسنان للتأكد من أنك بصحة جيدة"},
+        "zh": {"w": "体检", "d": "去看医生或牙医，检查身体是否健康"},
+        "de": {"w": "Vorsorgeuntersuchung / Check-up", "d": "ein Besuch beim Arzt oder Zahnarzt, um zu sehen, ob man gesund ist"},
+        "es": {"w": "chequeo / revisión", "d": "visita al médico o al dentista para ver si estás sano"},
+        "fr": {"w": "bilan de santé / contrôle", "d": "visite chez le médecin ou le dentiste pour voir si on est en bonne santé"}
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Talking about 'too much' and 'too little'",
+      "explain": "We use special phrases to say there is too much or too little of something. For too much: a surplus of, an excessive amount of, high in. For too little: a lack of, a shortage of, an absence of, insufficient, not enough, low in, poor in, lacking in.",
+      "explain_ar": "نستخدم عبارات خاصة لنقول إن هناك كمية زائدة أو ناقصة من شيء ما. للكثرة الزائدة: a surplus of وan excessive amount of وhigh in. وللنقص: a lack of وa shortage of وan absence of وinsufficient وnot enough وlow in وpoor in وlacking in.",
+      "form": [
+        "Too much (M): a surplus of / an excessive amount of + uncountable noun; an excessive number of + plural noun",
+        "Too much (M): be + high in + noun (This food is high in salt.)",
+        "Too little (L): a lack of / a shortage of / an absence of + noun",
+        "Too little (L): insufficient / not enough + noun (insufficient sleep, not enough exercise)",
+        "Too little (L): be + low in / poor in / lacking in + noun (low in vitamins)"
+      ],
+      "examples": [
+        {"en": "Not having enough relaxation time can lead to stress-related disorders.", "note": "not enough + noun = too little"},
+        {"en": "Dizziness may be caused by insufficient fresh air.", "note": "insufficient + noun = too little"},
+        {"en": "Convenience foods can be low in nutritional value.", "note": "be + low in = too little"},
+        {"en": "A lot of fast food contains an excessive amount of sugar.", "note": "amount of + uncountable noun (sugar) = too much"},
+        {"en": "Some people's dietary habits show an absence of fruit and vegetables.", "note": "an absence of = none or too little"},
+        {"en": "A lack of time can make people feel out of control and anxious.", "note": "a lack of + noun = too little"}
+      ],
+      "mistakes": [
+        {"wrong": "Fast food has an excessive number of sugar.", "right": "Fast food has an excessive amount of sugar.", "why": "Sugar is uncountable, so use 'amount of'. Use 'number of' with plural nouns."},
+        {"wrong": "This soup is high of salt.", "right": "This soup is high in salt.", "why": "The preposition is 'in': high in, low in, poor in, lacking in."},
+        {"wrong": "There is a lack in time.", "right": "There is a lack of time.", "why": "The noun 'lack' takes 'of'. The adjective 'lacking' takes 'in'."},
+        {"wrong": "Too much salt and sugars are bad for you.", "right": "Too much salt and sugar is bad for you.", "why": "Sugar is uncountable here, so don't add -s."},
+        {"wrong": "Many people are having a serious health problems.", "right": "Many people are having serious health problems.", "why": "Don't use 'a' with a plural noun."}
+      ],
+      "quiz": [
+        {"q": "Children who eat only sweets have a ___ vitamins.", "options": ["lack of", "surplus of", "high in"], "answer": 0, "why": "Too little: a lack of + noun."},
+        {"q": "Crisps are very high ___ salt.", "options": ["in", "of", "on"], "answer": 0, "why": "We say 'high in' / 'low in'."},
+        {"q": "Fizzy drinks contain an excessive ___ of sugar.", "options": ["amount", "number", "lack"], "answer": 0, "why": "Sugar is uncountable, so 'amount of'."},
+        {"q": "Which phrase means 'too much'?", "options": ["a surplus of", "a shortage of", "poor in"], "answer": 0, "why": "A surplus is more than you need."},
+        {"q": "Many teenagers get ___ sleep because they use their phones at night.", "options": ["insufficient", "excessive", "a surplus of"], "answer": 0, "why": "The meaning is too little sleep: insufficient."},
+        {"q": "His diet is lacking ___ fresh vegetables.", "options": ["in", "of", "from"], "answer": 0, "why": "'Lacking' takes 'in'; the noun 'a lack' takes 'of'."}
+      ]
+    },
+    {
+      "title": "Cause and effect expressions",
+      "explain": "We use these expressions to connect a cause with its result. Put the cause first with lead to, contribute to, cause or bring on. Put the result first with be caused by, be provoked by or be aggravated by.",
+      "explain_ar": "نستخدم هذه التعبيرات لربط السبب بنتيجته. نضع السبب أولاً مع lead to وcontribute to وcause وbring on. ونضع النتيجة أولاً مع الصيغ المبنية للمجهول be caused by وbe provoked by وbe aggravated by.",
+      "form": [
+        "Cause + (can) lead to / contribute(s) to + result (noun or -ing)",
+        "Cause + cause(s) / bring(s) on + result",
+        "Result + is / can be caused by / provoked by / aggravated (further) by + cause",
+        "..., causing + someone + to + verb (adds a result at the end of a sentence)"
+      ],
+      "examples": [
+        {"en": "Undoubtedly smoking can lead to an increased threat of developing lung cancer.", "note": "cause + can lead to + result"},
+        {"en": "Existing skin allergies can sometimes be aggravated further by suntan lotion.", "note": "result + be aggravated by + cause (made worse)"},
+        {"en": "Physical exercise can bring on a sense of emotional well-being.", "note": "cause + bring on + result"},
+        {"en": "Many parents work long hours, causing them to rely on convenience food.", "note": "causing + someone + to + verb"},
+        {"en": "Insomnia can be provoked by too much stress and a lack of physical exercise.", "note": "result + be provoked by + cause"},
+        {"en": "Consuming excessive amounts of sweet fizzy drinks contributes to tooth decay.", "note": "cause + contributes to + result"}
+      ],
+      "mistakes": [
+        {"wrong": "Smoking can lead to have lung cancer.", "right": "Smoking can lead to lung cancer.", "why": "'To' in 'lead to' is a preposition: use a noun or -ing after it, not a base verb."},
+        {"wrong": "Insomnia can be provoked from stress.", "right": "Insomnia can be provoked by stress.", "why": "In the passive, use 'by' before the cause."},
+        {"wrong": "Too much sugar causes to weight gain.", "right": "Too much sugar causes weight gain.", "why": "'Cause' takes a direct object, with no 'to'."},
+        {"wrong": "Stress can bring insomnia.", "right": "Stress can bring on insomnia.", "why": "The phrasal verb is 'bring on'."},
+        {"wrong": "If you have a stress, you can't sleep good.", "right": "If you have stress, you can't sleep well.", "why": "'Stress' is uncountable here, and we use the adverb 'well' after a verb."}
+      ],
+      "quiz": [
+        {"q": "Eating too much salt can ___ high blood pressure.", "options": ["lead to", "be caused by", "provoked by"], "answer": 0, "why": "The cause comes first, so use 'lead to'."},
+        {"q": "Tooth decay is often ___ too much sugar.", "options": ["caused by", "leading to", "bringing on"], "answer": 0, "why": "The result comes first, so use the passive 'caused by'."},
+        {"q": "Long hours at a desk can ___ back pain.", "options": ["bring on", "bring", "be brought on by"], "answer": 0, "why": "Cause first + phrasal verb 'bring on'."},
+        {"q": "Her asthma was aggravated further ___ the smoke.", "options": ["by", "from", "to"], "answer": 0, "why": "Passive cause-and-effect verbs use 'by'."},
+        {"q": "The trains were late, ___ many people to miss work.", "options": ["causing", "caused", "cause"], "answer": 0, "why": "'..., causing + someone + to + verb' adds a result."},
+        {"q": "A lack of sleep ___ poor concentration at school.", "options": ["contributes to", "contributes", "is contributed by"], "answer": 0, "why": "We say 'contribute to + result'."}
+      ]
+    },
+    {
+      "title": "Making suggestions in a meeting",
+      "explain": "In the meeting we suggested ideas for the awareness campaign. After 'What about' and 'How about', use the -ing form. After 'Why don't we', 'Let's' and 'We should', use the base verb.",
+      "explain_ar": "في الاجتماع اقترحنا أفكاراً لحملة التوعية. بعد What about وHow about نستخدم الفعل مع ing. وبعد Why don't we وLet's وWe should نستخدم الفعل في صيغته الأساسية.",
+      "form": [
+        "What about / How about + verb-ing ...?",
+        "Why don't we + base verb ...?",
+        "Let's + base verb ...",
+        "I think we should + base verb ..."
+      ],
+      "examples": [
+        {"en": "What about focusing on healthy eating?", "note": "What about + -ing"},
+        {"en": "How about teaching kids the difference between healthy and unhealthy food?", "note": "How about + -ing"},
+        {"en": "Why don't we invite a doctor to talk to the students?", "note": "Why don't we + base verb"},
+        {"en": "Let's choose lack of sleep and sedentary lifestyles.", "note": "Let's + base verb"},
+        {"en": "I think we should protect children from stress at school.", "note": "should + base verb; protect someone from something"}
+      ],
+      "mistakes": [
+        {"wrong": "What about to collect money for the campaign?", "right": "What about collecting money for the campaign?", "why": "After 'What about' use the -ing form."},
+        {"wrong": "We want to learn the kids the difference.", "right": "We want to teach the kids the difference.", "why": "You teach someone something; you learn something yourself."},
+        {"wrong": "We need to prevent them from stress.", "right": "We need to protect them from stress.", "why": "Protect someone from something. 'Prevent' needs an action: prevent them from getting stressed."},
+        {"wrong": "Let's to choose smoking.", "right": "Let's choose smoking.", "why": "After 'Let's' use the base verb without 'to'."}
+      ],
+      "quiz": [
+        {"q": "What about ___ a poster about sugar?", "options": ["making", "to make", "make"], "answer": 0, "why": "What about + -ing."},
+        {"q": "Why don't we ___ on sleep and stress?", "options": ["focus", "focusing", "to focus"], "answer": 0, "why": "Why don't we + base verb."},
+        {"q": "We want to ___ children how to read food labels.", "options": ["teach", "learn", "study"], "answer": 0, "why": "Teach someone something."},
+        {"q": "Sun cream can ___ your skin from the sun.", "options": ["protect", "prevent", "avoid"], "answer": 0, "why": "Protect something from something."},
+        {"q": "Let's ___ two topics for the campaign.", "options": ["choose", "to choose", "choosing"], "answer": 0, "why": "Let's + base verb."}
+      ]
+    }
+  ],
+  "phrases": [
+    {"en": "What about focusing on ...?", "use": "Making a suggestion"},
+    {"en": "Why don't we ...?", "use": "Making a suggestion"},
+    {"en": "I think ... should get priority because ...", "use": "Giving your opinion with a reason"},
+    {"en": "This can lead to serious problems like ...", "use": "Explaining a consequence"},
+    {"en": "That's a good point.", "use": "Agreeing"},
+    {"en": "I see what you mean, but ...", "use": "Disagreeing politely"},
+    {"en": "Before we decide, let's discuss all the options.", "use": "Managing the discussion"},
+    {"en": "So, are we all agreed?", "use": "Checking agreement"},
+    {"en": "Let's go with ... and ...", "use": "Making the final choice"},
+    {"en": "It's not too late to turn the tide.", "use": "Encouraging change (from the editorial)"},
+    {"en": "Here's to a new start!", "use": "Ending on a positive note (from the editorial)"}
+  ]
+}

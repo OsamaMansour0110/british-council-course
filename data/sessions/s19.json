@@ -1,0 +1,505 @@
+{
+  "id": 19,
+  "title": "Special Educational Needs",
+  "summary": "We talked about special educational needs and how schools and workplaces can include everyone. We read about Helen's bad and good experiences at two different schools, and discussed what makes a building accessible, like ramps, lifts and handrails.",
+  "source": "ARB_B1_10_I120CEA_HO_v1.0.pdf",
+  "vocab": [
+    {
+      "word": "special needs",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌspeʃl ˈniːdz/",
+      "def": "Extra help some people must have because of an illness or disability.",
+      "example": "Schools should give extra support to students with special needs.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "الاحتياجات الخاصة", "d": "مساعدة إضافية يحتاجها بعض الناس بسبب مرض أو إعاقة"},
+        "zh": {"w": "特殊需要", "d": "某些人因疾病或残疾需要的额外帮助"},
+        "de": {"w": "besondere Bedürfnisse / Förderbedarf", "d": "zusätzliche Hilfe, die manche Menschen wegen einer Krankheit oder Behinderung brauchen"},
+        "es": {"w": "necesidades especiales", "d": "ayuda extra que necesitan algunas personas por una enfermedad o discapacidad"},
+        "fr": {"w": "besoins particuliers", "d": "aide supplémentaire dont certaines personnes ont besoin à cause d'une maladie ou d'un handicap"}
+      }
+    },
+    {
+      "word": "disability",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌdɪsəˈbɪləti/",
+      "def": "A physical or mental problem that makes some everyday things hard to do.",
+      "example": "Helen has a physical disability and uses a wheelchair.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إعاقة", "d": "مشكلة جسدية أو ذهنية تجعل بعض الأمور اليومية صعبة"},
+        "zh": {"w": "残疾", "d": "使某些日常事情难以完成的身体或精神问题"},
+        "de": {"w": "Behinderung", "d": "ein körperliches oder geistiges Problem, das manche Alltagsdinge schwer macht"},
+        "es": {"w": "discapacidad", "d": "un problema físico o mental que hace difíciles algunas cosas cotidianas"},
+        "fr": {"w": "handicap", "d": "un problème physique ou mental qui rend certaines choses du quotidien difficiles"}
+      }
+    },
+    {
+      "word": "condition",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/kənˈdɪʃn/",
+      "def": "An illness or health problem that lasts a long time and cannot be cured.",
+      "example": "The teacher always talked about Helen's condition in front of the class.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "حالة مرضية مزمنة", "d": "مرض أو مشكلة صحية تدوم طويلاً ولا يمكن علاجها"},
+        "zh": {"w": "（慢性）疾病", "d": "持续很久、无法治愈的疾病或健康问题"},
+        "de": {"w": "Erkrankung / Leiden", "d": "eine Krankheit oder ein Gesundheitsproblem, das lange dauert und nicht heilbar ist"},
+        "es": {"w": "afección / enfermedad crónica", "d": "enfermedad o problema de salud que dura mucho tiempo y no se cura"},
+        "fr": {"w": "maladie chronique / affection", "d": "une maladie ou un problème de santé qui dure longtemps et ne se guérit pas"}
+      }
+    },
+    {
+      "word": "attitude",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈætɪtjuːd/",
+      "def": "The way you think and feel about something.",
+      "example": "Helen has a very positive attitude to her disability.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "موقف / نظرة", "d": "الطريقة التي تفكر وتشعر بها تجاه شيء ما"},
+        "zh": {"w": "态度", "d": "你对某事的想法和感受"},
+        "de": {"w": "Einstellung / Haltung", "d": "wie man über etwas denkt und fühlt"},
+        "es": {"w": "actitud", "d": "la forma en que piensas y sientes sobre algo"},
+        "fr": {"w": "attitude / état d'esprit", "d": "la façon dont on pense et ressent quelque chose"}
+      }
+    },
+    {
+      "word": "surround yourself with",
+      "pos": "phrase",
+      "level": "B2",
+      "ipa": "/səˈraʊnd jɔːˈself wɪð/",
+      "def": "To choose to have certain people near you all the time.",
+      "example": "She surrounds herself with friends who support her.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يحيط نفسه بـ", "d": "أن تختار أن يكون أشخاص معيّنون قريبين منك دائماً"},
+        "zh": {"w": "让自己身边有……", "d": "选择让某些人一直在你身边"},
+        "de": {"w": "sich mit … umgeben", "d": "sich dafür entscheiden, bestimmte Menschen immer in der Nähe zu haben"},
+        "es": {"w": "rodearse de", "d": "elegir tener a ciertas personas cerca todo el tiempo"},
+        "fr": {"w": "s'entourer de", "d": "choisir d'avoir certaines personnes toujours près de soi"}
+      }
+    },
+    {
+      "word": "take for granted",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌteɪk fə ˈɡrɑːntɪd/",
+      "def": "To not see the real value of something because you are used to it.",
+      "example": "Many people take going to school for granted.",
+      "opposite": "appreciate",
+      "tr": {
+        "ar": {"w": "يعدّه أمراً مسلَّماً به", "d": "ألا ترى القيمة الحقيقية لشيء لأنك اعتدت عليه"},
+        "zh": {"w": "认为理所当然", "d": "因为习惯了而看不到某物的真正价值"},
+        "de": {"w": "für selbstverständlich halten", "d": "den wahren Wert von etwas nicht sehen, weil man daran gewöhnt ist"},
+        "es": {"w": "dar por sentado", "d": "no ver el valor real de algo porque estás acostumbrado a ello"},
+        "fr": {"w": "considérer comme acquis", "d": "ne pas voir la vraie valeur d'une chose parce qu'on y est habitué"}
+      }
+    },
+    {
+      "word": "encourage",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪnˈkʌrɪdʒ/",
+      "def": "To give someone support, confidence or hope.",
+      "example": "Her parents always encouraged her to study.",
+      "opposite": "discourage",
+      "tr": {
+        "ar": {"w": "يشجّع", "d": "أن تعطي شخصاً الدعم أو الثقة أو الأمل"},
+        "zh": {"w": "鼓励", "d": "给某人支持、信心或希望"},
+        "de": {"w": "ermutigen", "d": "jemandem Unterstützung, Selbstvertrauen oder Hoffnung geben"},
+        "es": {"w": "animar", "d": "dar a alguien apoyo, confianza o esperanza"},
+        "fr": {"w": "encourager", "d": "donner à quelqu'un du soutien, de la confiance ou de l'espoir"}
+      }
+    },
+    {
+      "word": "expect",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/ɪkˈspekt/",
+      "def": "To think or believe that something will happen.",
+      "example": "I didn't expect the new school to be so well prepared.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يتوقّع", "d": "أن تظن أو تعتقد أن شيئاً سيحدث"},
+        "zh": {"w": "预料 / 期待", "d": "认为或相信某事会发生"},
+        "de": {"w": "erwarten", "d": "denken oder glauben, dass etwas passieren wird"},
+        "es": {"w": "esperar / prever", "d": "pensar o creer que algo va a pasar"},
+        "fr": {"w": "s'attendre à", "d": "penser ou croire que quelque chose va arriver"}
+      }
+    },
+    {
+      "word": "ramp",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ræmp/",
+      "def": "A slope that joins two places at different heights, used instead of steps.",
+      "example": "There is a ramp at the entrance for wheelchair users.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "منحدر", "d": "سطح مائل يصل بين مكانين على ارتفاعين مختلفين بدلاً من الدرج"},
+        "zh": {"w": "坡道", "d": "连接两个不同高度地方的斜坡，用来代替台阶"},
+        "de": {"w": "Rampe", "d": "eine schräge Fläche zwischen zwei unterschiedlich hohen Stellen, statt Stufen"},
+        "es": {"w": "rampa", "d": "superficie inclinada que une dos lugares de distinta altura, en lugar de escalones"},
+        "fr": {"w": "rampe d'accès", "d": "une pente qui relie deux endroits de hauteurs différentes, à la place des marches"}
+      }
+    },
+    {
+      "word": "off limits",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˌɒf ˈlɪmɪts/",
+      "def": "Describing a place where people are not allowed to go or cannot go.",
+      "example": "Before the lift was built, the top floor was off limits to Helen.",
+      "opposite": "open to all",
+      "tr": {
+        "ar": {"w": "محظور / لا يمكن الوصول إليه", "d": "مكان لا يُسمح للناس بالذهاب إليه أو لا يستطيعون ذلك"},
+        "zh": {"w": "禁止进入的 / 去不了的", "d": "人们不允许去或无法去的地方"},
+        "de": {"w": "tabu / nicht zugänglich", "d": "ein Ort, an den man nicht darf oder nicht kommen kann"},
+        "es": {"w": "prohibido / inaccesible", "d": "un lugar al que la gente no puede o no debe ir"},
+        "fr": {"w": "interdit / inaccessible", "d": "un endroit où l'on n'a pas le droit ou pas la possibilité d'aller"}
+      }
+    },
+    {
+      "word": "tick all the boxes",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌtɪk ɔːl ðə ˈbɒksɪz/",
+      "def": "To have everything that is needed or wanted.",
+      "example": "The new library ticks all the boxes for wheelchair users.",
+      "opposite": "fall short",
+      "tr": {
+        "ar": {"w": "يستوفي كل الشروط", "d": "أن يكون فيه كل ما هو مطلوب"},
+        "zh": {"w": "完全符合要求", "d": "具备所有需要的条件"},
+        "de": {"w": "alle Anforderungen erfüllen", "d": "alles haben, was nötig ist oder gewünscht wird"},
+        "es": {"w": "cumplir todos los requisitos", "d": "tener todo lo que hace falta"},
+        "fr": {"w": "cocher toutes les cases", "d": "avoir tout ce qu'il faut"}
+      }
+    },
+    {
+      "word": "mainstream",
+      "pos": "adjective",
+      "level": "B2",
+      "ipa": "/ˈmeɪnstriːm/",
+      "def": "Ordinary and for most people, not special, like a normal state school.",
+      "example": "Should students with special needs go to mainstream schools?",
+      "opposite": "special",
+      "tr": {
+        "ar": {"w": "عام / سائد", "d": "عادي ولأغلب الناس وليس خاصاً، مثل المدرسة الحكومية العادية"},
+        "zh": {"w": "主流的 / 普通的", "d": "普通的、面向大多数人的，比如普通公立学校"},
+        "de": {"w": "regulär / Regel-", "d": "normal und für die meisten Menschen, nicht speziell, z. B. eine Regelschule"},
+        "es": {"w": "ordinario / convencional", "d": "normal y para la mayoría, no especial, como una escuela pública normal"},
+        "fr": {"w": "ordinaire / classique", "d": "normal et pour la plupart des gens, pas spécialisé, comme une école publique ordinaire"}
+      }
+    },
+    {
+      "word": "inclusion",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ɪnˈkluːʒn/",
+      "def": "Making sure everyone can take part and nobody is left out.",
+      "example": "Good schools think about inclusion from the first day.",
+      "opposite": "exclusion",
+      "tr": {
+        "ar": {"w": "الدمج / الشمول", "d": "التأكد من أن الجميع يمكنهم المشاركة وألا يُستبعد أحد"},
+        "zh": {"w": "包容 / 融合", "d": "确保每个人都能参与，没有人被排除在外"},
+        "de": {"w": "Inklusion", "d": "dafür sorgen, dass alle mitmachen können und niemand ausgeschlossen wird"},
+        "es": {"w": "inclusión", "d": "asegurarse de que todos puedan participar y nadie quede fuera"},
+        "fr": {"w": "inclusion", "d": "faire en sorte que tout le monde puisse participer et que personne ne soit exclu"}
+      }
+    },
+    {
+      "word": "access",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈækses/",
+      "def": "A way of getting into a place, or the right to use something.",
+      "example": "We need to make access easy for people in wheelchairs.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "إمكانية الوصول / الدخول", "d": "طريقة للدخول إلى مكان، أو الحق في استخدام شيء"},
+        "zh": {"w": "通道 / 使用权", "d": "进入某地的途径，或使用某物的权利"},
+        "de": {"w": "Zugang", "d": "ein Weg in einen Ort hinein oder das Recht, etwas zu nutzen"},
+        "es": {"w": "acceso", "d": "forma de entrar en un lugar o derecho a usar algo"},
+        "fr": {"w": "accès", "d": "un moyen d'entrer dans un lieu ou le droit d'utiliser quelque chose"}
+      }
+    },
+    {
+      "word": "accommodate",
+      "pos": "verb",
+      "level": "B2",
+      "ipa": "/əˈkɒmədeɪt/",
+      "def": "To change things so that they are right for someone's needs.",
+      "example": "The teacher had to move the furniture to accommodate Helen and her chair.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يلبّي احتياجات / يهيّئ لـ", "d": "أن تغيّر الأشياء لتناسب احتياجات شخص ما"},
+        "zh": {"w": "照顾到 / 满足（需要）", "d": "做出调整以满足某人的需要"},
+        "de": {"w": "berücksichtigen / Platz schaffen für", "d": "Dinge so ändern, dass sie zu jemandes Bedürfnissen passen"},
+        "es": {"w": "atender / adaptarse a", "d": "cambiar las cosas para que se ajusten a las necesidades de alguien"},
+        "fr": {"w": "accueillir / s'adapter à", "d": "changer les choses pour répondre aux besoins de quelqu'un"}
+      }
+    },
+    {
+      "word": "make a fuss",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌmeɪk ə ˈfʌs/",
+      "def": "To show too much worry or excitement about something small.",
+      "example": "Helen asked the teacher not to make a fuss about her chair.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يُثير ضجة / يُهوّل", "d": "أن تُظهر قلقاً أو اهتماماً زائداً بشيء بسيط"},
+        "zh": {"w": "小题大做", "d": "对小事表现出过多的担心或激动"},
+        "de": {"w": "Aufhebens machen", "d": "sich über eine Kleinigkeit zu sehr aufregen"},
+        "es": {"w": "armar un escándalo", "d": "preocuparse o alterarse demasiado por algo pequeño"},
+        "fr": {"w": "faire toute une histoire", "d": "s'inquiéter ou s'agiter trop pour une petite chose"}
+      }
+    },
+    {
+      "word": "go downhill",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/ˌɡəʊ daʊnˈhɪl/",
+      "def": "To become worse and worse.",
+      "example": "From that moment, things just went downhill.",
+      "opposite": "improve",
+      "tr": {
+        "ar": {"w": "يسوء / يتدهور", "d": "أن يصبح أسوأ فأسوأ"},
+        "zh": {"w": "每况愈下", "d": "变得越来越糟"},
+        "de": {"w": "bergab gehen", "d": "immer schlechter werden"},
+        "es": {"w": "ir de mal en peor", "d": "ponerse cada vez peor"},
+        "fr": {"w": "aller de mal en pis", "d": "devenir de pire en pire"}
+      }
+    },
+    {
+      "word": "special treatment",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌspeʃl ˈtriːtmənt/",
+      "def": "Getting more help or attention than other people get.",
+      "example": "Helen wanted to be included, not to get special treatment.",
+      "opposite": "equal treatment",
+      "tr": {
+        "ar": {"w": "معاملة خاصة", "d": "الحصول على مساعدة أو اهتمام أكثر مما يحصل عليه الآخرون"},
+        "zh": {"w": "特殊待遇", "d": "得到比别人更多的帮助或关注"},
+        "de": {"w": "Sonderbehandlung", "d": "mehr Hilfe oder Aufmerksamkeit bekommen als andere"},
+        "es": {"w": "trato especial", "d": "recibir más ayuda o atención que los demás"},
+        "fr": {"w": "traitement de faveur", "d": "recevoir plus d'aide ou d'attention que les autres"}
+      }
+    },
+    {
+      "word": "resent",
+      "pos": "verb",
+      "level": "C1",
+      "ipa": "/rɪˈzent/",
+      "def": "To feel angry with someone because you think something is unfair.",
+      "example": "Helen felt her classmates resented her because trips were cancelled.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يستاء من / يمتعض", "d": "أن تشعر بالغضب من شخص لأنك ترى أن شيئاً غير عادل"},
+        "zh": {"w": "怨恨 / 不满", "d": "因为觉得不公平而对某人生气"},
+        "de": {"w": "jemandem etwas übel nehmen", "d": "wütend auf jemanden sein, weil man etwas unfair findet"},
+        "es": {"w": "guardar rencor", "d": "sentir enfado con alguien porque crees que algo es injusto"},
+        "fr": {"w": "en vouloir à", "d": "être en colère contre quelqu'un parce qu'on trouve quelque chose injuste"}
+      }
+    },
+    {
+      "word": "burden",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈbɜːdn/",
+      "def": "Someone or something that causes problems or extra work for others.",
+      "example": "Helen didn't want to feel like a burden to her classmates.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "عبء", "d": "شخص أو شيء يسبب مشكلات أو عملاً إضافياً للآخرين"},
+        "zh": {"w": "负担 / 累赘", "d": "给别人带来麻烦或额外工作的人或事"},
+        "de": {"w": "Last / Belastung", "d": "jemand oder etwas, das anderen Probleme oder Extraarbeit macht"},
+        "es": {"w": "carga", "d": "alguien o algo que causa problemas o trabajo extra a otros"},
+        "fr": {"w": "fardeau", "d": "quelqu'un ou quelque chose qui cause des problèmes ou du travail en plus aux autres"}
+      }
+    },
+    {
+      "word": "field trip",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈfiːld trɪp/",
+      "def": "A school visit to a place outside the classroom, like a museum.",
+      "example": "At her new school, Helen could go on every field trip.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "رحلة ميدانية", "d": "زيارة مدرسية لمكان خارج الفصل، مثل المتحف"},
+        "zh": {"w": "实地考察 / 校外参观", "d": "学校组织的课堂以外的参观，比如去博物馆"},
+        "de": {"w": "Exkursion / Ausflug", "d": "ein Schulbesuch an einem Ort außerhalb des Klassenzimmers, z. B. im Museum"},
+        "es": {"w": "excursión escolar", "d": "una visita escolar a un lugar fuera del aula, como un museo"},
+        "fr": {"w": "sortie scolaire", "d": "une visite scolaire hors de la classe, par exemple au musée"}
+      }
+    },
+    {
+      "word": "crowded",
+      "pos": "adjective",
+      "level": "A2",
+      "ipa": "/ˈkraʊdɪd/",
+      "def": "Full of people or things, with little space to move.",
+      "example": "The classroom was very small and quite crowded.",
+      "opposite": "empty",
+      "tr": {
+        "ar": {"w": "مزدحم", "d": "مليء بالناس أو الأشياء ولا توجد مساحة كافية للحركة"},
+        "zh": {"w": "拥挤的", "d": "挤满了人或东西，没什么活动空间"},
+        "de": {"w": "überfüllt / voll", "d": "voller Menschen oder Dinge, mit wenig Platz zum Bewegen"},
+        "es": {"w": "abarrotado / lleno", "d": "lleno de gente o cosas, con poco espacio para moverse"},
+        "fr": {"w": "bondé / encombré", "d": "plein de gens ou de choses, avec peu de place pour bouger"}
+      }
+    },
+    {
+      "word": "participate",
+      "pos": "verb",
+      "level": "B1",
+      "ipa": "/pɑːˈtɪsɪpeɪt/",
+      "def": "To take part in an activity.",
+      "example": "They wanted Helen to participate in all activities, even field trips.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "يشارك", "d": "أن تأخذ دوراً في نشاط ما"},
+        "zh": {"w": "参加 / 参与", "d": "参加某项活动"},
+        "de": {"w": "teilnehmen", "d": "bei einer Aktivität mitmachen"},
+        "es": {"w": "participar", "d": "tomar parte en una actividad"},
+        "fr": {"w": "participer", "d": "prendre part à une activité"}
+      }
+    },
+    {
+      "word": "facilities",
+      "pos": "noun (plural)",
+      "level": "B1",
+      "ipa": "/fəˈsɪlətiz/",
+      "def": "The rooms and equipment in a building that people use, like toilets.",
+      "example": "The school checked if the facilities, like the lunch room, were suitable.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "المرافق", "d": "الغرف والتجهيزات في المبنى التي يستخدمها الناس، مثل دورات المياه"},
+        "zh": {"w": "设施", "d": "建筑里供人们使用的房间和设备，比如厕所"},
+        "de": {"w": "Einrichtungen", "d": "die Räume und Geräte in einem Gebäude, die man benutzt, z. B. Toiletten"},
+        "es": {"w": "instalaciones", "d": "las salas y equipos de un edificio que usa la gente, como los baños"},
+        "fr": {"w": "équipements / installations", "d": "les salles et équipements d'un bâtiment, comme les toilettes"}
+      }
+    },
+    {
+      "word": "handrail",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˈhændreɪl/",
+      "def": "A long bar on a wall or by stairs that you hold for support.",
+      "example": "Put handrails along the corridors so people can hold them.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "درابزين", "d": "قضيب طويل على الحائط أو بجانب الدرج تمسكه لتستند إليه"},
+        "zh": {"w": "扶手", "d": "墙上或楼梯旁可以扶着的长杆"},
+        "de": {"w": "Handlauf / Geländer", "d": "eine lange Stange an der Wand oder Treppe, an der man sich festhält"},
+        "es": {"w": "pasamanos / barandilla", "d": "barra larga en la pared o la escalera para sujetarse"},
+        "fr": {"w": "main courante / rampe", "d": "une longue barre au mur ou le long d'un escalier pour se tenir"}
+      }
+    },
+    {
+      "word": "lift",
+      "pos": "noun",
+      "level": "A2",
+      "ipa": "/lɪft/",
+      "def": "A machine that carries people up and down between floors.",
+      "example": "Wheelchair users need a lift (US: elevator), not an escalator.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مصعد", "d": "آلة تنقل الناس صعوداً ونزولاً بين الطوابق"},
+        "zh": {"w": "电梯", "d": "在楼层之间载人上下的机器"},
+        "de": {"w": "Aufzug / Fahrstuhl", "d": "eine Maschine, die Menschen zwischen den Stockwerken hoch- und runterbringt"},
+        "es": {"w": "ascensor", "d": "máquina que sube y baja a las personas entre los pisos"},
+        "fr": {"w": "ascenseur", "d": "une machine qui transporte les gens d'un étage à l'autre"}
+      }
+    },
+    {
+      "word": "escalator",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈeskəleɪtə/",
+      "def": "Moving stairs that carry people up or down.",
+      "example": "People in wheelchairs can't use the escalator.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "سلّم كهربائي متحرك", "d": "درج متحرك ينقل الناس صعوداً أو نزولاً"},
+        "zh": {"w": "自动扶梯", "d": "载人上下的移动楼梯"},
+        "de": {"w": "Rolltreppe", "d": "eine Treppe, die sich bewegt und Menschen hoch- oder runterbringt"},
+        "es": {"w": "escalera mecánica", "d": "escaleras que se mueven y suben o bajan a la gente"},
+        "fr": {"w": "escalier mécanique / escalator", "d": "un escalier qui bouge et qui monte ou descend les gens"}
+      }
+    },
+    {
+      "word": "vending machine",
+      "pos": "noun",
+      "level": "B1",
+      "ipa": "/ˈvendɪŋ məˌʃiːn/",
+      "def": "A box that sells drinks or snacks when you put money in.",
+      "example": "The buttons on the vending machine are too high for some people.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "آلة بيع ذاتي", "d": "صندوق يبيع المشروبات أو الوجبات الخفيفة عندما تضع فيه المال"},
+        "zh": {"w": "自动售货机", "d": "投钱后卖饮料或零食的机器"},
+        "de": {"w": "Verkaufsautomat", "d": "ein Kasten, der Getränke oder Snacks verkauft, wenn man Geld einwirft"},
+        "es": {"w": "máquina expendedora", "d": "aparato que vende bebidas o tentempiés cuando metes dinero"},
+        "fr": {"w": "distributeur automatique", "d": "un appareil qui vend des boissons ou des en-cas quand on met de l'argent"}
+      }
+    },
+    {
+      "word": "flat terrain",
+      "pos": "noun",
+      "level": "B2",
+      "ipa": "/ˌflæt təˈreɪn/",
+      "def": "Ground that is level, with no hills or steps.",
+      "example": "Flat terrain makes it easier to move around in a wheelchair.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "أرض مستوية", "d": "أرض منبسطة ليس فيها مرتفعات أو درجات"},
+        "zh": {"w": "平坦的地面", "d": "没有坡也没有台阶的平地"},
+        "de": {"w": "ebenes Gelände", "d": "flacher Boden ohne Hügel oder Stufen"},
+        "es": {"w": "terreno llano", "d": "suelo plano, sin cuestas ni escalones"},
+        "fr": {"w": "terrain plat", "d": "un sol plat, sans pentes ni marches"}
+      }
+    },
+    {
+      "word": "like night and day",
+      "pos": "idiom",
+      "level": "B2",
+      "ipa": "/laɪk ˌnaɪt ən ˈdeɪ/",
+      "def": "Completely different.",
+      "example": "The difference between this school and my last is like night and day.",
+      "opposite": "",
+      "tr": {
+        "ar": {"w": "مختلفان كالليل والنهار", "d": "مختلفان تماماً"},
+        "zh": {"w": "天壤之别", "d": "完全不同"},
+        "de": {"w": "wie Tag und Nacht", "d": "völlig unterschiedlich"},
+        "es": {"w": "como la noche y el día", "d": "completamente diferentes"},
+        "fr": {"w": "le jour et la nuit", "d": "complètement différents"}
+      }
+    }
+  ],
+  "grammar": [],
+  "phrases": [
+    {"en": "Education should be available to all.", "use": "Giving an opinion (Lead-in statements)"},
+    {"en": "People with special needs should be able to access mainstream education.", "use": "Giving an opinion about inclusion"},
+    {"en": "Students with special needs should be able to participate fully in school life.", "use": "Giving an opinion about inclusion"},
+    {"en": "People should look at their strengths rather than their weaknesses.", "use": "Talking about a positive attitude"},
+    {"en": "The teacher made a big fuss about moving the furniture.", "use": "Describing a bad experience"},
+    {"en": "From that moment, things just went downhill.", "use": "Saying a situation got worse"},
+    {"en": "After two months, I'd had enough and I left that school.", "use": "Saying you could not accept something any more"},
+    {"en": "I have a physical disability, but that doesn't mean I am stupid!", "use": "Correcting a wrong idea about yourself"},
+    {"en": "From my first day here, I felt incredibly welcome.", "use": "Describing a good experience"},
+    {"en": "The difference between this school and my last is like night and day.", "use": "Comparing two experiences"},
+    {"en": "This little bit of preparation meant that I could be just like any other student.", "use": "Explaining a result"},
+    {"en": "Do you think your school or workplace accommodates people with special needs?", "use": "Asking for an opinion"},
+    {"en": "We need to make access easy for everyone.", "use": "Teacher's correction (not 'make easily access')"},
+    {"en": "Put handrails on the walls for people to hold.", "use": "Suggesting a change to a building"}
+  ]
+}
