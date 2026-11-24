@@ -34,6 +34,7 @@
       const d = findDeck(el.dataset.count);
       if (d) { const st = deckStats(d); el.textContent = st.k + ' of ' + st.total + ' words known'; }
     });
+    if (typeof refreshDrawerCounts === 'function') refreshDrawerCounts();
   }
 
   /* ---------- helpers ---------- */
@@ -139,12 +140,28 @@
     if (lang === 'ar' && (w.arWord || w.arabic)) return { w: w.arWord || w.arabic, d: w.arMeaning || '' };
     return null;
   }
-  function scratchHTML(w) {
+  // Every scratch strip remembers its word, so a language change can swap the text in place (no page reload).
+  const SCR = [];
+  function scratchContent(w) {
     const t = trOf(w);
     const L = langInfo();
-    if (!t) return '<div class="note">No ' + esc(L.name) + ' translation yet.</div>';
-    return '<div class="scratch" data-scratch><div class="scratch-content" ' + (L.rtl ? 'dir="rtl" lang="ar"' : 'lang="' + L.id + '"') + '>' +
-      '<span class="tw">' + esc(t.w) + '</span>' + (t.d ? '<span class="td">' + esc(t.d) + '</span>' : '') + '</div></div>';
+    if (!t) return '<div class="scratch-content"><span class="td">No ' + esc(L.name) + ' translation yet.</span></div>';
+    return '<div class="scratch-content" ' + (L.rtl ? 'dir="rtl" lang="ar"' : 'lang="' + L.id + '"') + '>' +
+      '<span class="tw">' + esc(t.w) + '</span>' + (t.d ? '<span class="td">' + esc(t.d) + '</span>' : '') + '</div>';
+  }
+  function scratchHTML(w) {
+    const id = SCR.push(w) - 1;
+    return '<div class="scratch" data-scratch data-sid="' + id + '">' + scratchContent(w) + '</div>';
+  }
+  function refreshLanguage() {
+    $$('[data-scratch][data-sid]').forEach((el) => {
+      const w = SCR[+el.dataset.sid];
+      const c = $('.scratch-content', el);
+      if (!w || !c) return;
+      c.outerHTML = scratchContent(w);
+      if (el._repaint && !el.classList.contains('revealed')) el._repaint();
+    });
+    $$('[data-langname]').forEach((e) => (e.textContent = langInfo().name));
   }
   function cssVar(n) { return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
 
@@ -199,6 +216,7 @@
       sparkles(el);
     }
     el._reveal = reveal;
+    el._repaint = paint;
     cv.addEventListener('pointerdown', (e) => {
       drawing = true; moved = 0; last = pos(e);
       cv.setPointerCapture(e.pointerId);
@@ -290,13 +308,14 @@
   const langSel = $('#langSelect');
   langSel.innerHTML = LANGS.map((l) => '<option value="' + l.id + '">' + l.label + '</option>').join('');
   langSel.value = lang;
-  langSel.addEventListener('change', () => { lang = langSel.value; store.set('lang', lang); toast('Translations: ' + langInfo().name); route(true); });
+  langSel.addEventListener('change', () => { lang = langSel.value; store.set('lang', lang); toast('Translations: ' + langInfo().name); refreshLanguage(); });
   let theme = store.get('theme', null);
   function applyTheme() { if (theme) document.documentElement.dataset.theme = theme; else delete document.documentElement.dataset.theme; }
   applyTheme();
   $('#themeBtn').addEventListener('click', () => {
     const dark = theme ? theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    theme = dark ? 'light' : 'dark'; store.set('theme', theme); applyTheme(); route(true);
+    theme = dark ? 'light' : 'dark'; store.set('theme', theme); applyTheme();
+    $$('[data-scratch]').forEach((el) => { if (el._repaint && !el.classList.contains('revealed')) el._repaint(); });
   });
 
   /* ==========================================================================
@@ -329,6 +348,7 @@
       '<div class="ring"><svg width="120" height="120"><circle class="bg" cx="60" cy="60" r="50"/><circle class="fg" cx="60" cy="60" r="50" stroke-dasharray="' + circ + '" stroke-dashoffset="' + circ + '" data-to="' + circ * (1 - pct) + '"/></svg>' +
       '<div class="lbl"><div><b>' + knownCount + '</b>words I know</div></div></div></section>';
 
+    html += continueHTML('d-continue home-continue');
     html += '<div class="search"><span aria-hidden="true">🔎</span><input id="q" type="search" placeholder="Search all ' + words.length + ' words…" aria-label="Search all words" autocomplete="off"></div>';
     html += '<div id="results"></div>';
 
@@ -395,20 +415,23 @@
     const p = deckPage(d, extra);
     render(p.html, nav);
     const pane = $('#pane');
-    const show = (id) => {
+    const show = (id, sub) => {
       $$('.tab').forEach((t) => t.classList.toggle('on', t.dataset.tab === id));
       const base = location.hash.split('/').slice(0, 3).join('/');
       history.replaceState(null, '', base + '/' + id);
+      rememberPlace();
+      markDrawer();
       pane.classList.remove('view-enter'); void pane.offsetWidth; pane.classList.add('view-enter');
       const custom = [...((extra && extra.firstTabs) || []), ...((extra && extra.moreTabs) || [])].find((t) => t.id === id);
       if (custom) custom.render(pane);
       else if (id === 'words') wordsPane(pane, d);
       else if (id === 'cards') flashcards(pane, d.vocab, d.scope, d);
-      else if (id === 'practice') practicePane(pane, d.vocab, d.scope);
+      else if (id === 'practice') { practicePane(pane, d.vocab, d.scope); if (sub) runGame(pane, sub, d.vocab, d.scope); }
       armScratches(pane);
     };
     $$('.tab').forEach((t) => t.addEventListener('click', () => show(t.dataset.tab)));
-    show(p.active);
+    currentShow = (id, sub) => { if (p.tabs.some((t) => t.id === id)) { show(id, sub); window.scrollTo({ top: 0 }); } };
+    show(p.active, location.hash.split('/')[4]);
   }
 
   function wordsPane(pane, d) {
@@ -419,7 +442,7 @@
       pane.innerHTML = '<div class="toolbar"><div class="filter">' +
         ['all', 'learning', 'known'].map((f) => '<button data-f="' + f + '" class="' + (f === filter ? 'on' : '') + '">' + ({ all: 'All', learning: 'Still learning', known: 'Known' })[f] + '</button>').join('') +
         '</div><button class="btn sm" id="revealAll">' + (showAll ? '🙈 Hide translations' : '👀 Show all translations') + '</button>' +
-        '<span class="note">Tip: scratch the purple strip to see the ' + esc(langInfo().name) + ' meaning.</span></div>' +
+        '<span class="note">Tip: scratch the purple strip to see the <span data-langname>' + esc(langInfo().name) + '</span> meaning.</span></div>' +
         (list.length ? '<div class="words stagger' + (showAll ? ' show-all' : '') + '">' + list.map((w, i) => wordCardHTML(w, d.scope, i)).join('') + '</div>' : '<div class="empty">Nothing here yet.</div>');
       $$('[data-f]', pane).forEach((b) => b.addEventListener('click', () => { filter = b.dataset.f; draw(); }));
       $('#revealAll', pane).addEventListener('click', () => { showAll = !showAll; draw(); });
@@ -433,6 +456,7 @@
     if (!vocab.length) { pane.innerHTML = '<div class="empty">No words yet.</div>'; return; }
     const scopeOf = (w) => w._scope || scope;
     let mode = 'all';
+    let side = store.get('fcSide', 'word'); // 'word' = word on the front, 'def' = meaning on the front
     let deck = [], i = 0, knewN = 0;
     const start = () => {
       const base = mode === 'learning' ? vocab.filter((w) => !isKnown(scopeOf(w), w)) : vocab;
@@ -454,25 +478,43 @@
       }
       const w = deck[i];
       const tag = w._deck ? '<div class="note">' + esc(w._deck.label + ' · ' + w._deck.title) + '</div>' : '';
+      const sub = '<div class="w-sub" style="justify-content:center">' + (w.pos ? '<span>' + esc(w.pos) + '</span>' : '') + (w.ipa ? '<span class="ipa">' + esc(w.ipa) + '</span>' : '') + (w.level ? '<span class="lvl ' + esc(w.level) + '">' + esc(w.level) + '</span>' : '') + '</div>';
+      const speakBtn = '<button class="speak" data-say="' + esc(w.word) + '" aria-label="Listen">🔊</button>';
+      const opp = w.opposite ? '<div class="w-opp">Opposite: <b>' + esc(w.opposite) + '</b></div>' : '';
+      const rx = wordRegex(w.word);
+      const exBlank = w.example ? esc(w.example).replace(rx || /$^/, '<span class="blank">&nbsp;</span>') : '';
+      let front, back;
+      if (side === 'def') {
+        // Meaning first: read the meaning, scratch for the translation, flip to see the word.
+        front = '<div class="fc-face fc-front def-first">' + tag + '<div class="q-label">What’s the word?</div>' +
+          '<div class="big-def">' + esc(w.def || '') + '</div>' +
+          (exBlank ? '<div class="w-ex">' + exBlank + '</div>' : '') + scratchHTML(w) +
+          '<div class="fc-hint">Scratch for a hint · tap the card to see the word</div></div>';
+        back = '<div class="fc-face fc-back word-side"><div class="w-word">' + esc(w.word) + '</div>' + sub + speakBtn +
+          (w.example ? '<div class="w-ex">' + highlight(w.example, w.word) + '</div>' : '') + opp + '</div>';
+      } else {
+        front = '<div class="fc-face fc-front">' + tag + '<div class="w-word">' + esc(w.word) + '</div>' + sub + speakBtn +
+          '<div class="fc-hint">Tap to flip · swipe right = I know it · swipe left = still learning</div></div>';
+        back = '<div class="fc-face fc-back"><div class="s-num">' + esc(w.word) + '</div><div class="big-def">' + esc(w.def || '') + '</div>' +
+          (w.example ? '<div class="w-ex">' + highlight(w.example, w.word) + '</div>' : '') + scratchHTML(w) + opp + '</div>';
+      }
       pane.innerHTML = '<div class="fc-wrap">' +
-        '<div class="toolbar" style="justify-content:center"><div class="filter"><button data-m="all" class="' + (mode === 'all' ? 'on' : '') + '">All words</button><button data-m="learning" class="' + (mode === 'learning' ? 'on' : '') + '">Still learning</button></div></div>' +
+        '<div class="toolbar" style="justify-content:center">' +
+        '<div class="filter" role="group" aria-label="Card front"><button data-side="word" class="' + (side === 'word' ? 'on' : '') + '">🔤 Word first</button><button data-side="def" class="' + (side === 'def' ? 'on' : '') + '">📖 Meaning first</button></div>' +
+        '<div class="filter" role="group" aria-label="Which words"><button data-m="all" class="' + (mode === 'all' ? 'on' : '') + '">All words</button><button data-m="learning" class="' + (mode === 'learning' ? 'on' : '') + '">Still learning</button></div></div>' +
         '<div class="fc-progress"><span>Card ' + (i + 1) + ' / ' + deck.length + '</span><span>✓ ' + knewN + ' known</span></div>' +
         '<div class="bar" style="margin-bottom:14px;--h:250"><i style="width:' + (i / deck.length) * 100 + '%"></i></div>' +
         '<div class="fc-stage"><div class="fc-ghost"></div><div class="fc" id="fc" tabindex="0" aria-label="Flashcard. Press space to flip.">' +
         '<span class="fc-tag learn">STILL LEARNING</span><span class="fc-tag know">I KNOW IT</span>' +
-        '<div class="fc-inner"><div class="fc-face fc-front">' + tag + '<div class="w-word">' + esc(w.word) + '</div>' +
-        '<div class="w-sub" style="justify-content:center">' + (w.pos ? '<span>' + esc(w.pos) + '</span>' : '') + (w.ipa ? '<span class="ipa">' + esc(w.ipa) + '</span>' : '') + (w.level ? '<span class="lvl ' + esc(w.level) + '">' + esc(w.level) + '</span>' : '') + '</div>' +
-        '<button class="speak" data-say="' + esc(w.word) + '" aria-label="Listen">🔊</button>' +
-        '<div class="fc-hint">Tap to flip · swipe right = I know it · swipe left = still learning</div></div>' +
-        '<div class="fc-face fc-back"><div class="s-num">' + esc(w.word) + '</div><div class="big-def">' + esc(w.def || '') + '</div>' +
-        (w.example ? '<div class="w-ex">' + highlight(w.example, w.word) + '</div>' : '') + scratchHTML(w) +
-        (w.opposite ? '<div class="w-opp">Opposite: <b>' + esc(w.opposite) + '</b></div>' : '') + '</div></div></div></div>' +
+        '<div class="fc-inner">' + front + back + '</div></div></div>' +
         '<div class="fc-btns"><button class="btn" id="nope">↩ Still learning</button><button class="btn ghost" id="flip">Flip</button><button class="btn good" id="yes">I know it ✓</button></div></div>';
 
       $$('[data-m]', pane).forEach((b) => (b.onclick = () => { mode = b.dataset.m; start(); }));
+      $$('[data-side]', pane).forEach((b) => (b.onclick = () => { side = b.dataset.side; store.set('fcSide', side); draw(); }));
       const fc = $('#fc', pane);
       const scratchEl = $('[data-scratch]', fc);
-      let flippedOnce = false;
+      if (side === 'def' && scratchEl) setTimeout(() => initScratch(scratchEl), 30);
+      let flippedOnce = side === 'def';
       const flip = () => {
         fc.classList.toggle('flipped');
         if (!flippedOnce && scratchEl) { flippedOnce = true; setTimeout(() => initScratch(scratchEl), 50); }
@@ -525,21 +567,23 @@
   }
 
   /* ---------- practice games ---------- */
+  const GAMES = [
+    { id: 'mean', i: '🎯', t: 'What’s the word?', d: 'Read the B1 meaning and choose the right word.' },
+    { id: 'gap', i: '🧩', t: 'Fill the gap', d: 'Complete real example sentences.' },
+    { id: 'match', i: '🔗', t: 'Match pairs', d: 'Connect words with their meanings, fast.' },
+    { id: 'spell', i: '🎧', t: 'Listen & spell', d: 'Hear the word, then type it.' },
+    { id: 'trans', i: '🌍', t: 'Translation race', d: 'See the {L} word, pick the English.' },
+  ];
   function practicePane(pane, vocab, scope) {
     if (vocab.length < 4) { pane.innerHTML = '<div class="empty">Need at least 4 words to play.</div>'; return; }
-    const games = [
-      { id: 'mean', i: '🎯', t: 'What’s the word?', d: 'Read the B1 meaning and choose the right word.' },
-      { id: 'gap', i: '🧩', t: 'Fill the gap', d: 'Complete real example sentences.' },
-      { id: 'match', i: '🔗', t: 'Match pairs', d: 'Connect words with their meanings, fast.' },
-      { id: 'spell', i: '🎧', t: 'Listen & spell', d: 'Hear the word, then type it.' },
-      { id: 'trans', i: '🌍', t: 'Translation race', d: 'See the ' + langInfo().name + ' word, pick the English.' },
-    ];
+    const games = GAMES.map((g) => Object.assign({}, g, { d: g.d.replace('{L}', '<span data-langname>' + langInfo().name + '</span>') }));
     pane.innerHTML = '<div class="games stagger">' + games.map((g, i) => '<button class="game-tile" style="--i:' + i + '" data-g="' + g.id + '"><span class="gi">' + g.i + '</span><b>' + g.t + '</b><span>' + g.d + '</span></button>').join('') + '</div>';
     $$('[data-g]', pane).forEach((b) => b.addEventListener('click', () => runGame(pane, b.dataset.g, vocab, scope)));
   }
 
   function runGame(pane, id, vocab, scope) {
     const back = () => practicePane(pane, vocab, scope);
+    if (!GAMES.some((g) => g.id === id)) return;
     if (id === 'match') return matchGame(pane, vocab, back);
     const scopeOf = (w) => w._scope || scope;
     let pool = vocab;
@@ -810,19 +854,114 @@
   function notFound() { render('<div class="empty"><h2>Page not found</h2><p><a href="#/">Go home</a></p></div>', ''); }
 
   /* ---------- router ---------- */
+  /* ---------- left menu (drawer) ---------- */
+  const TAB_NAMES = { words: 'Words', cards: 'Flashcards', practice: 'Games', grammar: 'Grammar', phrases: 'Phrases', read: 'Read', watch: 'Watch' };
+  const wide = matchMedia('(min-width: 1200px)');
+  let docked = store.get('docked', true);
+  function setDrawer(open) {
+    if (wide.matches) {
+      docked = open; store.set('docked', docked);
+      document.body.classList.toggle('docked', docked);
+      document.body.classList.remove('drawer-open');
+      $('#drawerBackdrop').hidden = true;
+    } else {
+      document.body.classList.toggle('drawer-open', open);
+      $('#drawerBackdrop').hidden = !open;
+      if (open) setTimeout(() => { const on = $('.d-sess.on', $('#drawer')); if (on) on.scrollIntoView({ block: 'center' }); }, 80);
+    }
+    $('#menuBtn').setAttribute('aria-expanded', String(wide.matches ? docked : open));
+  }
+  function drawerIsOpen() { return wide.matches ? docked : document.body.classList.contains('drawer-open'); }
+  $('#menuBtn').addEventListener('click', () => setDrawer(!drawerIsOpen()));
+  $('#drawerBackdrop').addEventListener('click', () => setDrawer(false));
+  wide.addEventListener('change', () => { document.body.classList.remove('drawer-open'); $('#drawerBackdrop').hidden = true; document.body.classList.toggle('docked', wide.matches && docked); });
+  document.body.classList.toggle('docked', wide.matches && docked);
+
+  function rememberPlace() {
+    const parts = location.hash.replace(/^#\/?/, '').split('/');
+    const scope = parts[0] === 's' ? 's' + parts[1] : parts[0] === 'story' ? 'st:' + parts[1] : parts[0] === 'topic' ? 'tp:' + parts[1] : null;
+    const d = scope && findDeck(scope);
+    if (!d) return;
+    store.set('last', { hash: '#/' + parts.slice(0, 3).join('/'), title: (d.kind === 'session' ? 'Session ' + d.id : d.title) + ' · ' + (TAB_NAMES[parts[2]] || 'Words'), sub: d.title });
+  }
+  function continueHTML(cls) {
+    const last = store.get('last', null);
+    if (!last) return '';
+    return '<a class="' + cls + '" href="' + esc(last.hash) + '"><span style="font-size:22px">▶</span><span>Continue: ' + esc(last.title) + '<small>' + esc(last.sub) + '</small></span></a>';
+  }
+  function buildDrawer() {
+    const sessLinks = (s) => {
+      const l = [['words', '📝 Words'], ['cards', '🃏 Flashcards'], ['practice', '🎮 Games']];
+      if ((s.grammar || []).length) l.push(['grammar', '🧩 Grammar']);
+      if ((s.phrases || []).length) l.push(['phrases', '💬 Phrases']);
+      return l.map(([t, n]) => '<a href="#/s/' + s.id + '/' + t + '" data-t="' + t + '">' + n + '</a>').join('') +
+        '<a href="#/s/' + s.id + '/practice/trans" data-t="trans">🌍 Translation race</a>';
+    };
+    let html = '<div id="dContinue">' + continueHTML('d-continue') + '</div><div class="d-label">Sessions</div>';
+    C.sessions.forEach((s) => {
+      const st = deckStats(findDeck('s' + s.id));
+      html += '<div class="d-sess" data-sid="' + s.id + '" data-find="' + esc((s.id + ' ' + s.title).toLowerCase()) + '" style="--h:' + hue(s.id) + '">' +
+        '<button class="d-row" aria-expanded="false"><span class="s-emoji">' + s.emoji + '</span><span class="t"><b>' + s.id + '. ' + esc(s.title) + '</b><small>' + st.total + ' words · ' + st.k + ' known</small></span>' +
+        '<span class="mini"><i style="width:' + st.pct + '%"></i></span><span class="chev">▶</span></button>' +
+        '<div class="d-links">' + sessLinks(s) + '</div></div>';
+    });
+    html += '<div class="d-label">Practise everything</div>' +
+      '<a class="d-plain" href="#/review" data-plain="review">🔁 Mixed review</a><a class="d-plain" href="#/grammar" data-plain="grammar">🧩 All grammar</a>' +
+      '<div class="d-label">Stories</div>' + C.stories.map((s) => '<a class="d-plain" href="#/story/' + s.id + '" data-plain="story/' + s.id + '">📖 ' + esc(s.title) + '</a>').join('') +
+      '<div class="d-label">Video topics</div>' + C.topics.map((t) => '<a class="d-plain" href="#/topic/' + t.id + '" data-plain="topic/' + t.id + '">' + (t.icon || '🎬') + ' ' + esc(t.title) + '</a>').join('');
+    $('#drawerBody').innerHTML = html;
+    $$('.d-row', $('#drawerBody')).forEach((b) => b.addEventListener('click', () => {
+      const box = b.parentElement, open = !box.classList.contains('open');
+      box.classList.toggle('open', open); b.setAttribute('aria-expanded', String(open));
+    }));
+    $('#drawerBody').addEventListener('click', (e) => { if (e.target.closest('a') && !wide.matches) setDrawer(false); });
+  }
+  function markDrawer() {
+    const parts = location.hash.replace(/^#\/?/, '').split('/');
+    $$('.d-sess').forEach((box) => {
+      const on = parts[0] === 's' && box.dataset.sid === parts[1];
+      box.classList.toggle('on', on);
+      if (on && !box.classList.contains('open')) {
+        box.classList.add('open'); $('.d-row', box).setAttribute('aria-expanded', 'true');
+        const body = $('#drawerBody');
+        setTimeout(() => { body.scrollTop = box.offsetTop - body.clientHeight / 3; }, 60);
+      }
+      $$('.d-links a', box).forEach((a) => a.classList.toggle('on', on && a.dataset.t === (parts[3] === 'trans' ? 'trans' : parts[2])));
+    });
+    $$('.d-plain').forEach((a) => a.classList.toggle('on', a.dataset.plain === parts.slice(0, a.dataset.plain.split('/').length).join('/')));
+    const c = $('#dContinue'); if (c) c.innerHTML = continueHTML('d-continue');
+  }
+  function refreshDrawerCounts() {
+    $$('.d-sess').forEach((box) => {
+      const st = deckStats(findDeck('s' + box.dataset.sid));
+      $('.t small', box).textContent = st.total + ' words · ' + st.k + ' known';
+      $('.mini i', box).style.width = st.pct + '%';
+    });
+  }
+  $('#drawerFilter').addEventListener('input', (e) => {
+    const t = e.target.value.trim().toLowerCase();
+    const boxes = $$('.d-sess');
+    boxes.forEach((b) => (b.hidden = !!t && !b.dataset.find.includes(t)));
+    const vis = boxes.filter((b) => !b.hidden);
+    if (t && vis.length === 1) vis[0].classList.add('open');
+  });
+  buildDrawer();
+
   let lastRoute = '';
+  let currentShow = null;
   function route(force) {
     const h = location.hash || '#/';
     const parts = h.replace(/^#\/?/, '').split('/');
     const key = parts.slice(0, 2).join('/');
-    if (!force && key === lastRoute) { // same page: just switch tab if the link named one
-      const t = parts[2] && document.querySelector('.tab[data-tab="' + parts[2] + '"]');
-      if (t && !t.classList.contains('on')) t.click();
+    if (!force && key === lastRoute && currentShow) { // same page: switch tab (and game) in place
+      if (parts[2]) currentShow(parts[2], parts[3]);
       return;
     }
     lastRoute = key;
+    currentShow = null;
     if ('speechSynthesis' in window) speechSynthesis.cancel();
     closeSheet();
+    refreshDrawerCounts();
     const [a, b] = parts;
     if (!a) homeView();
     else if (a === 's') sessionView(b);
@@ -833,6 +972,7 @@
     else if (a === 'story') storyView(b);
     else if (a === 'topic') topicView(b);
     else notFound();
+    markDrawer();
     if (!force) window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
   }
   // support old links like index.html?session=5
