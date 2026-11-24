@@ -499,8 +499,10 @@
           (w.example ? '<div class="w-ex">' + highlight(w.example, w.word) + '</div>' : '') + scratchHTML(w) + opp + '</div>';
       }
       pane.innerHTML = '<div class="fc-wrap">' +
+        '<div class="side-row"><span class="side-q">Card shows first:</span>' +
+        '<button class="side-switch' + (side === 'def' ? ' is-def' : '') + '" id="sideSwitch" role="switch" aria-checked="' + (side === 'def') + '" aria-label="Show the meaning first">' +
+        '<span class="ss-opt ss-word">🔤 Word</span><span class="ss-opt ss-def">📖 Meaning</span><span class="ss-knob" aria-hidden="true"></span></button></div>' +
         '<div class="toolbar" style="justify-content:center">' +
-        '<div class="filter" role="group" aria-label="Card front"><button data-side="word" class="' + (side === 'word' ? 'on' : '') + '">🔤 Word first</button><button data-side="def" class="' + (side === 'def' ? 'on' : '') + '">📖 Meaning first</button></div>' +
         '<div class="filter" role="group" aria-label="Which words"><button data-m="all" class="' + (mode === 'all' ? 'on' : '') + '">All words</button><button data-m="learning" class="' + (mode === 'learning' ? 'on' : '') + '">Still learning</button></div></div>' +
         '<div class="fc-progress"><span>Card ' + (i + 1) + ' / ' + deck.length + '</span><span>✓ ' + knewN + ' known</span></div>' +
         '<div class="bar" style="margin-bottom:14px;--h:250"><i style="width:' + (i / deck.length) * 100 + '%"></i></div>' +
@@ -510,7 +512,11 @@
         '<div class="fc-btns"><button class="btn" id="nope">↩ Still learning</button><button class="btn ghost" id="flip">Flip</button><button class="btn good" id="yes">I know it ✓</button></div></div>';
 
       $$('[data-m]', pane).forEach((b) => (b.onclick = () => { mode = b.dataset.m; start(); }));
-      $$('[data-side]', pane).forEach((b) => (b.onclick = () => { side = b.dataset.side; store.set('fcSide', side); draw(); }));
+      $('#sideSwitch', pane).onclick = () => {
+        side = side === 'def' ? 'word' : 'def'; store.set('fcSide', side);
+        toast(side === 'def' ? '📖 Meaning first: read it, then flip to see the word' : '🔤 Word first: flip to see the meaning');
+        draw();
+      };
       const fc = $('#fc', pane);
       const scratchEl = $('[data-scratch]', fc);
       if (side === 'def' && scratchEl) setTimeout(() => initScratch(scratchEl), 30);
@@ -534,6 +540,7 @@
         if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flip(); }
         if (e.key === 'ArrowRight') answer(true);
         if (e.key === 'ArrowLeft') answer(false);
+        if (e.key === 's' || e.key === 'S') $('#sideSwitch', pane).click();
       });
       // swipe
       let sx = 0, sy = 0, dx = 0, dragging = false, pid = null;
